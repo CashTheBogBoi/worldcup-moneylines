@@ -1,0 +1,189 @@
+# Algorithm v1 Current Spec
+
+This note describes what the app currently does after the MLB, Soccer, Intel, backtest, and
+**automated-data-pipeline** upgrades (v1.1, 2026-06-30). For the data sourcing + persistence
+infrastructure behind this, see [[Data Pipeline and Persistence]].
+
+## Scope
+
+The app is now a local sports betting research lab focused on:
+
+- Soccer / World Cup moneylines
+- World Cup futures
+- MLB moneylines
+- Local pick tracking
+- Backtesting prediction quality
+
+It does not place bets and does not guarantee outcomes.
+
+## Live odds inputs
+
+The app pulls odds from The Odds API when `.env` has `VITE_ODDS_API_KEY`.
+
+Configured keys:
+
+```text
+VITE_ODDS_SPORT_KEY=soccer_fifa_world_cup
+VITE_ODDS_MLB_SPORT_KEY=baseball_mlb
+VITE_ODDS_FUTURES_KEY=soccer_fifa_world_cup_winner
+VITE_ODDS_REGION=us
+```
+
+Markets:
+
+- Soccer matches: `h2h`
+- MLB games: `h2h`
+- Futures: `soccer_fifa_world_cup_winner`
+
+## Market probability
+
+For match markets, the app converts sportsbook American odds into raw implied probability, removes vig, and builds a market baseline.
+
+Current v1 improvement:
+
+- It does not rely only on one best line for market probability.
+- It de-vigs each book first.
+- It averages de-vigged probabilities across books.
+- It still uses the best available line for break-even/EV because line shopping matters.
+
+## Soccer model
+
+The Soccer model is an independent Dixon-Coles / Poisson-style model using editable Model Lab inputs:
+
+- `xgFor`
+- `xgAgainst`
+- `form`
+- `homeEdge`
+
+Outputs:
+
+- Home probability
+- Draw probability
+- Away probability
+
+**Results-based Elo (v1.1):** on top of the xG inputs, each team carries an Elo rating that
+starts neutral (1500) and auto-updates from `/scores` results (deduped by match id, persisted).
+It feeds a bounded ±20% tilt into the goal expectations, so soccer strength self-corrects from
+real outcomes without re-tuning xG/form by hand. It starts at zero effect (neutral) and only
+diverges as results accrue, so it never double-counts the xG inputs.
+
+Known weakness from backtest:
+
+- Draw probability is too aggressive.
+- See [[World Cup Backtest Miss Patterns]].
+
+## MLB model
+
+The MLB live-board model is a two-way logistic strength model, computed entirely in logit
+units and calibrated to baseball's compressed win-probability range (an elite team hosting the
+worst team tops out around 73% / -271, not the 95% a soccer-sized coefficient produced).
+
+**Now automated (v1.1) — no manual entry:**
+
+- **Team strength** is auto-derived from MLB Stats API standings: run differential per game
+  (RS/G and RA/G) plus win%, mapped onto the same `xgFor`/`xgAgainst`/`form` fields. This is
+  what actually turns the MLB model ON — before v1.1 no MLB team had a rating, so every MLB
+  game silently fell through to market-only and the starter work never even executed.
+- **Starting pitcher quality** is auto-derived: confirmed probable starters from the MLB Stats
+  API, matched by name to Baseball Savant expected stats (xERA). The away-minus-home xERA gap
+  (scaled, capped) shifts the win probability — pitching is the biggest single-game lever.
+
+A manual Model Lab rating still overrides the auto rating if entered.
+
+Inputs researched but not yet wired into the probability (still on the roadmap):
+
+- xwOBA / hard-hit / whiff / CSW beyond the starter xERA term
+- bullpen fatigue
+- after-loss trend prior
+- lineup confirmation
+- weather / park
+
+See [[MLB Research Important Info]], [[MLB Statcast Feature Dictionary]], and
+[[MLB After Loss Trend Prior]].
+
+## Blend (now adaptive, v1.1)
+
+The model's share of the blend is no longer a fixed 45%. It **flexes 25%–60% based on the
+model's measured calibration** (Brier score): well-calibrated → the model earns more say;
+near-coin-flip or worse → it's pulled back toward the market.
+
+```text
+model share = f(Brier)   # 0.18 Brier -> 60% model, 0.28 Brier -> 25% model
+```
+
+- Live signal = Brier of graded Model Lab picks.
+- Shrunk toward the historical backtest Brier (~0.235) by sample size, so a handful of results
+  can't swing it wildly but a real track record eventually rules.
+- Shown live on the Algorithm tab's "Adaptive weights" card.
+
+The model weight is *further* reduced per-event when:
+
+- Team ratings are missing (falls to market-only)
+- High-impact Intel is pending
+- A game has started
+- Odds are stale
+
+## Intel adjustment
+
+Team-specific Intel can now adjust model strength before the market blend.
+
+Rules:
+
+- If a note names a team, it can move that team's rating.
+- If a note is generic, it lowers confidence but does not punish both teams.
+- `High`, `Medium`, `Low` scale impact.
+- `Confirmed`, `Watch`, `Cleared` scale whether the note applies.
+
+See [[Injury and Lineup Intel]].
+
+## Candidate filtering
+
+The app has a minimum model-chance filter in the topbar.
+
+Default:
+
+```text
+33%
+```
+
+Purpose:
+
+- Hide tiny longshot noise.
+- Keep the board focused on picks with a realistic chance to hit.
+
+## Bankroll Watch
+
+Bankroll Watch:
+
+- Ranks Soccer and MLB together.
+- Prioritizes DraftKings when available.
+- Uses edge, EV proxy, model confidence, stale penalties, Intel penalties, and DraftKings bonus.
+- Uses capped quarter-Kelly logic.
+
+Hard cap:
+
+```text
+0.25% - 1% bankroll max label
+```
+
+## Futures
+
+Futures are handled separately.
+
+Current logic:
+
+- Convert futures price to implied probability.
+- Normalize the futures board (de-vig the whole field).
+- Compare book fair probability to Kalshi probability.
+
+**Kalshi is now LIVE (v1.1):** the comparison uses live Kalshi prediction-market probabilities
+pulled from Kalshi's public API each refresh, not the old hardcoded snapshot. Because Kalshi
+403s browser-origin requests, this goes through a Vite dev proxy that strips the Origin header
+(see [[Data Pipeline and Persistence]]). On any failure it falls back to the last saved live
+values, then the built-in snapshot. Example: France read 33.8% live vs 29.1% in the old snapshot.
+
+Why:
+
+- Futures boards have large vig.
+- Raw implied futures probability is not comparable to prediction-market probability unless normalized.
+

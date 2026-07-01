@@ -1,0 +1,21 @@
+{
+  "name": "worldcup-moneylines",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "backtest:mlb": "node scripts/backtest-mlb-statcast.mjs /Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
+    "backtest:worldcup": "node scripts/backtest-worldcup.mjs /Users/cashmcdearis/Downloads/WorldCupMatches.csv",
+    "import:future-baseline": "node scripts/import-future-match-baseline.mjs /Users/cashmcdearis/Downloads/future_match_probabilities_baseline.csv",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^8.1.2"
+  }
+}
