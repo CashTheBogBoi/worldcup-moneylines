@@ -54,8 +54,15 @@ localStorage is retained as a fast cache and the production fallback; the vault 
 
 - **Restart the dev server after any `vite.config.js` change** — Vite only reads config at
   startup. This applies to both the Kalshi proxy and the `/api/state` + `/api/stats` endpoints.
-- For durability across a full machine/container reset, `git commit` the two JSON files
-  periodically (a scheduled auto-commit could do this).
+- **Auto-commit to GitHub**: the Vite dev server pushes the vault + model data to GitHub on a
+  2-minute debounce after any state write (`scheduleAutoCommit` in `vite.config.js`). It runs
+  from the dev-server process because macOS blocks launchd/cron from `~/Documents` without Full
+  Disk Access. Scoped to vault data/notes (never `src/`), so mid-edit code is never pushed.
+  Watch the dev-server console for `[auto-commit] vault synced to GitHub`. Manual fallback:
+  `bash scripts/auto-commit.sh`.
+- Repo: **https://github.com/CashTheBogBoi/worldcup-moneylines** (public). Hosted demo:
+  **https://cashthebogboi.github.io/worldcup-moneylines/** — built by GitHub Actions WITHOUT the
+  API key, so it runs in sample/demo mode (the live key stays in local `.env`, gitignored).
 - Production (static Firebase hosting) has no dev endpoints: persistence falls back to
   localStorage and Kalshi falls back to the snapshot. Add serverless functions to close both.
 
