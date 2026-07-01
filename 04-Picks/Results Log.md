@@ -27,17 +27,25 @@ everything else is derived exactly as the app derives it.
 | Date | Pick | Match | Algorithm % | Odds | Close | Buy-in | Result | Edge | Return | CLV | Brier |
 |---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|
 | _example_ | France ML | France vs Sweden | 72.0% | -185 | -210 | $25.00 | Win | +7.1 pts | +$13.51 | +3.3 pts | 0.078 |
+| Jun 30 | Mexico ML | Mexico vs Ecuador | 44.4% | +125 | +136 | $0.00 | Win | -0.1 pts | +$0.00 | +2.1 pts | 0.309 |
+| Jun 30 | Pittsburgh Pirates ML | Pittsburgh Pirates vs Philadelphia Phillies | 44.3% | +203 | — | $19.95 | Loss | +11.3 pts | -$19.95 | — | 0.196 |
+
+Pulled straight from the app's Model Lab (`03-App/model-training-state.json` → `modelPicks`), which
+is the only durable source of graded picks. Two other `modelPicks` entries (`France vs Sweden` /
+`Mexico vs Ecuador` "seed example") are pre-loaded demo data from first app boot, not real tracked
+picks — excluded here the same way the ledger's own `_example_` row is excluded. Worth deleting
+those two from Model Lab so they stop padding the app's live Brier/CLV cards with fake history.
 
 ## Running tally
 
-- Settled: 0 (excluding the example row)
-- Win / Loss / Draw: 0 / 0 / 0
-- Win rate: —
-- Net P/L: —
-- ROI: —
-- Total staked: $0.00
-- Avg CLV: —
-- Avg Brier: —
+- Settled: 2 (excluding the example row)
+- Win / Loss / Draw: 1 / 1 / 0
+- Win rate: 50.0%
+- Net P/L: -$19.95
+- ROI: -100.0%
+- Total staked: $19.95
+- Avg CLV: +2.1 pts (1 graded pick has a close price)
+- Avg Brier: 0.253
 
 I recompute this block each time results are added, mirroring the Model Lab metric cards
 (Graded picks · Brier · CLV · Net profit/loss).
