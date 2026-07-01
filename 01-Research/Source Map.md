@@ -177,3 +177,30 @@ Active notes:
 - [[MLB Statcast Feature Dictionary]]
 - [[MLB Statcast Postseason Backtest]]
 - [[MLB Backtest Miss Patterns]]
+
+## Local MLB historical odds
+
+Use this as a historical market-calibration source, not a live odds source.
+
+Current file:
+
+- `/Users/cashmcdearis/Downloads/oddsData.csv.zip`
+
+Active note:
+
+- [[MLB Historical Odds Data 2012-2021]]
+
+Use case:
+
+- calibrate MLB moneyline probabilities,
+- estimate normal MLB vig,
+- study favorite buckets,
+- remind the algorithm that the market is already well calibrated.
+
+Limit:
+
+- no explicit opponent column,
+- no sportsbook name,
+- no open/close timestamp,
+- no injuries/lineups/pitchers,
+- requires reconstruction and score joins before ROI analysis.

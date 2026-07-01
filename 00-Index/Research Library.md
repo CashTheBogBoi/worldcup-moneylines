@@ -23,6 +23,7 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 ## MLB research
 
 - [[MLB Research]]
+- [[MLB Historical Odds Data 2012-2021]]
 - [[MLB Statcast Feature Dictionary]]
 - [[MLB After Loss Trend Prior]]
 - [[Injury and Lineup Intel]]

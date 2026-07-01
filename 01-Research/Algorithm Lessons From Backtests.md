@@ -85,6 +85,37 @@ Interpretation:
 
 See [[MLB Backtest Miss Patterns]].
 
+## MLB historical odds lesson
+
+Dataset:
+
+- `/Users/cashmcdearis/Downloads/oddsData.csv.zip`
+- 45,530 team odds rows
+- 22,738 reconstructed games
+- 20,531 games joined to final scores
+- 2012-03-28 through 2021-10-03
+
+Result:
+
+- Favorite win rate: 58.3%
+- Average favorite no-vig implied probability: 58.0%
+- Flat favorite ROI: -2.1%
+- Home-probability Brier score: 0.240
+
+Main lesson:
+
+- MLB moneyline markets are already very well calibrated.
+- A high hit chance is not the same thing as a profitable bet.
+- Heavy favorites still lost to vig in the flat-bet test.
+
+Interpretation:
+
+- Keep the market no-vig as a strong anchor for MLB.
+- Require real edge over break-even before a pick gets promoted.
+- Use pitcher, lineup, bullpen, weather, and CLV data to justify model disagreement.
+
+See [[MLB Historical Odds Data 2012-2021]].
+
 ## Practical rule
 
 The app should treat backtest failures as guardrails:
