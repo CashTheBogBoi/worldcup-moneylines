@@ -2,8 +2,35 @@ import { defineConfig } from "vite";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { exec } from "child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Auto-commit the vault + model data to GitHub, debounced, from the dev-server process. This
+// replaces a launchd/cron scheduler, which macOS blocks from touching ~/Documents without Full
+// Disk Access. The dev server already has file access (it writes these files), so committing
+// from here "just works" — and it fires exactly when your data changes. Scoped to vault
+// data/notes (never src/ code), so a mid-edit save can't push broken code.
+let commitTimer = null;
+let committing = false;
+function scheduleAutoCommit() {
+  if (commitTimer) clearTimeout(commitTimer);
+  commitTimer = setTimeout(runAutoCommit, 120000); // coalesce rapid saves into one push, 2 min after the last
+}
+function runAutoCommit() {
+  if (committing) {
+    scheduleAutoCommit(); // a push is in flight; retry after it settles
+    return;
+  }
+  committing = true;
+  const paths = "00-Index 01-Research 02-Markets 03-App 04-Picks";
+  const script = `cd "${__dirname}" && git add ${paths} && ( git diff --cached --quiet || ( git commit -q -m "Auto-commit vault + model data $(date '+%Y-%m-%d %H:%M')" && git push -q origin main ) )`;
+  exec(script, { shell: "/bin/bash" }, (err) => {
+    committing = false;
+    if (err) console.warn("[auto-commit] skipped:", err.message.split("\n")[0]);
+    else console.log("[auto-commit] vault synced to GitHub");
+  });
+}
 
 // Durable, git-backed persistence for all model-training state. The app keeps everything the
 // algorithm learns from (graded model picks, team ratings, intel notes, results-based Elo,
@@ -41,6 +68,7 @@ function fileEndpoint(mountPath, fileName) {
         try {
           const parsed = JSON.parse(body); // validate + pretty-print for clean git diffs
           fs.writeFileSync(file, JSON.stringify(parsed, null, 2));
+          scheduleAutoCommit(); // debounced push of the vault + model data to GitHub
           res.setHeader("Content-Type", "application/json");
           res.end('{"ok":true}');
         } catch {
