@@ -4,6 +4,12 @@ This note describes what the app currently does after the MLB, Soccer, Intel, ba
 **automated-data-pipeline**, and **backtest-calibration** upgrades (v1.2, 2026-07-01). For the data sourcing + persistence
 infrastructure behind this, see [[Data Pipeline and Persistence]].
 
+**v1.4 (2026-07-01):** every hand-set constant below that has a usable offline training signal
+(Dixon-Coles `rho`, the soccer draw soft cap, MLB's strength/home-logit/compression terms) is
+now fit via regularized gradient descent against the historical backtest datasets instead of
+guessed, with a live trust dial that keeps adjusting from graded Model Lab picks. The formulas
+themselves are unchanged — see [[ML Calibration Layer]] for the full methodology and results.
+
 ## Scope
 
 The app is now a local sports betting research lab focused on:

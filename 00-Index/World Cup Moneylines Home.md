@@ -13,6 +13,7 @@ Current bankroll workflow: prioritize DraftKings for the free `$200`, then fall 
 - [[Source Map]]
 - [[Source Reliability Tiers]]
 - [[Algorithm v1 Current Spec]]
+- [[ML Calibration Layer]]
 - [[Algorithm Lessons From Backtests]]
 - [[Backtest Data Inventory]]
 - [[External Source Research - 2026-06-30]]
@@ -80,7 +81,7 @@ http://127.0.0.1:5177/
 - [[MLB Statcast Feature Dictionary]]
 - [[Source Reliability Tiers]]
 
-## Automation status (v1.1, 2026-06-30)
+## Automation status (v1.4, 2026-07-01)
 
 The algorithm now feeds itself — see [[Data Pipeline and Persistence]] and [[Algorithm v1 Current Spec]]:
 
@@ -88,6 +89,7 @@ The algorithm now feeds itself — see [[Data Pipeline and Persistence]] and [[A
 - Kalshi futures probabilities are live (via a dev proxy that works around Kalshi's CORS block).
 - Soccer Elo self-corrects from results; the model/market blend weight adapts to measured Brier.
 - All model-training state and fetched stats persist to git-backed vault JSON files, so nothing is lost on a server/port reset.
+- **ML calibration layer (new):** the coefficients feeding the Dixon-Coles/logistic models (Soccer draw cap, Dixon-Coles rho, MLB strength/home/compression terms) are now fit via regularized gradient descent against the historical backtest datasets, with a live trust dial that keeps adjusting from graded Model Lab picks. See [[ML Calibration Layer]].
 
 ## Important
 

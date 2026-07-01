@@ -5,6 +5,7 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 ## Core app logic
 
 - [[Algorithm v1 Current Spec]]
+- [[ML Calibration Layer]]
 - [[Data Pipeline and Persistence]]
 - [[Algorithm Lessons From Backtests]]
 - [[Probability and Value Math]]
