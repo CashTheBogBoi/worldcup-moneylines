@@ -80,11 +80,27 @@ Small weight should be conservative:
 
 ## App status
 
-The MLB tab now displays this trend table.
+The MLB tab displays this trend table.
 
-Not yet automated:
+Automated in Algorithm v1.3:
 
-- previous-game result detection,
-- team-name mapping from odds feed to TeamRankings names,
-- direct probability adjustment.
+- previous-game result detection from The Odds API `/scores`,
+- team-name mapping from Odds API / MLB names to TeamRankings names,
+- direct probability adjustment inside `mlbModel()`,
+- persisted `mlbLastResults` in `03-App/stats-history.json` / local stats cache.
 
+Current implementation:
+
+```text
+afterLossLogit = clamp((teamAfterLossWinPct - 0.500) * 0.60, -0.08, +0.08)
+```
+
+For the home team, the logit is added. For the away team, the logit is subtracted from the
+home-team probability logit.
+
+Guardrail:
+
+- This is a small nudge only.
+- It does not apply unless the team lost its previous completed game.
+- It should not override starter quality, lineup news, bullpen state, or market no-vig.
+- The historical MLB odds study showed the market is already efficient, so the trend prior is context, not a pick by itself.

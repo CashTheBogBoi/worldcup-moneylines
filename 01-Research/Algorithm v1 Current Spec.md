@@ -93,11 +93,22 @@ worst team tops out around 73% / -271, not the 95% a soccer-sized coefficient pr
 
 A manual Model Lab rating still overrides the auto rating if entered.
 
+Additional MLB context now wired:
+
+- **After-loss trend prior (v1.3):** recent MLB scores from The Odds API are converted into each
+  team's last completed result. If a team lost its previous game and appears in the TeamRankings
+  after-loss table, the model applies a small capped logit nudge:
+
+```text
+afterLossLogit = clamp((teamAfterLossWinPct - 0.500) * 0.60, -0.08, +0.08)
+```
+
+This is intentionally smaller than pitcher quality and the market anchor because [[MLB Historical Odds Data 2012-2021]] showed MLB moneylines are already well calibrated.
+
 Inputs researched but not yet wired into the probability (still on the roadmap):
 
 - xwOBA / hard-hit / whiff / CSW beyond the starter xERA term
 - bullpen fatigue
-- after-loss trend prior
 - lineup confirmation
 - weather / park
 

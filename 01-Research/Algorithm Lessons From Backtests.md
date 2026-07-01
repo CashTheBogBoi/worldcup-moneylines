@@ -33,21 +33,22 @@ Dataset:
 
 Result:
 
-- 308/852 correct
-- 36.2% exact home/draw/away accuracy
-- 0.235 Brier score
+- 436/852 correct
+- 51.2% exact home/draw/away accuracy
+- 0.205 Brier score
 
 Main failure:
 
-- The model predicts draws far too often.
+- Before v1.2, the model predicted draws far too often.
+- After the draw guardrail, draw predictions dropped from 563 to 191, but draw picks are still the weakest outcome.
 
-Best behavior:
+Best behavior after v1.2:
 
-- Predicted home winners were strong: 154/212 correct, 72.6%.
+- Predicted home winners are still the best side: 316/465 correct, 68.0%.
 
 Worst behavior:
 
-- Predicted draws were weak: 135/563 correct, 24.0%.
+- Predicted draws remain weak: 54/191 correct, 28.3%.
 
 Interpretation:
 
@@ -69,13 +70,13 @@ Result:
 
 - 22/47 correct
 - 46.8% winner accuracy
-- 0.291 Brier score
+- 0.276 Brier score after v1.3 compression/after-loss prior
 
 Main failure:
 
 - Small postseason-only sample.
 - Away winners were hard to catch.
-- High-confidence spots were not reliable.
+- High-confidence spots were not reliable, and v1.3 compression improved calibration more than accuracy.
 
 Interpretation:
 

@@ -28,8 +28,9 @@ Method:
 2. Sort chronologically.
 3. Build rolling team goal/form ratings from prior matches only.
 4. Predict home/draw/away with a Poisson/Dixon-Coles style model.
-5. Compare predicted outcome against actual result.
-6. Save summary, confidence buckets, tournament summary, miss analysis, and recent rows.
+5. Apply the v1.2 draw guardrail: soft cap high draw probabilities and discount draws that barely lead the best side.
+6. Compare predicted outcome against actual result.
+7. Save summary, confidence buckets, tournament summary, miss analysis, and recent rows.
 
 Limit:
 
@@ -64,8 +65,9 @@ Method:
 3. Derive final game score.
 4. Build rolling team features from prior games only.
 5. Predict home/away winner.
-6. Compare prediction against actual winner.
-7. Save summary, miss analysis, matchup splits, confidence splits, and recent rows.
+6. Apply v1.3-style MLB compression and rolling after-loss prior.
+7. Compare prediction against actual winner.
+8. Save summary, miss analysis, matchup splits, confidence splits, and recent rows.
 
 Derived features:
 
@@ -111,6 +113,23 @@ The generated backtest findings now feed `computeEventModel()` through a calibra
 - MLB: high-confidence and away-favorite reads reduce model blend weight.
 
 This happens before the market/no-vig blend, so Value, Algorithm, Bankroll Watch, and Model Lab tracking all see the same corrected probability.
+
+## Algorithm v1.3 after-loss prior
+
+The MLB after-loss research now feeds the live model:
+
+- The Odds API `/scores` is fetched on live MLB refresh.
+- Completed MLB scores become `mlbLastResults`, keyed by normalized team name.
+- `mlbLastResults` is persisted with the other local stats.
+- `mlbModel()` applies a small capped logit nudge only when a team lost its previous completed game and has a TeamRankings after-loss win rate.
+
+Formula:
+
+```text
+afterLossLogit = clamp((teamAfterLossWinPct - 0.500) * 0.60, -0.08, +0.08)
+```
+
+This is deliberately conservative because the historical MLB odds dataset showed the market is already highly calibrated.
 
 ## Future baseline import
 

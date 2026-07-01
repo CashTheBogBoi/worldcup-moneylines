@@ -13,8 +13,10 @@ npm run backtest:mlb
 - Games evaluated: 47
 - Winners predicted correctly: 22
 - Accuracy: 46.8%
-- Average Brier score: 0.291
+- Average Brier score: 0.276
 - Date range: 2025-09-30 through 2025-11-01
+
+This is the v1.3-style rerun with MLB probability compression and rolling after-loss priors applied. It still cannot test market blend, EV, or ROI because the file has no historical moneylines.
 
 ## What the file supports
 
@@ -32,7 +34,12 @@ This is pitch-by-pitch Statcast data, so it can feed MLB model features:
 - Predicted home teams: 16/31 correct, 51.6% accuracy
 - Predicted away teams: 6/16 correct, 37.5% accuracy
 - Actual away winners were the pain point: only 6/21 correct
-- 70%+ confidence spots were not reliable in this small postseason-only sample: 8/17 correct
+- 70%+ confidence spots were less common after compression: 5/10 correct
+
+The main improvement was calibration, not raw winner count:
+
+- Old Brier: 0.291
+- New Brier: 0.276
 
 ## Interpretation
 

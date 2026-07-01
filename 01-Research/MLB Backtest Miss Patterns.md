@@ -13,7 +13,9 @@ It found some useful structure, but the sample is too small and the model lacks 
 - Games evaluated: 47
 - Correct: 22
 - Accuracy: 46.8%
-- Average Brier: 0.291
+- Average Brier: 0.276
+
+The v1.3 rerun did not improve winner count, but it did improve calibration by compressing overconfident probabilities and adding the rolling after-loss prior.
 
 ## Prediction side
 
@@ -33,8 +35,8 @@ It found some useful structure, but the sample is too small and the model lacks 
 
 | Confidence bucket | Correct | Total | Accuracy |
 |---|---:|---:|---:|
-| 70%+ | 8 | 17 | 47.1% |
-| 60-70% | 4 | 7 | 57.1% |
+| 70%+ | 5 | 10 | 50.0% |
+| 60-70% | 7 | 14 | 50.0% |
 | 55-60% | 1 | 5 | 20.0% |
 | Under 55% | 9 | 18 | 50.0% |
 
@@ -77,6 +79,5 @@ Likely causes:
 - Add explicit starting pitcher adjustment.
 - Add bullpen workload over the previous 1-3 games.
 - Add lineup confirmation.
-- Add previous-game result and [[MLB After Loss Trend Prior]].
+- Keep the previous-game result / [[MLB After Loss Trend Prior]] as a small context nudge, not a major edge.
 - Blend Statcast strength with market no-vig instead of using Statcast alone.
-

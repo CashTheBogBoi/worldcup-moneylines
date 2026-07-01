@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-01T01:21:33.650Z",
+  "updatedAt": "2026-07-01T01:32:18.303Z",
   "latest": {
     "mlbTeamRatings": {
       "rays": {
@@ -32,11 +32,11 @@
       },
       "orioles": {
         "team": "Orioles",
-        "xgFor": 4.5813953488372094,
-        "xgAgainst": 4.953488372093023,
-        "form": 4.53,
+        "xgFor": 4.563218390804598,
+        "xgAgainst": 5,
+        "form": 4.48,
         "homeEdge": 0,
-        "news": "Auto: 39-47, 4.58 RS/G, 4.95 RA/G (run diff -32).",
+        "news": "Auto: 39-48, 4.56 RS/G, 5.00 RA/G (run diff -38).",
         "auto": true
       },
       "red sox": {
@@ -50,11 +50,11 @@
       },
       "white sox": {
         "team": "White Sox",
-        "xgFor": 4.819277108433735,
-        "xgAgainst": 4.530120481927711,
-        "form": 5.300000000000001,
+        "xgFor": 4.869047619047619,
+        "xgAgainst": 4.511904761904762,
+        "form": 5.36,
         "homeEdge": 0,
-        "news": "Auto: 44-39, 4.82 RS/G, 4.53 RA/G (run diff +24).",
+        "news": "Auto: 45-39, 4.87 RS/G, 4.51 RA/G (run diff +30).",
         "auto": true
       },
       "guardians": {
@@ -496,6 +496,38 @@
         "xera": 4.24
       }
     },
+    "mlbLastResults": {
+      "los angeles angels": "loss",
+      "athletics": "loss",
+      "pittsburgh pirates": "loss",
+      "cincinnati reds": "loss",
+      "toronto blue jays": "win",
+      "texas rangers": "win",
+      "baltimore orioles": "loss",
+      "washington nationals": "loss",
+      "tampa bay rays": "win",
+      "arizona diamondbacks": "win",
+      "cleveland guardians": "loss",
+      "seattle mariners": "win",
+      "detroit tigers": "win",
+      "houston astros": "loss",
+      "new york mets": "loss",
+      "philadelphia phillies": "win",
+      "milwaukee brewers": "win",
+      "chicago cubs": "win",
+      "chicago white sox": "win",
+      "kansas city royals": "win",
+      "minnesota twins": "win",
+      "colorado rockies": "loss",
+      "st. louis cardinals": "win",
+      "miami marlins": "win",
+      "san francisco giants": "loss",
+      "atlanta braves": "loss",
+      "san diego padres": "loss",
+      "los angeles dodgers": "win",
+      "boston red sox": "win",
+      "new york yankees": "loss"
+    },
     "kalshi": {
       "dr congo": 0.01,
       "bosnia and herzegovina": 0.01,
@@ -507,27 +539,28 @@
       "australia": 0.0015,
       "senegal": 0.0035,
       "norway": 0.0205,
-      "mexico": 0.0305,
+      "mexico": 0.03,
       "morocco": 0.0315,
       "ecuador": 0.0045000000000000005,
       "colombia": 0.0275,
-      "switzerland": 0.0075,
+      "switzerland": 0.006500000000000001,
       "canada": 0.0025,
       "austria": 0.0015,
       "usa": 0.0385,
       "portugal": 0.0635,
       "croatia": 0.0025,
       "england": 0.0905,
-      "brazil": 0.064,
+      "brazil": 0.0645,
       "belgium": 0.0075,
       "argentina": 0.1925,
-      "france": 0.339,
+      "france": 0.333,
       "spain": 0.0975
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-01T01:21:33.650Z",
-      "mlbStarters": "2026-07-01T01:21:33.650Z",
-      "kalshi": "2026-07-01T01:21:33.650Z"
+      "mlbTeamRatings": "2026-07-01T01:32:18.303Z",
+      "mlbStarters": "2026-07-01T01:32:18.303Z",
+      "kalshi": "2026-07-01T01:32:18.303Z",
+      "mlbLastResults": "2026-07-01T01:32:18.303Z"
     }
   },
   "history": [
@@ -563,11 +596,11 @@
         },
         "orioles": {
           "team": "Orioles",
-          "xgFor": 4.5813953488372094,
-          "xgAgainst": 4.953488372093023,
-          "form": 4.53,
+          "xgFor": 4.563218390804598,
+          "xgAgainst": 5,
+          "form": 4.48,
           "homeEdge": 0,
-          "news": "Auto: 39-47, 4.58 RS/G, 4.95 RA/G (run diff -32).",
+          "news": "Auto: 39-48, 4.56 RS/G, 5.00 RA/G (run diff -38).",
           "auto": true
         },
         "red sox": {
@@ -581,11 +614,11 @@
         },
         "white sox": {
           "team": "White Sox",
-          "xgFor": 4.819277108433735,
-          "xgAgainst": 4.530120481927711,
-          "form": 5.300000000000001,
+          "xgFor": 4.869047619047619,
+          "xgAgainst": 4.511904761904762,
+          "form": 5.36,
           "homeEdge": 0,
-          "news": "Auto: 44-39, 4.82 RS/G, 4.53 RA/G (run diff +24).",
+          "news": "Auto: 45-39, 4.87 RS/G, 4.51 RA/G (run diff +30).",
           "auto": true
         },
         "guardians": {
@@ -816,21 +849,21 @@
         "australia": 0.0015,
         "senegal": 0.0035,
         "norway": 0.0205,
-        "mexico": 0.0305,
+        "mexico": 0.03,
         "morocco": 0.0315,
         "ecuador": 0.0045000000000000005,
         "colombia": 0.0275,
-        "switzerland": 0.0075,
+        "switzerland": 0.006500000000000001,
         "canada": 0.0025,
         "austria": 0.0015,
         "usa": 0.0385,
         "portugal": 0.0635,
         "croatia": 0.0025,
         "england": 0.0905,
-        "brazil": 0.064,
+        "brazil": 0.0645,
         "belgium": 0.0075,
         "argentina": 0.1925,
-        "france": 0.339,
+        "france": 0.333,
         "spain": 0.0975
       }
     }

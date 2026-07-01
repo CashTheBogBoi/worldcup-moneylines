@@ -11,18 +11,20 @@ npm run backtest:worldcup
 ## Result
 
 - Matches evaluated: 852
-- Exact home/draw/away predictions correct: 308
-- Accuracy: 36.2%
-- Average Brier score: 0.235
+- Exact home/draw/away predictions correct: 436
+- Accuracy: 51.2%
+- Average Brier score: 0.205
 - Date range: 1930-07-13 through 2014-07-13
+
+This is the v1.2-style rerun with the Soccer draw guardrail applied. It still cannot test market blend, EV, or ROI because the CSV has scores but no historical odds.
 
 ## Confidence buckets
 
-- 70%+: 55/91 correct, 60.4% accuracy, 0.195 Brier
-- 60-70%: 87/248 correct, 35.1% accuracy, 0.261 Brier
-- 50-60%: 87/270 correct, 32.2% accuracy, 0.233 Brier
-- 40-50%: 61/191 correct, 31.9% accuracy, 0.226 Brier
-- Under 40%: 18/52 correct, 34.6% accuracy, 0.222 Brier
+- 70%+: 44/57 correct, 77.2% accuracy, 0.130 Brier
+- 60-70%: 34/55 correct, 61.8% accuracy, 0.184 Brier
+- 50-60%: 56/97 correct, 57.7% accuracy, 0.189 Brier
+- 40-50%: 238/513 correct, 46.4% accuracy, 0.215 Brier
+- Under 40%: 64/130 correct, 49.2% accuracy, 0.218 Brier
 
 ## Interpretation
 
@@ -32,32 +34,13 @@ The useful finding is that the model behaves best when it is very confident. Low
 
 ## Miss analysis
 
-The largest failure mode is draw overprediction.
+The draw guardrail helped a lot, but draws remain the most fragile outcome.
 
-- Predicted Draw: 135/563 correct, 24.0% accuracy
-- Predicted Home: 154/212 correct, 72.6% accuracy
-- Predicted Away: 19/77 correct, 24.7% accuracy
+- Predicted Home: 316/465 correct, 68.0% accuracy
+- Predicted Draw: 54/191 correct, 28.3% accuracy
+- Predicted Away: 66/196 correct, 33.7% accuracy
 
-The biggest confusion patterns:
-
-- Draw predicted / Home actual: 291 misses
-- Draw predicted / Away actual: 137 misses
-- Away predicted / Home actual: 43 misses
-- Home predicted / Draw actual: 40 misses
-
-By scoreline:
-
-- One-goal games: 65/334 correct, 19.5% accuracy
-- Two-goal games: 45/172 correct, 26.2% accuracy
-- Blowouts: 63/156 correct, 40.4% accuracy
-- Draws: 135/190 correct, 71.1% accuracy
-
-By era:
-
-- 2010s were worst: 38/144 correct, 26.4% accuracy
-- 1930s-1940s were best: 38/53 correct, 71.7% accuracy
-
-Key takeaway: the model is too attracted to the draw outcome and not decisive enough when one side is only modestly stronger. For betting, this means the current Soccer model should be more trusted for clear favorite/underdog reads than for tight 90-minute moneylines.
+Key takeaway: the draw cap fixed the biggest overprediction issue, but Soccer draw picks still need extra confirmation from market price, lineup news, and to-advance context.
 
 ## Next improvement
 
@@ -69,9 +52,8 @@ Add historical odds to calculate:
 - favorite vs underdog performance
 - whether the 33% probability floor helps or hurts
 
-Algorithm fixes to test:
+Algorithm fixes still worth testing:
 
-- Reduce Dixon-Coles draw lift or make it conditional on low-scoring, evenly matched teams.
-- Add a favorite-strength threshold that suppresses draw picks when one team has a clear form/xG edge.
+- Add historical odds so market blend and edge can be tested.
 - Separate knockout-stage regulation draws from match winners/to-advance markets.
 - Add Elo/FIFA-ranking priors so elite teams are not treated as ordinary teams after limited tournament sample data.
