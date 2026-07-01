@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { futureMatchBaseline } from "./futureMatchBaselineData.js";
 import { mlbBacktest } from "./mlbBacktestData.js";
 import { worldCupBacktest } from "./worldCupBacktestData.js";
+import { mlCalibration } from "./mlCalibration.js";
 import "./styles.css";
 
 const SPORT_KEY = import.meta.env.VITE_ODDS_SPORT_KEY || "soccer_fifa_world_cup";
@@ -78,29 +79,63 @@ const algorithmWeights = {
 // driven by the xG-for / xG-against inputs already stored on each team (Model Lab.md).
 const LEAGUE_AVG_GOALS = 1.35;
 const MAX_GOALS = 8;
-const DIXON_COLES_RHO = -0.05;   // mild low-score correction that lifts 0-0/1-1 (draw) mass
 const MIN_XG = 0.2;              // floor so a blank/zero xG input cannot zero out a lambda
 const KELLY_FRACTION = 0.25;     // quarter-Kelly — conservative, matches the vault's tone
 const MAX_STAKE_FRACTION = 0.01; // Bankroll and Risk Rules.md: "No pick gets a recommendation above 1%"
 const STALE_MINUTES = 90;        // a best line older than this (vs now) is treated as stale data
 
-// MLB model calibration (all in logit units — see mlbModel). Tuned so team-strength gaps and
-// starter xERA gaps land in MLB's realistic, compressed win-probability range rather than the
-// soccer model's wider spread. Data: MLB Stats API standings (team run diff) + Baseball Savant
-// xERA (MLB Research Important Info.md — "xStats"), neither needing an API key.
-const MLB_HOME_LOGIT = 0.16;        // logistic(0.16) ≈ 54% home baseline
-const MLB_STRENGTH_K = 0.27;        // run-diff-based strength gap (~±2) -> compressed win% range
+// xERA and the market-draw anchor have no live-comparable offline training signal (see
+// scripts/train-ml-calibration.mjs's notFitted notes), so they stay hand-set.
 const XERA_LOGIT_PER_RUN = 0.35;    // one run of starter xERA edge, in logit units
 const MAX_XERA_LOGIT = 0.8;         // cap on the single-matchup starter swing
-const SOCCER_DRAW_SOFT_CAP = 0.34;  // World Cup backtest: draw predictions were the biggest miss pattern
 const SOCCER_DRAW_ANCHOR_WEIGHT = 0.25;
-const MLB_BACKTEST_COMPRESSION = 0.78; // 2025 postseason backtest was overconfident, especially away/high-conf picks
-const MLB_BACKTEST_CAP = 0.82;
-// MLB After Loss Trend Prior.md: a small bounce-back nudge, applied ONLY when a team lost its
-// last game, measured against a 0.50 league-average after-loss baseline. Scale kept small so it
-// is "never stronger than starting pitcher/lineup/bullpen" (0.637 after-loss -> ~+2% win prob).
-const AFTERLOSS_LOGIT_SCALE = 0.6;
 const AFTERLOSS_LEAGUE_AVG = 0.5;
+
+// === ML calibration layer (see [[ML Calibration Layer]], scripts/train-ml-calibration.mjs) ===
+// Everything below used to be a hand-guessed constant (DIXON_COLES_RHO, MLB_STRENGTH_K, etc.).
+// scripts/train-ml-calibration.mjs fits them via regularized gradient descent against the same
+// historical datasets the Backtest tab already uses (World Cup 852 matches, MLB 2025 postseason
+// Statcast), with a chronological train/holdout split so the reported improvement is on matches
+// the fit never saw. The Poisson/logistic MATH is unchanged — only these coefficients are
+// data-driven now instead of guessed. mlCalibration.<sport>.priors are the original hand-set
+// values (kept as the regression's L2 anchor AND as the live fallback); .fitted are the learned
+// values. calibratedValue() blends between them by mlTrust, which starts at 1 (fully trust the
+// offline fit) and only pulls back toward the old hand-set priors if live graded Model Lab picks
+// show the fitted coefficients actually calibrating worse than their own offline holdout — see
+// computeMlCalibrationTrust().
+let mlTrust = { soccer: 1, mlb: 1 };
+
+function calibratedValue(sport, key) {
+  const prior = mlCalibration[sport].priors[key];
+  const fitted = mlCalibration[sport].fitted[key];
+  const trust = clamp(mlTrust[sport] ?? 1, 0, 1);
+  return prior + trust * (fitted - prior);
+}
+
+// Live online-learning nudge on top of the offline fit. Shrinks the live Brier of a sport's
+// graded Model Lab picks toward that sport's offline holdout Brier by a pseudo-count of 10 (the
+// same shrink-toward-prior idiom computeAdaptiveModelWeight already uses), then maps "live
+// calibration is worse than the offline holdout promised" to a lower trust — same spirit as
+// the adaptive blend weight, but trusting the ML fit itself rather than the market/model split.
+function computeMlCalibrationTrust(modelPicks, sport, offlineHoldoutBrier) {
+  const graded = (modelPicks || []).filter(
+    (pick) => pick.sport === sport && (pick.result === "win" || pick.result === "loss" || pick.result === "draw") && Number.isFinite(Number(pick.probability))
+  );
+  if (!graded.length || offlineHoldoutBrier == null) return 1;
+  const liveBrier = graded.reduce((sum, pick) => {
+    const actual = pick.result === "win" ? 1 : 0;
+    return sum + (Number(pick.probability) - actual) ** 2;
+  }, 0) / graded.length;
+  const n = graded.length;
+  const shrunkBrier = (liveBrier * n + offlineHoldoutBrier * 10) / (n + 10);
+  // A Brier gap of +0.05 above the offline holdout halves trust; capped so a handful of live
+  // results can dent trust but can't zero it out outright.
+  return clamp(1 - Math.max(0, shrunkBrier - offlineHoldoutBrier) * 10, 0.4, 1);
+}
+
+function setMlCalibrationTrust(trust) {
+  mlTrust = trust || { soccer: 1, mlb: 1 };
+}
 const INTEL_STATUS_MULTIPLIER = {
   Watch: 0.65,
   Confirmed: 1,
@@ -460,24 +495,6 @@ const seedIntelNotes = [
     status: "Watch",
     sourceUrl: "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
     note: "Verify star availability and starting XI before trusting any Soccer moneyline."
-  }
-];
-
-const todayNotes = [
-  {
-    match: "Ivory Coast vs Norway",
-    time: "1 p.m. ET",
-    note: "Norway showed as the cleaner favorite-side profile, but this match is live/started. Re-check score and live price before recording a pick."
-  },
-  {
-    match: "France vs Sweden",
-    time: "5 p.m. ET",
-    note: "France is strong but expensive straight-up. Sweden is more interesting through props, handicap, or long-shot notes than raw moneyline."
-  },
-  {
-    match: "Mexico vs Ecuador",
-    time: "9 p.m. ET",
-    note: "Most interesting moneyline research spot. Mexico has venue edge; Ecuador has upset/transition profile. Compare to-advance and 90-minute prices."
   }
 ];
 
@@ -851,9 +868,13 @@ function soccerModel(event, ratingHome, ratingAway, names) {
   const defAway = Math.max(num(ratingAway.xgAgainst), MIN_XG);
 
   // lambda = leagueAvg * (attack/avg) * (oppDefense/avg) -> attack * oppDefense / leagueAvg.
-  const venueBoost = 1 + clamp(num(ratingHome.homeEdge), 0, 0.6); // Model Lab.md venue/home edge
-  const formHome = 1 + (num(ratingHome.form, 5) - 6) / 40;        // gentle recent-form tilt
-  const formAway = 1 + (num(ratingAway.form, 5) - 6) / 40;
+  // baseHomeBoost is ML-fitted from 852 historical matches (a generic home-fixture edge,
+  // independent of any manually-entered homeEdge); Model Lab's homeEdge stays additive on top
+  // for actual host-nation advantage.
+  const venueBoost = 1 + calibratedValue("soccer", "baseHomeBoost") + clamp(num(ratingHome.homeEdge), 0, 0.6);
+  const formTiltScale = calibratedValue("soccer", "formTiltScale"); // gentle recent-form tilt, ML-fitted
+  const formHome = 1 + (num(ratingHome.form, 5) - 6) / formTiltScale;
+  const formAway = 1 + (num(ratingAway.form, 5) - 6) / formTiltScale;
   let lambdaHome = ((attHome * defAway) / LEAGUE_AVG_GOALS) * venueBoost * formHome;
   let lambdaAway = (attAway * defHome) / LEAGUE_AVG_GOALS * formAway;
 
@@ -866,12 +887,13 @@ function soccerModel(event, ratingHome, ratingAway, names) {
   lambdaHome *= 1 + eloTilt;
   lambdaAway *= 1 - eloTilt;
 
+  const rho = calibratedValue("soccer", "rho");
   let pHome = 0;
   let pDraw = 0;
   let pAway = 0;
   for (let i = 0; i <= MAX_GOALS; i += 1) {
     for (let j = 0; j <= MAX_GOALS; j += 1) {
-      const cell = dixonColesTau(i, j, lambdaHome, lambdaAway, DIXON_COLES_RHO) * poisson(i, lambdaHome) * poisson(j, lambdaAway);
+      const cell = dixonColesTau(i, j, lambdaHome, lambdaAway, rho) * poisson(i, lambdaHome) * poisson(j, lambdaAway);
       if (i > j) pHome += cell;
       else if (i === j) pDraw += cell;
       else pAway += cell;
@@ -1080,7 +1102,7 @@ function afterLossLogitFor(teamName) {
   if (mlbLastResultRegistry[normalizeTeamName(teamName)] !== "loss") return 0;
   const winPct = afterLossWinPctFor(teamName);
   if (winPct == null) return 0;
-  return clamp((winPct - AFTERLOSS_LEAGUE_AVG) * AFTERLOSS_LOGIT_SCALE, -0.08, 0.08);
+  return clamp((winPct - AFTERLOSS_LEAGUE_AVG) * calibratedValue("mlb", "afterLossScale"), -0.08, 0.08);
 }
 
 function afterLossNoteText(event) {
@@ -1138,8 +1160,8 @@ function mlbModel(event, ratingHome, ratingAway, starters = mlbStarterRegistry) 
   // teamStrengthScore() here is run-diff-per-game-based (see fetchMlbTeamRatings), which spans
   // roughly ±2, so STRENGTH_K is deliberately small — a soccer-sized K would produce absurd
   // -1900 favorites.
-  let logit = MLB_STRENGTH_K * (teamStrengthScore(ratingHome) - teamStrengthScore(ratingAway));
-  logit += MLB_HOME_LOGIT + num(ratingHome.homeEdge); // ~54% home baseline + any manual edge
+  let logit = calibratedValue("mlb", "strengthK") * (teamStrengthScore(ratingHome) - teamStrengthScore(ratingAway));
+  logit += calibratedValue("mlb", "homeLogit") + num(ratingHome.homeEdge); // ~54% home baseline + any manual edge
 
   const { home: homeStarter, away: awayStarter } = getStarterInfo(event, starters);
   if (homeStarter?.xera != null && awayStarter?.xera != null) {
@@ -1212,8 +1234,9 @@ function calibrateModelOutcomes({ sport, names, modelOutcomes, market }) {
       }, names);
     }
 
-    if ((next.Draw ?? 0) > SOCCER_DRAW_SOFT_CAP) {
-      next = redistributeDrawHaircut(next, names, SOCCER_DRAW_SOFT_CAP + ((next.Draw ?? 0) - SOCCER_DRAW_SOFT_CAP) * 0.35);
+    const drawSoftCap = calibratedValue("soccer", "drawSoftCap");
+    if ((next.Draw ?? 0) > drawSoftCap) {
+      next = redistributeDrawHaircut(next, names, drawSoftCap + ((next.Draw ?? 0) - drawSoftCap) * 0.35);
       notes.push("World Cup backtest draw cap applied.");
     }
 
@@ -1235,7 +1258,9 @@ function calibrateModelOutcomes({ sport, names, modelOutcomes, market }) {
     const home = names[0];
     const away = names[1];
     const rawHome = next[home] ?? 0.5;
-    const compressedHome = clamp(0.5 + (rawHome - 0.5) * MLB_BACKTEST_COMPRESSION, 1 - MLB_BACKTEST_CAP, MLB_BACKTEST_CAP);
+    const backtestCompression = calibratedValue("mlb", "backtestCompression");
+    const backtestCap = calibratedValue("mlb", "backtestCap");
+    const compressedHome = clamp(0.5 + (rawHome - 0.5) * backtestCompression, 1 - backtestCap, backtestCap);
     next = normalizeOutcomeMap({ [home]: compressedHome, [away]: 1 - compressedHome }, names);
     notes.push("MLB backtest compression applied.");
 
@@ -1809,10 +1834,17 @@ function valueRowsForPreferredBook(events, sport = "Soccer", ratings = ratingReg
   }).filter(passesMinProbability).sort((a, b) => (b.ev ?? -Infinity) - (a.ev ?? -Infinity));
 }
 
+// User request: Best Plays should only surface picks our own model actually has an opinion
+// on — not matchups that fell through to a plain market echo because no team rating/research
+// prior was mapped yet (computeEventModel's "Odds API no-vig only" fallback). Excluding that
+// source string keeps this tab strictly model-driven; Value/Algorithm still show every row,
+// market-only included, for line-shopping.
+const MARKET_ONLY_SOURCE = "Odds API no-vig only";
+
 function bankrollRowsForEvents(events, sport = "Soccer", preferredOnly = false) {
   const sourceRows = preferredOnly ? valueRowsForPreferredBook(events, sport) : valueRowsForEvents(events, sport);
   return sourceRows
-    .filter((row) => row.price != null && row.modelProbability != null)
+    .filter((row) => row.price != null && row.modelProbability != null && row.modelSource !== MARKET_ONLY_SOURCE)
     .map((row) => {
       // Stake comes from quarter-Kelly on the model edge, capped at 1% (Bankroll and Risk
       // Rules.md). The label strings are unchanged so the Bankroll Watch UI still reads the
@@ -2133,7 +2165,7 @@ function createSnapshot(events, source) {
 }
 
 function App() {
-  const [activeTab, setActiveTab] = useState("matches");
+  const [activeTab, setActiveTab] = useState("markets");
   const [events, setEvents] = useState(sampleEvents);
   const [mlbEvents, setMlbEvents] = useState(sampleMlbEvents);
   const [futures, setFutures] = useState(sampleFutures);
@@ -2453,6 +2485,10 @@ function App() {
   setLiveKalshiProbabilities(stats.latest.kalshi);
   const adaptiveWeight = computeAdaptiveModelWeight(modelPicks, worldCupBacktest);
   setAdaptiveModelWeight(adaptiveWeight); // model's blend share flexes with measured calibration
+  setMlCalibrationTrust({
+    soccer: computeMlCalibrationTrust(modelPicks, "Soccer", mlCalibration.soccer.after.holdout.avgBrier),
+    mlb: computeMlCalibrationTrust(modelPicks, "MLB", mlCalibration.mlb.after.holdout.avgBrier)
+  }); // ML-fitted coefficients pull back toward the old hand-set priors if live results disagree
 
   return (
     <main className="app-shell">
@@ -2511,18 +2547,13 @@ function App() {
 
       <nav className="tabs" aria-label="Sports betting odds sections">
         {[
-          ["matches", "Soccer"],
-          ["mlb", "MLB"],
-          ["futures", "Futures"],
+          ["markets", "Markets"],
           ["value", "Value"],
-          ["algorithm", "Algorithm"],
-          ["backtest", "Backtest"],
-          ["intel", "Intel"],
+          ["bankroll", "Best Plays"],
           ["model", "Model Lab"],
-          ["bankroll", "Bankroll Watch"],
-          ["history", "History"],
+          ["intel", "Intel"],
           ["picks", "Picks"],
-          ["research", "Research"]
+          ["history", "History"]
         ].map(([key, label]) => (
           <button className={activeTab === key ? "active" : ""} onClick={() => setActiveTab(key)} key={key}>
             {label}
@@ -2530,8 +2561,8 @@ function App() {
         ))}
       </nav>
 
-      {activeTab === "matches" ? (
-        <MatchesTab
+      {activeTab === "markets" ? (
+        <MarketsTab
           activeBook={activeBook}
           books={books}
           error={error}
@@ -2541,14 +2572,27 @@ function App() {
           quota={quota}
           setActiveBook={setActiveBook}
           setQuery={setQuery}
+          mlbEvents={mlbEvents}
+          mlbSource={mlbSource}
+          mlbStarterSource={mlbStarterSource}
+          mlbRatingsSource={mlbRatingsSource}
+          futures={futures}
+          futuresSource={futuresSource}
+          kalshiSource={kalshiSource}
         />
       ) : null}
 
-      {activeTab === "futures" ? <FuturesTab futures={futures} futuresSource={futuresSource} kalshiSource={kalshiSource} /> : null}
-      {activeTab === "mlb" ? <MlbTab events={mlbEvents} source={mlbSource} starterSource={mlbStarterSource} ratingsSource={mlbRatingsSource} /> : null}
-      {activeTab === "value" ? <ValueTab events={events} mlbEvents={mlbEvents} onTrack={trackPick} trackedKeys={trackedKeys} minProbability={minProbability} /> : null}
-      {activeTab === "algorithm" ? <AlgorithmTab events={events} mlbEvents={mlbEvents} futures={futures} minProbability={minProbability} modelWeight={adaptiveWeight} /> : null}
-      {activeTab === "backtest" ? <BacktestTab data={worldCupBacktest} mlbData={mlbBacktest} /> : null}
+      {activeTab === "value" ? (
+        <ValueTab
+          events={events}
+          mlbEvents={mlbEvents}
+          futures={futures}
+          onTrack={trackPick}
+          trackedKeys={trackedKeys}
+          minProbability={minProbability}
+          modelWeight={adaptiveWeight}
+        />
+      ) : null}
       {activeTab === "intel" ? <IntelTab intelNotes={intelNotes} setIntelNotes={setIntelNotes} /> : null}
       {activeTab === "model" ? (
         <ModelLabTab
@@ -2558,6 +2602,8 @@ function App() {
           setModelPicks={setModelPicks}
           teamRatings={teamRatings}
           setTeamRatings={setTeamRatings}
+          backtestData={worldCupBacktest}
+          mlbBacktestData={mlbBacktest}
         />
       ) : null}
       {activeTab === "bankroll" ? <BankrollTab events={events} mlbEvents={mlbEvents} onTrack={trackPick} trackedKeys={trackedKeys} minProbability={minProbability} /> : null}
@@ -2571,8 +2617,46 @@ function App() {
           setPicks={setPicks}
         />
       ) : null}
-      {activeTab === "research" ? <ResearchBoard /> : null}
     </main>
+  );
+}
+
+// Merges the old Soccer/MLB/Futures top-level tabs behind one sport switcher — three raw
+// odds boards that never needed three separate nav clicks. Each sub-view is the same
+// component as before (unchanged), just chosen by local state instead of the app's activeTab.
+function MarketsTab({
+  activeBook, books, error, events, lastRefresh, query, quota, setActiveBook, setQuery,
+  mlbEvents, mlbSource, mlbStarterSource, mlbRatingsSource,
+  futures, futuresSource, kalshiSource
+}) {
+  const [sport, setSport] = useState("soccer");
+  return (
+    <section className="tab-stack">
+      <nav className="subtabs" aria-label="Markets sport switcher">
+        {[["soccer", "Soccer"], ["mlb", "MLB"], ["futures", "Futures"]].map(([key, label]) => (
+          <button className={sport === key ? "active" : ""} onClick={() => setSport(key)} key={key}>
+            {label}
+          </button>
+        ))}
+      </nav>
+      {sport === "soccer" ? (
+        <MatchesTab
+          activeBook={activeBook}
+          books={books}
+          error={error}
+          events={events}
+          lastRefresh={lastRefresh}
+          query={query}
+          quota={quota}
+          setActiveBook={setActiveBook}
+          setQuery={setQuery}
+        />
+      ) : null}
+      {sport === "mlb" ? (
+        <MlbTab events={mlbEvents} source={mlbSource} starterSource={mlbStarterSource} ratingsSource={mlbRatingsSource} />
+      ) : null}
+      {sport === "futures" ? <FuturesTab futures={futures} futuresSource={futuresSource} kalshiSource={kalshiSource} /> : null}
+    </section>
   );
 }
 
@@ -2711,29 +2795,58 @@ function FuturesTab({ futures, futuresSource, kalshiSource = "snapshot" }) {
   );
 }
 
-function ValueTab({ events, mlbEvents, onTrack, trackedKeys, minProbability = DEFAULT_MIN_PROBABILITY }) {
+// Merges the old Value + Algorithm tabs — they rendered the same computeEventModel() rows,
+// just Value as a plain edge table and Algorithm as the same rows plus a market/research/
+// algorithm breakdown, the explanation cards, and the futures-vs-Kalshi table. One tab now
+// covers line-shopping and "why does the model think this" in the same table.
+function ValueTab({ events, mlbEvents, futures, onTrack, trackedKeys, minProbability = DEFAULT_MIN_PROBABILITY, modelWeight = algorithmWeights.researchPrior }) {
   const rows = [
     ...valueRowsForEvents(events, "Soccer"),
     ...valueRowsForEvents(mlbEvents, "MLB")
   ].sort((a, b) => (b.ev ?? -Infinity) - (a.ev ?? -Infinity));
-  const bestProfit = [...rows].sort((a, b) => (b.profit ?? 0) - (a.profit ?? 0))[0];
-  const bestChance = [...rows].sort((a, b) => (b.modelProbability ?? 0) - (a.modelProbability ?? 0))[0];
   const bestValue = rows[0];
+  const bestChance = [...rows].sort((a, b) => (b.modelProbability ?? 0) - (a.modelProbability ?? 0))[0];
+  const futureRows = futureValueRows(futures).filter((row) => row.kalshiProbability != null);
+  const topFuture = futureRows[0];
 
   return (
     <section className="tab-stack">
       <div className="section-heading">
         <div>
-          <p className="label">Probability lab</p>
+          <p className="label">Edge engine v1.2</p>
           <h2>Chance vs payout</h2>
         </div>
-        <p>Break-even comes from the posted +/- price. Model chance blends an independent strength model with market no-vig. Only showing picks at {formatProbability(minProbability)}+ model chance — adjust in the topbar.</p>
+        <p>Blends an independent strength model (xG-driven Poisson for Soccer, logistic for MLB) with market consensus no-vig, applies backtest calibration for draw risk and MLB overconfidence, then adjusts for intel and stale lines. Only showing picks at {formatProbability(minProbability)}+ model chance — adjust in the topbar.</p>
+      </div>
+
+      <div className="algorithm-grid">
+        <article className="algorithm-card">
+          <span>Step 1</span>
+          <strong>Live market baseline</strong>
+          <p>Pull best available Soccer and MLB moneylines from The Odds API and convert them to no-vig probabilities.</p>
+        </article>
+        <article className="algorithm-card">
+          <span>Step 2</span>
+          <strong>Independent model + calibration</strong>
+          <p>Soccer runs a Dixon-Coles Poisson on xG inputs, then discounts shaky draw reads from the World Cup backtest. MLB runs a strength logistic, then compresses overconfident reads from the Statcast backtest.</p>
+        </article>
+        <article className="algorithm-card">
+          <span>Step 3</span>
+          <strong>Edge, EV, and Kelly</strong>
+          <p>Compare blended chance to the best posted break-even, rank by EV, edge, and confidence, then size with quarter-Kelly capped at 1% of bankroll.</p>
+        </article>
       </div>
 
       <div className="value-summary">
         <ValueMetric title="Best EV proxy" row={bestValue} detail={bestValue ? `${formatCurrency(bestValue.ev)} per $100` : "—"} />
-        <ValueMetric title="Highest payout" row={bestProfit} detail={bestProfit ? `${formatCurrency(bestProfit.profit)} profit on $100` : "—"} />
         <ValueMetric title="Highest chance" row={bestChance} detail={bestChance ? `${formatProbability(bestChance.modelProbability)} no-vig chance` : "—"} />
+        <ValueMetric title="Top futures gap" row={topFuture ? { selection: topFuture.team, match: topFuture.source } : null} detail={topFuture ? `${formatProbability(topFuture.kalshiProbability)} Kalshi · fair ${topFuture.fairLine}` : "—"} />
+        <article className="value-metric">
+          <span>Adaptive weights</span>
+          <strong>{Math.round((1 - modelWeight) * 100)} / {Math.round(modelWeight * 100)}</strong>
+          <p>Market no-vig / model — the model's share flexes 25–60% by measured calibration (Brier).</p>
+          <b>Version 1.2</b>
+        </article>
       </div>
 
       {rows.length === 0 ? (
@@ -2764,6 +2877,7 @@ function ValueTab({ events, mlbEvents, onTrack, trackedKeys, minProbability = DE
           <span>Line</span>
           <span>Break-even</span>
           <span>Market no-vig</span>
+          <span>Research</span>
           <span>Algo chance</span>
           <span>Edge</span>
           <span>$100 profit</span>
@@ -2775,92 +2889,17 @@ function ValueTab({ events, mlbEvents, onTrack, trackedKeys, minProbability = DE
             <span>
               <b>{row.selection}</b>
               {onTrack ? <TrackButton row={row} onTrack={onTrack} trackedKeys={trackedKeys} /> : null}
-              <small>{row.sport} · {row.match} · {row.book} · {row.modelSource}</small>
+              <small>{row.sport} · {row.match} · {row.book} · {row.modelSource}{formatIntelAdjustment(row.intelAdjustment) ? ` · intel ${formatIntelAdjustment(row.intelAdjustment)}` : ""}</small>
             </span>
             <span>{formatMoneyline(row.price)}</span>
             <span>{formatProbability(row.breakEven)}</span>
             <span>{formatProbability(row.marketProbability)}</span>
+            <span>{formatProbability(row.researchProbability)}</span>
             <span>{formatProbability(row.modelProbability)}</span>
             <span>{row.edge == null ? "—" : `${(row.edge * 100).toFixed(1)} pts`}</span>
             <span>{formatCurrency(row.profit)}</span>
             <span>{formatCurrency(row.ev)}</span>
             <span>{row.fairLine}</span>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function AlgorithmTab({ events, mlbEvents, futures, minProbability = DEFAULT_MIN_PROBABILITY, modelWeight = algorithmWeights.researchPrior }) {
-  const matchRows = [
-    ...valueRowsForEvents(events, "Soccer"),
-    ...valueRowsForEvents(mlbEvents, "MLB")
-  ].sort((a, b) => (b.ev ?? -Infinity) - (a.ev ?? -Infinity));
-  const futureRows = futureValueRows(futures).filter((row) => row.kalshiProbability != null);
-  const topMatch = matchRows[0];
-  const topFuture = futureRows[0];
-
-  return (
-    <section className="tab-stack">
-      <div className="section-heading">
-        <div>
-          <p className="label">Edge engine v1.2</p>
-          <h2>My first odds algorithm</h2>
-        </div>
-        <p>It blends an independent strength model (xG-driven Poisson for Soccer, logistic for MLB) with market consensus no-vig, applies backtest calibration for draw risk and MLB overconfidence, adjusts for intel and stale lines, then sizes with capped quarter-Kelly. Match candidates below {formatProbability(minProbability)} model chance are filtered out (adjust in the topbar).</p>
-      </div>
-
-      <div className="algorithm-grid">
-        <article className="algorithm-card">
-          <span>Step 1</span>
-          <strong>Live market baseline</strong>
-          <p>Pull best available Soccer and MLB moneylines from The Odds API and convert them to no-vig probabilities.</p>
-        </article>
-        <article className="algorithm-card">
-          <span>Step 2</span>
-          <strong>Independent model + calibration</strong>
-          <p>Soccer runs a Dixon-Coles Poisson on xG inputs, then discounts shaky draw reads from the World Cup backtest. MLB runs a strength logistic, then compresses overconfident reads from the Statcast backtest.</p>
-        </article>
-        <article className="algorithm-card">
-          <span>Step 3</span>
-          <strong>Edge, EV, and Kelly</strong>
-          <p>Compare blended chance to the best posted break-even, rank by EV, edge, and confidence, then size with quarter-Kelly capped at 1% of bankroll.</p>
-        </article>
-      </div>
-
-      <div className="algorithm-summary">
-        <ValueMetric title="Top match edge" row={topMatch} detail={topMatch ? `${formatProbability(topMatch.modelProbability)} algo · ${formatCurrency(topMatch.ev)} EV` : "—"} />
-        <ValueMetric title="Top futures gap" row={topFuture ? { selection: topFuture.team, match: topFuture.source } : null} detail={topFuture ? `${formatProbability(topFuture.kalshiProbability)} Kalshi · fair ${topFuture.fairLine}` : "—"} />
-        <article className="value-metric">
-          <span>Adaptive weights</span>
-          <strong>{Math.round((1 - modelWeight) * 100)} / {Math.round(modelWeight * 100)}</strong>
-          <p>Market no-vig / model — the model's share flexes {25}–{60}% by measured calibration (Brier).</p>
-          <b>Version 1.2</b>
-        </article>
-      </div>
-
-      <div className="algorithm-table">
-        <div className="algorithm-row algorithm-head">
-          <span>Match pick</span>
-          <span>Date</span>
-          <span>Line</span>
-          <span>Market</span>
-          <span>Research</span>
-          <span>Algorithm</span>
-          <span>Edge</span>
-          <span>Source</span>
-        </div>
-        {matchRows.map((row) => (
-          <div className="algorithm-row" key={row.id}>
-            <span><b>{row.selection}</b><small>{row.match}</small></span>
-            <span>{formatDate(row.startTime)}</span>
-            <span>{formatMoneyline(row.price)}</span>
-            <span>{formatProbability(row.marketProbability)}</span>
-            <span>{formatProbability(row.researchProbability)}</span>
-            <span>{formatProbability(row.modelProbability)}</span>
-            <span>{row.edge == null ? "—" : `${(row.edge * 100).toFixed(1)} pts`}</span>
-            <span>{row.modelSource}<small>{formatIntelAdjustment(row.intelAdjustment) || row.modelNotes}</small></span>
           </div>
         ))}
       </div>
@@ -3494,6 +3533,66 @@ function IntelTab({ intelNotes, setIntelNotes }) {
           <IntelNote note={note} setIntelNotes={setIntelNotes} intelNotes={intelNotes} key={note.id} />
         ))}
       </section>
+
+      <div className="section-heading compact">
+        <div>
+          <p className="label">Research library</p>
+          <h2>General source links</h2>
+        </div>
+        <p>Books and feeds referenced across the app — not sport-specific like the injury/lineup sources above.</p>
+      </div>
+
+      <div className="source-grid">
+        {researchCards.map((card) => (
+          <a className="source-card" href={card.link} target="_blank" rel="noreferrer" key={card.title}>
+            <span>{card.status}</span>
+            <strong>{card.title}</strong>
+            <p>{card.body}</p>
+          </a>
+        ))}
+      </div>
+
+      <div className="section-heading compact">
+        <div>
+          <p className="label">Future baseline priors</p>
+          <h2>2026 group match probability file</h2>
+        </div>
+        <p>{futureMatchBaseline.totalMatches} imported match priors from Elo and injury flags. These feed the algorithm as research priors when a matchup matches.</p>
+      </div>
+
+      <div className="research-columns">
+        <article className="research-panel">
+          <h3>Strongest baseline favorites</h3>
+          <div className="note-list">
+            {[...futureMatchBaseline.matches]
+              .sort((a, b) => (b.topOutcome?.probability ?? 0) - (a.topOutcome?.probability ?? 0))
+              .slice(0, 8)
+              .map((match) => (
+                <div className="note-item" key={match.id}>
+                  <span>Group {match.group} · Elo diff {match.eloDiff == null ? "unknown" : match.eloDiff}</span>
+                  <strong>{match.topOutcome.name} · {formatProbability(match.topOutcome.probability)}</strong>
+                  <p>{match.homeTeam} {formatProbability(match.pHome)} · Draw {formatProbability(match.pDraw)} · {match.awayTeam} {formatProbability(match.pAway)}</p>
+                </div>
+              ))}
+          </div>
+        </article>
+
+        <article className="research-panel">
+          <h3>Highest draw baselines</h3>
+          <div className="note-list">
+            {[...futureMatchBaseline.matches]
+              .sort((a, b) => (b.pDraw ?? 0) - (a.pDraw ?? 0))
+              .slice(0, 6)
+              .map((match) => (
+                <div className="note-item" key={match.id}>
+                  <span>Group {match.group}</span>
+                  <strong>{match.homeTeam} vs {match.awayTeam}</strong>
+                  <p>Draw {formatProbability(match.pDraw)} · home {formatProbability(match.pHome)} · away {formatProbability(match.pAway)}</p>
+                </div>
+              ))}
+          </div>
+        </article>
+      </div>
     </section>
   );
 }
@@ -3515,7 +3614,11 @@ function IntelNote({ note, setIntelNotes, intelNotes }) {
   );
 }
 
-function ModelLabTab({ events, mlbEvents, modelPicks, setModelPicks, teamRatings, setTeamRatings }) {
+// Merges the old Model Lab + Backtest tabs — both answer "is the algorithm actually
+// calibrated," just live (this app's own graded picks) vs historical (the imported result
+// sets). A Live/Historical switch replaces the separate top-level Backtest tab.
+function ModelLabTab({ events, mlbEvents, modelPicks, setModelPicks, teamRatings, setTeamRatings, backtestData, mlbBacktestData }) {
+  const [view, setView] = useState("live");
   const grades = gradeModelPicks(modelPicks);
   const rows = [
     ...valueRowsForEvents(events, "Soccer"),
@@ -3566,6 +3669,18 @@ function ModelLabTab({ events, mlbEvents, modelPicks, setModelPicks, teamRatings
 
   return (
     <section className="tab-stack">
+      <nav className="subtabs" aria-label="Model Lab live vs historical">
+        {[["live", "Live tracking"], ["backtest", "Historical backtest"]].map(([key, label]) => (
+          <button className={view === key ? "active" : ""} onClick={() => setView(key)} key={key}>
+            {label}
+          </button>
+        ))}
+      </nav>
+
+      {view === "backtest" ? (
+        <BacktestTab data={backtestData} mlbData={mlbBacktestData} />
+      ) : (
+        <>
       <div className="section-heading">
         <div>
           <p className="label">Model Lab</p>
@@ -3706,6 +3821,8 @@ function ModelLabTab({ events, mlbEvents, modelPicks, setModelPicks, teamRatings
           </div>
         ))}
       </article>
+        </>
+      )}
     </section>
   );
 }
@@ -3875,124 +3992,6 @@ function PicksTab({ addPick, pickDraft, picks, setPickDraft, setPicks }) {
           </article>
         ))}
       </section>
-    </section>
-  );
-}
-
-function ResearchBoard() {
-  const strongestBaseline = [...futureMatchBaseline.matches]
-    .sort((a, b) => (b.topOutcome?.probability ?? 0) - (a.topOutcome?.probability ?? 0))
-    .slice(0, 8);
-  const drawBaseline = [...futureMatchBaseline.matches]
-    .sort((a, b) => (b.pDraw ?? 0) - (a.pDraw ?? 0))
-    .slice(0, 6);
-
-  return (
-    <section className="research-board">
-      <div className="section-heading">
-        <div>
-          <p className="label">Research board</p>
-          <h2>What I found so far</h2>
-        </div>
-        <p>Snapshot researched June 30, 2026. Re-check live lines before making any decision.</p>
-      </div>
-
-      <div className="source-grid">
-        {researchCards.map((card) => (
-          <a className="source-card" href={card.link} target="_blank" rel="noreferrer" key={card.title}>
-            <span>{card.status}</span>
-            <strong>{card.title}</strong>
-            <p>{card.body}</p>
-          </a>
-        ))}
-      </div>
-
-      <div className="research-columns">
-        <article className="research-panel">
-          <h3>Today and upcoming</h3>
-          <div className="note-list">
-            {todayNotes.map((item) => (
-              <div className="note-item" key={item.match}>
-                <span>{item.time}</span>
-                <strong>{item.match}</strong>
-                <p>{item.note}</p>
-              </div>
-            ))}
-          </div>
-        </article>
-
-        <article className="research-panel">
-          <h3>Data plan</h3>
-          <div className="note-list">
-            <div className="note-item">
-              <span>Current</span>
-              <strong>Use h2h for moneylines</strong>
-              <p>Best automated starter is The Odds API. DraftKings is prioritized for tonight's bankroll workflow; other books remain comparison sources.</p>
-            </div>
-            <div className="note-item">
-              <span>Historical</span>
-              <strong>Snapshots now, paid history later</strong>
-              <p>The app saves each refresh locally today. Paid historical odds can be added when you choose a provider.</p>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div className="section-heading compact">
-        <div>
-          <p className="label">Future baseline priors</p>
-          <h2>2026 group match probability file</h2>
-        </div>
-        <p>{futureMatchBaseline.totalMatches} imported match priors from Elo and injury flags. These feed the algorithm as research priors when a matchup matches.</p>
-      </div>
-
-      <div className="research-columns">
-        <article className="research-panel">
-          <h3>Strongest baseline favorites</h3>
-          <div className="note-list">
-            {strongestBaseline.map((match) => (
-              <div className="note-item" key={match.id}>
-                <span>Group {match.group} · Elo diff {match.eloDiff == null ? "unknown" : match.eloDiff}</span>
-                <strong>{match.topOutcome.name} · {formatProbability(match.topOutcome.probability)}</strong>
-                <p>{match.homeTeam} {formatProbability(match.pHome)} · Draw {formatProbability(match.pDraw)} · {match.awayTeam} {formatProbability(match.pAway)}</p>
-              </div>
-            ))}
-          </div>
-        </article>
-
-        <article className="research-panel">
-          <h3>Highest draw baselines</h3>
-          <div className="note-list">
-            {drawBaseline.map((match) => (
-              <div className="note-item" key={match.id}>
-                <span>Group {match.group}</span>
-                <strong>{match.homeTeam} vs {match.awayTeam}</strong>
-                <p>Draw {formatProbability(match.pDraw)} · home {formatProbability(match.pHome)} · away {formatProbability(match.pAway)}</p>
-              </div>
-            ))}
-          </div>
-        </article>
-      </div>
-
-      <div className="algorithm-table">
-        <div className="baseline-row baseline-head">
-          <span>Group</span>
-          <span>Matches</span>
-          <span>Avg draw</span>
-          <span>Most frequent favorite</span>
-        </div>
-        {futureMatchBaseline.groupSummary.map((group) => {
-          const favorite = Object.entries(group.favoriteCount || {}).sort((a, b) => b[1] - a[1])[0];
-          return (
-            <div className="baseline-row" key={group.group}>
-              <span>Group {group.group}</span>
-              <span>{group.matches}</span>
-              <span>{formatProbability(group.avgDraw)}</span>
-              <span>{favorite ? `${favorite[0]} (${favorite[1]}x)` : "—"}</span>
-            </div>
-          );
-        })}
-      </div>
     </section>
   );
 }

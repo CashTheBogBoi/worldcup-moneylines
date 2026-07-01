@@ -7,6 +7,7 @@
     "dev": "vite",
     "backtest:mlb": "node scripts/backtest-mlb-statcast.mjs /Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
     "backtest:worldcup": "node scripts/backtest-worldcup.mjs /Users/cashmcdearis/Downloads/WorldCupMatches.csv",
+    "train:ml-calibration": "node scripts/train-ml-calibration.mjs /Users/cashmcdearis/Downloads/WorldCupMatches.csv /Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
     "import:future-baseline": "node scripts/import-future-match-baseline.mjs /Users/cashmcdearis/Downloads/future_match_probabilities_baseline.csv",
     "build": "vite build",
     "preview": "vite preview"
