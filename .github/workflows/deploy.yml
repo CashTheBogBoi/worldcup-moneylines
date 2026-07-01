@@ -7,6 +7,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # Only rebuild the site when app code changes — NOT on the frequent auto-commits of vault
+    # data/notes, so those don't spam Pages deploys or burn Actions minutes.
+    paths:
+      - "src/**"
+      - "index.html"
+      - "vite.config.js"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
