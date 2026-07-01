@@ -3,6 +3,24 @@ import path from "node:path";
 
 const SOURCE = process.argv[2] || "/Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv";
 const OUT = path.resolve("src/mlbBacktestData.js");
+const MLB_BACKTEST_COMPRESSION = 0.78;
+const MLB_BACKTEST_CAP = 0.82;
+const AFTERLOSS_LOGIT_SCALE = 0.6;
+const AFTERLOSS_LEAGUE_AVG = 0.5;
+const AFTERLOSS_WINPCT = {
+  LAD: 0.637,
+  HOU: 0.587,
+  ATL: 0.568,
+  MIL: 0.565,
+  PHI: 0.555,
+  SD: 0.554,
+  COL: 0.361,
+  CWS: 0.378,
+  OAK: 0.403,
+  KC: 0.43,
+  WSH: 0.432,
+  LAA: 0.436
+};
 
 function parseCsv(text) {
   const rows = [];
@@ -69,7 +87,8 @@ function emptyTeam() {
     whiffsAgainst: 0,
     swingsAgainst: 0,
     cswPitching: 0,
-    pitchesPitching: 0
+    pitchesPitching: 0,
+    lastResult: null
   };
 }
 
@@ -102,12 +121,22 @@ function teamStrength(team) {
   );
 }
 
+function afterLossLogit(team, teamState) {
+  if (teamState.lastResult !== "loss") return 0;
+  const winPct = AFTERLOSS_WINPCT[team];
+  if (winPct == null) return 0;
+  return clamp((winPct - AFTERLOSS_LEAGUE_AVG) * AFTERLOSS_LOGIT_SCALE, -0.08, 0.08);
+}
+
 function prediction(home, away, homeTeam, awayTeam) {
   const homeStrength = teamStrength(homeTeam);
   const awayStrength = teamStrength(awayTeam);
   const coldStart = Math.min(homeTeam.games, awayTeam.games) === 0;
-  const logit = 0.12 + homeStrength - awayStrength;
-  const homeProbability = coldStart ? 0.54 : clamp(logistic(logit), 0.18, 0.82);
+  const afterLossHome = afterLossLogit(home, homeTeam);
+  const afterLossAway = afterLossLogit(away, awayTeam);
+  const logit = 0.12 + homeStrength - awayStrength + afterLossHome - afterLossAway;
+  const rawHomeProbability = coldStart ? 0.54 : clamp(logistic(logit), 1 - MLB_BACKTEST_CAP, MLB_BACKTEST_CAP);
+  const homeProbability = clamp(0.5 + (rawHomeProbability - 0.5) * MLB_BACKTEST_COMPRESSION, 1 - MLB_BACKTEST_CAP, MLB_BACKTEST_CAP);
   const awayProbability = 1 - homeProbability;
   const predicted = homeProbability >= awayProbability ? home : away;
   return {
@@ -117,7 +146,10 @@ function prediction(home, away, homeTeam, awayTeam) {
     confidence: Math.max(homeProbability, awayProbability),
     homeStrength,
     awayStrength,
-    coldStart
+    coldStart,
+    rawHomeProbability,
+    afterLossHome,
+    afterLossAway
   };
 }
 
@@ -259,6 +291,7 @@ for (const game of games) {
     const runsAgainst = isHome ? game.awayScore : game.homeScore;
     seasonStats.games += 1;
     seasonStats.wins += actual === teamName ? 1 : 0;
+    seasonStats.lastResult = actual === teamName ? "win" : "loss";
     seasonStats.runsFor += runsFor;
     seasonStats.runsAgainst += runsAgainst;
     for (const key of [
@@ -282,7 +315,7 @@ const summary = {
   avgBrier: predictions.reduce((sum, row) => sum + row.brier, 0) / predictions.length,
   firstGame: predictions[0]?.date,
   lastGame: predictions[predictions.length - 1]?.date,
-  note: "2025 postseason Statcast file has pitch-by-pitch data and final scores but no betting odds, so this measures prediction accuracy/calibration, not ROI."
+  note: "2025 postseason Statcast file has pitch-by-pitch data and final scores but no betting odds, so this v1.3-style backtest applies MLB probability compression and rolling after-loss priors but cannot test market blend, EV, or ROI."
 };
 
 const missAnalysis = {

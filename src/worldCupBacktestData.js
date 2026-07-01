@@ -1,51 +1,51 @@
 export const worldCupBacktest = {
   "summary": {
     "source": "/Users/cashmcdearis/Downloads/WorldCupMatches.csv",
-    "generatedAt": "2026-07-01T00:23:31.396Z",
+    "generatedAt": "2026-07-01T01:31:31.436Z",
     "totalMatches": 852,
     "evaluatedMatches": 852,
-    "correct": 308,
-    "accuracy": 0.3615023474178404,
-    "avgBrier": 0.23468560011921533,
+    "correct": 436,
+    "accuracy": 0.5117370892018779,
+    "avgBrier": 0.20493353625719646,
     "firstMatch": "1930-07-13",
     "lastMatch": "2014-07-13",
-    "note": "Historical World Cup CSV has scores but no betting odds, so this backtest measures winner/draw prediction accuracy and calibration, not ROI."
+    "note": "Historical World Cup CSV has scores but no betting odds, so this v1.2-style backtest applies draw calibration but cannot test market blend, EV, or ROI."
   },
   "byBucket": [
     {
       "bucket": "70%+",
-      "matches": 91,
-      "correct": 55,
-      "accuracy": 0.6043956043956044,
-      "avgBrier": 0.19467247429014164
+      "matches": 57,
+      "correct": 44,
+      "accuracy": 0.7719298245614035,
+      "avgBrier": 0.12994399297387998
     },
     {
       "bucket": "60-70%",
-      "matches": 248,
-      "correct": 87,
-      "accuracy": 0.35080645161290325,
-      "avgBrier": 0.260504354834221
+      "matches": 55,
+      "correct": 34,
+      "accuracy": 0.6181818181818182,
+      "avgBrier": 0.18395380774827091
     },
     {
       "bucket": "50-60%",
-      "matches": 270,
-      "correct": 87,
-      "accuracy": 0.32222222222222224,
-      "avgBrier": 0.23306231782878034
+      "matches": 97,
+      "correct": 56,
+      "accuracy": 0.5773195876288659,
+      "avgBrier": 0.18895371068061814
     },
     {
       "bucket": "40-50%",
-      "matches": 191,
-      "correct": 61,
-      "accuracy": 0.3193717277486911,
-      "avgBrier": 0.2260309166615949
+      "matches": 513,
+      "correct": 238,
+      "accuracy": 0.46393762183235865,
+      "avgBrier": 0.2151500772311438
     },
     {
       "bucket": "<40%",
-      "matches": 52,
-      "correct": 18,
-      "accuracy": 0.34615384615384615,
-      "avgBrier": 0.22179087011820078
+      "matches": 130,
+      "correct": 64,
+      "accuracy": 0.49230769230769234,
+      "avgBrier": 0.21829697161437348
     }
   ],
   "tournamentSummary": [
@@ -73,121 +73,121 @@ export const worldCupBacktest = {
     {
       "year": 1950,
       "matches": 22,
-      "correct": 12,
-      "avgBrier": 0.1848985691774292,
-      "accuracy": 0.5454545454545454
+      "correct": 13,
+      "avgBrier": 0.1832174189945381,
+      "accuracy": 0.5909090909090909
     },
     {
       "year": 1954,
       "matches": 26,
-      "correct": 13,
-      "avgBrier": 0.1758732863675852,
-      "accuracy": 0.5
+      "correct": 14,
+      "avgBrier": 0.17424317064570657,
+      "accuracy": 0.5384615384615384
     },
     {
       "year": 1958,
       "matches": 35,
-      "correct": 13,
-      "avgBrier": 0.2358578645775835,
-      "accuracy": 0.37142857142857144
+      "correct": 17,
+      "avgBrier": 0.22677184274655401,
+      "accuracy": 0.4857142857142857
     },
     {
       "year": 1962,
       "matches": 32,
-      "correct": 7,
-      "avgBrier": 0.24572013271110357,
-      "accuracy": 0.21875
+      "correct": 17,
+      "avgBrier": 0.21663805899227737,
+      "accuracy": 0.53125
     },
     {
       "year": 1966,
       "matches": 32,
-      "correct": 10,
-      "avgBrier": 0.2416042755993929,
-      "accuracy": 0.3125
+      "correct": 15,
+      "avgBrier": 0.20053602189280317,
+      "accuracy": 0.46875
     },
     {
       "year": 1970,
       "matches": 32,
-      "correct": 11,
-      "avgBrier": 0.22910025911645104,
-      "accuracy": 0.34375
+      "correct": 18,
+      "avgBrier": 0.1993848568256515,
+      "accuracy": 0.5625
     },
     {
       "year": 1974,
       "matches": 38,
-      "correct": 14,
-      "avgBrier": 0.2085923876415793,
-      "accuracy": 0.3684210526315789
+      "correct": 20,
+      "avgBrier": 0.19289094785161517,
+      "accuracy": 0.5263157894736842
     },
     {
       "year": 1978,
       "matches": 38,
-      "correct": 9,
-      "avgBrier": 0.2623504117943167,
-      "accuracy": 0.23684210526315788
+      "correct": 17,
+      "avgBrier": 0.22286166674567306,
+      "accuracy": 0.4473684210526316
     },
     {
       "year": 1982,
       "matches": 52,
-      "correct": 20,
-      "avgBrier": 0.22853772204468273,
-      "accuracy": 0.38461538461538464
+      "correct": 26,
+      "avgBrier": 0.20218270570539826,
+      "accuracy": 0.5
     },
     {
       "year": 1986,
       "matches": 52,
-      "correct": 18,
-      "avgBrier": 0.23435284430317116,
-      "accuracy": 0.34615384615384615
+      "correct": 24,
+      "avgBrier": 0.2057556765495842,
+      "accuracy": 0.46153846153846156
     },
     {
       "year": 1990,
       "matches": 52,
-      "correct": 15,
-      "avgBrier": 0.25897583010665065,
-      "accuracy": 0.28846153846153844
+      "correct": 28,
+      "avgBrier": 0.211422680111842,
+      "accuracy": 0.5384615384615384
     },
     {
       "year": 1994,
       "matches": 52,
-      "correct": 15,
-      "avgBrier": 0.2499212640084746,
-      "accuracy": 0.28846153846153844
+      "correct": 24,
+      "avgBrier": 0.21609188617869066,
+      "accuracy": 0.46153846153846156
     },
     {
       "year": 1998,
       "matches": 64,
-      "correct": 26,
-      "avgBrier": 0.22183520000716112,
-      "accuracy": 0.40625
+      "correct": 34,
+      "avgBrier": 0.19963062351313465,
+      "accuracy": 0.53125
     },
     {
       "year": 2002,
       "matches": 64,
-      "correct": 23,
-      "avgBrier": 0.23457304132054102,
-      "accuracy": 0.359375
+      "correct": 30,
+      "avgBrier": 0.21626929425209193,
+      "accuracy": 0.46875
     },
     {
       "year": 2006,
       "matches": 64,
-      "correct": 26,
-      "avgBrier": 0.22104174009830402,
-      "accuracy": 0.40625
+      "correct": 39,
+      "avgBrier": 0.19415894988262997,
+      "accuracy": 0.609375
     },
     {
       "year": 2010,
       "matches": 64,
-      "correct": 18,
-      "avgBrier": 0.2780232693520113,
-      "accuracy": 0.28125
+      "correct": 25,
+      "avgBrier": 0.23070868297681052,
+      "accuracy": 0.390625
     },
     {
       "year": 2014,
       "matches": 80,
-      "correct": 20,
-      "avgBrier": 0.2723525741958758,
-      "accuracy": 0.25
+      "correct": 37,
+      "avgBrier": 0.2070040850802107,
+      "accuracy": 0.4625
     }
   ],
   "missAnalysis": {
@@ -198,37 +198,37 @@ export const worldCupBacktest = {
     ],
     "byPrediction": [
       {
+        "key": "Home",
+        "label": "Home",
+        "matches": 465,
+        "correct": 316,
+        "misses": 149,
+        "avgBrier": 0.17962046082624583,
+        "avgConfidence": 0.505089163379073,
+        "accuracy": 0.6795698924731183,
+        "missRate": 0.3204301075268817
+      },
+      {
         "key": "Draw",
         "label": "Draw",
-        "matches": 563,
-        "correct": 135,
-        "misses": 428,
-        "avgBrier": 0.2606623058824018,
-        "avgConfidence": 0.5698038838756551,
-        "accuracy": 0.23978685612788633,
-        "missRate": 0.7602131438721137
+        "matches": 191,
+        "correct": 54,
+        "misses": 137,
+        "avgBrier": 0.22970321929936052,
+        "avgConfidence": 0.4483982251625773,
+        "accuracy": 0.28272251308900526,
+        "missRate": 0.7172774869109948
       },
       {
         "key": "Away",
         "label": "Away",
-        "matches": 77,
-        "correct": 19,
-        "misses": 58,
-        "avgBrier": 0.25575503111947817,
-        "avgConfidence": 0.5537027832822384,
-        "accuracy": 0.24675324675324675,
-        "missRate": 0.7532467532467533
-      },
-      {
-        "key": "Home",
-        "label": "Home",
-        "matches": 212,
-        "correct": 154,
-        "misses": 58,
-        "avgBrier": 0.1580477155357518,
-        "avgConfidence": 0.5844084990887598,
-        "accuracy": 0.7264150943396226,
-        "missRate": 0.27358490566037735
+        "matches": 196,
+        "correct": 66,
+        "misses": 130,
+        "avgBrier": 0.24084971286096463,
+        "avgConfidence": 0.47371984882044577,
+        "accuracy": 0.336734693877551,
+        "missRate": 0.6632653061224489
       }
     ],
     "byActual": [
@@ -236,326 +236,326 @@ export const worldCupBacktest = {
         "key": "Home",
         "label": "Home",
         "matches": 488,
-        "correct": 154,
-        "misses": 334,
-        "avgBrier": 0.23921007317382373,
-        "avgConfidence": 0.5660202654125204,
-        "accuracy": 0.3155737704918033,
-        "missRate": 0.6844262295081968
-      },
-      {
-        "key": "Away",
-        "label": "Away",
-        "matches": 174,
-        "correct": 19,
-        "misses": 155,
-        "avgBrier": 0.31299400299708396,
-        "avgConfidence": 0.5777479958747722,
-        "accuracy": 0.10919540229885058,
-        "missRate": 0.8908045977011494
+        "correct": 316,
+        "misses": 172,
+        "avgBrier": 0.18556453335728915,
+        "avgConfidence": 0.4932890007102621,
+        "accuracy": 0.6475409836065574,
+        "missRate": 0.3524590163934426
       },
       {
         "key": "Draw",
         "label": "Draw",
         "matches": 190,
-        "correct": 135,
-        "misses": 55,
-        "avgBrier": 0.15135083721712095,
-        "avgConfidence": 0.5820171680948564,
-        "accuracy": 0.7105263157894737,
-        "missRate": 0.2894736842105263
+        "correct": 54,
+        "misses": 136,
+        "avgBrier": 0.2186035467098397,
+        "avgConfidence": 0.4796901643066422,
+        "accuracy": 0.28421052631578947,
+        "missRate": 0.7157894736842105
+      },
+      {
+        "key": "Away",
+        "label": "Away",
+        "matches": 174,
+        "correct": 66,
+        "misses": 108,
+        "avgBrier": 0.24432877435577396,
+        "avgConfidence": 0.46835315391527976,
+        "accuracy": 0.3793103448275862,
+        "missRate": 0.6206896551724138
       }
     ],
     "confusion": [
       {
-        "key": "Draw predicted / Home actual",
-        "label": "Draw predicted / Home actual",
-        "matches": 291,
+        "key": "Home predicted / Draw actual",
+        "label": "Home predicted / Draw actual",
+        "matches": 94,
         "correct": 0,
-        "misses": 291,
-        "avgBrier": 0.3027332456229423,
-        "avgConfidence": 0.5590236788411131,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Draw predicted / Away actual",
-        "label": "Draw predicted / Away actual",
-        "matches": 137,
-        "correct": 0,
-        "misses": 137,
-        "avgBrier": 0.3366837884239781,
-        "avgConfidence": 0.5748373365662364,
+        "misses": 94,
+        "avgBrier": 0.2441570716767223,
+        "avgConfidence": 0.4983114323282846,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Away predicted / Home actual",
         "label": "Away predicted / Home actual",
-        "matches": 43,
+        "matches": 88,
         "correct": 0,
-        "misses": 43,
-        "avgBrier": 0.3147860639225152,
-        "avgConfidence": 0.5151148319962985,
+        "misses": 88,
+        "avgBrier": 0.3080386527202471,
+        "avgConfidence": 0.46502544026144066,
         "accuracy": 0,
         "missRate": 1
       },
       {
-        "key": "Home predicted / Draw actual",
-        "label": "Home predicted / Draw actual",
-        "matches": 40,
+        "key": "Draw predicted / Home actual",
+        "label": "Draw predicted / Home actual",
+        "matches": 84,
         "correct": 0,
-        "misses": 40,
-        "avgBrier": 0.29416774233803983,
-        "avgConfidence": 0.5642401520333682,
+        "misses": 84,
+        "avgBrier": 0.2540322369534167,
+        "avgConfidence": 0.44709568029987085,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Home predicted / Away actual",
         "label": "Home predicted / Away actual",
-        "matches": 18,
+        "matches": 55,
         "correct": 0,
-        "misses": 18,
-        "avgBrier": 0.3686703064542332,
-        "avgConfidence": 0.5518296957098477,
+        "misses": 55,
+        "avgBrier": 0.3356975747582562,
+        "avgConfidence": 0.4686987249817867,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Draw predicted / Away actual",
+        "label": "Draw predicted / Away actual",
+        "matches": 53,
+        "correct": 0,
+        "misses": 53,
+        "avgBrier": 0.26912383330879724,
+        "avgConfidence": 0.44957054380725836,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Away predicted / Draw actual",
         "label": "Away predicted / Draw actual",
-        "matches": 15,
+        "matches": 42,
         "correct": 0,
-        "misses": 15,
-        "avgBrier": 0.297208310420018,
-        "avgConfidence": 0.5761783258021886,
+        "misses": 42,
+        "avgBrier": 0.24554441239364344,
+        "avgConfidence": 0.4771207509601172,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Home predicted / Home actual",
         "label": "Home predicted / Home actual",
-        "matches": 154,
-        "correct": 154,
+        "matches": 316,
+        "correct": 316,
         "misses": 0,
-        "avgBrier": 0.09807363950572448,
-        "avgConfidence": 0.5934549428747081,
+        "avgBrier": 0.13325754093319075,
+        "avgConfidence": 0.5134391027164934,
         "accuracy": 1,
         "missRate": 0
       },
       {
         "key": "Away predicted / Away actual",
         "label": "Away predicted / Away actual",
-        "matches": 19,
-        "correct": 19,
+        "matches": 66,
+        "correct": 66,
         "misses": 0,
-        "avgBrier": 0.08943221006481032,
-        "avgConfidence": 0.6232895605188787,
+        "avgBrier": 0.14827692364900444,
+        "avgConfidence": 0.4831481831132673,
         "accuracy": 1,
         "missRate": 0
       },
       {
         "key": "Draw predicted / Draw actual",
         "label": "Draw predicted / Draw actual",
-        "matches": 135,
-        "correct": 135,
+        "matches": 54,
+        "correct": 54,
         "misses": 0,
-        "avgBrier": 0.09282833126986022,
-        "avgConfidence": 0.5879331923678166,
+        "avgBrier": 0.1531674780874924,
+        "avgConfidence": 0.44927379701997033,
         "accuracy": 1,
         "missRate": 0
       }
     ],
     "byConfidence": [
       {
-        "key": "50-60%",
-        "label": "50-60%",
-        "matches": 270,
-        "correct": 87,
-        "misses": 183,
-        "avgBrier": 0.23306231782878034,
-        "avgConfidence": 0.5521154557161837,
-        "accuracy": 0.32222222222222224,
-        "missRate": 0.6777777777777778
-      },
-      {
-        "key": "60-70%",
-        "label": "60-70%",
-        "matches": 248,
-        "correct": 87,
-        "misses": 161,
-        "avgBrier": 0.260504354834221,
-        "avgConfidence": 0.6484141601939414,
-        "accuracy": 0.35080645161290325,
-        "missRate": 0.6491935483870968
-      },
-      {
         "key": "40-50%",
         "label": "40-50%",
-        "matches": 191,
-        "correct": 61,
-        "misses": 130,
-        "avgBrier": 0.2260309166615949,
-        "avgConfidence": 0.45390694005948545,
-        "accuracy": 0.3193717277486911,
-        "missRate": 0.680628272251309
-      },
-      {
-        "key": "70%+",
-        "label": "70%+",
-        "matches": 91,
-        "correct": 55,
-        "misses": 36,
-        "avgBrier": 0.19467247429014164,
-        "avgConfidence": 0.7810686466929923,
-        "accuracy": 0.6043956043956044,
-        "missRate": 0.3956043956043956
+        "matches": 513,
+        "correct": 238,
+        "misses": 275,
+        "avgBrier": 0.2151500772311438,
+        "avgConfidence": 0.44779551501420495,
+        "accuracy": 0.46393762183235865,
+        "missRate": 0.5360623781676414
       },
       {
         "key": "<40%",
         "label": "<40%",
-        "matches": 52,
-        "correct": 18,
-        "misses": 34,
-        "avgBrier": 0.22179087011820078,
-        "avgConfidence": 0.37842203018561205,
-        "accuracy": 0.34615384615384615,
-        "missRate": 0.6538461538461539
+        "matches": 130,
+        "correct": 64,
+        "misses": 66,
+        "avgBrier": 0.21829697161437348,
+        "avgConfidence": 0.37795265513241905,
+        "accuracy": 0.49230769230769234,
+        "missRate": 0.5076923076923077
+      },
+      {
+        "key": "50-60%",
+        "label": "50-60%",
+        "matches": 97,
+        "correct": 56,
+        "misses": 41,
+        "avgBrier": 0.18895371068061814,
+        "avgConfidence": 0.5451303266255711,
+        "accuracy": 0.5773195876288659,
+        "missRate": 0.422680412371134
+      },
+      {
+        "key": "60-70%",
+        "label": "60-70%",
+        "matches": 55,
+        "correct": 34,
+        "misses": 21,
+        "avgBrier": 0.18395380774827091,
+        "avgConfidence": 0.6452661555990146,
+        "accuracy": 0.6181818181818182,
+        "missRate": 0.38181818181818183
+      },
+      {
+        "key": "70%+",
+        "label": "70%+",
+        "matches": 57,
+        "correct": 44,
+        "misses": 13,
+        "avgBrier": 0.12994399297387998,
+        "avgConfidence": 0.8094629427368535,
+        "accuracy": 0.7719298245614035,
+        "missRate": 0.22807017543859648
       }
     ],
     "byStage": [
       {
-        "key": "Round of 16",
-        "label": "Round of 16",
-        "matches": 72,
-        "correct": 12,
-        "misses": 60,
-        "avgBrier": 0.2781418717640027,
-        "avgConfidence": 0.5805302259872965,
-        "accuracy": 0.16666666666666666,
-        "missRate": 0.8333333333333334
+        "key": "Quarter-finals",
+        "label": "Quarter-finals",
+        "matches": 66,
+        "correct": 31,
+        "misses": 35,
+        "avgBrier": 0.20507894391835363,
+        "avgConfidence": 0.468785956046314,
+        "accuracy": 0.4696969696969697,
+        "missRate": 0.5303030303030303
       },
       {
         "key": "Group A",
         "label": "Group A",
         "matches": 60,
-        "correct": 17,
-        "misses": 43,
-        "avgBrier": 0.2561450838578066,
-        "avgConfidence": 0.5784539050103543,
-        "accuracy": 0.2833333333333333,
-        "missRate": 0.7166666666666667
+        "correct": 28,
+        "misses": 32,
+        "avgBrier": 0.21596241610652295,
+        "avgConfidence": 0.45973028893256873,
+        "accuracy": 0.4666666666666667,
+        "missRate": 0.5333333333333333
       },
       {
-        "key": "Quarter-finals",
-        "label": "Quarter-finals",
-        "matches": 66,
-        "correct": 25,
-        "misses": 41,
-        "avgBrier": 0.24399711761102205,
-        "avgConfidence": 0.5850768625019741,
-        "accuracy": 0.3787878787878788,
-        "missRate": 0.6212121212121212
-      },
-      {
-        "key": "Group B",
-        "label": "Group B",
-        "matches": 60,
-        "correct": 21,
-        "misses": 39,
-        "avgBrier": 0.24280349811610144,
-        "avgConfidence": 0.5583098704600852,
-        "accuracy": 0.35,
-        "missRate": 0.65
-      },
-      {
-        "key": "Group D",
-        "label": "Group D",
-        "matches": 48,
-        "correct": 12,
-        "misses": 36,
-        "avgBrier": 0.26773007876820815,
-        "avgConfidence": 0.5622721861193124,
-        "accuracy": 0.25,
-        "missRate": 0.75
+        "key": "Round of 16",
+        "label": "Round of 16",
+        "matches": 72,
+        "correct": 40,
+        "misses": 32,
+        "avgBrier": 0.20940414482105793,
+        "avgConfidence": 0.44550026250718056,
+        "accuracy": 0.5555555555555556,
+        "missRate": 0.4444444444444444
       },
       {
         "key": "Group 1",
         "label": "Group 1",
         "matches": 62,
-        "correct": 26,
-        "misses": 36,
-        "avgBrier": 0.2070949249581329,
-        "avgConfidence": 0.588352735913067,
-        "accuracy": 0.41935483870967744,
-        "missRate": 0.5806451612903226
+        "correct": 31,
+        "misses": 31,
+        "avgBrier": 0.19946789340978768,
+        "avgConfidence": 0.5377540425086857,
+        "accuracy": 0.5,
+        "missRate": 0.5
       },
       {
-        "key": "Group 2",
-        "label": "Group 2",
-        "matches": 59,
-        "correct": 24,
-        "misses": 35,
-        "avgBrier": 0.20986510319278884,
-        "avgConfidence": 0.558350355741725,
-        "accuracy": 0.4067796610169492,
-        "missRate": 0.5932203389830508
+        "key": "Group B",
+        "label": "Group B",
+        "matches": 60,
+        "correct": 30,
+        "misses": 30,
+        "avgBrier": 0.20833509342337936,
+        "avgConfidence": 0.44871272585155153,
+        "accuracy": 0.5,
+        "missRate": 0.5
       },
       {
-        "key": "Group 3",
-        "label": "Group 3",
-        "matches": 56,
-        "correct": 24,
-        "misses": 32,
-        "avgBrier": 0.2162402901319922,
-        "avgConfidence": 0.5896585312568813,
-        "accuracy": 0.42857142857142855,
-        "missRate": 0.5714285714285714
+        "key": "Group D",
+        "label": "Group D",
+        "matches": 48,
+        "correct": 20,
+        "misses": 28,
+        "avgBrier": 0.2355094940054259,
+        "avgConfidence": 0.4878513733108223,
+        "accuracy": 0.4166666666666667,
+        "missRate": 0.5833333333333334
       },
       {
         "key": "Group F",
         "label": "Group F",
         "matches": 48,
-        "correct": 17,
-        "misses": 31,
-        "avgBrier": 0.23660102133166325,
-        "avgConfidence": 0.5588106512643645,
-        "accuracy": 0.3541666666666667,
-        "missRate": 0.6458333333333334
+        "correct": 22,
+        "misses": 26,
+        "avgBrier": 0.2251911014048076,
+        "avgConfidence": 0.4714051077486607,
+        "accuracy": 0.4583333333333333,
+        "missRate": 0.5416666666666666
       },
       {
-        "key": "Group E",
-        "label": "Group E",
-        "matches": 48,
-        "correct": 18,
-        "misses": 30,
-        "avgBrier": 0.23704487725143888,
-        "avgConfidence": 0.6021262499312305,
-        "accuracy": 0.375,
-        "missRate": 0.625
+        "key": "Group 3",
+        "label": "Group 3",
+        "matches": 56,
+        "correct": 30,
+        "misses": 26,
+        "avgBrier": 0.19773455434128975,
+        "avgConfidence": 0.5371584398495038,
+        "accuracy": 0.5357142857142857,
+        "missRate": 0.4642857142857143
       },
       {
         "key": "Group 4",
         "label": "Group 4",
         "matches": 55,
-        "correct": 26,
-        "misses": 29,
-        "avgBrier": 0.2035416325732309,
-        "avgConfidence": 0.5183119653139641,
-        "accuracy": 0.4727272727272727,
-        "missRate": 0.5272727272727272
+        "correct": 31,
+        "misses": 24,
+        "avgBrier": 0.19430653033275827,
+        "avgConfidence": 0.49000898576237917,
+        "accuracy": 0.5636363636363636,
+        "missRate": 0.43636363636363634
+      },
+      {
+        "key": "Group 2",
+        "label": "Group 2",
+        "matches": 59,
+        "correct": 35,
+        "misses": 24,
+        "avgBrier": 0.19424454793961513,
+        "avgConfidence": 0.5165984217953147,
+        "accuracy": 0.5932203389830508,
+        "missRate": 0.4067796610169492
+      },
+      {
+        "key": "Group E",
+        "label": "Group E",
+        "matches": 48,
+        "correct": 28,
+        "misses": 20,
+        "avgBrier": 0.19784322931757484,
+        "avgConfidence": 0.47165911991738346,
+        "accuracy": 0.5833333333333334,
+        "missRate": 0.4166666666666667
       },
       {
         "key": "Semi-finals",
         "label": "Semi-finals",
         "matches": 36,
-        "correct": 11,
-        "misses": 25,
-        "avgBrier": 0.24903503300159194,
-        "avgConfidence": 0.5993606690468882,
-        "accuracy": 0.3055555555555556,
-        "missRate": 0.6944444444444444
+        "correct": 18,
+        "misses": 18,
+        "avgBrier": 0.20962411416273838,
+        "avgConfidence": 0.47428337158217015,
+        "accuracy": 0.5,
+        "missRate": 0.5
       }
     ],
     "byEra": [
@@ -563,45 +563,45 @@ export const worldCupBacktest = {
         "key": "1990s-2000s",
         "label": "1990s-2000s",
         "matches": 296,
-        "correct": 105,
-        "misses": 191,
-        "avgBrier": 0.23587651251773956,
-        "avgConfidence": 0.5698738184713457,
-        "accuracy": 0.3547297297297297,
-        "missRate": 0.6452702702702703
+        "correct": 155,
+        "misses": 141,
+        "avgBrier": 0.20700853032625174,
+        "avgConfidence": 0.4678151267644009,
+        "accuracy": 0.5236486486486487,
+        "missRate": 0.47635135135135137
       },
       {
         "key": "1970s-1980s",
         "label": "1970s-1980s",
         "matches": 212,
-        "correct": 72,
-        "misses": 140,
-        "avgBrier": 0.23253464207725888,
-        "avgConfidence": 0.563754376936784,
-        "accuracy": 0.33962264150943394,
-        "missRate": 0.660377358490566
+        "correct": 105,
+        "misses": 107,
+        "avgBrier": 0.20467788042630627,
+        "avgConfidence": 0.4731360448741004,
+        "accuracy": 0.49528301886792453,
+        "missRate": 0.5047169811320755
       },
       {
         "key": "2010s",
         "label": "2010s",
         "matches": 144,
-        "correct": 38,
-        "misses": 106,
-        "avgBrier": 0.27487288315415825,
-        "avgConfidence": 0.6071315632945261,
-        "accuracy": 0.2638888888888889,
-        "missRate": 0.7361111111111112
+        "correct": 62,
+        "misses": 82,
+        "avgBrier": 0.217539461923144,
+        "avgConfidence": 0.464939035985905,
+        "accuracy": 0.4305555555555556,
+        "missRate": 0.5694444444444444
       },
       {
         "key": "1950s-1960s",
         "label": "1950s-1960s",
         "matches": 147,
-        "correct": 55,
-        "misses": 92,
-        "avgBrier": 0.22101959383409497,
-        "avgConfidence": 0.5511463021197704,
-        "accuracy": 0.3741496598639456,
-        "missRate": 0.6258503401360545
+        "correct": 76,
+        "misses": 71,
+        "avgBrier": 0.20304551523211004,
+        "avgConfidence": 0.5234353679671973,
+        "accuracy": 0.5170068027210885,
+        "missRate": 0.48299319727891155
       },
       {
         "key": "1930s-1940s",
@@ -609,7 +609,7 @@ export const worldCupBacktest = {
         "matches": 53,
         "correct": 38,
         "misses": 15,
-        "avgBrier": 0.16535403788926178,
+        "avgBrier": 0.16535403788926173,
         "avgConfidence": 0.5789674158001569,
         "accuracy": 0.7169811320754716,
         "missRate": 0.2830188679245283
@@ -620,311 +620,311 @@ export const worldCupBacktest = {
         "key": "One-goal games",
         "label": "One-goal games",
         "matches": 334,
-        "correct": 65,
-        "misses": 269,
-        "avgBrier": 0.2793126779314781,
-        "avgConfidence": 0.5609211165255883,
-        "accuracy": 0.19461077844311378,
-        "missRate": 0.8053892215568862
-      },
-      {
-        "key": "Two-goal games",
-        "label": "Two-goal games",
-        "matches": 172,
-        "correct": 45,
-        "misses": 127,
-        "avgBrier": 0.2569589898076861,
-        "avgConfidence": 0.566719871645078,
-        "accuracy": 0.2616279069767442,
-        "missRate": 0.7383720930232558
-      },
-      {
-        "key": "Blowouts",
-        "label": "Blowouts",
-        "matches": 156,
-        "correct": 63,
-        "misses": 93,
-        "avgBrier": 0.21607750996335115,
-        "avgConfidence": 0.5892472433398729,
-        "accuracy": 0.40384615384615385,
-        "missRate": 0.5961538461538461
+        "correct": 175,
+        "misses": 159,
+        "avgBrier": 0.21470889697211618,
+        "avgConfidence": 0.46653001556803303,
+        "accuracy": 0.5239520958083832,
+        "missRate": 0.47604790419161674
       },
       {
         "key": "Draws",
         "label": "Draws",
         "matches": 190,
-        "correct": 135,
-        "misses": 55,
-        "avgBrier": 0.15135083721712095,
-        "avgConfidence": 0.5820171680948564,
-        "accuracy": 0.7105263157894737,
-        "missRate": 0.2894736842105263
+        "correct": 54,
+        "misses": 136,
+        "avgBrier": 0.2186035467098397,
+        "avgConfidence": 0.4796901643066422,
+        "accuracy": 0.28421052631578947,
+        "missRate": 0.7157894736842105
+      },
+      {
+        "key": "Two-goal games",
+        "label": "Two-goal games",
+        "matches": 172,
+        "correct": 95,
+        "misses": 77,
+        "avgBrier": 0.20695433550491787,
+        "avgConfidence": 0.49478485150420737,
+        "accuracy": 0.5523255813953488,
+        "missRate": 0.4476744186046512
+      },
+      {
+        "key": "Blowouts",
+        "label": "Blowouts",
+        "matches": 156,
+        "correct": 112,
+        "misses": 44,
+        "avgBrier": 0.16512680590210865,
+        "avgConfidence": 0.5211183427526915,
+        "accuracy": 0.717948717948718,
+        "missRate": 0.28205128205128205
       }
     ],
     "wrongPredictedTeams": [
       {
         "key": "Italy",
         "label": "Italy",
-        "matches": 7,
+        "matches": 19,
         "correct": 0,
-        "misses": 7,
-        "avgBrier": 0.35514401603452367,
-        "avgConfidence": 0.5452425226623543,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Hungary",
-        "label": "Hungary",
-        "matches": 7,
-        "correct": 0,
-        "misses": 7,
-        "avgBrier": 0.31438403580892615,
-        "avgConfidence": 0.506806251112427,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Yugoslavia",
-        "label": "Yugoslavia",
-        "matches": 6,
-        "correct": 0,
-        "misses": 6,
-        "avgBrier": 0.24969900720643845,
-        "avgConfidence": 0.5046796360693616,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Germany FR",
-        "label": "Germany FR",
-        "matches": 6,
-        "correct": 0,
-        "misses": 6,
-        "avgBrier": 0.356836999955587,
-        "avgConfidence": 0.6170203432374147,
+        "misses": 19,
+        "avgBrier": 0.2987944900676037,
+        "avgConfidence": 0.4912693726022132,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Brazil",
         "label": "Brazil",
-        "matches": 5,
+        "matches": 18,
         "correct": 0,
-        "misses": 5,
-        "avgBrier": 0.3112554717016756,
-        "avgConfidence": 0.6067720763121358,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Sweden",
-        "label": "Sweden",
-        "matches": 5,
-        "correct": 0,
-        "misses": 5,
-        "avgBrier": 0.2739475193402382,
-        "avgConfidence": 0.5303451677732068,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Chile",
-        "label": "Chile",
-        "matches": 4,
-        "correct": 0,
-        "misses": 4,
-        "avgBrier": 0.29900952125693614,
-        "avgConfidence": 0.5646111694617337,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Argentina",
-        "label": "Argentina",
-        "matches": 4,
-        "correct": 0,
-        "misses": 4,
-        "avgBrier": 0.34257590576853497,
-        "avgConfidence": 0.5148001278871156,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Germany",
-        "label": "Germany",
-        "matches": 4,
-        "correct": 0,
-        "misses": 4,
-        "avgBrier": 0.32752442528467657,
-        "avgConfidence": 0.5509405356550088,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "France",
-        "label": "France",
-        "matches": 3,
-        "correct": 0,
-        "misses": 3,
-        "avgBrier": 0.3453082270237598,
-        "avgConfidence": 0.6320513925979768,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Czechoslovakia",
-        "label": "Czechoslovakia",
-        "matches": 3,
-        "correct": 0,
-        "misses": 3,
-        "avgBrier": 0.3145211041961977,
-        "avgConfidence": 0.515971565360519,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "England",
-        "label": "England",
-        "matches": 3,
-        "correct": 0,
-        "misses": 3,
-        "avgBrier": 0.4180896966383331,
-        "avgConfidence": 0.7348821786705136,
-        "accuracy": 0,
-        "missRate": 1
-      }
-    ],
-    "missedActualTeams": [
-      {
-        "key": "Brazil",
-        "label": "Brazil",
-        "matches": 50,
-        "correct": 0,
-        "misses": 50,
-        "avgBrier": 0.2807602441664698,
-        "avgConfidence": 0.5651638522099104,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Argentina",
-        "label": "Argentina",
-        "matches": 35,
-        "correct": 0,
-        "misses": 35,
-        "avgBrier": 0.3119347529926227,
-        "avgConfidence": 0.5770664418872838,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Italy",
-        "label": "Italy",
-        "matches": 34,
-        "correct": 0,
-        "misses": 34,
-        "avgBrier": 0.31590756074095205,
-        "avgConfidence": 0.5739443320090127,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Germany FR",
-        "label": "Germany FR",
-        "matches": 27,
-        "correct": 0,
-        "misses": 27,
-        "avgBrier": 0.29259757508194817,
-        "avgConfidence": 0.5536324317371819,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Germany",
-        "label": "Germany",
-        "matches": 27,
-        "correct": 0,
-        "misses": 27,
-        "avgBrier": 0.2835921927431287,
-        "avgConfidence": 0.5779447604952,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "Netherlands",
-        "label": "Netherlands",
-        "matches": 26,
-        "correct": 0,
-        "misses": 26,
-        "avgBrier": 0.30853703478061484,
-        "avgConfidence": 0.5831112706762764,
-        "accuracy": 0,
-        "missRate": 1
-      },
-      {
-        "key": "England",
-        "label": "England",
-        "matches": 24,
-        "correct": 0,
-        "misses": 24,
-        "avgBrier": 0.3177405318411144,
-        "avgConfidence": 0.5797069804007717,
+        "misses": 18,
+        "avgBrier": 0.2658014805272081,
+        "avgConfidence": 0.49339320518853913,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Spain",
         "label": "Spain",
-        "matches": 20,
+        "matches": 14,
         "correct": 0,
-        "misses": 20,
-        "avgBrier": 0.33195501813620903,
-        "avgConfidence": 0.6094032432762055,
+        "misses": 14,
+        "avgBrier": 0.2501819705801665,
+        "avgConfidence": 0.43906354339742026,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Germany FR",
+        "label": "Germany FR",
+        "matches": 13,
+        "correct": 0,
+        "misses": 13,
+        "avgBrier": 0.29482094889494276,
+        "avgConfidence": 0.5127110035564935,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "France",
         "label": "France",
-        "matches": 19,
+        "matches": 12,
         "correct": 0,
-        "misses": 19,
-        "avgBrier": 0.31809552982891687,
-        "avgConfidence": 0.574683771283038,
+        "misses": 12,
+        "avgBrier": 0.2652610194690663,
+        "avgConfidence": 0.48653078448029197,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Hungary",
+        "label": "Hungary",
+        "matches": 11,
+        "correct": 0,
+        "misses": 11,
+        "avgBrier": 0.30087069214085405,
+        "avgConfidence": 0.4746482581064091,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Argentina",
+        "label": "Argentina",
+        "matches": 10,
+        "correct": 0,
+        "misses": 10,
+        "avgBrier": 0.3151963748100306,
+        "avgConfidence": 0.46784067315194366,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "England",
+        "label": "England",
+        "matches": 9,
+        "correct": 0,
+        "misses": 9,
+        "avgBrier": 0.2665522849474767,
+        "avgConfidence": 0.5392276047290564,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Yugoslavia",
+        "label": "Yugoslavia",
+        "matches": 9,
+        "correct": 0,
+        "misses": 9,
+        "avgBrier": 0.2626089363295947,
+        "avgConfidence": 0.4765952087700582,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Uruguay",
+        "label": "Uruguay",
+        "matches": 9,
+        "correct": 0,
+        "misses": 9,
+        "avgBrier": 0.2825133342794763,
+        "avgConfidence": 0.4537474214163044,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Sweden",
         "label": "Sweden",
-        "matches": 14,
+        "matches": 8,
         "correct": 0,
-        "misses": 14,
-        "avgBrier": 0.31878120349609806,
-        "avgConfidence": 0.5509680726192675,
+        "misses": 8,
+        "avgBrier": 0.26621224819412137,
+        "avgConfidence": 0.48078461200659844,
         "accuracy": 0,
         "missRate": 1
       },
       {
-        "key": "Mexico",
-        "label": "Mexico",
-        "matches": 13,
+        "key": "Soviet Union",
+        "label": "Soviet Union",
+        "matches": 8,
         "correct": 0,
-        "misses": 13,
-        "avgBrier": 0.34111220794008784,
-        "avgConfidence": 0.5825489630206568,
+        "misses": 8,
+        "avgBrier": 0.28932652724336844,
+        "avgConfidence": 0.4724676594401598,
+        "accuracy": 0,
+        "missRate": 1
+      }
+    ],
+    "missedActualTeams": [
+      {
+        "key": "Argentina",
+        "label": "Argentina",
+        "matches": 18,
+        "correct": 0,
+        "misses": 18,
+        "avgBrier": 0.2872418483568436,
+        "avgConfidence": 0.4906636094176667,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Italy",
+        "label": "Italy",
+        "matches": 17,
+        "correct": 0,
+        "misses": 17,
+        "avgBrier": 0.27314778915045723,
+        "avgConfidence": 0.442561076533194,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Brazil",
+        "label": "Brazil",
+        "matches": 15,
+        "correct": 0,
+        "misses": 15,
+        "avgBrier": 0.25141317698168075,
+        "avgConfidence": 0.4461541853417202,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "England",
+        "label": "England",
+        "matches": 14,
+        "correct": 0,
+        "misses": 14,
+        "avgBrier": 0.25768414941162526,
+        "avgConfidence": 0.4334007649654835,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Sweden",
+        "label": "Sweden",
+        "matches": 12,
+        "correct": 0,
+        "misses": 12,
+        "avgBrier": 0.2781535456284232,
+        "avgConfidence": 0.4744669697416004,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Germany FR",
+        "label": "Germany FR",
+        "matches": 12,
+        "correct": 0,
+        "misses": 12,
+        "avgBrier": 0.26187334919950933,
+        "avgConfidence": 0.4607375233629978,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "France",
+        "label": "France",
+        "matches": 12,
+        "correct": 0,
+        "misses": 12,
+        "avgBrier": 0.2610610846613402,
+        "avgConfidence": 0.4290491092552326,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Spain",
+        "label": "Spain",
+        "matches": 11,
+        "correct": 0,
+        "misses": 11,
+        "avgBrier": 0.29882540717475875,
+        "avgConfidence": 0.48524322794280433,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Netherlands",
+        "label": "Netherlands",
+        "matches": 11,
+        "correct": 0,
+        "misses": 11,
+        "avgBrier": 0.2586272047224006,
+        "avgConfidence": 0.44853686940509496,
         "accuracy": 0,
         "missRate": 1
       },
       {
         "key": "Belgium",
         "label": "Belgium",
-        "matches": 13,
+        "matches": 9,
         "correct": 0,
-        "misses": 13,
-        "avgBrier": 0.3432524230307793,
-        "avgConfidence": 0.578072458828406,
+        "misses": 9,
+        "avgBrier": 0.30576831414591343,
+        "avgConfidence": 0.46795614953856973,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Switzerland",
+        "label": "Switzerland",
+        "matches": 8,
+        "correct": 0,
+        "misses": 8,
+        "avgBrier": 0.31404051928262144,
+        "avgConfidence": 0.466277623216536,
+        "accuracy": 0,
+        "missRate": 1
+      },
+      {
+        "key": "Mexico",
+        "label": "Mexico",
+        "matches": 8,
+        "correct": 0,
+        "misses": 8,
+        "avgBrier": 0.31085114775810224,
+        "avgConfidence": 0.465305593066711,
         "accuracy": 0,
         "missRate": 1
       }
@@ -996,19 +996,6 @@ export const worldCupBacktest = {
         "awayProbability": 0.8126736118219985
       },
       {
-        "year": 1986,
-        "date": "1986-06-11",
-        "stage": "Group F",
-        "match": "England vs Poland",
-        "score": "3-0",
-        "predicted": "Draw",
-        "actual": "Home",
-        "confidence": 0.7935500007699894,
-        "homeProbability": 0.08037385966157953,
-        "drawProbability": 0.7935500007699894,
-        "awayProbability": 0.12607613956843114
-      },
-      {
         "year": 1930,
         "date": "1930-07-22",
         "stage": "Group 1",
@@ -1020,19 +1007,6 @@ export const worldCupBacktest = {
         "homeProbability": 0.08878513053089498,
         "drawProbability": 0.12000776294938477,
         "awayProbability": 0.7912071065197203
-      },
-      {
-        "year": 1994,
-        "date": "1994-06-24",
-        "stage": "Group E",
-        "match": "Mexico vs rn\">Republic of Ireland",
-        "score": "2-1",
-        "predicted": "Draw",
-        "actual": "Home",
-        "confidence": 0.7873504340304134,
-        "homeProbability": 0.08943872125251717,
-        "drawProbability": 0.7873504340304134,
-        "awayProbability": 0.12321084471706946
       },
       {
         "year": 1930,
@@ -1061,30 +1035,56 @@ export const worldCupBacktest = {
         "awayProbability": 0.08856033068094314
       },
       {
-        "year": 2014,
-        "date": "2014-06-20",
-        "stage": "Group E",
-        "match": "Switzerland vs France",
-        "score": "2-5",
-        "predicted": "Draw",
-        "actual": "Away",
-        "confidence": 0.774319739367435,
-        "homeProbability": 0.09996910465011533,
-        "drawProbability": 0.774319739367435,
-        "awayProbability": 0.12571115598244964
+        "year": 1958,
+        "date": "1958-06-11",
+        "stage": "Group 1",
+        "match": "Germany FR vs Czechoslovakia",
+        "score": "2-2",
+        "predicted": "Home",
+        "actual": "Draw",
+        "confidence": 0.7573215682366258,
+        "homeProbability": 0.7573215682366258,
+        "drawProbability": 0.189663997896318,
+        "awayProbability": 0.05301443386705632
       },
       {
-        "year": 1970,
-        "date": "1970-06-14",
-        "stage": "Quarter-finals",
-        "match": "Italy vs Mexico",
-        "score": "4-1",
-        "predicted": "Draw",
-        "actual": "Home",
-        "confidence": 0.7631691089483508,
-        "homeProbability": 0.13037768218578738,
-        "drawProbability": 0.7631691089483508,
-        "awayProbability": 0.10645320886586182
+        "year": 2010,
+        "date": "2010-06-18",
+        "stage": "Group D",
+        "match": "Germany vs Serbia",
+        "score": "0-1",
+        "predicted": "Home",
+        "actual": "Away",
+        "confidence": 0.7443082962612815,
+        "homeProbability": 0.7443082962612815,
+        "drawProbability": 0.2088317814917089,
+        "awayProbability": 0.04685992224700968
+      },
+      {
+        "year": 1958,
+        "date": "1958-06-08",
+        "stage": "Group 2",
+        "match": "Yugoslavia vs Scotland",
+        "score": "1-1",
+        "predicted": "Home",
+        "actual": "Draw",
+        "confidence": 0.7433743173507098,
+        "homeProbability": 0.7433743173507098,
+        "drawProbability": 0.21451703088807014,
+        "awayProbability": 0.04210865176122008
+      },
+      {
+        "year": 2002,
+        "date": "2002-05-31",
+        "stage": "Group A",
+        "match": "France vs Senegal",
+        "score": "0-1",
+        "predicted": "Home",
+        "actual": "Away",
+        "confidence": 0.7281452139886871,
+        "homeProbability": 0.7281452139886871,
+        "drawProbability": 0.17408884567519936,
+        "awayProbability": 0.09776594033611354
       }
     ]
   },
@@ -1099,13 +1099,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950019",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.36349627403969886,
-      "drawProbability": 0.49285752031328456,
-      "awayProbability": 0.14364620564701658,
-      "predicted": "Draw",
-      "confidence": 0.49285752031328456,
-      "brier": 0.2228932536291636
+      "correct": true,
+      "homeProbability": 0.43471105461309456,
+      "drawProbability": 0.3935001321096496,
+      "awayProbability": 0.17178881327725581,
+      "predicted": "Home",
+      "confidence": 0.43471105461309456,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.16796844737138647
     },
     {
       "year": 2002,
@@ -1123,6 +1126,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.3383361329588361,
       "predicted": "Home",
       "confidence": 0.38898789999789724,
+      "calibrationNotes": [],
       "brier": 0.2649277247089203
     },
     {
@@ -1135,13 +1139,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "43950021",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3857742134225008,
-      "drawProbability": 0.5007865840261322,
-      "awayProbability": 0.11343920255136698,
-      "predicted": "Draw",
-      "confidence": 0.5007865840261322,
-      "brier": 0.21364299077093332
+      "correct": true,
+      "homeProbability": 0.46653677988792674,
+      "drawProbability": 0.3962753044091463,
+      "awayProbability": 0.13718791570292707,
+      "predicted": "Home",
+      "confidence": 0.46653677988792674,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1534792161039391
     },
     {
       "year": 2002,
@@ -1154,12 +1161,15 @@ export const worldCupBacktest = {
       "matchId": "43950023",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.2036869495269283,
-      "drawProbability": 0.6491336729695998,
-      "awayProbability": 0.14717937750347193,
+      "homeProbability": 0.3203359936073401,
+      "drawProbability": 0.44819678553935993,
+      "awayProbability": 0.2314672208533,
       "predicted": "Draw",
-      "confidence": 0.6491336729695998,
-      "brier": 0.39672197098198475
+      "confidence": 0.44819678553935993,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2980460466637224
     },
     {
       "year": 2002,
@@ -1177,6 +1187,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.3277268364873317,
       "predicted": "Home",
       "confidence": 0.49210620900463997,
+      "calibrationNotes": [],
       "brier": 0.13260703792744355
     },
     {
@@ -1190,12 +1201,13 @@ export const worldCupBacktest = {
       "matchId": "43950026",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.7294324451795068,
-      "drawProbability": 0.19821892861217913,
-      "awayProbability": 0.07234862620831398,
+      "homeProbability": 0.7294324451795069,
+      "drawProbability": 0.19821892861217916,
+      "awayProbability": 0.07234862620831399,
       "predicted": "Home",
-      "confidence": 0.7294324451795068,
-      "brier": 0.03924395636531037
+      "confidence": 0.7294324451795069,
+      "calibrationNotes": [],
+      "brier": 0.039243956365310355
     },
     {
       "year": 2002,
@@ -1208,12 +1220,13 @@ export const worldCupBacktest = {
       "matchId": "43950027",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.5748039451323829,
-      "drawProbability": 0.3019172828103713,
-      "awayProbability": 0.12327877205724583,
+      "homeProbability": 0.574803945132383,
+      "drawProbability": 0.30191728281037133,
+      "awayProbability": 0.12327877205724584,
       "predicted": "Home",
-      "confidence": 0.5748039451323829,
-      "brier": 0.09571446212484191
+      "confidence": 0.574803945132383,
+      "calibrationNotes": [],
+      "brier": 0.0957144621248419
     },
     {
       "year": 2002,
@@ -1231,6 +1244,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.257359479939522,
       "predicted": "Home",
       "confidence": 0.5305213877420605,
+      "calibrationNotes": [],
       "brier": 0.3228143688083954
     },
     {
@@ -1249,6 +1263,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.6897743487407272,
       "predicted": "Away",
       "confidence": 0.6897743487407272,
+      "calibrationNotes": [],
       "brier": 0.4343613169652916
     },
     {
@@ -1261,13 +1276,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "43950030",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.1537605446920449,
-      "drawProbability": 0.5908611034716426,
-      "awayProbability": 0.25537835183631247,
-      "predicted": "Draw",
-      "confidence": 0.5908611034716426,
-      "brier": 0.0854183481143559
+      "correct": false,
+      "homeProbability": 0.24910606658127124,
+      "drawProbability": 0.3371577773497974,
+      "awayProbability": 0.41373615606893127,
+      "predicted": "Away",
+      "confidence": 0.41373615606893127,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2241970837913829
     },
     {
       "year": 2002,
@@ -1279,13 +1298,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "43950031",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.11201552549742226,
-      "drawProbability": 0.6360304485103953,
-      "awayProbability": 0.2519540259921824,
-      "predicted": "Draw",
-      "confidence": 0.6360304485103953,
-      "brier": 0.06950071452589235
+      "correct": false,
+      "homeProbability": 0.19538047756940383,
+      "drawProbability": 0.3651545669676197,
+      "awayProbability": 0.43946495546297654,
+      "predicted": "Away",
+      "confidence": 0.43946495546297654,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.21144390064579824
     },
     {
       "year": 2002,
@@ -1297,13 +1320,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950032",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3321763077433956,
-      "drawProbability": 0.5431024333827243,
-      "awayProbability": 0.12472125887388015,
-      "predicted": "Draw",
-      "confidence": 0.5431024333827243,
-      "brier": 0.2521680431668552
+      "correct": true,
+      "homeProbability": 0.4281557654460794,
+      "drawProbability": 0.4110858516839535,
+      "awayProbability": 0.160758382869967,
+      "predicted": "Home",
+      "confidence": 0.4281557654460794,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17394688790341586
     },
     {
       "year": 2002,
@@ -1316,12 +1342,15 @@ export const worldCupBacktest = {
       "matchId": "43950033",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.15841620674586085,
-      "drawProbability": 0.6247376822495048,
-      "awayProbability": 0.21684611100463444,
+      "homeProbability": 0.23654712987312682,
+      "drawProbability": 0.43965818878732665,
+      "awayProbability": 0.3237946813395466,
       "predicted": "Draw",
-      "confidence": 0.6247376822495048,
-      "brier": 0.381860896182781
+      "confidence": 0.43965818878732665,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2936675345121638
     },
     {
       "year": 2002,
@@ -1333,13 +1362,16 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "43950035",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.09144649377572493,
-      "drawProbability": 0.5075583745069987,
-      "awayProbability": 0.40099513171727635,
-      "predicted": "Draw",
-      "confidence": 0.5075583745069987,
-      "brier": 0.2082615989941545
+      "correct": true,
+      "homeProbability": 0.11167164593148578,
+      "drawProbability": 0.39864543107744954,
+      "awayProbability": 0.48968292299106464,
+      "predicted": "Away",
+      "confidence": 0.48968292299106464,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14393741843697214
     },
     {
       "year": 2002,
@@ -1351,13 +1383,17 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "43950036",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.0762366057298253,
-      "drawProbability": 0.6394624209415042,
-      "awayProbability": 0.28430097332867055,
-      "predicted": "Draw",
-      "confidence": 0.6394624209415042,
-      "brier": 0.30898310154262093
+      "correct": true,
+      "homeProbability": 0.12310935312955902,
+      "drawProbability": 0.4177921785488917,
+      "awayProbability": 0.4590984683215493,
+      "predicted": "Away",
+      "confidence": 0.4590984683215493,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16076022808556714
     },
     {
       "year": 2002,
@@ -1370,12 +1406,15 @@ export const worldCupBacktest = {
       "matchId": "43950037",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.20452248766193576,
-      "drawProbability": 0.6424105410972101,
-      "awayProbability": 0.15306697124085414,
+      "homeProbability": 0.3169484568938328,
+      "drawProbability": 0.4458436893840235,
+      "awayProbability": 0.2372078537221437,
       "predicted": "Draw",
-      "confidence": 0.6424105410972101,
-      "brier": 0.06437638892088841
+      "confidence": 0.4458436893840235,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15460436893011942
     },
     {
       "year": 2002,
@@ -1387,13 +1426,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950038",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.09990994302349678,
-      "drawProbability": 0.592502689937854,
-      "awayProbability": 0.3075873670386492,
-      "predicted": "Draw",
-      "confidence": 0.592502689937854,
-      "brier": 0.0902153475948706
+      "correct": false,
+      "homeProbability": 0.14015043954292203,
+      "drawProbability": 0.4283759414782489,
+      "awayProbability": 0.4314736189788291,
+      "predicted": "Away",
+      "confidence": 0.4314736189788291,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17752189795321346
     },
     {
       "year": 2002,
@@ -1406,12 +1448,15 @@ export const worldCupBacktest = {
       "matchId": "43950039",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.14810463382717026,
-      "drawProbability": 0.3701648950794356,
-      "awayProbability": 0.48173047109339406,
+      "homeProbability": 0.15271522866132115,
+      "drawProbability": 0.3505577132778025,
+      "awayProbability": 0.4967270580608763,
       "predicted": "Away",
-      "confidence": 0.48173047109339406,
-      "brier": 0.14252011223444166
+      "confidence": 0.4967270580608763,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13316543516390075
     },
     {
       "year": 2002,
@@ -1424,12 +1469,15 @@ export const worldCupBacktest = {
       "matchId": "43950040",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.18738938065959176,
-      "drawProbability": 0.39155011201576095,
-      "awayProbability": 0.4210605073246473,
+      "homeProbability": 0.19770898699088682,
+      "drawProbability": 0.3580425392055163,
+      "awayProbability": 0.4442484738035969,
       "predicted": "Away",
-      "confidence": 0.4210605073246473,
-      "brier": 0.17453240212757837
+      "confidence": 0.4442484738035969,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15871435409577592
     },
     {
       "year": 2002,
@@ -1441,13 +1489,16 @@ export const worldCupBacktest = {
       "awayGoals": 5,
       "matchId": "43950041",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.16556766090014347,
-      "drawProbability": 0.46859996904933515,
-      "awayProbability": 0.3658323700505214,
-      "predicted": "Draw",
-      "confidence": 0.46859996904933515,
-      "brier": 0.21638905473490722
+      "correct": true,
+      "homeProbability": 0.19161168919838215,
+      "drawProbability": 0.3850099891672673,
+      "awayProbability": 0.4233783216343506,
+      "predicted": "Away",
+      "confidence": 0.4233783216343506,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1724800970524184
     },
     {
       "year": 2002,
@@ -1465,6 +1516,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.026021509819653225,
       "predicted": "Home",
       "confidence": 0.9042503111488439,
+      "calibrationNotes": [],
       "brier": 0.004902380279812276
     },
     {
@@ -1478,12 +1530,15 @@ export const worldCupBacktest = {
       "matchId": "43950043",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1214359643657122,
-      "drawProbability": 0.669048921559832,
-      "awayProbability": 0.2095151140744558,
+      "homeProbability": 0.199915667909633,
+      "drawProbability": 0.4551671225459412,
+      "awayProbability": 0.3449172095444258,
       "predicted": "Draw",
-      "confidence": 0.669048921559832,
-      "brier": 0.05605729759592434
+      "confidence": 0.4551671225459412,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1519256733568458
     },
     {
       "year": 2002,
@@ -1501,6 +1556,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.5839623055832953,
       "predicted": "Away",
       "confidence": 0.5839623055832953,
+      "calibrationNotes": [],
       "brier": 0.4180694571259906
     },
     {
@@ -1513,13 +1569,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "43950045",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.14892418546735053,
-      "drawProbability": 0.5897795223431344,
-      "awayProbability": 0.2612962921895151,
-      "predicted": "Draw",
-      "confidence": 0.5897795223431344,
-      "brier": 0.30523382197512255
+      "correct": true,
+      "homeProbability": 0.23789218605319565,
+      "drawProbability": 0.34471190231909865,
+      "awayProbability": 0.41739591162770573,
+      "predicted": "Away",
+      "confidence": 0.41739591162770573,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.17161550385791072
     },
     {
       "year": 2002,
@@ -1532,12 +1592,16 @@ export const worldCupBacktest = {
       "matchId": "43950046",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.20823404353190852,
-      "drawProbability": 0.46573177615027317,
-      "awayProbability": 0.3260341803178182,
-      "predicted": "Draw",
-      "confidence": 0.46573177615027317,
-      "brier": 0.31669923462447713
+      "homeProbability": 0.25103894473466026,
+      "drawProbability": 0.35590680156991433,
+      "awayProbability": 0.3930542536954254,
+      "predicted": "Away",
+      "confidence": 0.3930542536954254,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2807013200186552
     },
     {
       "year": 2002,
@@ -1550,12 +1614,15 @@ export const worldCupBacktest = {
       "matchId": "43950047",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.4070089462527182,
-      "drawProbability": 0.48522655983201085,
-      "awayProbability": 0.10776449391527101,
-      "predicted": "Draw",
-      "confidence": 0.48522655983201085,
-      "brier": 0.39906176500480955
+      "homeProbability": 0.481644752818028,
+      "drawProbability": 0.39082929594120386,
+      "awayProbability": 0.1275259512407682,
+      "predicted": "Home",
+      "confidence": 0.481644752818028,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.38198005741378754
     },
     {
       "year": 2002,
@@ -1568,12 +1635,16 @@ export const worldCupBacktest = {
       "matchId": "43950048",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.10902475145415856,
-      "drawProbability": 0.6120611669315951,
-      "awayProbability": 0.27891408161424625,
-      "predicted": "Draw",
-      "confidence": 0.6120611669315951,
-      "brier": 0.4154162768365694
+      "homeProbability": 0.1725404607867557,
+      "drawProbability": 0.38605551379914904,
+      "awayProbability": 0.44140402541409535,
+      "predicted": "Away",
+      "confidence": 0.44140402541409535,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.3428552208071623
     },
     {
       "year": 2002,
@@ -1585,13 +1656,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950049",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.38919309584092365,
-      "drawProbability": 0.4953449745827406,
-      "awayProbability": 0.1154619295763358,
-      "predicted": "Draw",
-      "confidence": 0.4953449745827406,
-      "brier": 0.2105943917314206
+      "correct": true,
+      "homeProbability": 0.4670650530165772,
+      "drawProbability": 0.39437074110395925,
+      "awayProbability": 0.13856420587946366,
+      "predicted": "Home",
+      "confidence": 0.4670650530165772,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15291599276870535
     },
     {
       "year": 2002,
@@ -1604,12 +1678,15 @@ export const worldCupBacktest = {
       "matchId": "43950050",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17124758714600083,
-      "drawProbability": 0.6881059371239908,
-      "awayProbability": 0.14064647573000844,
+      "homeProbability": 0.2954820654015119,
+      "drawProbability": 0.4618370779933968,
+      "awayProbability": 0.24268085660509137,
       "predicted": "Draw",
-      "confidence": 0.6881059371239908,
-      "brier": 0.4137679988279559
+      "confidence": 0.4618370779933968,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2913784741786068
     },
     {
       "year": 2002,
@@ -1622,12 +1699,15 @@ export const worldCupBacktest = {
       "matchId": "43950051",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.35801288269846726,
-      "drawProbability": 0.403327715088967,
-      "awayProbability": 0.23865940221256576,
-      "predicted": "Draw",
-      "confidence": 0.403327715088967,
-      "brier": 0.290161991925427
+      "homeProbability": 0.3827113477765088,
+      "drawProbability": 0.36216470028113845,
+      "awayProbability": 0.25512395194235277,
+      "predicted": "Home",
+      "confidence": 0.3827113477765088,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2774905242722057
     },
     {
       "year": 2002,
@@ -1639,13 +1719,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "43950052",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.25161387484514175,
-      "drawProbability": 0.6188706515609174,
-      "awayProbability": 0.12951547359394092,
-      "predicted": "Draw",
-      "confidence": 0.6188706515609174,
-      "brier": 0.07511446005214971
+      "correct": false,
+      "homeProbability": 0.4282705045649634,
+      "drawProbability": 0.3512819654282539,
+      "awayProbability": 0.22044753000678274,
+      "predicted": "Home",
+      "confidence": 0.4282705045649634,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.21761594231501627
     },
     {
       "year": 2002,
@@ -1657,13 +1741,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950054",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3949558797146535,
-      "drawProbability": 0.4631299470696852,
-      "awayProbability": 0.14191417321566124,
-      "predicted": "Draw",
-      "confidence": 0.4631299470696852,
-      "brier": 0.20023578930804098
+      "correct": true,
+      "homeProbability": 0.4538343412607011,
+      "drawProbability": 0.3830954814743899,
+      "awayProbability": 0.16307017726490908,
+      "predicted": "Home",
+      "confidence": 0.4538343412607011,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1572169858084786
     },
     {
       "year": 2002,
@@ -1676,12 +1763,15 @@ export const worldCupBacktest = {
       "matchId": "43950055",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.3739824534048572,
-      "drawProbability": 0.36018251995275047,
-      "awayProbability": 0.26583502664239245,
+      "homeProbability": 0.3816504846263893,
+      "drawProbability": 0.3470638819834626,
+      "awayProbability": 0.271285633390148,
       "predicted": "Home",
-      "confidence": 0.3739824534048572,
-      "brier": 0.2695308437464688
+      "confidence": 0.3816504846263893,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2657116862321955
     },
     {
       "year": 2002,
@@ -1694,12 +1784,16 @@ export const worldCupBacktest = {
       "matchId": "43950056",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.0892273902095935,
-      "drawProbability": 0.6698722950905504,
-      "awayProbability": 0.24090031469985623,
-      "predicted": "Draw",
-      "confidence": 0.6698722950905504,
-      "brier": 0.44542286669893305
+      "homeProbability": 0.16828685121433595,
+      "drawProbability": 0.37736437401871337,
+      "awayProbability": 0.45434877476695074,
+      "predicted": "Away",
+      "confidence": 0.45434877476695074,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.3468611472579097
     },
     {
       "year": 2002,
@@ -1712,12 +1806,15 @@ export const worldCupBacktest = {
       "matchId": "43950057",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17020785560190624,
-      "drawProbability": 0.6130000750652481,
-      "awayProbability": 0.21679206933284575,
+      "homeProbability": 0.2482528120356891,
+      "drawProbability": 0.43555002627283684,
+      "awayProbability": 0.31619716169147416,
       "predicted": "Draw",
-      "confidence": 0.6130000750652481,
-      "brier": 0.3393848229328416
+      "confidence": 0.43555002627283684,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23963986858289732
     },
     {
       "year": 2002,
@@ -1729,13 +1826,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950058",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.41680977509629286,
-      "drawProbability": 0.5114300058059462,
-      "awayProbability": 0.07176021909776086,
-      "predicted": "Draw",
-      "confidence": 0.5114300058059462,
-      "brier": 0.2022736727689551
+      "correct": true,
+      "homeProbability": 0.5118727281204382,
+      "drawProbability": 0.40000050203208126,
+      "awayProbability": 0.08812676984748073,
+      "predicted": "Home",
+      "confidence": 0.5118727281204382,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13534498758075053
     },
     {
       "year": 2002,
@@ -1747,13 +1847,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950059",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.36487959822937766,
-      "drawProbability": 0.5137667982067003,
-      "awayProbability": 0.12135360356392207,
-      "predicted": "Draw",
-      "confidence": 0.5137667982067003,
-      "brier": 0.1280955149427151
+      "correct": false,
+      "homeProbability": 0.4496384619452344,
+      "drawProbability": 0.40081837937234505,
+      "awayProbability": 0.14954315868242044,
+      "predicted": "Home",
+      "confidence": 0.4496384619452344,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1945188390890582
     },
     {
       "year": 2002,
@@ -1771,6 +1874,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.3074120405771876,
       "predicted": "Home",
       "confidence": 0.37828894083025094,
+      "calibrationNotes": [],
       "brier": 0.24052149246005852
     },
     {
@@ -1783,13 +1887,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950061",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.29063623926763854,
-      "drawProbability": 0.6340121081601853,
-      "awayProbability": 0.07535165257217627,
-      "predicted": "Draw",
-      "confidence": 0.6340121081601853,
-      "brier": 0.30361538995981313
+      "correct": true,
+      "homeProbability": 0.458682244916862,
+      "drawProbability": 0.42239774274368,
+      "awayProbability": 0.11892001233945802,
+      "predicted": "Home",
+      "confidence": 0.458682244916862,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16186224479267372
     },
     {
       "year": 2002,
@@ -1801,13 +1909,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "43950062",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.35612019371045966,
-      "drawProbability": 0.46671926844068273,
-      "awayProbability": 0.1771605378488577,
-      "predicted": "Draw",
-      "confidence": 0.46671926844068273,
-      "brier": 0.22126464555071954
+      "correct": true,
+      "homeProbability": 0.41112450389769295,
+      "drawProbability": 0.384351743954239,
+      "awayProbability": 0.20452375214806817,
+      "predicted": "Home",
+      "confidence": 0.41112450389769295,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17877685939437585
     },
     {
       "year": 2002,
@@ -1820,12 +1931,15 @@ export const worldCupBacktest = {
       "matchId": "43950063",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1211010534724321,
-      "drawProbability": 0.6647405777641556,
-      "awayProbability": 0.2141583687634123,
+      "homeProbability": 0.19734701481377626,
+      "drawProbability": 0.4536592022174545,
+      "awayProbability": 0.34899378296876926,
       "predicted": "Draw",
-      "confidence": 0.6647405777641556,
-      "brier": 0.35803085675431245
+      "confidence": 0.4536592022174545,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2228538702086
     },
     {
       "year": 2002,
@@ -1838,12 +1952,15 @@ export const worldCupBacktest = {
       "matchId": "43950064",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17693884646438987,
-      "drawProbability": 0.6318479175759356,
-      "awayProbability": 0.19121323595967463,
+      "homeProbability": 0.2681117709805007,
+      "drawProbability": 0.44214677115157747,
+      "awayProbability": 0.28974145786792194,
       "predicted": "Draw",
-      "confidence": 0.6318479175759356,
-      "brier": 0.36155839200667206
+      "confidence": 0.44214677115157747,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2572816285498836
     },
     {
       "year": 2006,
@@ -1855,13 +1972,16 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410001",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.42770107897584003,
-      "drawProbability": 0.4613120138659557,
-      "awayProbability": 0.11098690715820418,
-      "predicted": "Draw",
-      "confidence": 0.4613120138659557,
-      "brier": 0.18421764090100842
+      "correct": true,
+      "homeProbability": 0.49030769423955756,
+      "drawProbability": 0.38245920485308454,
+      "awayProbability": 0.12723310090735798,
+      "predicted": "Home",
+      "confidence": 0.49030769423955756,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.140749850631584
     },
     {
       "year": 2006,
@@ -1873,13 +1993,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410002",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.22945772507508444,
-      "drawProbability": 0.47337185575678387,
-      "awayProbability": 0.29717041916813175,
-      "predicted": "Draw",
-      "confidence": 0.47337185575678387,
-      "brier": 0.25690039370385137
+      "correct": true,
+      "homeProbability": 0.29363024349196853,
+      "drawProbability": 0.3260895872071472,
+      "awayProbability": 0.3802801693008843,
+      "predicted": "Away",
+      "confidence": 0.3802801693008843,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1922019357799403
     },
     {
       "year": 2006,
@@ -1891,13 +2015,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410003",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.24884327603938802,
-      "drawProbability": 0.6449150890221229,
-      "awayProbability": 0.10624163493848904,
-      "predicted": "Draw",
-      "confidence": 0.6449150890221229,
-      "brier": 0.33047972699801825
+      "correct": true,
+      "homeProbability": 0.4430887522907971,
+      "drawProbability": 0.36773806925137587,
+      "awayProbability": 0.189173178457827,
+      "predicted": "Home",
+      "confidence": 0.4430887522907971,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16038930561652923
     },
     {
       "year": 2006,
@@ -1909,13 +2037,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410004",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.2658474820158358,
-      "drawProbability": 0.411106690869097,
-      "awayProbability": 0.3230458271150672,
-      "predicted": "Draw",
-      "confidence": 0.411106690869097,
-      "brier": 0.1739429398832544
+      "correct": false,
+      "homeProbability": 0.30318418765410904,
+      "drawProbability": 0.32840011050713047,
+      "awayProbability": 0.3684157018387605,
+      "predicted": "Away",
+      "confidence": 0.3684157018387605,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.22623239752388766
     },
     {
       "year": 2006,
@@ -1927,13 +2059,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410005",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3332762974690594,
-      "drawProbability": 0.45966922029612833,
-      "awayProbability": 0.20705448223481218,
-      "predicted": "Draw",
-      "confidence": 0.45966922029612833,
-      "brier": 0.2328959487392476
+      "correct": true,
+      "homeProbability": 0.3939787806612989,
+      "drawProbability": 0.3612541205056343,
+      "awayProbability": 0.24476709883306688,
+      "predicted": "Home",
+      "confidence": 0.3939787806612989,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.18589239684740724
     },
     {
       "year": 2006,
@@ -1945,13 +2081,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410006",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.2474008797647102,
-      "drawProbability": 0.39913417738498597,
-      "awayProbability": 0.3534649428503039,
-      "predicted": "Draw",
-      "confidence": 0.39913417738498597,
-      "brier": 0.21284095566290095
+      "correct": true,
+      "homeProbability": 0.26322704348225956,
+      "drawProbability": 0.3606969620847451,
+      "awayProbability": 0.37607599443299544,
+      "predicted": "Away",
+      "confidence": 0.37607599443299544,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.19622397986678364
     },
     {
       "year": 2006,
@@ -1963,13 +2102,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410007",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.43047744537749494,
-      "drawProbability": 0.44651690060225835,
-      "awayProbability": 0.12300565402024678,
-      "predicted": "Draw",
-      "confidence": 0.44651690060225835,
-      "brier": 0.17962122455604668
+      "correct": true,
+      "homeProbability": 0.4843264791636099,
+      "drawProbability": 0.37728091521079044,
+      "awayProbability": 0.13839260562559963,
+      "predicted": "Home",
+      "confidence": 0.4843264791636099,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1424708607886444
     },
     {
       "year": 2006,
@@ -1981,13 +2123,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410008",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.26207928369276257,
-      "drawProbability": 0.40463280035999205,
-      "awayProbability": 0.3332879159472452,
-      "predicted": "Draw",
-      "confidence": 0.40463280035999205,
-      "brier": 0.22563941903001608
+      "correct": true,
+      "homeProbability": 0.2919365090822562,
+      "drawProbability": 0.33680594881073994,
+      "awayProbability": 0.3712575421070039,
+      "predicted": "Away",
+      "confidence": 0.3712575421070039,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.19799408361558768
     },
     {
       "year": 2006,
@@ -1999,13 +2145,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410009",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3399138498363884,
-      "drawProbability": 0.4559831623816993,
-      "awayProbability": 0.2041029877819123,
-      "predicted": "Draw",
-      "confidence": 0.4559831623816993,
-      "brier": 0.2284307998783122
+      "correct": true,
+      "homeProbability": 0.3870186126578388,
+      "drawProbability": 0.38059410683359474,
+      "awayProbability": 0.23238728050856644,
+      "predicted": "Home",
+      "confidence": 0.3870186126578388,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1915339678421832
     },
     {
       "year": 2006,
@@ -2017,13 +2166,16 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "97410010",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.20479694303299043,
-      "drawProbability": 0.43364989825966743,
-      "awayProbability": 0.36155315870734217,
-      "predicted": "Draw",
-      "confidence": 0.43364989825966743,
-      "brier": 0.21253613043095002
+      "correct": true,
+      "homeProbability": 0.22680892525564145,
+      "drawProbability": 0.3727774643908836,
+      "awayProbability": 0.40041361035347495,
+      "predicted": "Away",
+      "confidence": 0.40041361035347495,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18330305506089004
     },
     {
       "year": 2006,
@@ -2036,12 +2188,15 @@ export const worldCupBacktest = {
       "matchId": "97410012",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.07361886284307403,
-      "drawProbability": 0.4919686845514463,
-      "awayProbability": 0.43441245260547956,
-      "predicted": "Draw",
-      "confidence": 0.4919686845514463,
-      "brier": 0.42964312561271595
+      "homeProbability": 0.08793302992834966,
+      "drawProbability": 0.3931890395930062,
+      "awayProbability": 0.5188779304786442,
+      "predicted": "Away",
+      "confidence": 0.5188779304786442,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.41856602849651736
     },
     {
       "year": 2006,
@@ -2053,13 +2208,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410011",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.284615420966474,
-      "drawProbability": 0.628933139210413,
-      "awayProbability": 0.08645143982311299,
-      "predicted": "Draw",
-      "confidence": 0.628933139210413,
-      "brier": 0.3049352803211765
+      "correct": true,
+      "homeProbability": 0.45356405529397986,
+      "drawProbability": 0.408666650621307,
+      "awayProbability": 0.13776929408471317,
+      "predicted": "Home",
+      "confidence": 0.45356405529397986,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16152701712979942
     },
     {
       "year": 2006,
@@ -2071,13 +2230,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410013",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.31683533396101865,
-      "drawProbability": 0.6074653353864912,
-      "awayProbability": 0.0756993306524901,
-      "predicted": "Draw",
-      "confidence": 0.6074653353864912,
-      "brier": 0.08673282681022171
+      "correct": false,
+      "homeProbability": 0.45716078728970283,
+      "drawProbability": 0.4336128673852718,
+      "awayProbability": 0.1092263453250252,
+      "predicted": "Home",
+      "confidence": 0.45716078728970283,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18057358797997877
     },
     {
       "year": 2006,
@@ -2090,12 +2252,16 @@ export const worldCupBacktest = {
       "matchId": "97410014",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.22916732268920958,
-      "drawProbability": 0.4379953792381366,
-      "awayProbability": 0.3328372980726539,
-      "predicted": "Draw",
-      "confidence": 0.4379953792381366,
-      "brier": 0.298934545210795
+      "homeProbability": 0.26482035208783933,
+      "drawProbability": 0.3505607178254258,
+      "awayProbability": 0.3846189300867349,
+      "predicted": "Away",
+      "confidence": 0.3846189300867349,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2704378843225303
     },
     {
       "year": 2006,
@@ -2108,12 +2274,15 @@ export const worldCupBacktest = {
       "matchId": "97410015",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.4712634623204141,
-      "drawProbability": 0.36751292211490594,
-      "awayProbability": 0.16122361556467996,
+      "homeProbability": 0.48458830800035335,
+      "drawProbability": 0.3496295227402171,
+      "awayProbability": 0.16578216925942957,
       "predicted": "Home",
-      "confidence": 0.4712634623204141,
-      "brier": 0.1468737094715269
+      "confidence": 0.48458830800035335,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13845791435528423
     },
     {
       "year": 2006,
@@ -2125,13 +2294,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410016",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.2675566768119881,
-      "drawProbability": 0.6180762658637133,
-      "awayProbability": 0.11436705732429855,
-      "predicted": "Draw",
-      "confidence": 0.6180762658637133,
-      "brier": 0.07684404593476633
+      "correct": false,
+      "homeProbability": 0.43841765388991893,
+      "drawProbability": 0.374180792346403,
+      "awayProbability": 0.18740155376367815,
+      "predicted": "Home",
+      "confidence": 0.43841765388991893,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.20632635408785246
     },
     {
       "year": 2006,
@@ -2143,13 +2316,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410017",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.433053680868728,
-      "drawProbability": 0.5035391630259439,
-      "awayProbability": 0.06340715610532807,
-      "predicted": "Draw",
-      "confidence": 0.5035391630259439,
-      "brier": 0.1930000949742439
+      "correct": true,
+      "homeProbability": 0.5257776186017662,
+      "drawProbability": 0.3972387070590804,
+      "awayProbability": 0.07698367433915343,
+      "predicted": "Home",
+      "confidence": 0.5257776186017662,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.12953731450657954
     },
     {
       "year": 2006,
@@ -2167,6 +2343,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.14555926251614687,
       "predicted": "Home",
       "confidence": 0.5344781243553923,
+      "calibrationNotes": [],
       "brier": 0.11342472980263706
     },
     {
@@ -2179,13 +2356,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410019",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.33816394287666723,
-      "drawProbability": 0.5134565603883435,
-      "awayProbability": 0.14837949673498924,
-      "predicted": "Draw",
-      "confidence": 0.5134565603883435,
-      "brier": 0.24122702698857226
+      "correct": true,
+      "homeProbability": 0.41652671019014126,
+      "drawProbability": 0.4007097961359202,
+      "awayProbability": 0.18276349367393852,
+      "predicted": "Home",
+      "confidence": 0.41652671019014126,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17813730508691128
     },
     {
       "year": 2006,
@@ -2198,12 +2378,15 @@ export const worldCupBacktest = {
       "matchId": "97410020",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.21385537231629712,
-      "drawProbability": 0.6744768217829766,
-      "awayProbability": 0.11166780590072631,
+      "homeProbability": 0.35668477902546647,
+      "drawProbability": 0.4570668876240418,
+      "awayProbability": 0.1862483333504918,
       "predicted": "Draw",
-      "confidence": 0.6744768217829766,
-      "brier": 0.3618040192110317
+      "confidence": 0.4570668876240418,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.21915101832522577
     },
     {
       "year": 2006,
@@ -2216,12 +2399,15 @@ export const worldCupBacktest = {
       "matchId": "97410021",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.545490968964207,
-      "drawProbability": 0.34573220977319835,
-      "awayProbability": 0.10877682126259465,
+      "homeProbability": 0.5485974410565634,
+      "drawProbability": 0.34200627342061946,
+      "awayProbability": 0.10939628552281719,
       "predicted": "Home",
-      "confidence": 0.545490968964207,
-      "brier": 0.1126472056705829
+      "confidence": 0.5485974410565634,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.11090003618864401
     },
     {
       "year": 2006,
@@ -2234,12 +2420,13 @@ export const worldCupBacktest = {
       "matchId": "97410022",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.6273792512333023,
-      "drawProbability": 0.24007112157706934,
-      "awayProbability": 0.1325496271896283,
+      "homeProbability": 0.6273792512333024,
+      "drawProbability": 0.24007112157706936,
+      "awayProbability": 0.13254962718962832,
       "predicted": "Home",
-      "confidence": 0.6273792512333023,
-      "brier": 0.0713499231649453
+      "confidence": 0.6273792512333024,
+      "calibrationNotes": [],
+      "brier": 0.07134992316494528
     },
     {
       "year": 2006,
@@ -2257,6 +2444,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.11457722646263085,
       "predicted": "Home",
       "confidence": 0.5757650059129135,
+      "calibrationNotes": [],
       "brier": 0.2737352268863388
     },
     {
@@ -2275,6 +2463,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.09330365766435264,
       "predicted": "Home",
       "confidence": 0.5886247280912638,
+      "calibrationNotes": [],
       "brier": 0.09303491288652042
     },
     {
@@ -2287,13 +2476,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410025",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.3304350391596545,
-      "drawProbability": 0.6135311063358257,
-      "awayProbability": 0.05603385450451973,
-      "predicted": "Draw",
-      "confidence": 0.6135311063358257,
-      "brier": 0.08722843790836232
+      "correct": false,
+      "homeProbability": 0.48245185385005385,
+      "drawProbability": 0.435735887217539,
+      "awayProbability": 0.08181225893240711,
+      "predicted": "Home",
+      "confidence": 0.48245185385005385,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18594900865638497
     },
     {
       "year": 2006,
@@ -2311,6 +2503,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.003131043932244137,
       "predicted": "Home",
       "confidence": 0.988164615729891,
+      "calibrationNotes": [],
       "brier": 0.6567642629643126
     },
     {
@@ -2324,12 +2517,15 @@ export const worldCupBacktest = {
       "matchId": "97410027",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.5135302306717182,
-      "drawProbability": 0.39774587956844276,
-      "awayProbability": 0.08872388975983903,
+      "homeProbability": 0.5455354341263967,
+      "drawProbability": 0.360211057848955,
+      "awayProbability": 0.09425350802464842,
       "predicted": "Home",
-      "confidence": 0.5135302306717182,
-      "brier": 0.13424218326603396
+      "confidence": 0.5455354341263967,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.11505792386876612
     },
     {
       "year": 2006,
@@ -2342,12 +2538,15 @@ export const worldCupBacktest = {
       "matchId": "97410028",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.13711852280201775,
-      "drawProbability": 0.6953996883355356,
-      "awayProbability": 0.16748178886244672,
+      "homeProbability": 0.24110962511466313,
+      "drawProbability": 0.46438989091743743,
+      "awayProbability": 0.2945004839678995,
       "predicted": "Draw",
-      "confidence": 0.6953996883355356,
-      "brier": 0.046544329587353835
+      "confidence": 0.46438989091743743,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14391419177723166
     },
     {
       "year": 2006,
@@ -2360,12 +2559,15 @@ export const worldCupBacktest = {
       "matchId": "97410029",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1686226991694981,
-      "drawProbability": 0.7237142501911139,
-      "awayProbability": 0.10766305063938805,
+      "homeProbability": 0.3208451941919832,
+      "drawProbability": 0.47429998756688985,
+      "awayProbability": 0.20485481824112706,
       "predicted": "Draw",
-      "confidence": 0.7237142501911139,
-      "brier": 0.038786254231881624
+      "confidence": 0.47429998756688985,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1404225460882896
     },
     {
       "year": 2006,
@@ -2383,6 +2585,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.22833320199611476,
       "predicted": "Home",
       "confidence": 0.47688550026955456,
+      "calibrationNotes": [],
       "brier": 0.3032618136676162
     },
     {
@@ -2395,13 +2598,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410031",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.4425487508130029,
-      "drawProbability": 0.5065312714059609,
-      "awayProbability": 0.050919977781036296,
-      "predicted": "Draw",
-      "confidence": 0.5065312714059609,
-      "brier": 0.18997288942316803
+      "correct": true,
+      "homeProbability": 0.5396244745823501,
+      "drawProbability": 0.3982859449920862,
+      "awayProbability": 0.062089580425563604,
+      "predicted": "Home",
+      "confidence": 0.5396244745823501,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1248108114597463
     },
     {
       "year": 2006,
@@ -2414,12 +2620,15 @@ export const worldCupBacktest = {
       "matchId": "97410032",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.2973022947126559,
-      "drawProbability": 0.34647868024622225,
-      "awayProbability": 0.3562190250411218,
+      "homeProbability": 0.2992180428140555,
+      "drawProbability": 0.3422675380861778,
+      "awayProbability": 0.3585144190997668,
       "predicted": "Away",
-      "confidence": 0.3562190250411218,
-      "brier": 0.20763002467519287
+      "confidence": 0.3585144190997668,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.20606075175865227
     },
     {
       "year": 2006,
@@ -2432,12 +2641,16 @@ export const worldCupBacktest = {
       "matchId": "97410033",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.25650870065316006,
-      "drawProbability": 0.557608130912608,
-      "awayProbability": 0.18588316843423203,
-      "predicted": "Draw",
-      "confidence": 0.557608130912608,
-      "brier": 0.34650325220310324
+      "homeProbability": 0.3951362793784412,
+      "drawProbability": 0.3185218406496458,
+      "awayProbability": 0.28634187997191307,
+      "predicted": "Home",
+      "confidence": 0.3951362793784412,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2556322515112997
     },
     {
       "year": 2006,
@@ -2450,12 +2663,15 @@ export const worldCupBacktest = {
       "matchId": "97410034",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.24875899566108195,
-      "drawProbability": 0.5463378026988861,
-      "awayProbability": 0.20490320164003198,
+      "homeProbability": 0.3223014908625136,
+      "drawProbability": 0.41221823094461013,
+      "awayProbability": 0.2654802781928763,
       "predicted": "Draw",
-      "confidence": 0.5463378026988861,
-      "brier": 0.330848317114143
+      "confidence": 0.41221823094461013,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2711071142196391
     },
     {
       "year": 2006,
@@ -2468,12 +2684,15 @@ export const worldCupBacktest = {
       "matchId": "97410035",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1198971067284934,
-      "drawProbability": 0.7270101143761525,
-      "awayProbability": 0.15309277889535408,
+      "homeProbability": 0.23038070715021483,
+      "drawProbability": 0.47545354003165347,
+      "awayProbability": 0.2941657528181318,
       "predicted": "Draw",
-      "confidence": 0.7270101143761525,
-      "brier": 0.037445397601562284
+      "confidence": 0.47545354003165347,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13825258300780513
     },
     {
       "year": 2006,
@@ -2485,13 +2704,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410036",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.29900558042794234,
-      "drawProbability": 0.5870307002908852,
-      "awayProbability": 0.11396371928117234,
-      "predicted": "Draw",
-      "confidence": 0.5870307002908852,
-      "brier": 0.28299531622252366
+      "correct": true,
+      "homeProbability": 0.4378517408534831,
+      "drawProbability": 0.3952643742036932,
+      "awayProbability": 0.16688388494282377,
+      "predicted": "Home",
+      "confidence": 0.4378517408534831,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16669827394323544
     },
     {
       "year": 2006,
@@ -2503,13 +2726,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410037",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.1437140208635337,
-      "drawProbability": 0.6084592672460335,
-      "awayProbability": 0.24782671189043273,
-      "predicted": "Draw",
-      "confidence": 0.6084592672460335,
-      "brier": 0.0784586481082336
+      "correct": false,
+      "homeProbability": 0.2428840953876616,
+      "drawProbability": 0.33827600041423717,
+      "awayProbability": 0.41883990419810135,
+      "predicted": "Away",
+      "confidence": 0.41883990419810135,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2240994002562454
     },
     {
       "year": 2006,
@@ -2527,6 +2754,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.054925007862131454,
       "predicted": "Home",
       "confidence": 0.8288247436140302,
+      "calibrationNotes": [],
       "brier": 0.015277281723103947
     },
     {
@@ -2540,12 +2768,15 @@ export const worldCupBacktest = {
       "matchId": "97410039",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.19651555508943327,
-      "drawProbability": 0.6790369211595183,
-      "awayProbability": 0.1244475237510484,
+      "homeProbability": 0.3314435936937812,
+      "drawProbability": 0.4586629224058314,
+      "awayProbability": 0.20989348390038742,
       "predicted": "Draw",
-      "confidence": 0.6790369211595183,
-      "brier": 0.374055193226269
+      "confidence": 0.4586629224058314,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23379820646226193
     },
     {
       "year": 2006,
@@ -2557,13 +2788,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410040",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.2271782744806288,
-      "drawProbability": 0.4852911562152696,
-      "awayProbability": 0.2875305693041016,
-      "predicted": "Draw",
-      "confidence": 0.4852911562152696,
-      "brier": 0.13306966351685026
+      "correct": false,
+      "homeProbability": 0.3000065793489884,
+      "drawProbability": 0.32028694232512706,
+      "awayProbability": 0.37970647832588467,
+      "predicted": "Away",
+      "confidence": 0.37970647832588467,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2320635993696838
     },
     {
       "year": 2006,
@@ -2575,13 +2810,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410041",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.23195621511646375,
-      "drawProbability": 0.4335181160945531,
-      "awayProbability": 0.33452566878898315,
-      "predicted": "Draw",
-      "confidence": 0.4335181160945531,
-      "brier": 0.22819924273802528
+      "correct": true,
+      "homeProbability": 0.26598133380304134,
+      "drawProbability": 0.35042220368711346,
+      "awayProbability": 0.3835964625098452,
+      "predicted": "Away",
+      "confidence": 0.3835964625098452,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.19116503726631817
     },
     {
       "year": 2006,
@@ -2594,12 +2833,15 @@ export const worldCupBacktest = {
       "matchId": "97410042",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.47759944600697074,
-      "drawProbability": 0.3919646985261842,
-      "awayProbability": 0.130435855466845,
+      "homeProbability": 0.5041306396056221,
+      "drawProbability": 0.35818764448416457,
+      "awayProbability": 0.13768171591021341,
       "predicted": "Home",
-      "confidence": 0.47759944600697074,
-      "brier": 0.1478507253647713
+      "confidence": 0.5041306396056221,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13104702204500815
     },
     {
       "year": 2006,
@@ -2611,13 +2853,16 @@ export const worldCupBacktest = {
       "awayGoals": 4,
       "matchId": "97410043",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.06943899910313386,
-      "drawProbability": 0.6236855199937872,
-      "awayProbability": 0.306875480903079,
-      "predicted": "Draw",
-      "confidence": 0.6236855199937872,
-      "brier": 0.2914090004732346
+      "correct": true,
+      "homeProbability": 0.10346438411957551,
+      "drawProbability": 0.4392899319978255,
+      "awayProbability": 0.457245683882599,
+      "predicted": "Away",
+      "confidence": 0.457245683882599,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.16608759026665496
     },
     {
       "year": 2006,
@@ -2629,13 +2874,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410044",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.24176300507478585,
-      "drawProbability": 0.6572734166832697,
-      "awayProbability": 0.10096357824194452,
-      "predicted": "Draw",
-      "confidence": 0.6572734166832697,
-      "brier": 0.06203483522205596
+      "correct": false,
+      "homeProbability": 0.4463569203976046,
+      "drawProbability": 0.367238249622488,
+      "awayProbability": 0.1864048299799074,
+      "predicted": "Home",
+      "confidence": 0.4463569203976046,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.21145623125582821
     },
     {
       "year": 2006,
@@ -2647,13 +2896,16 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "97410045",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.10173888593926461,
-      "drawProbability": 0.46107377502592295,
-      "awayProbability": 0.4371873390348124,
-      "predicted": "Draw",
-      "confidence": 0.46107377502592295,
-      "brier": 0.17989930609051108
+      "correct": true,
+      "homeProbability": 0.11659554306765764,
+      "drawProbability": 0.38237582125907305,
+      "awayProbability": 0.5010286356732693,
+      "predicted": "Away",
+      "confidence": 0.5010286356732693,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13625940392162386
     },
     {
       "year": 2006,
@@ -2666,12 +2918,15 @@ export const worldCupBacktest = {
       "matchId": "97410046",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.15964314506670801,
-      "drawProbability": 0.6443380154670216,
-      "awayProbability": 0.19601883946627038,
+      "homeProbability": 0.24843689318292528,
+      "drawProbability": 0.4465183054134576,
+      "awayProbability": 0.30504480140361717,
       "predicted": "Draw",
-      "confidence": 0.6443380154670216,
-      "brier": 0.3865981690783524
+      "confidence": 0.4465183054134576,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2857593438204039
     },
     {
       "year": 2006,
@@ -2684,12 +2939,15 @@ export const worldCupBacktest = {
       "matchId": "97410047",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.03344907243552299,
-      "drawProbability": 0.34151941417716397,
-      "awayProbability": 0.625031513387313,
+      "homeProbability": 0.033499240879935374,
+      "drawProbability": 0.3405317949620074,
+      "awayProbability": 0.6259689641580571,
       "predicted": "Away",
-      "confidence": 0.625031513387313,
-      "brier": 0.08611857221977298
+      "confidence": 0.6259689641580571,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.08566110609752513
     },
     {
       "year": 2006,
@@ -2707,6 +2965,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.1163471793719448,
       "predicted": "Home",
       "confidence": 0.6348890023938941,
+      "calibrationNotes": [],
       "brier": 0.06957538132772402
     },
     {
@@ -2719,13 +2978,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410049",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2682065965396,
-      "drawProbability": 0.6274534335977955,
-      "awayProbability": 0.10433996986260449,
-      "predicted": "Draw",
-      "confidence": 0.6274534335977955,
-      "brier": 0.31336874199758274
+      "correct": true,
+      "homeProbability": 0.4443960436301581,
+      "drawProbability": 0.3827212965185387,
+      "awayProbability": 0.17288265985130316,
+      "predicted": "Home",
+      "confidence": 0.4443960436301581,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16168658707330458
     },
     {
       "year": 2006,
@@ -2737,13 +3000,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "97410050",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.26561951471418727,
-      "drawProbability": 0.637423629575497,
-      "awayProbability": 0.0969568557103158,
-      "predicted": "Draw",
-      "confidence": 0.637423629575497,
-      "brier": 0.31834140419301904
+      "correct": true,
+      "homeProbability": 0.44889577757369253,
+      "drawProbability": 0.3872475751388715,
+      "awayProbability": 0.16385664728743607,
+      "predicted": "Home",
+      "confidence": 0.44889577757369253,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16017518309577336
     },
     {
       "year": 2006,
@@ -2755,13 +3022,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410051",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3171741255406975,
-      "drawProbability": 0.5447778547121966,
-      "awayProbability": 0.13804801974710587,
-      "predicted": "Draw",
-      "confidence": 0.5447778547121966,
-      "brier": 0.2606971138573439
+      "correct": true,
+      "homeProbability": 0.42507424183847337,
+      "drawProbability": 0.3899148994375727,
+      "awayProbability": 0.18501085872395398,
+      "predicted": "Home",
+      "confidence": 0.42507424183847337,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1722674246822645
     },
     {
       "year": 2006,
@@ -2774,12 +3045,15 @@ export const worldCupBacktest = {
       "matchId": "97410052",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.17889367779784365,
-      "drawProbability": 0.6855175737705604,
-      "awayProbability": 0.13558874843159593,
+      "homeProbability": 0.30664991418553234,
+      "drawProbability": 0.46093115081969616,
+      "awayProbability": 0.23241893499477154,
       "predicted": "Draw",
-      "confidence": 0.6855175737705604,
-      "brier": 0.3875114150032912
+      "confidence": 0.46093115081969616,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.24907014287966767
     },
     {
       "year": 2006,
@@ -2791,13 +3065,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410053",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.40280422357212115,
-      "drawProbability": 0.5036645092066557,
-      "awayProbability": 0.09353126722122307,
-      "predicted": "Draw",
-      "confidence": 0.5036645092066557,
-      "brier": 0.20635627705522874
+      "correct": true,
+      "homeProbability": 0.4891391561068694,
+      "drawProbability": 0.39728257822232954,
+      "awayProbability": 0.11357826567080113,
+      "predicted": "Home",
+      "confidence": 0.4891391561068694,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14390409040499
     },
     {
       "year": 2006,
@@ -2809,13 +3086,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "97410054",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.22297028454255716,
-      "drawProbability": 0.4135847524697585,
-      "awayProbability": 0.3634449629876845,
-      "predicted": "Draw",
-      "confidence": 0.4135847524697585,
-      "brier": 0.17523027714868755
+      "correct": false,
+      "homeProbability": 0.24115652479198754,
+      "drawProbability": 0.3657546633644154,
+      "awayProbability": 0.39308881184359695,
+      "predicted": "Away",
+      "confidence": 0.39308881184359695,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2049808101634484
     },
     {
       "year": 2006,
@@ -2828,12 +3108,15 @@ export const worldCupBacktest = {
       "matchId": "97410055",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.47777509398026863,
-      "drawProbability": 0.3776871240524114,
-      "awayProbability": 0.14453778196731998,
+      "homeProbability": 0.49658216106138936,
+      "drawProbability": 0.353190493418344,
+      "awayProbability": 0.15022734552026662,
       "predicted": "Home",
-      "confidence": 0.47777509398026863,
-      "brier": 0.1454191955194438
+      "confidence": 0.49658216106138936,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1335804335149266
     },
     {
       "year": 2006,
@@ -2846,12 +3129,16 @@ export const worldCupBacktest = {
       "matchId": "97410056",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.22572576806794128,
-      "drawProbability": 0.6790387254620849,
-      "awayProbability": 0.09523550646997381,
-      "predicted": "Draw",
-      "confidence": 0.6790387254620849,
-      "brier": 0.4435481672665598
+      "homeProbability": 0.4495991995636112,
+      "drawProbability": 0.3607113031077205,
+      "awayProbability": 0.18968949732866824,
+      "predicted": "Home",
+      "confidence": 0.4495991995636112,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.3296183983924587
     },
     {
       "year": 2006,
@@ -2864,12 +3151,15 @@ export const worldCupBacktest = {
       "matchId": "97410057",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.19205750751168174,
-      "drawProbability": 0.6495385175808849,
-      "awayProbability": 0.15840397490743338,
+      "homeProbability": 0.30231777703062396,
+      "drawProbability": 0.4483384811533097,
+      "awayProbability": 0.24934374181606633,
       "predicted": "Draw",
-      "confidence": 0.6495385175808849,
-      "brier": 0.06160038537249273
+      "confidence": 0.4483384811533097,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15263292375593746
     },
     {
       "year": 2006,
@@ -2882,12 +3172,15 @@ export const worldCupBacktest = {
       "matchId": "97410058",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.24327278305766675,
-      "drawProbability": 0.5865244741575244,
-      "awayProbability": 0.1702027427848087,
+      "homeProbability": 0.3375522488583465,
+      "drawProbability": 0.4262835659551336,
+      "awayProbability": 0.2361641851865199,
       "predicted": "Draw",
-      "confidence": 0.5865244741575244,
-      "brier": 0.31520533776617377
+      "confidence": 0.4262835659551336,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.22544274132029055
     },
     {
       "year": 2006,
@@ -2900,12 +3193,15 @@ export const worldCupBacktest = {
       "matchId": "97410059",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.14599422440681634,
-      "drawProbability": 0.7085244571634676,
-      "awayProbability": 0.1454813184297161,
+      "homeProbability": 0.265975431590478,
+      "drawProbability": 0.46898356000721364,
+      "awayProbability": 0.2650410084023084,
       "predicted": "Draw",
-      "confidence": 0.7085244571634676,
-      "brier": 0.042479039881349184
+      "confidence": 0.46898356000721364,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14098937529575534
     },
     {
       "year": 2006,
@@ -2918,12 +3214,16 @@ export const worldCupBacktest = {
       "matchId": "97410060",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.2464846328761336,
-      "drawProbability": 0.6350733067867392,
-      "awayProbability": 0.11844206033712723,
-      "predicted": "Draw",
-      "confidence": 0.6350733067867392,
-      "brier": 0.41373906007325845
+      "homeProbability": 0.43495940269253713,
+      "drawProbability": 0.35603167364040617,
+      "awayProbability": 0.20900892366705673,
+      "predicted": "Home",
+      "confidence": 0.43495940269253713,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.3138717058213952
     },
     {
       "year": 2006,
@@ -2936,12 +3236,15 @@ export const worldCupBacktest = {
       "matchId": "97410061",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17756919825916725,
-      "drawProbability": 0.6731437464482753,
-      "awayProbability": 0.1492870552925574,
+      "homeProbability": 0.2952094262107313,
+      "drawProbability": 0.4566003112568964,
+      "awayProbability": 0.2481902625323723,
       "predicted": "Draw",
-      "confidence": 0.6731437464482753,
-      "brier": 0.40278861261521054
+      "confidence": 0.4566003112568964,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.28695011030490236
     },
     {
       "year": 2006,
@@ -2954,12 +3257,15 @@ export const worldCupBacktest = {
       "matchId": "97410062",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.13116996427836075,
-      "drawProbability": 0.7351443508202891,
-      "awayProbability": 0.1336856849013502,
+      "homeProbability": 0.25837206796228507,
+      "drawProbability": 0.47830052278710117,
+      "awayProbability": 0.2633274092506137,
       "predicted": "Draw",
-      "confidence": 0.7351443508202891,
-      "brier": 0.4360477562055379
+      "confidence": 0.47830052278710117,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2794046738543116
     },
     {
       "year": 2006,
@@ -2972,12 +3278,15 @@ export const worldCupBacktest = {
       "matchId": "97410063",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.15384539700031508,
-      "drawProbability": 0.733680511094339,
-      "awayProbability": 0.11247409190534591,
+      "homeProbability": 0.3016673142026738,
+      "drawProbability": 0.47778817888301867,
+      "awayProbability": 0.22054450691430763,
       "predicted": "Draw",
-      "confidence": 0.733680511094339,
-      "brier": 0.422305041962379
+      "confidence": 0.47778817888301867,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2548633211544446
     },
     {
       "year": 2006,
@@ -2990,12 +3299,15 @@ export const worldCupBacktest = {
       "matchId": "97410064",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1794012907056014,
-      "drawProbability": 0.7000110591931544,
-      "awayProbability": 0.12058765010124414,
+      "homeProbability": 0.3193437550310886,
+      "drawProbability": 0.4660038707176041,
+      "awayProbability": 0.2146523742513073,
       "predicted": "Draw",
-      "confidence": 0.7000110591931544,
-      "brier": 0.04557318969006296
+      "confidence": 0.4660038707176041,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14440264724588683
     },
     {
       "year": 2010,
@@ -3007,13 +3319,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061453",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.0680658368623962,
-      "drawProbability": 0.6905371968095952,
-      "awayProbability": 0.24139696632800853,
-      "predicted": "Draw",
-      "confidence": 0.6905371968095952,
-      "brier": 0.05289089335286907
+      "correct": false,
+      "homeProbability": 0.13216013278054675,
+      "drawProbability": 0.3991310906385248,
+      "awayProbability": 0.4687087765809284,
+      "predicted": "Away",
+      "confidence": 0.4687087765809284,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1993992213926037
     },
     {
       "year": 2010,
@@ -3025,13 +3341,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061454",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.2533117758696046,
-      "drawProbability": 0.4805349090867027,
-      "awayProbability": 0.2661533150436926,
-      "predicted": "Draw",
-      "confidence": 0.4805349090867027,
-      "brier": 0.13494947452684006
+      "correct": false,
+      "homeProbability": 0.34478256790402484,
+      "drawProbability": 0.29295624979637913,
+      "awayProbability": 0.36226118229959603,
+      "predicted": "Away",
+      "confidence": 0.36226118229959603,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.25000634934453164
     },
     {
       "year": 2010,
@@ -3044,12 +3364,15 @@ export const worldCupBacktest = {
       "matchId": "300061459",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.5735086320831799,
-      "drawProbability": 0.3709546573530486,
-      "awayProbability": 0.0555367105637715,
+      "homeProbability": 0.5918527724726338,
+      "drawProbability": 0.350834130073567,
+      "awayProbability": 0.057313097453799214,
       "predicted": "Home",
-      "confidence": 0.5735086320831799,
-      "brier": 0.1075288569799074
+      "confidence": 0.5918527724726338,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.09765117910083361
     },
     {
       "year": 2010,
@@ -3061,13 +3384,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061460",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3230054148880179,
-      "drawProbability": 0.6135356735104224,
-      "awayProbability": 0.06345891160155961,
-      "predicted": "Draw",
-      "confidence": 0.6135356735104224,
-      "brier": 0.27959157480082897
+      "correct": true,
+      "homeProbability": 0.4716084643142077,
+      "drawProbability": 0.4357374857286479,
+      "awayProbability": 0.09265404995714448,
+      "predicted": "Home",
+      "confidence": 0.4716084643142077,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1592165148089915
     },
     {
       "year": 2010,
@@ -3079,13 +3405,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061466",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.2759103251132966,
-      "drawProbability": 0.6594068712985519,
-      "awayProbability": 0.0646828035881514,
-      "predicted": "Draw",
-      "confidence": 0.6594068712985519,
-      "brier": 0.06543801730092987
+      "correct": false,
+      "homeProbability": 0.46653256869631043,
+      "drawProbability": 0.42409626334878303,
+      "awayProbability": 0.10937116795490641,
+      "predicted": "Home",
+      "confidence": 0.46653256869631043,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.18709326797434409
     },
     {
       "year": 2010,
@@ -3098,12 +3428,15 @@ export const worldCupBacktest = {
       "matchId": "300061465",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.41369014755202477,
-      "drawProbability": 0.3523630702580338,
-      "awayProbability": 0.2339467821899414,
+      "homeProbability": 0.4188232894110474,
+      "drawProbability": 0.34432707459031187,
+      "awayProbability": 0.23684963599864084,
       "predicted": "Home",
-      "confidence": 0.41369014755202477,
-      "brier": 0.29404560132680974
+      "confidence": 0.4188232894110474,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2921241867081397
     },
     {
       "year": 2010,
@@ -3121,6 +3454,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.22646265537462124,
       "predicted": "Home",
       "confidence": 0.4950151519214829,
+      "calibrationNotes": [],
       "brier": 0.30699154533017237
     },
     {
@@ -3133,13 +3467,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300111116",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.4154588608159745,
-      "drawProbability": 0.5068824263196193,
-      "awayProbability": 0.07765871286440619,
-      "predicted": "Draw",
-      "confidence": 0.5068824263196193,
-      "brier": 0.20154967106465962
+      "correct": true,
+      "homeProbability": 0.5068494564450624,
+      "drawProbability": 0.39840884921186676,
+      "awayProbability": 0.09474169434307081,
+      "predicted": "Home",
+      "confidence": 0.5068494564450624,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13696768612861673
     },
     {
       "year": 2010,
@@ -3152,12 +3489,15 @@ export const worldCupBacktest = {
       "matchId": "300061477",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.17312018684691585,
-      "drawProbability": 0.6765550664607679,
-      "awayProbability": 0.15032474669231627,
+      "homeProbability": 0.29020938957169173,
+      "drawProbability": 0.45779427326126876,
+      "awayProbability": 0.25199633716703956,
       "predicted": "Draw",
-      "confidence": 0.6765550664607679,
-      "brier": 0.3880181709406408
+      "confidence": 0.45779427326126876,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.25896015374286935
     },
     {
       "year": 2010,
@@ -3170,12 +3510,15 @@ export const worldCupBacktest = {
       "matchId": "300061478",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.19492410548051545,
-      "drawProbability": 0.6692834969239799,
-      "awayProbability": 0.1357923975955047,
+      "homeProbability": 0.3210757756232715,
+      "drawProbability": 0.45524922392339295,
+      "awayProbability": 0.22367500045333566,
       "predicted": "Draw",
-      "confidence": 0.6692834969239799,
-      "brier": 0.37150905681195834
+      "confidence": 0.45524922392339295,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2394068213853979
     },
     {
       "year": 2010,
@@ -3187,13 +3530,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061484",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.23043524763396842,
-      "drawProbability": 0.6831689742307053,
-      "awayProbability": 0.0863957781353263,
-      "predicted": "Draw",
-      "confidence": 0.6831689742307053,
-      "brier": 0.05364884424058678
+      "correct": false,
+      "homeProbability": 0.45626546942518165,
+      "drawProbability": 0.37266951047909197,
+      "awayProbability": 0.17106502009572638,
+      "predicted": "Home",
+      "confidence": 0.45626546942518165,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2103283209242249
     },
     {
       "year": 2010,
@@ -3211,6 +3558,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.8211215219231099,
       "predicted": "Away",
       "confidence": 0.8211215219231099,
+      "calibrationNotes": [],
       "brier": 0.48302727342870755
     },
     {
@@ -3223,13 +3571,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061489",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.305466954458376,
-      "drawProbability": 0.4022268777872457,
-      "awayProbability": 0.2923061677543783,
-      "predicted": "Draw",
-      "confidence": 0.4022268777872457,
-      "brier": 0.17869522053777023
+      "correct": false,
+      "homeProbability": 0.35457020817514484,
+      "drawProbability": 0.30613594272317934,
+      "awayProbability": 0.3392938491016758,
+      "predicted": "Home",
+      "confidence": 0.35457020817514484,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.24076255951474912
     },
     {
       "year": 2010,
@@ -3247,6 +3599,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.0702988531598141,
       "predicted": "Home",
       "confidence": 0.6797462750594364,
+      "calibrationNotes": [],
       "brier": 0.05666060500694073
     },
     {
@@ -3260,12 +3613,16 @@ export const worldCupBacktest = {
       "matchId": "300061452",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.2546480418272867,
-      "drawProbability": 0.5881047591506084,
-      "awayProbability": 0.15724719902210488,
-      "predicted": "Draw",
-      "confidence": 0.5881047591506084,
-      "brier": 0.37364837216605146
+      "homeProbability": 0.41152834466576577,
+      "drawProbability": 0.33434961672541075,
+      "awayProbability": 0.2541220386088235,
+      "predicted": "Home",
+      "confidence": 0.41152834466576577,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2791597259856106
     },
     {
       "year": 2010,
@@ -3278,12 +3635,16 @@ export const worldCupBacktest = {
       "matchId": "300061495",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.30603666379690875,
-      "drawProbability": 0.49540561393857024,
-      "awayProbability": 0.19855772226452098,
-      "predicted": "Draw",
-      "confidence": 0.49540561393857024,
-      "brier": 0.32713162881720886
+      "homeProbability": 0.39586187313119103,
+      "drawProbability": 0.3473014757136475,
+      "awayProbability": 0.2568366511551614,
+      "predicted": "Home",
+      "confidence": 0.39586187313119103,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.2765389002326959
     },
     {
       "year": 2010,
@@ -3296,12 +3657,16 @@ export const worldCupBacktest = {
       "matchId": "300111112",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.25413223823815295,
-      "drawProbability": 0.6302320798054459,
-      "awayProbability": 0.11563568195640112,
-      "predicted": "Draw",
-      "confidence": 0.6302320798054459,
-      "brier": 0.4146253053188504
+      "homeProbability": 0.43725310358089275,
+      "drawProbability": 0.363787247809919,
+      "awayProbability": 0.19895964860918824,
+      "predicted": "Home",
+      "confidence": 0.43725310358089275,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.32173236093885116
     },
     {
       "year": 2010,
@@ -3314,12 +3679,15 @@ export const worldCupBacktest = {
       "matchId": "300061451",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1761367666037946,
-      "drawProbability": 0.7212381228548507,
-      "awayProbability": 0.10262511054135474,
+      "homeProbability": 0.3327131719564278,
+      "drawProbability": 0.4734333429991977,
+      "awayProbability": 0.1938534850443745,
       "predicted": "Draw",
-      "confidence": 0.7212381228548507,
-      "brier": 0.45216342754658134
+      "confidence": 0.4734333429991977,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.328236462877268
     },
     {
       "year": 2010,
@@ -3332,12 +3700,15 @@ export const worldCupBacktest = {
       "matchId": "300061457",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.08178867655875258,
-      "drawProbability": 0.5342264239511604,
-      "awayProbability": 0.38398489949008696,
-      "predicted": "Draw",
-      "confidence": 0.5342264239511604,
-      "brier": 0.4253181031932614
+      "homeProbability": 0.10395736525208735,
+      "drawProbability": 0.40797924838290617,
+      "awayProbability": 0.48806338636500657,
+      "predicted": "Away",
+      "confidence": 0.48806338636500657,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.4025151131690466
     },
     {
       "year": 2010,
@@ -3349,13 +3720,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061458",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.24595228158508034,
-      "drawProbability": 0.6613709748874093,
-      "awayProbability": 0.0926767435275105,
-      "predicted": "Draw",
-      "confidence": 0.6613709748874093,
-      "brier": 0.3381961689537107
+      "correct": true,
+      "homeProbability": 0.4520067101086078,
+      "drawProbability": 0.3776736259489442,
+      "awayProbability": 0.17031966394244805,
+      "predicted": "Home",
+      "confidence": 0.4520067101086078,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.15731426714296096
     },
     {
       "year": 2010,
@@ -3368,12 +3743,15 @@ export const worldCupBacktest = {
       "matchId": "300061463",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.2518799801712271,
-      "drawProbability": 0.5258783181015995,
-      "awayProbability": 0.22224170172717345,
+      "homeProbability": 0.3160668097603052,
+      "drawProbability": 0.40505741133555984,
+      "awayProbability": 0.27887577890413495,
       "predicted": "Draw",
-      "confidence": 0.5258783181015995,
-      "brier": 0.11254208921460528
+      "confidence": 0.40505741133555984,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17720887069939673
     },
     {
       "year": 2010,
@@ -3385,13 +3763,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061464",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.32053152662473733,
-      "drawProbability": 0.6167884697046305,
-      "awayProbability": 0.06268000367063213,
-      "predicted": "Draw",
-      "confidence": 0.6167884697046305,
-      "brier": 0.08450677312395134
+      "correct": false,
+      "homeProbability": 0.47101663843963715,
+      "drawProbability": 0.4368759643966207,
+      "awayProbability": 0.09210739716374212,
+      "predicted": "Home",
+      "confidence": 0.47101663843963715,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18248304192449705
     },
     {
       "year": 2010,
@@ -3409,6 +3790,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.04685992224700968,
       "predicted": "Home",
       "confidence": 0.7443082962612815,
+      "calibrationNotes": [],
       "brier": 0.5020271868877829
     },
     {
@@ -3422,12 +3804,15 @@ export const worldCupBacktest = {
       "matchId": "300061469",
       "actual": "Draw",
       "correct": false,
-      "homeProbability": 0.45106394411311357,
-      "drawProbability": 0.4446514514634693,
-      "awayProbability": 0.10428460442341725,
+      "homeProbability": 0.5063137917558864,
+      "drawProbability": 0.37662800801221413,
+      "awayProbability": 0.11705820023189928,
       "predicted": "Home",
-      "confidence": 0.45106394411311357,
-      "brier": 0.17424865692008598
+      "confidence": 0.5063137917558864,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.21954963945285821
     },
     {
       "year": 2010,
@@ -3440,12 +3825,15 @@ export const worldCupBacktest = {
       "matchId": "300061475",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.13247082934020127,
-      "drawProbability": 0.6615472335482314,
-      "awayProbability": 0.20598193711156734,
+      "homeProbability": 0.21427591826112052,
+      "drawProbability": 0.452541531741881,
+      "awayProbability": 0.33318254999699853,
       "predicted": "Draw",
-      "confidence": 0.6615472335482314,
-      "brier": 0.36188598234483266
+      "confidence": 0.452541531741881,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23178450624214655
     },
     {
       "year": 2010,
@@ -3457,13 +3845,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300111117",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.22972637184416142,
-      "drawProbability": 0.6994642410040882,
-      "awayProbability": 0.07080938715175034,
-      "predicted": "Draw",
-      "confidence": 0.6994642410040882,
-      "brier": 0.36252855199486356
+      "correct": true,
+      "homeProbability": 0.46755616338129335,
+      "drawProbability": 0.38832731607176674,
+      "awayProbability": 0.14411652054693985,
+      "predicted": "Home",
+      "confidence": 0.46755616338129335,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.15168803835176878
     },
     {
       "year": 2010,
@@ -3476,12 +3868,16 @@ export const worldCupBacktest = {
       "matchId": "300061481",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.32916388581038547,
-      "drawProbability": 0.3757353469012941,
-      "awayProbability": 0.2951007672883204,
-      "predicted": "Draw",
-      "confidence": 0.3757353469012941,
-      "brier": 0.248802947636781
+      "homeProbability": 0.3578078557071818,
+      "drawProbability": 0.32141159298469973,
+      "awayProbability": 0.32078055130811844,
+      "predicted": "Home",
+      "confidence": 0.3578078557071818,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.23089031106401245
     },
     {
       "year": 2010,
@@ -3499,6 +3895,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.040876246346762735,
       "predicted": "Home",
       "confidence": 0.6857455130244644,
+      "calibrationNotes": [],
       "brier": 0.3332989857801082
     },
     {
@@ -3512,12 +3909,15 @@ export const worldCupBacktest = {
       "matchId": "300061488",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.5038638611789559,
-      "drawProbability": 0.3925104688498281,
-      "awayProbability": 0.10362566997121612,
+      "homeProbability": 0.5321734567352507,
+      "drawProbability": 0.35837866409743985,
+      "awayProbability": 0.10944787916730948,
       "predicted": "Home",
-      "confidence": 0.5038638611789559,
-      "brier": 0.13698460529264989
+      "confidence": 0.5321734567352507,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1197585932391773
     },
     {
       "year": 2010,
@@ -3529,13 +3929,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061487",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3206566528679963,
-      "drawProbability": 0.5163713348359434,
-      "awayProbability": 0.1629720122960603,
-      "predicted": "Draw",
-      "confidence": 0.5163713348359434,
-      "brier": 0.2515688718415318
+      "correct": true,
+      "homeProbability": 0.4132841244272172,
+      "drawProbability": 0.3766664510387899,
+      "awayProbability": 0.21004942453399295,
+      "predicted": "Home",
+      "confidence": 0.4132841244272172,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.17674463157811862
     },
     {
       "year": 2010,
@@ -3548,12 +3952,15 @@ export const worldCupBacktest = {
       "matchId": "300061493",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.10645913012490349,
-      "drawProbability": 0.6884643820532151,
-      "awayProbability": 0.2050764878218813,
+      "homeProbability": 0.18386019875488654,
+      "drawProbability": 0.46196253371862533,
+      "awayProbability": 0.3541772675264882,
       "predicted": "Draw",
-      "confidence": 0.6884643820532151,
-      "brier": 0.43815161911680595
+      "confidence": 0.46196253371862533,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.334978364856225
     },
     {
       "year": 2010,
@@ -3565,13 +3972,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061494",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.37052010313287737,
-      "drawProbability": 0.5413027854570456,
-      "awayProbability": 0.08817711141007704,
-      "predicted": "Draw",
-      "confidence": 0.5413027854570456,
-      "brier": 0.23234294969334165
+      "correct": true,
+      "homeProbability": 0.47621373326930366,
+      "drawProbability": 0.4104559749099659,
+      "awayProbability": 0.11333029182073037,
+      "predicted": "Home",
+      "confidence": 0.47621373326930366,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15188997186638087
     },
     {
       "year": 2010,
@@ -3584,12 +3994,16 @@ export const worldCupBacktest = {
       "matchId": "300061449",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.2545881969339788,
-      "drawProbability": 0.6429552645695511,
-      "awayProbability": 0.1024565384964702,
-      "predicted": "Draw",
-      "confidence": 0.6429552645695511,
-      "brier": 0.42793029584784475
+      "homeProbability": 0.4456508898991351,
+      "drawProbability": 0.37500125302492315,
+      "awayProbability": 0.1793478570759417,
+      "predicted": "Home",
+      "confidence": 0.4456508898991351,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.33756686504133415
     },
     {
       "year": 2010,
@@ -3602,12 +4016,15 @@ export const worldCupBacktest = {
       "matchId": "300061450",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1720535710803384,
-      "drawProbability": 0.7025616480955682,
-      "awayProbability": 0.12538478082409346,
+      "homeProbability": 0.3083743139500339,
+      "drawProbability": 0.4668965768334489,
+      "awayProbability": 0.2247291092165173,
       "predicted": "Draw",
-      "confidence": 0.7025616480955682,
-      "brier": 0.4293823607701257
+      "confidence": 0.4668965768334489,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3047106950197205
     },
     {
       "year": 2010,
@@ -3625,6 +4042,7 @@ export const worldCupBacktest = {
       "awayProbability": 0.6543111206890019,
       "predicted": "Away",
       "confidence": 0.6543111206890019,
+      "calibrationNotes": [],
       "brier": 0.07178790384564222
     },
     {
@@ -3638,12 +4056,15 @@ export const worldCupBacktest = {
       "matchId": "300111115",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.14821326365639922,
-      "drawProbability": 0.6720821825551028,
-      "awayProbability": 0.17970455378849798,
+      "homeProbability": 0.24577532936051943,
+      "drawProbability": 0.45622876389428596,
+      "awayProbability": 0.29799590674519455,
       "predicted": "Draw",
-      "confidence": 0.6720821825551028,
-      "brier": 0.05393033105794314
+      "confidence": 0.45622876389428596,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14829807672503292
     },
     {
       "year": 2010,
@@ -3656,12 +4077,15 @@ export const worldCupBacktest = {
       "matchId": "300061461",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.2009535750679104,
-      "drawProbability": 0.6641481930257026,
-      "awayProbability": 0.134898231906387,
+      "homeProbability": 0.3270216175109484,
+      "drawProbability": 0.4534518675589959,
+      "awayProbability": 0.2195265149300557,
       "predicted": "Draw",
-      "confidence": 0.6641481930257026,
-      "brier": 0.365921848155843
+      "confidence": 0.4534518675589959,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23557013008255245
     },
     {
       "year": 2010,
@@ -3673,13 +4097,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061462",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.1462368884170226,
-      "drawProbability": 0.5756550952271504,
-      "awayProbability": 0.27810801635582694,
-      "predicted": "Draw",
-      "confidence": 0.5756550952271504,
-      "brier": 0.2912973507481971
+      "correct": true,
+      "homeProbability": 0.22107358245229092,
+      "drawProbability": 0.35849668774414356,
+      "awayProbability": 0.4204297298035656,
+      "predicted": "Away",
+      "confidence": 0.4204297298035656,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.17109836735912665
     },
     {
       "year": 2010,
@@ -3692,12 +4120,15 @@ export const worldCupBacktest = {
       "matchId": "300061467",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.11796376956036979,
-      "drawProbability": 0.46688463485243314,
-      "awayProbability": 0.41515159558719705,
-      "predicted": "Draw",
-      "confidence": 0.46688463485243314,
-      "brier": 0.389440007129346
+      "homeProbability": 0.13621322178638404,
+      "drawProbability": 0.3844096221983517,
+      "awayProbability": 0.47937715601526437,
+      "predicted": "Away",
+      "confidence": 0.47937715601526437,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3745669378548737
     },
     {
       "year": 2010,
@@ -3709,13 +4140,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061468",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.11912425830907268,
-      "drawProbability": 0.5564497108476809,
-      "awayProbability": 0.3244260308432465,
-      "predicted": "Draw",
-      "confidence": 0.5564497108476809,
-      "brier": 0.2600756858074548
+      "correct": true,
+      "homeProbability": 0.15690997896522044,
+      "drawProbability": 0.4157573987966883,
+      "awayProbability": 0.4273326222380913,
+      "predicted": "Away",
+      "confidence": 0.4273326222380913,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17514096056858505
     },
     {
       "year": 2010,
@@ -3727,13 +4161,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "300061473",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.06491898184085264,
-      "drawProbability": 0.6829968551606668,
-      "awayProbability": 0.25208416299848063,
-      "predicted": "Draw",
-      "confidence": 0.6829968551606668,
-      "brier": 0.3433590925334323
+      "correct": true,
+      "homeProbability": 0.12095398919424528,
+      "drawProbability": 0.4093746718111668,
+      "awayProbability": 0.46967133899458796,
+      "predicted": "Away",
+      "confidence": 0.46967133899458796,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.15448865936876516
     },
     {
       "year": 2010,
@@ -3746,12 +4184,15 @@ export const worldCupBacktest = {
       "matchId": "300061474",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.20077008349741274,
-      "drawProbability": 0.6805120239219481,
-      "awayProbability": 0.11871789258063921,
+      "homeProbability": 0.3398582845747751,
+      "drawProbability": 0.45917920837268184,
+      "awayProbability": 0.20096250705254307,
       "predicted": "Draw",
-      "confidence": 0.6805120239219481,
-      "brier": 0.42668779799580464
+      "confidence": 0.45917920837268184,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3216033713772096
     },
     {
       "year": 2010,
@@ -3764,12 +4205,15 @@ export const worldCupBacktest = {
       "matchId": "300061479",
       "actual": "Draw",
       "correct": false,
-      "homeProbability": 0.4867996559245664,
-      "drawProbability": 0.43684331475134897,
-      "awayProbability": 0.07635702932408452,
+      "homeProbability": 0.5412128251142004,
+      "drawProbability": 0.3738951601629722,
+      "awayProbability": 0.08489201472282744,
       "predicted": "Home",
-      "confidence": 0.4867996559245664,
-      "brier": 0.18664991769190786
+      "confidence": 0.5412128251142004,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2307084155663817
     },
     {
       "year": 2010,
@@ -3782,12 +4226,15 @@ export const worldCupBacktest = {
       "matchId": "300061480",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.08754470941667919,
-      "drawProbability": 0.3976021076089484,
-      "awayProbability": 0.5148531829743724,
+      "homeProbability": 0.09298595330791956,
+      "drawProbability": 0.36016073766313195,
+      "awayProbability": 0.5468533090289485,
       "predicted": "Away",
-      "confidence": 0.5148531829743724,
-      "brier": 0.4185786311024709
+      "confidence": 0.5468533090289485,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.41714625981556847
     },
     {
       "year": 2010,
@@ -3800,12 +4247,13 @@ export const worldCupBacktest = {
       "matchId": "300061486",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.17716866942707446,
-      "drawProbability": 0.27287646708547,
-      "awayProbability": 0.5499548634874555,
+      "homeProbability": 0.1771686694270745,
+      "drawProbability": 0.27287646708547003,
+      "awayProbability": 0.5499548634874556,
       "predicted": "Away",
-      "confidence": 0.5499548634874555,
-      "brier": 0.10279697620473414
+      "confidence": 0.5499548634874556,
+      "calibrationNotes": [],
+      "brier": 0.10279697620473412
     },
     {
       "year": 2010,
@@ -3817,13 +4265,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "300061491",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.10368890424230581,
-      "drawProbability": 0.6272468997602516,
-      "awayProbability": 0.26906419599744263,
-      "predicted": "Draw",
-      "confidence": 0.6272468997602516,
-      "brier": 0.31281907056489405
+      "correct": true,
+      "homeProbability": 0.17139825590376886,
+      "drawProbability": 0.3838373379420057,
+      "awayProbability": 0.4447644061542255,
+      "predicted": "Away",
+      "confidence": 0.4447644061542255,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16166500959950972
     },
     {
       "year": 2010,
@@ -3835,13 +4287,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061492",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.23954846219990378,
-      "drawProbability": 0.6918625528482711,
-      "awayProbability": 0.06858898495182508,
-      "predicted": "Draw",
-      "confidence": 0.6918625528482711,
-      "brier": 0.05234553364541497
+      "correct": false,
+      "homeProbability": 0.4685048886015743,
+      "drawProbability": 0.39734991815008114,
+      "awayProbability": 0.13414519324834462,
+      "predicted": "Home",
+      "confidence": 0.4685048886015743,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.20022629488964103
     },
     {
       "year": 2010,
@@ -3854,12 +4310,15 @@ export const worldCupBacktest = {
       "matchId": "300111111",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1740760369236852,
-      "drawProbability": 0.63370592686864,
-      "awayProbability": 0.19221803620767472,
+      "homeProbability": 0.264802747750838,
+      "drawProbability": 0.44279707440402405,
+      "awayProbability": 0.2924001778451379,
       "predicted": "Draw",
-      "confidence": 0.63370592686864,
-      "brier": 0.06714052936191775
+      "confidence": 0.44279707440402405,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15536448650432563
     },
     {
       "year": 2010,
@@ -3872,12 +4331,15 @@ export const worldCupBacktest = {
       "matchId": "300061503",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.19128516821321945,
-      "drawProbability": 0.6486139497617405,
-      "awayProbability": 0.16010088202504014,
+      "homeProbability": 0.300485935615654,
+      "drawProbability": 0.4480148824166092,
+      "awayProbability": 0.25149918196773685,
       "predicted": "Draw",
-      "confidence": 0.6486139497617405,
-      "brier": 0.387573533259667
+      "confidence": 0.4480148824166092,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.28375420232151677
     },
     {
       "year": 2010,
@@ -3889,13 +4351,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061504",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2333794576102929,
-      "drawProbability": 0.6556462401171805,
-      "awayProbability": 0.11097430227252657,
-      "predicted": "Draw",
-      "confidence": 0.6556462401171805,
-      "brier": 0.3432981146528527
+      "correct": true,
+      "homeProbability": 0.43887891234477855,
+      "drawProbability": 0.3524297076241836,
+      "awayProbability": 0.20869138003103793,
+      "predicted": "Home",
+      "confidence": 0.43887891234477855,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16087188864223514
     },
     {
       "year": 2010,
@@ -3908,12 +4374,15 @@ export const worldCupBacktest = {
       "matchId": "300061501",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.1752031957243829,
-      "drawProbability": 0.7360266608519934,
-      "awayProbability": 0.08877014342362355,
+      "homeProbability": 0.34605506628913907,
+      "drawProbability": 0.4786093312981977,
+      "awayProbability": 0.17533560241266327,
       "predicted": "Draw",
-      "confidence": 0.7360266608519934,
-      "brier": 0.4099683840638855
+      "confidence": 0.4786093312981977,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.22915114726840727
     },
     {
       "year": 2010,
@@ -3925,13 +4394,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300061502",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2743230977464729,
-      "drawProbability": 0.6423409640337344,
-      "awayProbability": 0.08333593821979265,
-      "predicted": "Draw",
-      "confidence": 0.6423409640337344,
-      "brier": 0.3153845863796785
+      "correct": true,
+      "homeProbability": 0.4563209553340917,
+      "drawProbability": 0.4050544255415511,
+      "awayProbability": 0.13862461912435728,
+      "predicted": "Home",
+      "confidence": 0.4563209553340917,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.15962425876233458
     },
     {
       "year": 2010,
@@ -3943,13 +4416,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300061500",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.34096406910616667,
-      "drawProbability": 0.5867026648536444,
-      "awayProbability": 0.07233326604018886,
-      "predicted": "Draw",
-      "confidence": 0.5867026648536444,
-      "brier": 0.2612601588438367
+      "correct": true,
+      "homeProbability": 0.47325595500649587,
+      "drawProbability": 0.42634593269877546,
+      "awayProbability": 0.10039811229472857,
+      "predicted": "Home",
+      "confidence": 0.47325595500649587,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1564366414057508
     },
     {
       "year": 2010,
@@ -3962,12 +4438,15 @@ export const worldCupBacktest = {
       "matchId": "300111113",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.45338922642809665,
-      "drawProbability": 0.3971925577832391,
-      "awayProbability": 0.1494182157886643,
+      "homeProbability": 0.48134976077888325,
+      "drawProbability": 0.3600173952241337,
+      "awayProbability": 0.15863284399698313,
       "predicted": "Home",
-      "confidence": 0.45338922642809665,
-      "brier": 0.1596236896509114
+      "confidence": 0.48134976077888325,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14125832490088763
     },
     {
       "year": 2010,
@@ -3980,12 +4459,15 @@ export const worldCupBacktest = {
       "matchId": "300061497",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1562686013992657,
-      "drawProbability": 0.7457490938726217,
-      "awayProbability": 0.09798230472811259,
+      "homeProbability": 0.31836752505609306,
+      "drawProbability": 0.4820121828554176,
+      "awayProbability": 0.1996202920884893,
       "predicted": "Draw",
-      "confidence": 0.7457490938726217,
-      "brier": 0.03288797702990275
+      "confidence": 0.4820121828554176,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1365058402446817
     },
     {
       "year": 2010,
@@ -3998,12 +4480,15 @@ export const worldCupBacktest = {
       "matchId": "300061498",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.1667147317756396,
-      "drawProbability": 0.6660863191732516,
-      "awayProbability": 0.16719894905110882,
+      "homeProbability": 0.27253910385991037,
+      "drawProbability": 0.45413021171063805,
+      "awayProbability": 0.2733306844294516,
       "predicted": "Draw",
-      "confidence": 0.6660863191732516,
-      "brier": 0.38866360379777015
+      "confidence": 0.45413021171063805,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.27004775588398794
     },
     {
       "year": 2010,
@@ -4016,12 +4501,15 @@ export const worldCupBacktest = {
       "matchId": "300061507",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.14199959007935953,
-      "drawProbability": 0.6717186990528667,
-      "awayProbability": 0.18628171086777368,
+      "homeProbability": 0.23526578418886884,
+      "drawProbability": 0.4561015446685034,
+      "awayProbability": 0.3086326711426277,
       "predicted": "Draw",
-      "confidence": 0.6717186990528667,
-      "brier": 0.4073571966283625
+      "confidence": 0.4561015446685034,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.296033721859298
     },
     {
       "year": 2010,
@@ -4034,12 +4522,15 @@ export const worldCupBacktest = {
       "matchId": "300061508",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.2125368108946543,
-      "drawProbability": 0.6627955203206007,
-      "awayProbability": 0.12466766878474493,
+      "homeProbability": 0.3447825474916645,
+      "drawProbability": 0.45297843211221034,
+      "awayProbability": 0.2022390203961253,
       "predicted": "Draw",
-      "confidence": 0.6627955203206007,
-      "brier": 0.0581402615804491
+      "confidence": 0.45297843211221034,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.153002740720014
     },
     {
       "year": 2010,
@@ -4052,12 +4543,15 @@ export const worldCupBacktest = {
       "matchId": "300061505",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.20497834907211226,
-      "drawProbability": 0.6230414864469134,
-      "awayProbability": 0.17198016448097425,
+      "homeProbability": 0.30501931761681766,
+      "drawProbability": 0.4390645202564196,
+      "awayProbability": 0.2559161621267626,
       "predicted": "Draw",
-      "confidence": 0.6230414864469134,
-      "brier": 0.37193788847842085
+      "confidence": 0.4390645202564196,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2798250649505318
     },
     {
       "year": 2010,
@@ -4070,12 +4564,15 @@ export const worldCupBacktest = {
       "matchId": "300061506",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.08134139445070515,
-      "drawProbability": 0.7542635371963591,
-      "awayProbability": 0.16439506835293582,
+      "homeProbability": 0.17047307116961163,
+      "drawProbability": 0.4849922380187257,
+      "awayProbability": 0.3445346908116627,
       "predicted": "Draw",
-      "confidence": 0.7542635371963591,
-      "brier": 0.4245885025960144
+      "confidence": 0.4849922380187257,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23130443682725818
     },
     {
       "year": 2010,
@@ -4088,12 +4585,15 @@ export const worldCupBacktest = {
       "matchId": "300061512",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.11587601715905871,
-      "drawProbability": 0.7065112325531197,
-      "awayProbability": 0.17761275028782167,
+      "homeProbability": 0.2099355290686581,
+      "drawProbability": 0.4682789313935919,
+      "awayProbability": 0.3217855395377501,
       "predicted": "Draw",
-      "confidence": 0.7065112325531197,
-      "brier": 0.39630205385517847
+      "confidence": 0.4682789313935919,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.24111097944418755
     },
     {
       "year": 2010,
@@ -4106,12 +4606,15 @@ export const worldCupBacktest = {
       "matchId": "300111114",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.23604066235374385,
-      "drawProbability": 0.6383949688338267,
-      "awayProbability": 0.12556436881242944,
+      "homeProbability": 0.36264751516389215,
+      "drawProbability": 0.4444382390918394,
+      "awayProbability": 0.19291424574426852,
       "predicted": "Draw",
-      "confidence": 0.6383949688338267,
-      "brier": 0.40930033453571385
+      "confidence": 0.4444382390918394,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.32680866111471446
     },
     {
       "year": 2010,
@@ -4123,13 +4626,17 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "300061510",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.1066419023474659,
-      "drawProbability": 0.6055073265568869,
-      "awayProbability": 0.2878507710956472,
-      "predicted": "Draw",
-      "confidence": 0.6055073265568869,
-      "brier": 0.29505604735980634
+      "correct": true,
+      "homeProbability": 0.1638780962086694,
+      "drawProbability": 0.39377761584293497,
+      "awayProbability": 0.44234428794839564,
+      "predicted": "Away",
+      "confidence": 0.44234428794839564,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1642989114465686
     },
     {
       "year": 2010,
@@ -4142,12 +4649,15 @@ export const worldCupBacktest = {
       "matchId": "300061509",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1786231359407435,
-      "drawProbability": 0.657213812891542,
-      "awayProbability": 0.16416305116771449,
+      "homeProbability": 0.286066560733446,
+      "drawProbability": 0.45102483451203973,
+      "awayProbability": 0.2629086047545143,
       "predicted": "Draw",
-      "confidence": 0.657213812891542,
-      "brier": 0.3874865418606696
+      "confidence": 0.45102483451203973,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2761870678204707
     },
     {
       "year": 2014,
@@ -4159,13 +4669,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186456",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2363272016753339,
-      "drawProbability": 0.6910214570314976,
-      "awayProbability": 0.07265134129316846,
-      "predicted": "Draw",
-      "confidence": 0.6910214570314976,
-      "brier": 0.3553283381235522
+      "correct": true,
+      "homeProbability": 0.46592423404581784,
+      "drawProbability": 0.3908420615627429,
+      "awayProbability": 0.1432337043914392,
+      "predicted": "Home",
+      "confidence": 0.46592423404581784,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.15283677831328515
     },
     {
       "year": 2014,
@@ -4178,12 +4692,15 @@ export const worldCupBacktest = {
       "matchId": "300186473",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.1699194736334512,
-      "drawProbability": 0.6326816763019257,
-      "awayProbability": 0.19739885006462313,
+      "homeProbability": 0.25792489988375633,
+      "drawProbability": 0.44243858670567404,
+      "awayProbability": 0.2996365134105697,
       "predicted": "Draw",
-      "confidence": 0.6326816763019257,
-      "brier": 0.3760953632626723
+      "confidence": 0.44243858670567404,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.27873646579582995
     },
     {
       "year": 2014,
@@ -4196,12 +4713,15 @@ export const worldCupBacktest = {
       "matchId": "300186492",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.22509820507724526,
-      "drawProbability": 0.6666591321775395,
-      "awayProbability": 0.10824266274521532,
+      "homeProbability": 0.36847921360354263,
+      "drawProbability": 0.45433069626213884,
+      "awayProbability": 0.17719009013431858,
       "predicted": "Draw",
-      "confidence": 0.6666591321775395,
-      "brier": 0.35220788810946385
+      "confidence": 0.45433069626213884,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.21221040441954928
     },
     {
       "year": 2014,
@@ -4214,12 +4734,15 @@ export const worldCupBacktest = {
       "matchId": "300186510",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17937081409909927,
-      "drawProbability": 0.6859782643981107,
-      "awayProbability": 0.13465092150278998,
+      "homeProbability": 0.30782676902647843,
+      "drawProbability": 0.4610923925393388,
+      "awayProbability": 0.23108083843418284,
       "predicted": "Draw",
-      "confidence": 0.6859782643981107,
-      "brier": 0.4171896986110628
+      "confidence": 0.4610923925393388,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.299533397070004
     },
     {
       "year": 2014,
@@ -4231,13 +4754,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186471",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.299713033222659,
-      "drawProbability": 0.6084248430753151,
-      "awayProbability": 0.09186212370202589,
-      "predicted": "Draw",
-      "confidence": 0.6084248430753151,
-      "brier": 0.2896737584268256
+      "correct": true,
+      "homeProbability": 0.44909466305038137,
+      "drawProbability": 0.41325770432095904,
+      "awayProbability": 0.13764763262865945,
+      "predicted": "Home",
+      "confidence": 0.44909466305038137,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16440849707615882
     },
     {
       "year": 2014,
@@ -4250,12 +4777,15 @@ export const worldCupBacktest = {
       "matchId": "300186489",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.3795543279940128,
-      "drawProbability": 0.4760121781030724,
-      "awayProbability": 0.14443349390291485,
-      "predicted": "Draw",
-      "confidence": 0.4760121781030724,
-      "brier": 0.3675477093188639
+      "homeProbability": 0.44359323435030307,
+      "drawProbability": 0.38760426233607537,
+      "awayProbability": 0.16880250331362162,
+      "predicted": "Home",
+      "confidence": 0.44359323435030307,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.34596710008005277
     },
     {
       "year": 2014,
@@ -4267,13 +4797,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186507",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2531478519206144,
-      "drawProbability": 0.5773785843248469,
-      "awayProbability": 0.16947356375453884,
-      "predicted": "Draw",
-      "confidence": 0.5773785843248469,
-      "brier": 0.30662514984647354
+      "correct": true,
+      "homeProbability": 0.40397957680214625,
+      "drawProbability": 0.325570336241635,
+      "awayProbability": 0.27045008695621875,
+      "predicted": "Home",
+      "confidence": 0.40397957680214625,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1781265460813554
     },
     {
       "year": 2014,
@@ -4286,12 +4820,15 @@ export const worldCupBacktest = {
       "matchId": "300186513",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.12734975710036112,
-      "drawProbability": 0.6815351276112981,
-      "awayProbability": 0.19111511528834074,
+      "homeProbability": 0.216123661395037,
+      "drawProbability": 0.4595372946639544,
+      "awayProbability": 0.3243390439410087,
       "predicted": "Draw",
-      "confidence": 0.6815351276112981,
-      "brier": 0.3783342825055545
+      "confidence": 0.4595372946639544,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2381338965814709
     },
     {
       "year": 2014,
@@ -4304,12 +4841,15 @@ export const worldCupBacktest = {
       "matchId": "300186477",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.41915568402000747,
-      "drawProbability": 0.37169946176147517,
-      "awayProbability": 0.20914485421851736,
+      "homeProbability": 0.4329015837922983,
+      "drawProbability": 0.35109481161651634,
+      "awayProbability": 0.21600360459118534,
       "predicted": "Home",
-      "confidence": 0.41915568402000747,
-      "brier": 0.17309405977537354
+      "confidence": 0.4329015837922983,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1638419125352353
     },
     {
       "year": 2014,
@@ -4322,12 +4862,15 @@ export const worldCupBacktest = {
       "matchId": "300186494",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.15925926000272292,
-      "drawProbability": 0.7220146830277097,
-      "awayProbability": 0.1187260569695674,
+      "homeProbability": 0.30151711252052693,
+      "drawProbability": 0.47370513905969835,
+      "awayProbability": 0.2247777484197747,
       "predicted": "Draw",
-      "confidence": 0.7220146830277097,
-      "brier": 0.414082023667438
+      "confidence": 0.47370513905969835,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.25426664635263135
     },
     {
       "year": 2014,
@@ -4340,12 +4883,15 @@ export const worldCupBacktest = {
       "matchId": "300186496",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.17666868115653367,
-      "drawProbability": 0.7406324841189444,
-      "awayProbability": 0.082698834724522,
+      "homeProbability": 0.3540482116357559,
+      "drawProbability": 0.48022136944163046,
+      "awayProbability": 0.16573041892261353,
       "predicted": "Draw",
-      "confidence": 0.7406324841189444,
-      "brier": 0.41108334479517133
+      "confidence": 0.48022136944163046,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2251109494385417
     },
     {
       "year": 2014,
@@ -4358,12 +4904,15 @@ export const worldCupBacktest = {
       "matchId": "300186475",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.21287060120148327,
-      "drawProbability": 0.6593078619913467,
-      "awayProbability": 0.12782153680717,
+      "homeProbability": 0.3425516587569578,
+      "drawProbability": 0.45175775169697135,
+      "awayProbability": 0.20569058954607083,
       "predicted": "Draw",
-      "confidence": 0.6593078619913467,
-      "brier": 0.3568659642027539
+      "confidence": 0.45175775169697135,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2262106687497801
     },
     {
       "year": 2014,
@@ -4375,13 +4924,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186505",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.14160930618928488,
-      "drawProbability": 0.5024224555759494,
-      "awayProbability": 0.35596823823476564,
-      "predicted": "Draw",
-      "confidence": 0.5024224555759494,
-      "brier": 0.13144999831548052
+      "correct": false,
+      "homeProbability": 0.17165556827631442,
+      "drawProbability": 0.39684785945158235,
+      "awayProbability": 0.4314965722721033,
+      "predicted": "Away",
+      "confidence": 0.4314965722721033,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.19314914355032572
     },
     {
       "year": 2014,
@@ -4394,12 +4946,15 @@ export const worldCupBacktest = {
       "matchId": "300186512",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.21966152008395334,
-      "drawProbability": 0.6455004464976851,
-      "awayProbability": 0.1348380334183615,
+      "homeProbability": 0.34270638620765737,
+      "drawProbability": 0.4469251562741898,
+      "awayProbability": 0.2103684575181528,
       "predicted": "Draw",
-      "confidence": 0.6455004464976851,
-      "brier": 0.4044757460845707
+      "confidence": 0.4469251562741898,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3135692451134941
     },
     {
       "year": 2014,
@@ -4412,12 +4967,15 @@ export const worldCupBacktest = {
       "matchId": "300186479",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.21674699246725523,
-      "drawProbability": 0.6615646047802273,
-      "awayProbability": 0.12168840275251731,
+      "homeProbability": 0.3506094822375821,
+      "drawProbability": 0.45254761167307966,
+      "awayProbability": 0.19684290608933835,
       "predicted": "Draw",
-      "confidence": 0.6615646047802273,
-      "brier": 0.35532035582385574
+      "confidence": 0.45254761167307966,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2217515050228153
     },
     {
       "year": 2014,
@@ -4429,13 +4987,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186499",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.40135580355067213,
-      "drawProbability": 0.4063582577951234,
-      "awayProbability": 0.19228593865420449,
-      "predicted": "Draw",
-      "confidence": 0.4063582577951234,
-      "brier": 0.18349029377865841
+      "correct": false,
+      "homeProbability": 0.43051754453174235,
+      "drawProbability": 0.3632253902282932,
+      "awayProbability": 0.20625706523996448,
+      "predicted": "Home",
+      "confidence": 0.43051754453174235,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.21112307892031776
     },
     {
       "year": 2014,
@@ -4447,13 +5008,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186509",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.29970732860917765,
-      "drawProbability": 0.6179516246060337,
-      "awayProbability": 0.08234104678478855,
-      "predicted": "Draw",
-      "confidence": 0.6179516246060337,
-      "brier": 0.08085516398294444
+      "correct": false,
+      "homeProbability": 0.44143726064927385,
+      "drawProbability": 0.43728306861211186,
+      "awayProbability": 0.12127967073861434,
+      "predicted": "Home",
+      "confidence": 0.44143726064927385,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1754086528315343
     },
     {
       "year": 2014,
@@ -4466,12 +5030,15 @@ export const worldCupBacktest = {
       "matchId": "300186453",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1196842362513751,
-      "drawProbability": 0.712714925242658,
-      "awayProbability": 0.16760083850596688,
+      "homeProbability": 0.22061278530023345,
+      "drawProbability": 0.4704502238349303,
+      "awayProbability": 0.3089369908648363,
       "predicted": "Draw",
-      "confidence": 0.712714925242658,
-      "brier": 0.4050584150422307
+      "confidence": 0.4704502238349303,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.24918716557973677
     },
     {
       "year": 2014,
@@ -4483,13 +5050,16 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "300186478",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.0775299161226463,
-      "drawProbability": 0.48905492588372723,
-      "awayProbability": 0.43341515799362645,
-      "predicted": "Draw",
-      "confidence": 0.48905492588372723,
-      "brier": 0.1887346638721699
+      "correct": true,
+      "homeProbability": 0.09223118386443463,
+      "drawProbability": 0.39216922405930454,
+      "awayProbability": 0.5155995920762608,
+      "predicted": "Away",
+      "confidence": 0.5155995920762608,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13231568225766568
     },
     {
       "year": 2014,
@@ -4502,12 +5072,16 @@ export const worldCupBacktest = {
       "matchId": "300186498",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.24789266180511038,
-      "drawProbability": 0.5990379240066992,
-      "awayProbability": 0.15306941418819045,
-      "predicted": "Draw",
-      "confidence": 0.5990379240066992,
-      "brier": 0.37919620778620455
+      "homeProbability": 0.41299399143597193,
+      "drawProbability": 0.33198939019374785,
+      "awayProbability": 0.2550166183702802,
+      "predicted": "Home",
+      "confidence": 0.41299399143597193,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.27859374368929496
     },
     {
       "year": 2014,
@@ -4519,13 +5093,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186454",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.341554603569957,
-      "drawProbability": 0.5831025580938541,
-      "awayProbability": 0.07534283833618878,
-      "predicted": "Draw",
-      "confidence": 0.5831025580938541,
-      "brier": 0.09871318919209061
+      "correct": false,
+      "homeProbability": 0.47101406573411453,
+      "drawProbability": 0.425085895332849,
+      "awayProbability": 0.10390003893303652,
+      "predicted": "Home",
+      "confidence": 0.47101406573411453,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18772523198496638
     },
     {
       "year": 2014,
@@ -4538,12 +5115,15 @@ export const worldCupBacktest = {
       "matchId": "300186468",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.20650345871376227,
-      "drawProbability": 0.5503142190781302,
-      "awayProbability": 0.2431823222081076,
+      "homeProbability": 0.26928040224694316,
+      "drawProbability": 0.41360997667734556,
+      "awayProbability": 0.31710962107571133,
       "predicted": "Draw",
-      "confidence": 0.5503142190781302,
-      "brier": 0.3305400475291073
+      "confidence": 0.41360997667734556,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.26852761837540157
     },
     {
       "year": 2014,
@@ -4556,12 +5136,15 @@ export const worldCupBacktest = {
       "matchId": "300186486",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.1904097390790871,
-      "drawProbability": 0.6217715603205237,
-      "awayProbability": 0.18781870060038913,
+      "homeProbability": 0.2826128321672301,
+      "drawProbability": 0.43862004611218336,
+      "awayProbability": 0.27876712172058665,
       "predicted": "Draw",
-      "confidence": 0.6217715603205237,
-      "brier": 0.35910404269887636
+      "confidence": 0.43862004611218336,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2615810005249856
     },
     {
       "year": 2014,
@@ -4573,13 +5156,17 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "300186463",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.1305793027062152,
-      "drawProbability": 0.6113893584369343,
-      "awayProbability": 0.2580313388568506,
-      "predicted": "Draw",
-      "confidence": 0.6113893584369343,
-      "brier": 0.3137884653412417
+      "correct": true,
+      "homeProbability": 0.21667633828950375,
+      "drawProbability": 0.3551602046484804,
+      "awayProbability": 0.4281634570620158,
+      "predicted": "Away",
+      "confidence": 0.4281634570620158,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1666948127932543
     },
     {
       "year": 2014,
@@ -4592,12 +5179,15 @@ export const worldCupBacktest = {
       "matchId": "300186500",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.37229316304638155,
-      "drawProbability": 0.5000278597790574,
-      "awayProbability": 0.12767897717456111,
-      "predicted": "Draw",
-      "confidence": 0.5000278597790574,
-      "brier": 0.38319134222317475
+      "homeProbability": 0.4497479403128392,
+      "drawProbability": 0.3960097509226701,
+      "awayProbability": 0.15424230876449074,
+      "predicted": "Home",
+      "confidence": 0.4497479403128392,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3581343349751651
     },
     {
       "year": 2014,
@@ -4610,12 +5200,15 @@ export const worldCupBacktest = {
       "matchId": "300186514",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.09996910465011533,
-      "drawProbability": 0.774319739367435,
-      "awayProbability": 0.12571115598244964,
+      "homeProbability": 0.22502240342147317,
+      "drawProbability": 0.49201190877860224,
+      "awayProbability": 0.2829656877999246,
       "predicted": "Draw",
-      "confidence": 0.774319739367435,
-      "brier": 0.4579819544773809
+      "confidence": 0.49201190877860224,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.26894966843125834
     },
     {
       "year": 2014,
@@ -4628,12 +5221,15 @@ export const worldCupBacktest = {
       "matchId": "300186466",
       "actual": "Home",
       "correct": true,
-      "homeProbability": 0.5039550875445248,
-      "drawProbability": 0.4377603272435767,
-      "awayProbability": 0.05828458521189861,
+      "homeProbability": 0.5609119883647291,
+      "drawProbability": 0.3742161145352519,
+      "awayProbability": 0.06487189710001912,
       "predicted": "Home",
-      "confidence": 0.5039550875445248,
-      "brier": 0.14703058405156216
+      "confidence": 0.5609119883647291,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.112348115124344
     },
     {
       "year": 2014,
@@ -4645,13 +5241,16 @@ export const worldCupBacktest = {
       "awayGoals": 2,
       "matchId": "300186493",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.40593402073452967,
-      "drawProbability": 0.5261919635503408,
-      "awayProbability": 0.06787401571512947,
-      "predicted": "Draw",
-      "confidence": 0.5261919635503408,
-      "brier": 0.13129445553442692
+      "correct": false,
+      "homeProbability": 0.5096217387040626,
+      "drawProbability": 0.4051671872426193,
+      "awayProbability": 0.08521107405331804,
+      "predicted": "Home",
+      "confidence": 0.5096217387040626,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.20693377294464302
     },
     {
       "year": 2014,
@@ -4663,13 +5262,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186511",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3222446672573828,
-      "drawProbability": 0.3586099294081759,
-      "awayProbability": 0.3191454033344413,
-      "predicted": "Draw",
-      "confidence": 0.3586099294081759,
-      "brier": 0.22993572033356524
+      "correct": true,
+      "homeProbability": 0.3475100699491149,
+      "drawProbability": 0.3083221199809444,
+      "awayProbability": 0.34416781006994074,
+      "predicted": "Home",
+      "confidence": 0.3475100699491149,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.21308570665856386
     },
     {
       "year": 2014,
@@ -4682,12 +5285,15 @@ export const worldCupBacktest = {
       "matchId": "300186481",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.26158028642289266,
-      "drawProbability": 0.47837422585760986,
-      "awayProbability": 0.26004548771949737,
+      "homeProbability": 0.30668423148844925,
+      "drawProbability": 0.3884309790501635,
+      "awayProbability": 0.3048847894613873,
       "predicted": "Draw",
-      "confidence": 0.47837422585760986,
-      "brier": 0.2805764096824787
+      "confidence": 0.3884309790501635,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2415067050658484
     },
     {
       "year": 2014,
@@ -4700,12 +5306,15 @@ export const worldCupBacktest = {
       "matchId": "300186483",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.1874058298402701,
-      "drawProbability": 0.6506713174714649,
-      "awayProbability": 0.161922852688265,
+      "homeProbability": 0.2957394775784861,
+      "drawProbability": 0.4487349611150127,
+      "awayProbability": 0.25552556130650117,
       "predicted": "Draw",
-      "confidence": 0.6506713174714649,
-      "brier": 0.061123494572649296
+      "confidence": 0.4487349611150127,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.152216098058755
     },
     {
       "year": 2014,
@@ -4718,12 +5327,15 @@ export const worldCupBacktest = {
       "matchId": "300186495",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.20858146886189763,
-      "drawProbability": 0.6615741892982212,
-      "awayProbability": 0.1298443418398812,
+      "homeProbability": 0.3374084362800297,
+      "drawProbability": 0.4525509662543774,
+      "awayProbability": 0.21004059746559295,
       "predicted": "Draw",
-      "confidence": 0.6615741892982212,
-      "brier": 0.4127858355087517
+      "confidence": 0.4525509662543774,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3142275625277409
     },
     {
       "year": 2014,
@@ -4736,12 +5348,15 @@ export const worldCupBacktest = {
       "matchId": "300186452",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.17826053604266245,
-      "drawProbability": 0.7137301587597733,
-      "awayProbability": 0.10800930519756424,
+      "homeProbability": 0.3295299460359712,
+      "drawProbability": 0.47080555556592063,
+      "awayProbability": 0.19966449839810818,
       "predicted": "Draw",
-      "confidence": 0.7137301587597733,
-      "brier": 0.4456116526158669
+      "confidence": 0.47080555556592063,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3235949238701857
     },
     {
       "year": 2014,
@@ -4754,12 +5369,15 @@ export const worldCupBacktest = {
       "matchId": "300186467",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.16124564674236058,
-      "drawProbability": 0.6123997995039084,
-      "awayProbability": 0.22635455375373106,
+      "homeProbability": 0.23490436302200035,
+      "drawProbability": 0.43533992982636793,
+      "awayProbability": 0.3297557071516318,
       "predicted": "Draw",
-      "confidence": 0.6123997995039084,
-      "brier": 0.33318698317445933
+      "confidence": 0.43533992982636793,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.23130944212126928
     },
     {
       "year": 2014,
@@ -4771,13 +5389,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186470",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3426460743983993,
-      "drawProbability": 0.5194083730907604,
-      "awayProbability": 0.13794555251084045,
-      "predicted": "Draw",
-      "confidence": 0.5194083730907604,
-      "brier": 0.24030940566604883
+      "correct": true,
+      "homeProbability": 0.42578906181770604,
+      "drawProbability": 0.40279293058176613,
+      "awayProbability": 0.17141800760052792,
+      "predicted": "Home",
+      "confidence": 0.42578906181770604,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17378149326152412
     },
     {
       "year": 2014,
@@ -4789,13 +5410,16 @@ export const worldCupBacktest = {
       "awayGoals": 4,
       "matchId": "300186472",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.05090868576950001,
-      "drawProbability": 0.5578189189168911,
-      "awayProbability": 0.39127239531360897,
-      "predicted": "Draw",
-      "confidence": 0.5578189189168911,
-      "brier": 0.2281009790985393
+      "correct": true,
+      "homeProbability": 0.06720917665868442,
+      "drawProbability": 0.4162366216209119,
+      "awayProbability": 0.5165542017204037,
+      "predicted": "Away",
+      "confidence": 0.5165542017204037,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13716327949324153
     },
     {
       "year": 2014,
@@ -4808,12 +5432,15 @@ export const worldCupBacktest = {
       "matchId": "300186455",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.10256525667500607,
-      "drawProbability": 0.4686799762408986,
-      "awayProbability": 0.42875476708409527,
-      "predicted": "Draw",
-      "confidence": 0.4686799762408986,
-      "brier": 0.4029602296511013
+      "homeProbability": 0.11871138562034114,
+      "drawProbability": 0.3850379916843146,
+      "awayProbability": 0.4962506226953443,
+      "predicted": "Away",
+      "confidence": 0.4962506226953443,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.3903961858003422
     },
     {
       "year": 2014,
@@ -4826,12 +5453,15 @@ export const worldCupBacktest = {
       "matchId": "300186457",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.10254662848114732,
-      "drawProbability": 0.7401598117267199,
-      "awayProbability": 0.15729355979213278,
+      "homeProbability": 0.20519732267243374,
+      "drawProbability": 0.480055934104352,
+      "awayProbability": 0.3147467432232142,
       "predicted": "Draw",
-      "confidence": 0.7401598117267199,
-      "brier": 0.42283550075866644
+      "confidence": 0.480055934104352,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2473772223413094
     },
     {
       "year": 2014,
@@ -4844,12 +5474,16 @@ export const worldCupBacktest = {
       "matchId": "300186465",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.2537204562559682,
-      "drawProbability": 0.5929595650186186,
-      "awayProbability": 0.15331997872541328,
-      "predicted": "Draw",
-      "confidence": 0.5929595650186186,
-      "brier": 0.3776140580317802
+      "homeProbability": 0.41375970930265094,
+      "drawProbability": 0.33621066847518183,
+      "awayProbability": 0.25002962222216724,
+      "predicted": "Home",
+      "confidence": 0.41375970930265094,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.28223009272765603
     },
     {
       "year": 2014,
@@ -4862,12 +5496,15 @@ export const worldCupBacktest = {
       "matchId": "300186484",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.21512624483695073,
-      "drawProbability": 0.6219719615905436,
-      "awayProbability": 0.16290179357250567,
+      "homeProbability": 0.31942729133069503,
+      "drawProbability": 0.43869018655669023,
+      "awayProbability": 0.24188252211261474,
       "predicted": "Draw",
-      "confidence": 0.6219719615905436,
-      "brier": 0.07190716446349613
+      "confidence": 0.43869018655669023,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15853655187272916
     },
     {
       "year": 2014,
@@ -4880,12 +5517,15 @@ export const worldCupBacktest = {
       "matchId": "300186458",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.0965111798777238,
-      "drawProbability": 0.6841887266386322,
-      "awayProbability": 0.21930009348364393,
+      "homeProbability": 0.16488030058932784,
+      "drawProbability": 0.46046605432352133,
+      "awayProbability": 0.3746536450871509,
       "predicted": "Draw",
-      "confidence": 0.6841887266386322,
-      "brier": 0.36230698851181015
+      "confidence": 0.46046605432352133,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.21009085476982872
     },
     {
       "year": 2014,
@@ -4897,13 +5537,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186464",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3256475159127836,
-      "drawProbability": 0.46263235677752484,
-      "awayProbability": 0.2117201273096915,
-      "predicted": "Draw",
-      "confidence": 0.46263235677752484,
-      "brier": 0.23786846088005278
+      "correct": true,
+      "homeProbability": 0.39150787502604145,
+      "drawProbability": 0.35395280533284007,
+      "awayProbability": 0.2545393196411186,
+      "predicted": "Home",
+      "confidence": 0.39150787502604145,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.18677850660055817
     },
     {
       "year": 2014,
@@ -4915,13 +5559,17 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "300186482",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.12201491024361377,
-      "drawProbability": 0.6328714426846345,
-      "awayProbability": 0.24511364707175173,
-      "predicted": "Draw",
-      "confidence": 0.6328714426846345,
-      "brier": 0.3284224357082665
+      "correct": true,
+      "homeProbability": 0.21529189376091146,
+      "drawProbability": 0.35221193704665865,
+      "awayProbability": 0.43249616919242984,
+      "predicted": "Away",
+      "confidence": 0.43249616919242984,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16415481536619542
     },
     {
       "year": 2014,
@@ -4933,13 +5581,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186515",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.136245266820918,
-      "drawProbability": 0.5614478146622357,
-      "awayProbability": 0.30230691851684627,
-      "predicted": "Draw",
-      "confidence": 0.5614478146622357,
-      "brier": 0.10076008832626103
+      "correct": false,
+      "homeProbability": 0.1921405222026767,
+      "drawProbability": 0.38152973772894455,
+      "awayProbability": 0.42632974006837876,
+      "predicted": "Away",
+      "confidence": 0.42632974006837876,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.20039349761757222
     },
     {
       "year": 2014,
@@ -4951,13 +5603,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186469",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.11478857394889415,
-      "drawProbability": 0.5089603462963603,
-      "awayProbability": 0.3762510797547455,
-      "predicted": "Draw",
-      "confidence": 0.5089603462963603,
-      "brier": 0.22042658877281754
+      "correct": true,
+      "homeProbability": 0.14046178809431298,
+      "drawProbability": 0.3991361212037261,
+      "awayProbability": 0.46040209070196086,
+      "predicted": "Away",
+      "confidence": 0.46040209070196086,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15673502029434072
     },
     {
       "year": 2014,
@@ -4970,12 +5625,15 @@ export const worldCupBacktest = {
       "matchId": "300186476",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.1968204087478429,
-      "drawProbability": 0.6245059011776556,
-      "awayProbability": 0.17867369007450154,
+      "homeProbability": 0.29375340758531443,
+      "drawProbability": 0.43957706541217945,
+      "awayProbability": 0.2666695270025062,
       "predicted": "Draw",
-      "confidence": 0.6245059011776556,
-      "brier": 0.35567645464484565
+      "confidence": 0.43957706541217945,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.254374960788493
     },
     {
       "year": 2014,
@@ -4987,13 +5645,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186480",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.15190354094292305,
-      "drawProbability": 0.5590010734059259,
-      "awayProbability": 0.2890953856511511,
-      "predicted": "Draw",
-      "confidence": 0.5590010734059259,
-      "brier": 0.28031408550748704
+      "correct": true,
+      "homeProbability": 0.2196189835751459,
+      "drawProbability": 0.36241291404317916,
+      "awayProbability": 0.417968102381675,
+      "predicted": "Away",
+      "confidence": 0.417968102381675,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.17277891601901244
     },
     {
       "year": 2014,
@@ -5006,12 +5668,15 @@ export const worldCupBacktest = {
       "matchId": "300186506",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.21569013458556224,
-      "drawProbability": 0.5642107167927768,
-      "awayProbability": 0.220099148621661,
+      "homeProbability": 0.2878213847187059,
+      "drawProbability": 0.4184737508774719,
+      "awayProbability": 0.2937048644038222,
       "predicted": "Draw",
-      "confidence": 0.5642107167927768,
-      "brier": 0.09495938957992778
+      "confidence": 0.4184737508774719,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1690921584314592
     },
     {
       "year": 2014,
@@ -5023,13 +5688,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186487",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.37389308070235533,
-      "drawProbability": 0.5518628435181061,
-      "awayProbability": 0.07424407577953854,
-      "predicted": "Draw",
-      "confidence": 0.5518628435181061,
-      "brier": 0.11537837653504442
+      "correct": false,
+      "homeProbability": 0.48878900612905024,
+      "drawProbability": 0.41415199523133717,
+      "awayProbability": 0.09705899863961276,
+      "predicted": "Home",
+      "confidence": 0.48878900612905024,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.19718434214032407
     },
     {
       "year": 2014,
@@ -5041,13 +5709,38 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186487",
       "actual": "Draw",
+      "correct": false,
+      "homeProbability": 0.4599330774005924,
+      "drawProbability": 0.4285259259322257,
+      "awayProbability": 0.11154099666718187,
+      "predicted": "Home",
+      "confidence": 0.4599330774005924,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18352081565210254
+    },
+    {
+      "year": 2014,
+      "date": "2014-06-28",
+      "stage": "Round of 16",
+      "home": "Colombia",
+      "away": "Uruguay",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "matchId": "300186491",
+      "actual": "Home",
       "correct": true,
-      "homeProbability": 0.3276166086933579,
-      "drawProbability": 0.5929312169492164,
-      "awayProbability": 0.07945217435742574,
-      "predicted": "Draw",
-      "confidence": 0.5929312169492164,
-      "brier": 0.0931167614787685
+      "homeProbability": 0.42549720941931524,
+      "drawProbability": 0.3733537785513683,
+      "awayProbability": 0.20114901202931645,
+      "predicted": "Home",
+      "confidence": 0.42549720941931524,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16996914179464948
     },
     {
       "year": 2014,
@@ -5059,31 +5752,38 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186491",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.29159928334967317,
-      "drawProbability": 0.5705504406537086,
-      "awayProbability": 0.1378502759966182,
-      "predicted": "Draw",
-      "confidence": 0.5705504406537086,
-      "brier": 0.2821206930910605
+      "correct": true,
+      "homeProbability": 0.45930333457523126,
+      "drawProbability": 0.42085101796968666,
+      "awayProbability": 0.11984564745508215,
+      "predicted": "Home",
+      "confidence": 0.45930333457523126,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.16127714751383784
     },
     {
       "year": 2014,
-      "date": "2014-06-28",
+      "date": "2014-06-29",
       "stage": "Round of 16",
-      "home": "Colombia",
-      "away": "Uruguay",
-      "homeGoals": 2,
-      "awayGoals": 0,
-      "matchId": "300186491",
-      "actual": "Home",
+      "home": "Costa Rica",
+      "away": "Greece",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "matchId": "300186459",
+      "actual": "Draw",
       "correct": false,
-      "homeProbability": 0.34022298367034853,
-      "drawProbability": 0.571002908484819,
-      "awayProbability": 0.0887741078448325,
-      "predicted": "Draw",
-      "confidence": 0.571002908484819,
-      "brier": 0.2564102916662086
+      "homeProbability": 0.4452378960030967,
+      "drawProbability": 0.378148247717934,
+      "awayProbability": 0.17661385627896933,
+      "predicted": "Home",
+      "confidence": 0.4452378960030967,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.20537628002775624
     },
     {
       "year": 2014,
@@ -5096,30 +5796,37 @@ export const worldCupBacktest = {
       "matchId": "300186459",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.259970680510534,
-      "drawProbability": 0.6369059671948671,
-      "awayProbability": 0.10312335229459885,
+      "homeProbability": 0.36882939288364475,
+      "drawProbability": 0.455697110758217,
+      "awayProbability": 0.1754734963581382,
       "predicted": "Draw",
-      "confidence": 0.6369059671948671,
-      "brier": 0.070018819057427
+      "confidence": 0.455697110758217,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15436390140534004
     },
     {
       "year": 2014,
       "date": "2014-06-29",
       "stage": "Round of 16",
-      "home": "Costa Rica",
-      "away": "Greece",
-      "homeGoals": 1,
+      "home": "Netherlands",
+      "away": "Mexico",
+      "homeGoals": 2,
       "awayGoals": 1,
-      "matchId": "300186459",
-      "actual": "Draw",
+      "matchId": "300186508",
+      "actual": "Home",
       "correct": true,
-      "homeProbability": 0.22323229782183246,
-      "drawProbability": 0.6705631735949057,
-      "awayProbability": 0.10620452858326178,
-      "predicted": "Draw",
-      "confidence": 0.6705631735949057,
-      "brier": 0.05654689442475614
+      "homeProbability": 0.4340885194405589,
+      "drawProbability": 0.3683600614331908,
+      "awayProbability": 0.1975514191262504,
+      "predicted": "Home",
+      "confidence": 0.4340885194405589,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1649905006289461
     },
     {
       "year": 2014,
@@ -5131,31 +5838,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186508",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.26723973082112523,
-      "drawProbability": 0.6111408627530395,
-      "awayProbability": 0.12161940642583532,
-      "predicted": "Draw",
-      "confidence": 0.6111408627530395,
-      "brier": 0.308407348744333
-    },
-    {
-      "year": 2014,
-      "date": "2014-06-29",
-      "stage": "Round of 16",
-      "home": "Netherlands",
-      "away": "Mexico",
-      "homeGoals": 2,
-      "awayGoals": 1,
-      "matchId": "300186508",
-      "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3110820407141792,
-      "drawProbability": 0.5799836873044482,
-      "awayProbability": 0.10893427198137254,
-      "predicted": "Draw",
-      "confidence": 0.5799836873044482,
-      "brier": 0.2742852359259718
+      "correct": true,
+      "homeProbability": 0.4266144579164641,
+      "drawProbability": 0.4239942905565569,
+      "awayProbability": 0.1493912515269791,
+      "predicted": "Home",
+      "confidence": 0.4266144579164641,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.17695329477592847
     },
     {
       "year": 2014,
@@ -5167,13 +5859,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186460",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.34897510579138014,
-      "drawProbability": 0.574554076155005,
-      "awayProbability": 0.07647081805361487,
-      "predicted": "Draw",
-      "confidence": 0.574554076155005,
-      "brier": 0.25326452843982167
+      "correct": true,
+      "homeProbability": 0.4740316495705594,
+      "drawProbability": 0.42209392665425177,
+      "awayProbability": 0.10387442377518882,
+      "predicted": "Home",
+      "confidence": 0.4740316495705594,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1551986281621664
     },
     {
       "year": 2014,
@@ -5185,13 +5880,16 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186460",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.37425142184166565,
-      "drawProbability": 0.5511422984855932,
-      "awayProbability": 0.07460627967274122,
-      "predicted": "Draw",
-      "confidence": 0.5511422984855932,
-      "brier": 0.23362840440458899
+      "correct": true,
+      "homeProbability": 0.4886823391438595,
+      "drawProbability": 0.4138998044699576,
+      "awayProbability": 0.09741785638618294,
+      "predicted": "Home",
+      "confidence": 0.4886823391438595,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14741634572884774
     },
     {
       "year": 2014,
@@ -5203,13 +5901,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186462",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2809358266848044,
-      "drawProbability": 0.634475573537176,
-      "awayProbability": 0.08458859977801957,
-      "predicted": "Draw",
-      "confidence": 0.634475573537176,
-      "brier": 0.30892258999106675
+      "correct": true,
+      "homeProbability": 0.4549629545774411,
+      "drawProbability": 0.40804960692916137,
+      "awayProbability": 0.13698743849339765,
+      "predicted": "Home",
+      "confidence": 0.4549629545774411,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16077847363432596
     },
     {
       "year": 2014,
@@ -5221,13 +5923,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186462",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.32406483421927906,
-      "drawProbability": 0.6155399764741772,
-      "awayProbability": 0.060395189306543653,
-      "predicted": "Draw",
-      "confidence": 0.6155399764741772,
-      "brier": 0.27980846328940484
+      "correct": true,
+      "homeProbability": 0.47503067557177825,
+      "drawProbability": 0.43643899176596207,
+      "awayProbability": 0.08853033266225985,
+      "predicted": "Home",
+      "confidence": 0.47503067557177825,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.1579698016418678
     },
     {
       "year": 2014,
@@ -5239,13 +5944,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186497",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2339635327331961,
-      "drawProbability": 0.6521891742620025,
-      "awayProbability": 0.1138472930048013,
-      "predicted": "Draw",
-      "confidence": 0.6521891742620025,
-      "brier": 0.3417079314438929
+      "correct": true,
+      "homeProbability": 0.43692596415644297,
+      "drawProbability": 0.3504646702658502,
+      "awayProbability": 0.21260936557770688,
+      "predicted": "Home",
+      "confidence": 0.43692596415644297,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16169353242568585
     },
     {
       "year": 2014,
@@ -5257,13 +5966,17 @@ export const worldCupBacktest = {
       "awayGoals": 1,
       "matchId": "300186497",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.27421517878037033,
-      "drawProbability": 0.6209939289381771,
-      "awayProbability": 0.10479089228145266,
-      "predicted": "Draw",
-      "confidence": 0.6209939289381771,
-      "brier": 0.30779273253200884
+      "correct": true,
+      "homeProbability": 0.4439742757849079,
+      "drawProbability": 0.386361664346344,
+      "awayProbability": 0.1696640598687482,
+      "predicted": "Home",
+      "confidence": 0.4439742757849079,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1624086116255136
     },
     {
       "year": 2014,
@@ -5275,13 +5988,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186503",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2804229919456026,
-      "drawProbability": 0.5595537869166447,
-      "awayProbability": 0.16002322113775275,
-      "predicted": "Draw",
-      "confidence": 0.5595537869166447,
-      "brier": 0.2854996474255261
+      "correct": true,
+      "homeProbability": 0.4130243927343863,
+      "drawProbability": 0.3512834720549539,
+      "awayProbability": 0.23569213521065982,
+      "predicted": "Home",
+      "confidence": 0.4130243927343863,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.1744970746213265
     },
     {
       "year": 2014,
@@ -5293,13 +6010,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186503",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.2733281205216524,
-      "drawProbability": 0.6128325118188195,
-      "awayProbability": 0.11383936765952815,
-      "predicted": "Draw",
-      "confidence": 0.6128325118188195,
-      "brier": 0.3055250365319596
+      "correct": true,
+      "homeProbability": 0.4387415988085544,
+      "drawProbability": 0.37852540584880334,
+      "awayProbability": 0.1827329953426421,
+      "predicted": "Home",
+      "confidence": 0.4387415988085544,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16389460778929102
     },
     {
       "year": 2014,
@@ -5312,12 +6033,15 @@ export const worldCupBacktest = {
       "matchId": "300186461",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.16167973253965265,
-      "drawProbability": 0.6591995462617827,
-      "awayProbability": 0.17912072119856462,
+      "homeProbability": 0.260110538177361,
+      "drawProbability": 0.4517198411916239,
+      "awayProbability": 0.28816962063101503,
       "predicted": "Draw",
-      "confidence": 0.6591995462617827,
-      "brier": 0.3898030484630742
+      "confidence": 0.4517198411916239,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.27817632029900113
     },
     {
       "year": 2014,
@@ -5330,12 +6054,15 @@ export const worldCupBacktest = {
       "matchId": "300186461",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.20584154389341222,
-      "drawProbability": 0.6355761697649341,
-      "awayProbability": 0.15858228634165367,
+      "homeProbability": 0.31436135667328907,
+      "drawProbability": 0.44345165941772696,
+      "awayProbability": 0.242186983908984,
       "predicted": "Draw",
-      "confidence": 0.6355761697649341,
-      "brier": 0.3532643541733366
+      "confidence": 0.44345165941772696,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.24180141954605297
     },
     {
       "year": 2014,
@@ -5348,12 +6075,15 @@ export const worldCupBacktest = {
       "matchId": "300186485",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.18070855158611163,
-      "drawProbability": 0.6355013060186074,
-      "awayProbability": 0.18379014239528096,
+      "homeProbability": 0.27593454011420604,
+      "drawProbability": 0.4434254571065126,
+      "awayProbability": 0.2806400027792814,
       "predicted": "Draw",
-      "confidence": 0.6355013060186074,
-      "brier": 0.3675720074062739
+      "confidence": 0.4434254571065126,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2634149373465167
     },
     {
       "year": 2014,
@@ -5366,12 +6096,15 @@ export const worldCupBacktest = {
       "matchId": "300186485",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.13426148058920878,
-      "drawProbability": 0.6845759875625236,
-      "awayProbability": 0.18116253184826756,
+      "homeProbability": 0.22959706788417522,
+      "drawProbability": 0.4606015956468833,
+      "awayProbability": 0.3098013364689416,
       "predicted": "Draw",
-      "confidence": 0.6845759875625236,
-      "brier": 0.3857217423887834
+      "confidence": 0.4606015956468833,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.24708094621117493
     },
     {
       "year": 2014,
@@ -5383,13 +6116,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186488",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.3353693374577407,
-      "drawProbability": 0.5709861340231166,
-      "awayProbability": 0.09364452851914261,
-      "predicted": "Draw",
-      "confidence": 0.5709861340231166,
-      "brier": 0.10176492914294927
+      "correct": false,
+      "homeProbability": 0.45273776623652195,
+      "drawProbability": 0.42084514690809083,
+      "awayProbability": 0.1264170868553873,
+      "predicted": "Home",
+      "confidence": 0.45273776623652195,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.18545770289524965
     },
     {
       "year": 2014,
@@ -5401,13 +6137,17 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186488",
       "actual": "Draw",
-      "correct": true,
-      "homeProbability": 0.24822854546784098,
-      "drawProbability": 0.6769548266716978,
-      "awayProbability": 0.07481662786046121,
-      "predicted": "Draw",
-      "confidence": 0.6769548266716978,
-      "brier": 0.057191040866734516
+      "correct": false,
+      "homeProbability": 0.4637118103966844,
+      "drawProbability": 0.396524433232902,
+      "awayProbability": 0.13976375637041366,
+      "predicted": "Home",
+      "confidence": 0.4637118103966844,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.19958177012700304
     },
     {
       "year": 2014,
@@ -5420,12 +6160,15 @@ export const worldCupBacktest = {
       "matchId": "300186504",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.20995675930946434,
-      "drawProbability": 0.6538176245590106,
-      "awayProbability": 0.13622561613152506,
+      "homeProbability": 0.3336698322200551,
+      "drawProbability": 0.44983616859565373,
+      "awayProbability": 0.21649399918429119,
       "predicted": "Draw",
-      "confidence": 0.6538176245590106,
-      "brier": 0.3567344089450682
+      "confidence": 0.44983616859565373,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.2310727075844249
     },
     {
       "year": 2014,
@@ -5438,12 +6181,15 @@ export const worldCupBacktest = {
       "matchId": "300186504",
       "actual": "Home",
       "correct": false,
-      "homeProbability": 0.20667043095705584,
-      "drawProbability": 0.6847915891497713,
-      "awayProbability": 0.10853797989317267,
+      "homeProbability": 0.3536139943696971,
+      "drawProbability": 0.46067705620242,
+      "awayProbability": 0.18570894942788294,
       "predicted": "Draw",
-      "confidence": 0.6847915891497713,
-      "brier": 0.37003060625580786
+      "confidence": 0.46067705620242,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.22150867742787786
     },
     {
       "year": 2014,
@@ -5456,12 +6202,15 @@ export const worldCupBacktest = {
       "matchId": "300186474",
       "actual": "Away",
       "correct": false,
-      "homeProbability": 0.1715784711008378,
-      "drawProbability": 0.6482376701432704,
-      "awayProbability": 0.1801838587558917,
+      "homeProbability": 0.2693050137077869,
+      "drawProbability": 0.4478831845501447,
+      "awayProbability": 0.28281180174206844,
       "predicted": "Draw",
-      "confidence": 0.6482376701432704,
-      "brier": 0.3739165847274854
+      "confidence": 0.4478831845501447,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.26249448304379613
     },
     {
       "year": 2014,
@@ -5474,12 +6223,15 @@ export const worldCupBacktest = {
       "matchId": "300186474",
       "actual": "Away",
       "correct": true,
-      "homeProbability": 0.0852482593208491,
-      "drawProbability": 0.4006569813421502,
-      "awayProbability": 0.5140947593370007,
+      "homeProbability": 0.09085621043426294,
+      "drawProbability": 0.36122994346975257,
+      "awayProbability": 0.5479138460959845,
       "predicted": "Away",
-      "confidence": 0.5140947593370007,
-      "brier": 0.13463239510640204
+      "confidence": 0.5479138460959845,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.11437460452845365
     },
     {
       "year": 2014,
@@ -5492,12 +6244,15 @@ export const worldCupBacktest = {
       "matchId": "300186490",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.14883621268261016,
-      "drawProbability": 0.7130947927149006,
-      "awayProbability": 0.13806899460248925,
+      "homeProbability": 0.2746426094681196,
+      "drawProbability": 0.4705831774502152,
+      "awayProbability": 0.25477421308166526,
       "predicted": "Draw",
-      "confidence": 0.7130947927149006,
-      "brier": 0.0411766211478504
+      "confidence": 0.4705831774502152,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.14020687819518338
     },
     {
       "year": 2014,
@@ -5510,12 +6265,15 @@ export const worldCupBacktest = {
       "matchId": "300186490",
       "actual": "Draw",
       "correct": true,
-      "homeProbability": 0.12675637651907973,
-      "drawProbability": 0.7562100038952625,
-      "awayProbability": 0.11703361958565776,
+      "homeProbability": 0.2674193541843258,
+      "drawProbability": 0.4856735013633418,
+      "awayProbability": 0.2469071444523324,
       "predicted": "Draw",
-      "confidence": 0.7562100038952625,
-      "brier": 0.02973253643410503
+      "confidence": 0.4856735013633418,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13233599872460375
     },
     {
       "year": 2014,
@@ -5527,13 +6285,17 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "300186502",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.11869687931400602,
-      "drawProbability": 0.5732660355667423,
-      "awayProbability": 0.30803708511925154,
-      "predicted": "Draw",
-      "confidence": 0.5732660355667423,
-      "brier": 0.27384519075451835
+      "correct": true,
+      "homeProbability": 0.1675904930136048,
+      "drawProbability": 0.39748579829275343,
+      "awayProbability": 0.43492370869364183,
+      "predicted": "Away",
+      "confidence": 0.43492370869364183,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied",
+        "Draw barely led best side; discounted"
+      ],
+      "brier": 0.16846424939650625
     },
     {
       "year": 2014,
@@ -5545,13 +6307,16 @@ export const worldCupBacktest = {
       "awayGoals": 3,
       "matchId": "300186502",
       "actual": "Away",
-      "correct": false,
-      "homeProbability": 0.0813087774159818,
-      "drawProbability": 0.5030944911937852,
-      "awayProbability": 0.41559673139023295,
-      "predicted": "Draw",
-      "confidence": 0.5030944911937852,
-      "brier": 0.20041412157206495
+      "correct": true,
+      "homeProbability": 0.09865545347551996,
+      "drawProbability": 0.3970830719178248,
+      "awayProbability": 0.5042614746066553,
+      "predicted": "Away",
+      "confidence": 0.5042614746066553,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.13772151668777496
     },
     {
       "year": 2014,
@@ -5563,13 +6328,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186501",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3466234890978576,
-      "drawProbability": 0.5837963885290796,
-      "awayProbability": 0.06958012237306281,
-      "predicted": "Draw",
-      "confidence": 0.5837963885290796,
-      "brier": 0.25752016056256793
+      "correct": true,
+      "homeProbability": 0.4785988230931322,
+      "drawProbability": 0.42532873598517784,
+      "awayProbability": 0.09607244092168998,
+      "predicted": "Home",
+      "confidence": 0.4785988230931322,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15399787827975586
     },
     {
       "year": 2014,
@@ -5581,13 +6349,16 @@ export const worldCupBacktest = {
       "awayGoals": 0,
       "matchId": "300186501",
       "actual": "Home",
-      "correct": false,
-      "homeProbability": 0.3167296260864945,
-      "drawProbability": 0.623562834428237,
-      "awayProbability": 0.059707539485268475,
-      "predicted": "Draw",
-      "confidence": 0.623562834428237,
-      "brier": 0.2864180008731545
+      "correct": true,
+      "homeProbability": 0.4718107210937946,
+      "drawProbability": 0.43924699204988293,
+      "awayProbability": 0.08894228685632243,
+      "predicted": "Home",
+      "confidence": 0.4718107210937946,
+      "calibrationNotes": [
+        "World Cup backtest draw cap applied"
+      ],
+      "brier": 0.15994418825585316
     }
   ]
 };

@@ -9,6 +9,7 @@ const MAX_GOALS = 8;
 const DIXON_COLES_RHO = -0.05;
 const MIN_XG = 0.2;
 const FORM_DECAY = 0.82;
+const SOCCER_DRAW_SOFT_CAP = 0.34;
 
 function parseCsv(text) {
   const rows = [];
@@ -73,6 +74,41 @@ function clamp(value, lo, hi) {
   return Math.max(lo, Math.min(hi, value));
 }
 
+function normalizeOutcomeMap(outcomes) {
+  const total = outcomes.Home + outcomes.Draw + outcomes.Away || 1;
+  return {
+    Home: outcomes.Home / total,
+    Draw: outcomes.Draw / total,
+    Away: outcomes.Away / total
+  };
+}
+
+function redistributeDrawHaircut(outcomes, nextDraw) {
+  const removed = outcomes.Draw - nextDraw;
+  if (removed <= 0) return outcomes;
+  const sideTotal = outcomes.Home + outcomes.Away || 1;
+  return normalizeOutcomeMap({
+    Home: outcomes.Home + removed * (outcomes.Home / sideTotal),
+    Draw: nextDraw,
+    Away: outcomes.Away + removed * (outcomes.Away / sideTotal)
+  });
+}
+
+function calibrateSoccerOutcomes(outcomes) {
+  let next = normalizeOutcomeMap(outcomes);
+  const notes = [];
+  if (next.Draw > SOCCER_DRAW_SOFT_CAP) {
+    next = redistributeDrawHaircut(next, SOCCER_DRAW_SOFT_CAP + (next.Draw - SOCCER_DRAW_SOFT_CAP) * 0.35);
+    notes.push("World Cup backtest draw cap applied");
+  }
+  const bestSide = Math.max(next.Home, next.Away);
+  if (next.Draw > bestSide && next.Draw - bestSide < 0.08) {
+    next = redistributeDrawHaircut(next, Math.max(0.22, bestSide - 0.02));
+    notes.push("Draw barely led best side; discounted");
+  }
+  return { outcomes: next, notes };
+}
+
 function defaultTeam() {
   return {
     matches: 0,
@@ -123,17 +159,18 @@ function modelMatch(homeRaw, awayRaw) {
   pHome /= total;
   pDraw /= total;
   pAway /= total;
-  const entries = [
-    ["Home", pHome],
-    ["Draw", pDraw],
-    ["Away", pAway]
-  ].sort((a, b) => b[1] - a[1]);
+  const calibrated = calibrateSoccerOutcomes({ Home: pHome, Draw: pDraw, Away: pAway });
+  pHome = calibrated.outcomes.Home;
+  pDraw = calibrated.outcomes.Draw;
+  pAway = calibrated.outcomes.Away;
+  const entries = Object.entries(calibrated.outcomes).sort((a, b) => b[1] - a[1]);
   return {
     homeProbability: pHome,
     drawProbability: pDraw,
     awayProbability: pAway,
     predicted: entries[0][0],
-    confidence: entries[0][1]
+    confidence: entries[0][1],
+    calibrationNotes: calibrated.notes
   };
 }
 
@@ -277,7 +314,7 @@ const summary = {
   avgBrier: settled.reduce((sum, row) => sum + row.brier, 0) / settled.length,
   firstMatch: predictions[0]?.date,
   lastMatch: predictions[predictions.length - 1]?.date,
-  note: "Historical World Cup CSV has scores but no betting odds, so this backtest measures winner/draw prediction accuracy and calibration, not ROI."
+  note: "Historical World Cup CSV has scores but no betting odds, so this v1.2-style backtest applies draw calibration but cannot test market blend, EV, or ROI."
 };
 
 const tournamentSummary = Object.values(predictions.reduce((acc, row) => {

@@ -96,6 +96,11 @@ const SOCCER_DRAW_SOFT_CAP = 0.34;  // World Cup backtest: draw predictions were
 const SOCCER_DRAW_ANCHOR_WEIGHT = 0.25;
 const MLB_BACKTEST_COMPRESSION = 0.78; // 2025 postseason backtest was overconfident, especially away/high-conf picks
 const MLB_BACKTEST_CAP = 0.82;
+// MLB After Loss Trend Prior.md: a small bounce-back nudge, applied ONLY when a team lost its
+// last game, measured against a 0.50 league-average after-loss baseline. Scale kept small so it
+// is "never stronger than starting pitcher/lineup/bullpen" (0.637 after-loss -> ~+2% win prob).
+const AFTERLOSS_LOGIT_SCALE = 0.6;
+const AFTERLOSS_LEAGUE_AVG = 0.5;
 const INTEL_STATUS_MULTIPLIER = {
   Watch: 0.65,
   Confirmed: 1,
@@ -166,6 +171,9 @@ let adaptiveModelWeight = null;
 // Results-based soccer Elo, keyed by normalized team name. Mirrored from React state each
 // render; read by soccerModel() via getElo(). Empty/absent -> DEFAULT_ELO -> zero tilt.
 let eloRegistry = {};
+// Each MLB team's most recent completed-game result ("win"|"loss"), from /scores. Mirrored
+// from persisted stats each render; read by mlbModel() to gate the after-loss prior.
+let mlbLastResultRegistry = {};
 
 const sampleEvents = [
   makeEvent("sample-ivory-coast-norway", "2026-06-30T17:00:00.000Z", "Ivory Coast", "Norway", [
@@ -313,6 +321,30 @@ const mlbAfterLossTrends = {
     { team: "LA Angels", record: "180-233-0", winPct: 0.436, mov: -0.4, runLine: 0.2 }
   ]
 };
+
+// Map the TeamRankings short names above to full Odds/MLB Stats API team names — the exact
+// team-mapping step the note flagged as "not yet automated". (Sacramento = the Athletics.)
+const AFTERLOSS_TEAM_ALIAS = {
+  "LA Dodgers": "Los Angeles Dodgers",
+  Houston: "Houston Astros",
+  Atlanta: "Atlanta Braves",
+  Milwaukee: "Milwaukee Brewers",
+  Philadelphia: "Philadelphia Phillies",
+  "San Diego": "San Diego Padres",
+  Colorado: "Colorado Rockies",
+  "Chi Sox": "Chicago White Sox",
+  Sacramento: "Athletics",
+  "Kansas City": "Kansas City Royals",
+  Washington: "Washington Nationals",
+  "LA Angels": "Los Angeles Angels"
+};
+
+// After-loss win% keyed by normalized full team name, built once from the trend table above.
+const AFTERLOSS_WINPCT = {};
+[...mlbAfterLossTrends.top, ...mlbAfterLossTrends.bottom].forEach((row) => {
+  const fullName = AFTERLOSS_TEAM_ALIAS[row.team] || row.team;
+  AFTERLOSS_WINPCT[normalizeTeamName(fullName)] = row.winPct;
+});
 
 const intelSources = [
   {
@@ -1033,6 +1065,34 @@ function setMlbTeamRatings(registry) {
   mlbTeamRatingRegistry = registry || {};
 }
 
+function setMlbLastResults(registry) {
+  mlbLastResultRegistry = registry || {};
+}
+
+function afterLossWinPctFor(teamName) {
+  const key = normalizeTeamName(teamName);
+  if (AFTERLOSS_WINPCT[key] != null) return AFTERLOSS_WINPCT[key];
+  const fuzzy = Object.entries(AFTERLOSS_WINPCT).find(([trendKey]) => key.includes(trendKey) || trendKey.includes(key));
+  return fuzzy ? fuzzy[1] : null;
+}
+
+function afterLossLogitFor(teamName) {
+  if (mlbLastResultRegistry[normalizeTeamName(teamName)] !== "loss") return 0;
+  const winPct = afterLossWinPctFor(teamName);
+  if (winPct == null) return 0;
+  return clamp((winPct - AFTERLOSS_LEAGUE_AVG) * AFTERLOSS_LOGIT_SCALE, -0.08, 0.08);
+}
+
+function afterLossNoteText(event) {
+  const notes = [
+    [event.home_team, afterLossLogitFor(event.home_team)],
+    [event.away_team, afterLossLogitFor(event.away_team)]
+  ]
+    .filter(([, delta]) => delta !== 0)
+    .map(([team, delta]) => `${team} ${delta > 0 ? "+" : ""}${delta.toFixed(3)} logit`);
+  return notes.length ? ` After-loss trend prior: ${notes.join(", ")}.` : "";
+}
+
 async function fetchMlbTeamRatings() {
   try {
     const season = new Date().getFullYear();
@@ -1089,6 +1149,12 @@ function mlbModel(event, ratingHome, ratingAway, starters = mlbStarterRegistry) 
     // manufacture a silly price.
     logit += clamp((awayStarter.xera - homeStarter.xera) * XERA_LOGIT_PER_RUN, -MAX_XERA_LOGIT, MAX_XERA_LOGIT);
   }
+
+  // TeamRankings after-loss trend prior: only active when /scores shows the team lost its
+  // most recent completed game. It nudges the home-team logit by the home trend and subtracts
+  // the away trend, capped tightly because the historical odds study showed MLB markets are
+  // already well calibrated overall.
+  logit += afterLossLogitFor(event.home_team) - afterLossLogitFor(event.away_team);
 
   const pHome = clamp(1 / (1 + Math.exp(-logit)), 0.05, 0.95);
   return { [event.home_team]: pHome, [event.away_team]: 1 - pHome };
@@ -1367,7 +1433,7 @@ function computeEventModel(event, sport, ratings = ratingRegistry, intel = intel
     // back to the static default until a track record exists (computeAdaptiveModelWeight).
     baseWeight = adaptiveModelWeight ?? algorithmWeights.researchPrior;
     source = `${Math.round(baseWeight * 100)}% strength model + ${Math.round((1 - baseWeight) * 100)}% market no-vig`;
-    notes = sport === "MLB" ? mlbStarterNoteText(event) : "Bivariate-Poisson (Dixon-Coles) goals model from xG inputs.";
+    notes = sport === "MLB" ? `${mlbStarterNoteText(event)}${afterLossNoteText(event)}` : "Bivariate-Poisson (Dixon-Coles) goals model from xG inputs.";
     if (intelAdjustment.home.details.length || intelAdjustment.away.details.length) {
       const homeNote = intelAdjustment.home.details.length ? `${event.home_team} ${intelAdjustment.home.net >= 0 ? "+" : ""}${intelAdjustment.home.net.toFixed(2)}` : null;
       const awayNote = intelAdjustment.away.details.length ? `${event.away_team} ${intelAdjustment.away.net >= 0 ? "+" : ""}${intelAdjustment.away.net.toFixed(2)}` : null;
@@ -1529,7 +1595,7 @@ function emptyStats() {
   return {
     version: STATE_VERSION,
     updatedAt: null,
-    latest: { mlbTeamRatings: {}, mlbStarters: {}, kalshi: null, fetchedAt: {} },
+    latest: { mlbTeamRatings: {}, mlbStarters: {}, mlbLastResults: {}, kalshi: null, fetchedAt: {} },
     history: []
   };
 }
@@ -1543,6 +1609,7 @@ function mergeStats(prev, fresh, nowIso, dateKey) {
   const latest = {
     mlbTeamRatings: { ...base.latest.mlbTeamRatings },
     mlbStarters: { ...base.latest.mlbStarters },
+    mlbLastResults: { ...(base.latest.mlbLastResults || {}) },
     kalshi: base.latest.kalshi,
     fetchedAt: { ...base.latest.fetchedAt }
   };
@@ -1558,6 +1625,10 @@ function mergeStats(prev, fresh, nowIso, dateKey) {
   if (fresh.kalshi && Object.keys(fresh.kalshi).length) {
     latest.kalshi = fresh.kalshi;
     latest.fetchedAt.kalshi = nowIso;
+  }
+  if (fresh.mlbLastResults && Object.keys(fresh.mlbLastResults).length) {
+    latest.mlbLastResults = fresh.mlbLastResults; // short rolling result snapshot -> replace
+    latest.fetchedAt.mlbLastResults = nowIso;
   }
 
   let history = base.history || [];
@@ -1973,6 +2044,25 @@ async function fetchScores(sportKey) {
   }
 }
 
+function mlbLastResultsFromScores(scores) {
+  const byTeam = {};
+  [...(scores || [])]
+    .filter((score) => score?.completed && Array.isArray(score.scores))
+    .sort((a, b) => new Date(a.commence_time || 0) - new Date(b.commence_time || 0))
+    .forEach((score) => {
+      const scoreByName = {};
+      score.scores.forEach((entry) => {
+        scoreByName[entry.name] = Number(entry.score);
+      });
+      const homeScore = scoreByName[score.home_team];
+      const awayScore = scoreByName[score.away_team];
+      if (!Number.isFinite(homeScore) || !Number.isFinite(awayScore) || homeScore === awayScore) return;
+      byTeam[normalizeTeamName(score.home_team)] = homeScore > awayScore ? "win" : "loss";
+      byTeam[normalizeTeamName(score.away_team)] = awayScore > homeScore ? "win" : "loss";
+    });
+  return byTeam;
+}
+
 // Turn a final score into a settled result for the backed selection. Draw-aware so a 3-way
 // soccer moneyline grades correctly (a draw loses a backed team; "Draw" wins on a draw).
 function gradeFromScore(score, selectionName) {
@@ -2138,6 +2228,13 @@ function App() {
         setMlbRatingsSource(hadRatings ? "cached" : "unavailable");
       }
 
+      // Recent scores serve three jobs, so fetch once per live refresh and reuse: soccer drives
+      // Elo learning, MLB drives the after-loss bounce-back prior (each team's last result), and
+      // both drive auto-grading of tracked picks.
+      const soccerScores = nextSource === "live" ? await fetchScores(SPORT_KEY) : [];
+      const mlbScores = mlbResult.source === "live" ? await fetchScores(MLB_SPORT_KEY) : [];
+      freshStats.mlbLastResults = mlbScores.length ? mlbLastResultsFromScores(mlbScores) : null;
+
       const nowIso = new Date().toISOString();
       const dateKey = new Date().toLocaleDateString("en-CA");
       const nextStats = mergeStats(stats, freshStats, nowIso, dateKey);
@@ -2149,9 +2246,6 @@ function App() {
       setSnapshots(nextSnapshots);
       writeStorage(SNAPSHOT_KEY, nextSnapshots);
 
-      // Soccer scores drive BOTH Elo auto-learning and pick grading, so fetch them once per
-      // live refresh and reuse. (Elo needs every result, not just games we have picks on.)
-      const soccerScores = nextSource === "live" ? await fetchScores(SPORT_KEY) : [];
       if (soccerScores.length) {
         const nextElo = applyEloForMatches(eloState, soccerScores);
         if (nextElo !== eloState) {
@@ -2160,12 +2254,9 @@ function App() {
         }
       }
 
-      // Auto-tracking: close the line and grade any pending tracked pick. MLB scores are only
-      // fetched when an MLB pick is pending; soccer scores are reused from the Elo fetch above.
+      // Auto-tracking: close the line and grade any pending tracked pick, reusing the scores above.
       const pendingTracked = modelPicks.filter((pick) => pick.eventId && pick.result === "pending");
       if (pendingTracked.length) {
-        const needMlb = pendingTracked.some((pick) => pick.sport === "MLB");
-        const mlbScores = needMlb ? await fetchScores(MLB_SPORT_KEY) : [];
         const reconciled = reconcileModelPicks(modelPicks, nextEvents, mlbResult.events, [...soccerScores, ...mlbScores]);
         setModelPicks(reconciled);
       }
@@ -2358,6 +2449,7 @@ function App() {
   // xERA / run diffs / Kalshi immediately on boot and stays up if a live fetch later fails.
   setMlbTeamRatings(stats.latest.mlbTeamRatings || {});
   setMlbStarterQuality(stats.latest.mlbStarters || {});
+  setMlbLastResults(stats.latest.mlbLastResults || {});
   setLiveKalshiProbabilities(stats.latest.kalshi);
   const adaptiveWeight = computeAdaptiveModelWeight(modelPicks, worldCupBacktest);
   setAdaptiveModelWeight(adaptiveWeight); // model's blend share flexes with measured calibration
