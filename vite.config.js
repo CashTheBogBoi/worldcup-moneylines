@@ -65,7 +65,10 @@ function vaultStatePersistence() {
   };
 }
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // GitHub Pages serves this project site under /worldcup-moneylines/, so the built asset URLs
+  // must be relative. Dev keeps the normal root base so the /kalshi and /api proxies resolve.
+  base: command === "build" ? "./" : "/",
   plugins: [vaultStatePersistence()],
   server: {
     proxy: {

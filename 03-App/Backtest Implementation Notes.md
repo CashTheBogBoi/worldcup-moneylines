@@ -101,6 +101,17 @@ The generated files are local static data files.
 
 They are regenerated manually with npm scripts.
 
+## Algorithm v1.2 calibration
+
+The generated backtest findings now feed `computeEventModel()` through a calibration layer:
+
+- Soccer: draw priors are anchored toward the market, soft-capped, and discounted when Draw is only barely ahead.
+- Soccer: low-confidence reads reduce model blend weight.
+- MLB: raw model probabilities are compressed toward 50/50.
+- MLB: high-confidence and away-favorite reads reduce model blend weight.
+
+This happens before the market/no-vig blend, so Value, Algorithm, Bankroll Watch, and Model Lab tracking all see the same corrected probability.
+
 ## Future baseline import
 
 Script:
@@ -133,4 +144,3 @@ Limit:
 - no sportsbook odds,
 - no ROI,
 - playoff placeholder teams are lower confidence.
-

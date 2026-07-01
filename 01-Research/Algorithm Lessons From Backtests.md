@@ -94,3 +94,13 @@ The app should treat backtest failures as guardrails:
 - If a pick is driven only by market no-vig, treat it as research, not a model edge.
 - If a pick survives market, Intel, and sport-specific context, then it can be tracked in Model Lab.
 
+## Implemented in Algorithm v1.2
+
+These lessons now feed the app directly:
+
+- Soccer draw probabilities are anchored toward the market, soft-capped, and discounted when Draw is only barely the top outcome.
+- Soccer low-confidence reads get less model weight.
+- MLB probabilities are compressed toward 50/50 before the market blend.
+- MLB high-confidence reads and away-favorite reads get additional confidence/model-weight haircuts.
+
+The goal is not to make the model timid. The goal is to stop the exact miss patterns from being promoted as strong picks.

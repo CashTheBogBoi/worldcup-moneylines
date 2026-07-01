@@ -1094,6 +1094,101 @@ function mlbModel(event, ratingHome, ratingAway, starters = mlbStarterRegistry) 
   return { [event.home_team]: pHome, [event.away_team]: 1 - pHome };
 }
 
+function normalizeOutcomeMap(outcomes, names) {
+  const clean = {};
+  let total = 0;
+  names.forEach((name) => {
+    const value = Number(outcomes?.[name]);
+    clean[name] = Number.isFinite(value) && value > 0 ? value : 0;
+    total += clean[name];
+  });
+  if (total <= 0) return outcomes;
+  const normalized = {};
+  names.forEach((name) => {
+    normalized[name] = clean[name] / total;
+  });
+  return normalized;
+}
+
+function redistributeDrawHaircut(outcomes, names, nextDraw) {
+  const currentDraw = outcomes.Draw;
+  const removed = currentDraw - nextDraw;
+  if (removed <= 0) return outcomes;
+  const sideNames = names.filter((name) => name !== "Draw");
+  const sideTotal = sideNames.reduce((sum, name) => sum + (outcomes[name] || 0), 0) || 1;
+  const next = { ...outcomes, Draw: nextDraw };
+  sideNames.forEach((name) => {
+    next[name] = (next[name] || 0) + removed * ((outcomes[name] || 0) / sideTotal);
+  });
+  return normalizeOutcomeMap(next, names);
+}
+
+function topOutcomeProbability(outcomes, names) {
+  return names.reduce((best, name) => Math.max(best, outcomes?.[name] ?? 0), 0);
+}
+
+// Backtest calibration: the projection model still does the heavy lifting, but the lessons
+// learned from the imported datasets now act as guardrails before the market blend.
+function calibrateModelOutcomes({ sport, names, modelOutcomes, market }) {
+  if (!modelOutcomes) return { outcomes: modelOutcomes, notes: [], weightMultiplier: 1, confidenceDelta: 0 };
+  let next = normalizeOutcomeMap(modelOutcomes, names);
+  const notes = [];
+  let weightMultiplier = 1;
+  let confidenceDelta = 0;
+
+  if (sport === "Soccer" && names.includes("Draw")) {
+    const beforeDraw = next.Draw ?? 0;
+    const marketDraw = market?.Draw;
+    if (marketDraw != null) {
+      next = normalizeOutcomeMap({
+        ...next,
+        Draw: beforeDraw * (1 - SOCCER_DRAW_ANCHOR_WEIGHT) + marketDraw * SOCCER_DRAW_ANCHOR_WEIGHT
+      }, names);
+    }
+
+    if ((next.Draw ?? 0) > SOCCER_DRAW_SOFT_CAP) {
+      next = redistributeDrawHaircut(next, names, SOCCER_DRAW_SOFT_CAP + ((next.Draw ?? 0) - SOCCER_DRAW_SOFT_CAP) * 0.35);
+      notes.push("World Cup backtest draw cap applied.");
+    }
+
+    const sideNames = names.filter((name) => name !== "Draw");
+    const bestSide = sideNames.reduce((best, name) => Math.max(best, next[name] ?? 0), 0);
+    if ((next.Draw ?? 0) > bestSide && (next.Draw ?? 0) - bestSide < 0.08) {
+      next = redistributeDrawHaircut(next, names, Math.max(0.22, bestSide - 0.02));
+      notes.push("Draw needs a cleaner edge after historical over-prediction.");
+    }
+
+    if (topOutcomeProbability(next, names) < 0.6) {
+      weightMultiplier *= 0.82;
+      confidenceDelta -= 0.04;
+      notes.push("Lower-confidence soccer band discounted by backtest.");
+    }
+  }
+
+  if (sport === "MLB") {
+    const home = names[0];
+    const away = names[1];
+    const rawHome = next[home] ?? 0.5;
+    const compressedHome = clamp(0.5 + (rawHome - 0.5) * MLB_BACKTEST_COMPRESSION, 1 - MLB_BACKTEST_CAP, MLB_BACKTEST_CAP);
+    next = normalizeOutcomeMap({ [home]: compressedHome, [away]: 1 - compressedHome }, names);
+    notes.push("MLB backtest compression applied.");
+
+    const top = topOutcomeProbability(next, names);
+    if (top > 0.68) {
+      weightMultiplier *= 0.78;
+      confidenceDelta -= 0.07;
+      notes.push("High-confidence MLB pick discounted by postseason backtest.");
+    }
+    if ((next[away] ?? 0) > (next[home] ?? 0)) {
+      weightMultiplier *= 0.9;
+      confidenceDelta -= 0.03;
+      notes.push("Away-favorite MLB read discounted.");
+    }
+  }
+
+  return { outcomes: next, notes, weightMultiplier, confidenceDelta };
+}
+
 // --- Market consensus -------------------------------------------------------
 // Probability and Value Math.md: no-vig probability = raw / sum(raw). v0.1 took the
 // no-vig of best-of-book prices, which can manufacture phantom edges from one stale,
@@ -1260,6 +1355,7 @@ function computeEventModel(event, sport, ratings = ratingRegistry, intel = intel
   let baseWeight = 0;
   let source;
   let notes;
+  let calibration = { notes: [], weightMultiplier: 1, confidenceDelta: 0 };
   if (research?.outcomes) {
     modelOutcomes = research.outcomes;
     baseWeight = Math.min(research.confidence ?? 0.5, 0.7);
@@ -1282,10 +1378,17 @@ function computeEventModel(event, sport, ratings = ratingRegistry, intel = intel
     notes = "No team rating mapped for this matchup yet — market price used directly.";
   }
 
+  if (modelOutcomes) {
+    calibration = calibrateModelOutcomes({ sport, names, modelOutcomes, market });
+    modelOutcomes = calibration.outcomes;
+    baseWeight *= calibration.weightMultiplier;
+    if (calibration.notes.length) notes += ` Backtest calibration: ${calibration.notes.join(" ")}`;
+  }
+
   // Confidence + live weight. Intel/staleness pull the model toward the market and lower the
   // confidence the UI shows, so an uncertain spot cannot masquerade as a strong edge.
   let weight = baseWeight;
-  let confidence = modelOutcomes ? 0.62 : 0.5;
+  let confidence = modelOutcomes ? 0.62 + calibration.confidenceDelta : 0.5;
   if (intelFlag) {
     weight *= 0.6;
     confidence -= 0.07;
@@ -2610,10 +2713,10 @@ function AlgorithmTab({ events, mlbEvents, futures, minProbability = DEFAULT_MIN
     <section className="tab-stack">
       <div className="section-heading">
         <div>
-          <p className="label">Edge engine v1.0</p>
+          <p className="label">Edge engine v1.2</p>
           <h2>My first odds algorithm</h2>
         </div>
-        <p>It blends an independent strength model (xG-driven Poisson for Soccer, logistic for MLB) with market consensus no-vig, adjusts for intel and stale lines, then sizes with capped quarter-Kelly. Match candidates below {formatProbability(minProbability)} model chance are filtered out (adjust in the topbar).</p>
+        <p>It blends an independent strength model (xG-driven Poisson for Soccer, logistic for MLB) with market consensus no-vig, applies backtest calibration for draw risk and MLB overconfidence, adjusts for intel and stale lines, then sizes with capped quarter-Kelly. Match candidates below {formatProbability(minProbability)} model chance are filtered out (adjust in the topbar).</p>
       </div>
 
       <div className="algorithm-grid">
@@ -2624,8 +2727,8 @@ function AlgorithmTab({ events, mlbEvents, futures, minProbability = DEFAULT_MIN
         </article>
         <article className="algorithm-card">
           <span>Step 2</span>
-          <strong>Independent model + intel</strong>
-          <p>Soccer runs a Dixon-Coles Poisson on xG inputs; MLB runs a strength logistic. Team-specific Intel notes now move the rating before the market blend.</p>
+          <strong>Independent model + calibration</strong>
+          <p>Soccer runs a Dixon-Coles Poisson on xG inputs, then discounts shaky draw reads from the World Cup backtest. MLB runs a strength logistic, then compresses overconfident reads from the Statcast backtest.</p>
         </article>
         <article className="algorithm-card">
           <span>Step 3</span>
@@ -2641,7 +2744,7 @@ function AlgorithmTab({ events, mlbEvents, futures, minProbability = DEFAULT_MIN
           <span>Adaptive weights</span>
           <strong>{Math.round((1 - modelWeight) * 100)} / {Math.round(modelWeight * 100)}</strong>
           <p>Market no-vig / model — the model's share flexes {25}–{60}% by measured calibration (Brier).</p>
-          <b>Version 1.1</b>
+          <b>Version 1.2</b>
         </article>
       </div>
 

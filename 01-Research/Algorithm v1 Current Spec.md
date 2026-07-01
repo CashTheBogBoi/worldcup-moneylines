@@ -1,7 +1,7 @@
 # Algorithm v1 Current Spec
 
-This note describes what the app currently does after the MLB, Soccer, Intel, backtest, and
-**automated-data-pipeline** upgrades (v1.1, 2026-06-30). For the data sourcing + persistence
+This note describes what the app currently does after the MLB, Soccer, Intel, backtest,
+**automated-data-pipeline**, and **backtest-calibration** upgrades (v1.2, 2026-07-01). For the data sourcing + persistence
 infrastructure behind this, see [[Data Pipeline and Persistence]].
 
 ## Scope
@@ -67,9 +67,12 @@ It feeds a bounded ±20% tilt into the goal expectations, so soccer strength sel
 real outcomes without re-tuning xG/form by hand. It starts at zero effect (neutral) and only
 diverges as results accrue, so it never double-counts the xG inputs.
 
-Known weakness from backtest:
+Backtest calibration (v1.2):
 
-- Draw probability is too aggressive.
+- Draw probability is anchored 25% toward the market draw price when available.
+- Draw probability has a soft cap around 34%; excess draw probability is redistributed to the two sides.
+- If Draw is barely ahead of the best side, it is discounted because historical draw predictions missed far too often.
+- Lower-confidence Soccer reads get less model weight.
 - See [[World Cup Backtest Miss Patterns]].
 
 ## MLB model
@@ -101,6 +104,12 @@ Inputs researched but not yet wired into the probability (still on the roadmap):
 See [[MLB Research Important Info]], [[MLB Statcast Feature Dictionary]], and
 [[MLB After Loss Trend Prior]].
 
+Backtest calibration (v1.2):
+
+- Raw MLB model probabilities are compressed toward 50/50 before blending with the market.
+- High-confidence MLB reads receive a model-weight haircut because the postseason Statcast backtest showed poor high-confidence calibration.
+- Away-favorite MLB reads receive a smaller haircut because away predictions were weaker in the postseason sample.
+
 ## Blend (now adaptive, v1.1)
 
 The model's share of the blend is no longer a fixed 45%. It **flexes 25%–60% based on the
@@ -119,6 +128,7 @@ model share = f(Brier)   # 0.18 Brier -> 60% model, 0.28 Brier -> 25% model
 The model weight is *further* reduced per-event when:
 
 - Team ratings are missing (falls to market-only)
+- Backtest calibration flags the sport-specific pattern as historically fragile
 - High-impact Intel is pending
 - A game has started
 - Odds are stale
@@ -186,4 +196,3 @@ Why:
 
 - Futures boards have large vig.
 - Raw implied futures probability is not comparable to prediction-market probability unless normalized.
-
