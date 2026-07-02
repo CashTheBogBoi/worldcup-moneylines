@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T01:49:32.459Z
+Updated: 2026-07-02T01:50:09.390Z
 
 ## Summary
 - Total tracked picks: 8
@@ -9,8 +9,8 @@ Updated: 2026-07-02T01:49:32.459Z
 - Wins: 3
 - Losses: 1
 - Draws: 0
-- Intel review decisions saved: 2
-- Intel confirmed / denied / pending: 2 / 0 / 0
+- Intel review decisions saved: 3
+- Intel confirmed / denied / pending: 2 / 0 / 1
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -27,6 +27,7 @@ Updated: 2026-07-02T01:49:32.459Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
+| auto-mlb-started-824094 | pending | 2026-07-02T01:50:08.585Z |  |
 | auto-mlb-started-824905 | confirmed | 2026-07-02T01:49:24.195Z |  |
 | auto-mlb-started-823446 | confirmed | 2026-07-02T01:49:14.751Z |  |
 
