@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T15:51:20.799Z
+Updated: 2026-07-02T15:57:55.114Z
 
 ## Summary
 - Total tracked picks: 26
@@ -15,7 +15,7 @@ Updated: 2026-07-02T15:51:20.799Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | - | - | 37.8% | 41% strength model + 59% market no-vig |
+| MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | +192 | -1.7 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +340 | -0.5 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | pending | +415 | +460 | -1.6 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +155 | 0.0 pts | 38.3% | Odds API no-vig only |
@@ -64,10 +64,10 @@ Updated: 2026-07-02T15:51:20.799Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 10 | 50.0% | 1.8 pts | 0.178 | -100.0% |
-| Passed gate | 1 | 0 | 0.0% | - | - | 0.0% |
+| Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T15:51:19.981Z
+- Saved: 2026-07-02T15:57:54.123Z
 - Current candidates: 51
 - Passed / blocked: 3 / 48
 
