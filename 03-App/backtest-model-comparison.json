@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:50:26.012Z",
+  "generatedAt": "2026-07-02T03:59:48.719Z",
   "sources": {
     "worldCup": "/Users/cashmcdearis/Downloads/WorldCupMatches.csv",
     "mlb": "/Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
@@ -93,6 +93,73 @@
         "avgBrier": 0.22966646082716663
       },
       "probabilityKey": null
+    },
+    "v2MlbGameInfoFittedLogistic": {
+      "evaluated": 10616,
+      "correct": 5942,
+      "accuracy": 0.5597211755840241,
+      "avgBrier": 0.24406461229725604,
+      "avgConfidence": 0.5622440708198687,
+      "highConfidence": {
+        "evaluated": 2153,
+        "correct": 1371,
+        "accuracy": 0.6367858801672085,
+        "avgBrier": 0.2310318357438543
+      },
+      "probabilityKey": null
+    },
+    "matchedHighConfidence": {
+      "bucketBy_oldMlbGameInfoTeamOnly": {
+        "oldMlbGameInfoTeamOnly": {
+          "games": 2657,
+          "correct": 1642,
+          "accuracy": 0.6179902145276628
+        },
+        "currentMlbGameInfoCompressedStarterIntel": {
+          "games": 2657,
+          "correct": 1642,
+          "accuracy": 0.6179902145276628
+        },
+        "v2MlbGameInfoFittedLogistic": {
+          "games": 2657,
+          "correct": 1642,
+          "accuracy": 0.6179902145276628
+        }
+      },
+      "bucketBy_currentMlbGameInfoCompressedStarterIntel": {
+        "oldMlbGameInfoTeamOnly": {
+          "games": 1852,
+          "correct": 1190,
+          "accuracy": 0.642548596112311
+        },
+        "currentMlbGameInfoCompressedStarterIntel": {
+          "games": 1852,
+          "correct": 1190,
+          "accuracy": 0.642548596112311
+        },
+        "v2MlbGameInfoFittedLogistic": {
+          "games": 1852,
+          "correct": 1190,
+          "accuracy": 0.642548596112311
+        }
+      },
+      "bucketBy_v2MlbGameInfoFittedLogistic": {
+        "oldMlbGameInfoTeamOnly": {
+          "games": 2153,
+          "correct": 1371,
+          "accuracy": 0.6367858801672085
+        },
+        "currentMlbGameInfoCompressedStarterIntel": {
+          "games": 2153,
+          "correct": 1371,
+          "accuracy": 0.6367858801672085
+        },
+        "v2MlbGameInfoFittedLogistic": {
+          "games": 2153,
+          "correct": 1371,
+          "accuracy": 0.6367858801672085
+        }
+      }
     }
   },
   "deltas": {
@@ -110,6 +177,11 @@
       "accuracy": 0.003673700075358055,
       "brier": -0.0005557444278410928,
       "confidence": -0.010327802463426017
+    },
+    "mlbGameInfoV2": {
+      "accuracy": -0.0032027128862094356,
+      "brier": -0.0003217682437030578,
+      "confidence": -0.007276588331025846
     }
   }
 }
