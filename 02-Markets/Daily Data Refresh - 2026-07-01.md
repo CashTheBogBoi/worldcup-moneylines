@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-01
 
-Generated: 2026-07-02T00:50:23.692Z
+Generated: 2026-07-02T00:59:24.918Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -44,7 +44,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Tampa Bay Rays at Kansas City Royals | In Progress | Shane McClanahan | Seth Lugo | 3-0 |
 | Minnesota Twins at Houston Astros | In Progress | Taj Bradley | Tatsuya Imai | 5-1 |
 | Cincinnati Reds at Milwaukee Brewers | In Progress | Andrew Abbott | Shane Drohan | 2-2 |
-| Miami Marlins at Colorado Rockies | In Progress | Max Meyer | Kyle Freeland | 0-0 |
+| Miami Marlins at Colorado Rockies | In Progress | Max Meyer | Kyle Freeland | 0-1 |
 | Los Angeles Dodgers at Athletics | Pre-Game | TBD | J.T. Ginn | 0-0 |
 | San Francisco Giants at Arizona Diamondbacks | Pre-Game | Trevor McDonald | Zac Gallen | 0-0 |
 
@@ -52,12 +52,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | Philadelphia Phillies -5300, Pittsburgh Pirates +1100 |
-| St. Louis Cardinals at Atlanta Braves | 2026-07-01T23:16:00Z | Atlanta Braves -740, St. Louis Cardinals +446 |
-| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +438, Tampa Bay Rays -720 |
-| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +160, Milwaukee Brewers -212 |
-| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros +368, Minnesota Twins -569 |
-| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies +113, Miami Marlins -148 |
+| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | Philadelphia Phillies -10000, Pittsburgh Pirates +1300 |
+| St. Louis Cardinals at Atlanta Braves | 2026-07-01T23:16:00Z | Atlanta Braves -750, St. Louis Cardinals +448 |
+| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +610, Tampa Bay Rays -1220 |
+| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +159, Milwaukee Brewers -211 |
+| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros +272, Minnesota Twins -388 |
+| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies -142, Miami Marlins +109 |
 | San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks -137, San Francisco Giants +114 |
 | Los Angeles Dodgers at Athletics | 2026-07-02T01:41:00Z | Athletics +135, Los Angeles Dodgers -163 |
 | Pittsburgh Pirates at Philadelphia Phillies | 2026-07-02T16:36:00Z | Philadelphia Phillies -131, Pittsburgh Pirates +109 |
