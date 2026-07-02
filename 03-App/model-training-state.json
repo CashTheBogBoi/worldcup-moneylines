@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-02T22:09:14.248Z",
+  "savedAt": "2026-07-02T23:51:34.286Z",
   "modelPicks": [
     {
       "id": "model-1783007431797",
@@ -11,7 +11,7 @@
       "sport": "MLB",
       "commenceTime": "2026-07-03T01:41:00Z",
       "openPrice": 178,
-      "closePrice": 192,
+      "closePrice": 196,
       "openBook": "DraftKings",
       "stake": 0,
       "probability": 0.3777610417218195,
@@ -89,11 +89,17 @@
           "price": 192,
           "book": "Caesars",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-02T23:51:34.270Z",
+          "price": 196,
+          "book": "Caesars",
+          "source": "pre-start"
         }
       ],
       "note": "",
       "closeBook": "Caesars",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "autoClosed": true
     },
     {
@@ -146,7 +152,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "autoClosed": true
     },
     {
@@ -212,7 +218,8 @@
       "note": "",
       "closeBook": "BetOnline.ag",
       "closedAt": "2026-07-02T22:09:14.233Z",
-      "autoClosed": true
+      "autoClosed": true,
+      "closeFrozenAt": "2026-07-02T23:51:34.270Z"
     },
     {
       "id": "model-1782953816600",
@@ -240,7 +247,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "autoClosed": true
     },
     {
@@ -275,7 +282,7 @@
       ],
       "note": "",
       "closeBook": "Bovada",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "autoClosed": true
     },
     {
@@ -287,7 +294,7 @@
       "sport": "Soccer",
       "commenceTime": "2026-07-03T22:00:00Z",
       "openPrice": 700,
-      "closePrice": 750,
+      "closePrice": 780,
       "stake": 0,
       "probability": 0.12534230992472165,
       "result": "pending",
@@ -295,8 +302,8 @@
       "autoTracked": true,
       "note": "",
       "autoClosed": true,
-      "closeBook": "BetRivers",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closeBook": "BetOnline.ag",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -308,6 +315,12 @@
           "at": "2026-07-02T17:50:09.951Z",
           "price": 750,
           "book": "BetRivers",
+          "source": "pre-start"
+        },
+        {
+          "at": "2026-07-02T23:51:34.270Z",
+          "price": 780,
+          "book": "BetOnline.ag",
           "source": "pre-start"
         }
       ]
@@ -330,7 +343,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -382,7 +395,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -422,7 +435,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -517,7 +530,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "DraftKings",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -557,7 +570,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "DraftKings",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -837,7 +850,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -951,7 +964,8 @@
           "book": "FanDuel",
           "source": "pre-start"
         }
-      ]
+      ],
+      "closeFrozenAt": "2026-07-02T23:51:34.270Z"
     },
     {
       "id": "model-1782867771451",
@@ -971,7 +985,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-02T22:09:14.233Z",
+      "closedAt": "2026-07-02T23:51:34.270Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -1239,14 +1253,14 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-02T22:09:14.240Z",
-    "totalCandidates": 64,
-    "passed": 11,
-    "blocked": 53,
+    "savedAt": "2026-07-02T23:51:34.280Z",
+    "totalCandidates": 68,
+    "passed": 9,
+    "blocked": 59,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 50
+        "count": 51
       },
       {
         "label": "Positive EV",
@@ -1254,38 +1268,103 @@
       },
       {
         "label": "Beats consensus",
-        "count": 35
+        "count": 38
       },
       {
         "label": "Model ready",
-        "count": 22
+        "count": 35
+      },
+      {
+        "label": "Pregame",
+        "count": 9
       },
       {
         "label": "DraftKings line",
-        "count": 6
+        "count": 8
       },
       {
         "label": "Model opinion",
         "count": 3
-      },
-      {
-        "label": "Pregame",
-        "count": 2
       }
     ],
     "watchlist": [
       {
         "sport": "MLB",
-        "match": "Colorado Rockies vs Miami Marlins",
-        "selection": "Miami Marlins",
+        "match": "Cleveland Guardians vs Chicago White Sox",
+        "selection": "Chicago White Sox",
         "book": "Fanatics",
-        "price": 4500,
-        "probability": 0.1319676662898689,
-        "ev": 507.05126493339685,
-        "edge": 0.11022853585508628,
+        "price": 500,
+        "probability": 0.25630382523236617,
+        "ev": 53.782295139419716,
+        "edge": 0.08963715856569951,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Portugal vs Croatia",
+        "selection": "Croatia",
+        "book": "DraftKings",
+        "price": 650,
+        "probability": 0.17680593705950043,
+        "ev": 32.60445279462532,
+        "edge": 0.0434726037261671,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Kansas City Royals vs Tampa Bay Rays",
+        "selection": "Tampa Bay Rays",
+        "book": "Caesars",
+        "price": 135,
+        "probability": 0.4734304568600608,
+        "ev": 11.256157362114287,
+        "edge": 0.047898541966443775,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Atlanta Braves vs St. Louis Cardinals",
+        "selection": "St. Louis Cardinals",
+        "book": "BetMGM",
+        "price": 300,
+        "probability": 0.27601717765399253,
+        "ev": 10.406871061597016,
+        "edge": 0.02601717765399253,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Kansas City Royals vs Tampa Bay Rays",
+        "selection": "Kansas City Royals",
+        "book": "LowVig.ag",
+        "price": 108,
+        "probability": 0.5265695431399391,
+        "ev": 9.52646497310733,
+        "edge": 0.04580031237070831,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Argentina vs Cape Verde",
+        "selection": "Draw",
+        "book": "BetOnline.ag",
+        "price": 780,
+        "probability": 0.12077838641099937,
+        "ev": 6.284980041679447,
+        "edge": 0.007142022774635742,
+        "blocker": "Model opinion",
+        "group": "Market-only, needs model input",
+        "action": "Add team ratings/research prior or wait for the model to load enough context."
       },
       {
         "sport": "MLB",
@@ -1293,9 +1372,35 @@
         "selection": "Atlanta Braves",
         "book": "FanDuel",
         "price": -116,
-        "probability": 0.5689725284676629,
-        "ev": 5.946608749151011,
-        "edge": 0.031935491430625795,
+        "probability": 0.5695366356510129,
+        "ev": 6.05164939708515,
+        "edge": 0.03249959861397578,
+        "blocker": "Model ready",
+        "group": "Needs starter",
+        "action": "Confirm probable starters or use the manual starter override."
+      },
+      {
+        "sport": "MLB",
+        "match": "Colorado Rockies vs San Francisco Giants",
+        "selection": "Colorado Rockies",
+        "book": "FanDuel",
+        "price": 132,
+        "probability": 0.45488034106898967,
+        "ev": 5.5322391280056,
+        "edge": 0.023845858310369006,
+        "blocker": "Model ready",
+        "group": "Needs starter",
+        "action": "Confirm probable starters or use the manual starter override."
+      },
+      {
+        "sport": "MLB",
+        "match": "Seattle Mariners vs Toronto Blue Jays",
+        "selection": "Seattle Mariners",
+        "book": "FanDuel",
+        "price": 106,
+        "probability": 0.5052910336208593,
+        "ev": 4.089952925897009,
+        "edge": 0.019854140416975752,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -1306,51 +1411,12 @@
         "selection": "Cape Verde",
         "book": "BetRivers",
         "price": 2000,
-        "probability": 0.05003102836357007,
-        "ev": 5.065159563497147,
-        "edge": 0.0024119807445224517,
+        "probability": 0.04953672349667047,
+        "ev": 4.027119343007996,
+        "edge": 0.001917675877622857,
         "blocker": "Model opinion",
         "group": "Market-only, needs model input",
         "action": "Add team ratings/research prior or wait for the model to load enough context."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Argentina vs Cape Verde",
-        "selection": "Draw",
-        "book": "BetRivers",
-        "price": 750,
-        "probability": 0.12236203703907919,
-        "ev": 4.007731483217313,
-        "edge": 0.004714978215549781,
-        "blocker": "Model opinion",
-        "group": "Market-only, needs model input",
-        "action": "Add team ratings/research prior or wait for the model to load enough context."
-      },
-      {
-        "sport": "MLB",
-        "match": "Cleveland Guardians vs Chicago White Sox",
-        "selection": "Chicago White Sox",
-        "book": "LowVig.ag",
-        "price": 122,
-        "probability": 0.4653255957467011,
-        "ev": 3.3022822557676506,
-        "edge": 0.01487514529625067,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
-        "match": "Seattle Mariners vs Toronto Blue Jays",
-        "selection": "Seattle Mariners",
-        "book": "FanDuel",
-        "price": 102,
-        "probability": 0.5109894529012093,
-        "ev": 3.2198694860442885,
-        "edge": 0.015939947950714295,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
       },
       {
         "sport": "Soccer",
@@ -1367,73 +1433,239 @@
       },
       {
         "sport": "MLB",
-        "match": "Cincinnati Reds vs Baltimore Orioles",
-        "selection": "Cincinnati Reds",
+        "match": "Cleveland Guardians vs Chicago White Sox",
+        "selection": "Chicago White Sox",
         "book": "LowVig.ag",
-        "price": 110,
-        "probability": 0.4894546114913937,
-        "ev": 2.7854684131926817,
-        "edge": 0.013264135300917523,
+        "price": 122,
+        "probability": 0.46313332761910886,
+        "ev": 2.815598731442165,
+        "edge": 0.012682877168658402,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
-        "match": "Arizona Diamondbacks vs Milwaukee Brewers",
-        "selection": "Arizona Diamondbacks",
-        "book": "BetOnline.ag",
-        "price": 147,
-        "probability": 0.41284578011273587,
-        "ev": 1.9729076878457619,
-        "edge": 0.007987480517594181,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
-        "match": "Athletics vs Miami Marlins",
-        "selection": "Miami Marlins",
-        "book": "FanDuel",
-        "price": 110,
-        "probability": 0.48556723417961056,
-        "ev": 1.9691191777182269,
-        "edge": 0.009376757989134399,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
-        "match": "Chicago Cubs vs St. Louis Cardinals",
-        "selection": "Chicago Cubs",
-        "book": "BetOnline.ag",
-        "price": -121,
-        "probability": 0.552670679402314,
-        "ev": 0.9423307007532173,
-        "edge": 0.0051593671851193346,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Colombia vs Ghana",
-        "selection": "Draw",
-        "book": "BetOnline.ag",
-        "price": 333,
-        "probability": 0.2329592910153035,
-        "ev": 0.8713730096264243,
-        "edge": 0.002012408798213433,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
       }
     ]
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783036294269",
+      "at": "2026-07-02T23:51:34.269Z",
+      "source": "local",
+      "eventCount": 10,
+      "lines": [
+        {
+          "match": "Portugal vs Croatia",
+          "commenceTime": "2026-07-02T23:00:00Z",
+          "best": [
+            {
+              "name": "Portugal",
+              "price": -118,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Draw",
+              "price": 190,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Croatia",
+              "price": 650,
+              "book": "DraftKings"
+            }
+          ]
+        },
+        {
+          "match": "Switzerland vs Algeria",
+          "commenceTime": "2026-07-03T03:00:00Z",
+          "best": [
+            {
+              "name": "Switzerland",
+              "price": 100,
+              "book": "DraftKings"
+            },
+            {
+              "name": "Draw",
+              "price": 235,
+              "book": "BetUS"
+            },
+            {
+              "name": "Algeria",
+              "price": 355,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Australia vs Egypt",
+          "commenceTime": "2026-07-03T18:00:00Z",
+          "best": [
+            {
+              "name": "Australia",
+              "price": 245,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Draw",
+              "price": 190,
+              "book": "Bovada"
+            },
+            {
+              "name": "Egypt",
+              "price": 155,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Cape Verde",
+          "commenceTime": "2026-07-03T22:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -625,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Draw",
+              "price": 780,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Cape Verde",
+              "price": 2000,
+              "book": "BetRivers"
+            }
+          ]
+        },
+        {
+          "match": "Colombia vs Ghana",
+          "commenceTime": "2026-07-04T01:30:00Z",
+          "best": [
+            {
+              "name": "Colombia",
+              "price": -220,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 340,
+              "book": "FanDuel"
+            },
+            {
+              "name": "Ghana",
+              "price": 760,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Canada vs Morocco",
+          "commenceTime": "2026-07-04T17:00:00Z",
+          "best": [
+            {
+              "name": "Canada",
+              "price": 440,
+              "book": "FanDuel"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "DraftKings"
+            },
+            {
+              "name": "Morocco",
+              "price": -125,
+              "book": "Fanatics"
+            }
+          ]
+        },
+        {
+          "match": "Paraguay vs France",
+          "commenceTime": "2026-07-04T21:00:00Z",
+          "best": [
+            {
+              "name": "Paraguay",
+              "price": 1800,
+              "book": "DraftKings"
+            },
+            {
+              "name": "Draw",
+              "price": 620,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "France",
+              "price": -525,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Brazil vs Norway",
+          "commenceTime": "2026-07-05T20:00:00Z",
+          "best": [
+            {
+              "name": "Brazil",
+              "price": -112,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "DraftKings"
+            },
+            {
+              "name": "Norway",
+              "price": 340,
+              "book": "FanDuel"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs England",
+          "commenceTime": "2026-07-06T00:00:00Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 220,
+              "book": "DraftKings"
+            },
+            {
+              "name": "Draw",
+              "price": 223,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "England",
+              "price": 148,
+              "book": "BetRivers"
+            }
+          ]
+        },
+        {
+          "match": "USA vs Belgium",
+          "commenceTime": "2026-07-07T00:00:00Z",
+          "best": [
+            {
+              "name": "USA",
+              "price": 165,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Belgium",
+              "price": 179,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783030154230",
       "at": "2026-07-02T22:09:14.230Z",
@@ -8066,245 +8298,6 @@
     {
       "id": "snapshot-1783025041494",
       "at": "2026-07-02T20:44:01.494Z",
-      "source": "local",
-      "eventCount": 11,
-      "lines": [
-        {
-          "match": "Spain vs Austria",
-          "commenceTime": "2026-07-02T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -340,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Draw",
-              "price": 475,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Austria",
-              "price": 1160,
-              "book": "BetOnline.ag"
-            }
-          ]
-        },
-        {
-          "match": "Portugal vs Croatia",
-          "commenceTime": "2026-07-02T23:00:00Z",
-          "best": [
-            {
-              "name": "Portugal",
-              "price": -145,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Croatia",
-              "price": 475,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Switzerland vs Algeria",
-          "commenceTime": "2026-07-03T03:00:00Z",
-          "best": [
-            {
-              "name": "Switzerland",
-              "price": -105,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 240,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Algeria",
-              "price": 375,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Australia vs Egypt",
-          "commenceTime": "2026-07-03T18:00:00Z",
-          "best": [
-            {
-              "name": "Australia",
-              "price": 243,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 190,
-              "book": "Bovada"
-            },
-            {
-              "name": "Egypt",
-              "price": 155,
-              "book": "BetOnline.ag"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Cape Verde",
-          "commenceTime": "2026-07-03T22:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -600,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 750,
-              "book": "BetRivers"
-            },
-            {
-              "name": "Cape Verde",
-              "price": 2000,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "Colombia vs Ghana",
-          "commenceTime": "2026-07-04T01:30:00Z",
-          "best": [
-            {
-              "name": "Colombia",
-              "price": -190,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Draw",
-              "price": 310,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Ghana",
-              "price": 705,
-              "book": "BetOnline.ag"
-            }
-          ]
-        },
-        {
-          "match": "Canada vs Morocco",
-          "commenceTime": "2026-07-04T17:00:00Z",
-          "best": [
-            {
-              "name": "Canada",
-              "price": 420,
-              "book": "BetRivers"
-            },
-            {
-              "name": "Draw",
-              "price": 256,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Morocco",
-              "price": -125,
-              "book": "Fanatics"
-            }
-          ]
-        },
-        {
-          "match": "Paraguay vs France",
-          "commenceTime": "2026-07-04T21:00:00Z",
-          "best": [
-            {
-              "name": "Paraguay",
-              "price": 1800,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Draw",
-              "price": 620,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "France",
-              "price": -525,
-              "book": "BetOnline.ag"
-            }
-          ]
-        },
-        {
-          "match": "Brazil vs Norway",
-          "commenceTime": "2026-07-05T20:00:00Z",
-          "best": [
-            {
-              "name": "Brazil",
-              "price": -112,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Norway",
-              "price": 340,
-              "book": "FanDuel"
-            }
-          ]
-        },
-        {
-          "match": "Mexico vs England",
-          "commenceTime": "2026-07-06T00:00:00Z",
-          "best": [
-            {
-              "name": "Mexico",
-              "price": 220,
-              "book": "DraftKings"
-            },
-            {
-              "name": "Draw",
-              "price": 223,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "England",
-              "price": 148,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "USA vs Belgium",
-          "commenceTime": "2026-07-07T00:00:00Z",
-          "best": [
-            {
-              "name": "USA",
-              "price": 165,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 250,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Belgium",
-              "price": 180,
-              "book": "DraftKings"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783025033491",
-      "at": "2026-07-02T20:43:53.491Z",
       "source": "local",
       "eventCount": 11,
       "lines": [

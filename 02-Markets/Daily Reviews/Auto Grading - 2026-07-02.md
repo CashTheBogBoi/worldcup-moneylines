@@ -1,13 +1,10 @@
 # Auto Grading - 2026-07-02
 
-Generated: 2026-07-02T21:45:05.276Z
-Data snapshot: 2026-07-02T21:45:01.808Z
+Generated: 2026-07-02T23:51:33.705Z
+Data snapshot: 2026-07-02T23:51:29.780Z
 
 ## Newly Graded
-| Sport | Match | Pick | Result | Score | Score ID |
-|---|---|---|---:|---|---|
-| Soccer | Spain vs Austria | Austria | loss | Spain 3, Austria 0 | a518ac20df8f5c732b881e213ae0c230 |
-| MLB | Philadelphia Phillies vs Pittsburgh Pirates | Philadelphia Phillies | loss | Philadelphia Phillies 1, Pittsburgh Pirates 6 | 0d018935d27849176c88ca1dae8a8da8 |
+_No newly graded picks._
 
 ## Still Pending
 - MLB / Seattle Mariners vs Los Angeles Angels / Los Angeles Angels (2026-07-03T01:41:00Z)
