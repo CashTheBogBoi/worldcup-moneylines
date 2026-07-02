@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T17:53:47.961Z
+Updated: 2026-07-02T18:13:49.016Z
 
 ## Summary
 - Total tracked picks: 26
@@ -17,7 +17,7 @@ Updated: 2026-07-02T17:53:47.961Z
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | +192 | -1.7 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +340 | -0.5 pts | 23.3% | Odds API no-vig only |
-| Soccer | Portugal vs Croatia | Croatia | pending | +415 | +470 | -1.9 pts | 19.4% | Odds API no-vig only |
+| Soccer | Portugal vs Croatia | Croatia | pending | +415 | +475 | -2.0 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +155 | 0.0 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | pending | +195 | +190 | 0.6 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +750 | -0.7 pts | 12.5% | Odds API no-vig only |
@@ -35,7 +35,7 @@ Updated: 2026-07-02T17:53:47.961Z
 | MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
 | Soccer | Mexico vs England | England | pending | +143 | +148 | -0.8 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
-| Soccer | Portugal vs Croatia | Portugal | pending | -125 | -140 | 2.8 pts | 53.6% | Odds API no-vig only |
+| Soccer | Portugal vs Croatia | Portugal | pending | -125 | -145 | 3.6 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -125 | 1.0 pts | 52.8% | Odds API no-vig only |
 | MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
 | Soccer | Belgium vs Senegal | Belgium | draw | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
@@ -63,38 +63,34 @@ Updated: 2026-07-02T17:53:47.961Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 25 | 10 | 50.0% | 1.7 pts | 0.178 | -100.0% |
+| Unknown gate | 25 | 10 | 50.0% | 1.8 pts | 0.178 | -100.0% |
 | Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T17:53:47.055Z
-- Current candidates: 61
-- Passed / blocked: 3 / 58
+- Saved: 2026-07-02T18:13:48.044Z
+- Current candidates: 63
+- Passed / blocked: 13 / 50
 
 ### Top Blockers
-- Minimum edge: 56
-- Positive EV: 46
-- Beats consensus: 45
-- Model opinion: 27
-- Model ready: 12
-- DraftKings line: 10
-- Pregame: 2
+- Minimum edge: 47
+- Positive EV: 42
+- Beats consensus: 34
+- Model ready: 16
+- DraftKings line: 12
+- Pregame: 4
+- Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +240 | 34.1% | $15.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1160 | 8.6% | $8.90 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.6% | $6.34 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +235 | 35.6% | $19.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -112 | 56.8% | $7.57 | Confirm probable starters or use the manual starter override. |
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2000 | 5.1% | $6.08 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Ghana | Colombia vs Ghana | Market-only, needs model input | +705 | 13.1% | $5.28 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +750 | 12.2% | $3.88 | Add team ratings/research prior or wait for the model to load enough context. |
 | MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Needs starter | -113 | 54.6% | $2.92 | Confirm probable starters or use the manual starter override. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.6% | $2.34 | Edge under 1.5% — inside vig noise. |
-| Soccer | Norway | Brazil vs Norway | Market-only, needs model input | +340 | 22.9% | $0.84 | Add team ratings/research prior or wait for the model to load enough context. |
 | MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Needs starter | +102 | 49.7% | $0.31 | Confirm probable starters or use the manual starter override. |
-| Soccer | Croatia | Portugal vs Croatia | Market-only, needs model input | +470 | 17.6% | $0.28 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Needs starter | +113 | 47.0% | $0.04 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Needs starter | +113 | 47.0% | $0.06 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
