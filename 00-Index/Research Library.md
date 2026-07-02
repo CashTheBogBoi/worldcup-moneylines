@@ -46,6 +46,7 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 - [[Bovada Futures Snapshot]]
 - [[June 30 2026 Match Slate]]
 - [[July 1 2026 Match Slate]]
+- [[FIFA Men's Ranking Data]]
 
 ## Source quality
 
