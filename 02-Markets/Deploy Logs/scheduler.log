@@ -126,3 +126,93 @@ Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-02 1140.md
 > worldcup-moneylines@0.1.0 scheduler:watchdog
 > node scripts/scheduler-watchdog.mjs
 
+
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+
+========== Pregame check scheduled run started 2026-07-02T16:31:02.349Z ==========
+
+[2026-07-02T16:31:02.349Z] START research: npm run research:pregame
+
+> worldcup-moneylines@0.1.0 research:pregame
+> node scripts/research-cycle.mjs pregame
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-02
+Wrote data/daily/2026-07-02/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-02.md
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 16.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-02.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-02T16:31:03.053Z counts {"pending":16,"win":5,"loss":4,"draw":1}
+stats-history updatedAt: 2026-07-02T15:57:54.116Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-02 pregame.md
+[2026-07-02T16:31:05.071Z] PASS research exit=0
+
+[2026-07-02T16:31:05.071Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-DQY8pDbK.css      39.28 kB │ gzip:   6.65 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-49BJF1H_.js      474.73 kB │ gzip: 123.45 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 184ms
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+i  hosting[sportsedge-a58e7]: beginning deploy...
+i  hosting[sportsedge-a58e7]: found 10 files in dist
+i  hosting: adding files to version [0/10] (0%)
+i  hosting: upload complete
+✔  hosting[sportsedge-a58e7]: file upload complete
+i  hosting[sportsedge-a58e7]: finalizing version...
+✔  hosting[sportsedge-a58e7]: version finalized
+i  hosting[sportsedge-a58e7]: releasing new version...
+
+Error: Request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sportsedge-a58e7/channels/live/releases?versionName=projects%2F25285951798%2Fsites%2Fsportsedge-a58e7%2Fversions%2F6d57c7d992e4b1dc had HTTP Error: 400, Can't release to `projects/-/sites/sportsedge-a58e7/channels/live`: supplied version `projects/25285951798/sites/sportsedge-a58e7/versions/6d57c7d992e4b1dc` is the current active version.
+Verified latest Firebase Hosting build at https://sportsedge-a58e7.web.app
+Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-02 1231.md
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[firebase deploy] Release retry reported the finalized version is already active. Verifying hosted assets before treating this as success.
+[2026-07-02T16:31:24.563Z] PASS deploy exit=0
+========== Pregame check scheduled run SUCCESS 2026-07-02T16:31:24.563Z ==========
+Pregame check scheduled run success.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+

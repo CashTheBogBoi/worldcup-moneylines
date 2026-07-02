@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T15:57:55.114Z
+Updated: 2026-07-02T16:52:24.808Z
 
 ## Summary
 - Total tracked picks: 26
@@ -17,7 +17,7 @@ Updated: 2026-07-02T15:57:55.114Z
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | +192 | -1.7 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +340 | -0.5 pts | 23.3% | Odds API no-vig only |
-| Soccer | Portugal vs Croatia | Croatia | pending | +415 | +460 | -1.6 pts | 19.4% | Odds API no-vig only |
+| Soccer | Portugal vs Croatia | Croatia | pending | +415 | +470 | -1.9 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +155 | 0.0 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | pending | +195 | +190 | 0.6 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +700 | 0.0 pts | 12.5% | Odds API no-vig only |
@@ -35,7 +35,7 @@ Updated: 2026-07-02T15:57:55.114Z
 | MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
 | Soccer | Mexico vs England | England | pending | +143 | +148 | -0.8 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
-| Soccer | Portugal vs Croatia | Portugal | pending | -125 | -136 | 2.1 pts | 53.6% | Odds API no-vig only |
+| Soccer | Portugal vs Croatia | Portugal | pending | -125 | -140 | 2.8 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -125 | 1.0 pts | 52.8% | Odds API no-vig only |
 | MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
 | Soccer | Belgium vs Senegal | Belgium | draw | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
@@ -67,7 +67,7 @@ Updated: 2026-07-02T15:57:55.114Z
 | Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T15:57:54.123Z
+- Saved: 2026-07-02T16:52:23.639Z
 - Current candidates: 51
 - Passed / blocked: 3 / 48
 
@@ -76,17 +76,19 @@ Updated: 2026-07-02T15:57:55.114Z
 - Positive EV: 41
 - Beats consensus: 40
 - Model opinion: 27
+- Model ready: 2
+- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1150 | 8.7% | $9.10 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.6% | $5.72 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1150 | 8.6% | $7.40 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.6% | $6.34 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Ghana | Colombia vs Ghana | Market-only, needs model input | +705 | 13.1% | $5.64 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +1900 | 5.2% | $3.23 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.3% | $1.75 | Edge under 1.5% — inside vig noise. |
-| Soccer | Norway | Brazil vs Norway | Market-only, needs model input | +340 | 23.0% | $1.34 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Croatia | Portugal vs Croatia | Market-only, needs model input | +460 | 18.0% | $0.73 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.5% | $2.21 | Edge under 1.5% — inside vig noise. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +1900 | 5.1% | $1.76 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Croatia | Portugal vs Croatia | Market-only, needs model input | +470 | 17.7% | $0.85 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Norway | Brazil vs Norway | Market-only, needs model input | +340 | 22.9% | $0.84 | Add team ratings/research prior or wait for the model to load enough context. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

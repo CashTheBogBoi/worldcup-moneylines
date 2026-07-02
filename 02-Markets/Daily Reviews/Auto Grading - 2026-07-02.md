@@ -1,12 +1,13 @@
 # Auto Grading - 2026-07-02
 
-Generated: 2026-07-02T15:39:51.810Z
-Data snapshot: 2026-07-02T15:39:51.466Z
+Generated: 2026-07-02T16:31:03.056Z
+Data snapshot: 2026-07-02T16:31:02.670Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
+- MLB / Seattle Mariners vs Los Angeles Angels / Los Angeles Angels (2026-07-03T01:41:00Z)
 - Soccer / Brazil vs Norway / Norway (2026-07-05T20:00:00Z)
 - Soccer / Portugal vs Croatia / Croatia (2026-07-02T23:00:00Z)
 - Soccer / Australia vs Egypt / Egypt (2026-07-03T18:00:00Z)
