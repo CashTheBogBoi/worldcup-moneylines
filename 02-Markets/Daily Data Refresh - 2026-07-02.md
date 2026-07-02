@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-02
 
-Generated: 2026-07-02T04:22:11.926Z
+Generated: 2026-07-02T04:27:41.310Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -41,7 +41,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks +740, San Francisco Giants -1760 |
+| San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks +600, San Francisco Giants -1180 |
 | Pittsburgh Pirates at Philadelphia Phillies | 2026-07-02T16:36:00Z | Philadelphia Phillies -131, Pittsburgh Pirates +109 |
 | Cincinnati Reds at Milwaukee Brewers | 2026-07-02T18:11:00Z | Cincinnati Reds +163, Milwaukee Brewers -199 |
 | Miami Marlins at Colorado Rockies | 2026-07-02T19:11:00Z | Colorado Rockies +104, Miami Marlins -126 |
