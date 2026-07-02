@@ -256,3 +256,91 @@ Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy 
 > worldcup-moneylines@0.1.0 scheduler:watchdog
 > node scripts/scheduler-watchdog.mjs
 
+
+> worldcup-moneylines@0.1.0 schedule:wave
+> node scripts/schedule-run.mjs wave
+
+
+========== Next wave scheduled run started 2026-07-02T21:45:01.526Z ==========
+
+[2026-07-02T21:45:01.527Z] START research: npm run research:wave
+
+> worldcup-moneylines@0.1.0 research:wave
+> node scripts/research-cycle.mjs wave
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-02
+Wrote data/daily/2026-07-02/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-02.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-06-11, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 2 picks.
+Still pending with no final score: 14.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-02.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-02T21:45:05.273Z counts {"pending":14,"loss":6,"win":5,"draw":1}
+stats-history updatedAt: 2026-07-02T21:16:28.259Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-02 wave.md
+[2026-07-02T21:46:17.055Z] PASS research exit=0
+
+[2026-07-02T21:46:17.055Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-egDMOIEm.css      39.37 kB │ gzip:   6.67 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DCh4B8Kk.js      480.38 kB │ gzip: 124.88 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 182ms
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+i  hosting[sportsedge-a58e7]: beginning deploy...
+i  hosting[sportsedge-a58e7]: found 10 files in dist
+i  hosting: adding files to version [0/10] (0%)
+i  hosting: upload complete
+✔  hosting[sportsedge-a58e7]: file upload complete
+i  hosting[sportsedge-a58e7]: finalizing version...
+✔  hosting[sportsedge-a58e7]: version finalized
+i  hosting[sportsedge-a58e7]: releasing new version...
+
+Error: Request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sportsedge-a58e7/channels/live/releases?versionName=projects%2F25285951798%2Fsites%2Fsportsedge-a58e7%2Fversions%2F7a5026db4ca73354 had HTTP Error: 400, Can't release to `projects/-/sites/sportsedge-a58e7/channels/live`: supplied version `projects/25285951798/sites/sportsedge-a58e7/versions/7a5026db4ca73354` is the current active version.
+Verified latest Firebase Hosting build at https://sportsedge-a58e7.web.app
+Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-02 1746.md
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[firebase deploy] Release retry reported the finalized version is already active. Verifying hosted assets before treating this as success.
+[2026-07-02T21:46:38.455Z] PASS deploy exit=0
+========== Next wave scheduled run SUCCESS 2026-07-02T21:46:38.455Z ==========
+Next wave scheduled run success.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
