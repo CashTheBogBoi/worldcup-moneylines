@@ -7,6 +7,8 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 - [[Algorithm v1 Current Spec]]
 - [[ML Calibration Layer]]
 - [[Data Pipeline and Persistence]]
+- [[June 30 2026 Tracking Fix List]]
+- [[June 30 2026 Soccer Tracking Fix List]]
 - [[Algorithm Lessons From Backtests]]
 - [[Probability and Value Math]]
 - [[Bankroll and Risk Rules]]
@@ -24,6 +26,9 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 ## MLB research
 
 - [[MLB Research]]
+- [[ESPN Fantasy MLB Daily Notes - July 1 2026]]
+- [[MLB Probable Pitchers - July 1 2026]]
+- [[June 30 2026 MLB Scoreboard Facts]]
 - [[MLB Historical Odds Data 2012-2021]]
 - [[MLB Statcast Feature Dictionary]]
 - [[MLB After Loss Trend Prior]]
@@ -32,6 +37,7 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 
 ## Soccer / World Cup research
 
+- [[June 30 2026 World Cup Scoreboard Facts]]
 - [[External Source Research - 2026-06-30]]
 - [[Future Match Probability Baseline]]
 - [[World Cup Historical Backtest]]
@@ -49,4 +55,6 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 
 - [[Pick Notebook]]
 - [[Results Log]]
+- [[June 30 2026 MLB Prediction Postmortem]]
+- [[June 30 2026 World Cup Prediction Postmortem]]
 - [[Model Lab]]

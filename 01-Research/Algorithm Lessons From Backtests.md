@@ -126,6 +126,44 @@ The app should treat backtest failures as guardrails:
 - If a pick is driven only by market no-vig, treat it as research, not a model edge.
 - If a pick survives market, Intel, and sport-specific context, then it can be tracked in Model Lab.
 
+## June 30 tracking lesson
+
+The June 30 MLB slate showed a different kind of failure: not a pure model miss, but a
+tracking-quality miss.
+
+See:
+
+- [[June 30 2026 MLB Prediction Postmortem]]
+- [[June 30 2026 Tracking Fix List]]
+- [[June 30 2026 MLB Scoreboard Facts]]
+
+Main lesson:
+
+- Market-only rows should not be promoted as model picks.
+- Post-start rows should not be trackable as pregame predictions.
+- Close-price capture must stop at first pitch.
+- MLB "Best Pick" should require model-ready inputs, not just an available price.
+
+## June 30 World Cup tracking lesson
+
+The June 30 World Cup slate was cleaner than MLB:
+
+- Norway advancement/manual lean won.
+- France ML seed/example won.
+- Mexico ML won.
+
+But it exposed Soccer-specific tracking issues:
+
+- Seed/example picks should be excluded from learning.
+- To-advance picks need a separate `marketType` from 90-minute moneyline.
+- Draw picks need stronger guardrails and should stay separate from side picks.
+
+See:
+
+- [[June 30 2026 World Cup Prediction Postmortem]]
+- [[June 30 2026 Soccer Tracking Fix List]]
+- [[June 30 2026 World Cup Scoreboard Facts]]
+
 ## Implemented in Algorithm v1.2
 
 These lessons now feed the app directly:

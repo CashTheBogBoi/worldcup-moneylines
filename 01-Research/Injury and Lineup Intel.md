@@ -12,6 +12,9 @@ Odds move faster than most injury notes. A pick is not ready until the current l
 - [MLB Probable Pitchers](https://www.mlb.com/probable-pitchers): starter confirmation and matchup context.
 - [RotoWire Daily Lineups](https://www.rotowire.com/baseball/daily-lineups.php): lineup confirmation, scratches, rest days, and batting order.
 - [ESPN MLB Injuries](https://www.espn.com/mlb/injuries): secondary status check.
+- [ESPN Fantasy MLB Daily Notes](https://www.espn.com/fantasy/baseball/): pitcher-projection
+  context. Useful for starter confidence, but not official starter confirmation and not direct
+  betting probability.
 - [Covers MLB Injuries](https://www.covers.com/sport/baseball/mlb/injuries): betting-focused injury board.
 - [RotoGrinders MLB Weather](https://rotogrinders.com/weather/mlb): wind, rain, temperature, roof, and delay risk.
 
@@ -90,3 +93,27 @@ local notebook (sport / match / category / impact / status / note).
   [ESPN USA vs Bosnia preview](https://www.espn.com/soccer/story/_/id/49212832/united-states-vs-bosnia-herzegovina-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups).
 
 Full match-level detail and lineups: [[July 1 2026 Match Slate]].
+
+## Research log — 2026-07-01 MLB daily notes
+
+Source note: [[ESPN Fantasy MLB Daily Notes - July 1 2026]].
+
+- ESPN's July 1 fantasy daily notes are useful as a starter-projection prior, especially for
+  Tatsuya Imai, Dean Kremer, MacKenzie Gore, and Andrew Abbott.
+- Treat the ESPN signal as **Medium confidence** only because the full page was blocked by
+  JavaScript verification and snippets/source boards disagreed on at least one starter.
+- Official MLB Stats API remains the source of truth for probable starters.
+- If ESPN pitcher context, MLB API starter confirmation, and lineup-board starter data disagree,
+  mark the game **model not ready**.
+- For Bankroll Watch, this source should only upgrade a pick when the market still leaves
+  positive EV after lineup, bullpen, and weather checks.
+
+Official starter note: [[MLB Probable Pitchers - July 1 2026]] is the source of truth for this
+slate. The official page confirmed several stale-source corrections:
+
+- Washington used Brad Lord, not Andrew Alvarez.
+- Toronto used Braydon Fisher, not Patrick Corbin.
+- Dodgers remained official TBD while one lineup board listed Jack Dreyer.
+
+Any future MLB algorithm pass should block Bankroll Watch when the official probable starter is
+TBD or disagrees with secondary sources.

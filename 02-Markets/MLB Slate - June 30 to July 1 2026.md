@@ -74,3 +74,20 @@ Related:
 - [[Injury and Lineup Intel]]
 - [[Bankroll and Risk Rules]]
 - [[Model Lab]]
+
+## July 1 refresh from ESPN daily notes and official MLB API
+
+See [[ESPN Fantasy MLB Daily Notes - July 1 2026]] and [[MLB Probable Pitchers - July 1 2026]]
+for the detailed source notes.
+
+Important corrections from the live July 1 refresh:
+
+- Washington starter was **Brad Lord**, not Andrew Alvarez.
+- Toronto starter was **Braydon Fisher**, not Patrick Corbin.
+- Dodgers starter had source disagreement: MLB API showed **TBD**, while LineupExperts listed
+  **Jack Dreyer**.
+- ESPN's fantasy article/indexed result highlighted **Tatsuya Imai**, plus a top cluster around
+  Dean Kremer, MacKenzie Gore, and Andrew Abbott.
+
+Model implication: stale probable-pitcher notes should never feed Bankroll Watch. The app needs
+a source-disagreement gate before it calls any MLB side "best pick tonight."

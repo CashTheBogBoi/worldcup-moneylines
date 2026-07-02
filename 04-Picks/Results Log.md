@@ -27,28 +27,60 @@ everything else is derived exactly as the app derives it.
 | Date | Pick | Match | Algorithm % | Odds | Close | Buy-in | Result | Edge | Return | CLV | Brier |
 |---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|
 | _example_ | France ML | France vs Sweden | 72.0% | -185 | -210 | $25.00 | Win | +7.1 pts | +$13.51 | +3.3 pts | 0.078 |
-| Jun 30 | Mexico ML | Mexico vs Ecuador | 44.4% | +125 | +136 | $0.00 | Win | -0.1 pts | +$0.00 | +2.1 pts | 0.309 |
-| Jun 30 | Pittsburgh Pirates ML | Pittsburgh Pirates vs Philadelphia Phillies | 44.3% | +203 | — | $19.95 | Loss | +11.3 pts | -$19.95 | — | 0.196 |
+| Jun 30 | Atlanta Braves ML | Atlanta Braves vs St. Louis Cardinals | 37.3% | +272 | +1000 | $0.00 | Loss | +10.4 pts | $0.00 | -16.3 pts | 0.139 |
+| Jun 30 | Chicago White Sox ML | Baltimore Orioles vs Chicago White Sox | 94.8% | -5000 | -2000 | $0.00 | Win | +92.8 pts | $0.00 | -2.7 pts | 0.003 |
+| Jun 30 | Cleveland Guardians ML | Cleveland Guardians vs Texas Rangers | 47.4% | +130 | +1100 | $0.00 | Loss | +3.9 pts | $0.00 | -34.4 pts | 0.225 |
+| Jun 30 | Toronto Blue Jays ML | Toronto Blue Jays vs New York Mets | 47.7% | +135 | +2200 | $0.00 | Loss | +5.1 pts | $0.00 | -38.1 pts | 0.227 |
+| Jun 30 | Chicago Cubs ML | Chicago Cubs vs San Diego Padres | 57.1% | -132 | -350 | $0.00 | Win | +0.2 pts | $0.00 | +18.7 pts | 0.184 |
+| Jun 30 | Colorado Rockies ML | Colorado Rockies vs Miami Marlins | 44.9% | +117 | +550 | $0.00 | Loss | -1.2 pts | $0.00 | -31.1 pts | 0.202 |
+| Jun 30 | Washington Nationals ML | Boston Red Sox vs Washington Nationals | 45.0% | +117 | -1800 | $0.00 | Win | -1.0 pts | $0.00 | +90.3 pts | 0.302 |
+| Jun 30 | Mexico ML | Mexico vs Ecuador | 45.1% | +131 | +136 | $0.00 | Win | +1.8 pts | $0.00 | +0.9 pts | 0.301 |
+| Jun 30 | Mexico/Ecuador Draw | Mexico vs Ecuador | 34.1% | +190 | — | $70.00 | Loss | -0.4 pts | -$70.00 | — | 0.116 |
+| Jun 30 | Pittsburgh Pirates ML | Philadelphia Phillies vs Pittsburgh Pirates | 34.0% | +196 | +4000 | $0.00 | Loss | +0.2 pts | $0.00 | -31.5 pts | 0.115 |
 
 Pulled straight from the app's Model Lab (`03-App/model-training-state.json` → `modelPicks`), which
-is the only durable source of graded picks. Two other `modelPicks` entries (`France vs Sweden` /
-`Mexico vs Ecuador` "seed example") are pre-loaded demo data from first app boot, not real tracked
-picks — excluded here the same way the ledger's own `_example_` row is excluded. Worth deleting
-those two from Model Lab so they stop padding the app's live Brier/CLV cards with fake history.
+is the durable source of graded picks. June 30 MLB close prices are contaminated by live/post-start
+updates and should not be treated as true CLV. See [[June 30 2026 MLB Prediction Postmortem]].
 
 ## Running tally
 
-- Settled: 2 (excluding the example row)
-- Win / Loss / Draw: 1 / 1 / 0
-- Win rate: 50.0%
-- Net P/L: -$19.95
+- Settled: 10 (excluding the example row)
+- Win / Loss / Draw: 4 / 6 / 0
+- Win rate: 40.0%
+- Net P/L: -$70.00
 - ROI: -100.0%
-- Total staked: $19.95
-- Avg CLV: +2.1 pts (1 graded pick has a close price)
-- Avg Brier: 0.253
+- Total staked: $70.00
+- Avg Brier: 0.182
+- MLB June 30 tracked picks: 3-5
+- Soccer June 30 tracked picks: Mexico ML won, Mexico/Ecuador Draw lost
 
 I recompute this block each time results are added, mirroring the Model Lab metric cards
 (Graded picks · Brier · CLV · Net profit/loss).
+
+## June 30 postmortem summary
+
+The June 30 MLB record should be interpreted carefully:
+
+- Most MLB picks were `Odds API no-vig only`.
+- Several were tracked after first pitch.
+- Close prices were overwritten by live odds.
+- The full MLB model was not active for most tracked rows.
+
+Action items are documented in:
+
+- [[June 30 2026 MLB Prediction Postmortem]]
+- [[June 30 2026 Tracking Fix List]]
+
+The June 30 World Cup side/advancement reads were cleaner:
+
+- Mexico ML won 2-0 over Ecuador.
+- Norway advancement/manual lean won 2-1 over Ivory Coast.
+- France ML seed/example won 3-0 over Sweden, but should be excluded from learning if it was only a seed row.
+
+World Cup postmortem notes:
+
+- [[June 30 2026 World Cup Prediction Postmortem]]
+- [[June 30 2026 Soccer Tracking Fix List]]
 
 Related:
 
