@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T03:48:11.394Z
+Updated: 2026-07-02T03:57:36.426Z
 
 ## Summary
 - Total tracked picks: 8
@@ -48,7 +48,7 @@ Updated: 2026-07-02T03:48:11.394Z
 | Unknown gate | 8 | 4 | 75.0% | 0.8 pts | 0.217 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T03:48:10.487Z
+- Saved: 2026-07-02T03:57:35.529Z
 - Current candidates: 65
 - Passed / blocked: 0 / 65
 
@@ -67,15 +67,15 @@ Updated: 2026-07-02T03:48:11.394Z
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Bosnia & Herzegovina | USA vs Bosnia & Herzegovina | Game too stale/live | +50000 | 1.9% | $839.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | USA vs Bosnia & Herzegovina | Game too stale/live | +6000 | 9.7% | $489.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +5000 | 11.2% | $472.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Kansas City Royals vs Tampa Bay Rays | Game too stale/live | +2800 | 14.8% | $330.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +5000 | 11.2% | $473.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Kansas City Royals vs Tampa Bay Rays | Game too stale/live | +2800 | 15.2% | $339.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Houston Astros | Houston Astros vs Minnesota Twins | Game too stale/live | +600 | 19.1% | $33.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | USA | USA vs Bosnia & Herzegovina | Game too stale/live | -325 | 88.5% | $15.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Paraguay | Paraguay vs France | Game too stale/live | +1800 | 5.7% | $7.63 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Austria | Spain vs Austria | Game too stale/live | +1000 | 9.7% | $6.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Los Angeles Dodgers | Game too stale/live | +150 | 42.3% | $5.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Canada | Canada vs Morocco | Game too stale/live | +450 | 19.2% | $5.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +705 | 13.1% | $5.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Los Angeles Dodgers | Game too stale/live | +150 | 42.0% | $4.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +1900 | 5.2% | $4.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
