@@ -1,15 +1,10 @@
 # Auto Grading - 2026-07-02
 
-Generated: 2026-07-02T04:22:20.448Z
-Data snapshot: 2026-07-02T04:22:11.926Z
+Generated: 2026-07-02T07:40:58.329Z
+Data snapshot: 2026-07-02T04:27:41.310Z
 
 ## Newly Graded
-| Sport | Match | Pick | Result | Score | Score ID |
-|---|---|---|---:|---|---|
-| MLB | Milwaukee Brewers vs Cincinnati Reds | Cincinnati Reds | loss | Milwaukee Brewers 4, Cincinnati Reds 2 | 155102fc6ca2d46399a620f515ffe2b3 |
-| MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | Milwaukee Brewers 4, Cincinnati Reds 2 | 155102fc6ca2d46399a620f515ffe2b3 |
-| MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | Houston Astros 3, Minnesota Twins 8 | c771b9e374413d651231684704a5bbfe |
-| MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | Houston Astros 3, Minnesota Twins 8 | c771b9e374413d651231684704a5bbfe |
+_No newly graded picks._
 
 ## Still Pending
 - Soccer / Brazil vs Norway / Norway (2026-07-05T20:00:00Z)
