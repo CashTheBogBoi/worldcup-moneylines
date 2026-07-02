@@ -17,6 +17,7 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 ## Backtests
 
 - [[Backtest Data Inventory]]
+- [[Backtest Model Comparison - 2026-07-01]]
 - [[World Cup Historical Backtest]]
 - [[World Cup Backtest Miss Patterns]]
 - [[MLB Statcast Postseason Backtest]]

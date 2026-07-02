@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-01
 
-Generated: 2026-07-02T00:33:02.483Z
+Generated: 2026-07-02T00:50:23.692Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,8 +21,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Market move** — Tampa Bay Rays at Kansas City Royals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Minnesota Twins at Houston Astros: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Cincinnati Reds at Milwaukee Brewers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Miami Marlins at Colorado Rockies: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Starters** — Los Angeles Dodgers at Athletics: Official starter is still TBD (TBD vs J.T. Ginn). Block Bankroll Watch promotion until both starters are confirmed.
-- **Medium MLB Market move** — Miami Marlins at Colorado Rockies: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 - **Medium Soccer Market move** — Austria at Spain: Spain is priced at -300. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — Algeria at Switzerland: Draw price is +230, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Egypt at Australia: Draw price is +190, which is short enough to demand draw-risk review before backing either side.
@@ -41,10 +41,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | New York Mets at Toronto Blue Jays | Final | Freddy Peralta | Braydon Fisher | 3-9 |
 | Pittsburgh Pirates at Philadelphia Phillies | In Progress | Paul Skenes | Zack Wheeler | 4-8 |
 | St. Louis Cardinals at Atlanta Braves | In Progress | Michael McGreevy | Reynaldo López | 1-2 |
-| Tampa Bay Rays at Kansas City Royals | In Progress | Shane McClanahan | Seth Lugo | 2-0 |
-| Minnesota Twins at Houston Astros | In Progress | Taj Bradley | Tatsuya Imai | 2-0 |
-| Cincinnati Reds at Milwaukee Brewers | In Progress | Andrew Abbott | Shane Drohan | 0-2 |
-| Miami Marlins at Colorado Rockies | Warmup | Max Meyer | Kyle Freeland | 0-0 |
+| Tampa Bay Rays at Kansas City Royals | In Progress | Shane McClanahan | Seth Lugo | 3-0 |
+| Minnesota Twins at Houston Astros | In Progress | Taj Bradley | Tatsuya Imai | 5-1 |
+| Cincinnati Reds at Milwaukee Brewers | In Progress | Andrew Abbott | Shane Drohan | 2-2 |
+| Miami Marlins at Colorado Rockies | In Progress | Max Meyer | Kyle Freeland | 0-0 |
 | Los Angeles Dodgers at Athletics | Pre-Game | TBD | J.T. Ginn | 0-0 |
 | San Francisco Giants at Arizona Diamondbacks | Pre-Game | Trevor McDonald | Zac Gallen | 0-0 |
 
@@ -52,12 +52,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | Philadelphia Phillies -2800, Pittsburgh Pirates +910 |
-| St. Louis Cardinals at Atlanta Braves | 2026-07-01T23:16:00Z | Atlanta Braves -362, St. Louis Cardinals +256 |
-| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +328, Tampa Bay Rays -489 |
-| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +302, Milwaukee Brewers -441 |
-| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros -124, Minnesota Twins -105 |
-| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies +119, Miami Marlins -144 |
+| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | Philadelphia Phillies -5300, Pittsburgh Pirates +1100 |
+| St. Louis Cardinals at Atlanta Braves | 2026-07-01T23:16:00Z | Atlanta Braves -740, St. Louis Cardinals +446 |
+| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +438, Tampa Bay Rays -720 |
+| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +160, Milwaukee Brewers -212 |
+| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros +368, Minnesota Twins -569 |
+| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies +113, Miami Marlins -148 |
 | San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks -137, San Francisco Giants +114 |
 | Los Angeles Dodgers at Athletics | 2026-07-02T01:41:00Z | Athletics +135, Los Angeles Dodgers -163 |
 | Pittsburgh Pirates at Philadelphia Phillies | 2026-07-02T16:36:00Z | Philadelphia Phillies -131, Pittsburgh Pirates +109 |
@@ -73,7 +73,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Bosnia & Herzegovina at USA | 2026-07-02T00:00:00Z | Bosnia & Herzegovina +650, USA -175, Draw +250 |
+| Bosnia & Herzegovina at USA | 2026-07-02T00:00:00Z | Bosnia & Herzegovina +3500, USA -1000, Draw +700 |
 | Austria at Spain | 2026-07-02T19:00:00Z | Austria +850, Spain -300, Draw +425 |
 | Croatia at Portugal | 2026-07-02T23:00:00Z | Croatia +400, Portugal -130, Draw +270 |
 | Algeria at Switzerland | 2026-07-03T03:00:00Z | Algeria +300, Switzerland +105, Draw +230 |

@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-07-02T00:50:26.012Z",
+  "sources": {
+    "worldCup": "/Users/cashmcdearis/Downloads/WorldCupMatches.csv",
+    "mlb": "/Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
+    "mlbGameInfo": "/Users/cashmcdearis/Downloads/MLB2020-2024GameInfo.csv"
+  },
+  "soccer": {
+    "oldSoccerUncalibrated": {
+      "evaluated": 852,
+      "correct": 308,
+      "accuracy": 0.3615023474178404,
+      "avgBrier": 0.23468560011921533,
+      "avgConfidence": 0.5719827496966473,
+      "highConfidence": {
+        "evaluated": 339,
+        "correct": 142,
+        "accuracy": 0.41887905604719766,
+        "avgBrier": 0.24283267008640044
+      },
+      "probabilityKey": null
+    },
+    "currentSoccerDrawCalibrated": {
+      "evaluated": 852,
+      "correct": 436,
+      "accuracy": 0.5117370892018779,
+      "avgBrier": 0.20493353625719646,
+      "avgConfidence": 0.48516386425601987,
+      "highConfidence": {
+        "evaluated": 112,
+        "correct": 78,
+        "accuracy": 0.6964285714285714,
+        "avgBrier": 0.15646666987201832
+      },
+      "probabilityKey": null
+    }
+  },
+  "mlb": {
+    "oldMlbUncompressedNoAfterLoss": {
+      "evaluated": 47,
+      "correct": 22,
+      "accuracy": 0.46808510638297873,
+      "avgBrier": 0.29595565414242114,
+      "avgConfidence": 0.6516982988351696,
+      "highConfidence": {
+        "evaluated": 24,
+        "correct": 12,
+        "accuracy": 0.5,
+        "avgBrier": 0.32781917609659944
+      },
+      "probabilityKey": null
+    },
+    "currentMlbCompressedAfterLoss": {
+      "evaluated": 47,
+      "correct": 22,
+      "accuracy": 0.46808510638297873,
+      "avgBrier": 0.2757193018857185,
+      "avgConfidence": 0.6104457108949303,
+      "highConfidence": {
+        "evaluated": 24,
+        "correct": 12,
+        "accuracy": 0.5,
+        "avgBrier": 0.2920951875473305
+      },
+      "probabilityKey": null
+    }
+  },
+  "mlbGameInfo": {
+    "oldMlbGameInfoTeamOnly": {
+      "evaluated": 10616,
+      "correct": 5976,
+      "accuracy": 0.5629238884702336,
+      "avgBrier": 0.2443863805409591,
+      "avgConfidence": 0.5695206591508946,
+      "highConfidence": {
+        "evaluated": 2657,
+        "correct": 1642,
+        "accuracy": 0.6179902145276628,
+        "avgBrier": 0.23546164498297104
+      },
+      "probabilityKey": null
+    },
+    "currentMlbGameInfoCompressedStarterIntel": {
+      "evaluated": 10616,
+      "correct": 6015,
+      "accuracy": 0.5665975885455916,
+      "avgBrier": 0.243830636113118,
+      "avgConfidence": 0.5591928566874685,
+      "highConfidence": {
+        "evaluated": 1852,
+        "correct": 1190,
+        "accuracy": 0.642548596112311,
+        "avgBrier": 0.22966646082716663
+      },
+      "probabilityKey": null
+    }
+  },
+  "deltas": {
+    "soccer": {
+      "accuracy": 0.1502347417840375,
+      "brier": -0.029752063862018868,
+      "confidence": -0.08681888544062744
+    },
+    "mlb": {
+      "accuracy": 0,
+      "brier": -0.020236352256702617,
+      "confidence": -0.04125258794023934
+    },
+    "mlbGameInfo": {
+      "accuracy": 0.003673700075358055,
+      "brier": -0.0005557444278410928,
+      "confidence": -0.010327802463426017
+    }
+  }
+}
