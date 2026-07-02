@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T13:17:21.221Z
+Updated: 2026-07-02T14:07:41.231Z
 
 ## Summary
 - Total tracked picks: 25
@@ -65,31 +65,31 @@ Updated: 2026-07-02T13:17:21.221Z
 | Unknown gate | 25 | 10 | 60.0% | 1.8 pts | 0.180 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T13:17:20.001Z
+- Saved: 2026-07-02T14:07:40.258Z
 - Current candidates: 51
-- Passed / blocked: 1 / 50
+- Passed / blocked: 0 / 51
 
 ### Top Blockers
-- Minimum edge: 49
+- Model ready: 51
+- Pregame: 51
+- Minimum edge: 50
+- Positive EV: 41
 - Beats consensus: 40
-- Positive EV: 40
 - Model opinion: 27
-- Model ready: 18
-- Pregame: 18
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1130 | 9.1% | $11.75 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Austria | Spain vs Austria | Game too stale/live | +1130 | 9.1% | $11.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Los Angeles Angels | Seattle Mariners vs Los Angeles Angels | Game too stale/live | +196 | 36.0% | $6.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.6% | $5.72 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Ghana | Colombia vs Ghana | Market-only, needs model input | +705 | 13.0% | $4.98 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +1900 | 5.2% | $3.71 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Paraguay | Paraguay vs France | Game too stale/live | +1800 | 5.6% | $5.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +705 | 13.0% | $4.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +1900 | 5.2% | $3.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Atlanta Braves | Atlanta Braves vs St. Louis Cardinals | Game too stale/live | -105 | 52.5% | $2.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.4% | $2.06 | Edge under 1.5% — inside vig noise. |
-| Soccer | Croatia | Portugal vs Croatia | Market-only, needs model input | +440 | 18.8% | $1.26 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Algeria | Switzerland vs Algeria | Market-only, needs model input | +335 | 23.1% | $0.45 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Norway | Brazil vs Norway | Market-only, needs model input | +329 | 23.3% | $0.04 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Mexico | Mexico vs England | Game too stale/live | +220 | 31.8% | $1.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Croatia | Portugal vs Croatia | Game too stale/live | +440 | 18.8% | $1.26 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Algeria | Switzerland vs Algeria | Game too stale/live | +335 | 23.1% | $0.45 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Brazil vs Norway | Game too stale/live | +329 | 23.3% | $0.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
