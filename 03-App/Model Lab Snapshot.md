@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T02:07:47.337Z
+Updated: 2026-07-02T02:12:15.464Z
 
 ## Summary
 - Total tracked picks: 8
@@ -46,6 +46,36 @@ Updated: 2026-07-02T02:07:47.337Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 8 | 4 | 75.0% | 0.8 pts | 0.217 | -100.0% |
+
+## Blocked Pick Watchlist
+- Saved: 2026-07-02T02:12:14.609Z
+- Current candidates: 65
+- Passed / blocked: 1 / 64
+
+### Top Blockers
+- Positive edge: 45
+- Positive EV: 45
+- Model opinion: 30
+- Intel clear: 24
+- Model ready: 23
+- Pregame: 17
+- DraftKings line: 8
+
+### Research Actions
+| Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
+|---|---|---|---|---:|---:|---:|---|
+| Soccer | Bosnia & Herzegovina | USA vs Bosnia & Herzegovina | Game too stale/live | +50000 | 1.9% | $839.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | USA vs Bosnia & Herzegovina | Game too stale/live | +6000 | 9.7% | $489.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +5000 | 10.8% | $450.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Kansas City Royals vs Tampa Bay Rays | Game too stale/live | +2800 | 14.5% | $320.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Houston Astros vs Minnesota Twins | Game too stale/live | +600 | 18.7% | $30.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | USA | USA vs Bosnia & Herzegovina | Game too stale/live | -325 | 88.5% | $15.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.7% | $7.63 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1000 | 9.7% | $6.99 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | Athletics | Athletics vs Los Angeles Dodgers | Game too stale/live | +150 | 42.3% | $5.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Canada | Canada vs Morocco | Market-only, needs model input | +450 | 19.2% | $5.49 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Ghana | Colombia vs Ghana | Market-only, needs model input | +705 | 13.1% | $5.15 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +1900 | 5.2% | $4.82 | Add team ratings/research prior or wait for the model to load enough context. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
