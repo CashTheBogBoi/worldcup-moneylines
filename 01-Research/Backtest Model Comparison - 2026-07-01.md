@@ -1,6 +1,6 @@
 # Backtest Model Comparison - 2026-07-01
 
-Generated: 2026-07-02T04:09:02.920Z
+Generated: 2026-07-02T04:33:21.707Z
 
 This compares the current model logic against older model variants on the same historical
 datasets. It does not use live odds, so it measures prediction accuracy and calibration, not
