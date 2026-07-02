@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T18:13:49.016Z
+Updated: 2026-07-02T18:33:50.044Z
 
 ## Summary
 - Total tracked picks: 26
@@ -67,30 +67,30 @@ Updated: 2026-07-02T18:13:49.016Z
 | Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T18:13:48.044Z
+- Saved: 2026-07-02T18:33:49.080Z
 - Current candidates: 63
-- Passed / blocked: 13 / 50
+- Passed / blocked: 11 / 52
 
 ### Top Blockers
-- Minimum edge: 47
-- Positive EV: 42
+- Minimum edge: 49
+- Positive EV: 44
 - Beats consensus: 34
-- Model ready: 16
+- Model ready: 30
+- Pregame: 30
 - DraftKings line: 12
-- Pregame: 4
 - Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +235 | 35.6% | $19.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -112 | 56.8% | $7.57 | Confirm probable starters or use the manual starter override. |
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2000 | 5.1% | $6.08 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | Los Angeles Angels | Seattle Mariners vs Los Angeles Angels | Game too stale/live | +192 | 36.0% | $5.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +750 | 12.2% | $3.88 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Needs starter | -113 | 54.6% | $2.92 | Confirm probable starters or use the manual starter override. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -112 | 54.9% | $3.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.6% | $2.34 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Needs starter | +102 | 49.7% | $0.31 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Needs starter | +113 | 47.0% | $0.06 | Confirm probable starters or use the manual starter override. |
+| MLB | Atlanta Braves | Atlanta Braves vs St. Louis Cardinals | Game too stale/live | -108 | 53.0% | $2.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | -113 | 53.4% | $0.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
