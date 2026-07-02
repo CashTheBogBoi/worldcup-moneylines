@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-01
 
-Generated: 2026-07-02T01:36:50.426Z
+Generated: 2026-07-02T01:56:20.120Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -17,12 +17,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Pittsburgh Pirates at Philadelphia Phillies: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — St. Louis Cardinals at Atlanta Braves: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Tampa Bay Rays at Kansas City Royals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Tampa Bay Rays at Kansas City Royals: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Minnesota Twins at Houston Astros: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Cincinnati Reds at Milwaukee Brewers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Miami Marlins at Colorado Rockies: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Starters** — Los Angeles Dodgers at Athletics: Official starter is still TBD (TBD vs J.T. Ginn). Block Bankroll Watch promotion until both starters are confirmed.
+- **High MLB Market move** — Los Angeles Dodgers at Athletics: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — San Francisco Giants at Arizona Diamondbacks: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Austria at Spain: Spain is priced at -300. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — Algeria at Switzerland: Draw price is +230, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Egypt at Australia: Draw price is +190, which is short enough to demand draw-risk review before backing either side.
@@ -39,27 +39,26 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Detroit Tigers at New York Yankees | Final | Troy Melton | Will Warren | 6-2 |
 | San Diego Padres at Chicago Cubs | Final | Walker Buehler | Colin Rea | 3-23 |
 | New York Mets at Toronto Blue Jays | Final | Freddy Peralta | Braydon Fisher | 3-9 |
-| Pittsburgh Pirates at Philadelphia Phillies | In Progress | Paul Skenes | Zack Wheeler | 6-8 |
-| St. Louis Cardinals at Atlanta Braves | Game Over | Michael McGreevy | Reynaldo López | 1-5 |
-| Tampa Bay Rays at Kansas City Royals | In Progress | Shane McClanahan | Seth Lugo | 4-0 |
+| Pittsburgh Pirates at Philadelphia Phillies | In Progress | Paul Skenes | Zack Wheeler | 6-10 |
+| St. Louis Cardinals at Atlanta Braves | Final | Michael McGreevy | Reynaldo López | 1-5 |
+| Tampa Bay Rays at Kansas City Royals | Game Over | Shane McClanahan | Seth Lugo | 4-0 |
 | Minnesota Twins at Houston Astros | In Progress | Taj Bradley | Tatsuya Imai | 5-1 |
 | Cincinnati Reds at Milwaukee Brewers | In Progress | Andrew Abbott | Shane Drohan | 2-2 |
 | Miami Marlins at Colorado Rockies | In Progress | Max Meyer | Kyle Freeland | 2-1 |
-| Los Angeles Dodgers at Athletics | Warmup | TBD | J.T. Ginn | 0-0 |
-| San Francisco Giants at Arizona Diamondbacks | Warmup | Trevor McDonald | Zac Gallen | 0-0 |
+| Los Angeles Dodgers at Athletics | In Progress | TBD | J.T. Ginn | 0-0 |
+| San Francisco Giants at Arizona Diamondbacks | In Progress | Trevor McDonald | Zac Gallen | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | Philadelphia Phillies -1300, Pittsburgh Pirates +630 |
-| St. Louis Cardinals at Atlanta Braves | 2026-07-01T23:16:00Z | none |
-| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +1040, Tampa Bay Rays -4300 |
-| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +159, Milwaukee Brewers -211 |
-| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros +513, Minnesota Twins -910 |
-| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies +189, Miami Marlins -255 |
-| San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks -137, San Francisco Giants +114 |
-| Los Angeles Dodgers at Athletics | 2026-07-02T01:41:00Z | Athletics +135, Los Angeles Dodgers -163 |
+| Pittsburgh Pirates at Philadelphia Phillies | 2026-07-01T22:41:00Z | none |
+| Tampa Bay Rays at Kansas City Royals | 2026-07-01T23:41:00Z | Kansas City Royals +720, Tampa Bay Rays -1660 |
+| Cincinnati Reds at Milwaukee Brewers | 2026-07-02T00:11:00Z | Cincinnati Reds +164, Milwaukee Brewers -218 |
+| Minnesota Twins at Houston Astros | 2026-07-02T00:11:00Z | Houston Astros +495, Minnesota Twins -860 |
+| Miami Marlins at Colorado Rockies | 2026-07-02T00:41:00Z | Colorado Rockies +137, Miami Marlins -180 |
+| San Francisco Giants at Arizona Diamondbacks | 2026-07-02T01:41:00Z | Arizona Diamondbacks -147, San Francisco Giants +113 |
+| Los Angeles Dodgers at Athletics | 2026-07-02T01:41:00Z | Athletics +128, Los Angeles Dodgers -167 |
 | Pittsburgh Pirates at Philadelphia Phillies | 2026-07-02T16:36:00Z | Philadelphia Phillies -131, Pittsburgh Pirates +109 |
 | Cincinnati Reds at Milwaukee Brewers | 2026-07-02T18:11:00Z | Cincinnati Reds +163, Milwaukee Brewers -199 |
 | Miami Marlins at Colorado Rockies | 2026-07-02T19:11:00Z | none |
@@ -68,13 +67,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Tampa Bay Rays at Kansas City Royals | 2026-07-02T23:41:00Z | none |
 | Detroit Tigers at Texas Rangers | 2026-07-03T00:06:00Z | Detroit Tigers +109, Texas Rangers -131 |
 | Los Angeles Angels at Seattle Mariners | 2026-07-03T01:41:00Z | Los Angeles Angels +169, Seattle Mariners -207 |
-| San Diego Padres at Los Angeles Dodgers | 2026-07-03T02:11:00Z | none |
+| San Diego Padres at Los Angeles Dodgers | 2026-07-03T02:11:00Z | Los Angeles Dodgers -198, San Diego Padres +162 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Bosnia & Herzegovina at USA | 2026-07-02T00:00:00Z | Bosnia & Herzegovina +1500, USA -290, Draw +295 |
+| Bosnia & Herzegovina at USA | 2026-07-02T00:00:00Z | Bosnia & Herzegovina +2800, USA -500, Draw +425 |
 | Austria at Spain | 2026-07-02T19:00:00Z | Austria +850, Spain -300, Draw +425 |
 | Croatia at Portugal | 2026-07-02T23:00:00Z | Croatia +400, Portugal -130, Draw +270 |
 | Algeria at Switzerland | 2026-07-03T03:00:00Z | Algeria +300, Switzerland +105, Draw +230 |
@@ -84,7 +83,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Morocco at Canada | 2026-07-04T17:00:00Z | Canada +390, Morocco -120, Draw +250 |
 | France at Paraguay | 2026-07-04T21:00:00Z | France -575, Paraguay +1800, Draw +600 |
 | Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -110, Norway +300, Draw +270 |
-| England at Mexico | 2026-07-06T00:00:00Z | England +135, Mexico +230, Draw +220 |
+| England at Mexico | 2026-07-06T00:00:00Z | England +140, Mexico +220, Draw +220 |
 
 ## Files written
 
