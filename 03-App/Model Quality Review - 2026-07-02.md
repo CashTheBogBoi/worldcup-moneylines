@@ -1,29 +1,29 @@
 # Model Quality Review - 2026-07-02
 
-Generated: 2026-07-02T04:24:43.566Z
+Generated: 2026-07-02T15:40:30.878Z
 
 ## Executive Read
 - Reviewed picks: 20
 - Settled: 5
 - Win rate: 60.0% (n=5, noise)
 - Excluded from calibration (market-only / post-start / contaminated): 17
-- Average CLV: 0.1 pts
+- Average CLV: 0.6 pts
 - Average Brier (blend): -
 - Model-only vs market Brier: - vs - (model must be LOWER to earn blend weight)
 - High-confidence misses: 0
-- Latest data snapshot: 2026-07-02T04:22:11.926Z
+- Latest data snapshot: 2026-07-02T15:39:51.466Z
 
 ## Sport Quality
 | Sport | Picks | Settled | Win % | Avg CLV | Brier |
 | --- | --- | --- | --- | --- | --- |
-| Soccer | 14 | 0 | - | 0.1 pts | - |
-| MLB | 6 | 5 | 60.0% (n=5, noise) | 0.0 pts | - |
+| Soccer | 14 | 0 | - | 0.6 pts | - |
+| MLB | 6 | 5 | 60.0% (n=5, noise) | 0.6 pts | - |
 
 ## Confidence Buckets
 | Bucket | Picks | Settled | Win % | Avg CLV | Brier |
 | --- | --- | --- | --- | --- | --- |
-| Under 55% | 17 | 3 | 33.3% (n=3, noise) | 0.1 pts | - |
-| 55-60% | 1 | 0 | - | 0.0 pts | - |
+| Under 55% | 17 | 3 | 33.3% (n=3, noise) | 0.6 pts | - |
+| 55-60% | 1 | 0 | - | 0.6 pts | - |
 | 70%+ | 1 | 1 | 100.0% (n=1, noise) | - | - |
 | 60-65% | 1 | 1 | 100.0% (n=1, noise) | - | - |
 

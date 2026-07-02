@@ -1,5 +1,13 @@
 # MLB After Loss Trend Prior
 
+**DEPRECATED as a model input (2026-07-01).** [[Algorithm Audit - 2026-07-01]] (finding F9)
+found the fitted `afterLossScale` never moved meaningfully off its hand-set prior on any
+dataset tried (postseason 47-game fit or the 10,616-game 2020-2024 refit) — i.e., the data
+found no independent bounce-back effect beyond what team quality (already priced by the
+strength terms) explains. The term has been removed from `mlbModel()`. This note and the
+TeamRankings table stay on the MLB tab as manual research context only — the mechanics below
+describe the retired implementation.
+
 Source:
 
 [TeamRankings MLB After A Loss](https://www.teamrankings.com/mlb/trend/win_trends/is_after_loss?range=yearly_mlb_since_2022)

@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "morning-2026-07-02T15:39:51.228Z",
+    "phase": "morning",
+    "phaseLabel": "Morning slate",
+    "status": "success",
+    "startedAt": "2026-07-02T15:39:51.228Z",
+    "finishedAt": "2026-07-02T15:40:11.994Z",
+    "durationMs": 20766,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:morning",
+        "startedAt": "2026-07-02T15:39:51.228Z",
+        "finishedAt": "2026-07-02T15:39:53.474Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "Updated local data for 2026-07-02",
+          "Wrote data/daily/2026-07-02/latest.json",
+          "Wrote public/data/latest.json",
+          "Wrote 02-Markets/Daily Data Refresh - 2026-07-02.md",
+          "",
+          "> worldcup-moneylines@0.1.0 grade:picks",
+          "> node scripts/grade-finished-picks.mjs",
+          "",
+          "Auto-graded 0 picks.",
+          "Still pending with no final score: 15.",
+          "Wrote 03-App/model-training-state.json",
+          "Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-02.md",
+          "",
+          "> worldcup-moneylines@0.1.0 sync:firebase",
+          "> node scripts/sync-firestore.mjs",
+          "",
+          "Synced Firestore collection: sports-edge-lab",
+          "model-training-state savedAt: 2026-07-02T15:39:51.808Z counts {\"pending\":15,\"win\":6,\"loss\":4}",
+          "stats-history updatedAt: 2026-07-02T15:39:18.363Z",
+          "Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-02 morning.md"
+        ]
+      },
+      {
+        "name": "deploy",
+        "command": "npm run deploy:firebase",
+        "startedAt": "2026-07-02T15:39:53.474Z",
+        "finishedAt": "2026-07-02T15:40:11.994Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "",
+          "i  deploying hosting",
+          "i  hosting[sportsedge-a58e7]: beginning deploy...",
+          "i  hosting[sportsedge-a58e7]: found 10 files in dist",
+          "i  hosting: adding files to version [0/10] (0%)",
+          "i  hosting: upload complete",
+          "✔  hosting[sportsedge-a58e7]: file upload complete",
+          "i  hosting[sportsedge-a58e7]: finalizing version...",
+          "✔  hosting[sportsedge-a58e7]: version finalized",
+          "i  hosting[sportsedge-a58e7]: releasing new version...",
+          "",
+          "Error: Request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sportsedge-a58e7/channels/live/releases?versionName=projects%2F25285951798%2Fsites%2Fsportsedge-a58e7%2Fversions%2F287ec5afcf06b27e had HTTP Error: 400, Can't release to `projects/-/sites/sportsedge-a58e7/channels/live`: supplied version `projects/25285951798/sites/sportsedge-a58e7/versions/287ec5afcf06b27e` is the current active version.",
+          "Verified latest Firebase Hosting build at https://sportsedge-a58e7.web.app",
+          "Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-02 1140.md",
+          "[plugin builtin:vite-reporter] ",
+          "(!) Some chunks are larger than 500 kB after minification. Consider:",
+          "- Using dynamic import() to code-split the application",
+          "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
+          "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.",
+          "[firebase deploy] Release retry reported the finalized version is already active. Verifying hosted assets before treating this as success."
+        ]
+      }
+    ],
+    "failedStep": null,
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-02.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-02 morning.md",
+      "dailyReview": null,
+      "modelQuality": null,
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-02 1140.md"
+    }
+  }
+]
