@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T02:02:29.041Z
+Updated: 2026-07-02T02:06:48.029Z
 
 ## Summary
 - Total tracked picks: 8
@@ -41,6 +41,11 @@ Updated: 2026-07-02T02:02:29.041Z
 | auto-mlb-started-824094 | confirmed | 2026-07-02T01:49:57.982Z |  |
 | auto-mlb-started-823446 | confirmed | 2026-07-02T01:49:52.547Z |  |
 | auto-mlb-started-824905 | confirmed | 2026-07-02T01:49:24.195Z |  |
+
+## Gate Review
+| Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
+|---|---:|---:|---:|---:|---:|---:|
+| Unknown gate | 8 | 4 | 75.0% | 0.8 pts | 0.217 | -100.0% |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
