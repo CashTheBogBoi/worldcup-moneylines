@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T03:59:48.719Z",
+  "generatedAt": "2026-07-02T04:09:02.920Z",
   "sources": {
     "worldCup": "/Users/cashmcdearis/Downloads/WorldCupMatches.csv",
     "mlb": "/Users/cashmcdearis/Downloads/Data_MLB_2025_StatcastPostseason_PitchByPitch_20251102a.csv",
@@ -96,15 +96,15 @@
     },
     "v2MlbGameInfoFittedLogistic": {
       "evaluated": 10616,
-      "correct": 5942,
-      "accuracy": 0.5597211755840241,
-      "avgBrier": 0.24406461229725604,
-      "avgConfidence": 0.5622440708198687,
+      "correct": 5944,
+      "accuracy": 0.5599095704596835,
+      "avgBrier": 0.24406566167879848,
+      "avgConfidence": 0.5622732982513474,
       "highConfidence": {
-        "evaluated": 2153,
-        "correct": 1371,
-        "accuracy": 0.6367858801672085,
-        "avgBrier": 0.2310318357438543
+        "evaluated": 2155,
+        "correct": 1373,
+        "accuracy": 0.637122969837587,
+        "avgBrier": 0.23096106505562988
       },
       "probabilityKey": null
     },
@@ -145,19 +145,19 @@
       },
       "bucketBy_v2MlbGameInfoFittedLogistic": {
         "oldMlbGameInfoTeamOnly": {
-          "games": 2153,
-          "correct": 1371,
-          "accuracy": 0.6367858801672085
+          "games": 2155,
+          "correct": 1373,
+          "accuracy": 0.637122969837587
         },
         "currentMlbGameInfoCompressedStarterIntel": {
-          "games": 2153,
-          "correct": 1371,
-          "accuracy": 0.6367858801672085
+          "games": 2155,
+          "correct": 1373,
+          "accuracy": 0.637122969837587
         },
         "v2MlbGameInfoFittedLogistic": {
-          "games": 2153,
-          "correct": 1371,
-          "accuracy": 0.6367858801672085
+          "games": 2155,
+          "correct": 1373,
+          "accuracy": 0.637122969837587
         }
       }
     }
@@ -179,9 +179,9 @@
       "confidence": -0.010327802463426017
     },
     "mlbGameInfoV2": {
-      "accuracy": -0.0032027128862094356,
-      "brier": -0.0003217682437030578,
-      "confidence": -0.007276588331025846
+      "accuracy": -0.0030143180105500766,
+      "brier": -0.0003207188621606183,
+      "confidence": -0.0072473608995471395
     }
   }
 }

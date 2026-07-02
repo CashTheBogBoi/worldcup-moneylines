@@ -1,6 +1,6 @@
 # Backtest Model Comparison - 2026-07-01
 
-Generated: 2026-07-02T03:59:48.719Z
+Generated: 2026-07-02T04:09:02.920Z
 
 This compares the current model logic against older model variants on the same historical
 datasets. It does not use live odds, so it measures prediction accuracy and calibration, not
@@ -30,11 +30,11 @@ Delta: accuracy +0.0%, Brier -0.020.
 |---|---:|---:|---:|---:|---:|
 | Old: rolling team form only, uncompressed | 56.3% | 5976/10616 | 0.244 | 57.0% | 61.8% |
 | v1: compressed + after-loss + starter-history prior | 56.7% | 6015/10616 | 0.244 | 55.9% | 64.3% |
-| v2 (live): fitted decomposed logistic, no stacked shrinks | 56.0% | 5942/10616 | 0.244 | 56.2% | 63.7% |
+| v2 (live): fitted decomposed logistic, no stacked shrinks | 56.0% | 5944/10616 | 0.244 | 56.2% | 63.7% |
 
 Delta (v2 vs old): accuracy -0.3%, Brier -0.000.
 
-Matched-bucket high confidence (same games for every model, bucketed by v2 ≥60% confidence): oldMlbGameInfoTeamOnly 63.7% (1371/2153) · currentMlbGameInfoCompressedStarterIntel 63.7% (1371/2153) · v2MlbGameInfoFittedLogistic 63.7% (1371/2153)
+Matched-bucket high confidence (same games for every model, bucketed by v2 ≥60% confidence): oldMlbGameInfoTeamOnly 63.7% (1373/2155) · currentMlbGameInfoCompressedStarterIntel 63.7% (1373/2155) · v2MlbGameInfoFittedLogistic 63.7% (1373/2155)
 
 ## Read
 
