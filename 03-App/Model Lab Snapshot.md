@@ -1,20 +1,21 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T15:42:51.565Z
+Updated: 2026-07-02T15:51:20.799Z
 
 ## Summary
-- Total tracked picks: 25
-- Pending: 15
+- Total tracked picks: 26
+- Pending: 16
 - Graded: 10
-- Wins: 6
+- Wins: 5
 - Losses: 4
-- Draws: 0
+- Draws: 1
 - Intel review decisions saved: 14
 - Intel confirmed / denied / pending: 13 / 1 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | - | - | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +340 | -0.5 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | pending | +415 | +460 | -1.6 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +155 | 0.0 pts | 38.3% | Odds API no-vig only |
@@ -37,7 +38,7 @@ Updated: 2026-07-02T15:42:51.565Z
 | Soccer | Portugal vs Croatia | Portugal | pending | -125 | -136 | 2.1 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -125 | 1.0 pts | 52.8% | Odds API no-vig only |
 | MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
-| Soccer | Belgium vs Senegal | Belgium | win | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
+| Soccer | Belgium vs Senegal | Belgium | draw | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
 | Soccer | Mexico vs Ecuador | Mexico | win | +125 | +136 | -2.1 pts | 44.4% | 41% strength model + 59% market no-vig |
 | Unknown | France vs Sweden | France | win | -185 | -210 | 2.8 pts | 68.2% | Odds API no-vig |
 
@@ -62,10 +63,11 @@ Updated: 2026-07-02T15:42:51.565Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 25 | 10 | 60.0% | 1.8 pts | 0.180 | -100.0% |
+| Unknown gate | 25 | 10 | 50.0% | 1.8 pts | 0.178 | -100.0% |
+| Passed gate | 1 | 0 | 0.0% | - | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T15:42:50.746Z
+- Saved: 2026-07-02T15:51:19.981Z
 - Current candidates: 51
 - Passed / blocked: 3 / 48
 

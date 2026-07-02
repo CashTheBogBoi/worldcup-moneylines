@@ -113,3 +113,16 @@ Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-02 1140.md
 - com.sportsedgelab.watchdog: every 15 min -> npm run scheduler:watchdog
 - Project: /Users/cashmcdearis/Documents/worldcup-moneylines
 - Log: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/scheduler.log
+
+[2026-07-02T15:48:58.666Z] Installed Sports Edge Lab scheduler
+- com.sportsedgelab.morning: 8:30 AM ET-ish local launchd time -> npm run schedule:morning
+- com.sportsedgelab.pregame: 12:30 PM ET-ish local launchd time -> npm run schedule:pregame
+- com.sportsedgelab.wave: 5:30 PM ET-ish local launchd time -> npm run schedule:wave
+- com.sportsedgelab.nightly: 11:45 PM ET-ish local launchd time -> npm run schedule:nightly
+- com.sportsedgelab.watchdog: every 15 min -> npm run scheduler:watchdog
+- Project: /Users/cashmcdearis/Documents/worldcup-moneylines
+- Log: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/scheduler.log
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
