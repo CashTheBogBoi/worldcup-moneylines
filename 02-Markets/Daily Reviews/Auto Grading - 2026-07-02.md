@@ -1,0 +1,30 @@
+# Auto Grading - 2026-07-02
+
+Generated: 2026-07-02T04:22:20.448Z
+Data snapshot: 2026-07-02T04:22:11.926Z
+
+## Newly Graded
+| Sport | Match | Pick | Result | Score | Score ID |
+|---|---|---|---:|---|---|
+| MLB | Milwaukee Brewers vs Cincinnati Reds | Cincinnati Reds | loss | Milwaukee Brewers 4, Cincinnati Reds 2 | 155102fc6ca2d46399a620f515ffe2b3 |
+| MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | Milwaukee Brewers 4, Cincinnati Reds 2 | 155102fc6ca2d46399a620f515ffe2b3 |
+| MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | Houston Astros 3, Minnesota Twins 8 | c771b9e374413d651231684704a5bbfe |
+| MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | Houston Astros 3, Minnesota Twins 8 | c771b9e374413d651231684704a5bbfe |
+
+## Still Pending
+- Soccer / Brazil vs Norway / Norway (2026-07-05T20:00:00Z)
+- Soccer / Portugal vs Croatia / Croatia (2026-07-02T23:00:00Z)
+- Soccer / Australia vs Egypt / Egypt (2026-07-03T18:00:00Z)
+- Soccer / Australia vs Egypt / Draw (2026-07-03T18:00:00Z)
+- Soccer / Argentina vs Cape Verde / Draw (2026-07-03T22:00:00Z)
+- Soccer / Canada vs Morocco / Canada (2026-07-04T17:00:00Z)
+- Soccer / Argentina vs Cape Verde / Cape Verde (2026-07-03T22:00:00Z)
+- Soccer / Colombia vs Ghana / Ghana (2026-07-04T01:30:00Z)
+- Soccer / Spain vs Austria / Austria (2026-07-02T19:00:00Z)
+- Soccer / Paraguay vs France / Paraguay (2026-07-04T21:00:00Z)
+- Soccer / Mexico vs England / Mexico (2026-07-06T00:00:00Z)
+- MLB / Philadelphia Phillies vs Pittsburgh Pirates / Philadelphia Phillies (2026-07-02T16:36:00Z)
+- Soccer / Mexico vs England / England (2026-07-06T00:00:00Z)
+- Soccer / Portugal vs Croatia / Portugal (2026-07-02T23:00:00Z)
+- Soccer / Canada vs Morocco / Morocco (2026-07-04T17:00:00Z)
+

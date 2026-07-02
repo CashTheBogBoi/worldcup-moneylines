@@ -10,6 +10,24 @@ now fit via regularized gradient descent against the historical backtest dataset
 guessed, with a live trust dial that keeps adjusting from graded Model Lab picks. The formulas
 themselves are unchanged — see [[ML Calibration Layer]] for the full methodology and results.
 
+**v2 (2026-07-01, post-audit):** the MLB model was rebuilt after [[Algorithm Audit - 2026-07-01]].
+Headlines — read that note for the full list:
+
+- MLB strength is DECOMPOSED (offense RS/G, defense RA/G, form win%) with coefficients fitted
+  by max-likelihood on the 10,616-game 2020-2024 Retrosheet backtest (not 37 postseason games).
+- Starter xERA coefficient is now FITTED at ~0.033 logit/run, cap ±0.25 (the hand-set 0.35/±0.8
+  was ~10x too big); xERA is PA-shrunk with a prior-year blend before June.
+- The after-loss prior, the stacked 0.78 compression, and the >72%/away-favorite haircuts are
+  REMOVED — the fitted temperature is 1.00 and the holdout reliability table is clean, so they
+  were double-corrections. See [[MLB After Loss Trend Prior]] (deprecated as a model input).
+- New fitted bullpen-fatigue term (last 3 days' pitchers used vs 4.32 baseline, coeff −0.029).
+- Adaptive blend weight is now SKILL-RELATIVE (model-vs-market Brier gap on the same picks),
+  not absolute Brier; picks store model-only and market probabilities for that purpose.
+- Gate: minimum 1.5% edge AND model must beat consensus no-vig (kills one-book phantom edges);
+  MLB stale window 30 min; closing prices freeze at first pitch (CLV is trustworthy again).
+- Optional Pinnacle sharp anchor (`VITE_ODDS_SHARP_REGION=eu`), opening-line capture with a
+  moved-against-you gate warning, lineups-posted warning, extreme-park context note.
+
 ## Scope
 
 The app is now a local sports betting research lab focused on:
