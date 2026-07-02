@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T04:09:04.432Z
+Updated: 2026-07-02T04:12:22.248Z
 
 ## Summary
-- Total tracked picks: 8
-- Pending: 4
-- Graded: 4
-- Wins: 3
-- Losses: 1
+- Total tracked picks: 25
+- Pending: 19
+- Graded: 6
+- Wins: 4
+- Losses: 2
 - Draws: 0
 - Intel review decisions saved: 14
 - Intel confirmed / denied / pending: 13 / 1 / 0
@@ -15,13 +15,30 @@ Updated: 2026-07-02T04:09:04.432Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| Soccer | Brazil vs Norway | Norway | pending | +330 | +330 | 0.0 pts | 23.3% | Odds API no-vig only |
+| Soccer | Portugal vs Croatia | Croatia | pending | +415 | +415 | 0.0 pts | 19.4% | Odds API no-vig only |
+| Soccer | Australia vs Egypt | Egypt | pending | +155 | +155 | 0.0 pts | 38.3% | Odds API no-vig only |
+| Soccer | Australia vs Egypt | Draw | pending | +195 | +195 | 0.0 pts | 33.2% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +700 | 0.0 pts | 12.5% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | pending | +440 | +450 | -0.3 pts | 19.2% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Cape Verde | pending | +1900 | +1900 | 0.0 pts | 5.2% | Odds API no-vig only |
+| Soccer | Colombia vs Ghana | Ghana | pending | +705 | +705 | 0.0 pts | 13.1% | Odds API no-vig only |
+| Soccer | Spain vs Austria | Austria | pending | +1000 | +1000 | 0.0 pts | 9.7% | Odds API no-vig only |
+| Soccer | Paraguay vs France | Paraguay | pending | +1800 | +1800 | 0.0 pts | 5.7% | Odds API no-vig only |
+| Soccer | Mexico vs England | Mexico | pending | +242 | +230 | 1.1 pts | 30.8% | 51% strength model + 49% market no-vig |
+| MLB | Philadelphia Phillies vs Pittsburgh Pirates | Philadelphia Phillies | pending | -122 | -122 | 0.0 pts | 57.1% | 51% strength model + 49% market no-vig |
+| MLB | Atlanta Braves vs St. Louis Cardinals | Atlanta Braves | win | -250 | -500 | 11.9 pts | 71.7% | Odds API no-vig only |
+| MLB | Milwaukee Brewers vs Cincinnati Reds | Cincinnati Reds | pending | +200 | +180 | 2.4 pts | 35.4% | Odds API no-vig only |
+| MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | pending | -151 | -190 | 5.4 pts | 64.6% | Odds API no-vig only |
+| MLB | Houston Astros vs Minnesota Twins | Houston Astros | pending | +135 | +335 | -19.6 pts | 47.3% | Odds API no-vig only |
+| MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | pending | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
+| Soccer | Mexico vs England | England | pending | +143 | +143 | 0.0 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | pending | -125 | -130 | 1.0 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -120 | 0.0 pts | 52.8% | Odds API no-vig only |
-| MLB | Athletics vs Los Angeles Dodgers | Athletics | pending | +158 | +150 | 1.2 pts | 39.8% | Odds API no-vig only |
+| MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
 | Soccer | Belgium vs Senegal | Belgium | win | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
 | Soccer | Mexico vs Ecuador | Mexico | win | +125 | +136 | -2.1 pts | 44.4% | 41% strength model + 59% market no-vig |
-| Unknown | Mexico vs Ecuador | Mexico | pending | +140 | +125 | 2.8 pts | 42.4% | Odds API no-vig |
 | Unknown | France vs Sweden | France | win | -185 | -210 | 2.8 pts | 68.2% | Odds API no-vig |
 
 ## Intel Review
@@ -45,10 +62,10 @@ Updated: 2026-07-02T04:09:04.432Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 8 | 4 | 75.0% | 0.8 pts | 0.217 | -100.0% |
+| Unknown gate | 25 | 6 | 66.7% | 1.7 pts | 0.184 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T04:09:03.549Z
+- Saved: 2026-07-02T04:12:21.428Z
 - Current candidates: 65
 - Passed / blocked: 0 / 65
 
