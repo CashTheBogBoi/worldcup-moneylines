@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T18:57:44.967Z
+Updated: 2026-07-02T19:05:42.983Z
 
 ## Summary
 - Total tracked picks: 26
@@ -67,23 +67,25 @@ Updated: 2026-07-02T18:57:44.967Z
 | Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T18:57:44.151Z
+- Saved: 2026-07-02T19:05:41.858Z
 - Current candidates: 63
-- Passed / blocked: 11 / 52
+- Passed / blocked: 9 / 54
 
 ### Top Blockers
-- Minimum edge: 49
+- Minimum edge: 50
 - Positive EV: 44
 - Beats consensus: 34
-- Model ready: 30
-- Pregame: 30
+- Model ready: 33
+- Pregame: 33
 - DraftKings line: 12
 - Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
+| Soccer | Austria | Spain vs Austria | Game too stale/live | +1160 | 12.8% | $60.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +235 | 35.6% | $19.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Spain vs Austria | Game too stale/live | +475 | 18.5% | $6.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2000 | 5.1% | $6.08 | Add team ratings/research prior or wait for the model to load enough context. |
 | MLB | Los Angeles Angels | Seattle Mariners vs Los Angeles Angels | Game too stale/live | +192 | 36.0% | $5.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +750 | 12.2% | $3.88 | Add team ratings/research prior or wait for the model to load enough context. |
