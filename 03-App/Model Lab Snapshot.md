@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T19:15:50.240Z
+Updated: 2026-07-02T19:20:08.322Z
 
 ## Summary
 - Total tracked picks: 26
@@ -67,7 +67,7 @@ Updated: 2026-07-02T19:15:50.240Z
 | Passed gate | 1 | 0 | 0.0% | -1.7 pts | - | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T19:15:48.567Z
+- Saved: 2026-07-02T19:20:07.376Z
 - Current candidates: 63
 - Passed / blocked: 9 / 54
 
