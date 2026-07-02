@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-02T04:26:37.190Z
+Updated: 2026-07-02T04:28:42.967Z
 
 ## Summary
 - Total tracked picks: 25
@@ -32,7 +32,7 @@ Updated: 2026-07-02T04:26:37.190Z
 | MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | -151 | -190 | 5.4 pts | 64.6% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | +135 | +335 | -19.6 pts | 47.3% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
-| Soccer | Mexico vs England | England | pending | +143 | +161 | -2.8 pts | 39.3% | 48% strength model + 52% market no-vig |
+| Soccer | Mexico vs England | England | pending | +143 | +158 | -2.4 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | pending | -125 | -132 | 1.3 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -120 | 0.0 pts | 52.8% | Odds API no-vig only |
@@ -65,7 +65,7 @@ Updated: 2026-07-02T04:26:37.190Z
 | Unknown gate | 25 | 10 | 60.0% | 1.6 pts | 0.180 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-02T04:26:36.360Z
+- Saved: 2026-07-02T04:28:42.133Z
 - Current candidates: 53
 - Passed / blocked: 2 / 51
 
@@ -80,13 +80,13 @@ Updated: 2026-07-02T04:26:37.190Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs San Francisco Giants | Game too stale/live | +900 | 19.3% | $93.45 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs San Francisco Giants | Game too stale/live | +950 | 20.2% | $111.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Austria | Spain vs Austria | Market-only, needs model input | +1050 | 9.6% | $10.11 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Paraguay | Paraguay vs France | Market-only, needs model input | +1800 | 5.7% | $7.63 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Ghana | Colombia vs Ghana | Market-only, needs model input | +705 | 13.1% | $5.15 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Canada | Canada vs Morocco | Market-only, needs model input | +450 | 19.1% | $5.00 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +1900 | 5.2% | $4.82 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 33.3% | $3.28 | Edge under 1.5% — inside vig noise. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 33.3% | $3.16 | Edge under 1.5% — inside vig noise. |
 | Soccer | Croatia | Portugal vs Croatia | Market-only, needs model input | +435 | 19.3% | $3.09 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.8% | $2.98 | Edge under 1.5% — inside vig noise. |
 | Soccer | Norway | Brazil vs Norway | Market-only, needs model input | +335 | 23.3% | $1.23 | Add team ratings/research prior or wait for the model to load enough context. |
