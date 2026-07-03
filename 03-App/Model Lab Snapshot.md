@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T03:54:46.970Z
+Updated: 2026-07-03T07:54:36.001Z
 
 ## Summary
 - Total tracked picks: 26
-- Pending: 12
-- Graded: 14
+- Pending: 11
+- Graded: 15
 - Wins: 6
-- Losses: 7
+- Losses: 8
 - Draws: 1
 - Intel review decisions saved: 14
 - Intel confirmed / denied / pending: 13 / 1 / 0
@@ -15,7 +15,7 @@ Updated: 2026-07-03T03:54:46.970Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | pending | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
+| MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | loss | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +340 | -0.5 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +150 | 0.8 pts | 38.3% | Odds API no-vig only |
@@ -64,36 +64,36 @@ Updated: 2026-07-03T03:54:46.970Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 14 | 42.9% | 1.7 pts | 0.169 | -100.0% |
-| Passed gate | 1 | 0 | 0.0% | -2.2 pts | - | 0.0% |
+| Passed gate | 1 | 1 | 0.0% | -2.2 pts | 0.143 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T03:54:45.012Z
+- Saved: 2026-07-03T07:54:34.211Z
 - Current candidates: 60
-- Passed / blocked: 8 / 52
+- Passed / blocked: 0 / 60
 
 ### Top Blockers
-- Minimum edge: 46
-- Positive EV: 35
+- Model ready: 60
+- Pregame: 60
+- Minimum edge: 51
+- Positive EV: 39
 - Beats consensus: 33
-- Model ready: 33
-- Pregame: 7
 - Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Angels | Seattle Mariners vs Los Angeles Angels | Game too stale/live | +900 | 17.7% | $77.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Seattle Mariners vs Los Angeles Angels | Game too stale/live | +900 | 16.8% | $68.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Algeria | Switzerland vs Algeria | Game too stale/live | +1200 | 12.9% | $68.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +650 | 18.5% | $39.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2200 | 4.8% | $10.26 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Needs starter | +109 | 50.6% | $5.71 | Confirm probable starters or use the manual starter override. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Needs starter | +132 | 45.5% | $5.65 | Confirm probable starters or use the manual starter override. |
-| Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +800 | 11.7% | $5.43 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -116 | 56.5% | $5.18 | Confirm probable starters or use the manual starter override. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Needs starter | +110 | 49.1% | $3.05 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Needs starter | +122 | 46.2% | $2.66 | Confirm probable starters or use the manual starter override. |
-| Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.6% | $2.35 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Needs starter | +205 | 33.4% | $1.92 | Confirm probable starters or use the manual starter override. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +650 | 18.0% | $34.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Paraguay | Paraguay vs France | Game too stale/live | +1700 | 7.5% | $34.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +800 | 14.0% | $25.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Brazil vs Norway | Game too stale/live | +340 | 26.7% | $17.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Canada | Canada vs Morocco | Game too stale/live | +433 | 21.5% | $14.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +2200 | 4.8% | $10.26 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Portugal | Portugal vs Spain | Game too stale/live | +330 | 25.5% | $9.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Australia | Australia vs Egypt | Game too stale/live | +265 | 29.2% | $6.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Paraguay vs France | Game too stale/live | +620 | 14.8% | $6.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +800 | 11.7% | $5.43 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
