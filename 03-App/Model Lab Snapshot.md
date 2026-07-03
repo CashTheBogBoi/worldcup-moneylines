@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T23:11:09.094Z
+Updated: 2026-07-03T23:27:56.227Z
 
 ## Summary
 - Total tracked picks: 32
@@ -16,7 +16,7 @@ Updated: 2026-07-03T23:11:09.094Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
-| Soccer | Colombia vs Ghana | Draw | pending | +369 | +340 | 1.4 pts | 22.8% | 45% strength model + 55% market no-vig |
+| Soccer | Colombia vs Ghana | Draw | pending | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -102 | -107 | 1.2 pts | 54.3% | 35% strength model + 65% market no-vig |
 | Soccer | Australia vs Egypt | Australia | loss | +278 | +275 | 0.2 pts | 30.8% | 45% strength model + 55% market no-vig |
 | Soccer | Portugal vs Spain | Portugal | pending | +322 | +322 | 0.0 pts | 28.0% | 45% strength model + 55% market no-vig |
@@ -70,33 +70,33 @@ Updated: 2026-07-03T23:11:09.094Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 16 | 43.8% | 1.6 pts | 0.185 | -100.0% |
-| Passed gate | 7 | 2 | 0.0% | 0.0 pts | 0.119 | 0.0% |
+| Passed gate | 7 | 2 | 0.0% | -0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T23:11:07.925Z
+- Saved: 2026-07-03T23:27:54.901Z
 - Current candidates: 78
 - Passed / blocked: 6 / 72
 
 ### Top Blockers
-- Minimum edge: 72
+- Minimum edge: 71
 - Beats consensus: 69
 - Positive EV: 64
 - Model opinion: 57
-- Model ready: 11
-- Pregame: 7
+- Model ready: 17
+- Pregame: 13
 - DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +8300 | 1.7% | $40.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +225 | 31.7% | $2.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +1300 | 7.3% | $2.78 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +2800 | 4.5% | $31.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +320 | 25.6% | $7.66 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Argentina | Argentina vs Cape Verde | Game too stale/live | -143 | 60.1% | $2.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +210 | 32.6% | $1.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Market-only, needs model input | +155 | 39.3% | $0.19 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Market-only, needs model input | +116 | 46.4% | $0.17 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Draw | Colombia vs Ghana | Minimum edge | +340 | 22.8% | $0.11 | Edge under 1.5% — inside vig noise. |
+| Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.6% | $1.51 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 51.9% | $1.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +200 | 33.5% | $0.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +118 | 46.0% | $0.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
