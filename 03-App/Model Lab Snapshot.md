@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T16:59:33.500Z
+Updated: 2026-07-03T17:21:54.481Z
 
 ## Summary
-- Total tracked picks: 26
-- Pending: 11
+- Total tracked picks: 32
+- Pending: 17
 - Graded: 15
 - Wins: 6
 - Losses: 8
@@ -15,6 +15,12 @@ Updated: 2026-07-03T16:59:33.500Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | - | - | 49.4% | 35% strength model + 65% market no-vig |
+| Soccer | Colombia vs Ghana | Draw | pending | +369 | - | - | 22.8% | 45% strength model + 55% market no-vig |
+| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -102 | - | - | 54.3% | 35% strength model + 65% market no-vig |
+| Soccer | Australia vs Egypt | Australia | pending | +278 | - | - | 30.8% | 45% strength model + 55% market no-vig |
+| Soccer | Portugal vs Spain | Portugal | pending | +322 | - | - | 28.0% | 45% strength model + 55% market no-vig |
+| Soccer | Paraguay vs France | Draw | pending | +720 | - | - | 15.8% | 45% strength model + 55% market no-vig |
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | loss | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +360 | -1.5 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
@@ -64,10 +70,10 @@ Updated: 2026-07-03T16:59:33.500Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 14 | 42.9% | 1.6 pts | 0.169 | -100.0% |
-| Passed gate | 1 | 1 | 0.0% | -2.2 pts | 0.143 | 0.0% |
+| Passed gate | 7 | 1 | 0.0% | -2.2 pts | 0.143 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T16:59:32.528Z
+- Saved: 2026-07-03T17:21:53.659Z
 - Current candidates: 53
 - Passed / blocked: 11 / 42
 
