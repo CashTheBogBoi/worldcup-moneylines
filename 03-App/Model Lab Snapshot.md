@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T23:05:02.430Z
+Updated: 2026-07-03T23:11:09.094Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,29 +73,30 @@ Updated: 2026-07-03T23:05:02.430Z
 | Passed gate | 7 | 2 | 0.0% | 0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T23:05:00.947Z
+- Saved: 2026-07-03T23:11:07.925Z
 - Current candidates: 78
 - Passed / blocked: 6 / 72
 
 ### Top Blockers
 - Minimum edge: 72
 - Beats consensus: 69
-- Positive EV: 65
+- Positive EV: 64
 - Model opinion: 57
-- Model ready: 9
-- Pregame: 5
+- Model ready: 11
+- Pregame: 7
 - DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +9000 | 1.6% | $46.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +1500 | 7.1% | $13.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +8300 | 1.7% | $40.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +225 | 31.7% | $2.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +1300 | 7.3% | $2.78 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Market-only, needs model input | +138 | 42.1% | $0.30 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +210 | 32.6% | $1.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | New York Mets | Atlanta Braves vs New York Mets | Market-only, needs model input | +155 | 39.3% | $0.19 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Market-only, needs model input | +116 | 46.4% | $0.17 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Draw | Colombia vs Ghana | Minimum edge | +340 | 22.8% | $0.11 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | -200 | 66.7% | $0.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
