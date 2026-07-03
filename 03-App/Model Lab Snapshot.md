@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T23:30:22.809Z
+Updated: 2026-07-03T23:43:59.168Z
 
 ## Summary
 - Total tracked picks: 32
@@ -42,7 +42,7 @@ Updated: 2026-07-03T23:30:22.809Z
 | Soccer | Mexico vs England | England | pending | +143 | +148 | -0.8 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | win | -125 | -145 | 3.6 pts | 53.6% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Morocco | pending | -120 | -108 | -2.6 pts | 52.8% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Morocco | pending | -120 | -114 | -1.3 pts | 52.8% | Odds API no-vig only |
 | MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
 | Soccer | Belgium vs Senegal | Belgium | draw | +120 | +120 | 0.0 pts | 48.9% | 41% strength model + 59% market no-vig |
 | Soccer | Mexico vs Ecuador | Mexico | win | +125 | +136 | -2.1 pts | 44.4% | 41% strength model + 59% market no-vig |
@@ -69,18 +69,18 @@ Updated: 2026-07-03T23:30:22.809Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 25 | 16 | 43.8% | 1.6 pts | 0.185 | -100.0% |
+| Unknown gate | 25 | 16 | 43.8% | 1.7 pts | 0.185 | -100.0% |
 | Passed gate | 7 | 2 | 0.0% | -0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T23:30:20.508Z
+- Saved: 2026-07-03T23:43:57.492Z
 - Current candidates: 78
 - Passed / blocked: 6 / 72
 
 ### Top Blockers
+- Minimum edge: 70
 - Beats consensus: 69
-- Minimum edge: 69
-- Positive EV: 62
+- Positive EV: 66
 - Model opinion: 57
 - Model ready: 17
 - Pregame: 13
@@ -89,16 +89,12 @@ Updated: 2026-07-03T23:30:22.809Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +4000 | 4.2% | $71.78 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 54.3% | $5.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +320 | 25.1% | $5.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +125 | 46.1% | $3.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +125 | 45.7% | $2.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +3300 | 4.8% | $62.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +700 | 13.5% | $7.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Argentina | Argentina vs Cape Verde | Game too stale/live | +125 | 46.4% | $4.42 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
-| Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.6% | $1.51 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +137 | 42.6% | $1.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Baltimore Orioles | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | -115 | 53.9% | $0.73 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | -133 | 57.4% | $0.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.6% | $1.50 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | -625 | 86.5% | $0.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
