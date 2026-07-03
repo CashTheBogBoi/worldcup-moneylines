@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-03
 
-Generated: 2026-07-03T12:55:40.587Z
-Local time: 8:55 AM
+Generated: 2026-07-03T14:23:00.968Z
+Local time: 10:23 AM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,7 +13,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-03T12:55:35.210Z
+- Snapshot generated: 2026-07-03T14:22:55.271Z
 - MLB odds events: 13
 - Soccer odds events: 9
 - High-impact intel blocks: 1
@@ -33,31 +33,31 @@ Confirm the first wave before anything becomes live-market contaminated.
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| St. Louis Cardinals at Chicago Cubs | Jul 3, 4:05 PM | 429 | Chicago Cubs -131, St. Louis Cardinals +108 | 11 |
-| Pittsburgh Pirates at Washington Nationals | Jul 3, 6:45 PM | 589 | Pittsburgh Pirates +119, Washington Nationals -144 | 11 |
-| Minnesota Twins at New York Yankees | Jul 3, 7:05 PM | 609 | Minnesota Twins +158, New York Yankees -193 | 11 |
-| Baltimore Orioles at Cincinnati Reds | Jul 3, 7:10 PM | 614 | Baltimore Orioles -122, Cincinnati Reds +101 | 11 |
-| Chicago White Sox at Cleveland Guardians | Jul 3, 7:10 PM | 614 | Chicago White Sox +114, Cleveland Guardians -137 | 11 |
-| New York Mets at Atlanta Braves | Jul 3, 7:15 PM | 619 | Atlanta Braves -115, New York Mets -105 | 11 |
-| San Francisco Giants at Colorado Rockies | Jul 3, 8:10 PM | 674 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
-| Tampa Bay Rays at Houston Astros | Jul 3, 8:15 PM | 679 | Houston Astros -108, Tampa Bay Rays -112 | 11 |
-| Boston Red Sox at Los Angeles Angels | Jul 3, 9:38 PM | 762 | Boston Red Sox -108, Los Angeles Angels -112 | 11 |
-| Miami Marlins at Athletics | Jul 3, 9:40 PM | 764 | Athletics -125, Miami Marlins +104 | 11 |
-| Milwaukee Brewers at Arizona Diamondbacks | Jul 3, 9:45 PM | 769 | Arizona Diamondbacks +134, Milwaukee Brewers -162 | 11 |
-| San Diego Padres at Los Angeles Dodgers | Jul 3, 10:10 PM | 794 | Los Angeles Dodgers -251, San Diego Padres +203 | 11 |
+| St. Louis Cardinals at Chicago Cubs | Jul 3, 4:05 PM | 342 | Chicago Cubs -131, St. Louis Cardinals +109 | 11 |
+| Pittsburgh Pirates at Washington Nationals | Jul 3, 6:45 PM | 502 | Pittsburgh Pirates +124, Washington Nationals -149 | 11 |
+| Minnesota Twins at New York Yankees | Jul 3, 7:05 PM | 522 | Minnesota Twins +158, New York Yankees -193 | 11 |
+| Baltimore Orioles at Cincinnati Reds | Jul 3, 7:10 PM | 527 | Baltimore Orioles -123, Cincinnati Reds +102 | 11 |
+| Chicago White Sox at Cleveland Guardians | Jul 3, 7:10 PM | 527 | Chicago White Sox +109, Cleveland Guardians -132 | 11 |
+| New York Mets at Atlanta Braves | Jul 3, 7:15 PM | 532 | Atlanta Braves -114, New York Mets -105 | 11 |
+| San Francisco Giants at Colorado Rockies | Jul 3, 8:10 PM | 587 | Colorado Rockies +129, San Francisco Giants -156 | 11 |
+| Tampa Bay Rays at Houston Astros | Jul 3, 8:15 PM | 592 | Houston Astros -107, Tampa Bay Rays -112 | 11 |
+| Boston Red Sox at Los Angeles Angels | Jul 3, 9:38 PM | 675 | Boston Red Sox -105, Los Angeles Angels -114 | 11 |
+| Miami Marlins at Athletics | Jul 3, 9:40 PM | 677 | Athletics -135, Miami Marlins +112 | 11 |
+| Milwaukee Brewers at Arizona Diamondbacks | Jul 3, 9:45 PM | 682 | Arizona Diamondbacks +129, Milwaukee Brewers -156 | 11 |
+| San Diego Padres at Los Angeles Dodgers | Jul 3, 10:10 PM | 707 | Los Angeles Dodgers -258, San Diego Padres +208 | 11 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Egypt at Australia | Jul 3, 2:00 PM | 304 | Australia +265, Egypt +135, Draw +195 | 9 |
-| Cape Verde at Argentina | Jul 3, 6:00 PM | 544 | Argentina -700, Cape Verde +1900, Draw +750 | 9 |
-| Ghana at Colombia | Jul 3, 9:30 PM | 754 | Colombia -230, Ghana +750, Draw +340 | 9 |
-| Morocco at Canada | Jul 4, 1:00 PM | 1684 | Canada +400, Morocco -125, Draw +250 | 9 |
-| France at Paraguay | Jul 4, 5:00 PM | 1924 | France -550, Paraguay +1700, Draw +600 | 9 |
-| Norway at Brazil | Jul 5, 4:00 PM | 3304 | Brazil -115, Norway +310, Draw +280 | 9 |
-| England at Mexico | Jul 5, 8:00 PM | 3544 | England +140, Mexico +220, Draw +215 | 9 |
-| Spain at Portugal | Jul 6, 3:00 PM | 4684 | Portugal +300, Spain -105, Draw +260 | 9 |
-| Belgium at USA | Jul 6, 8:00 PM | 4984 | Belgium +180, USA +155, Draw +240 | 9 |
+| Egypt at Australia | Jul 3, 2:00 PM | 217 | Australia +265, Egypt +135, Draw +195 | 9 |
+| Cape Verde at Argentina | Jul 3, 6:00 PM | 457 | Argentina -700, Cape Verde +1900, Draw +750 | 9 |
+| Ghana at Colombia | Jul 3, 9:30 PM | 667 | Colombia -230, Ghana +750, Draw +340 | 9 |
+| Morocco at Canada | Jul 4, 1:00 PM | 1597 | Canada +400, Morocco -125, Draw +250 | 9 |
+| France at Paraguay | Jul 4, 5:00 PM | 1837 | France -550, Paraguay +1700, Draw +600 | 9 |
+| Norway at Brazil | Jul 5, 4:00 PM | 3217 | Brazil -115, Norway +310, Draw +280 | 9 |
+| England at Mexico | Jul 5, 8:00 PM | 3457 | England +140, Mexico +220, Draw +215 | 9 |
+| Spain at Portugal | Jul 6, 3:00 PM | 4597 | Portugal +300, Spain -105, Draw +260 | 9 |
+| Belgium at USA | Jul 6, 8:00 PM | 4897 | Belgium +180, USA +155, Draw +240 | 9 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
@@ -66,12 +66,12 @@ Confirm the first wave before anything becomes live-market contaminated.
 | Soccer | Australia vs Egypt | Egypt | +155 | +141 | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | +195 | +195 | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | +700 | +893 | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | +440 | +425 | 19.2% | Odds API no-vig only |
-| Soccer | Argentina vs Cape Verde | Cape Verde | +1900 | +6805 | 5.2% | Odds API no-vig only |
-| Soccer | Colombia vs Ghana | Ghana | +705 | +961 | 13.1% | Odds API no-vig only |
-| Soccer | Paraguay vs France | Paraguay | +1800 | +2428 | 5.7% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | +440 | +433 | 19.2% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Cape Verde | +1900 | +5907 | 5.2% | Odds API no-vig only |
+| Soccer | Colombia vs Ghana | Ghana | +705 | +981 | 13.1% | Odds API no-vig only |
+| Soccer | Paraguay vs France | Paraguay | +1800 | +2684 | 5.7% | Odds API no-vig only |
 | Soccer | Mexico vs England | Mexico | +242 | +220 | 30.8% | 51% strength model + 49% market no-vig |
-| Soccer | Mexico vs England | England | +143 | +140 | 39.3% | 48% strength model + 52% market no-vig |
+| Soccer | Mexico vs England | England | +143 | +148 | 39.3% | 48% strength model + 52% market no-vig |
 | Soccer | Canada vs Morocco | Morocco | -120 | -125 | 52.8% | Odds API no-vig only |
 
 ## Model Input Guidance
