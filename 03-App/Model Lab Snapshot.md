@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T17:21:54.481Z
+Updated: 2026-07-03T17:29:26.990Z
 
 ## Summary
 - Total tracked picks: 32
@@ -15,12 +15,12 @@ Updated: 2026-07-03T17:21:54.481Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | - | - | 49.4% | 35% strength model + 65% market no-vig |
-| Soccer | Colombia vs Ghana | Draw | pending | +369 | - | - | 22.8% | 45% strength model + 55% market no-vig |
-| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -102 | - | - | 54.3% | 35% strength model + 65% market no-vig |
-| Soccer | Australia vs Egypt | Australia | pending | +278 | - | - | 30.8% | 45% strength model + 55% market no-vig |
-| Soccer | Portugal vs Spain | Portugal | pending | +322 | - | - | 28.0% | 45% strength model + 55% market no-vig |
-| Soccer | Paraguay vs France | Draw | pending | +720 | - | - | 15.8% | 45% strength model + 55% market no-vig |
+| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | +113 | 0.0 pts | 49.4% | 35% strength model + 65% market no-vig |
+| Soccer | Colombia vs Ghana | Draw | pending | +369 | +369 | 0.0 pts | 22.8% | 45% strength model + 55% market no-vig |
+| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -102 | -102 | 0.0 pts | 54.3% | 35% strength model + 65% market no-vig |
+| Soccer | Australia vs Egypt | Australia | pending | +278 | +278 | 0.0 pts | 30.8% | 45% strength model + 55% market no-vig |
+| Soccer | Portugal vs Spain | Portugal | pending | +322 | +322 | 0.0 pts | 28.0% | 45% strength model + 55% market no-vig |
+| Soccer | Paraguay vs France | Draw | pending | +720 | +720 | 0.0 pts | 15.8% | 45% strength model + 55% market no-vig |
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | loss | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | pending | +330 | +360 | -1.5 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
@@ -70,33 +70,31 @@ Updated: 2026-07-03T17:21:54.481Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 14 | 42.9% | 1.6 pts | 0.169 | -100.0% |
-| Passed gate | 7 | 1 | 0.0% | -2.2 pts | 0.143 | 0.0% |
+| Passed gate | 7 | 1 | 0.0% | -0.3 pts | 0.143 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T17:21:53.659Z
+- Saved: 2026-07-03T17:29:25.167Z
 - Current candidates: 53
-- Passed / blocked: 11 / 42
+- Passed / blocked: 9 / 44
 
 ### Top Blockers
-- Minimum edge: 41
-- Positive EV: 32
+- Minimum edge: 43
+- Positive EV: 37
 - Beats consensus: 30
+- Model ready: 26
+- Pregame: 26
 - Model opinion: 3
-- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2463 | 4.6% | $18.99 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Needs starter | +133 | 45.3% | $5.53 | Confirm probable starters or use the manual starter override. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -102 | 52.1% | $3.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.8% | $3.16 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Athletics vs Miami Marlins | Minimum edge | +119 | 47.0% | $2.84 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +217 | 32.3% | $2.50 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Minimum edge | +133 | 43.8% | $2.05 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Minimum edge | +109 | 48.6% | $1.59 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Minimum edge | -123 | 55.4% | $0.49 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Minimum edge | +115 | 46.7% | $0.31 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Minimum edge | +163 | 38.1% | $0.21 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +133 | 43.7% | $1.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +113 | 47.6% | $1.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +217 | 31.8% | $0.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Miami Marlins | Athletics vs Miami Marlins | Game too stale/live | +119 | 45.8% | $0.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
