@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T22:38:24.749Z
+Updated: 2026-07-03T22:41:27.326Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,7 +73,7 @@ Updated: 2026-07-03T22:38:24.749Z
 | Passed gate | 7 | 2 | 0.0% | 0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T22:38:23.694Z
+- Saved: 2026-07-03T22:41:25.963Z
 - Current candidates: 74
 - Passed / blocked: 6 / 68
 
@@ -88,8 +88,8 @@ Updated: 2026-07-03T22:38:24.749Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +10000 | 1.6% | $65.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +1700 | 6.4% | $15.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +10000 | 1.7% | $69.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | +1550 | 6.7% | $10.53 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Market-only, needs model input | +138 | 42.1% | $0.30 | Add team ratings/research prior or wait for the model to load enough context. |
 | MLB | New York Mets | Atlanta Braves vs New York Mets | Market-only, needs model input | +155 | 39.3% | $0.19 | Add team ratings/research prior or wait for the model to load enough context. |
