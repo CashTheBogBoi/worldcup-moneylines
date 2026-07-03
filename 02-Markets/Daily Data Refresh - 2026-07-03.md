@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-03
 
-Generated: 2026-07-03T12:55:35.210Z
+Generated: 2026-07-03T13:26:45.457Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -22,7 +22,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 - **High MLB Starters** — San Francisco Giants at Colorado Rockies: Official starter is still TBD (TBD vs Ryan Feltner). Block Bankroll Watch promotion until both starters are confirmed.
 - **Medium Soccer Market move** — Egypt at Australia: Draw price is +195, which is short enough to demand draw-risk review before backing either side.
-- **Medium Soccer Market move** — Cape Verde at Argentina: Argentina is priced at -700. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
+- **Medium Soccer Market move** — Cape Verde at Argentina: Argentina is priced at -650. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — France at Paraguay: France is priced at -550. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — England at Mexico: Draw price is +215, which is short enough to demand draw-risk review before backing either side.
 
@@ -49,17 +49,17 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | St. Louis Cardinals at Chicago Cubs | 2026-07-03T20:05:00Z | Chicago Cubs -131, St. Louis Cardinals +108 |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-03T22:45:00Z | Pittsburgh Pirates +119, Washington Nationals -144 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-03T22:45:00Z | Pittsburgh Pirates +123, Washington Nationals -149 |
 | Minnesota Twins at New York Yankees | 2026-07-03T23:05:00Z | Minnesota Twins +158, New York Yankees -193 |
-| Baltimore Orioles at Cincinnati Reds | 2026-07-03T23:10:00Z | Baltimore Orioles -122, Cincinnati Reds +101 |
-| Chicago White Sox at Cleveland Guardians | 2026-07-03T23:10:00Z | Chicago White Sox +114, Cleveland Guardians -137 |
-| New York Mets at Atlanta Braves | 2026-07-03T23:15:00Z | Atlanta Braves -115, New York Mets -105 |
-| San Francisco Giants at Colorado Rockies | 2026-07-04T00:10:00Z | Colorado Rockies +124, San Francisco Giants -149 |
+| Baltimore Orioles at Cincinnati Reds | 2026-07-03T23:10:00Z | Baltimore Orioles -123, Cincinnati Reds +102 |
+| Chicago White Sox at Cleveland Guardians | 2026-07-03T23:10:00Z | Chicago White Sox +113, Cleveland Guardians -136 |
+| New York Mets at Atlanta Braves | 2026-07-03T23:15:00Z | Atlanta Braves -114, New York Mets -105 |
+| San Francisco Giants at Colorado Rockies | 2026-07-04T00:10:00Z | Colorado Rockies +129, San Francisco Giants -156 |
 | Tampa Bay Rays at Houston Astros | 2026-07-04T00:15:00Z | Houston Astros -108, Tampa Bay Rays -112 |
-| Boston Red Sox at Los Angeles Angels | 2026-07-04T01:38:00Z | Boston Red Sox -108, Los Angeles Angels -112 |
+| Boston Red Sox at Los Angeles Angels | 2026-07-04T01:38:00Z | Boston Red Sox -105, Los Angeles Angels -114 |
 | Miami Marlins at Athletics | 2026-07-04T01:40:00Z | Athletics -125, Miami Marlins +104 |
-| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-04T01:45:00Z | Arizona Diamondbacks +134, Milwaukee Brewers -162 |
-| San Diego Padres at Los Angeles Dodgers | 2026-07-04T02:10:00Z | Los Angeles Dodgers -251, San Diego Padres +203 |
+| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-04T01:45:00Z | Arizona Diamondbacks +130, Milwaukee Brewers -157 |
+| San Diego Padres at Los Angeles Dodgers | 2026-07-04T02:10:00Z | Los Angeles Dodgers -258, San Diego Padres +208 |
 | Toronto Blue Jays at Seattle Mariners | 2026-07-04T02:10:00Z | Seattle Mariners +105, Toronto Blue Jays -126 |
 
 ## DraftKings Soccer odds snapshot
@@ -67,7 +67,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Match | Start | DraftKings |
 | --- | --- | --- |
 | Egypt at Australia | 2026-07-03T18:00:00Z | Australia +265, Egypt +135, Draw +195 |
-| Cape Verde at Argentina | 2026-07-03T22:00:00Z | Argentina -700, Cape Verde +1900, Draw +750 |
+| Cape Verde at Argentina | 2026-07-03T22:00:00Z | Argentina -650, Cape Verde +1900, Draw +700 |
 | Ghana at Colombia | 2026-07-04T01:30:00Z | Colombia -230, Ghana +750, Draw +340 |
 | Morocco at Canada | 2026-07-04T17:00:00Z | Canada +400, Morocco -125, Draw +250 |
 | France at Paraguay | 2026-07-04T21:00:00Z | France -550, Paraguay +1700, Draw +600 |

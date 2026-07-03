@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T12:55:44.929Z
+Updated: 2026-07-03T13:30:25.311Z
 
 ## Summary
 - Total tracked picks: 26
@@ -20,9 +20,9 @@ Updated: 2026-07-03T12:55:44.929Z
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | pending | +155 | +141 | 2.3 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | pending | +195 | +195 | 0.0 pts | 33.2% | Odds API no-vig only |
-| Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +911 | -2.6 pts | 12.5% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +893 | -2.4 pts | 12.5% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Canada | pending | +440 | +433 | 0.2 pts | 19.2% | Odds API no-vig only |
-| Soccer | Argentina vs Cape Verde | Cape Verde | pending | +1900 | +6805 | -3.6 pts | 5.2% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Cape Verde | pending | +1900 | +5907 | -3.3 pts | 5.2% | Odds API no-vig only |
 | Soccer | Colombia vs Ghana | Ghana | pending | +705 | +981 | -3.2 pts | 13.1% | Odds API no-vig only |
 | Soccer | Spain vs Austria | Austria | loss | +1000 | +1160 | -1.2 pts | 9.7% | Odds API no-vig only |
 | Soccer | Paraguay vs France | Paraguay | pending | +1800 | +2684 | -1.7 pts | 5.7% | Odds API no-vig only |
@@ -67,7 +67,7 @@ Updated: 2026-07-03T12:55:44.929Z
 | Passed gate | 1 | 1 | 0.0% | -2.2 pts | 0.143 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T12:55:43.952Z
+- Saved: 2026-07-03T13:30:24.330Z
 - Current candidates: 53
 - Passed / blocked: 10 / 43
 
@@ -81,18 +81,18 @@ Updated: 2026-07-03T12:55:44.929Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +6805 | 4.3% | $198.47 | Add team ratings/research prior or wait for the model to load enough context. |
-| Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +911 | 11.3% | $14.12 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Needs starter | +135 | 45.3% | $6.48 | Confirm probable starters or use the manual starter override. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +5907 | 4.4% | $163.25 | Add team ratings/research prior or wait for the model to load enough context. |
+| Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +893 | 11.4% | $13.54 | Add team ratings/research prior or wait for the model to load enough context. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.7% | $4.74 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Needs starter | +131 | 45.3% | $4.55 | Confirm probable starters or use the manual starter override. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +180 | 36.8% | $3.03 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +214 | 32.4% | $1.66 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Minimum edge | +107 | 49.0% | $1.48 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Minimum edge | +126 | 44.8% | $1.30 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Minimum edge | +143 | 41.6% | $1.16 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Minimum edge | +118 | 46.3% | $0.99 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Athletics vs Miami Marlins | Minimum edge | +108 | 48.5% | $0.82 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Minimum edge | +164 | 38.1% | $0.68 | Edge under 1.5% — inside vig noise. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Minimum edge | +130 | 44.5% | $2.27 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Minimum edge | +143 | 41.8% | $1.59 | Edge under 1.5% — inside vig noise. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +214 | 32.3% | $1.56 | Edge under 1.5% — inside vig noise. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Minimum edge | +107 | 49.0% | $1.41 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Athletics vs Miami Marlins | Minimum edge | +109 | 48.4% | $1.24 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Minimum edge | +118 | 46.2% | $0.77 | Edge under 1.5% — inside vig noise. |
+| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Minimum edge | +164 | 38.1% | $0.65 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
