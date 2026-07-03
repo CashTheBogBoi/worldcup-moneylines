@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T23:27:56.227Z
+Updated: 2026-07-03T23:30:22.809Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,14 +73,14 @@ Updated: 2026-07-03T23:27:56.227Z
 | Passed gate | 7 | 2 | 0.0% | -0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T23:27:54.901Z
+- Saved: 2026-07-03T23:30:20.508Z
 - Current candidates: 78
 - Passed / blocked: 6 / 72
 
 ### Top Blockers
-- Minimum edge: 71
 - Beats consensus: 69
-- Positive EV: 64
+- Minimum edge: 69
+- Positive EV: 62
 - Model opinion: 57
 - Model ready: 17
 - Pregame: 13
@@ -89,14 +89,16 @@ Updated: 2026-07-03T23:27:56.227Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +2800 | 4.5% | $31.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +320 | 25.6% | $7.66 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Argentina | Argentina vs Cape Verde | Game too stale/live | -143 | 60.1% | $2.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +4000 | 4.2% | $71.78 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 54.3% | $5.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +320 | 25.1% | $5.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +125 | 46.1% | $3.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +125 | 45.7% | $2.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
 | Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.6% | $1.51 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 51.9% | $1.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +200 | 33.5% | $0.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +118 | 46.0% | $0.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +137 | 42.6% | $1.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Baltimore Orioles | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | -115 | 53.9% | $0.73 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | -133 | 57.4% | $0.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
