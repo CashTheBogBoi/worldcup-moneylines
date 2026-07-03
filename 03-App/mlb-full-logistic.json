@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-07-03T02:02:34.598Z",
+  "source": "/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/mlb-training-table.json",
+  "features": [
+    "winPctDiff",
+    "runsForDiff",
+    "runsAgainstDiff",
+    "hitsForDiff",
+    "walksForDiff",
+    "homersForDiff",
+    "strikeoutEdgeDiff",
+    "fieldingEdgeDiff",
+    "bullpenLoadDiff",
+    "starterRaDiff",
+    "afterLossDiff",
+    "gamesPlayedDiff",
+    "parkFactor"
+  ],
+  "minGamesForTeam": 8,
+  "minStartsForStarter": 3,
+  "rowCounts": {
+    "totalRaw": 10616,
+    "coldStartExcluded": 639,
+    "train": 7676,
+    "validation": 2301
+  },
+  "standardization": [
+    {
+      "name": "winPctDiff",
+      "mean": 0.0003610501568674517,
+      "std": 0.15068133315065754
+    },
+    {
+      "name": "runsForDiff",
+      "mean": 0.006980217607227515,
+      "std": 0.8154785920827169
+    },
+    {
+      "name": "runsAgainstDiff",
+      "mean": -0.0010586492261610166,
+      "std": 0.9555285836946663
+    },
+    {
+      "name": "hitsForDiff",
+      "mean": 0.008813197100411582,
+      "std": 0.8579207633242828
+    },
+    {
+      "name": "walksForDiff",
+      "mean": -0.0014117786777845755,
+      "std": 0.6423079630458095
+    },
+    {
+      "name": "homersForDiff",
+      "mean": 0.0009333383624899031,
+      "std": 0.35076438607813315
+    },
+    {
+      "name": "strikeoutEdgeDiff",
+      "mean": -0.008099904460463365,
+      "std": 1.4729248101398507
+    },
+    {
+      "name": "fieldingEdgeDiff",
+      "mean": 0.00011913239021211954,
+      "std": 0.24827758337127215
+    },
+    {
+      "name": "bullpenLoadDiff",
+      "mean": 0.00008589434456620296,
+      "std": 0.36901704088259923
+    },
+    {
+      "name": "starterRaDiff",
+      "mean": -0.01362726588501642,
+      "std": 1.4168148118648678
+    },
+    {
+      "name": "afterLossDiff",
+      "mean": -0.05237102657634184,
+      "std": 0.9171621477854034
+    },
+    {
+      "name": "gamesPlayedDiff",
+      "mean": -0.0049504950495049506,
+      "std": 1.802588170290393
+    },
+    {
+      "name": "parkFactor",
+      "mean": -0.0009173859710936959,
+      "std": 0.05227953196432322
+    }
+  ],
+  "model": {
+    "weights": [
+      0.09055213460371202,
+      -0.030714443925511956,
+      -0.14032411234203748,
+      0.004213035121997506,
+      0.0990585725137294,
+      0.08524885503842186,
+      0.05417602706992137,
+      -0.001559609440887614,
+      0.034851986158339815,
+      0.0394961280732363,
+      -0.018484906177002096,
+      -0.014594904911355117,
+      0.01714436729451488
+    ],
+    "bias": 0.146981260537325
+  },
+  "holdout": {
+    "fullFeatureLogistic": {
+      "games": 2301,
+      "accuracy": 0.5601912212081703,
+      "avgBrier": 0.24500920770391021
+    },
+    "v2LiveModelReplica": {
+      "games": 2301,
+      "accuracy": 0.5597566275532377,
+      "avgBrier": 0.24508948001178202
+    },
+    "significance": {
+      "meanBrierImprovement": 0.00008027230787196384,
+      "standardError": 0.0006766462108743382,
+      "tStat": 0.11863261270352612,
+      "pValue": 0.9055663387802149,
+      "significant": false
+    },
+    "verdict": "no significant difference — raw Brier gap is noise"
+  },
+  "train": {
+    "fullFeatureLogistic": {
+      "games": 7676,
+      "accuracy": 0.572303282959875,
+      "avgBrier": 0.24180046608640302
+    },
+    "v2LiveModelReplica": {
+      "games": 7676,
+      "accuracy": 0.5698280354351225,
+      "avgBrier": 0.24305528376850336
+    }
+  },
+  "reliability": [
+    {
+      "bucket": "50-55%",
+      "games": 995,
+      "predictedProb": 0.524525174840733,
+      "actualWinRate": 0.5226130653266332
+    },
+    {
+      "bucket": "55-60%",
+      "games": 790,
+      "predictedProb": 0.5726075716066469,
+      "actualWinRate": 0.5658227848101266
+    },
+    {
+      "bucket": "60-65%",
+      "games": 353,
+      "predictedProb": 0.6212697986996468,
+      "actualWinRate": 0.6203966005665722
+    },
+    {
+      "bucket": "65-72%",
+      "games": 147,
+      "predictedProb": 0.6728695743497806,
+      "actualWinRate": 0.6190476190476191
+    },
+    {
+      "bucket": "72%+",
+      "games": 16,
+      "predictedProb": 0.7427676242089504,
+      "actualWinRate": 0.75
+    }
+  ],
+  "parkFactor": {
+    "leagueAvgTotalRuns": 8.995179781136008,
+    "distinctParks": 36,
+    "pseudoGames": 150,
+    "mostHitterFriendly": [
+      {
+        "parkId": "DEN02",
+        "factor": 1.173269522799553,
+        "games": 255
+      },
+      {
+        "parkId": "BOS07",
+        "factor": 1.0999792411931968,
+        "games": 255
+      },
+      {
+        "parkId": "CIN09",
+        "factor": 1.058410137676067,
+        "games": 252
+      }
+    ],
+    "mostPitcherFriendly": [
+      {
+        "parkId": "SEA03",
+        "factor": 0.9336325256709198,
+        "games": 250
+      },
+      {
+        "parkId": "SAN02",
+        "factor": 0.9344584928462577,
+        "games": 255
+      },
+      {
+        "parkId": "NYC20",
+        "factor": 0.9387590351215723,
+        "games": 258
+      }
+    ]
+  },
+  "caveats": [
+    "v2 replica omits the bullpen-fatigue term: the live model's bullpenK is fit against a recency (last-3-games vs own season average) feature this table does not store; only a season-average differential is available here, which is a different feature. Omitting can only help v2's score in this comparison, never hurt it.",
+    "Market/no-vig comparison is not possible on the 2024 validation split: the odds archive (2012-2021) has zero matched rows there.",
+    "formDiff for the v2 replica uses diffWinPctBefore directly instead of re-deriving the live model's clamp(winPct*10,1,10)/10 form dial; they differ only when a team's win% is under 0.1, which essentially never happens past the 8-game cold-start floor.",
+    "parkFactor is a LEVEL feature (home team's own park), not a home-minus-away differential like the rest — it tests whether an extreme run environment shifts win probability toward the home side beyond team quality, not whether the park makes either specific team better."
+  ]
+}
