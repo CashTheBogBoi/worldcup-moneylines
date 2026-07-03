@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T17:35:28.775Z
+Updated: 2026-07-03T18:58:45.566Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,15 +73,16 @@ Updated: 2026-07-03T17:35:28.775Z
 | Passed gate | 7 | 1 | 0.0% | -0.1 pts | 0.143 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T17:35:27.799Z
+- Saved: 2026-07-03T18:58:44.137Z
 - Current candidates: 75
-- Passed / blocked: 10 / 65
+- Passed / blocked: 6 / 69
 
 ### Top Blockers
-- Minimum edge: 62
-- Positive EV: 50
+- Minimum edge: 68
+- Positive EV: 55
+- Model ready: 51
+- Pregame: 51
 - Beats consensus: 41
-- Model ready: 24
 - DraftKings line: 22
 - Model opinion: 3
 
@@ -89,17 +90,17 @@ Updated: 2026-07-03T17:35:28.775Z
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Cape Verde | Argentina vs Cape Verde | Market-only, needs model input | +2200 | 4.7% | $8.65 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Needs starter | +140 | 44.5% | $6.76 | Confirm probable starters or use the manual starter override. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Needs starter | +131 | 45.4% | $4.86 | Confirm probable starters or use the manual starter override. |
+| Soccer | Australia | Australia vs Egypt | Game too stale/live | +275 | 28.4% | $6.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Colombia vs Ghana | Minimum edge | +357 | 22.9% | $4.68 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Needs starter | +134 | 44.5% | $4.20 | Confirm probable starters or use the manual starter override. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +215 | 32.8% | $3.40 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +217 | 32.2% | $2.19 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Minimum edge | +133 | 43.7% | $1.86 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Minimum edge | +109 | 48.6% | $1.64 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Athletics vs Miami Marlins | Game too stale/live | +126 | 45.6% | $2.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 52.5% | $2.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +113 | 47.6% | $1.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +140 | 42.2% | $1.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +131 | 43.8% | $1.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Cape Verde | Market-only, needs model input | +765 | 11.7% | $1.00 | Add team ratings/research prior or wait for the model to load enough context. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Minimum edge | +133 | 43.2% | $0.70 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Needs starter | +130 | 43.7% | $0.56 | Confirm probable starters or use the manual starter override. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +133 | 43.2% | $0.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +217 | 31.7% | $0.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
