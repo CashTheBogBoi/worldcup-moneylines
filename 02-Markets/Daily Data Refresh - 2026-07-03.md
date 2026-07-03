@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-03
 
-Generated: 2026-07-03T16:30:01.663Z
+Generated: 2026-07-03T16:57:24.000Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -51,14 +51,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | St. Louis Cardinals at Chicago Cubs | 2026-07-03T20:05:00Z | Chicago Cubs -131, St. Louis Cardinals +108 |
 | Pittsburgh Pirates at Washington Nationals | 2026-07-03T22:45:00Z | Pittsburgh Pirates +129, Washington Nationals -156 |
 | Minnesota Twins at New York Yankees | 2026-07-03T23:05:00Z | Minnesota Twins +158, New York Yankees -193 |
-| Baltimore Orioles at Cincinnati Reds | 2026-07-03T23:10:00Z | Baltimore Orioles -123, Cincinnati Reds +102 |
+| Baltimore Orioles at Cincinnati Reds | 2026-07-03T23:10:00Z | Baltimore Orioles -125, Cincinnati Reds +104 |
 | Chicago White Sox at Cleveland Guardians | 2026-07-03T23:10:00Z | Chicago White Sox +109, Cleveland Guardians -132 |
 | New York Mets at Atlanta Braves | 2026-07-03T23:15:00Z | Atlanta Braves -108, New York Mets -111 |
-| San Francisco Giants at Colorado Rockies | 2026-07-04T00:10:00Z | Colorado Rockies +128, San Francisco Giants -155 |
-| Tampa Bay Rays at Houston Astros | 2026-07-04T00:15:00Z | Houston Astros -108, Tampa Bay Rays -112 |
+| San Francisco Giants at Colorado Rockies | 2026-07-04T00:10:00Z | Colorado Rockies +124, San Francisco Giants -149 |
+| Tampa Bay Rays at Houston Astros | 2026-07-04T00:15:00Z | Houston Astros -108, Tampa Bay Rays -111 |
 | Boston Red Sox at Los Angeles Angels | 2026-07-04T01:38:00Z | Boston Red Sox -108, Los Angeles Angels -112 |
 | Miami Marlins at Athletics | 2026-07-04T01:40:00Z | Athletics -137, Miami Marlins +114 |
-| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-04T01:45:00Z | Arizona Diamondbacks +124, Milwaukee Brewers -149 |
+| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-04T01:45:00Z | Arizona Diamondbacks +123, Milwaukee Brewers -149 |
 | San Diego Padres at Los Angeles Dodgers | 2026-07-04T02:10:00Z | Los Angeles Dodgers -251, San Diego Padres +203 |
 | Toronto Blue Jays at Seattle Mariners | 2026-07-04T02:10:00Z | Seattle Mariners +109, Toronto Blue Jays -131 |
 
