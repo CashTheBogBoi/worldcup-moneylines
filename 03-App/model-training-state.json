@@ -1,268 +1,7 @@
 {
   "version": 1,
-  "savedAt": "2026-07-03T01:11:57.247Z",
+  "savedAt": "2026-07-03T01:22:28.568Z",
   "modelPicks": [
-    {
-      "id": "model-1783041117238",
-      "match": "Switzerland vs Algeria",
-      "selection": "Algeria",
-      "selectionName": "Algeria",
-      "eventId": "c17fe2e46190d7ab6af01504ff240e82",
-      "sport": "Soccer",
-      "commenceTime": "2026-07-03T03:00:00Z",
-      "openPrice": 355,
-      "closePrice": "",
-      "openBook": "BetOnline.ag",
-      "stake": 0,
-      "probability": 0.25545888944912576,
-      "researchProbability": 0.31938282048787986,
-      "marketProbability": 0.21807706606830124,
-      "edge": 0.03567866966890598,
-      "result": "pending",
-      "source": "45% strength model + 55% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+330 vs +355)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 330,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-07-03T01:11:57.238Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-07-03T01:11:57.238Z",
-          "price": 355,
-          "book": "BetOnline.ag",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "model-1783041116373",
-      "match": "Paraguay vs France",
-      "selection": "Draw",
-      "selectionName": "Draw",
-      "eventId": "c798a1ffdeda28e82d930e7145a8ff10",
-      "sport": "Soccer",
-      "commenceTime": "2026-07-04T21:00:00Z",
-      "openPrice": 620,
-      "closePrice": "",
-      "openBook": "BetOnline.ag",
-      "stake": 0,
-      "probability": 0.15901287690234633,
-      "researchProbability": 0.18724816983809003,
-      "marketProbability": 0.1359112735912833,
-      "edge": 0.02012398801345744,
-      "result": "pending",
-      "source": "45% strength model + 55% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+600 vs +620)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 600,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-07-03T01:11:56.373Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-07-03T01:11:56.373Z",
-          "price": 620,
-          "book": "BetOnline.ag",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "model-1783041115557",
-      "match": "Australia vs Egypt",
-      "selection": "Australia",
-      "selectionName": "Australia",
-      "eventId": "fb270a3dac2b682c861bd674a5ff4a04",
-      "sport": "Soccer",
-      "commenceTime": "2026-07-03T18:00:00Z",
-      "openPrice": 245,
-      "closePrice": "",
-      "openBook": "BetRivers",
-      "stake": 0,
-      "probability": 0.3212898761672006,
-      "researchProbability": 0.38567074227232834,
-      "marketProbability": 0.2836408435320308,
-      "edge": 0.03143480370343249,
-      "result": "pending",
-      "source": "45% strength model + 55% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+230 vs +245)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 230,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-07-03T01:11:55.557Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-07-03T01:11:55.557Z",
-          "price": 245,
-          "book": "BetRivers",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
     {
       "id": "model-1783007431797",
       "match": "Seattle Mariners vs Los Angeles Angels",
@@ -360,7 +99,7 @@
       ],
       "note": "",
       "closeBook": "Caesars",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "autoClosed": true
     },
     {
@@ -413,7 +152,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "autoClosed": true
     },
     {
@@ -508,7 +247,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "autoClosed": true
     },
     {
@@ -543,7 +282,7 @@
       ],
       "note": "",
       "closeBook": "Bovada",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "autoClosed": true
     },
     {
@@ -564,7 +303,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -604,7 +343,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -656,7 +395,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -696,7 +435,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -791,7 +530,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "DraftKings",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -831,7 +570,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "DraftKings",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -1111,7 +850,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -1246,7 +985,7 @@
       "note": "",
       "autoClosed": true,
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-03T01:11:30.682Z",
+      "closedAt": "2026-07-03T01:22:28.548Z",
       "priceHistory": [
         {
           "at": "2026-07-02T00:53:48.165Z",
@@ -1514,26 +1253,26 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-03T01:11:57.241Z",
+    "savedAt": "2026-07-03T01:22:28.560Z",
     "totalCandidates": 68,
-    "passed": 8,
-    "blocked": 60,
+    "passed": 0,
+    "blocked": 68,
     "blockers": [
       {
-        "label": "Minimum edge",
-        "count": 54
-      },
-      {
-        "label": "Positive EV",
-        "count": 44
-      },
-      {
         "label": "Model ready",
-        "count": 41
+        "count": 68
       },
       {
         "label": "Pregame",
-        "count": 41
+        "count": 68
+      },
+      {
+        "label": "Minimum edge",
+        "count": 57
+      },
+      {
+        "label": "Positive EV",
+        "count": 45
       },
       {
         "label": "Beats consensus",
@@ -1564,6 +1303,19 @@
       },
       {
         "sport": "Soccer",
+        "match": "Paraguay vs France",
+        "selection": "Paraguay",
+        "book": "DraftKings",
+        "price": 1800,
+        "probability": 0.0734525205063512,
+        "ev": 39.55978896206729,
+        "edge": 0.020820941558982786,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
         "match": "Portugal vs Croatia",
         "selection": "Croatia",
         "book": "DraftKings",
@@ -1571,6 +1323,45 @@
         "probability": 0.17680593705950043,
         "ev": 32.60445279462532,
         "edge": 0.0434726037261671,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Colombia vs Ghana",
+        "selection": "Ghana",
+        "book": "BetOnline.ag",
+        "price": 760,
+        "probability": 0.14252933835008041,
+        "ev": 22.575230981069154,
+        "edge": 0.026250268582638556,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Brazil vs Norway",
+        "selection": "Norway",
+        "book": "FanDuel",
+        "price": 340,
+        "probability": 0.2662289145651435,
+        "ev": 17.14072240866315,
+        "edge": 0.03895618729241626,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Canada vs Morocco",
+        "selection": "Canada",
+        "book": "FanDuel",
+        "price": 440,
+        "probability": 0.21544356747621185,
+        "ev": 16.339526437154404,
+        "edge": 0.030258382291026675,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -1616,6 +1407,19 @@
       },
       {
         "sport": "Soccer",
+        "match": "Switzerland vs Algeria",
+        "selection": "Algeria",
+        "book": "BetOnline.ag",
+        "price": 355,
+        "probability": 0.2367679777587135,
+        "ev": 7.729429880214639,
+        "edge": 0.016987757978493723,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
         "match": "Argentina vs Cape Verde",
         "selection": "Draw",
         "book": "BetOnline.ag",
@@ -1623,84 +1427,19 @@
         "probability": 0.12077838641099937,
         "ev": 6.284980041679447,
         "edge": 0.007142022774635742,
-        "blocker": "Model opinion",
-        "group": "Market-only, needs model input",
-        "action": "Add team ratings/research prior or wait for the model to load enough context."
-      },
-      {
-        "sport": "MLB",
-        "match": "Seattle Mariners vs Los Angeles Angels",
-        "selection": "Los Angeles Angels",
-        "book": "Caesars",
-        "price": 196,
-        "probability": 0.35290376992858213,
-        "ev": 4.459515898860317,
-        "edge": 0.015065932090744305,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "Soccer",
-        "match": "Argentina vs Cape Verde",
-        "selection": "Cape Verde",
-        "book": "BetRivers",
-        "price": 2000,
-        "probability": 0.04953672349667047,
-        "ev": 4.027119343007996,
-        "edge": 0.001917675877622857,
-        "blocker": "Model opinion",
-        "group": "Market-only, needs model input",
-        "action": "Add team ratings/research prior or wait for the model to load enough context."
-      },
-      {
-        "sport": "Soccer",
-        "match": "USA vs Belgium",
-        "selection": "Belgium",
-        "book": "BetOnline.ag",
-        "price": 179,
-        "probability": 0.3693153928060823,
-        "ev": 3.038994592896948,
-        "edge": 0.010892453737981922,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Atlanta Braves vs New York Mets",
-        "selection": "Atlanta Braves",
-        "book": "FanDuel",
-        "price": -116,
-        "probability": 0.5502282215417509,
-        "ev": 2.456289528463955,
-        "edge": 0.013191184504713793,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Colombia vs Ghana",
+        "match": "Paraguay vs France",
         "selection": "Draw",
-        "book": "FanDuel",
-        "price": 340,
-        "probability": 0.23173331652641255,
-        "ev": 1.9626592716215328,
-        "edge": 0.004460589253685282,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Colorado Rockies vs San Francisco Giants",
-        "selection": "Colorado Rockies",
-        "book": "FanDuel",
-        "price": 132,
-        "probability": 0.4352652883670948,
-        "ev": 0.9815469011660056,
-        "edge": 0.004230805608474164,
+        "book": "BetOnline.ag",
+        "price": 620,
+        "probability": 0.14746207524681482,
+        "ev": 6.17269417770666,
+        "edge": 0.008573186357925922,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -1710,8 +1449,8 @@
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1783041090681",
-      "at": "2026-07-03T01:11:30.681Z",
+      "id": "snapshot-1783041748547",
+      "at": "2026-07-03T01:22:28.547Z",
       "source": "local",
       "eventCount": 10,
       "lines": [
