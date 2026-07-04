@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T21:13:59.612Z
+Updated: 2026-07-04T21:16:02.595Z
 
 ## Summary
 - Total tracked picks: 37
@@ -15,7 +15,7 @@ Updated: 2026-07-04T21:13:59.612Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | Argentina vs Egypt | Egypt | pending | +940 | - | - | 15.2% | 37% strength model + 63% market no-vig |
+| Soccer | Argentina vs Egypt | Egypt | pending | +940 | +940 | 0.0 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +260 | 0.0 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | pending | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | pending | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
@@ -78,7 +78,7 @@ Updated: 2026-07-04T21:13:59.612Z
 | Passed gate | 12 | 5 | 20.0% | 0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T21:13:57.928Z
+- Saved: 2026-07-04T21:16:00.932Z
 - Current candidates: 49
 - Passed / blocked: 4 / 45
 
