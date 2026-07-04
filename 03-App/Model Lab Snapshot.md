@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T02:52:49.640Z
+Updated: 2026-07-04T02:55:11.557Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,14 +73,14 @@ Updated: 2026-07-04T02:52:49.640Z
 | Passed gate | 7 | 3 | 33.3% | -0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T02:52:47.969Z
+- Saved: 2026-07-04T02:55:10.715Z
 - Current candidates: 68
 - Passed / blocked: 6 / 62
 
 ### Top Blockers
 - Beats consensus: 57
-- Minimum edge: 57
-- Positive EV: 51
+- Minimum edge: 55
+- Positive EV: 48
 - Model opinion: 44
 - Model ready: 19
 - Pregame: 17
@@ -89,17 +89,18 @@ Updated: 2026-07-04T02:52:49.640Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +4000 | 6.5% | $165.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +205 | 50.1% | $52.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +700 | 14.2% | $13.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +295 | 28.5% | $12.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Colombia vs Ghana | Game too stale/live | +650 | 14.8% | $10.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +115 | 49.9% | $7.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +1000 | 9.6% | $5.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +4000 | 6.5% | $166.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +205 | 48.1% | $46.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +295 | 34.2% | $34.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Colombia vs Ghana | Game too stale/live | +800 | 14.5% | $30.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +700 | 15.3% | $22.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +1500 | 7.5% | $19.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +290 | 28.3% | $10.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +108 | 51.9% | $8.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +392 | 21.1% | $3.91 | Edge under 1.5% — inside vig noise. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +350 | 23.1% | $3.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.8% | $1.74 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Market-only, needs model input | +149 | 40.2% | $0.17 | Add team ratings/research prior or wait for the model to load enough context. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +125 | 45.0% | $1.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | -190 | 65.8% | $0.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
