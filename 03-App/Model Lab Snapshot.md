@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T07:14:45.972Z
+Updated: 2026-07-04T08:00:56.513Z
 
 ## Summary
 - Total tracked picks: 32
-- Pending: 9
-- Graded: 23
+- Pending: 8
+- Graded: 24
 - Wins: 8
-- Losses: 14
+- Losses: 15
 - Draws: 1
 - Intel review decisions saved: 14
 - Intel confirmed / denied / pending: 13 / 1 / 0
@@ -15,7 +15,7 @@ Updated: 2026-07-04T07:14:45.972Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
+| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | loss | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
 | Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | win | -102 | -107 | 1.2 pts | 54.3% | 35% strength model + 65% market no-vig |
 | Soccer | Australia vs Egypt | Australia | loss | +278 | +275 | 0.2 pts | 30.8% | 45% strength model + 55% market no-vig |
@@ -70,17 +70,17 @@ Updated: 2026-07-04T07:14:45.972Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 19 | 36.8% | 1.6 pts | 0.158 | -100.0% |
-| Passed gate | 7 | 4 | 25.0% | -0.1 pts | 0.125 | 0.0% |
+| Passed gate | 7 | 5 | 20.0% | -0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T07:14:45.010Z
+- Saved: 2026-07-04T08:00:55.077Z
 - Current candidates: 66
 - Passed / blocked: 0 / 66
 
 ### Top Blockers
 - Model ready: 66
 - Pregame: 66
-- Minimum edge: 51
+- Minimum edge: 53
 - Positive EV: 45
 - Beats consensus: 35
 - DraftKings line: 5
@@ -88,13 +88,13 @@ Updated: 2026-07-04T07:14:45.972Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +3000 | 14.5% | $348.66 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +1200 | 21.5% | $179.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +950 | 21.5% | $125.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +170 | 75.6% | $104.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +3000 | 12.6% | $289.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +1200 | 20.1% | $161.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +950 | 19.7% | $106.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +170 | 76.1% | $105.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Paraguay | Paraguay vs France | Game too stale/live | +2602 | 6.8% | $82.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +550 | 24.4% | $58.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +520 | 24.4% | $51.42 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +550 | 23.9% | $55.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +520 | 23.1% | $43.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +900 | 12.6% | $25.90 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Paraguay vs France | Game too stale/live | +736 | 14.2% | $18.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Brazil vs Norway | Game too stale/live | +367 | 25.3% | $17.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
