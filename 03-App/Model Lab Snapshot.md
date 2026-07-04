@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T08:59:36.937Z
+Updated: 2026-07-04T09:46:25.298Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,26 +73,29 @@ Updated: 2026-07-04T08:59:36.937Z
 | Passed gate | 7 | 5 | 20.0% | -0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T08:59:34.967Z
+- Saved: 2026-07-04T09:46:23.619Z
 - Current candidates: 54
-- Passed / blocked: 11 / 43
+- Passed / blocked: 7 / 47
 
 ### Top Blockers
-- Minimum edge: 43
-- Positive EV: 35
+- Minimum edge: 45
+- Positive EV: 38
+- Model ready: 30
+- Pregame: 30
 - Beats consensus: 29
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.0% | $4.82 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +215 | 32.9% | $3.72 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +144 | 42.6% | $4.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +147 | 42.1% | $3.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +215 | 32.6% | $2.81 | Edge under 1.5% — inside vig noise. |
-| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Minimum edge | +105 | 50.0% | $2.43 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Minimum edge | +128 | 44.9% | $2.36 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | Chicago Cubs vs St. Louis Cardinals | Minimum edge | +140 | 42.0% | $0.75 | Edge under 1.5% — inside vig noise. |
-| MLB | Tampa Bay Rays | Houston Astros vs Tampa Bay Rays | Minimum edge | -102 | 50.7% | $0.47 | Edge under 1.5% — inside vig noise. |
-| MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Minimum edge | +138 | 42.2% | $0.43 | Edge under 1.5% — inside vig noise. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +215 | 32.4% | $2.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +116 | 47.0% | $1.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +135 | 43.0% | $1.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Game too stale/live | +105 | 49.0% | $0.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +128 | 43.9% | $0.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
