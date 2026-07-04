@@ -1,7 +1,7 @@
 # Auto Grading - 2026-07-03
 
-Generated: 2026-07-03T22:01:29.959Z
-Data snapshot: 2026-07-03T22:01:29.816Z
+Generated: 2026-07-03T23:59:54.542Z
+Data snapshot: 2026-07-03T23:59:50.388Z
 
 ## Newly Graded
 _No newly graded picks._
@@ -10,12 +10,9 @@ _No newly graded picks._
 - MLB / Seattle Mariners vs Toronto Blue Jays / Seattle Mariners (2026-07-04T02:10:00Z)
 - Soccer / Colombia vs Ghana / Draw (2026-07-04T01:30:00Z)
 - MLB / Atlanta Braves vs New York Mets / Atlanta Braves (2026-07-03T23:15:00Z)
-- Soccer / Australia vs Egypt / Australia (2026-07-03T18:00:00Z)
 - Soccer / Portugal vs Spain / Portugal (2026-07-06T19:00:00Z)
 - Soccer / Paraguay vs France / Draw (2026-07-04T21:00:00Z)
 - Soccer / Brazil vs Norway / Norway (2026-07-05T20:00:00Z)
-- Soccer / Australia vs Egypt / Egypt (2026-07-03T18:00:00Z)
-- Soccer / Australia vs Egypt / Draw (2026-07-03T18:00:00Z)
 - Soccer / Argentina vs Cape Verde / Draw (2026-07-03T22:00:00Z)
 - Soccer / Canada vs Morocco / Canada (2026-07-04T17:00:00Z)
 - Soccer / Argentina vs Cape Verde / Cape Verde (2026-07-03T22:00:00Z)
