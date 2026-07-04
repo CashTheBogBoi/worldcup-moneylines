@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T02:55:11.557Z
+Updated: 2026-07-04T03:06:53.980Z
 
 ## Summary
 - Total tracked picks: 32
@@ -27,7 +27,7 @@ Updated: 2026-07-04T02:55:11.557Z
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | loss | +700 | +765 | -0.9 pts | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | pending | +440 | +390 | 1.9 pts | 19.2% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | pending | +440 | +380 | 2.3 pts | 19.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Cape Verde | loss | +1900 | +2200 | -0.7 pts | 5.2% | Odds API no-vig only |
 | Soccer | Colombia vs Ghana | Ghana | pending | +705 | +835 | -1.7 pts | 13.1% | Odds API no-vig only |
 | Soccer | Spain vs Austria | Austria | loss | +1000 | +1160 | -1.2 pts | 9.7% | Odds API no-vig only |
@@ -73,34 +73,31 @@ Updated: 2026-07-04T02:55:11.557Z
 | Passed gate | 7 | 3 | 33.3% | -0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T02:55:10.715Z
-- Current candidates: 68
-- Passed / blocked: 6 / 62
+- Saved: 2026-07-04T03:06:52.759Z
+- Current candidates: 66
+- Passed / blocked: 6 / 60
 
 ### Top Blockers
-- Beats consensus: 57
-- Minimum edge: 55
-- Positive EV: 48
-- Model opinion: 44
-- Model ready: 19
-- Pregame: 17
-- DraftKings line: 4
+- Beats consensus: 55
+- Minimum edge: 54
+- Positive EV: 51
+- Model opinion: 42
+- Model ready: 17
+- Pregame: 15
+- DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +4000 | 6.5% | $166.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +205 | 48.1% | $46.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +295 | 34.2% | $34.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Colombia vs Ghana | Game too stale/live | +800 | 14.5% | $30.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +700 | 15.3% | $22.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +1500 | 7.5% | $19.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +290 | 28.3% | $10.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +108 | 51.9% | $8.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +392 | 21.1% | $3.91 | Edge under 1.5% — inside vig noise. |
+| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +5100 | 6.2% | $223.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +325 | 39.1% | $66.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +350 | 29.8% | $34.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +1750 | 6.4% | $18.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Colombia vs Ghana | Game too stale/live | +700 | 14.1% | $13.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Miami Marlins | Athletics vs Miami Marlins | Game too stale/live | -135 | 60.9% | $6.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.0% | $4.91 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | -203 | 70.2% | $4.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.8% | $1.74 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +125 | 45.0% | $1.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | -190 | 65.8% | $0.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
