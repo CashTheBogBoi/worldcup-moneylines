@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-04
 
-Generated: 2026-07-04T20:24:12.770Z
+Generated: 2026-07-04T20:28:33.312Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -23,7 +23,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Market move** — Minnesota Twins at New York Yankees: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Detroit Tigers at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at Seattle Mariners: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **Medium Soccer Market move** — France at Paraguay: France is priced at -525. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
+- **Medium Soccer Market move** — France at Paraguay: France is priced at -550. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — England at Mexico: Draw price is +220, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +220, which is short enough to demand draw-risk review before backing either side.
 
@@ -51,9 +51,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Minnesota Twins at New York Yankees | 2026-07-04T17:39:00Z | Minnesota Twins -1960, New York Yankees +790 |
-| Detroit Tigers at Texas Rangers | 2026-07-04T20:06:00Z | Detroit Tigers -272, Texas Rangers +200 |
-| Toronto Blue Jays at Seattle Mariners | 2026-07-04T20:11:00Z | Seattle Mariners -226, Toronto Blue Jays +169 |
+| Minnesota Twins at New York Yankees | 2026-07-04T17:39:00Z | Minnesota Twins -2400, New York Yankees +860 |
+| Detroit Tigers at Texas Rangers | 2026-07-04T20:06:00Z | Detroit Tigers -600, Texas Rangers +384 |
+| Toronto Blue Jays at Seattle Mariners | 2026-07-04T20:11:00Z | Seattle Mariners -178, Toronto Blue Jays +136 |
 | Baltimore Orioles at Cincinnati Reds | 2026-07-04T23:11:00Z | Baltimore Orioles +109, Cincinnati Reds -131 |
 | Chicago White Sox at Cleveland Guardians | 2026-07-04T23:11:00Z | Chicago White Sox +123, Cleveland Guardians -148 |
 | Tampa Bay Rays at Houston Astros | 2026-07-04T23:11:00Z | Houston Astros -118, Tampa Bay Rays -102 |
@@ -70,7 +70,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| France at Paraguay | 2026-07-04T21:00:00Z | France -525, Paraguay +1700, Draw +550 |
+| France at Paraguay | 2026-07-04T21:00:00Z | France -550, Paraguay +1800, Draw +550 |
 | Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -120, Norway +310, Draw +275 |
 | England at Mexico | 2026-07-06T00:00:00Z | England +140, Mexico +205, Draw +220 |
 | Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +295, Spain -110, Draw +265 |
