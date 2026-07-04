@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T03:28:16.148Z
+Updated: 2026-07-04T04:08:42.868Z
 
 ## Summary
 - Total tracked picks: 32
-- Pending: 11
-- Graded: 21
+- Pending: 9
+- Graded: 23
 - Wins: 8
-- Losses: 12
+- Losses: 14
 - Draws: 1
 - Intel review decisions saved: 14
 - Intel confirmed / denied / pending: 13 / 1 / 0
@@ -16,7 +16,7 @@ Updated: 2026-07-04T03:28:16.148Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | pending | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
-| Soccer | Colombia vs Ghana | Draw | pending | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
+| Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | win | -102 | -107 | 1.2 pts | 54.3% | 35% strength model + 65% market no-vig |
 | Soccer | Australia vs Egypt | Australia | loss | +278 | +275 | 0.2 pts | 30.8% | 45% strength model + 55% market no-vig |
 | Soccer | Portugal vs Spain | Portugal | pending | +322 | +322 | 0.0 pts | 28.0% | 45% strength model + 55% market no-vig |
@@ -27,9 +27,9 @@ Updated: 2026-07-04T03:28:16.148Z
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | loss | +700 | +765 | -0.9 pts | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | pending | +440 | +380 | 2.3 pts | 19.2% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | pending | +440 | +390 | 1.9 pts | 19.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Cape Verde | loss | +1900 | +2200 | -0.7 pts | 5.2% | Odds API no-vig only |
-| Soccer | Colombia vs Ghana | Ghana | pending | +705 | +835 | -1.7 pts | 13.1% | Odds API no-vig only |
+| Soccer | Colombia vs Ghana | Ghana | loss | +705 | +835 | -1.7 pts | 13.1% | Odds API no-vig only |
 | Soccer | Spain vs Austria | Austria | loss | +1000 | +1160 | -1.2 pts | 9.7% | Odds API no-vig only |
 | Soccer | Paraguay vs France | Paraguay | pending | +1800 | +2602 | -1.6 pts | 5.7% | Odds API no-vig only |
 | Soccer | Mexico vs England | Mexico | pending | +242 | +210 | 3.0 pts | 30.8% | 51% strength model + 49% market no-vig |
@@ -39,7 +39,7 @@ Updated: 2026-07-04T03:28:16.148Z
 | MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | -151 | -190 | 5.4 pts | 64.6% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | +135 | +335 | -19.6 pts | 47.3% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
-| Soccer | Mexico vs England | England | pending | +143 | +148 | -0.8 pts | 39.3% | 48% strength model + 52% market no-vig |
+| Soccer | Mexico vs England | England | pending | +143 | +149 | -1.0 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | win | -125 | -145 | 3.6 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | pending | -120 | -110 | -2.2 pts | 52.8% | Odds API no-vig only |
@@ -69,37 +69,35 @@ Updated: 2026-07-04T03:28:16.148Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 25 | 18 | 38.9% | 1.6 pts | 0.166 | -100.0% |
-| Passed gate | 7 | 3 | 33.3% | -0.1 pts | 0.149 | 0.0% |
+| Unknown gate | 25 | 19 | 36.8% | 1.6 pts | 0.158 | -100.0% |
+| Passed gate | 7 | 4 | 25.0% | -0.1 pts | 0.125 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T03:28:14.884Z
-- Current candidates: 66
-- Passed / blocked: 6 / 60
+- Saved: 2026-07-04T04:08:41.624Z
+- Current candidates: 64
+- Passed / blocked: 6 / 58
 
 ### Top Blockers
-- Beats consensus: 55
 - Minimum edge: 55
+- Beats consensus: 54
 - Positive EV: 48
-- Model opinion: 42
-- Model ready: 15
-- Pregame: 15
-- DraftKings line: 2
+- Model opinion: 40
+- Model ready: 10
+- Pregame: 10
+- DraftKings line: 5
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Ghana | Colombia vs Ghana | Game too stale/live | +90000 | 5.6% | $4963.62 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Colombia vs Ghana | Game too stale/live | +1800 | 9.4% | $79.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +2800 | 4.1% | $18.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +400 | 23.0% | $15.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | -230 | 77.0% | $10.43 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.0% | $4.91 | Edge under 1.5% — inside vig noise. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | -115 | 55.8% | $4.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.8% | $1.74 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | -105 | 51.9% | $1.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +110 | 48.1% | $1.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +430 | 19.0% | $0.84 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +1050 | 10.1% | $16.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | -135 | 65.0% | $13.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Switzerland vs Colombia | Needs DraftKings line | +258 | 30.4% | $8.71 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +550 | 16.5% | $7.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +200 | 35.0% | $4.90 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 20.9% | $4.29 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +3000 | 3.3% | $3.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +700 | 12.8% | $2.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.8% | $1.68 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Market-only, needs model input | +134 | 42.8% | $0.07 | Add team ratings/research prior or wait for the model to load enough context. |
 
 ## Workflow

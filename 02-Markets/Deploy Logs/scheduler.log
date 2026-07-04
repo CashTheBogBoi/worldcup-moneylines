@@ -1226,3 +1226,11 @@ Error: Command failed: npm run sync:firebase
 Node.js v24.17.0
 [2026-07-04T02:51:43.502Z] FAIL research exit=1
 ========== Morning slate scheduled run FAILED 2026-07-04T02:51:43.502Z ==========
+
+> worldcup-moneylines@0.1.0 schedule:nightly
+> node scripts/schedule-run.mjs nightly
+
+
+========== Nightly review scheduled run started 2026-07-04T04:00:04.578Z ==========
+
+[2026-07-04T04:00:04.582Z] START research: npm run research:nightly
