@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-04
 
-Generated: 2026-07-04T12:38:05.509Z
+Generated: 2026-07-04T14:27:39.188Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -28,8 +28,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Pittsburgh Pirates at Washington Nationals | Scheduled | Braxton Ashcraft | Zack Littell |  |
-| Minnesota Twins at New York Yankees | Scheduled | Zebby Matthews | Brendan Beck |  |
+| Pittsburgh Pirates at Washington Nationals | Pre-Game | Braxton Ashcraft | Carson Palmquist | 0-0 |
+| Minnesota Twins at New York Yankees | Pre-Game | Zebby Matthews | Brendan Beck |  |
 | Detroit Tigers at Texas Rangers | Scheduled | Jack Flaherty | Kumar Rocker |  |
 | Toronto Blue Jays at Seattle Mariners | Scheduled | Shane Bieber | Logan Gilbert |  |
 | Baltimore Orioles at Cincinnati Reds | Scheduled | Brandon Young | Hunter Greene |  |
@@ -48,27 +48,27 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-04T15:06:00Z | Pittsburgh Pirates -167, Washington Nationals +138 |
-| Minnesota Twins at New York Yankees | 2026-07-04T17:36:00Z | Minnesota Twins +135, New York Yankees -163 |
-| Detroit Tigers at Texas Rangers | 2026-07-04T20:06:00Z | Detroit Tigers -118, Texas Rangers -102 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-04T15:06:00Z | Pittsburgh Pirates -162, Washington Nationals +134 |
+| Minnesota Twins at New York Yankees | 2026-07-04T17:36:00Z | Minnesota Twins +134, New York Yankees -162 |
+| Detroit Tigers at Texas Rangers | 2026-07-04T20:06:00Z | Detroit Tigers -120, Texas Rangers -101 |
 | Toronto Blue Jays at Seattle Mariners | 2026-07-04T20:11:00Z | Seattle Mariners -163, Toronto Blue Jays +135 |
-| Baltimore Orioles at Cincinnati Reds | 2026-07-04T23:11:00Z | Baltimore Orioles +104, Cincinnati Reds -125 |
+| Baltimore Orioles at Cincinnati Reds | 2026-07-04T23:11:00Z | Baltimore Orioles +109, Cincinnati Reds -132 |
 | Chicago White Sox at Cleveland Guardians | 2026-07-04T23:11:00Z | Chicago White Sox +119, Cleveland Guardians -144 |
-| Tampa Bay Rays at Houston Astros | 2026-07-04T23:11:00Z | Houston Astros -111, Tampa Bay Rays -108 |
+| Tampa Bay Rays at Houston Astros | 2026-07-04T23:11:00Z | Houston Astros -110, Tampa Bay Rays -110 |
 | New York Mets at Atlanta Braves | 2026-07-05T00:09:00Z | Atlanta Braves -175, New York Mets +144 |
 | St. Louis Cardinals at Chicago Cubs | 2026-07-05T00:09:00Z | Chicago Cubs -162, St. Louis Cardinals +134 |
-| San Francisco Giants at Colorado Rockies | 2026-07-05T00:11:00Z | Colorado Rockies +109, San Francisco Giants -131 |
-| Philadelphia Phillies at Kansas City Royals | 2026-07-05T00:11:00Z | Kansas City Royals +129, Philadelphia Phillies -155 |
-| Boston Red Sox at Los Angeles Angels | 2026-07-05T01:39:00Z | Boston Red Sox -167, Los Angeles Angels +138 |
-| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T01:41:00Z | Arizona Diamondbacks +129, Milwaukee Brewers -157 |
-| Miami Marlins at Athletics | 2026-07-05T01:41:00Z | Athletics +104, Miami Marlins -125 |
-| San Diego Padres at Los Angeles Dodgers | 2026-07-05T02:11:00Z | Los Angeles Dodgers -267, San Diego Padres +215 |
+| San Francisco Giants at Colorado Rockies | 2026-07-05T00:11:00Z | Colorado Rockies +109, San Francisco Giants -132 |
+| Philadelphia Phillies at Kansas City Royals | 2026-07-05T00:11:00Z | Kansas City Royals +129, Philadelphia Phillies -156 |
+| Boston Red Sox at Los Angeles Angels | 2026-07-05T01:39:00Z | Boston Red Sox -171, Los Angeles Angels +141 |
+| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T01:41:00Z | Arizona Diamondbacks +129, Milwaukee Brewers -156 |
+| Miami Marlins at Athletics | 2026-07-05T01:41:00Z | Athletics +108, Miami Marlins -131 |
+| San Diego Padres at Los Angeles Dodgers | 2026-07-05T02:11:00Z | Los Angeles Dodgers -259, San Diego Padres +209 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Morocco at Canada | 2026-07-04T17:00:00Z | Canada +450, Morocco -140, Draw +250 |
+| Morocco at Canada | 2026-07-04T17:00:00Z | Canada +475, Morocco -145, Draw +250 |
 | France at Paraguay | 2026-07-04T21:00:00Z | France -575, Paraguay +1800, Draw +550 |
 | Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -125, Norway +320, Draw +285 |
 | England at Mexico | 2026-07-06T00:00:00Z | England +140, Mexico +205, Draw +220 |
