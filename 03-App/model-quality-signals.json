@@ -1,36 +1,35 @@
 {
-  "dateKey": "2026-07-02",
-  "generatedAt": "2026-07-03T03:54:09.847Z",
+  "dateKey": "2026-07-04",
+  "generatedAt": "2026-07-04T04:12:29.974Z",
   "summary": {
-    "picks": 21,
-    "settled": 9,
-    "wins": 4,
-    "misses": 5,
-    "winRate": 0.4444444444444444,
-    "excludedFromCalibration": 17,
-    "avgClv": -0.0010157186209850122,
-    "avgBrier": 0.3263574686093255,
-    "modelBrier": null,
-    "marketBrier": null,
+    "picks": 10,
+    "settled": 2,
+    "wins": 0,
+    "misses": 2,
+    "winRate": 0,
+    "excludedFromCalibration": 5,
+    "avgClv": 0.005387077537250237,
+    "avgBrier": 0.05213767958011415,
+    "modelBrier": 0.06150068647483672,
+    "marketBrier": 0.047020405572694955,
     "highConfidenceMisses": 0
   },
   "missPatterns": [
     {
-      "label": "MLB variance/context miss",
-      "count": 3,
-      "avgClv": -0.05527710920227428,
-      "avgBrier": 0.2250343521238005
+      "label": "Unclassified miss",
+      "count": 1,
+      "avgClv": 0.00900260601753139,
+      "avgBrier": 0.05213767958011415
     },
     {
       "label": "Negative CLV miss",
-      "count": 2,
-      "avgClv": -0.01665248786105833,
-      "avgBrier": 0.0235062466158366
+      "count": 1,
+      "avgClv": -0.01727173082671804,
+      "avgBrier": 0.017060610811126444
     }
   ],
   "recommendations": [
-    "Line selection is hurting the model: average CLV is negative. Prioritize freshness, DraftKings comparison, and stale-line blocks before changing probability math.",
-    "MLB misses need starter, bullpen, lineup, and line-movement context before changing base team-strength weights."
+    "No urgent tuning change detected. Keep collecting CLV and settled outcomes."
   ],
-  "reviewedPickCount": 21
+  "reviewedPickCount": 10
 }

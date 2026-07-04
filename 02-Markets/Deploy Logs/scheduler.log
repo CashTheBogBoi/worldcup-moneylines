@@ -1234,3 +1234,107 @@ Node.js v24.17.0
 ========== Nightly review scheduled run started 2026-07-04T04:00:04.578Z ==========
 
 [2026-07-04T04:00:04.582Z] START research: npm run research:nightly
+
+> worldcup-moneylines@0.1.0 research:nightly
+> node scripts/research-cycle.mjs nightly
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-04
+Wrote data/daily/2026-07-04/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-04.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-06-11, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 9.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-04.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-04T04:12:26.762Z counts {"pending":9,"loss":14,"win":8,"draw":1}
+stats-history updatedAt: 2026-07-04T04:08:41.597Z
+
+> worldcup-moneylines@0.1.0 review:daily
+> node scripts/review-daily.mjs
+
+Daily review written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-04.md
+Reviewed 10 picks (2 settled). Avg CLV -0.3 pts.
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-04 nightly.md
+[2026-07-04T04:12:29.846Z] PASS research exit=0
+
+[2026-07-04T04:12:29.846Z] START model-quality: npm run review:model-quality
+
+> worldcup-moneylines@0.1.0 review:model-quality
+> node scripts/review-model-quality.mjs
+
+Model quality review written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-04.md
+Model quality signals written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-quality-signals.json
+[2026-07-04T04:12:29.979Z] PASS model-quality exit=0
+
+[2026-07-04T04:12:29.979Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-egDMOIEm.css      39.37 kB │ gzip:   6.67 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-BCQylR2U.js      480.38 kB │ gzip: 124.88 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 186ms
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-04T04:12:37.698Z] FAIL deploy exit=1
+========== Nightly review scheduled run FAILED 2026-07-04T04:12:37.698Z ==========
+Nightly review scheduled run failed.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
