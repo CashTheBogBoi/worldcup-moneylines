@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T20:29:12.684Z
+Updated: 2026-07-04T20:47:48.656Z
 
 ## Summary
-- Total tracked picks: 32
-- Pending: 8
+- Total tracked picks: 36
+- Pending: 12
 - Graded: 24
 - Wins: 8
 - Losses: 15
@@ -15,6 +15,10 @@ Updated: 2026-07-04T20:29:12.684Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +260 | 0.0 pts | 30.1% | 37% strength model + 63% market no-vig |
+| MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | pending | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
+| MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | pending | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
+| MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | pending | +136 | +136 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | loss | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
 | Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | win | -102 | -107 | 1.2 pts | 54.3% | 35% strength model + 65% market no-vig |
@@ -70,10 +74,10 @@ Updated: 2026-07-04T20:29:12.684Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 19 | 36.8% | 1.6 pts | 0.158 | -100.0% |
-| Passed gate | 7 | 5 | 20.0% | 0.2 pts | 0.149 | 0.0% |
+| Passed gate | 11 | 5 | 20.0% | 0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T20:29:11.732Z
+- Saved: 2026-07-04T20:47:46.878Z
 - Current candidates: 49
 - Passed / blocked: 9 / 40
 

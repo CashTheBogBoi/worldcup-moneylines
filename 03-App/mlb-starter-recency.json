@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-07-04T20:37:11.548Z",
+  "source": "/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/mlb-training-table.json",
+  "rowCounts": {
+    "totalRaw": 10616,
+    "coldStartExcluded": 639,
+    "train": 7676,
+    "validation": 2301
+  },
+  "variants": {
+    "season": {
+      "label": "Season-to-date (current v2 + earlier full-feature experiment)",
+      "starterWeight": 0.03949612807323629,
+      "weights": [
+        0.09055213460371203,
+        -0.03071444392551196,
+        -0.14032411234203748,
+        0.004213035121997503,
+        0.09905857251372942,
+        0.08524885503842185,
+        0.05417602706992137,
+        -0.0015596094408876146,
+        0.03485198615833981,
+        -0.018484906177002096,
+        -0.014594904911355124,
+        0.017144367294514882,
+        0.03949612807323629
+      ],
+      "bias": 0.146981260537325,
+      "train": {
+        "games": 7676,
+        "accuracy": 0.572303282959875,
+        "avgBrier": 0.24180046608640302
+      },
+      "holdout": {
+        "games": 2301,
+        "accuracy": 0.5601912212081703,
+        "avgBrier": 0.24500920770391021
+      }
+    },
+    "recent3": {
+      "label": "Trailing last-3 starts",
+      "starterWeight": 0.015879375519592977,
+      "weights": [
+        0.09132638891216899,
+        -0.03131522310400016,
+        -0.15211768757689084,
+        0.0050162310161016715,
+        0.0990583686166632,
+        0.0855484946648689,
+        0.05372764099956343,
+        -0.0015236371190566241,
+        0.03513133207225982,
+        -0.01733399202922612,
+        -0.014229534934206945,
+        0.016441348339145463,
+        0.015879375519592977
+      ],
+      "bias": 0.14695213122407813,
+      "train": {
+        "games": 7676,
+        "accuracy": 0.5745179781136008,
+        "avgBrier": 0.24186313463096115
+      },
+      "holdout": {
+        "games": 2301,
+        "accuracy": 0.5545415036940461,
+        "avgBrier": 0.24508000478269282
+      }
+    },
+    "recent5": {
+      "label": "Trailing last-5 starts",
+      "starterWeight": 0.022230062468120253,
+      "weights": [
+        0.09107743671791663,
+        -0.03146148654974952,
+        -0.1500958014478001,
+        0.005142786280703917,
+        0.09911185650552874,
+        0.08550500477870547,
+        0.05385025816506971,
+        -0.0013665725339222386,
+        0.03467386250134594,
+        -0.017727225075015497,
+        -0.014212071539066909,
+        0.016753963833008235,
+        0.022230062468120253
+      ],
+      "bias": 0.14695984146307314,
+      "train": {
+        "games": 7676,
+        "accuracy": 0.5754299114121939,
+        "avgBrier": 0.24184697395718285
+      },
+      "holdout": {
+        "games": 2301,
+        "accuracy": 0.5545415036940461,
+        "avgBrier": 0.2450431539166291
+      }
+    }
+  },
+  "v2LiveModelReplica": {
+    "train": {
+      "games": 7676,
+      "accuracy": 0.5698280354351225,
+      "avgBrier": 0.24305528376850336
+    },
+    "holdout": {
+      "games": 2301,
+      "accuracy": 0.5597566275532377,
+      "avgBrier": 0.24508948001178202
+    }
+  },
+  "comparisons": {
+    "seasonVsV2": {
+      "meanBrierImprovement": 0.00008027230787196316,
+      "standardError": 0.0006766462108743382,
+      "tStat": 0.11863261270352513,
+      "pValue": 0.9055663387802149,
+      "significant": false
+    },
+    "recent3VsV2": {
+      "meanBrierImprovement": 0.000009475229089362479,
+      "standardError": 0.0007213251573897364,
+      "tStat": 0.013135863892021381,
+      "pValue": 0.9895193402962517,
+      "significant": false
+    },
+    "recent5VsV2": {
+      "meanBrierImprovement": 0.00004632609515286117,
+      "standardError": 0.0007207308462117031,
+      "tStat": 0.06427655399565572,
+      "pValue": 0.9487498826721794,
+      "significant": false
+    },
+    "recent3VsSeason": {
+      "meanBrierImprovement": -0.00007079707878260184,
+      "standardError": 0.0001486400575230741,
+      "tStat": -0.47629878487911426,
+      "pValue": 0.6338615536765448,
+      "significant": false
+    },
+    "recent5VsSeason": {
+      "meanBrierImprovement": -0.00003394621271910386,
+      "standardError": 0.0001537122546513732,
+      "tStat": -0.22084259186813376,
+      "pValue": 0.8252150772997482,
+      "significant": false
+    },
+    "recent3VsRecent5": {
+      "meanBrierImprovement": -0.00003685086606349803,
+      "standardError": 0.00007602160216237684,
+      "tStat": -0.48474203404431215,
+      "pValue": 0.6278593591220356,
+      "significant": false
+    }
+  },
+  "verdict": {
+    "bestHoldoutBrier": "season",
+    "recentFormBeatsSeasonToDateSignificantly": false,
+    "anyVariantBeatsV2Significantly": false
+  }
+}

@@ -1,6 +1,6 @@
 # MLB Training Table - 2026-07-02
 
-Generated: 2026-07-02T04:43:03.693Z
+Generated: 2026-07-04T20:35:36.563Z
 
 This file documents the first true ML-ready MLB training table for the project. The output table is:
 
@@ -46,7 +46,8 @@ The odds archive mostly overlaps the 2020-2021 part of the game-info file. Rows 
 ## Pregame Feature Families
 
 - Team season-to-date form before the game: wins, runs, run differential, hits, walks, homers, strikeouts, errors, and pitchers used.
-- Starter history before the game: prior starts, runs allowed per start, team earned runs per start, and starter win percentage.
+- Starter history before the game: prior starts, season-to-date runs allowed per start, team earned runs per start, and starter win percentage.
+- Starter RECENT FORM (added 2026-07-04): trailing last-3 and last-5 start runs-allowed average, season-scoped (resets each year — a start from last September isn't "recent" for an April outing), null until the starter has made that many starts this season. `starterRecent3RaDiffBefore` / `starterRecent5RaDiffBefore` are the away-minus-home differential versions, same sign convention as `starterRaDiffBefore`. See [[MLB Starter Recent Form - 2026-07-04]] for the hypothesis test against the season-to-date version.
 - Differential features: home minus away win rate, offense, defense, run differential, strikeout edge, fielding edge, bullpen load, and starter run-allowed gap.
 - Market features when available: moneyline, implied probability, no-vig probability, overround, total, run line, and run-line odds.
 
