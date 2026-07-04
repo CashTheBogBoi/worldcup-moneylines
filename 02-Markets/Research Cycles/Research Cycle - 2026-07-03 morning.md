@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-03
 
-Generated: 2026-07-03T16:58:23.848Z
-Local time: 12:58 PM
+Generated: 2026-07-04T00:29:10.405Z
+Local time: 8:29 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,66 +13,69 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-03T16:57:24.000Z
-- MLB odds events: 13
-- Soccer odds events: 9
-- High-impact intel blocks: 1
-- Intel pending / confirmed / denied: 2 / 3 / 0
-- Pending tracked picks: 11
-- Tracked gate status passed / blocked / unknown: 1 / 0 / 25
+- Snapshot generated: 2026-07-04T00:29:02.539Z
+- MLB odds events: 27
+- Soccer odds events: 8
+- High-impact intel blocks: 7
+- Intel pending / confirmed / denied: 8 / 1 / 0
+- Pending tracked picks: 12
+- Tracked gate status passed / blocked / unknown: 7 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Starters / pending:** San Francisco Giants at Colorado Rockies — Official starter is still TBD (TBD vs Ryan Feltner). Block Bankroll Watch promotion until both starters are confirmed.
+- **MLB / Market move / pending:** Pittsburgh Pirates at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Minnesota Twins at New York Yankees — Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Baltimore Orioles at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago White Sox at Cleveland Guardians — Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Mets at Atlanta Braves — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** San Francisco Giants at Colorado Rockies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Tampa Bay Rays at Houston Astros — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
-| Game | Start | Away starter | Home starter | Status |
-| --- | --- | --- | --- | --- |
-| San Francisco Giants at Colorado Rockies | Jul 3, 8:10 PM | TBD | Ryan Feltner | Scheduled |
+_No rows._
 
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| St. Louis Cardinals at Chicago Cubs | Jul 3, 4:05 PM | 188 | Chicago Cubs -131, St. Louis Cardinals +108 | 11 |
-| Pittsburgh Pirates at Washington Nationals | Jul 3, 6:45 PM | 348 | Pittsburgh Pirates +129, Washington Nationals -156 | 11 |
-| Minnesota Twins at New York Yankees | Jul 3, 7:05 PM | 368 | Minnesota Twins +158, New York Yankees -193 | 11 |
-| Baltimore Orioles at Cincinnati Reds | Jul 3, 7:10 PM | 373 | Baltimore Orioles -125, Cincinnati Reds +104 | 11 |
-| Chicago White Sox at Cleveland Guardians | Jul 3, 7:10 PM | 373 | Chicago White Sox +109, Cleveland Guardians -132 | 11 |
-| New York Mets at Atlanta Braves | Jul 3, 7:15 PM | 378 | Atlanta Braves -108, New York Mets -111 | 11 |
-| San Francisco Giants at Colorado Rockies | Jul 3, 8:10 PM | 433 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
-| Tampa Bay Rays at Houston Astros | Jul 3, 8:15 PM | 438 | Houston Astros -108, Tampa Bay Rays -111 | 11 |
-| Boston Red Sox at Los Angeles Angels | Jul 3, 9:38 PM | 521 | Boston Red Sox -108, Los Angeles Angels -112 | 11 |
-| Miami Marlins at Athletics | Jul 3, 9:40 PM | 523 | Athletics -137, Miami Marlins +114 | 11 |
-| Milwaukee Brewers at Arizona Diamondbacks | Jul 3, 9:45 PM | 528 | Arizona Diamondbacks +123, Milwaukee Brewers -149 | 11 |
-| San Diego Padres at Los Angeles Dodgers | Jul 3, 10:10 PM | 553 | Los Angeles Dodgers -251, San Diego Padres +203 | 11 |
+| Boston Red Sox at Los Angeles Angels | Jul 3, 9:38 PM | 69 | Boston Red Sox -105, Los Angeles Angels -114 | 11 |
+| Miami Marlins at Athletics | Jul 3, 9:40 PM | 71 | Athletics -143, Miami Marlins +119 | 11 |
+| Milwaukee Brewers at Arizona Diamondbacks | Jul 3, 9:45 PM | 76 | Arizona Diamondbacks +119, Milwaukee Brewers -144 | 11 |
+| San Diego Padres at Los Angeles Dodgers | Jul 3, 10:10 PM | 101 | Los Angeles Dodgers -260, San Diego Padres +210 | 11 |
+| Toronto Blue Jays at Seattle Mariners | Jul 3, 10:10 PM | 101 | Seattle Mariners +109, Toronto Blue Jays -132 | 11 |
+| Pittsburgh Pirates at Washington Nationals | Jul 4, 11:06 AM | 877 | Pittsburgh Pirates -156, Washington Nationals +129 | 9 |
+| Minnesota Twins at New York Yankees | Jul 4, 1:36 PM | 1027 | DK missing | 4 |
+| Detroit Tigers at Texas Rangers | Jul 4, 4:06 PM | 1177 | Detroit Tigers -115, Texas Rangers -104 | 9 |
+| Toronto Blue Jays at Seattle Mariners | Jul 4, 4:11 PM | 1182 | Seattle Mariners -163, Toronto Blue Jays +135 | 8 |
+| Baltimore Orioles at Cincinnati Reds | Jul 4, 7:11 PM | 1362 | Baltimore Orioles +104, Cincinnati Reds -125 | 9 |
+| Chicago White Sox at Cleveland Guardians | Jul 4, 7:11 PM | 1362 | Chicago White Sox +119, Cleveland Guardians -143 | 9 |
+| Tampa Bay Rays at Houston Astros | Jul 4, 7:11 PM | 1362 | Houston Astros -110, Tampa Bay Rays -110 | 8 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Egypt at Australia | Jul 3, 2:00 PM | 63 | Australia +260, Egypt +140, Draw +190 | 9 |
-| Cape Verde at Argentina | Jul 3, 6:00 PM | 303 | Argentina -650, Cape Verde +1800, Draw +700 | 9 |
-| Ghana at Colombia | Jul 3, 9:30 PM | 513 | Colombia -230, Ghana +750, Draw +340 | 9 |
-| Morocco at Canada | Jul 4, 1:00 PM | 1443 | Canada +400, Morocco -125, Draw +250 | 9 |
-| France at Paraguay | Jul 4, 5:00 PM | 1683 | France -525, Paraguay +1800, Draw +600 | 9 |
-| Norway at Brazil | Jul 5, 4:00 PM | 3063 | Brazil -120, Norway +320, Draw +280 | 9 |
-| England at Mexico | Jul 5, 8:00 PM | 3303 | England +140, Mexico +220, Draw +215 | 9 |
-| Spain at Portugal | Jul 6, 3:00 PM | 4443 | Portugal +300, Spain -105, Draw +260 | 9 |
-| Belgium at USA | Jul 6, 8:00 PM | 4743 | Belgium +180, USA +155, Draw +240 | 9 |
+| Ghana at Colombia | Jul 3, 9:30 PM | 61 | Colombia -235, Ghana +750, Draw +330 | 9 |
+| Morocco at Canada | Jul 4, 1:00 PM | 991 | Canada +360, Morocco -115, Draw +235 | 9 |
+| France at Paraguay | Jul 4, 5:00 PM | 1231 | France -525, Paraguay +1600, Draw +550 | 9 |
+| Norway at Brazil | Jul 5, 4:00 PM | 2611 | Brazil -120, Norway +310, Draw +275 | 9 |
+| England at Mexico | Jul 5, 8:00 PM | 2851 | England +145, Mexico +205, Draw +215 | 9 |
+| Spain at Portugal | Jul 6, 3:00 PM | 3991 | Portugal +295, Spain -110, Draw +265 | 9 |
+| Belgium at USA | Jul 6, 8:00 PM | 4291 | Belgium +155, USA +170, Draw +240 | 9 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| Soccer | Brazil vs Norway | Norway | +330 | +360 | 23.3% | Odds API no-vig only |
-| Soccer | Australia vs Egypt | Egypt | +155 | +141 | 38.3% | Odds API no-vig only |
-| Soccer | Australia vs Egypt | Draw | +195 | +190 | 33.2% | Odds API no-vig only |
+| MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | +113 | +116 | 49.4% | 35% strength model + 65% market no-vig |
+| Soccer | Colombia vs Ghana | Draw | +369 | +350 | 22.8% | 45% strength model + 55% market no-vig |
+| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | -102 | -107 | 54.3% | 35% strength model + 65% market no-vig |
+| Soccer | Portugal vs Spain | Portugal | +322 | +322 | 28.0% | 45% strength model + 55% market no-vig |
+| Soccer | Paraguay vs France | Draw | +720 | +702 | 15.8% | 45% strength model + 55% market no-vig |
+| Soccer | Brazil vs Norway | Norway | +330 | +367 | 23.3% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | +700 | +765 | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | +440 | +435 | 19.2% | Odds API no-vig only |
-| Soccer | Argentina vs Cape Verde | Cape Verde | +1900 | +2463 | 5.2% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | +440 | +390 | 19.2% | Odds API no-vig only |
+| Soccer | Argentina vs Cape Verde | Cape Verde | +1900 | +2200 | 5.2% | Odds API no-vig only |
 | Soccer | Colombia vs Ghana | Ghana | +705 | +825 | 13.1% | Odds API no-vig only |
-| Soccer | Paraguay vs France | Paraguay | +1800 | +2855 | 5.7% | Odds API no-vig only |
-| Soccer | Mexico vs England | Mexico | +242 | +220 | 30.8% | 51% strength model + 49% market no-vig |
-| Soccer | Mexico vs England | England | +143 | +148 | 39.3% | 48% strength model + 52% market no-vig |
-| Soccer | Canada vs Morocco | Morocco | -120 | -125 | 52.8% | Odds API no-vig only |
+| Soccer | Paraguay vs France | Paraguay | +1800 | +2412 | 5.7% | Odds API no-vig only |
+| Soccer | Mexico vs England | Mexico | +242 | +210 | 30.8% | 51% strength model + 49% market no-vig |
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.

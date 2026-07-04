@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T00:07:24.681Z
+Updated: 2026-07-04T00:29:25.282Z
 
 ## Summary
 - Total tracked picks: 32
@@ -27,9 +27,9 @@ Updated: 2026-07-04T00:07:24.681Z
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | pending | +700 | +765 | -0.9 pts | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | pending | +440 | +390 | 1.9 pts | 19.2% | Odds API no-vig only |
+| Soccer | Canada vs Morocco | Canada | pending | +440 | +392 | 1.8 pts | 19.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Cape Verde | pending | +1900 | +2200 | -0.7 pts | 5.2% | Odds API no-vig only |
-| Soccer | Colombia vs Ghana | Ghana | pending | +705 | +825 | -1.6 pts | 13.1% | Odds API no-vig only |
+| Soccer | Colombia vs Ghana | Ghana | pending | +705 | +835 | -1.7 pts | 13.1% | Odds API no-vig only |
 | Soccer | Spain vs Austria | Austria | loss | +1000 | +1160 | -1.2 pts | 9.7% | Odds API no-vig only |
 | Soccer | Paraguay vs France | Paraguay | pending | +1800 | +2412 | -1.3 pts | 5.7% | Odds API no-vig only |
 | Soccer | Mexico vs England | Mexico | pending | +242 | +210 | 3.0 pts | 30.8% | 51% strength model + 49% market no-vig |
@@ -69,38 +69,37 @@ Updated: 2026-07-04T00:07:24.681Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Unknown gate | 25 | 16 | 43.8% | 1.7 pts | 0.185 | -100.0% |
+| Unknown gate | 25 | 16 | 43.8% | 1.6 pts | 0.185 | -100.0% |
 | Passed gate | 7 | 2 | 0.0% | -0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T00:07:23.730Z
-- Current candidates: 78
-- Passed / blocked: 11 / 67
+- Saved: 2026-07-04T00:29:24.316Z
+- Current candidates: 75
+- Passed / blocked: 10 / 65
 
 ### Top Blockers
 - Minimum edge: 59
-- Positive EV: 50
-- Beats consensus: 42
-- Model ready: 17
-- Pregame: 13
+- Positive EV: 48
+- Beats consensus: 39
+- Model ready: 18
+- Pregame: 14
 - DraftKings line: 4
-- Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +50000 | 2.4% | $1103.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Argentina | Argentina vs Cape Verde | Game too stale/live | +3500 | 10.1% | $263.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +359 | 33.9% | $55.62 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +670 | 19.0% | $45.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 67.4% | $31.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +260 | 32.6% | $17.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +175 | 41.4% | $13.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | -455 | 87.5% | $6.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +231 | 31.4% | $4.01 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +233 | 31.1% | $3.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +219 | 32.3% | $3.04 | Edge under 1.5% — inside vig noise. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +220 | 64.1% | $105.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +1000 | 16.2% | $78.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +325 | 35.9% | $52.59 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +550 | 22.5% | $46.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | Colorado Rockies vs San Francisco Giants | Game too stale/live | +320 | 30.5% | $28.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +230 | 32.2% | $6.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +231 | 31.4% | $3.96 | Edge under 1.5% — inside vig noise. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +225 | 32.0% | $3.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +220 | 32.3% | $3.26 | Edge under 1.5% — inside vig noise. |
+| Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.7% | $2.00 | Edge under 1.5% — inside vig noise. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.8% | $1.74 | Edge under 1.5% — inside vig noise. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Minimum edge | +130 | 44.1% | $1.43 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
