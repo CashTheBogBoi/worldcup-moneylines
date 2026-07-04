@@ -1,13 +1,12 @@
 # Auto Grading - 2026-07-04
 
-Generated: 2026-07-04T04:12:26.765Z
-Data snapshot: 2026-07-04T04:00:04.887Z
+Generated: 2026-07-04T08:31:30.756Z
+Data snapshot: 2026-07-04T08:31:25.616Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
-- MLB / Seattle Mariners vs Toronto Blue Jays / Seattle Mariners (2026-07-04T02:10:00Z)
 - Soccer / Portugal vs Spain / Portugal (2026-07-06T19:00:00Z)
 - Soccer / Paraguay vs France / Draw (2026-07-04T21:00:00Z)
 - Soccer / Brazil vs Norway / Norway (2026-07-05T20:00:00Z)
