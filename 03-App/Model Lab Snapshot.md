@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T21:02:24.651Z
+Updated: 2026-07-04T21:13:59.612Z
 
 ## Summary
-- Total tracked picks: 36
-- Pending: 12
+- Total tracked picks: 37
+- Pending: 13
 - Graded: 24
 - Wins: 8
 - Losses: 15
@@ -15,6 +15,7 @@ Updated: 2026-07-04T21:02:24.651Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| Soccer | Argentina vs Egypt | Egypt | pending | +940 | - | - | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +260 | 0.0 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | pending | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | pending | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
@@ -74,15 +75,15 @@ Updated: 2026-07-04T21:02:24.651Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 19 | 36.8% | 1.6 pts | 0.158 | -100.0% |
-| Passed gate | 11 | 5 | 20.0% | 0.1 pts | 0.149 | 0.0% |
+| Passed gate | 12 | 5 | 20.0% | 0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T21:02:23.694Z
+- Saved: 2026-07-04T21:13:57.928Z
 - Current candidates: 49
 - Passed / blocked: 4 / 45
 
 ### Top Blockers
-- Minimum edge: 41
+- Minimum edge: 42
 - Positive EV: 32
 - Model ready: 31
 - Pregame: 31
@@ -91,18 +92,18 @@ Updated: 2026-07-04T21:02:24.651Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | New York Yankees | New York Yankees vs Minnesota Twins | Game too stale/live | +1150 | 18.6% | $132.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Game too stale/live | +475 | 28.1% | $61.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Yankees | New York Yankees vs Minnesota Twins | Game too stale/live | +1150 | 15.6% | $94.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Game too stale/live | +475 | 26.2% | $50.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Paraguay | Paraguay vs France | Game too stale/live | +1800 | 7.4% | $40.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Paraguay vs France | Game too stale/live | +600 | 15.1% | $5.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.2% | $3.94 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +147 | 42.0% | $3.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +215 | 32.6% | $2.79 | Edge under 1.5% — inside vig noise. |
-| MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +160 | 39.5% | $2.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +118 | 46.5% | $1.45 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +136 | 42.8% | $1.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +220 | 31.6% | $1.06 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Houston Astros vs Tampa Bay Rays | Game too stale/live | +105 | 49.2% | $0.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +147 | 41.3% | $2.06 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Game too stale/live | +160 | 39.1% | $1.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Belgium | USA vs Belgium | Minimum edge | +170 | 37.2% | $0.53 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +118 | 46.0% | $0.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Tampa Bay Rays | Houston Astros vs Tampa Bay Rays | Game too stale/live | +105 | 48.9% | $0.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +220 | 31.3% | $0.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
