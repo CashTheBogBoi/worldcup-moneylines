@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T16:27:30.858Z
+Updated: 2026-07-04T16:31:00.892Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,12 +73,12 @@ Updated: 2026-07-04T16:27:30.858Z
 | Passed gate | 7 | 5 | 20.0% | 0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T16:27:29.930Z
+- Saved: 2026-07-04T16:30:59.954Z
 - Current candidates: 54
-- Passed / blocked: 10 / 44
+- Passed / blocked: 9 / 45
 
 ### Top Blockers
-- Minimum edge: 43
+- Minimum edge: 44
 - Positive EV: 33
 - Beats consensus: 29
 - Model ready: 2
@@ -87,17 +87,18 @@ Updated: 2026-07-04T16:27:30.858Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +900 | 18.7% | $87.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +750 | 20.3% | $72.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.3% | $4.13 | Edge under 1.5% — inside vig noise. |
 | MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Minimum edge | +134 | 44.1% | $3.25 | Edge under 1.5% — inside vig noise. |
 | MLB | Toronto Blue Jays | Seattle Mariners vs Toronto Blue Jays | Minimum edge | +150 | 41.3% | $3.19 | Edge under 1.5% — inside vig noise. |
+| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Minimum edge | +109 | 49.3% | $2.94 | Edge under 1.5% — inside vig noise. |
 | MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +216 | 32.5% | $2.57 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Minimum edge | +125 | 45.2% | $1.80 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.7% | $1.23 | Edge under 1.5% — inside vig noise. |
 | MLB | Athletics | Athletics vs Miami Marlins | Minimum edge | +116 | 46.8% | $1.13 | Edge under 1.5% — inside vig noise. |
 | MLB | Baltimore Orioles | Cincinnati Reds vs Baltimore Orioles | Minimum edge | +114 | 47.2% | $1.08 | Edge under 1.5% — inside vig noise. |
 | MLB | St. Louis Cardinals | Chicago Cubs vs St. Louis Cardinals | Minimum edge | +140 | 42.0% | $0.70 | Edge under 1.5% — inside vig noise. |
-| Soccer | Belgium | USA vs Belgium | Minimum edge | +170 | 37.3% | $0.61 | Edge under 1.5% — inside vig noise. |
+| Soccer | Belgium | USA vs Belgium | Minimum edge | +170 | 37.3% | $0.63 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

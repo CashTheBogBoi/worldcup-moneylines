@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-04
 
-Generated: 2026-07-04T16:23:53.122Z
+Generated: 2026-07-04T16:30:05.909Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -50,8 +50,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-04T15:06:00Z | Pittsburgh Pirates -2100, Washington Nationals +800 |
-| Minnesota Twins at New York Yankees | 2026-07-04T17:36:00Z | Minnesota Twins +124, New York Yankees -149 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-04T15:06:00Z | Pittsburgh Pirates -1200, Washington Nationals +610 |
+| Minnesota Twins at New York Yankees | 2026-07-04T17:36:00Z | Minnesota Twins +124, New York Yankees -150 |
 | Detroit Tigers at Texas Rangers | 2026-07-04T20:06:00Z | Detroit Tigers -118, Texas Rangers -102 |
 | Toronto Blue Jays at Seattle Mariners | 2026-07-04T20:11:00Z | Seattle Mariners -173, Toronto Blue Jays +143 |
 | Baltimore Orioles at Cincinnati Reds | 2026-07-04T23:11:00Z | Baltimore Orioles +109, Cincinnati Reds -131 |

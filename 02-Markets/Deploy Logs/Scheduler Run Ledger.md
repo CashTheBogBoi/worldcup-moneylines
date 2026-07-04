@@ -1,11 +1,12 @@
 # Scheduler Run Ledger
 
-Updated: 2026-07-04T16:24:07.739Z
+Updated: 2026-07-04T16:30:19.358Z
 
 This note is written by `scripts/schedule-run.mjs`. It shows whether each automated research window actually completed.
 
 | Started | Phase | Status | Duration | Data | Research | Review | Model Quality | Deploy |
 |---|---|---:|---:|---|---|---|---|---|
+| 2026-07-04T16:30:05.663Z | Pregame check | failed | 14s | 02-Markets/Daily Data Refresh - 2026-07-04.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-04 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
 | 2026-07-04T16:23:52.816Z | Morning slate | failed | 15s | 02-Markets/Daily Data Refresh - 2026-07-04.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-04 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
 | 2026-07-04T12:38:05.162Z | Morning slate | failed | 101s | 02-Markets/Daily Data Refresh - 2026-07-04.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-04 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
 | 2026-07-04T04:00:04.578Z | Nightly review | failed | 753s | 02-Markets/Daily Data Refresh - 2026-07-04.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-04 nightly.md | 02-Markets/Daily Reviews/Daily Review - 2026-07-04.md | 03-App/Model Quality Review - 2026-07-04.md | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
