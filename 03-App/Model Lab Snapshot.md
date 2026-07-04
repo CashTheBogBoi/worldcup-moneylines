@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-03T23:59:53.571Z
+Updated: 2026-07-04T00:07:24.681Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,33 +73,34 @@ Updated: 2026-07-03T23:59:53.571Z
 | Passed gate | 7 | 2 | 0.0% | -0.0 pts | 0.119 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-03T23:59:52.441Z
+- Saved: 2026-07-04T00:07:23.730Z
 - Current candidates: 78
-- Passed / blocked: 6 / 72
+- Passed / blocked: 11 / 67
 
 ### Top Blockers
-- Beats consensus: 69
-- Minimum edge: 64
-- Positive EV: 61
-- Model opinion: 57
+- Minimum edge: 59
+- Positive EV: 50
+- Beats consensus: 42
 - Model ready: 17
 - Pregame: 13
 - DraftKings line: 4
+- Model opinion: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Cape Verde | Argentina vs Cape Verde | Game too stale/live | +50000 | 2.4% | $1103.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Argentina | Argentina vs Cape Verde | Game too stale/live | +3500 | 10.1% | $263.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +359 | 30.1% | $37.95 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 68.6% | $34.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +260 | 31.4% | $12.89 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +175 | 39.8% | $9.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +359 | 33.9% | $55.62 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +670 | 19.0% | $45.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -105 | 67.4% | $31.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +260 | 32.6% | $17.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +175 | 41.4% | $13.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Cape Verde | Game too stale/live | -455 | 87.5% | $6.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Baltimore Orioles | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | -195 | 69.9% | $5.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +231 | 31.4% | $4.01 | Edge under 1.5% — inside vig noise. |
+| MLB | Minnesota Twins | New York Yankees vs Minnesota Twins | Game too stale/live | +233 | 31.1% | $3.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Minimum edge | +219 | 32.3% | $3.04 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 32.9% | $1.96 | Edge under 1.5% — inside vig noise. |
-| Soccer | Draw | Colombia vs Ghana | Minimum edge | +350 | 22.6% | $1.58 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +670 | 13.0% | $0.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
