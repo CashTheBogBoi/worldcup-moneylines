@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-04T09:46:25.298Z
+Updated: 2026-07-04T10:15:43.245Z
 
 ## Summary
 - Total tracked picks: 32
@@ -73,29 +73,32 @@ Updated: 2026-07-04T09:46:25.298Z
 | Passed gate | 7 | 5 | 20.0% | -0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-04T09:46:23.619Z
+- Saved: 2026-07-04T10:15:42.046Z
 - Current candidates: 54
-- Passed / blocked: 7 / 47
+- Passed / blocked: 0 / 54
 
 ### Top Blockers
+- Model ready: 54
+- Pregame: 54
 - Minimum edge: 45
-- Positive EV: 38
-- Model ready: 30
-- Pregame: 30
+- Positive EV: 39
 - Beats consensus: 29
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.0% | $4.82 | Edge under 1.5% — inside vig noise. |
+| Soccer | Paraguay | Paraguay vs France | Game too stale/live | +2505 | 6.9% | $78.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +950 | 12.6% | $32.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Brazil vs Norway | Game too stale/live | +367 | 25.2% | $17.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Paraguay vs France | Game too stale/live | +718 | 14.3% | $16.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Canada | Canada vs Morocco | Game too stale/live | +445 | 20.9% | $14.17 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Portugal | Portugal vs Spain | Game too stale/live | +322 | 25.4% | $7.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +265 | 28.9% | $5.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Washington Nationals | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +144 | 42.6% | $4.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +147 | 42.1% | $3.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +215 | 32.6% | $2.81 | Edge under 1.5% — inside vig noise. |
 | MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +215 | 32.4% | $2.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +116 | 47.0% | $1.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +135 | 43.0% | $1.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Texas Rangers | Texas Rangers vs Detroit Tigers | Game too stale/live | +105 | 49.0% | $0.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Cleveland Guardians vs Chicago White Sox | Game too stale/live | +128 | 43.9% | $0.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +400 | 20.3% | $1.26 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
