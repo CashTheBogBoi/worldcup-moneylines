@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T19:57:12.235Z
+Updated: 2026-07-05T20:17:13.244Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,15 +84,15 @@ Updated: 2026-07-05T19:57:12.235Z
 | Passed gate | 13 | 9 | 11.1% | -0.2 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T19:57:11.268Z
+- Saved: 2026-07-05T20:17:12.295Z
 - Current candidates: 61
-- Passed / blocked: 4 / 57
+- Passed / blocked: 3 / 58
 
 ### Top Blockers
 - Minimum edge: 51
 - Positive EV: 44
-- Model ready: 40
-- Pregame: 40
+- Model ready: 43
+- Pregame: 43
 - Beats consensus: 31
 - DraftKings line: 2
 
@@ -100,6 +100,7 @@ Updated: 2026-07-05T19:57:12.235Z
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | MLB | New York Yankees | New York Yankees vs Minnesota Twins | Game too stale/live | +330 | 28.2% | $21.13 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Brazil vs Norway | Game too stale/live | +390 | 23.9% | $17.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +200 | 37.3% | $12.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Baltimore Orioles | Cincinnati Reds vs Baltimore Orioles | Game too stale/live | +280 | 29.4% | $11.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | St. Louis Cardinals | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | +350 | 24.3% | $9.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
@@ -110,7 +111,6 @@ Updated: 2026-07-05T19:57:12.235Z
 | Soccer | Mexico | Mexico vs England | Minimum edge | +213 | 32.9% | $2.87 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.75 | Edge under 1.5% — inside vig noise. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +140 | 42.0% | $0.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +149 | 40.3% | $0.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
