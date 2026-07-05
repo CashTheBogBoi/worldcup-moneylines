@@ -1,12 +1,12 @@
 # Daily Review - 2026-07-05
 
-Generated: 2026-07-05T22:53:01.050Z
+Generated: 2026-07-05T23:52:48.725Z
 
 ## Executive Read
 - Tracked picks reviewed: 14
 - Settled picks: 9
 - Win rate: 22.2%
-- Average CLV: -0.4 pts
+- Average CLV: -0.3 pts
 - Beat-close rate: 21.4%
 - Average Brier: 0.200
 - Staked: $0.00
@@ -33,11 +33,11 @@ Generated: 2026-07-05T22:53:01.050Z
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | loss | +136 | +139 | -0.5 pts | 44.1% | 0.194 | - | $0.00 | open LowVig.ag; latest LowVig.ag; auto-graded; auto-close |
 | Soccer | Portugal vs Spain | Portugal | pending | +322 | +322 | 0.0 pts | 28.0% | - | - | - | open BetOnline.ag; latest BetOnline.ag; auto-close |
 | Soccer | Paraguay vs France | Draw | loss | +720 | +600 | 2.1 pts | 15.8% | 0.025 | - | $0.00 | open MyBookie.ag; latest Fanatics; auto-graded; auto-close |
-| Soccer | Brazil vs Norway | Norway | win | +330 | +390 | -2.8 pts | 23.3% | 0.589 | - | $0.00 | open BetRivers; latest BetOnline.ag; auto-close |
+| Soccer | Brazil vs Norway | Norway | win | +330 | +390 | -2.8 pts | 23.3% | 0.589 | - | $0.00 | open BetRivers; latest BetOnline.ag; auto-graded; auto-close |
 | Soccer | Canada vs Morocco | Canada | loss | +440 | +440 | 0.0 pts | 19.2% | 0.037 | - | $0.00 | latest MyBookie.ag; auto-graded; auto-close |
 | Soccer | Paraguay vs France | Paraguay | loss | +1800 | +1800 | 0.0 pts | 5.7% | 0.003 | - | $0.00 | latest DraftKings; auto-graded; auto-close |
-| Soccer | Mexico vs England | Mexico | pending | +242 | +210 | 3.0 pts | 30.8% | - | - | - | latest BetRivers; auto-close |
-| Soccer | Mexico vs England | England | pending | +143 | +160 | -2.7 pts | 39.3% | - | - | - | latest BetOnline.ag; auto-close |
+| Soccer | Mexico vs England | Mexico | pending | +242 | +213 | 2.7 pts | 30.8% | - | - | - | latest BetOnline.ag; auto-close |
+| Soccer | Mexico vs England | England | pending | +143 | +156 | -2.1 pts | 39.3% | - | - | - | latest BetOnline.ag; auto-close |
 | Soccer | Canada vs Morocco | Morocco | win | -120 | -120 | 0.0 pts | 52.8% | 0.222 | - | $0.00 | latest BetMGM; auto-graded; auto-close |
 
 ## Sport Splits
@@ -49,7 +49,7 @@ Generated: 2026-07-05T22:53:01.050Z
 ## Confidence Buckets
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Under 55% | 14 | 9 | 22.2% | -0.4 pts | 21.4% | 0.200 | - |
+| Under 55% | 14 | 9 | 22.2% | -0.3 pts | 21.4% | 0.200 | - |
 
 ## Ready To Bet Gate Review
 ### Gate Performance
@@ -98,11 +98,9 @@ _No saved gate blockers on reviewed picks yet._
 - No specific pattern detected yet; add manual context if news/injuries mattered.
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** San Francisco Giants at Colorado Rockies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Milwaukee Brewers at Arizona Diamondbacks — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / High / Market move / pending:** Miami Marlins at Athletics — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Toronto Blue Jays at Seattle Mariners — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **Soccer / Medium / Market move / confirmed:** England at Mexico — Draw price is +205, which is short enough to demand draw-risk review before backing either side.
+- **MLB / High / Market move / pending:** San Diego Padres at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **Soccer / Medium / Market move / confirmed:** England at Mexico — Draw price is +200, which is short enough to demand draw-risk review before backing either side.
 - **Soccer / Medium / Market move / confirmed:** Colombia at Switzerland — Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
 ## Algorithm Adjustments To Consider

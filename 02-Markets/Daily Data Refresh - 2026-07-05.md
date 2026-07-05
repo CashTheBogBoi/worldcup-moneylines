@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-05
 
-Generated: 2026-07-05T22:52:55.650Z
+Generated: 2026-07-05T23:52:44.523Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,11 +20,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — San Francisco Giants at Colorado Rockies: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Milwaukee Brewers at Arizona Diamondbacks: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Miami Marlins at Athletics: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Toronto Blue Jays at Seattle Mariners: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **Medium Soccer Market move** — England at Mexico: Draw price is +205, which is short enough to demand draw-risk review before backing either side.
+- **High MLB Market move** — San Diego Padres at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **Medium Soccer Market move** — England at Mexico: Draw price is +200, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
@@ -40,38 +38,35 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Philadelphia Phillies at Kansas City Royals | Final | Aaron Nola | Luinder Avila | 2-5 |
 | Tampa Bay Rays at Houston Astros | Final | Mason Englert | Peter Lambert | 0-2 |
 | Detroit Tigers at Texas Rangers | Final | Casey Mize | Kumar Rocker | 6-3 |
-| San Francisco Giants at Colorado Rockies | In Progress | Tyler Mahle | Tanner Gordon | 6-7 |
-| Milwaukee Brewers at Arizona Diamondbacks | In Progress | Brandon Sproat | Eduardo Rodriguez | 3-2 |
-| Miami Marlins at Athletics | In Progress | Eury Pérez | Gage Jump | 8-0 |
-| Toronto Blue Jays at Seattle Mariners | In Progress | Trey Yesavage | Emerson Hancock | 0-3 |
-| San Diego Padres at Los Angeles Dodgers | Pre-Game | JP Sears | Emmet Sheehan | 0-0 |
+| San Francisco Giants at Colorado Rockies | Final | Tyler Mahle | Tanner Gordon | 6-7 |
+| Milwaukee Brewers at Arizona Diamondbacks | Final | Brandon Sproat | Eduardo Rodriguez | 3-2 |
+| Miami Marlins at Athletics | In Progress | Eury Pérez | Gage Jump | 9-6 |
+| Toronto Blue Jays at Seattle Mariners | Final | Trey Yesavage | Emerson Hancock | 0-4 |
+| San Diego Padres at Los Angeles Dodgers | In Progress | JP Sears | Emmet Sheehan | 0-0 |
 | Boston Red Sox at Los Angeles Angels | Pre-Game | Ranger Suarez | Ryan Johnson | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T20:05:53Z | Arizona Diamondbacks +610, Milwaukee Brewers -1240 |
-| San Francisco Giants at Colorado Rockies | 2026-07-05T20:07:34Z | Colorado Rockies -840, San Francisco Giants +486 |
 | Miami Marlins at Athletics | 2026-07-05T20:31:00Z | none |
-| Toronto Blue Jays at Seattle Mariners | 2026-07-05T21:05:58Z | Seattle Mariners -10000, Toronto Blue Jays +1400 |
-| San Diego Padres at Los Angeles Dodgers | 2026-07-05T23:21:00Z | Los Angeles Dodgers -231, San Diego Padres +188 |
+| San Diego Padres at Los Angeles Dodgers | 2026-07-05T23:21:00Z | Los Angeles Dodgers -228, San Diego Padres +171 |
 | Boston Red Sox at Los Angeles Angels | 2026-07-06T01:31:00Z | Boston Red Sox -163, Los Angeles Angels +135 |
 | Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +144, Philadelphia Phillies -175 |
 | New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees +100, Tampa Bay Rays -120 |
 | Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros +114, Washington Nationals -137 |
-| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -131, New York Mets +108 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -115, St. Louis Cardinals -105 |
+| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -126, New York Mets +105 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -115, St. Louis Cardinals -104 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -114 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| England at Mexico | 2026-07-06T00:00:00Z | England +155, Mexico +200, Draw +205 |
+| England at Mexico | 2026-07-06T01:00:00Z | England +155, Mexico +205, Draw +200 |
 | Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +280, Spain -105, Draw +265 |
-| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +160, USA +170, Draw +235 |
-| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -265, Egypt +800, Draw +360 |
+| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +160, USA +165, Draw +245 |
+| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -255, Egypt +750, Draw +360 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +240, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
 
