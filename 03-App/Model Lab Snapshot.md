@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T05:36:37.300Z
+Updated: 2026-07-05T05:43:17.617Z
 
 ## Summary
 - Total tracked picks: 37
@@ -83,22 +83,22 @@ Updated: 2026-07-05T05:36:37.300Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T05:36:35.750Z
+- Saved: 2026-07-05T05:43:16.106Z
 - Current candidates: 49
 - Passed / blocked: 4 / 45
 
 ### Top Blockers
 - Minimum edge: 45
 - Positive EV: 42
-- Beats consensus: 40
+- Beats consensus: 39
 - Model opinion: 28
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.50 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.54 | Edge under 1.5% — inside vig noise. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.3% | $3.41 | Edge under 1.5% — inside vig noise. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.3% | $3.51 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.6% | $3.43 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
