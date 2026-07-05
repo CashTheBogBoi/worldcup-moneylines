@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T04:14:13.122Z
+Updated: 2026-07-05T04:19:28.573Z
 
 ## Summary
 - Total tracked picks: 37
-- Pending: 7
-- Graded: 30
+- Pending: 6
+- Graded: 31
 - Wins: 9
-- Losses: 20
+- Losses: 21
 - Draws: 1
 - Intel review decisions saved: 19
 - Intel confirmed / denied / pending: 18 / 1 / 0
@@ -18,7 +18,7 @@ Updated: 2026-07-05T04:14:13.122Z
 | Soccer | Argentina vs Egypt | Egypt | pending | +940 | +900 | 0.4 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +270 | -0.8 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
-| MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | pending | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
+| MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | loss | +136 | +139 | -0.5 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | loss | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
 | Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
@@ -80,28 +80,27 @@ Updated: 2026-07-05T04:14:13.122Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 22 | 36.4% | 1.6 pts | 0.148 | -100.0% |
-| Passed gate | 12 | 8 | 12.5% | 0.1 pts | 0.149 | 0.0% |
+| Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T04:14:11.829Z
-- Current candidates: 57
-- Passed / blocked: 4 / 53
+- Saved: 2026-07-05T04:19:19.140Z
+- Current candidates: 55
+- Passed / blocked: 4 / 51
 
 ### Top Blockers
-- Minimum edge: 52
-- Beats consensus: 49
-- Positive EV: 46
-- Model opinion: 36
-- Model ready: 8
-- Pregame: 8
-- DraftKings line: 2
+- Minimum edge: 50
+- Beats consensus: 47
+- Positive EV: 44
+- Model opinion: 34
+- Model ready: 6
+- Pregame: 6
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +3000 | 7.0% | $117.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +3000 | 7.2% | $122.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | +2200 | 5.4% | $25.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1000 | 9.6% | $5.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1100 | 8.9% | $6.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.53 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.64 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.54 | Edge under 1.5% — inside vig noise. |
