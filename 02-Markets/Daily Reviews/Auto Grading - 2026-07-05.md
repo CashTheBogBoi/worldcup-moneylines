@@ -1,13 +1,14 @@
 # Auto Grading - 2026-07-05
 
-Generated: 2026-07-05T18:57:07.508Z
-Data snapshot: 2026-07-05T18:57:05.201Z
+Generated: 2026-07-05T21:30:08.459Z
+Data snapshot: 2026-07-05T21:30:06.272Z
 
 ## Newly Graded
-_No newly graded picks._
+| Sport | Match | Pick | Result | Score | Score ID |
+|---|---|---|---:|---|---|
+| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | Atlanta Braves 9, New York Mets 10 | 6f0fa1db67e69c8f534003061fdedee9 |
 
 ## Still Pending
-- MLB / Atlanta Braves vs New York Mets / Atlanta Braves (2026-07-05T16:30:00Z)
 - Soccer / Argentina vs Egypt / Egypt (2026-07-07T16:00:00Z)
 - Soccer / Switzerland vs Colombia / Switzerland (2026-07-07T20:00:00Z)
 - Soccer / Portugal vs Spain / Portugal (2026-07-06T19:00:00Z)
