@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T04:38:45.924Z
+Updated: 2026-07-05T04:41:04.141Z
 
 ## Summary
 - Total tracked picks: 37
@@ -83,14 +83,14 @@ Updated: 2026-07-05T04:38:45.924Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T04:38:44.635Z
+- Saved: 2026-07-05T04:41:03.069Z
 - Current candidates: 53
 - Passed / blocked: 4 / 49
 
 ### Top Blockers
 - Minimum edge: 49
+- Positive EV: 45
 - Beats consensus: 44
-- Positive EV: 44
 - Model opinion: 32
 - DraftKings line: 4
 - Model ready: 4
@@ -99,10 +99,9 @@ Updated: 2026-07-05T04:38:45.924Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.53 | Edge under 1.5% — inside vig noise. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.50 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.64 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.54 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +3300 | 3.0% | $2.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +170 | 37.1% | $0.12 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
