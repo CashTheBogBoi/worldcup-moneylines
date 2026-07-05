@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T16:31:25.796Z
+Updated: 2026-07-05T16:51:26.801Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,20 +84,22 @@ Updated: 2026-07-05T16:31:25.796Z
 | Passed gate | 13 | 9 | 11.1% | -0.2 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T16:31:24.905Z
+- Saved: 2026-07-05T16:51:25.839Z
 - Current candidates: 51
-- Passed / blocked: 5 / 46
+- Passed / blocked: 4 / 47
 
 ### Top Blockers
 - Minimum edge: 46
 - Positive EV: 34
 - Beats consensus: 26
-- Model ready: 2
+- Model ready: 4
+- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.53 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +106 | 50.5% | $4.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +217 | 32.6% | $3.49 | Edge under 1.5% — inside vig noise. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Minimum edge | +140 | 42.8% | $2.82 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.49 | Edge under 1.5% — inside vig noise. |
@@ -108,7 +110,6 @@ Updated: 2026-07-05T16:31:25.796Z
 | MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Minimum edge | +105 | 49.0% | $0.51 | Edge under 1.5% — inside vig noise. |
 | MLB | Miami Marlins | Athletics vs Miami Marlins | Minimum edge | +105 | 48.9% | $0.23 | Edge under 1.5% — inside vig noise. |
 | MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Minimum edge | -117 | 54.0% | $0.11 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Minimum edge | +123 | 44.9% | $0.02 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
