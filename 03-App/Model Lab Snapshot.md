@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T10:10:42.817Z
+Updated: 2026-07-05T10:47:17.772Z
 
 ## Summary
 - Total tracked picks: 37
@@ -27,7 +27,7 @@ Updated: 2026-07-05T10:10:42.817Z
 | Soccer | Portugal vs Spain | Portugal | pending | +322 | +322 | 0.0 pts | 28.0% | 45% strength model + 55% market no-vig |
 | Soccer | Paraguay vs France | Draw | loss | +720 | +600 | 2.1 pts | 15.8% | 45% strength model + 55% market no-vig |
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | loss | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
-| Soccer | Brazil vs Norway | Norway | pending | +330 | +383 | -2.6 pts | 23.3% | Odds API no-vig only |
+| Soccer | Brazil vs Norway | Norway | pending | +330 | +375 | -2.2 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
@@ -83,21 +83,23 @@ Updated: 2026-07-05T10:10:42.817Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T10:04:31.247Z
-- Current candidates: 49
-- Passed / blocked: 4 / 45
+- Saved: 2026-07-05T10:47:16.721Z
+- Current candidates: 51
+- Passed / blocked: 4 / 47
 
 ### Top Blockers
-- Minimum edge: 45
-- Positive EV: 42
-- Beats consensus: 39
-- Model opinion: 28
+- Minimum edge: 47
+- Positive EV: 44
+- Beats consensus: 42
+- Model opinion: 30
+- DraftKings line: 2
+- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.4% | $4.95 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.4% | $3.87 | Edge under 1.5% — inside vig noise. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.27 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.4% | $3.85 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.70 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
