@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T08:13:45.821Z
+Updated: 2026-07-05T09:35:06.356Z
 
 ## Summary
 - Total tracked picks: 37
@@ -15,7 +15,7 @@ Updated: 2026-07-05T08:13:45.821Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | Argentina vs Egypt | Egypt | pending | +940 | +900 | 0.4 pts | 15.2% | 37% strength model + 63% market no-vig |
+| Soccer | Argentina vs Egypt | Egypt | pending | +940 | +875 | 0.6 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +270 | -0.8 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
@@ -83,22 +83,23 @@ Updated: 2026-07-05T08:13:45.821Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T08:13:44.632Z
+- Saved: 2026-07-05T09:19:20.000Z
 - Current candidates: 49
 - Passed / blocked: 4 / 45
 
 ### Top Blockers
 - Minimum edge: 45
-- Positive EV: 42
+- Positive EV: 41
 - Beats consensus: 39
 - Model opinion: 28
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.21 | Edge under 1.5% — inside vig noise. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.4% | $4.94 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.57 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.92 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.94 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Market-only, needs model input | +116 | 46.5% | $0.50 | Add team ratings/research prior or wait for the model to load enough context. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
