@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-05
 
-Generated: 2026-07-05T16:07:41.432Z
+Generated: 2026-07-05T16:30:09.379Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -16,10 +16,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Errors / warnings
 
+- mlbStandings: fetch failed fetch failed
 - fifaMensRankings: FIFA page shows latest official update 2026-06-11, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
 
 ## Top intel
 
+- **High MLB Market move** — New York Mets at Atlanta Braves: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Starters** — Tampa Bay Rays at Houston Astros: Official starter is still TBD (TBD vs Peter Lambert). Block Bankroll Watch promotion until both starters are confirmed.
 - **Medium Soccer Market move** — England at Mexico: Draw price is +215, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Belgium at USA: Draw price is +230, which is short enough to demand draw-risk review before backing either side.
@@ -29,13 +31,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| New York Mets at Atlanta Braves | Pre-Game | Nolan McLean | Martín Pérez | 0-0 |
-| Pittsburgh Pirates at Washington Nationals | Pre-Game | Bubba Chandler | Cade Cavalli |  |
+| New York Mets at Atlanta Braves | Delayed Start | Nolan McLean | Martín Pérez | 0-0 |
+| Pittsburgh Pirates at Washington Nationals | Pre-Game | Bubba Chandler | Cade Cavalli | 0-0 |
 | Baltimore Orioles at Cincinnati Reds | Pre-Game | Kyle Bradish | Nick Lodolo | 0-0 |
 | Minnesota Twins at New York Yankees | Pre-Game | Joe Ryan | Ryan Weathers | 0-0 |
 | Chicago White Sox at Cleveland Guardians | Pre-Game | Chris Murphy | Tanner Bibee | 0-0 |
 | St. Louis Cardinals at Chicago Cubs | Pre-Game | Matthew Liberatore | Javier Assad | 0-0 |
-| Philadelphia Phillies at Kansas City Royals | Pre-Game | Aaron Nola | Luinder Avila |  |
+| Philadelphia Phillies at Kansas City Royals | Pre-Game | Aaron Nola | Luinder Avila | 0-0 |
 | Tampa Bay Rays at Houston Astros | Scheduled | TBD | Peter Lambert |  |
 | Detroit Tigers at Texas Rangers | Pre-Game | Casey Mize | Kumar Rocker | 0-0 |
 | San Francisco Giants at Colorado Rockies | Scheduled | Tyler Mahle | Tanner Gordon |  |
@@ -49,13 +51,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Mets at Atlanta Braves | 2026-07-05T16:30:00Z | Atlanta Braves -105, New York Mets -114 |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates +119, Washington Nationals -144 |
+| New York Mets at Atlanta Braves | 2026-07-05T16:50:00Z | Atlanta Braves -103, New York Mets -117 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates +123, Washington Nationals -148 |
 | Baltimore Orioles at Cincinnati Reds | 2026-07-05T17:05:00Z | Baltimore Orioles -118, Cincinnati Reds -102 |
 | Minnesota Twins at New York Yankees | 2026-07-05T17:35:00Z | Minnesota Twins +109, New York Yankees -131 |
 | Chicago White Sox at Cleveland Guardians | 2026-07-05T18:00:00Z | Chicago White Sox +114, Cleveland Guardians -137 |
-| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:30:00Z | Chicago Cubs -144, St. Louis Cardinals +119 |
-| Philadelphia Phillies at Kansas City Royals | 2026-07-05T19:01:00Z | Kansas City Royals +119, Philadelphia Phillies -143 |
+| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:30:00Z | Chicago Cubs -149, St. Louis Cardinals +124 |
+| Philadelphia Phillies at Kansas City Royals | 2026-07-05T19:01:00Z | Kansas City Royals +114, Philadelphia Phillies -137 |
 | Detroit Tigers at Texas Rangers | 2026-07-05T19:31:00Z | Detroit Tigers -125, Texas Rangers +104 |
 | Tampa Bay Rays at Houston Astros | 2026-07-05T19:31:00Z | Houston Astros -118, Tampa Bay Rays -102 |
 | Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T20:00:00Z | Arizona Diamondbacks +101, Milwaukee Brewers -122 |
