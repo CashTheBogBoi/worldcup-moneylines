@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T19:17:37.205Z
+Updated: 2026-07-05T19:37:11.221Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,16 +84,16 @@ Updated: 2026-07-05T19:17:37.205Z
 | Passed gate | 13 | 9 | 11.1% | -0.2 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T19:17:36.242Z
+- Saved: 2026-07-05T19:37:10.267Z
 - Current candidates: 61
 - Passed / blocked: 4 / 57
 
 ### Top Blockers
 - Minimum edge: 51
-- Positive EV: 39
+- Positive EV: 44
+- Model ready: 40
+- Pregame: 40
 - Beats consensus: 31
-- Model ready: 24
-- Pregame: 14
 - DraftKings line: 2
 
 ### Research Actions
@@ -107,10 +107,10 @@ Updated: 2026-07-05T19:17:37.205Z
 | MLB | Pittsburgh Pirates | Washington Nationals vs Pittsburgh Pirates | Game too stale/live | +135 | 45.9% | $7.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +385 | 21.5% | $4.13 | Edge under 1.5% — inside vig noise. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +185 | 36.3% | $3.36 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Minimum edge | +140 | 43.0% | $3.28 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +213 | 32.9% | $2.87 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Needs starter | +149 | 41.3% | $2.79 | Confirm probable starters or use the manual starter override. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -121 | 55.8% | $1.99 | Confirm probable starters or use the manual starter override. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.75 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +140 | 42.0% | $0.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +149 | 40.3% | $0.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
