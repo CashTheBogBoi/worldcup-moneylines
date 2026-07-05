@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T04:19:28.573Z
+Updated: 2026-07-05T04:22:41.292Z
 
 ## Summary
 - Total tracked picks: 37
@@ -83,7 +83,7 @@ Updated: 2026-07-05T04:19:28.573Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T04:19:19.140Z
+- Saved: 2026-07-05T04:22:39.549Z
 - Current candidates: 55
 - Passed / blocked: 4 / 51
 
@@ -100,7 +100,7 @@ Updated: 2026-07-05T04:19:28.573Z
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +3000 | 7.2% | $122.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | +2200 | 5.4% | $25.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1100 | 8.9% | $6.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1200 | 8.7% | $13.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.53 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.64 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.54 | Edge under 1.5% — inside vig noise. |
