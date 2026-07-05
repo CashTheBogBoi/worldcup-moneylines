@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T04:03:13.032Z
+Updated: 2026-07-05T04:14:13.122Z
 
 ## Summary
 - Total tracked picks: 37
@@ -83,31 +83,28 @@ Updated: 2026-07-05T04:03:13.032Z
 | Passed gate | 12 | 8 | 12.5% | 0.1 pts | 0.149 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T04:03:11.825Z
-- Current candidates: 61
-- Passed / blocked: 4 / 57
+- Saved: 2026-07-05T04:14:11.829Z
+- Current candidates: 57
+- Passed / blocked: 4 / 53
 
 ### Top Blockers
-- Minimum edge: 54
-- Beats consensus: 52
-- Positive EV: 47
-- Model opinion: 40
-- Model ready: 12
-- Pregame: 12
-- DraftKings line: 6
+- Minimum edge: 52
+- Beats consensus: 49
+- Positive EV: 46
+- Model opinion: 36
+- Model ready: 8
+- Pregame: 8
+- DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +1100 | 10.8% | $29.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1100 | 9.9% | $18.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | +1800 | 5.6% | $7.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +2200 | 4.6% | $6.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | +3000 | 7.0% | $117.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago Cubs | Chicago Cubs vs St. Louis Cardinals | Game too stale/live | +2200 | 5.4% | $25.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | Los Angeles Dodgers vs San Diego Padres | Game too stale/live | +1000 | 9.6% | $5.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.53 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Milwaukee Brewers | Game too stale/live | -556 | 89.2% | $5.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.57 | Edge under 1.5% — inside vig noise. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.55 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Colorado Rockies vs San Francisco Giants | Game too stale/live | +1300 | 7.4% | $3.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.4% | $3.64 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.7% | $3.54 | Edge under 1.5% — inside vig noise. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +170 | 37.1% | $0.12 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
