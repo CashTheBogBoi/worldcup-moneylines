@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-05
 
-Generated: 2026-07-05T17:48:27.362Z
+Generated: 2026-07-05T18:57:05.201Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,11 +20,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — New York Mets at Atlanta Braves: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Pittsburgh Pirates at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Mets at Atlanta Braves: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Pittsburgh Pirates at Washington Nationals: Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Baltimore Orioles at Cincinnati Reds: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Minnesota Twins at New York Yankees: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Chicago White Sox at Cleveland Guardians: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — St. Louis Cardinals at Chicago Cubs: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — England at Mexico: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
@@ -32,19 +33,19 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| New York Mets at Atlanta Braves | Delayed Start | Nolan McLean | Martín Pérez | 0-0 |
-| Pittsburgh Pirates at Washington Nationals | In Progress | Bubba Chandler | Cade Cavalli | 3-0 |
-| Baltimore Orioles at Cincinnati Reds | In Progress | Kyle Bradish | Nick Lodolo | 0-0 |
-| Minnesota Twins at New York Yankees | In Progress | Joe Ryan | Ryan Weathers | 1-0 |
+| New York Mets at Atlanta Braves | In Progress | Nolan McLean | Martín Pérez | 5-3 |
+| Pittsburgh Pirates at Washington Nationals | Player challenge | Bubba Chandler | Cade Cavalli | 4-3 |
+| Baltimore Orioles at Cincinnati Reds | In Progress | Kyle Bradish | Nick Lodolo | 1-2 |
+| Minnesota Twins at New York Yankees | In Progress | Joe Ryan | Ryan Weathers | 2-0 |
 | Chicago White Sox at Cleveland Guardians | Delayed Start | Chris Murphy | Tanner Bibee | 0-0 |
-| St. Louis Cardinals at Chicago Cubs | Pre-Game | Matthew Liberatore | Javier Assad | 0-0 |
-| Philadelphia Phillies at Kansas City Royals | Pre-Game | Aaron Nola | Luinder Avila | 0-0 |
+| St. Louis Cardinals at Chicago Cubs | In Progress | Matthew Liberatore | Javier Assad | 0-2 |
+| Philadelphia Phillies at Kansas City Royals | Warmup | Aaron Nola | Luinder Avila | 0-0 |
 | Tampa Bay Rays at Houston Astros | Pre-Game | Mason Englert | Peter Lambert | 0-0 |
 | Detroit Tigers at Texas Rangers | Pre-Game | Casey Mize | Kumar Rocker | 0-0 |
 | San Francisco Giants at Colorado Rockies | Pre-Game | Tyler Mahle | Tanner Gordon | 0-0 |
-| Milwaukee Brewers at Arizona Diamondbacks | Pre-Game | Brandon Sproat | Eduardo Rodriguez |  |
+| Milwaukee Brewers at Arizona Diamondbacks | Pre-Game | Brandon Sproat | Eduardo Rodriguez | 0-0 |
 | Miami Marlins at Athletics | Pre-Game | Eury Pérez | Gage Jump | 0-0 |
-| Toronto Blue Jays at Seattle Mariners | Pre-Game | Trey Yesavage | Emerson Hancock |  |
+| Toronto Blue Jays at Seattle Mariners | Pre-Game | Trey Yesavage | Emerson Hancock | 0-0 |
 | San Diego Padres at Los Angeles Dodgers | Scheduled | JP Sears | Emmet Sheehan |  |
 | Boston Red Sox at Los Angeles Angels | Scheduled | Ranger Suarez | Ryan Johnson |  |
 
@@ -52,21 +53,26 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates -409, Washington Nationals +284 |
-| Baltimore Orioles at Cincinnati Reds | 2026-07-05T17:06:21Z | Baltimore Orioles -143, Cincinnati Reds +110 |
-| Minnesota Twins at New York Yankees | 2026-07-05T17:37:09Z | Minnesota Twins -114, New York Yankees -114 |
-| New York Mets at Atlanta Braves | 2026-07-05T18:15:00Z | Atlanta Braves -103, New York Mets -117 |
-| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:30:00Z | Chicago Cubs -149, St. Louis Cardinals +124 |
-| Chicago White Sox at Cleveland Guardians | 2026-07-05T18:30:00Z | Chicago White Sox +113, Cleveland Guardians -136 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates +113, Washington Nationals -147 |
+| Baltimore Orioles at Cincinnati Reds | 2026-07-05T17:06:21Z | Baltimore Orioles +273, Cincinnati Reds -390 |
+| Minnesota Twins at New York Yankees | 2026-07-05T17:37:09Z | Minnesota Twins -446, New York Yankees +302 |
+| New York Mets at Atlanta Braves | 2026-07-05T18:17:11Z | Atlanta Braves +166, New York Mets -221 |
+| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:35:36Z | Chicago Cubs -498, St. Louis Cardinals +332 |
 | Philadelphia Phillies at Kansas City Royals | 2026-07-05T19:01:00Z | Kansas City Royals +113, Philadelphia Phillies -136 |
+| Chicago White Sox at Cleveland Guardians | 2026-07-05T19:10:00Z | Chicago White Sox +122, Cleveland Guardians -147 |
 | Detroit Tigers at Texas Rangers | 2026-07-05T19:31:00Z | Detroit Tigers -125, Texas Rangers +104 |
 | Tampa Bay Rays at Houston Astros | 2026-07-05T19:31:00Z | Houston Astros -118, Tampa Bay Rays -102 |
 | Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T20:00:00Z | Arizona Diamondbacks +101, Milwaukee Brewers -122 |
 | San Francisco Giants at Colorado Rockies | 2026-07-05T20:00:00Z | Colorado Rockies +107, San Francisco Giants -129 |
-| Miami Marlins at Athletics | 2026-07-05T20:31:00Z | Athletics -119, Miami Marlins -102 |
+| Miami Marlins at Athletics | 2026-07-05T20:31:00Z | Athletics -118, Miami Marlins -102 |
 | Toronto Blue Jays at Seattle Mariners | 2026-07-05T21:00:00Z | Seattle Mariners -121, Toronto Blue Jays +100 |
 | San Diego Padres at Los Angeles Dodgers | 2026-07-05T23:21:00Z | Los Angeles Dodgers -219, San Diego Padres +178 |
 | Boston Red Sox at Los Angeles Angels | 2026-07-06T01:31:00Z | Boston Red Sox -163, Los Angeles Angels +135 |
+| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +144, Philadelphia Phillies -175 |
+| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros +113, Washington Nationals -136 |
+| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -126, New York Mets +104 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -115, St. Louis Cardinals -105 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
@@ -75,10 +81,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -130, Norway +350, Draw +275 |
 | England at Mexico | 2026-07-06T00:00:00Z | England +150, Mexico +205, Draw +210 |
 | Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +280, Spain -105, Draw +265 |
-| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +185, USA +150, Draw +235 |
-| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -260, Egypt +750, Draw +360 |
+| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +175, USA +155, Draw +235 |
+| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -260, Egypt +750, Draw +370 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +240, Draw +210 |
-| Morocco at France | 2026-07-09T20:00:00Z | France -175, Morocco +500, Draw +285 |
+| Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
 
 ## FIFA men's ranking model input
 
