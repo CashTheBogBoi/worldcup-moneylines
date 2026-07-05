@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T05:43:17.617Z
+Updated: 2026-07-05T06:20:19.152Z
 
 ## Summary
 - Total tracked picks: 37
@@ -44,7 +44,7 @@ Updated: 2026-07-05T05:43:17.617Z
 | MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | -151 | -190 | 5.4 pts | 64.6% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | +135 | +335 | -19.6 pts | 47.3% | Odds API no-vig only |
 | MLB | Houston Astros vs Minnesota Twins | Minnesota Twins | win | +138 | -375 | 36.9 pts | 52.7% | Odds API no-vig only |
-| Soccer | Mexico vs England | England | pending | +143 | +149 | -1.0 pts | 39.3% | 48% strength model + 52% market no-vig |
+| Soccer | Mexico vs England | England | pending | +143 | +145 | -0.3 pts | 39.3% | 48% strength model + 52% market no-vig |
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | win | -125 | -145 | 3.6 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | win | -120 | -120 | 0.0 pts | 52.8% | Odds API no-vig only |
@@ -83,7 +83,7 @@ Updated: 2026-07-05T05:43:17.617Z
 | Passed gate | 12 | 9 | 11.1% | 0.1 pts | 0.154 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T05:43:16.106Z
+- Saved: 2026-07-05T06:20:18.093Z
 - Current candidates: 49
 - Passed / blocked: 4 / 45
 
@@ -97,8 +97,8 @@ Updated: 2026-07-05T05:43:17.617Z
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.50 | Edge under 1.5% — inside vig noise. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.3% | $3.51 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.6% | $3.43 | Edge under 1.5% — inside vig noise. |
+| Soccer | Mexico | Mexico vs England | Minimum edge | +220 | 32.3% | $3.36 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.6% | $3.19 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
