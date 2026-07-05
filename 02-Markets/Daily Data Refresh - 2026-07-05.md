@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-05
 
-Generated: 2026-07-05T13:49:42.438Z
+Generated: 2026-07-05T16:07:41.432Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -29,15 +29,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| New York Mets at Atlanta Braves | Scheduled | Nolan McLean | Martín Pérez |  |
-| Pittsburgh Pirates at Washington Nationals | Scheduled | Bubba Chandler | Cade Cavalli |  |
-| Baltimore Orioles at Cincinnati Reds | Scheduled | Kyle Bradish | Nick Lodolo |  |
-| Minnesota Twins at New York Yankees | Scheduled | Joe Ryan | Ryan Weathers |  |
-| Chicago White Sox at Cleveland Guardians | Scheduled | Chris Murphy | Tanner Bibee |  |
-| St. Louis Cardinals at Chicago Cubs | Scheduled | Matthew Liberatore | Javier Assad |  |
-| Philadelphia Phillies at Kansas City Royals | Scheduled | Aaron Nola | Luinder Avila |  |
+| New York Mets at Atlanta Braves | Pre-Game | Nolan McLean | Martín Pérez | 0-0 |
+| Pittsburgh Pirates at Washington Nationals | Pre-Game | Bubba Chandler | Cade Cavalli |  |
+| Baltimore Orioles at Cincinnati Reds | Pre-Game | Kyle Bradish | Nick Lodolo | 0-0 |
+| Minnesota Twins at New York Yankees | Pre-Game | Joe Ryan | Ryan Weathers | 0-0 |
+| Chicago White Sox at Cleveland Guardians | Pre-Game | Chris Murphy | Tanner Bibee | 0-0 |
+| St. Louis Cardinals at Chicago Cubs | Pre-Game | Matthew Liberatore | Javier Assad | 0-0 |
+| Philadelphia Phillies at Kansas City Royals | Pre-Game | Aaron Nola | Luinder Avila |  |
 | Tampa Bay Rays at Houston Astros | Scheduled | TBD | Peter Lambert |  |
-| Detroit Tigers at Texas Rangers | Scheduled | Casey Mize | Kumar Rocker |  |
+| Detroit Tigers at Texas Rangers | Pre-Game | Casey Mize | Kumar Rocker | 0-0 |
 | San Francisco Giants at Colorado Rockies | Scheduled | Tyler Mahle | Tanner Gordon |  |
 | Milwaukee Brewers at Arizona Diamondbacks | Scheduled | Brandon Sproat | Eduardo Rodriguez |  |
 | Miami Marlins at Athletics | Scheduled | Eury Pérez | Gage Jump |  |
@@ -49,29 +49,29 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Mets at Atlanta Braves | 2026-07-05T16:30:00Z | Atlanta Braves -118, New York Mets -102 |
-| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates +113, Washington Nationals -136 |
-| Baltimore Orioles at Cincinnati Reds | 2026-07-05T17:05:00Z | Baltimore Orioles -110, Cincinnati Reds -109 |
-| Minnesota Twins at New York Yankees | 2026-07-05T17:35:00Z | Minnesota Twins +113, New York Yankees -136 |
-| Chicago White Sox at Cleveland Guardians | 2026-07-05T18:00:00Z | Chicago White Sox +123, Cleveland Guardians -149 |
-| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:30:00Z | Chicago Cubs -157, St. Louis Cardinals +130 |
+| New York Mets at Atlanta Braves | 2026-07-05T16:30:00Z | Atlanta Braves -105, New York Mets -114 |
+| Pittsburgh Pirates at Washington Nationals | 2026-07-05T17:01:00Z | Pittsburgh Pirates +119, Washington Nationals -144 |
+| Baltimore Orioles at Cincinnati Reds | 2026-07-05T17:05:00Z | Baltimore Orioles -118, Cincinnati Reds -102 |
+| Minnesota Twins at New York Yankees | 2026-07-05T17:35:00Z | Minnesota Twins +109, New York Yankees -131 |
+| Chicago White Sox at Cleveland Guardians | 2026-07-05T18:00:00Z | Chicago White Sox +114, Cleveland Guardians -137 |
+| St. Louis Cardinals at Chicago Cubs | 2026-07-05T18:30:00Z | Chicago Cubs -144, St. Louis Cardinals +119 |
 | Philadelphia Phillies at Kansas City Royals | 2026-07-05T19:01:00Z | Kansas City Royals +119, Philadelphia Phillies -143 |
-| Detroit Tigers at Texas Rangers | 2026-07-05T19:31:00Z | Detroit Tigers -122, Texas Rangers +101 |
-| Tampa Bay Rays at Houston Astros | 2026-07-05T19:31:00Z | Houston Astros +102, Tampa Bay Rays -122 |
+| Detroit Tigers at Texas Rangers | 2026-07-05T19:31:00Z | Detroit Tigers -125, Texas Rangers +104 |
+| Tampa Bay Rays at Houston Astros | 2026-07-05T19:31:00Z | Houston Astros -118, Tampa Bay Rays -102 |
 | Milwaukee Brewers at Arizona Diamondbacks | 2026-07-05T20:00:00Z | Arizona Diamondbacks +101, Milwaukee Brewers -122 |
 | San Francisco Giants at Colorado Rockies | 2026-07-05T20:00:00Z | Colorado Rockies -101, San Francisco Giants -120 |
 | Miami Marlins at Athletics | 2026-07-05T20:31:00Z | Athletics -120, Miami Marlins +100 |
-| Toronto Blue Jays at Seattle Mariners | 2026-07-05T21:00:00Z | Seattle Mariners -131, Toronto Blue Jays +108 |
-| San Diego Padres at Los Angeles Dodgers | 2026-07-05T23:21:00Z | Los Angeles Dodgers -220, San Diego Padres +179 |
+| Toronto Blue Jays at Seattle Mariners | 2026-07-05T21:00:00Z | Seattle Mariners -131, Toronto Blue Jays +109 |
+| San Diego Padres at Los Angeles Dodgers | 2026-07-05T23:21:00Z | Los Angeles Dodgers -219, San Diego Padres +178 |
 | Boston Red Sox at Los Angeles Angels | 2026-07-06T01:31:00Z | Boston Red Sox -163, Los Angeles Angels +135 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -125, Norway +340, Draw +275 |
+| Norway at Brazil | 2026-07-05T20:00:00Z | Brazil -130, Norway +350, Draw +275 |
 | England at Mexico | 2026-07-06T00:00:00Z | England +145, Mexico +210, Draw +215 |
-| Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +295, Spain -110, Draw +265 |
+| Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +280, Spain -105, Draw +265 |
 | Belgium at USA | 2026-07-07T00:00:00Z | Belgium +170, USA +160, Draw +230 |
 | Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -260, Egypt +750, Draw +360 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +240, Draw +210 |
