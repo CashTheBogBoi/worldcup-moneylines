@@ -1,4 +1,18 @@
-# App Build Plan
+```chart
+type: bar
+labels: []
+series:
+  - title: 
+    data: []
+tension: 0.2
+width: 80%
+labelColors: false
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```# App Build Plan
 
 ## Current app
 
