@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-06
 
-Generated: 2026-07-06T14:18:19.310Z
+Generated: 2026-07-06T14:37:42.610Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -39,7 +39,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +179, Philadelphia Phillies -219 |
+| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +168, Philadelphia Phillies -205 |
 | New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -105, Tampa Bay Rays -115 |
 | Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros -101, Washington Nationals -120 |
 | New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -132, New York Mets +109 |
