@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T00:47:27.790Z
+Updated: 2026-07-06T01:07:28.696Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,16 +84,16 @@ Updated: 2026-07-06T00:47:27.790Z
 | Passed gate | 13 | 10 | 10.0% | -0.2 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T00:47:26.825Z
+- Saved: 2026-07-06T01:07:27.725Z
 - Current candidates: 36
 - Passed / blocked: 3 / 33
 
 ### Top Blockers
 - Minimum edge: 32
-- Positive EV: 25
+- Positive EV: 26
+- Model ready: 21
+- Pregame: 21
 - Beats consensus: 19
-- Model ready: 18
-- Pregame: 18
 - DraftKings line: 2
 
 ### Research Actions
@@ -102,7 +102,6 @@ Updated: 2026-07-06T00:47:27.790Z
 | MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +2800 | 10.6% | $206.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.20 | Edge under 1.5% — inside vig noise. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +175 | 37.2% | $2.32 | Edge under 1.5% — inside vig noise. |
-| Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 33.0% | $2.21 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.70 | Edge under 1.5% — inside vig noise. |
 | MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -118 | 54.6% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +140 | 41.9% | $0.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
