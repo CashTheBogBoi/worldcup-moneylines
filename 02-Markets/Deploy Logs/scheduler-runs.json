@@ -1,5 +1,102 @@
 [
   {
+    "id": "nightly-2026-07-06T03:45:05.735Z",
+    "phase": "nightly",
+    "phaseLabel": "Nightly review",
+    "status": "success",
+    "startedAt": "2026-07-06T03:45:05.735Z",
+    "finishedAt": "2026-07-06T03:45:40.050Z",
+    "durationMs": 34315,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:nightly",
+        "startedAt": "2026-07-06T03:45:05.735Z",
+        "finishedAt": "2026-07-06T03:45:10.717Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "> node scripts/grade-finished-picks.mjs",
+          "",
+          "Auto-graded 2 picks.",
+          "Still pending with no final score: 3.",
+          "Wrote 03-App/model-training-state.json",
+          "Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-05.md",
+          "",
+          "> worldcup-moneylines@0.1.0 sync:firebase",
+          "> node scripts/sync-firestore.mjs",
+          "",
+          "Synced Firestore collection: sports-edge-lab",
+          "model-training-state savedAt: 2026-07-06T03:45:08.163Z counts {\"loss\":23,\"pending\":3,\"win\":11,\"draw\":1}",
+          "stats-history updatedAt: 2026-07-06T03:36:30.432Z",
+          "",
+          "> worldcup-moneylines@0.1.0 review:daily",
+          "> node scripts/review-daily.mjs",
+          "",
+          "Daily review written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-05.md",
+          "Reviewed 14 picks (11 settled). Avg CLV -0.4 pts.",
+          "Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-05 nightly.md"
+        ]
+      },
+      {
+        "name": "model-quality",
+        "command": "npm run review:model-quality",
+        "startedAt": "2026-07-06T03:45:10.717Z",
+        "finishedAt": "2026-07-06T03:45:10.870Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "> worldcup-moneylines@0.1.0 review:model-quality",
+          "> node scripts/review-model-quality.mjs",
+          "",
+          "Model quality review written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-05.md",
+          "Model quality signals written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-quality-signals.json"
+        ]
+      },
+      {
+        "name": "deploy",
+        "command": "npm run deploy:firebase",
+        "startedAt": "2026-07-06T03:45:10.870Z",
+        "finishedAt": "2026-07-06T03:45:40.050Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "",
+          "i  deploying hosting",
+          "i  hosting[sportsedge-a58e7]: beginning deploy...",
+          "i  hosting[sportsedge-a58e7]: found 13 files in dist",
+          "i  hosting: adding files to version [0/13] (0%)",
+          "i  hosting: upload complete",
+          "✔  hosting[sportsedge-a58e7]: file upload complete",
+          "i  hosting[sportsedge-a58e7]: finalizing version...",
+          "✔  hosting[sportsedge-a58e7]: version finalized",
+          "i  hosting[sportsedge-a58e7]: releasing new version...",
+          "",
+          "Error: Request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sportsedge-a58e7/channels/live/releases?versionName=projects%2F25285951798%2Fsites%2Fsportsedge-a58e7%2Fversions%2F7346ef9876cb61dc had HTTP Error: 400, Can't release to `projects/-/sites/sportsedge-a58e7/channels/live`: supplied version `projects/25285951798/sites/sportsedge-a58e7/versions/7346ef9876cb61dc` is the current active version.",
+          "Verified latest Firebase Hosting build at https://sportsedge-a58e7.web.app",
+          "Deploy log written: 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md",
+          "[plugin builtin:vite-reporter] ",
+          "(!) Some chunks are larger than 500 kB after minification. Consider:",
+          "- Using dynamic import() to code-split the application",
+          "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
+          "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.",
+          "[firebase deploy] Release retry reported the finalized version is already active. Verifying hosted assets before treating this as success."
+        ]
+      }
+    ],
+    "failedStep": null,
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-05.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-05 nightly.md",
+      "dailyReview": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-05.md",
+      "modelQuality": "/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-05.md",
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
     "id": "wave-2026-07-05T21:30:05.983Z",
     "phase": "wave",
     "phaseLabel": "Next wave",

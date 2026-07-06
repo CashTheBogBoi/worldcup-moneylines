@@ -1,14 +1,14 @@
 # Daily Review - 2026-07-05
 
-Generated: 2026-07-05T23:52:48.725Z
+Generated: 2026-07-06T03:45:10.687Z
 
 ## Executive Read
 - Tracked picks reviewed: 14
-- Settled picks: 9
-- Win rate: 22.2%
-- Average CLV: -0.3 pts
+- Settled picks: 11
+- Win rate: 27.3%
+- Average CLV: -0.4 pts
 - Beat-close rate: 21.4%
-- Average Brier: 0.200
+- Average Brier: 0.205
 - Staked: $0.00
 - Net P/L: $0.00
 
@@ -36,27 +36,27 @@ Generated: 2026-07-05T23:52:48.725Z
 | Soccer | Brazil vs Norway | Norway | win | +330 | +390 | -2.8 pts | 23.3% | 0.589 | - | $0.00 | open BetRivers; latest BetOnline.ag; auto-graded; auto-close |
 | Soccer | Canada vs Morocco | Canada | loss | +440 | +440 | 0.0 pts | 19.2% | 0.037 | - | $0.00 | latest MyBookie.ag; auto-graded; auto-close |
 | Soccer | Paraguay vs France | Paraguay | loss | +1800 | +1800 | 0.0 pts | 5.7% | 0.003 | - | $0.00 | latest DraftKings; auto-graded; auto-close |
-| Soccer | Mexico vs England | Mexico | pending | +242 | +213 | 2.7 pts | 30.8% | - | - | - | latest BetOnline.ag; auto-close |
-| Soccer | Mexico vs England | England | pending | +143 | +156 | -2.1 pts | 39.3% | - | - | - | latest BetOnline.ag; auto-close |
+| Soccer | Mexico vs England | Mexico | loss | +242 | +210 | 3.0 pts | 30.8% | 0.095 | - | $0.00 | latest BetRivers; auto-graded; auto-close |
+| Soccer | Mexico vs England | England | win | +143 | +159 | -2.5 pts | 39.3% | 0.369 | - | $0.00 | latest BetOnline.ag; auto-graded; auto-close |
 | Soccer | Canada vs Morocco | Morocco | win | -120 | -120 | 0.0 pts | 52.8% | 0.222 | - | $0.00 | latest BetMGM; auto-graded; auto-close |
 
 ## Sport Splits
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Soccer | 10 | 5 | 40.0% | -0.1 pts | 30.0% | 0.175 | - |
+| Soccer | 10 | 7 | 42.9% | -0.1 pts | 30.0% | 0.192 | - |
 | MLB | 4 | 4 | 0.0% | -1.1 pts | 0.0% | 0.230 | - |
 
 ## Confidence Buckets
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Under 55% | 14 | 9 | 22.2% | -0.3 pts | 21.4% | 0.200 | - |
+| Under 55% | 14 | 11 | 27.3% | -0.4 pts | 21.4% | 0.205 | - |
 
 ## Ready To Bet Gate Review
 ### Gate Performance
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Passed gate | 8 | 5 | 0.0% | -0.3 pts | 25.0% | 0.189 | - |
-| Unknown gate | 6 | 4 | 50.0% | -0.4 pts | 16.7% | 0.213 | - |
+| Unknown gate | 6 | 6 | 50.0% | -0.4 pts | 16.7% | 0.219 | - |
 
 ### Saved Gate Blockers
 _No saved gate blockers on reviewed picks yet._
@@ -97,11 +97,15 @@ _No saved gate blockers on reviewed picks yet._
 - Model: 5.7% at +1800; CLV 0.0 pts
 - No specific pattern detected yet; add manual context if news/injuries mattered.
 
+### Mexico — Mexico vs England
+- Result: loss
+- Model: 30.8% at +242; CLV 3.0 pts
+- Lost but beat the close; process may still be healthy.
+
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** Miami Marlins at Athletics — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** San Diego Padres at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **Soccer / Medium / Market move / confirmed:** England at Mexico — Draw price is +200, which is short enough to demand draw-risk review before backing either side.
+- **MLB / High / Market move / pending:** Boston Red Sox at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Soccer / Medium / Market move / confirmed:** Colombia at Switzerland — Draw price is +210, which is short enough to demand draw-risk review before backing either side.
+- **Soccer / Medium / Market move / pending:** England at Norway — DraftKings moneyline was missing from the local odds snapshot. Compare another book or wait for a fresh DK line.
 
 ## Algorithm Adjustments To Consider
 - Do not increase stake sizing yet: fewer than half of tracked prices beat the close.
