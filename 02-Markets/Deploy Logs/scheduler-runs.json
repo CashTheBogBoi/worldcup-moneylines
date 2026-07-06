@@ -1,5 +1,105 @@
 [
   {
+    "id": "pregame-2026-07-06T16:36:37.808Z",
+    "phase": "pregame",
+    "phaseLabel": "Pregame check",
+    "status": "failed",
+    "startedAt": "2026-07-06T16:36:37.808Z",
+    "finishedAt": "2026-07-06T16:36:38.414Z",
+    "durationMs": 606,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:pregame",
+        "startedAt": "2026-07-06T16:36:37.809Z",
+        "finishedAt": "2026-07-06T16:36:38.413Z",
+        "ok": false,
+        "exitCode": 1,
+        "signal": null,
+        "outputTail": [
+          "Error: Command failed: npm run sync:firebase",
+          "    at genericNodeError (node:internal/errors:985:15)",
+          "    at wrappedFn (node:internal/errors:539:14)",
+          "    at checkExecSyncError (node:child_process:925:11)",
+          "    at execFileSync (node:child_process:961:15)",
+          "    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)",
+          "    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:286:3)",
+          "    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1",
+          "    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)",
+          "    at async node:internal/modules/esm/loader:633:26",
+          "    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {",
+          "  status: 1,",
+          "  signal: null,",
+          "  output: [ null, null, null ],",
+          "  pid: 59944,",
+          "  stdout: null,",
+          "  stderr: null",
+          "}",
+          "",
+          "Node.js v24.17.0"
+        ]
+      }
+    ],
+    "failedStep": "research",
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-06.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-06 pregame.md",
+      "dailyReview": null,
+      "modelQuality": null,
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
+    "id": "morning-2026-07-06T16:19:56.587Z",
+    "phase": "morning",
+    "phaseLabel": "Morning slate",
+    "status": "failed",
+    "startedAt": "2026-07-06T16:19:56.587Z",
+    "finishedAt": "2026-07-06T16:19:57.237Z",
+    "durationMs": 650,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:morning",
+        "startedAt": "2026-07-06T16:19:56.587Z",
+        "finishedAt": "2026-07-06T16:19:57.237Z",
+        "ok": false,
+        "exitCode": 1,
+        "signal": null,
+        "outputTail": [
+          "Error: Command failed: npm run sync:firebase",
+          "    at genericNodeError (node:internal/errors:985:15)",
+          "    at wrappedFn (node:internal/errors:539:14)",
+          "    at checkExecSyncError (node:child_process:925:11)",
+          "    at execFileSync (node:child_process:961:15)",
+          "    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)",
+          "    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:286:3)",
+          "    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1",
+          "    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)",
+          "    at async node:internal/modules/esm/loader:633:26",
+          "    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {",
+          "  status: 1,",
+          "  signal: null,",
+          "  output: [ null, null, null ],",
+          "  pid: 59739,",
+          "  stdout: null,",
+          "  stderr: null",
+          "}",
+          "",
+          "Node.js v24.17.0"
+        ]
+      }
+    ],
+    "failedStep": "research",
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-06.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-06 morning.md",
+      "dailyReview": null,
+      "modelQuality": null,
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
     "id": "morning-2026-07-06T14:37:42.364Z",
     "phase": "morning",
     "phaseLabel": "Morning slate",
