@@ -1,6 +1,6 @@
 # Daily Review - 2026-07-06
 
-Generated: 2026-07-06T05:48:05.551Z
+Generated: 2026-07-06T06:24:41.590Z
 
 ## Executive Read
 - Tracked picks reviewed: 3
@@ -52,14 +52,11 @@ _No saved gate blockers on reviewed picks yet._
 _No settled misses in this review window._
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** Boston Red Sox at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Soccer / Medium / Market move / confirmed:** Colombia at Switzerland — Draw price is +210, which is short enough to demand draw-risk review before backing either side.
-- **Soccer / Medium / Market move / pending:** England at Norway — DraftKings moneyline was missing from the local odds snapshot. Compare another book or wait for a fresh DK line.
 
 ## Algorithm Adjustments To Consider
 - Do not increase stake sizing yet: fewer than half of tracked prices beat the close.
 - Low-probability soccer side picks need a separate draw-risk note before they become bankroll picks.
-- High-impact daily intel exists; resolve those warnings before promoting anything to Bankroll Watch.
 
 ## Next Actions
 - Run `npm run update:data` before making new picks.
