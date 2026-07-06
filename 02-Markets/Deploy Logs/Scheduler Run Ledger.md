@@ -1,11 +1,12 @@
 # Scheduler Run Ledger
 
-Updated: 2026-07-06T21:31:48.585Z
+Updated: 2026-07-06T22:22:49.440Z
 
 This note is written by `scripts/schedule-run.mjs`. It shows whether each automated research window actually completed.
 
 | Started | Phase | Status | Duration | Data | Research | Review | Model Quality | Deploy |
 |---|---|---:|---:|---|---|---|---|---|
+| 2026-07-06T22:22:33.646Z | Morning slate | failed | 16s | 02-Markets/Daily Data Refresh - 2026-07-06.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-06 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-06T21:31:39.422Z | Next wave | failed | 9s | 02-Markets/Daily Data Refresh - 2026-07-06.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-06 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-06T21:30:05.743Z | Next wave | failed | 19s | 02-Markets/Daily Data Refresh - 2026-07-06.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-06 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-06T20:09:33.010Z | Morning slate | failed | 15s | 02-Markets/Daily Data Refresh - 2026-07-06.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-06 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
@@ -35,4 +36,3 @@ This note is written by `scripts/schedule-run.mjs`. It shows whether each automa
 | 2026-07-04T02:51:21.642Z | Morning slate | failed | 22s | 02-Markets/Daily Data Refresh - 2026-07-03.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
 | 2026-07-04T00:29:02.304Z | Morning slate | failed | 16s | 02-Markets/Daily Data Refresh - 2026-07-03.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
 | 2026-07-03T22:01:29.566Z | Morning slate | failed | 1s | 02-Markets/Daily Data Refresh - 2026-07-03.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |
-| 2026-07-03T21:41:58.190Z | Next wave | failed | 1s | 02-Markets/Daily Data Refresh - 2026-07-03.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-03 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md |

@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-06
 
-Generated: 2026-07-06T21:31:39.685Z
+Generated: 2026-07-06T22:22:33.927Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -27,29 +27,28 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Philadelphia Phillies at Kansas City Royals | Final | Cristopher Sánchez | Noah Cameron | 1-15 |
-| New York Yankees at Tampa Bay Rays | Pre-Game | Cam Schlittler | Griffin Jax | 0-0 |
+| New York Yankees at Tampa Bay Rays | Warmup | Cam Schlittler | Griffin Jax | 0-0 |
 | Houston Astros at Washington Nationals | Pre-Game | Mike Burrows | Miles Mikolas | 0-0 |
 | New York Mets at Atlanta Braves | Pre-Game | Freddy Peralta | Reynaldo López | 0-0 |
 | Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Shane Drohan | Dustin May | 0-0 |
-| Arizona Diamondbacks at San Diego Padres | Scheduled | Brandon Pfaadt | Walker Buehler |  |
-| Toronto Blue Jays at San Francisco Giants | Scheduled | Kevin Gausman | Landen Roupp |  |
-| Colorado Rockies at Los Angeles Dodgers | Pre-Game | Kyle Freeland | Eric Lauer |  |
+| Arizona Diamondbacks at San Diego Padres | Pre-Game | Brandon Pfaadt | Walker Buehler | 0-0 |
+| Toronto Blue Jays at San Francisco Giants | Pre-Game | Kevin Gausman | Landen Roupp |  |
+| Colorado Rockies at Los Angeles Dodgers | Pre-Game | Kyle Freeland | Eric Lauer | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | none |
 | New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -129, Tampa Bay Rays +107 |
 | Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros -106, Washington Nationals -114 |
-| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -131, New York Mets +108 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -112, St. Louis Cardinals -108 |
+| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -126, New York Mets +104 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -119, St. Louis Cardinals -101 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-07T01:41:00Z | Arizona Diamondbacks +108, San Diego Padres -131 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -108, Toronto Blue Jays -112 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +194, Los Angeles Dodgers -240 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +203, Los Angeles Dodgers -251 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles +100, Chicago Cubs -120 |
 | Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +159, Detroit Tigers -194 |
-| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros -102, Washington Nationals -118 |
+| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +102, Washington Nationals -122 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
 | Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians +102, Minnesota Twins -122 |
 | Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +139, Texas Rangers -168 |

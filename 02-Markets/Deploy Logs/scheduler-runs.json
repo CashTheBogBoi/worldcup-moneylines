@@ -1,5 +1,86 @@
 [
   {
+    "id": "morning-2026-07-06T22:22:33.646Z",
+    "phase": "morning",
+    "phaseLabel": "Morning slate",
+    "status": "failed",
+    "startedAt": "2026-07-06T22:22:33.646Z",
+    "finishedAt": "2026-07-06T22:22:49.416Z",
+    "durationMs": 15770,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:morning",
+        "startedAt": "2026-07-06T22:22:33.647Z",
+        "finishedAt": "2026-07-06T22:22:40.682Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "Wrote public/data/latest.json",
+          "Wrote 02-Markets/Daily Data Refresh - 2026-07-06.md",
+          "Warnings:",
+          "- fifaMensRankings: FIFA page shows latest official update 2026-06-11, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.",
+          "",
+          "> worldcup-moneylines@0.1.0 grade:picks",
+          "> node scripts/grade-finished-picks.mjs",
+          "",
+          "Auto-graded 0 picks.",
+          "Still pending with no final score: 4.",
+          "Wrote 03-App/model-training-state.json",
+          "Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-06.md",
+          "",
+          "> worldcup-moneylines@0.1.0 sync:firebase",
+          "> node scripts/sync-firestore.mjs",
+          "",
+          "Synced Firestore collection: sports-edge-lab",
+          "model-training-state savedAt: 2026-07-06T22:22:36.979Z counts {\"pending\":4,\"win\":12,\"loss\":24,\"draw\":1}",
+          "stats-history updatedAt: 2026-07-06T22:19:52.500Z",
+          "Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-06 morning.md"
+        ]
+      },
+      {
+        "name": "deploy",
+        "command": "npm run deploy:firebase",
+        "startedAt": "2026-07-06T22:22:40.682Z",
+        "finishedAt": "2026-07-06T22:22:49.416Z",
+        "ok": false,
+        "exitCode": 1,
+        "signal": null,
+        "outputTail": [
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "",
+          "=== Deploying to 'sportsedge-a58e7'...",
+          "",
+          "i  deploying hosting",
+          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "",
+          "Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "[plugin builtin:vite-reporter] ",
+          "(!) Some chunks are larger than 500 kB after minification. Consider:",
+          "- Using dynamic import() to code-split the application",
+          "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
+          "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit."
+        ]
+      }
+    ],
+    "failedStep": "deploy",
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-06.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-06 morning.md",
+      "dailyReview": null,
+      "modelQuality": null,
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
     "id": "wave-2026-07-06T21:31:39.422Z",
     "phase": "wave",
     "phaseLabel": "Next wave",
