@@ -4026,3 +4026,7 @@ For CI servers and headless environments, generate a new token with firebase log
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
 [2026-07-06T21:31:48.565Z] FAIL deploy exit=1
 ========== Next wave scheduled run FAILED 2026-07-06T21:31:48.565Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
