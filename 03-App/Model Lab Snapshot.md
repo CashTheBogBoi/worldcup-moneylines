@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T21:55:41.145Z
+Updated: 2026-07-06T22:19:53.493Z
 
 ## Summary
 - Total tracked picks: 41
@@ -87,17 +87,17 @@ Updated: 2026-07-06T21:55:41.145Z
 | Passed gate | 16 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T21:55:38.859Z
+- Saved: 2026-07-06T22:19:52.529Z
 - Current candidates: 45
-- Passed / blocked: 4 / 41
+- Passed / blocked: 3 / 42
 
 ### Top Blockers
-- Minimum edge: 41
-- Positive EV: 34
+- Minimum edge: 42
+- Positive EV: 36
+- Model ready: 30
+- Pregame: 30
 - Beats consensus: 21
 - DraftKings line: 2
-- Model ready: 2
-- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
@@ -105,10 +105,9 @@ Updated: 2026-07-06T21:55:41.145Z
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.1% | $3.38 | Edge under 1.5% — inside vig noise. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +190 | 35.3% | $2.35 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $2.06 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Minimum edge | -124 | 56.5% | $2.00 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +215 | 32.3% | $1.85 | Edge under 1.5% — inside vig noise. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Minimum edge | +109 | 48.2% | $0.80 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Minimum edge | -110 | 52.7% | $0.53 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +215 | 32.3% | $1.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +114 | 47.4% | $1.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -124 | 55.4% | $0.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
