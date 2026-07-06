@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T16:05:21.926Z
+Updated: 2026-07-06T16:09:54.935Z
 
 ## Summary
 - Total tracked picks: 40
@@ -86,24 +86,27 @@ Updated: 2026-07-06T16:05:21.926Z
 | Passed gate | 15 | 10 | 10.0% | -0.1 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T16:05:20.958Z
+- Saved: 2026-07-06T16:09:53.679Z
 - Current candidates: 34
-- Passed / blocked: 4 / 30
+- Passed / blocked: 0 / 34
 
 ### Top Blockers
-- Minimum edge: 30
-- Positive EV: 26
+- Model ready: 34
+- Pregame: 34
+- Minimum edge: 32
+- Positive EV: 27
 - Beats consensus: 17
-- Model ready: 16
-- Pregame: 16
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +385 | 21.3% | $3.31 | Edge under 1.5% — inside vig noise. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +900 | 12.9% | $28.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Portugal | Portugal vs Spain | Game too stale/live | +331 | 25.2% | $8.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Norway vs England | Game too stale/live | +313 | 25.6% | $5.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +260 | 28.7% | $3.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +177 | 37.0% | $2.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Belgium | USA vs Belgium | Minimum edge | +190 | 35.3% | $2.23 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.13 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.4% | $1.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +385 | 20.7% | $0.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
