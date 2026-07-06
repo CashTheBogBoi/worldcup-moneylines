@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-06
 
-Generated: 2026-07-06T06:24:33.788Z
+Generated: 2026-07-06T08:31:37.965Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -39,13 +39,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +158, Philadelphia Phillies -193 |
-| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -102, Tampa Bay Rays -119 |
-| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros +109, Washington Nationals -131 |
+| Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +162, Philadelphia Phillies -198 |
+| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -104, Tampa Bay Rays -115 |
+| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros +105, Washington Nationals -126 |
 | New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -131, New York Mets +108 |
 | Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -119, St. Louis Cardinals -102 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-07T01:41:00Z | Arizona Diamondbacks -105, San Diego Padres -115 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -107, Toronto Blue Jays -112 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -114 |
 | Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +179, Los Angeles Dodgers -219 |
 
 ## DraftKings Soccer odds snapshot
