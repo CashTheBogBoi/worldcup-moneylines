@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T20:30:38.217Z
+Updated: 2026-07-06T20:40:27.520Z
 
 ## Summary
 - Total tracked picks: 40
@@ -86,17 +86,17 @@ Updated: 2026-07-06T20:30:38.217Z
 | Passed gate | 15 | 10 | 10.0% | -0.2 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T20:30:36.248Z
+- Saved: 2026-07-06T20:40:26.705Z
 - Current candidates: 48
 - Passed / blocked: 3 / 45
 
 ### Top Blockers
-- Minimum edge: 42
-- Positive EV: 34
+- Minimum edge: 43
+- Positive EV: 38
+- Model ready: 33
+- Pregame: 33
 - Beats consensus: 24
 - DraftKings line: 16
-- Model ready: 5
-- Pregame: 5
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
@@ -104,14 +104,10 @@ Updated: 2026-07-06T20:30:38.217Z
 | MLB | Philadelphia Phillies | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +3300 | 9.2% | $212.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Portugal | Portugal vs Spain | Game too stale/live | +330 | 25.2% | $8.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.2% | $3.76 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Needs DraftKings line | +114 | 48.3% | $3.30 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +188 | 35.5% | $2.18 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.15 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Minimum edge | -125 | 56.5% | $1.70 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Needs DraftKings line | +231 | 30.6% | $1.23 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
-| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Needs DraftKings line | -110 | 52.8% | $0.82 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Minimum edge | +106 | 48.9% | $0.69 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Needs DraftKings line | +160 | 38.7% | $0.61 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +114 | 47.4% | $1.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +231 | 30.4% | $0.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
