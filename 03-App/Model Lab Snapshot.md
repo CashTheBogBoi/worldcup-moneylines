@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T22:36:03.046Z
+Updated: 2026-07-06T23:07:07.908Z
 
 ## Summary
 - Total tracked picks: 43
@@ -87,13 +87,15 @@ Updated: 2026-07-06T22:36:03.046Z
 | Passed gate | 18 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T22:36:01.360Z
+- Saved: 2026-07-06T23:07:07.088Z
 - Current candidates: 43
-- Passed / blocked: 6 / 37
+- Passed / blocked: 4 / 39
 
 ### Top Blockers
-- Minimum edge: 37
-- Positive EV: 33
+- Minimum edge: 39
+- Positive EV: 35
+- Model ready: 28
+- Pregame: 28
 - Beats consensus: 21
 
 ### Research Actions
@@ -101,8 +103,8 @@ Updated: 2026-07-06T22:36:03.046Z
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.1% | $3.19 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $2.06 | Edge under 1.5% — inside vig noise. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Minimum edge | +109 | 48.2% | $0.64 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Minimum edge | -109 | 52.2% | $0.05 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +114 | 47.4% | $1.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -118 | 54.8% | $1.22 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
