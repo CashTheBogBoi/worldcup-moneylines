@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T04:06:05.342Z
+Updated: 2026-07-06T04:26:06.356Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,29 +84,27 @@ Updated: 2026-07-06T04:06:05.342Z
 | Passed gate | 13 | 10 | 10.0% | -0.3 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T04:06:04.365Z
+- Saved: 2026-07-06T04:26:05.392Z
 - Current candidates: 36
 - Passed / blocked: 3 / 33
 
 ### Top Blockers
-- Minimum edge: 30
-- Positive EV: 25
+- Minimum edge: 31
+- Positive EV: 27
 - Beats consensus: 18
 - Model ready: 18
+- Pregame: 18
 - DraftKings line: 5
-- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +2000 | 11.7% | $145.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Norway vs England | Needs DraftKings line | +300 | 28.0% | $12.10 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Needs starter | +161 | 40.6% | $5.92 | Confirm probable starters or use the manual starter override. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.22 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -123 | 56.1% | $1.76 | Confirm probable starters or use the manual starter override. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +161 | 39.4% | $2.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.74 | Edge under 1.5% — inside vig noise. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +175 | 36.8% | $1.33 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Colorado Rockies | Needs starter | -188 | 65.3% | $0.00 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
