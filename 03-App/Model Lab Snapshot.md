@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T20:59:10.230Z
+Updated: 2026-07-06T21:21:56.769Z
 
 ## Summary
 - Total tracked picks: 40
@@ -9,8 +9,8 @@ Updated: 2026-07-06T20:59:10.230Z
 - Wins: 12
 - Losses: 24
 - Draws: 1
-- Intel review decisions saved: 19
-- Intel confirmed / denied / pending: 18 / 1 / 0
+- Intel review decisions saved: 22
+- Intel confirmed / denied / pending: 21 / 1 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -59,6 +59,9 @@ Updated: 2026-07-06T20:59:10.230Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
+| auto-mlb-no-dk-823930 | confirmed | 2026-07-06T21:15:38.130Z |  |
+| auto-mlb-no-dk-822712 | confirmed | 2026-07-06T21:15:37.213Z |  |
+| auto-mlb-started-824089 | confirmed | 2026-07-06T21:15:36.215Z |  |
 | auto-soccer-draw-a6da973c5749ce60adab77d64b3664f4 | confirmed | 2026-07-04T21:27:24.889Z |  |
 | auto-soccer-draw-e61a7b471cadc8e3849158ed59d49cab | confirmed | 2026-07-04T21:27:23.771Z |  |
 | auto-mlb-started-823118 | confirmed | 2026-07-04T21:27:21.805Z |  |
@@ -76,8 +79,6 @@ Updated: 2026-07-06T20:59:10.230Z
 | auto-mlb-started-823767 | confirmed | 2026-07-02T01:50:01.051Z |  |
 | auto-mlb-started-824174 | confirmed | 2026-07-02T01:49:59.515Z |  |
 | auto-mlb-started-824094 | confirmed | 2026-07-02T01:49:57.982Z |  |
-| auto-mlb-started-823446 | confirmed | 2026-07-02T01:49:52.547Z |  |
-| auto-mlb-started-824905 | confirmed | 2026-07-02T01:49:24.195Z |  |
 
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
@@ -86,7 +87,7 @@ Updated: 2026-07-06T20:59:10.230Z
 | Passed gate | 15 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T20:59:09.017Z
+- Saved: 2026-07-06T21:21:55.944Z
 - Current candidates: 48
 - Passed / blocked: 3 / 45
 
@@ -97,11 +98,12 @@ Updated: 2026-07-06T20:59:10.230Z
 - Pregame: 33
 - Beats consensus: 24
 - DraftKings line: 16
+- Intel clear: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Philadelphia Phillies | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +3300 | 9.2% | $212.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Philadelphia Phillies | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +3300 | 6.7% | $126.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Portugal | Portugal vs Spain | Game too stale/live | +330 | 25.0% | $7.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.0% | $2.95 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $2.06 | Edge under 1.5% — inside vig noise. |
