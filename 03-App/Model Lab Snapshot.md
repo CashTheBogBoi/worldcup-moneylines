@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T12:52:30.032Z
+Updated: 2026-07-06T13:12:31.039Z
 
 ## Summary
 - Total tracked picks: 40
@@ -86,22 +86,24 @@ Updated: 2026-07-06T12:52:30.032Z
 | Passed gate | 15 | 10 | 10.0% | -0.2 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T12:52:29.066Z
+- Saved: 2026-07-06T13:12:30.075Z
 - Current candidates: 34
-- Passed / blocked: 5 / 29
+- Passed / blocked: 4 / 30
 
 ### Top Blockers
-- Minimum edge: 29
-- Positive EV: 25
+- Minimum edge: 30
+- Positive EV: 26
 - Beats consensus: 17
+- Model ready: 16
+- Pregame: 16
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +385 | 21.4% | $3.74 | Edge under 1.5% — inside vig noise. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +190 | 35.7% | $3.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +188 | 35.6% | $2.49 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.86 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Minimum edge | -127 | 56.6% | $1.11 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
