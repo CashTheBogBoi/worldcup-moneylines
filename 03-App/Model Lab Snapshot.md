@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-05T23:52:52.081Z
+Updated: 2026-07-06T00:47:27.790Z
 
 ## Summary
 - Total tracked picks: 38
@@ -84,16 +84,16 @@ Updated: 2026-07-05T23:52:52.081Z
 | Passed gate | 13 | 10 | 10.0% | -0.2 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-05T23:52:51.112Z
+- Saved: 2026-07-06T00:47:26.825Z
 - Current candidates: 36
 - Passed / blocked: 3 / 33
 
 ### Top Blockers
-- Minimum edge: 31
+- Minimum edge: 32
 - Positive EV: 25
 - Beats consensus: 19
-- Model ready: 16
-- Pregame: 4
+- Model ready: 18
+- Pregame: 18
 - DraftKings line: 2
 
 ### Research Actions
@@ -101,12 +101,12 @@ Updated: 2026-07-05T23:52:52.081Z
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Athletics | Athletics vs Miami Marlins | Game too stale/live | +2800 | 10.6% | $206.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.5% | $5.20 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Minimum edge | +140 | 43.0% | $3.09 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Needs starter | +149 | 41.4% | $3.07 | Confirm probable starters or use the manual starter override. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Needs starter | -118 | 55.8% | $3.03 | Confirm probable starters or use the manual starter override. |
 | Soccer | Belgium | USA vs Belgium | Minimum edge | +175 | 37.2% | $2.32 | Edge under 1.5% — inside vig noise. |
 | Soccer | Mexico | Mexico vs England | Minimum edge | +210 | 33.0% | $2.21 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.70 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | -118 | 54.6% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Boston Red Sox | Game too stale/live | +140 | 41.9% | $0.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +149 | 40.4% | $0.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
