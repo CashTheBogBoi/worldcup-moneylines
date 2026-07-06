@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-06
 
-Generated: 2026-07-06T12:32:05.855Z
+Generated: 2026-07-06T14:18:19.310Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -40,24 +40,24 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Philadelphia Phillies at Kansas City Royals | 2026-07-06T18:11:00Z | Kansas City Royals +179, Philadelphia Phillies -219 |
-| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -102, Tampa Bay Rays -118 |
-| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros -102, Washington Nationals -119 |
-| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -131, New York Mets +108 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -120, St. Louis Cardinals -101 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-07T01:41:00Z | Arizona Diamondbacks -105, San Diego Padres -115 |
+| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -105, Tampa Bay Rays -115 |
+| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros -101, Washington Nationals -120 |
+| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -132, New York Mets +109 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -111, St. Louis Cardinals -108 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-07T01:41:00Z | Arizona Diamondbacks +103, San Diego Padres -124 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -114 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +183, Los Angeles Dodgers -225 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +188, Los Angeles Dodgers -231 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
 | Spain at Portugal | 2026-07-06T19:00:00Z | Portugal +295, Spain -110, Draw +265 |
-| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +180, USA +150, Draw +240 |
-| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -265, Egypt +800, Draw +360 |
+| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +185, USA +145, Draw +240 |
+| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -270, Egypt +800, Draw +380 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +240, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
-| England at Norway | 2026-07-11T21:00:00Z | England -110, Norway +300, Draw +260 |
+| England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +300, Draw +270 |
 
 ## FIFA men's ranking model input
 

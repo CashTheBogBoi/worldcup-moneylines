@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-06T14:12:34.036Z
+Updated: 2026-07-06T14:18:29.030Z
 
 ## Summary
 - Total tracked picks: 40
@@ -16,7 +16,7 @@ Updated: 2026-07-06T14:12:34.036Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | Soccer | Norway vs England | Norway | pending | +313 | +313 | 0.0 pts | 27.1% | 36% strength model + 64% market no-vig |
-| MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | pending | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
+| MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | pending | +190 | +189 | 0.1 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | pending | +940 | +900 | 0.4 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +260 | 0.0 pts | 30.1% | 37% strength model + 63% market no-vig |
@@ -27,7 +27,7 @@ Updated: 2026-07-06T14:12:34.036Z
 | Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | win | -102 | -107 | 1.2 pts | 54.3% | 35% strength model + 65% market no-vig |
 | Soccer | Australia vs Egypt | Australia | loss | +278 | +275 | 0.2 pts | 30.8% | 45% strength model + 55% market no-vig |
-| Soccer | Portugal vs Spain | Portugal | pending | +322 | +329 | -0.4 pts | 28.0% | 45% strength model + 55% market no-vig |
+| Soccer | Portugal vs Spain | Portugal | pending | +322 | +331 | -0.5 pts | 28.0% | 45% strength model + 55% market no-vig |
 | Soccer | Paraguay vs France | Draw | loss | +720 | +600 | 2.1 pts | 15.8% | 45% strength model + 55% market no-vig |
 | MLB | Seattle Mariners vs Los Angeles Angels | Los Angeles Angels | loss | +178 | +196 | -2.2 pts | 37.8% | 41% strength model + 59% market no-vig |
 | Soccer | Brazil vs Norway | Norway | win | +330 | +390 | -2.8 pts | 23.3% | Odds API no-vig only |
@@ -86,28 +86,23 @@ Updated: 2026-07-06T14:12:34.036Z
 | Passed gate | 15 | 10 | 10.0% | -0.2 pts | 0.169 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-06T14:12:33.064Z
+- Saved: 2026-07-06T14:18:28.057Z
 - Current candidates: 34
-- Passed / blocked: 0 / 34
+- Passed / blocked: 5 / 29
 
 ### Top Blockers
-- Model ready: 34
-- Pregame: 34
-- Minimum edge: 32
-- Positive EV: 26
+- Minimum edge: 29
+- Positive EV: 24
 - Beats consensus: 17
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +900 | 12.9% | $29.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Portugal | Portugal vs Spain | Game too stale/live | +329 | 25.2% | $8.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Norway | Norway vs England | Game too stale/live | +313 | 25.5% | $5.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Kansas City Royals vs Philadelphia Phillies | Game too stale/live | +190 | 35.7% | $3.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +260 | 28.7% | $3.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.3% | $1.42 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +385 | 20.8% | $0.70 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Belgium | USA vs Belgium | Game too stale/live | +188 | 34.8% | $0.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +385 | 21.3% | $3.31 | Edge under 1.5% — inside vig noise. |
+| Soccer | Belgium | USA vs Belgium | Minimum edge | +190 | 35.2% | $2.15 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.13 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Minimum edge | -127 | 56.6% | $1.19 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +200 | 33.4% | $0.12 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
