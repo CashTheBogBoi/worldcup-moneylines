@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-07T23:05:23.774Z",
+  "savedAt": "2026-07-07T23:21:38.612Z",
   "modelPicks": [
     {
       "id": "model-1783440258086-851061",
@@ -113,8 +113,9 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-07T23:05:23.753Z",
-      "autoClosed": true
+      "closedAt": "2026-07-07T23:01:35.135Z",
+      "autoClosed": true,
+      "closeFrozenAt": "2026-07-07T23:21:38.570Z"
     },
     {
       "id": "model-1783440258086-15556",
@@ -491,7 +492,7 @@
       ],
       "note": "",
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-07T23:05:23.753Z",
+      "closedAt": "2026-07-07T23:21:38.570Z",
       "autoClosed": true
     },
     {
@@ -929,7 +930,7 @@
       ],
       "note": "",
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-07T23:05:23.753Z",
+      "closedAt": "2026-07-07T23:21:38.570Z",
       "autoClosed": true
     },
     {
@@ -1073,7 +1074,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-07T23:05:23.753Z",
+      "closedAt": "2026-07-07T23:21:38.570Z",
       "autoClosed": true
     },
     {
@@ -4685,22 +4686,22 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-07T23:05:23.762Z",
+    "savedAt": "2026-07-07T23:21:38.605Z",
     "totalCandidates": 68,
-    "passed": 3,
-    "blocked": 65,
+    "passed": 2,
+    "blocked": 66,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 57
+        "count": 58
       },
       {
         "label": "Positive EV",
-        "count": 47
+        "count": 48
       },
       {
         "label": "Model ready",
-        "count": 36
+        "count": 40
       },
       {
         "label": "Beats consensus",
@@ -4708,7 +4709,7 @@
       },
       {
         "label": "Pregame",
-        "count": 10
+        "count": 14
       },
       {
         "label": "DraftKings line",
@@ -4861,24 +4862,24 @@
       },
       {
         "sport": "MLB",
-        "match": "Miami Marlins vs Seattle Mariners",
-        "selection": "Miami Marlins",
-        "book": "FanDuel",
-        "price": 118,
-        "probability": 0.4639697827066515,
-        "ev": 1.1454126300500391,
-        "edge": 0.0052541863763762575,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
+        "match": "Cincinnati Reds vs Philadelphia Phillies",
+        "selection": "Cincinnati Reds",
+        "book": "LowVig.ag",
+        "price": 147,
+        "probability": 0.41024160344007504,
+        "ev": 1.3296760496985414,
+        "edge": 0.0053833038449333515,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       }
     ]
   },
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1783465523752",
-      "at": "2026-07-07T23:05:23.752Z",
+      "id": "snapshot-1783466498569",
+      "at": "2026-07-07T23:21:38.569Z",
       "source": "local",
       "eventCount": 4,
       "lines": [

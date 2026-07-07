@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T23:05:25.109Z
+Updated: 2026-07-07T23:21:39.539Z
 
 ## Summary
 - Total tracked picks: 48
@@ -87,16 +87,16 @@ Updated: 2026-07-07T23:05:25.109Z
 | Passed gate | 23 | 18 | 16.7% | 0.1 pts | 0.178 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T23:05:23.762Z
+- Saved: 2026-07-07T23:21:38.605Z
 - Current candidates: 68
-- Passed / blocked: 3 / 65
+- Passed / blocked: 2 / 66
 
 ### Top Blockers
-- Minimum edge: 57
-- Positive EV: 47
-- Model ready: 36
+- Minimum edge: 58
+- Positive EV: 48
+- Model ready: 40
 - Beats consensus: 32
-- Pregame: 10
+- Pregame: 14
 - DraftKings line: 5
 
 ### Research Actions
@@ -113,7 +113,7 @@ Updated: 2026-07-07T23:05:25.109Z
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.31 | Edge under 1.5% — inside vig noise. |
 | MLB | Detroit Tigers | Detroit Tigers vs Athletics | Game too stale/live | -286 | 75.7% | $2.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.65 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Needs starter | +118 | 46.4% | $1.15 | Confirm probable starters or use the manual starter override. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +147 | 41.0% | $1.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
