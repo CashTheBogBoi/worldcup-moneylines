@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T23:27:14.534Z
+Updated: 2026-07-07T23:40:50.660Z
 
 ## Summary
 - Total tracked picks: 48
@@ -87,16 +87,16 @@ Updated: 2026-07-07T23:27:14.534Z
 | Passed gate | 23 | 18 | 16.7% | 0.1 pts | 0.178 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T23:27:13.427Z
+- Saved: 2026-07-07T23:40:48.832Z
 - Current candidates: 68
 - Passed / blocked: 2 / 66
 
 ### Top Blockers
 - Minimum edge: 58
-- Positive EV: 48
-- Model ready: 40
+- Model ready: 56
+- Pregame: 56
+- Positive EV: 52
 - Beats consensus: 32
-- Pregame: 14
 - DraftKings line: 5
 
 ### Research Actions
@@ -109,11 +109,11 @@ Updated: 2026-07-07T23:27:14.534Z
 | MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +195 | 38.6% | $13.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | -118 | 61.4% | $13.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Seattle Mariners | Miami Marlins vs Seattle Mariners | Game too stale/live | +145 | 45.3% | $10.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +250 | 29.4% | $2.79 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.31 | Edge under 1.5% — inside vig noise. |
 | MLB | Detroit Tigers | Detroit Tigers vs Athletics | Game too stale/live | -286 | 75.7% | $2.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.65 | Edge under 1.5% — inside vig noise. |
 | MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +147 | 41.0% | $1.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +250 | 28.8% | $0.85 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +120 | 45.6% | $0.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
