@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T00:27:40.572Z
+Updated: 2026-07-07T00:31:12.578Z
 
 ## Summary
 - Total tracked picks: 43
@@ -22,7 +22,7 @@ Updated: 2026-07-07T00:27:40.572Z
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | pending | +940 | +950 | -0.1 pts | 15.2% | 37% strength model + 63% market no-vig |
-| Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +270 | -0.8 pts | 30.1% | 37% strength model + 63% market no-vig |
+| Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +280 | -1.5 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | loss | +136 | +139 | -0.5 pts | 44.1% | 37% strength model + 63% market no-vig |
@@ -87,29 +87,33 @@ Updated: 2026-07-07T00:27:40.572Z
 | Passed gate | 18 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T00:27:39.630Z
-- Current candidates: 53
-- Passed / blocked: 3 / 50
+- Saved: 2026-07-07T00:31:11.597Z
+- Current candidates: 55
+- Passed / blocked: 3 / 52
 
 ### Top Blockers
-- Minimum edge: 48
-- Positive EV: 42
-- Model ready: 41
-- Pregame: 41
+- Minimum edge: 45
+- Positive EV: 39
 - Beats consensus: 26
+- Model ready: 23
+- Pregame: 11
 - DraftKings line: 10
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +575 | 19.3% | $30.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +112 | 49.2% | $4.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +1800 | 13.5% | $156.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +1000 | 16.7% | $83.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | USA | USA vs Belgium | Game too stale/live | +550 | 18.3% | $18.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 42.0% | $13.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +400 | 21.8% | $9.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Needs starter | +158 | 40.9% | $5.41 | Confirm probable starters or use the manual starter override. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.2% | $3.78 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | -520 | 86.5% | $3.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +113 | 48.4% | $3.11 | Edge under 1.5% — inside vig noise. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +162 | 39.3% | $2.96 | Confirm probable starters or use the manual starter override. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.55 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +113 | 47.5% | $1.22 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Belgium | USA vs Belgium | Game too stale/live | +198 | 33.8% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | +100 | 50.4% | $0.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Norway vs England | Minimum edge | +280 | 26.3% | $0.06 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +223 | 31.0% | $0.09 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

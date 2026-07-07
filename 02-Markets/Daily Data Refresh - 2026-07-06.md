@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-06
 
-Generated: 2026-07-06T23:47:01.174Z
+Generated: 2026-07-07T00:30:55.369Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -25,7 +25,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Market move** — New York Mets at Atlanta Braves: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Milwaukee Brewers at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium MLB Market move** — Toronto Blue Jays at San Francisco Giants: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
-- **Medium Soccer Market move** — Belgium at USA: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
@@ -33,9 +32,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Philadelphia Phillies at Kansas City Royals | Final | Cristopher Sánchez | Noah Cameron | 1-15 |
-| New York Yankees at Tampa Bay Rays | In Progress | Cam Schlittler | Griffin Jax | 3-0 |
-| Houston Astros at Washington Nationals | In Progress | Mike Burrows | Miles Mikolas | 6-6 |
-| New York Mets at Atlanta Braves | In Progress | Freddy Peralta | Reynaldo López | 1-0 |
+| New York Yankees at Tampa Bay Rays | In Progress | Cam Schlittler | Griffin Jax | 3-1 |
+| Houston Astros at Washington Nationals | In Progress | Mike Burrows | Miles Mikolas | 6-12 |
+| New York Mets at Atlanta Braves | In Progress | Freddy Peralta | Reynaldo López | 1-3 |
 | Milwaukee Brewers at St. Louis Cardinals | In Progress | Shane Drohan | Dustin May | 0-0 |
 | Arizona Diamondbacks at San Diego Padres | Pre-Game | Brandon Pfaadt | Walker Buehler | 0-0 |
 | Toronto Blue Jays at San Francisco Giants | Pre-Game | Kevin Gausman | Landen Roupp | 0-0 |
@@ -45,18 +44,19 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -800, Tampa Bay Rays +471 |
-| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros -117, Washington Nationals -111 |
-| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves +102, New York Mets -133 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers -121, St. Louis Cardinals -108 |
+| New York Yankees at Tampa Bay Rays | 2026-07-06T22:41:00Z | New York Yankees -1280, Tampa Bay Rays +630 |
+| Houston Astros at Washington Nationals | 2026-07-06T22:46:00Z | Houston Astros +1000, Washington Nationals -3700 |
+| New York Mets at Atlanta Braves | 2026-07-06T23:16:00Z | Atlanta Braves -571, New York Mets +370 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-06T23:46:00Z | Milwaukee Brewers +165, St. Louis Cardinals -220 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-07T01:41:00Z | Arizona Diamondbacks +108, San Diego Padres -131 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -110, Toronto Blue Jays -110 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-07T01:46:00Z | San Francisco Giants -108, Toronto Blue Jays -112 |
 | Colorado Rockies at Los Angeles Dodgers | 2026-07-07T02:11:00Z | Colorado Rockies +203, Los Angeles Dodgers -251 |
 | Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | none |
 | Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles +100, Chicago Cubs -120 |
 | Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +159, Detroit Tigers -194 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | none |
 | Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | none |
-| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | none |
+| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +100, Tampa Bay Rays -120 |
 | Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +102, Washington Nationals -122 |
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | none |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
@@ -69,7 +69,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Belgium at USA | 2026-07-07T00:00:00Z | Belgium +185, USA +155, Draw +225 |
+| Belgium at USA | 2026-07-07T00:00:00Z | Belgium -170, USA +550, Draw +260 |
 | Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -270, Egypt +850, Draw +370 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +240, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
