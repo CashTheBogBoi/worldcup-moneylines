@@ -4248,3 +4248,7 @@ For CI servers and headless environments, generate a new token with firebase log
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
 [2026-07-07T00:31:11.533Z] FAIL deploy exit=1
 ========== Morning slate scheduled run FAILED 2026-07-07T00:31:11.533Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
