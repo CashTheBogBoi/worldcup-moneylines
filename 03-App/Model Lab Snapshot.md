@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T03:30:56.972Z
+Updated: 2026-07-07T03:34:11.911Z
 
 ## Summary
 - Total tracked picks: 44
@@ -9,8 +9,8 @@ Updated: 2026-07-07T03:30:56.972Z
 - Wins: 13
 - Losses: 24
 - Draws: 1
-- Intel review decisions saved: 27
-- Intel confirmed / denied / pending: 26 / 1 / 0
+- Intel review decisions saved: 30
+- Intel confirmed / denied / pending: 29 / 1 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -59,6 +59,9 @@ Updated: 2026-07-07T03:30:56.972Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
+| auto-mlb-started-823930 | confirmed | 2026-07-07T03:34:11.086Z |  |
+| auto-mlb-started-823282 | confirmed | 2026-07-07T03:34:10.204Z |  |
+| auto-mlb-started-823205 | confirmed | 2026-07-07T03:34:09.154Z |  |
 | auto-mlb-started-822712 | confirmed | 2026-07-07T01:48:55.624Z |  |
 | auto-mlb-started-823036 | confirmed | 2026-07-07T01:48:54.675Z |  |
 | auto-mlb-no-dk-823205 | confirmed | 2026-07-07T01:48:53.140Z |  |
@@ -76,9 +79,6 @@ Updated: 2026-07-07T03:30:56.972Z
 | auto-mlb-started-825064 | confirmed | 2026-07-02T01:56:57.243Z |  |
 | auto-soccer-heavy-fav-c798a1ffdeda28e82d930e7145a8ff10 | confirmed | 2026-07-02T01:52:38.876Z |  |
 | auto-soccer-heavy-fav-3e161b2448ed76d6b0c0f5bda6fd5bf2 | confirmed | 2026-07-02T01:52:26.342Z |  |
-| auto-soccer-draw-fb270a3dac2b682c861bd674a5ff4a04 | confirmed | 2026-07-02T01:52:13.091Z |  |
-| auto-soccer-draw-c17fe2e46190d7ab6af01504ff240e82 | confirmed | 2026-07-02T01:52:04.342Z |  |
-| auto-soccer-heavy-fav-a518ac20df8f5c732b881e213ae0c230 | confirmed | 2026-07-02T01:51:52.092Z |  |
 
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
@@ -87,31 +87,31 @@ Updated: 2026-07-07T03:30:56.972Z
 | Passed gate | 19 | 13 | 23.1% | -0.3 pts | 0.198 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T03:30:56.152Z
+- Saved: 2026-07-07T03:34:11.095Z
 - Current candidates: 53
 - Passed / blocked: 4 / 49
 
 ### Top Blockers
-- Minimum edge: 43
+- Minimum edge: 42
 - Model ready: 38
 - Pregame: 38
 - Positive EV: 36
 - Beats consensus: 25
+- Intel clear: 22
 - DraftKings line: 10
-- Intel clear: 10
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +420 | 44.4% | $130.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +260 | 55.6% | $100.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +1400 | 13.3% | $99.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +1400 | 11.0% | $64.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1300 | 11.5% | $61.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +461 | 27.3% | $53.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +461 | 26.1% | $46.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.3% | $6.37 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | -143 | 62.3% | $5.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | -143 | 62.0% | $5.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | -250 | 73.9% | $3.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.56 | Edge under 1.5% — inside vig noise. |
-| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | -250 | 72.7% | $1.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +115 | 47.1% | $1.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +155 | 39.5% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Athletics | Detroit Tigers vs Athletics | Game too stale/live | +169 | 37.4% | $0.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
