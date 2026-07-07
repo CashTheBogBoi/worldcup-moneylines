@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T04:12:44.425Z
+Updated: 2026-07-07T04:16:14.522Z
 
 ## Summary
 - Total tracked picks: 46
@@ -87,16 +87,16 @@ Updated: 2026-07-07T04:12:44.425Z
 | Passed gate | 21 | 14 | 21.4% | -0.2 pts | 0.207 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T04:12:43.597Z
+- Saved: 2026-07-07T04:16:13.500Z
 - Current candidates: 51
-- Passed / blocked: 6 / 45
+- Passed / blocked: 4 / 47
 
 ### Top Blockers
-- Minimum edge: 41
-- Positive EV: 35
+- Minimum edge: 45
+- Positive EV: 37
+- Model ready: 36
+- Pregame: 36
 - Beats consensus: 23
-- Model ready: 18
-- Pregame: 6
 - DraftKings line: 4
 
 ### Research Actions
@@ -105,13 +105,13 @@ Updated: 2026-07-07T04:12:44.425Z
 | MLB | Toronto Blue Jays | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +3300 | 8.6% | $193.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +2200 | 9.3% | $113.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.2% | $5.82 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +149 | 42.2% | $5.07 | Confirm probable starters or use the manual starter override. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +167 | 39.3% | $4.99 | Confirm probable starters or use the manual starter override. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.56 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +169 | 37.9% | $1.91 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +227 | 30.9% | $1.16 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | New York Mets vs Kansas City Royals | Needs starter | +134 | 43.1% | $0.81 | Confirm probable starters or use the manual starter override. |
-| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Needs starter | +103 | 49.3% | $0.04 | Confirm probable starters or use the manual starter override. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +155 | 40.1% | $2.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +149 | 41.0% | $2.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +167 | 38.1% | $1.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +115 | 47.1% | $1.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Game too stale/live | +169 | 37.4% | $0.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +227 | 30.7% | $0.53 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
