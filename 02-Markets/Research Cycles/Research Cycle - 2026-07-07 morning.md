@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-07
 
-Generated: 2026-07-07T12:37:29.333Z
-Local time: 8:37 AM
+Generated: 2026-07-07T13:59:31.244Z
+Local time: 9:59 AM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,8 +13,8 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-07T12:37:21.267Z
-- MLB odds events: 15
+- Snapshot generated: 2026-07-07T13:59:24.869Z
+- MLB odds events: 16
 - Soccer odds events: 5
 - High-impact intel blocks: 6
 - Intel pending / confirmed / denied: 7 / 1 / 0
@@ -43,38 +43,38 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 339 | Milwaukee Brewers -193, St. Louis Cardinals +158 | 10 |
-| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 599 | Baltimore Orioles -102, Chicago Cubs -118 | 11 |
-| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 604 | Athletics +153, Detroit Tigers -186 | 11 |
-| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 604 | Atlanta Braves +141, Pittsburgh Pirates -171 | 11 |
-| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 604 | Miami Marlins -120, Seattle Mariners -101 | 11 |
-| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 604 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
-| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 609 | Houston Astros +104, Washington Nationals -125 | 11 |
-| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 633 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
-| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 634 | Kansas City Royals +129, New York Mets -156 | 11 |
-| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 664 | Boston Red Sox -131, Chicago White Sox +108 | 11 |
-| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 664 | Cleveland Guardians -103, Minnesota Twins -117 | 11 |
-| Los Angeles Angels at Texas Rangers | Jul 7, 8:06 PM | 689 | Los Angeles Angels +138, Texas Rangers -167 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 257 | Milwaukee Brewers -198, St. Louis Cardinals +162 | 11 |
+| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 517 | Baltimore Orioles -102, Chicago Cubs -118 | 11 |
+| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 522 | Athletics +154, Detroit Tigers -188 | 11 |
+| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 522 | Atlanta Braves +139, Pittsburgh Pirates -168 | 11 |
+| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 522 | Miami Marlins -120, Seattle Mariners -101 | 11 |
+| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 522 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
+| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 527 | Houston Astros +104, Washington Nationals -125 | 11 |
+| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 551 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
+| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 552 | Kansas City Royals +129, New York Mets -156 | 11 |
+| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 582 | Boston Red Sox -126, Chicago White Sox +104 | 11 |
+| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 582 | Cleveland Guardians -103, Minnesota Twins -117 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 7:46 PM | 587 | Milwaukee Brewers -132, St. Louis Cardinals +109 | 8 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Egypt at Argentina | Jul 7, 12:00 PM | 203 | Argentina -310, Egypt +950, Draw +390 | 9 |
-| Colombia at Switzerland | Jul 7, 4:00 PM | 443 | Colombia +125, Switzerland +245, Draw +210 | 9 |
-| Morocco at France | Jul 9, 4:00 PM | 3323 | France -170, Morocco +500, Draw +285 | 9 |
-| Belgium at Spain | Jul 10, 3:00 PM | 4703 | Belgium +450, Spain -160, Draw +290 | 8 |
-| England at Norway | Jul 11, 5:00 PM | 6263 | England -115, Norway +295, Draw +270 | 9 |
+| Egypt at Argentina | Jul 7, 12:00 PM | 121 | Argentina -310, Egypt +950, Draw +390 | 9 |
+| Colombia at Switzerland | Jul 7, 4:00 PM | 361 | Colombia +125, Switzerland +245, Draw +210 | 9 |
+| Morocco at France | Jul 9, 4:00 PM | 3241 | France -170, Morocco +500, Draw +285 | 9 |
+| Belgium at Spain | Jul 10, 3:00 PM | 4621 | Belgium +450, Spain -160, Draw +290 | 9 |
+| England at Norway | Jul 11, 5:00 PM | 6181 | England -115, Norway +295, Draw +270 | 9 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | +155 | +152 | 41.5% | 25% strength model + 75% market no-vig |
-| Soccer | Spain vs Belgium | Belgium | +498 | +500 | 27.3% | 38% strength model + 62% market no-vig |
+| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | +155 | +144 | 41.5% | 25% strength model + 75% market no-vig |
+| Soccer | Spain vs Belgium | Belgium | +498 | +490 | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | +410 | +400 | 21.2% | 38% strength model + 62% market no-vig |
-| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | +114 | +113 | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | +313 | +313 | 27.1% | 36% strength model + 64% market no-vig |
-| Soccer | Argentina vs Egypt | Egypt | +940 | +1000 | 15.2% | 37% strength model + 63% market no-vig |
-| Soccer | Switzerland vs Colombia | Switzerland | +260 | +265 | 30.1% | 37% strength model + 63% market no-vig |
+| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | +114 | +109 | 48.2% | 25% strength model + 75% market no-vig |
+| Soccer | Norway vs England | Norway | +313 | +325 | 27.1% | 36% strength model + 64% market no-vig |
+| Soccer | Argentina vs Egypt | Egypt | +940 | +1050 | 15.2% | 37% strength model + 63% market no-vig |
+| Soccer | Switzerland vs Colombia | Switzerland | +260 | +267 | 30.1% | 37% strength model + 63% market no-vig |
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.

@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-07
 
-Generated: 2026-07-07T12:37:48.393Z
-Local time: 8:37 AM
+Generated: 2026-07-07T13:59:49.537Z
+Local time: 9:59 AM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,8 +13,8 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-07T12:37:40.488Z
-- MLB odds events: 15
+- Snapshot generated: 2026-07-07T13:59:45.212Z
+- MLB odds events: 16
 - Soccer odds events: 5
 - High-impact intel blocks: 6
 - Intel pending / confirmed / denied: 7 / 1 / 0
@@ -43,27 +43,27 @@ Confirm the first wave before anything becomes live-market contaminated.
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 338 | Milwaukee Brewers -193, St. Louis Cardinals +158 | 10 |
-| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 598 | Baltimore Orioles -102, Chicago Cubs -118 | 11 |
-| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 603 | Athletics +153, Detroit Tigers -186 | 11 |
-| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 603 | Atlanta Braves +141, Pittsburgh Pirates -171 | 11 |
-| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 603 | Miami Marlins -120, Seattle Mariners -101 | 11 |
-| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 603 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
-| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 608 | Houston Astros +104, Washington Nationals -125 | 11 |
-| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 632 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
-| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 633 | Kansas City Royals +129, New York Mets -156 | 11 |
-| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 663 | Boston Red Sox -131, Chicago White Sox +108 | 11 |
-| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 663 | Cleveland Guardians -103, Minnesota Twins -117 | 11 |
-| Los Angeles Angels at Texas Rangers | Jul 7, 8:06 PM | 688 | Los Angeles Angels +138, Texas Rangers -167 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 256 | Milwaukee Brewers -198, St. Louis Cardinals +162 | 11 |
+| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 516 | Baltimore Orioles -102, Chicago Cubs -118 | 11 |
+| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 521 | Athletics +154, Detroit Tigers -188 | 11 |
+| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 521 | Atlanta Braves +139, Pittsburgh Pirates -168 | 11 |
+| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 521 | Miami Marlins -120, Seattle Mariners -101 | 11 |
+| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 521 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
+| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 526 | Houston Astros +104, Washington Nationals -125 | 11 |
+| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 550 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
+| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 551 | Kansas City Royals +129, New York Mets -156 | 11 |
+| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 581 | Boston Red Sox -126, Chicago White Sox +104 | 11 |
+| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 581 | Cleveland Guardians -103, Minnesota Twins -117 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 7:46 PM | 586 | Milwaukee Brewers -132, St. Louis Cardinals +109 | 8 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Egypt at Argentina | Jul 7, 12:00 PM | 202 | Argentina -310, Egypt +950, Draw +390 | 9 |
-| Colombia at Switzerland | Jul 7, 4:00 PM | 442 | Colombia +125, Switzerland +245, Draw +210 | 9 |
-| Morocco at France | Jul 9, 4:00 PM | 3322 | France -170, Morocco +500, Draw +285 | 9 |
-| Belgium at Spain | Jul 10, 3:00 PM | 4702 | Belgium +450, Spain -160, Draw +290 | 8 |
-| England at Norway | Jul 11, 5:00 PM | 6262 | England -115, Norway +295, Draw +270 | 9 |
+| Egypt at Argentina | Jul 7, 12:00 PM | 120 | Argentina -310, Egypt +950, Draw +390 | 9 |
+| Colombia at Switzerland | Jul 7, 4:00 PM | 360 | Colombia +125, Switzerland +245, Draw +210 | 9 |
+| Morocco at France | Jul 9, 4:00 PM | 3240 | France -170, Morocco +500, Draw +285 | 9 |
+| Belgium at Spain | Jul 10, 3:00 PM | 4620 | Belgium +450, Spain -160, Draw +290 | 9 |
+| England at Norway | Jul 11, 5:00 PM | 6180 | England -115, Norway +295, Draw +270 | 9 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |

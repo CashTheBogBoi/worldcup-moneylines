@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T12:37:40.488Z
+Generated: 2026-07-07T13:59:45.212Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -54,21 +54,22 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -193, St. Louis Cardinals +158 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -198, St. Louis Cardinals +162 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles -102, Chicago Cubs -118 |
-| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +153, Detroit Tigers -186 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +141, Pittsburgh Pirates -171 |
+| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +154, Detroit Tigers -188 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +139, Pittsburgh Pirates -168 |
 | Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -120, Seattle Mariners -101 |
 | New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +101, Tampa Bay Rays -122 |
 | Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +104, Washington Nationals -125 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +144, Philadelphia Phillies -175 |
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +129, New York Mets -156 |
-| Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -131, Chicago White Sox +108 |
+| Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
 | Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -103, Minnesota Twins -117 |
-| Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +138, Texas Rangers -167 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +104, San Diego Padres -125 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -102, Toronto Blue Jays -118 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +224, Los Angeles Dodgers -280 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -132, St. Louis Cardinals +109 |
+| Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +141, Texas Rangers -171 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +101, San Diego Padres -122 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -115 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +228, Los Angeles Dodgers -286 |
 
 ## DraftKings Soccer odds snapshot
 
