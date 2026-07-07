@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T21:12:10.327Z
+Updated: 2026-07-07T21:31:29.510Z
 
 ## Summary
 - Total tracked picks: 48
@@ -87,33 +87,33 @@ Updated: 2026-07-07T21:12:10.327Z
 | Passed gate | 23 | 17 | 17.6% | 0.1 pts | 0.183 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T21:12:09.387Z
-- Current candidates: 70
-- Passed / blocked: 3 / 67
+- Saved: 2026-07-07T21:31:26.959Z
+- Current candidates: 68
+- Passed / blocked: 3 / 65
 
 ### Top Blockers
-- Minimum edge: 66
-- Positive EV: 52
-- Beats consensus: 33
-- Model ready: 31
-- Pregame: 5
+- Minimum edge: 64
+- Positive EV: 50
+- Beats consensus: 32
+- Model ready: 29
+- Pregame: 3
 - DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1800 | 13.1% | $149.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +330 | 24.5% | $5.22 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +192 | 35.5% | $3.52 | Edge under 1.5% — inside vig noise. |
+| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +440 | 20.9% | $13.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Colombia | Switzerland vs Colombia | Game too stale/live | +280 | 27.5% | $4.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +192 | 35.5% | $3.80 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.21 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +128 | 44.8% | $2.20 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +242 | 29.6% | $1.33 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +128 | 44.7% | $2.00 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.3% | $1.29 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +242 | 29.6% | $1.25 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Needs starter | +133 | 43.4% | $1.08 | Confirm probable starters or use the manual starter override. |
 | MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Needs starter | +118 | 46.3% | $1.03 | Confirm probable starters or use the manual starter override. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Needs starter | +133 | 43.4% | $1.02 | Confirm probable starters or use the manual starter override. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +120 | 45.8% | $0.80 | Confirm probable starters or use the manual starter override. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +120 | 45.8% | $0.76 | Confirm probable starters or use the manual starter override. |
+| MLB | New York Yankees | Tampa Bay Rays vs New York Yankees | Minimum edge | +118 | 46.0% | $0.23 | Edge under 1.5% — inside vig noise. |
 | MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Needs starter | -102 | 50.6% | $0.22 | Confirm probable starters or use the manual starter override. |
-| MLB | New York Yankees | Tampa Bay Rays vs New York Yankees | Minimum edge | +118 | 46.0% | $0.19 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

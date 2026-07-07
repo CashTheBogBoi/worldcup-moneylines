@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T21:00:12.605Z
+Generated: 2026-07-07T21:31:12.500Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,14 +20,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Milwaukee Brewers at St. Louis Cardinals: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium MLB Market move** — Seattle Mariners at Miami Marlins: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | Game Over | Jacob Misiorowski | Matt Svanson | 4-3 |
+| Milwaukee Brewers at St. Louis Cardinals | Final | Jacob Misiorowski | Matt Svanson | 4-3 |
 | Milwaukee Brewers at St. Louis Cardinals | Scheduled | Robert Gasser | Hunter Dobbins |  |
 | Chicago Cubs at Baltimore Orioles | Pre-Game | Matthew Boyd | Shane Baz | 0-0 |
 | Athletics at Detroit Tigers | Pre-Game | J.T. Ginn | Tarik Skubal | 0-0 |
@@ -35,9 +34,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Miami Marlins | Pre-Game | Bryan Woo | Max Meyer | 0-0 |
 | New York Yankees at Tampa Bay Rays | Pre-Game | Will Warren | Ian Seymour | 0-0 |
 | Houston Astros at Washington Nationals | Pre-Game | Tatsuya Imai | Andrew Alvarez | 0-0 |
-| Kansas City Royals at New York Mets | Pre-Game | Seth Lugo | Cionel Pérez |  |
+| Kansas City Royals at New York Mets | Pre-Game | Seth Lugo | Cionel Pérez | 0-0 |
 | Philadelphia Phillies at Cincinnati Reds | Pre-Game | Zack Wheeler | Andrew Abbott | 0-0 |
-| Cleveland Guardians at Minnesota Twins | Pre-Game | Joey Cantillo | Taj Bradley |  |
+| Cleveland Guardians at Minnesota Twins | Pre-Game | Joey Cantillo | Taj Bradley | 0-0 |
 | Boston Red Sox at Chicago White Sox | Pre-Game | Payton Tolle | Noah Schultz | 0-0 |
 | Los Angeles Angels at Texas Rangers | Pre-Game | José Soriano | Jacob deGrom | 0-0 |
 | Arizona Diamondbacks at San Diego Padres | Scheduled | Zac Gallen | Germán Márquez |  |
@@ -48,15 +47,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -10000, St. Louis Cardinals +1320 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles -106, Chicago Cubs -114 |
-| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +188, Detroit Tigers -231 |
+| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +183, Detroit Tigers -225 |
 | Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +124, Pittsburgh Pirates -149 |
 | Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -126, Seattle Mariners +105 |
 | New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +113, Tampa Bay Rays -136 |
 | Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros -105, Washington Nationals -115 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +139, Philadelphia Phillies -168 |
-| Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +124, New York Mets -149 |
+| Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +119, New York Mets -144 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
 | Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -109, Minnesota Twins -110 |
 | Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -120, St. Louis Cardinals +100 |
@@ -82,7 +80,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +155, Switzerland +330, Draw +130 |
+| Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +240, Switzerland +425, Draw -135 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +295 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -165, Draw +295 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +295, Draw +270 |
