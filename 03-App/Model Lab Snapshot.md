@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T16:05:26.094Z
+Updated: 2026-07-07T16:10:23.161Z
 
 ## Summary
 - Total tracked picks: 48
@@ -15,9 +15,9 @@ Updated: 2026-07-07T16:05:26.094Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +153 | - | - | 41.8% | 25% strength model + 75% market no-vig |
-| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | - | - | 38.3% | 25% strength model + 75% market no-vig |
-| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | pending | +155 | +133 | 3.7 pts | 41.5% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +153 | +153 | 0.0 pts | 41.8% | 25% strength model + 75% market no-vig |
+| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | +178 | 0.0 pts | 38.3% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | pending | +155 | +131 | 4.1 pts | 41.5% | 25% strength model + 75% market no-vig |
 | Soccer | Spain vs Belgium | Belgium | pending | +498 | +500 | -0.1 pts | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | pending | +410 | +400 | 0.4 pts | 21.2% | 38% strength model + 62% market no-vig |
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
@@ -87,13 +87,13 @@ Updated: 2026-07-07T16:05:26.094Z
 | Passed gate | 23 | 14 | 21.4% | 0.0 pts | 0.207 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T16:05:25.278Z
+- Saved: 2026-07-07T16:10:22.323Z
 - Current candidates: 47
 - Passed / blocked: 5 / 42
 
 ### Top Blockers
 - Minimum edge: 41
-- Positive EV: 34
+- Positive EV: 35
 - Beats consensus: 22
 - Model ready: 7
 - Pregame: 3
@@ -101,14 +101,13 @@ Updated: 2026-07-07T16:05:26.094Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +1070 | 11.6% | $35.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +133 | 44.4% | $3.45 | Edge under 1.5% — inside vig noise. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +1100 | 11.7% | $40.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +380 | 21.9% | $5.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +182 | 36.4% | $2.67 | Edge under 1.5% — inside vig noise. |
-| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +400 | 20.5% | $2.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +131 | 44.4% | $2.65 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $2.04 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +108 | 48.7% | $1.28 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +231 | 30.2% | $0.01 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | Minnesota Twins vs Cleveland Guardians | Minimum edge | -108 | 51.9% | $0.01 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +108 | 48.7% | $1.32 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +233 | 30.2% | $0.54 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

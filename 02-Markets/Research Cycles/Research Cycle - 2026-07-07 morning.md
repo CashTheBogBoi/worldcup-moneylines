@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-07
 
-Generated: 2026-07-07T16:03:39.868Z
-Local time: 12:03 PM
+Generated: 2026-07-07T16:09:57.143Z
+Local time: 12:09 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,17 +13,16 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-07T16:03:35.348Z
+- Snapshot generated: 2026-07-07T16:09:52.712Z
 - MLB odds events: 16
 - Soccer odds events: 5
-- High-impact intel blocks: 3
-- Intel pending / confirmed / denied: 3 / 1 / 0
-- Pending tracked picks: 7
-- Tracked gate status passed / blocked / unknown: 21 / 0 / 25
+- High-impact intel blocks: 2
+- Intel pending / confirmed / denied: 2 / 1 / 0
+- Pending tracked picks: 9
+- Tracked gate status passed / blocked / unknown: 23 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Starters / pending:** Milwaukee Brewers at St. Louis Cardinals — Official starter is still TBD (Robert Gasser vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **MLB / Starters / pending:** Seattle Mariners at Miami Marlins — Official starter is still TBD (TBD vs Max Meyer). Block Bankroll Watch promotion until both starters are confirmed.
 - **MLB / Starters / pending:** Kansas City Royals at New York Mets — Official starter is still TBD (Seth Lugo vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 
@@ -32,40 +31,41 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 | --- | --- | --- | --- | --- |
 | Seattle Mariners at Miami Marlins | Jul 7, 6:40 PM | TBD | Max Meyer | Scheduled |
 | Kansas City Royals at New York Mets | Jul 7, 7:10 PM | Seth Lugo | TBD | Scheduled |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 7:45 PM | Robert Gasser | TBD | Scheduled |
 
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 132 | Milwaukee Brewers -205, St. Louis Cardinals +168 | 11 |
-| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 392 | Baltimore Orioles -105, Chicago Cubs -115 | 11 |
-| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 397 | Athletics +178, Detroit Tigers -219 | 11 |
-| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 397 | Atlanta Braves +124, Pittsburgh Pirates -149 | 11 |
-| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 397 | Miami Marlins -125, Seattle Mariners +104 | 11 |
-| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 397 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
-| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 402 | Houston Astros +101, Washington Nationals -122 | 11 |
-| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 426 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
-| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 427 | Kansas City Royals +128, New York Mets -155 | 11 |
-| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 457 | Boston Red Sox -126, Chicago White Sox +104 | 11 |
-| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 457 | Cleveland Guardians -105, Minnesota Twins -114 | 11 |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 7:46 PM | 462 | Milwaukee Brewers -136, St. Louis Cardinals +113 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 2:16 PM | 126 | Milwaukee Brewers -205, St. Louis Cardinals +168 | 11 |
+| Chicago Cubs at Baltimore Orioles | Jul 7, 6:36 PM | 386 | Baltimore Orioles -105, Chicago Cubs -115 | 11 |
+| Athletics at Detroit Tigers | Jul 7, 6:41 PM | 391 | Athletics +178, Detroit Tigers -219 | 11 |
+| Atlanta Braves at Pittsburgh Pirates | Jul 7, 6:41 PM | 391 | Atlanta Braves +124, Pittsburgh Pirates -149 | 11 |
+| Seattle Mariners at Miami Marlins | Jul 7, 6:41 PM | 391 | Miami Marlins -125, Seattle Mariners +104 | 11 |
+| New York Yankees at Tampa Bay Rays | Jul 7, 6:41 PM | 391 | New York Yankees +101, Tampa Bay Rays -122 | 11 |
+| Houston Astros at Washington Nationals | Jul 7, 6:46 PM | 396 | Houston Astros +101, Washington Nationals -122 | 11 |
+| Philadelphia Phillies at Cincinnati Reds | Jul 7, 7:10 PM | 420 | Cincinnati Reds +144, Philadelphia Phillies -175 | 11 |
+| Kansas City Royals at New York Mets | Jul 7, 7:11 PM | 421 | Kansas City Royals +128, New York Mets -155 | 11 |
+| Boston Red Sox at Chicago White Sox | Jul 7, 7:41 PM | 451 | Boston Red Sox -126, Chicago White Sox +104 | 11 |
+| Cleveland Guardians at Minnesota Twins | Jul 7, 7:41 PM | 451 | Cleveland Guardians -105, Minnesota Twins -114 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 7, 7:46 PM | 456 | Milwaukee Brewers -136, St. Louis Cardinals +113 | 11 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Colombia at Switzerland | Jul 7, 4:00 PM | 236 | Colombia +125, Switzerland +245, Draw +210 | 9 |
-| Morocco at France | Jul 9, 4:00 PM | 3116 | France -180, Morocco +550, Draw +295 | 9 |
-| Belgium at Spain | Jul 10, 3:00 PM | 4496 | Belgium +450, Spain -160, Draw +290 | 9 |
-| England at Norway | Jul 11, 5:00 PM | 6056 | England -115, Norway +295, Draw +270 | 9 |
+| Colombia at Switzerland | Jul 7, 4:00 PM | 230 | Colombia +125, Switzerland +245, Draw +210 | 9 |
+| Morocco at France | Jul 9, 4:00 PM | 3110 | France -180, Morocco +550, Draw +295 | 9 |
+| Belgium at Spain | Jul 10, 3:00 PM | 4490 | Belgium +450, Spain -160, Draw +290 | 9 |
+| England at Norway | Jul 11, 5:00 PM | 6050 | England -115, Norway +295, Draw +270 | 9 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | +155 | +143 | 41.5% | 25% strength model + 75% market no-vig |
-| Soccer | Spain vs Belgium | Belgium | +498 | +490 | 27.3% | 38% strength model + 62% market no-vig |
+| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | +153 | - | 41.8% | 25% strength model + 75% market no-vig |
+| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | +178 | - | 38.3% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | +155 | +133 | 41.5% | 25% strength model + 75% market no-vig |
+| Soccer | Spain vs Belgium | Belgium | +498 | +500 | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | +410 | +400 | 21.2% | 38% strength model + 62% market no-vig |
-| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | +114 | +110 | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | +313 | +325 | 27.1% | 36% strength model + 64% market no-vig |
+| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | +114 | +108 | 48.2% | 25% strength model + 75% market no-vig |
+| Soccer | Norway vs England | Norway | +313 | +330 | 27.1% | 36% strength model + 64% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | +940 | +1075 | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | +260 | +273 | 30.1% | 37% strength model + 63% market no-vig |
 

@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T16:03:35.348Z
+Generated: 2026-07-07T16:09:52.712Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Starters** — Milwaukee Brewers at St. Louis Cardinals: Official starter is still TBD (Robert Gasser vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Seattle Mariners at Miami Marlins: Official starter is still TBD (TBD vs Max Meyer). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Kansas City Royals at New York Mets: Official starter is still TBD (Seth Lugo vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
@@ -30,7 +29,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Jacob Misiorowski | Matt Svanson | 0-0 |
-| Milwaukee Brewers at St. Louis Cardinals | Scheduled | Robert Gasser | TBD |  |
+| Milwaukee Brewers at St. Louis Cardinals | Scheduled | Robert Gasser | Hunter Dobbins |  |
 | Chicago Cubs at Baltimore Orioles | Scheduled | Matthew Boyd | Shane Baz |  |
 | Athletics at Detroit Tigers | Scheduled | J.T. Ginn | Tarik Skubal |  |
 | Atlanta Braves at Pittsburgh Pirates | Scheduled | Hurston Waldrep | Paul Skenes |  |
@@ -65,13 +64,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +139, Texas Rangers -168 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +101, San Diego Padres -122 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -115 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +229, Los Angeles Dodgers -286 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +233, Los Angeles Dodgers -292 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina -330, Egypt +1000, Draw +400 |
+| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina -295, Egypt +1100, Draw +340 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +125, Switzerland +245, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +295 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -160, Draw +290 |
