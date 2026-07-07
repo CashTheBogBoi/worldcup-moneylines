@@ -1,6 +1,6 @@
 # Daily Review - 2026-07-06
 
-Generated: 2026-07-07T02:16:52.379Z
+Generated: 2026-07-07T02:38:03.756Z
 
 ## Executive Read
 - Tracked picks reviewed: 8
@@ -62,11 +62,11 @@ _No saved gate blockers on reviewed picks yet._
 - No specific pattern detected yet; add manual context if news/injuries mattered.
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / confirmed:** New York Yankees at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / confirmed:** Houston Astros at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / High / Market move / confirmed:** New York Mets at Atlanta Braves — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / confirmed:** Milwaukee Brewers at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Medium / Market move / confirmed:** Toronto Blue Jays at San Francisco Giants — DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **MLB / High / Market move / confirmed:** Milwaukee Brewers at St. Louis Cardinals — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Arizona Diamondbacks at San Diego Padres — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Toronto Blue Jays at San Francisco Giants — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Colorado Rockies at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Soccer / Medium / Market move / confirmed:** Colombia at Switzerland — Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
 ## Algorithm Adjustments To Consider

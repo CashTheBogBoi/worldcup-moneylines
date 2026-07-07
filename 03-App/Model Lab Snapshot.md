@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T02:17:24.859Z
+Updated: 2026-07-07T02:41:41.104Z
 
 ## Summary
-- Total tracked picks: 43
-- Pending: 5
+- Total tracked picks: 44
+- Pending: 6
 - Graded: 38
 - Wins: 13
 - Losses: 24
@@ -15,13 +15,14 @@ Updated: 2026-07-07T02:17:24.859Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| Soccer | Spain vs Belgium | Belgium | pending | +495 | +495 | 0.0 pts | 27.2% | 38% strength model + 62% market no-vig |
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
-| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | pending | +114 | +113 | 0.2 pts | 48.2% | 25% strength model + 75% market no-vig |
+| MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | pending | +114 | +115 | -0.2 pts | 48.2% | 25% strength model + 75% market no-vig |
 | Soccer | Norway vs England | Norway | pending | +313 | +320 | -0.4 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
-| Soccer | Argentina vs Egypt | Egypt | pending | +940 | +950 | -0.1 pts | 15.2% | 37% strength model + 63% market no-vig |
+| Soccer | Argentina vs Egypt | Egypt | pending | +940 | +1000 | -0.5 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | pending | +260 | +280 | -1.5 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
@@ -54,7 +55,6 @@ Updated: 2026-07-07T02:17:24.859Z
 | Unknown | Pittsburgh Pirates vs Philadelphia Phillies | Pittsburgh Pirates | loss | +203 | - | - | 44.3% | Algorithm v1.0 |
 | Soccer | Portugal vs Croatia | Portugal | win | -125 | -145 | 3.6 pts | 53.6% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Morocco | win | -120 | -120 | 0.0 pts | 52.8% | Odds API no-vig only |
-| MLB | Athletics vs Los Angeles Dodgers | Athletics | loss | +158 | +148 | 1.6 pts | 39.8% | Odds API no-vig only |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -84,37 +84,37 @@ Updated: 2026-07-07T02:17:24.859Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
-| Passed gate | 18 | 13 | 23.1% | -0.2 pts | 0.198 | 0.0% |
+| Passed gate | 19 | 13 | 23.1% | -0.3 pts | 0.198 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T02:17:24.041Z
-- Current candidates: 55
-- Passed / blocked: 0 / 55
+- Saved: 2026-07-07T02:41:40.293Z
+- Current candidates: 53
+- Passed / blocked: 5 / 48
 
 ### Top Blockers
-- Model ready: 55
-- Pregame: 55
-- Minimum edge: 47
-- Positive EV: 43
-- Beats consensus: 26
-- Intel clear: 18
+- Minimum edge: 42
+- Positive EV: 34
+- Beats consensus: 25
+- Model ready: 24
 - DraftKings line: 10
+- Intel clear: 10
+- Pregame: 10
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +1800 | 11.8% | $123.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +1000 | 14.7% | $61.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +950 | 12.6% | $32.73 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | USA | USA vs Belgium | Game too stale/live | +550 | 18.7% | $21.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 41.3% | $11.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +280 | 28.3% | $7.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Norway | Norway vs England | Game too stale/live | +320 | 25.4% | $6.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | -520 | 88.2% | $5.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +400 | 21.0% | $4.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.5% | $2.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +390 | 20.7% | $1.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +113 | 47.6% | $1.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +420 | 44.4% | $130.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +260 | 55.6% | $100.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +1400 | 13.3% | $99.36 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1300 | 11.5% | $61.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +461 | 27.3% | $53.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.3% | $6.37 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | -143 | 62.3% | $5.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Needs starter | +155 | 40.5% | $3.17 | Confirm probable starters or use the manual starter override. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.56 | Edge under 1.5% — inside vig noise. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +169 | 37.8% | $1.81 | Edge under 1.5% — inside vig noise. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | -250 | 72.7% | $1.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +162 | 38.6% | $1.10 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
