@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T21:31:12.500Z
+Generated: 2026-07-07T23:00:48.909Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,48 +20,54 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **Medium MLB Market move** — Seattle Mariners at Miami Marlins: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **High MLB Market move** — Chicago Cubs at Baltimore Orioles: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Athletics at Detroit Tigers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Atlanta Braves at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Seattle Mariners at Miami Marlins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Houston Astros at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **Medium Soccer Market move** — Switzerland at Argentina: DraftKings moneyline was missing from the local odds snapshot. Compare another book or wait for a fresh DK line.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Milwaukee Brewers at St. Louis Cardinals | Final | Jacob Misiorowski | Matt Svanson | 4-3 |
-| Milwaukee Brewers at St. Louis Cardinals | Scheduled | Robert Gasser | Hunter Dobbins |  |
-| Chicago Cubs at Baltimore Orioles | Pre-Game | Matthew Boyd | Shane Baz | 0-0 |
-| Athletics at Detroit Tigers | Pre-Game | J.T. Ginn | Tarik Skubal | 0-0 |
-| Atlanta Braves at Pittsburgh Pirates | Pre-Game | Hurston Waldrep | Paul Skenes | 0-0 |
-| Seattle Mariners at Miami Marlins | Pre-Game | Bryan Woo | Max Meyer | 0-0 |
-| New York Yankees at Tampa Bay Rays | Pre-Game | Will Warren | Ian Seymour | 0-0 |
-| Houston Astros at Washington Nationals | Pre-Game | Tatsuya Imai | Andrew Alvarez | 0-0 |
-| Kansas City Royals at New York Mets | Pre-Game | Seth Lugo | Cionel Pérez | 0-0 |
-| Philadelphia Phillies at Cincinnati Reds | Pre-Game | Zack Wheeler | Andrew Abbott | 0-0 |
+| Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Robert Gasser | Hunter Dobbins | 0-0 |
+| Chicago Cubs at Baltimore Orioles | Delayed Start | Matthew Boyd | Shane Baz | 0-0 |
+| Athletics at Detroit Tigers | In Progress | J.T. Ginn | Tarik Skubal | 0-2 |
+| Atlanta Braves at Pittsburgh Pirates | In Progress | Hurston Waldrep | Paul Skenes | 1-0 |
+| Seattle Mariners at Miami Marlins | In Progress | Bryan Woo | Max Meyer | 0-0 |
+| New York Yankees at Tampa Bay Rays | In Progress | Will Warren | Ian Seymour | 0-0 |
+| Houston Astros at Washington Nationals | In Progress | Tatsuya Imai | Andrew Alvarez | 0-1 |
+| Kansas City Royals at New York Mets | Warmup | Seth Lugo | Cionel Pérez | 0-0 |
+| Philadelphia Phillies at Cincinnati Reds | Warmup | Zack Wheeler | Andrew Abbott | 0-0 |
 | Cleveland Guardians at Minnesota Twins | Pre-Game | Joey Cantillo | Taj Bradley | 0-0 |
 | Boston Red Sox at Chicago White Sox | Pre-Game | Payton Tolle | Noah Schultz | 0-0 |
 | Los Angeles Angels at Texas Rangers | Pre-Game | José Soriano | Jacob deGrom | 0-0 |
-| Arizona Diamondbacks at San Diego Padres | Scheduled | Zac Gallen | Germán Márquez |  |
-| Toronto Blue Jays at San Francisco Giants | Scheduled | Spencer Miles | Trevor McDonald |  |
-| Colorado Rockies at Los Angeles Dodgers | Pre-Game | Michael Lorenzen | Justin Wrobleski |  |
+| Arizona Diamondbacks at San Diego Padres | Pre-Game | Zac Gallen | Germán Márquez | 0-0 |
+| Toronto Blue Jays at San Francisco Giants | Pre-Game | Spencer Miles | Trevor McDonald | 0-0 |
+| Colorado Rockies at Los Angeles Dodgers | Pre-Game | Michael Lorenzen | Justin Wrobleski | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles -106, Chicago Cubs -114 |
-| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +183, Detroit Tigers -225 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +124, Pittsburgh Pirates -149 |
-| Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -126, Seattle Mariners +105 |
-| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +113, Tampa Bay Rays -136 |
-| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros -105, Washington Nationals -115 |
+| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +330, Detroit Tigers -494 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +176, Pittsburgh Pirates -236 |
+| Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -161, Seattle Mariners +123 |
+| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +111, Tampa Bay Rays -144 |
+| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +212, Washington Nationals -291 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +139, Philadelphia Phillies -168 |
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +119, New York Mets -144 |
+| Chicago Cubs at Baltimore Orioles | 2026-07-07T23:31:00Z | Baltimore Orioles -106, Chicago Cubs -114 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -109, Minnesota Twins -110 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -120, St. Louis Cardinals +100 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -110, Minnesota Twins -110 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -109, St. Louis Cardinals -110 |
 | Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +135, Texas Rangers -163 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks -101, San Diego Padres -120 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -102, Toronto Blue Jays -118 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +239, Los Angeles Dodgers -301 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +244, Los Angeles Dodgers -308 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-08T19:46:00Z | San Francisco Giants -112, Toronto Blue Jays -108 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles -118, Chicago Cubs -102 |
 | Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +135, Detroit Tigers -163 |
@@ -80,10 +86,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +240, Switzerland +425, Draw -135 |
-| Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +295 |
+| Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -165, Draw +295 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +295, Draw +270 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | none |
 
 ## FIFA men's ranking model input
 

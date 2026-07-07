@@ -1,11 +1,13 @@
 # Scheduler Run Ledger
 
-Updated: 2026-07-07T21:31:32.021Z
+Updated: 2026-07-07T23:00:59.601Z
 
 This note is written by `scripts/schedule-run.mjs`. It shows whether each automated research window actually completed.
 
 | Started | Phase | Status | Duration | Data | Research | Review | Model Quality | Deploy |
 |---|---|---:|---:|---|---|---|---|---|
+| 2026-07-07T23:00:48.676Z | Morning slate | failed | 11s | 02-Markets/Daily Data Refresh - 2026-07-07.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-07 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
+| 2026-07-07T22:59:52.361Z | Next wave | failed | 24s | 02-Markets/Daily Data Refresh - 2026-07-07.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-07 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-07T21:31:12.174Z | Next wave | failed | 20s | 02-Markets/Daily Data Refresh - 2026-07-07.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-07 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-07T21:00:12.248Z | Morning slate | failed | 12s | 02-Markets/Daily Data Refresh - 2026-07-07.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-07 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
 | 2026-07-07T18:35:52.655Z | Morning slate | failed | 12s | 02-Markets/Daily Data Refresh - 2026-07-07.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-07 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
@@ -34,5 +36,3 @@ This note is written by `scripts/schedule-run.mjs`. It shows whether each automa
 | 2026-07-05T18:57:04.949Z | Morning slate | success | 26s | 02-Markets/Daily Data Refresh - 2026-07-05.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-05 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 1457.md |
 | 2026-07-05T16:30:09.089Z | Pregame check | success | 26s | 02-Markets/Daily Data Refresh - 2026-07-05.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-05 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 1230.md |
 | 2026-07-05T16:07:41.177Z | Pregame check | failed | 6s | 02-Markets/Daily Data Refresh - 2026-07-05.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-05 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-04 1734.md |
-| 2026-07-05T16:07:07.946Z | Morning slate | failed | 8s | 02-Markets/Daily Data Refresh - 2026-07-05.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-05 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-04 1734.md |
-| 2026-07-05T15:51:58.048Z | Morning slate | failed | 1s | 02-Markets/Daily Data Refresh - 2026-07-05.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-05 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-04 1734.md |
