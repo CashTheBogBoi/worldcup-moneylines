@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-07T17:16:11.203Z",
+  "savedAt": "2026-07-07T17:36:27.625Z",
   "modelPicks": [
     {
       "id": "model-1783440258086-851061",
@@ -95,7 +95,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -107,7 +107,7 @@
       "sport": "MLB",
       "commenceTime": "2026-07-07T18:16:00Z",
       "openPrice": 178,
-      "closePrice": 185,
+      "closePrice": 187,
       "openBook": "LowVig.ag",
       "stake": 0,
       "probability": 0.3827333572406344,
@@ -194,11 +194,17 @@
           "price": 185,
           "book": "LowVig.ag",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-07T17:36:27.599Z",
+          "price": 187,
+          "book": "LowVig.ag",
+          "source": "pre-start"
         }
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -210,7 +216,7 @@
       "sport": "MLB",
       "commenceTime": "2026-07-07T22:41:00Z",
       "openPrice": 155,
-      "closePrice": 130,
+      "closePrice": 128,
       "openBook": "BetRivers",
       "stake": 0,
       "probability": 0.41510538222810667,
@@ -321,11 +327,17 @@
           "price": 130,
           "book": "LowVig.ag",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-07T17:36:27.599Z",
+          "price": 128,
+          "book": "FanDuel",
+          "source": "pre-start"
         }
       ],
       "note": "",
-      "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closeBook": "FanDuel",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -433,7 +445,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -869,7 +881,7 @@
       ],
       "note": "",
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -1001,7 +1013,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -1614,7 +1626,7 @@
       ],
       "note": "",
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-07T17:16:11.165Z",
+      "closedAt": "2026-07-07T17:36:27.599Z",
       "autoClosed": true
     },
     {
@@ -4602,22 +4614,22 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-07T17:16:11.176Z",
+    "savedAt": "2026-07-07T17:36:27.613Z",
     "totalCandidates": 47,
     "passed": 5,
     "blocked": 42,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 42
+        "count": 39
       },
       {
         "label": "Positive EV",
-        "count": 36
+        "count": 33
       },
       {
         "label": "Beats consensus",
-        "count": 23
+        "count": 22
       },
       {
         "label": "Model ready",
@@ -4630,27 +4642,53 @@
     ],
     "watchlist": [
       {
+        "sport": "Soccer",
+        "match": "Argentina vs Egypt",
+        "selection": "Argentina",
+        "book": "Bovada",
+        "price": 1800,
+        "probability": 0.14980728557333678,
+        "ev": 184.6338425893399,
+        "edge": 0.09717570662596836,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Argentina vs Egypt",
+        "selection": "Egypt",
+        "book": "MyBookie.ag",
+        "price": 120,
+        "probability": 0.6565797805654368,
+        "ev": 44.447551724396085,
+        "edge": 0.20203432601998222,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Argentina vs Egypt",
+        "selection": "Draw",
+        "book": "DraftKings",
+        "price": 550,
+        "probability": 0.19361293386122636,
+        "ev": 25.84840700979713,
+        "edge": 0.0397667800150725,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
         "sport": "MLB",
         "match": "Detroit Tigers vs Athletics",
         "selection": "Athletics",
         "book": "BetOnline.ag",
-        "price": 182,
-        "probability": 0.3640697396712281,
-        "ev": 2.6676665872863126,
-        "edge": 0.00945981059321388,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Pittsburgh Pirates vs Atlanta Braves",
-        "selection": "Atlanta Braves",
-        "book": "LowVig.ag",
-        "price": 130,
-        "probability": 0.4459025156999739,
-        "ev": 2.5575786109939926,
-        "edge": 0.01111990700432175,
+        "price": 184,
+        "probability": 0.36390674669105055,
+        "ev": 3.3495160602583596,
+        "edge": 0.01179407063471255,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -4661,9 +4699,22 @@
         "selection": "Chicago White Sox",
         "book": "Fanatics",
         "price": 110,
-        "probability": 0.48672709818206605,
-        "ev": 2.2126906182338786,
-        "edge": 0.01053662199158989,
+        "probability": 0.4865153537467098,
+        "ev": 2.168224286809057,
+        "edge": 0.010324877556233625,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "Pittsburgh Pirates vs Atlanta Braves",
+        "selection": "Atlanta Braves",
+        "book": "FanDuel",
+        "price": 128,
+        "probability": 0.44651295465851903,
+        "ev": 1.8049536621423385,
+        "edge": 0.007916463430448883,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -4674,25 +4725,12 @@
         "selection": "Morocco",
         "book": "BetOnline.ag",
         "price": 561,
-        "probability": 0.15400923710284653,
-        "ev": 1.800105724981563,
-        "edge": 0.002723306694374511,
+        "probability": 0.15316951301743956,
+        "ev": 1.245048104527541,
+        "edge": 0.0018835826089675378,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Argentina vs Egypt",
-        "selection": "Egypt",
-        "book": "DraftKings",
-        "price": 275,
-        "probability": 0.2696500228642672,
-        "ev": 1.1187585741001982,
-        "edge": 0.0029833561976005396,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
@@ -4700,9 +4738,22 @@
         "selection": "Colorado Rockies",
         "book": "BetOnline.ag",
         "price": 236,
-        "probability": 0.30076796628114466,
-        "ev": 1.0580366704646025,
-        "edge": 0.0031489186620970444,
+        "probability": 0.30019921991006193,
+        "ev": 0.8669378897808144,
+        "edge": 0.0025801722910143154,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "San Francisco Giants vs Toronto Blue Jays",
+        "selection": "San Francisco Giants",
+        "book": "LowVig.ag",
+        "price": 104,
+        "probability": 0.49226252789278857,
+        "ev": 0.4215556901288693,
+        "edge": 0.0020664494614160422,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -4712,8 +4763,8 @@
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1783444571163",
-      "at": "2026-07-07T17:16:11.163Z",
+      "id": "snapshot-1783445787598",
+      "at": "2026-07-07T17:36:27.598Z",
       "source": "local",
       "eventCount": 5,
       "lines": [
@@ -4723,18 +4774,18 @@
           "best": [
             {
               "name": "Argentina",
-              "price": 135,
-              "book": "BetMGM"
+              "price": 1800,
+              "book": "Bovada"
             },
             {
               "name": "Draw",
-              "price": 220,
-              "book": "BetMGM"
+              "price": 550,
+              "book": "DraftKings"
             },
             {
               "name": "Egypt",
-              "price": 275,
-              "book": "DraftKings"
+              "price": 120,
+              "book": "MyBookie.ag"
             }
           ]
         },
@@ -4749,8 +4800,8 @@
             },
             {
               "name": "Draw",
-              "price": 216,
-              "book": "MyBookie.ag"
+              "price": 213,
+              "book": "BetUS"
             },
             {
               "name": "Colombia",

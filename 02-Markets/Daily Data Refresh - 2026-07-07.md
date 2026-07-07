@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T16:47:18.398Z
+Generated: 2026-07-07T17:36:20.764Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -22,7 +22,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 - **High MLB Starters** — Seattle Mariners at Miami Marlins: Official starter is still TBD (TBD vs Max Meyer). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Kansas City Royals at New York Mets: Official starter is still TBD (Seth Lugo vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
-- **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
+- **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +205, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
 
@@ -49,13 +49,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -205, St. Louis Cardinals +168 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -211, St. Louis Cardinals +172 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles -105, Chicago Cubs -115 |
 | Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +178, Detroit Tigers -219 |
 | Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +124, Pittsburgh Pirates -149 |
 | Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -125, Seattle Mariners +104 |
 | New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +101, Tampa Bay Rays -122 |
-| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +101, Washington Nationals -122 |
+| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +100, Washington Nationals -120 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +144, Philadelphia Phillies -175 |
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +128, New York Mets -155 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
@@ -63,15 +63,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -125, St. Louis Cardinals +104 |
 | Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +135, Texas Rangers -163 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +101, San Diego Padres -122 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -115 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -102, Toronto Blue Jays -118 |
 | Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +233, Los Angeles Dodgers -292 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina +115, Egypt +275, Draw +200 |
-| Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +125, Switzerland +245, Draw +210 |
+| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina +1400, Egypt -525, Draw +550 |
+| Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +130, Switzerland +250, Draw +205 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +295 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -160, Draw +290 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +295, Draw +270 |

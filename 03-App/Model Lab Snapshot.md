@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T17:16:13.589Z
+Updated: 2026-07-07T17:36:28.561Z
 
 ## Summary
 - Total tracked picks: 48
@@ -16,8 +16,8 @@ Updated: 2026-07-07T17:16:13.589Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +153 | +151 | 0.3 pts | 41.8% | 25% strength model + 75% market no-vig |
-| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | +185 | -0.9 pts | 38.3% | 25% strength model + 75% market no-vig |
-| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | pending | +155 | +130 | 4.3 pts | 41.5% | 25% strength model + 75% market no-vig |
+| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | pending | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
 | Soccer | Spain vs Belgium | Belgium | pending | +498 | +500 | -0.1 pts | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | pending | +410 | +400 | 0.4 pts | 21.2% | 38% strength model + 62% market no-vig |
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
@@ -87,26 +87,29 @@ Updated: 2026-07-07T17:16:13.589Z
 | Passed gate | 23 | 14 | 21.4% | -0.0 pts | 0.207 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T17:16:11.176Z
+- Saved: 2026-07-07T17:36:27.613Z
 - Current candidates: 47
 - Passed / blocked: 5 / 42
 
 ### Top Blockers
-- Minimum edge: 42
-- Positive EV: 36
-- Beats consensus: 23
+- Minimum edge: 39
+- Positive EV: 33
+- Beats consensus: 22
 - Model ready: 7
 - Pregame: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +182 | 36.4% | $2.67 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +130 | 44.6% | $2.56 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.21 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.80 | Edge under 1.5% — inside vig noise. |
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +275 | 27.0% | $1.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +236 | 30.1% | $1.06 | Edge under 1.5% — inside vig noise. |
+| Soccer | Argentina | Argentina vs Egypt | Game too stale/live | +1800 | 15.0% | $184.63 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +120 | 65.7% | $44.45 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +550 | 19.4% | $25.85 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +184 | 36.4% | $3.35 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.17 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +128 | 44.7% | $1.80 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.3% | $1.25 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +236 | 30.0% | $0.87 | Edge under 1.5% — inside vig noise. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Minimum edge | +104 | 49.2% | $0.42 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
