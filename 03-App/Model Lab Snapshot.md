@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T16:41:26.126Z
+Updated: 2026-07-07T16:48:07.149Z
 
 ## Summary
 - Total tracked picks: 48
@@ -16,7 +16,7 @@ Updated: 2026-07-07T16:41:26.126Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +153 | +151 | 0.3 pts | 41.8% | 25% strength model + 75% market no-vig |
-| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | +182 | -0.5 pts | 38.3% | 25% strength model + 75% market no-vig |
+| MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | pending | +178 | +185 | -0.9 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | pending | +155 | +130 | 4.3 pts | 41.5% | 25% strength model + 75% market no-vig |
 | Soccer | Spain vs Belgium | Belgium | pending | +498 | +500 | -0.1 pts | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | pending | +410 | +400 | 0.4 pts | 21.2% | 38% strength model + 62% market no-vig |
@@ -59,10 +59,10 @@ Updated: 2026-07-07T16:41:26.126Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
-| auto-soccer-draw-a6da973c5749ce60adab77d64b3664f4 | confirmed | 2026-07-07T16:05:25.270Z |  |
 | auto-mlb-no-dk-823930 | confirmed | 2026-07-06T21:15:38.130Z |  |
 | auto-mlb-no-dk-822712 | confirmed | 2026-07-06T21:15:37.213Z |  |
 | auto-mlb-started-824089 | confirmed | 2026-07-06T21:15:36.215Z |  |
+| auto-soccer-draw-a6da973c5749ce60adab77d64b3664f4 | confirmed | 2026-07-04T21:27:24.889Z |  |
 | auto-soccer-draw-e61a7b471cadc8e3849158ed59d49cab | confirmed | 2026-07-04T21:27:23.771Z |  |
 | auto-mlb-started-823118 | confirmed | 2026-07-04T21:27:21.805Z |  |
 | auto-mlb-started-822882 | confirmed | 2026-07-04T21:27:20.805Z |  |
@@ -87,27 +87,26 @@ Updated: 2026-07-07T16:41:26.126Z
 | Passed gate | 23 | 14 | 21.4% | -0.0 pts | 0.207 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T16:41:25.168Z
+- Saved: 2026-07-07T16:48:06.237Z
 - Current candidates: 47
 - Passed / blocked: 5 / 42
 
 ### Top Blockers
 - Minimum edge: 42
-- Positive EV: 35
-- Beats consensus: 22
+- Positive EV: 36
+- Beats consensus: 23
 - Model ready: 7
 - Pregame: 3
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +320 | 24.6% | $3.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +182 | 36.4% | $2.67 | Edge under 1.5% — inside vig noise. |
 | MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Minimum edge | +130 | 44.6% | $2.56 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.21 | Edge under 1.5% — inside vig noise. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.80 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +236 | 30.1% | $1.13 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Minimum edge | +115 | 46.6% | $0.29 | Edge under 1.5% — inside vig noise. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +275 | 27.0% | $1.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +236 | 30.1% | $1.06 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

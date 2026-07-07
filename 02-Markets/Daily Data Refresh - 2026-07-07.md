@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T16:30:04.207Z
+Generated: 2026-07-07T16:47:18.398Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -60,7 +60,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +128, New York Mets -155 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -126, Chicago White Sox +104 |
 | Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -105, Minnesota Twins -114 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -126, St. Louis Cardinals +104 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T23:46:00Z | Milwaukee Brewers -125, St. Louis Cardinals +104 |
 | Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +135, Texas Rangers -163 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +101, San Diego Padres -122 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -105, Toronto Blue Jays -115 |
@@ -70,7 +70,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina +105, Egypt +275, Draw +225 |
+| Egypt at Argentina | 2026-07-07T16:01:00Z | Argentina +115, Egypt +275, Draw +200 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +125, Switzerland +245, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +295 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -160, Draw +290 |
