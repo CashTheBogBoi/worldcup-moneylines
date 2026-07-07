@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T01:45:38.735Z
+Updated: 2026-07-07T01:55:20.215Z
 
 ## Summary
 - Total tracked picks: 43
@@ -9,8 +9,8 @@ Updated: 2026-07-07T01:45:38.735Z
 - Wins: 12
 - Losses: 24
 - Draws: 1
-- Intel review decisions saved: 22
-- Intel confirmed / denied / pending: 21 / 1 / 0
+- Intel review decisions saved: 27
+- Intel confirmed / denied / pending: 26 / 1 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -59,6 +59,11 @@ Updated: 2026-07-07T01:45:38.735Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
+| auto-mlb-started-822712 | confirmed | 2026-07-07T01:48:55.624Z |  |
+| auto-mlb-started-823036 | confirmed | 2026-07-07T01:48:54.675Z |  |
+| auto-mlb-no-dk-823205 | confirmed | 2026-07-07T01:48:53.140Z |  |
+| auto-mlb-started-824900 | confirmed | 2026-07-07T01:48:51.875Z |  |
+| auto-mlb-started-822958 | confirmed | 2026-07-07T01:48:50.757Z |  |
 | auto-mlb-no-dk-823930 | confirmed | 2026-07-06T21:15:38.130Z |  |
 | auto-mlb-no-dk-822712 | confirmed | 2026-07-06T21:15:37.213Z |  |
 | auto-mlb-started-824089 | confirmed | 2026-07-06T21:15:36.215Z |  |
@@ -74,11 +79,6 @@ Updated: 2026-07-07T01:45:38.735Z
 | auto-soccer-draw-fb270a3dac2b682c861bd674a5ff4a04 | confirmed | 2026-07-02T01:52:13.091Z |  |
 | auto-soccer-draw-c17fe2e46190d7ab6af01504ff240e82 | confirmed | 2026-07-02T01:52:04.342Z |  |
 | auto-soccer-heavy-fav-a518ac20df8f5c732b881e213ae0c230 | confirmed | 2026-07-02T01:51:52.092Z |  |
-| auto-mlb-starter-824985 | denied | 2026-07-02T01:51:17.610Z | Roki Sasaki starting tonight |
-| auto-mlb-started-824337 | confirmed | 2026-07-02T01:50:01.870Z |  |
-| auto-mlb-started-823767 | confirmed | 2026-07-02T01:50:01.051Z |  |
-| auto-mlb-started-824174 | confirmed | 2026-07-02T01:49:59.515Z |  |
-| auto-mlb-started-824094 | confirmed | 2026-07-02T01:49:57.982Z |  |
 
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
@@ -87,31 +87,31 @@ Updated: 2026-07-07T01:45:38.735Z
 | Passed gate | 18 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T01:45:37.872Z
+- Saved: 2026-07-07T01:55:19.394Z
 - Current candidates: 55
 - Passed / blocked: 3 / 52
 
 ### Top Blockers
-- Minimum edge: 46
+- Minimum edge: 47
 - Model ready: 43
 - Pregame: 43
-- Positive EV: 41
+- Positive EV: 42
 - Beats consensus: 26
+- Intel clear: 18
 - DraftKings line: 10
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +1800 | 13.5% | $156.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +1000 | 16.7% | $83.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +1800 | 11.8% | $123.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +1000 | 14.7% | $61.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | USA | USA vs Belgium | Game too stale/live | +550 | 18.3% | $18.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 42.0% | $13.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +400 | 21.8% | $9.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 41.3% | $11.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | -520 | 88.2% | $5.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +400 | 21.0% | $4.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.2% | $3.78 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | -520 | 86.5% | $3.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.55 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +113 | 47.6% | $1.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +158 | 39.2% | $1.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Norway vs England | Minimum edge | +280 | 26.3% | $0.06 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
