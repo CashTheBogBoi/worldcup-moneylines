@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-07T03:33:02.980Z",
+  "updatedAt": "2026-07-07T03:46:49.391Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -140,11 +140,11 @@
       },
       "atlanta braves": {
         "team": "Atlanta Braves",
-        "xgFor": 4.8977272727272725,
-        "xgAgainst": 3.8068181818181817,
-        "form": 5.91,
+        "xgFor": 4.910112359550562,
+        "xgAgainst": 3.842696629213483,
+        "form": 5.84,
         "homeEdge": 0,
-        "news": "Local snapshot: 52-36, 4.90 RS/G, 3.81 RA/G.",
+        "news": "Local snapshot: 52-37, 4.91 RS/G, 3.84 RA/G.",
         "auto": true
       },
       "philadelphia phillies": {
@@ -176,11 +176,11 @@
       },
       "new york mets": {
         "team": "New York Mets",
-        "xgFor": 4.022222222222222,
-        "xgAgainst": 4.7,
-        "form": 4.109999999999999,
+        "xgFor": 4.054945054945055,
+        "xgAgainst": 4.714285714285714,
+        "form": 4.18,
         "homeEdge": 0,
-        "news": "Local snapshot: 37-53, 4.02 RS/G, 4.70 RA/G.",
+        "news": "Local snapshot: 38-53, 4.05 RS/G, 4.71 RA/G.",
         "auto": true
       },
       "milwaukee brewers": {
@@ -1045,25 +1045,25 @@
         "pitcher": "Reynaldo López",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-06::new york mets": {
         "pitcher": "Freddy Peralta",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-06::st. louis cardinals": {
         "pitcher": "Dustin May",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-06::milwaukee brewers": {
         "pitcher": "Shane Drohan",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-06::san diego padres": {
         "pitcher": "Walker Buehler",
@@ -1210,6 +1210,16 @@
         "pitcher": "Michael Lorenzen",
         "xera": 5.22031914893617,
         "lineupPosted": false
+      },
+      "2026-07-07::atlanta braves": {
+        "pitcher": "Hurston Waldrep",
+        "xera": 4.124239130434782,
+        "lineupPosted": false
+      },
+      "2026-07-07::tampa bay rays": {
+        "pitcher": "Ian Seymour",
+        "xera": 3.6734210526315794,
+        "lineupPosted": false
       }
     },
     "mlbLastResults": {
@@ -1218,7 +1228,11 @@
       "new york yankees": "win",
       "tampa bay rays": "loss",
       "houston astros": "loss",
-      "washington nationals": "win"
+      "washington nationals": "win",
+      "new york mets": "win",
+      "atlanta braves": "loss",
+      "milwaukee brewers": "win",
+      "st. louis cardinals": "loss"
     },
     "fifaMensRankings": [
       {
@@ -3122,68 +3136,38 @@
       }
     ],
     "mlbBullpen": {
-      "texas rangers": 0.17999999999999972,
-      "detroit tigers": -0.8200000000000003,
-      "athletics": 0.6799999999999997,
-      "miami marlins": -0.3200000000000003,
+      "washington nationals": 0.3466666666666667,
+      "pittsburgh pirates": 0.013333333333332753,
+      "atlanta braves": 0.013333333333332753,
+      "new york mets": 0.013333333333332753,
+      "cleveland guardians": 2.0133333333333328,
+      "chicago white sox": 0.3466666666666667,
+      "cincinnati reds": -0.3200000000000003,
+      "baltimore orioles": -0.6533333333333338,
+      "houston astros": -0.3200000000000003,
+      "tampa bay rays": -0.3200000000000003,
       "chicago cubs": 0.3466666666666667,
       "st. louis cardinals": -0.6533333333333338,
       "seattle mariners": -1.3200000000000003,
       "toronto blue jays": -0.6533333333333338,
-      "cincinnati reds": -0.3200000000000003,
-      "baltimore orioles": -0.6533333333333338,
-      "cleveland guardians": 2.0133333333333328,
-      "chicago white sox": 0.3466666666666667,
-      "los angeles dodgers": -0.3200000000000003,
-      "san diego padres": -0.3200000000000003,
-      "atlanta braves": 0.013333333333332753,
-      "new york mets": 0.013333333333332753,
-      "houston astros": -0.3200000000000003,
-      "tampa bay rays": -0.3200000000000003,
-      "los angeles angels": 0.6799999999999997,
-      "boston red sox": 0.013333333333332753,
-      "kansas city royals": 0.17999999999999972,
-      "philadelphia phillies": -0.8200000000000003,
-      "new york yankees": 1.0133333333333328,
-      "minnesota twins": -0.6533333333333338,
-      "arizona diamondbacks": 1.3466666666666667,
-      "milwaukee brewers": 0.6799999999999997,
+      "texas rangers": 0.17999999999999972,
+      "detroit tigers": -0.8200000000000003,
       "colorado rockies": -0.6533333333333338,
       "san francisco giants": 0.013333333333332753,
-      "washington nationals": 0.3466666666666667,
-      "pittsburgh pirates": 0.013333333333332753
+      "new york yankees": 1.0133333333333328,
+      "minnesota twins": -0.6533333333333338,
+      "kansas city royals": 0.17999999999999972,
+      "philadelphia phillies": -0.8200000000000003,
+      "los angeles angels": 0.6799999999999997,
+      "boston red sox": 0.013333333333332753,
+      "athletics": 0.6799999999999997,
+      "miami marlins": -0.3200000000000003,
+      "los angeles dodgers": -0.3200000000000003,
+      "san diego padres": -0.3200000000000003,
+      "arizona diamondbacks": 1.3466666666666667,
+      "milwaukee brewers": 0.6799999999999997
     },
     "openingLines": {
-      "16ed3adcf661b3a9bea39871a2d204df::Portugal": {
-        "price": 322,
-        "book": "BetOnline.ag",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
-      "16ed3adcf661b3a9bea39871a2d204df::Draw": {
-        "price": 265,
-        "book": "BetUS",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
-      "16ed3adcf661b3a9bea39871a2d204df::Spain": {
-        "price": -110,
-        "book": "BetRivers",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
-      "810f80b3ae79f5e86b3747ca15718ed8::USA": {
-        "price": 180,
-        "book": "BetRivers",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
-      "810f80b3ae79f5e86b3747ca15718ed8::Draw": {
-        "price": 246,
-        "book": "BetOnline.ag",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
-      "810f80b3ae79f5e86b3747ca15718ed8::Belgium": {
-        "price": 165,
-        "book": "DraftKings",
-        "at": "2026-07-03T22:38:23.825Z"
-      },
       "190922affd0be754bfefd71548dbf90d::Argentina": {
         "price": -270,
         "book": "DraftKings",
@@ -3229,6 +3213,21 @@
         "book": "BetOnline.ag",
         "at": "2026-07-05T04:00:31.559Z"
       },
+      "fca257de4583bd4bc592e8b2a8f24ad7::Spain": {
+        "price": -153,
+        "book": "MyBookie.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "fca257de4583bd4bc592e8b2a8f24ad7::Draw": {
+        "price": 300,
+        "book": "BetRivers",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "fca257de4583bd4bc592e8b2a8f24ad7::Belgium": {
+        "price": 465,
+        "book": "BetOnline.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
       "e66e4478b739fa0657a7a11235e1fcee::Norway": {
         "price": 320,
         "book": "BetRivers",
@@ -3241,66 +3240,6 @@
       },
       "e66e4478b739fa0657a7a11235e1fcee::England": {
         "price": -108,
-        "book": "BetOnline.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "caea4c3449e9f30ffe2c708a884e3296::Kansas City Royals": {
-        "price": 190,
-        "book": "Bovada",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "caea4c3449e9f30ffe2c708a884e3296::Philadelphia Phillies": {
-        "price": -206,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "8708f0b1ad493caa280c8d963be2dc0b::Tampa Bay Rays": {
-        "price": -106,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "8708f0b1ad493caa280c8d963be2dc0b::New York Yankees": {
-        "price": -104,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "14986526f62254742f296b0eda680507::Washington Nationals": {
-        "price": -115,
-        "book": "Caesars",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "14986526f62254742f296b0eda680507::Houston Astros": {
-        "price": 106,
-        "book": "BetUS",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "ceda0420b6aec99d07f85f99472f8c68::Atlanta Braves": {
-        "price": -126,
-        "book": "FanDuel",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "ceda0420b6aec99d07f85f99472f8c68::New York Mets": {
-        "price": 115,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "e5295ada7ac0d16be6bf67d6a4a2923b::St. Louis Cardinals": {
-        "price": -105,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "e5295ada7ac0d16be6bf67d6a4a2923b::Milwaukee Brewers": {
-        "price": -105,
-        "book": "LowVig.ag",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "d1ba74caa5492c9e300650c9ba7bebab::San Diego Padres": {
-        "price": -122,
-        "book": "BetUS",
-        "at": "2026-07-06T17:49:21.041Z"
-      },
-      "d1ba74caa5492c9e300650c9ba7bebab::Arizona Diamondbacks": {
-        "price": 113,
         "book": "BetOnline.ag",
         "at": "2026-07-06T17:49:21.041Z"
       },
@@ -3324,6 +3263,16 @@
         "book": "LowVig.ag",
         "at": "2026-07-06T17:49:21.041Z"
       },
+      "6611ecd500747b1f1aebe1ea49f9d00a::St. Louis Cardinals": {
+        "price": 162,
+        "book": "MyBookie.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "6611ecd500747b1f1aebe1ea49f9d00a::Milwaukee Brewers": {
+        "price": -190,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
       "a250fe250560caa8b56cd4e061c8e7b0::Baltimore Orioles": {
         "price": 104,
         "book": "LowVig.ag",
@@ -3344,6 +3293,36 @@
         "book": "FanDuel",
         "at": "2026-07-06T17:49:21.041Z"
       },
+      "e38e52ed47e9148a67603013c94f7295::Pittsburgh Pirates": {
+        "price": -165,
+        "book": "LowVig.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "e38e52ed47e9148a67603013c94f7295::Atlanta Braves": {
+        "price": 158,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "157306fb8124249fa8e55016561ce711::Miami Marlins": {
+        "price": -106,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "157306fb8124249fa8e55016561ce711::Seattle Mariners": {
+        "price": -108,
+        "book": "MyBookie.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "e3cd1f3a8c40c74e867b7713af7e6365::Tampa Bay Rays": {
+        "price": -115,
+        "book": "LowVig.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "e3cd1f3a8c40c74e867b7713af7e6365::New York Yankees": {
+        "price": 105,
+        "book": "BetUS",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
       "a11dc5b41df437e869c4abe72abced1f::Washington Nationals": {
         "price": -110,
         "book": "LowVig.ag",
@@ -3353,6 +3332,26 @@
         "price": 100,
         "book": "FanDuel",
         "at": "2026-07-06T17:49:21.041Z"
+      },
+      "7b7ae2c411b9b8122144d502c0bd1757::Cincinnati Reds": {
+        "price": 147,
+        "book": "LowVig.ag",
+        "at": "2026-07-07T03:42:10.166Z"
+      },
+      "7b7ae2c411b9b8122144d502c0bd1757::Philadelphia Phillies": {
+        "price": -162,
+        "book": "LowVig.ag",
+        "at": "2026-07-07T03:42:10.166Z"
+      },
+      "288b4514ed237def0df905ead634d530::New York Mets": {
+        "price": -145,
+        "book": "Fanatics",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "288b4514ed237def0df905ead634d530::Kansas City Royals": {
+        "price": 128,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
       },
       "fa63ecda3e7fe4b049c7e9cfd633f461::Chicago White Sox": {
         "price": 113,
@@ -3384,6 +3383,26 @@
         "book": "BetOnline.ag",
         "at": "2026-07-06T17:49:21.041Z"
       },
+      "622a46f12d0dc3b057125b0b59f00507::San Diego Padres": {
+        "price": -130,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "622a46f12d0dc3b057125b0b59f00507::Arizona Diamondbacks": {
+        "price": 111,
+        "book": "MyBookie.ag",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "0ae1e836fd92f0f98b83e2d7451f6f97::San Francisco Giants": {
+        "price": -104,
+        "book": "FanDuel",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
+      "0ae1e836fd92f0f98b83e2d7451f6f97::Toronto Blue Jays": {
+        "price": -110,
+        "book": "Fanatics",
+        "at": "2026-07-07T02:11:59.890Z"
+      },
       "8df69c8e501590af54db5363e5fdc3af::Los Angeles Dodgers": {
         "price": -250,
         "book": "FanDuel",
@@ -3393,6 +3412,96 @@
         "price": 231,
         "book": "BetOnline.ag",
         "at": "2026-07-06T18:29:05.245Z"
+      },
+      "ceda0420b6aec99d07f85f99472f8c68::Atlanta Braves": {
+        "price": -126,
+        "book": "FanDuel",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "ceda0420b6aec99d07f85f99472f8c68::New York Mets": {
+        "price": 115,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "d1ba74caa5492c9e300650c9ba7bebab::San Diego Padres": {
+        "price": -122,
+        "book": "BetUS",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "d1ba74caa5492c9e300650c9ba7bebab::Arizona Diamondbacks": {
+        "price": 113,
+        "book": "BetOnline.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "e5295ada7ac0d16be6bf67d6a4a2923b::St. Louis Cardinals": {
+        "price": -105,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "e5295ada7ac0d16be6bf67d6a4a2923b::Milwaukee Brewers": {
+        "price": -105,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "16ed3adcf661b3a9bea39871a2d204df::Portugal": {
+        "price": 322,
+        "book": "BetOnline.ag",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "16ed3adcf661b3a9bea39871a2d204df::Draw": {
+        "price": 265,
+        "book": "BetUS",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "16ed3adcf661b3a9bea39871a2d204df::Spain": {
+        "price": -110,
+        "book": "BetRivers",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "810f80b3ae79f5e86b3747ca15718ed8::USA": {
+        "price": 180,
+        "book": "BetRivers",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "810f80b3ae79f5e86b3747ca15718ed8::Draw": {
+        "price": 246,
+        "book": "BetOnline.ag",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "810f80b3ae79f5e86b3747ca15718ed8::Belgium": {
+        "price": 165,
+        "book": "DraftKings",
+        "at": "2026-07-03T22:38:23.825Z"
+      },
+      "caea4c3449e9f30ffe2c708a884e3296::Kansas City Royals": {
+        "price": 190,
+        "book": "Bovada",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "caea4c3449e9f30ffe2c708a884e3296::Philadelphia Phillies": {
+        "price": -206,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "8708f0b1ad493caa280c8d963be2dc0b::Tampa Bay Rays": {
+        "price": -106,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "8708f0b1ad493caa280c8d963be2dc0b::New York Yankees": {
+        "price": -104,
+        "book": "LowVig.ag",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "14986526f62254742f296b0eda680507::Washington Nationals": {
+        "price": -115,
+        "book": "Caesars",
+        "at": "2026-07-06T17:49:21.041Z"
+      },
+      "14986526f62254742f296b0eda680507::Houston Astros": {
+        "price": 106,
+        "book": "BetUS",
+        "at": "2026-07-06T17:49:21.041Z"
       },
       "a4634eae056c18d705e3feffb347163f::Brazil": {
         "price": -117,
@@ -3920,13 +4029,13 @@
       "spain": 0.1205
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-07T03:33:02.980Z",
-      "mlbStarters": "2026-07-07T03:33:02.980Z",
-      "mlbLastResults": "2026-07-07T03:33:02.980Z",
-      "fifaMensRankings": "2026-07-07T03:33:02.980Z",
+      "mlbTeamRatings": "2026-07-07T03:46:49.391Z",
+      "mlbStarters": "2026-07-07T03:46:49.391Z",
+      "mlbLastResults": "2026-07-07T03:46:49.391Z",
+      "fifaMensRankings": "2026-07-07T03:46:49.391Z",
       "kalshi": "2026-07-06T20:09:26.856Z",
-      "mlbBullpen": "2026-07-06T20:09:26.856Z",
-      "openingLines": "2026-07-06T20:09:26.856Z"
+      "mlbBullpen": "2026-07-07T03:42:10.167Z",
+      "openingLines": "2026-07-07T03:42:10.167Z"
     }
   },
   "history": [
@@ -13104,11 +13213,11 @@
         },
         "atlanta braves": {
           "team": "Atlanta Braves",
-          "xgFor": 4.8977272727272725,
-          "xgAgainst": 3.8068181818181817,
-          "form": 5.91,
+          "xgFor": 4.910112359550562,
+          "xgAgainst": 3.842696629213483,
+          "form": 5.84,
           "homeEdge": 0,
-          "news": "Local snapshot: 52-36, 4.90 RS/G, 3.81 RA/G.",
+          "news": "Local snapshot: 52-37, 4.91 RS/G, 3.84 RA/G.",
           "auto": true
         },
         "philadelphia phillies": {
@@ -13140,11 +13249,11 @@
         },
         "new york mets": {
           "team": "New York Mets",
-          "xgFor": 4.022222222222222,
-          "xgAgainst": 4.7,
-          "form": 4.109999999999999,
+          "xgFor": 4.054945054945055,
+          "xgAgainst": 4.714285714285714,
+          "form": 4.18,
           "homeEdge": 0,
-          "news": "Local snapshot: 37-53, 4.02 RS/G, 4.70 RA/G.",
+          "news": "Local snapshot: 38-53, 4.05 RS/G, 4.71 RA/G.",
           "auto": true
         },
         "milwaukee brewers": {
