@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T03:09:03.079Z
+Updated: 2026-07-07T03:11:25.155Z
 
 ## Summary
 - Total tracked picks: 44
@@ -87,18 +87,18 @@ Updated: 2026-07-07T03:09:03.079Z
 | Passed gate | 19 | 13 | 23.1% | -0.3 pts | 0.198 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T03:09:02.252Z
+- Saved: 2026-07-07T03:11:24.334Z
 - Current candidates: 53
-- Passed / blocked: 5 / 48
+- Passed / blocked: 4 / 49
 
 ### Top Blockers
-- Minimum edge: 42
-- Positive EV: 34
+- Minimum edge: 43
+- Model ready: 38
+- Pregame: 38
+- Positive EV: 36
 - Beats consensus: 25
-- Model ready: 24
 - DraftKings line: 10
 - Intel clear: 10
-- Pregame: 10
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
@@ -110,11 +110,11 @@ Updated: 2026-07-07T03:09:03.079Z
 | MLB | Toronto Blue Jays | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +461 | 27.3% | $53.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 21.3% | $6.37 | Edge under 1.5% — inside vig noise. |
 | MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | -143 | 62.3% | $5.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Needs starter | +155 | 40.5% | $3.17 | Confirm probable starters or use the manual starter override. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.56 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Minimum edge | +169 | 37.8% | $1.81 | Edge under 1.5% — inside vig noise. |
 | MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | -250 | 72.7% | $1.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +162 | 38.6% | $1.10 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +115 | 47.1% | $1.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +155 | 39.5% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Game too stale/live | +169 | 37.4% | $0.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
