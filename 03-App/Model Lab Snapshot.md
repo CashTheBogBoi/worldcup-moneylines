@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T00:07:39.501Z
+Updated: 2026-07-07T00:27:40.572Z
 
 ## Summary
 - Total tracked picks: 43
@@ -87,16 +87,16 @@ Updated: 2026-07-07T00:07:39.501Z
 | Passed gate | 18 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T00:07:38.539Z
+- Saved: 2026-07-07T00:27:39.630Z
 - Current candidates: 53
 - Passed / blocked: 3 / 50
 
 ### Top Blockers
 - Minimum edge: 48
-- Positive EV: 41
+- Positive EV: 42
+- Model ready: 41
+- Pregame: 41
 - Beats consensus: 26
-- Model ready: 21
-- Pregame: 11
 - DraftKings line: 10
 
 ### Research Actions
@@ -105,9 +105,8 @@ Updated: 2026-07-07T00:07:39.501Z
 | MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +575 | 19.3% | $30.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Atlanta Braves | Atlanta Braves vs New York Mets | Game too stale/live | +112 | 49.2% | $4.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Argentina vs Egypt | Minimum edge | +390 | 21.2% | $3.78 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +113 | 48.4% | $3.03 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +162 | 39.3% | $2.96 | Confirm probable starters or use the manual starter override. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.55 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +113 | 47.5% | $1.22 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Belgium | USA vs Belgium | Game too stale/live | +198 | 33.8% | $0.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | +100 | 50.4% | $0.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Draw | Norway vs England | Minimum edge | +280 | 26.3% | $0.06 | Edge under 1.5% — inside vig noise. |
