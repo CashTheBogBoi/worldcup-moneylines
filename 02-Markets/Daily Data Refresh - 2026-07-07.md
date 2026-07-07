@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-07T09:08:41.532Z
+Generated: 2026-07-07T12:37:40.488Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -26,7 +26,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Starters** — Kansas City Royals at New York Mets: Official starter is still TBD (Seth Lugo vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Philadelphia Phillies at Cincinnati Reds: Official starter is still TBD (TBD vs Andrew Abbott). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Toronto Blue Jays at San Francisco Giants: Official starter is still TBD (TBD vs Trevor McDonald). Block Bankroll Watch promotion until both starters are confirmed.
-- **Medium Soccer Market move** — Egypt at Argentina: Argentina is priced at -300. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
+- **Medium Soccer Market move** — Egypt at Argentina: Argentina is priced at -310. Heavy favorites need lineup/news confirmation and usually offer poor value unless the model is above market.
 - **Medium Soccer Market move** — Colombia at Switzerland: Draw price is +210, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
@@ -54,27 +54,27 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -186, St. Louis Cardinals +153 |
-| Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles +100, Chicago Cubs -120 |
-| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +153, Detroit Tigers -187 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +144, Pittsburgh Pirates -175 |
-| Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -118, Seattle Mariners -102 |
-| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees -101, Tampa Bay Rays -120 |
-| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +101, Washington Nationals -122 |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +141, Philadelphia Phillies -171 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-07T18:16:00Z | Milwaukee Brewers -193, St. Louis Cardinals +158 |
+| Chicago Cubs at Baltimore Orioles | 2026-07-07T22:36:00Z | Baltimore Orioles -102, Chicago Cubs -118 |
+| Athletics at Detroit Tigers | 2026-07-07T22:41:00Z | Athletics +153, Detroit Tigers -186 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-07T22:41:00Z | Atlanta Braves +141, Pittsburgh Pirates -171 |
+| Seattle Mariners at Miami Marlins | 2026-07-07T22:41:00Z | Miami Marlins -120, Seattle Mariners -101 |
+| New York Yankees at Tampa Bay Rays | 2026-07-07T22:41:00Z | New York Yankees +101, Tampa Bay Rays -122 |
+| Houston Astros at Washington Nationals | 2026-07-07T22:46:00Z | Houston Astros +104, Washington Nationals -125 |
+| Philadelphia Phillies at Cincinnati Reds | 2026-07-07T23:10:00Z | Cincinnati Reds +144, Philadelphia Phillies -175 |
 | Kansas City Royals at New York Mets | 2026-07-07T23:11:00Z | Kansas City Royals +129, New York Mets -156 |
 | Boston Red Sox at Chicago White Sox | 2026-07-07T23:41:00Z | Boston Red Sox -131, Chicago White Sox +108 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -101, Minnesota Twins -120 |
-| Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +139, Texas Rangers -168 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +109, San Diego Padres -131 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-07T23:41:00Z | Cleveland Guardians -103, Minnesota Twins -117 |
+| Los Angeles Angels at Texas Rangers | 2026-07-08T00:06:00Z | Los Angeles Angels +138, Texas Rangers -167 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +104, San Diego Padres -125 |
 | Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants -102, Toronto Blue Jays -118 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +218, Los Angeles Dodgers -272 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +224, Los Angeles Dodgers -280 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -300, Egypt +900, Draw +390 |
+| Egypt at Argentina | 2026-07-07T16:00:00Z | Argentina -310, Egypt +950, Draw +390 |
 | Colombia at Switzerland | 2026-07-07T20:00:00Z | Colombia +125, Switzerland +245, Draw +210 |
 | Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +285 |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -160, Draw +290 |
