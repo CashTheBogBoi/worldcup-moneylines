@@ -1,12 +1,12 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T02:01:43.755Z
+Updated: 2026-07-07T02:17:24.859Z
 
 ## Summary
 - Total tracked picks: 43
-- Pending: 6
-- Graded: 37
-- Wins: 12
+- Pending: 5
+- Graded: 38
+- Wins: 13
 - Losses: 24
 - Draws: 1
 - Intel review decisions saved: 27
@@ -15,7 +15,7 @@ Updated: 2026-07-07T02:01:43.755Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | USA vs Belgium | Belgium | pending | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
+| Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | pending | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | pending | +114 | +113 | 0.2 pts | 48.2% | 25% strength model + 75% market no-vig |
 | Soccer | Norway vs England | Norway | pending | +313 | +320 | -0.4 pts | 27.1% | 36% strength model + 64% market no-vig |
@@ -84,17 +84,17 @@ Updated: 2026-07-07T02:01:43.755Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
-| Passed gate | 18 | 12 | 16.7% | -0.2 pts | 0.180 | 0.0% |
+| Passed gate | 18 | 13 | 23.1% | -0.2 pts | 0.198 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T02:01:42.269Z
+- Saved: 2026-07-07T02:17:24.041Z
 - Current candidates: 55
 - Passed / blocked: 0 / 55
 
 ### Top Blockers
 - Model ready: 55
 - Pregame: 55
-- Minimum edge: 48
+- Minimum edge: 47
 - Positive EV: 43
 - Beats consensus: 26
 - Intel clear: 18
@@ -105,16 +105,16 @@ Updated: 2026-07-07T02:01:43.755Z
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +1800 | 11.8% | $123.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Tampa Bay Rays | Tampa Bay Rays vs New York Yankees | Game too stale/live | +1000 | 14.7% | $61.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +950 | 12.3% | $28.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | USA | USA vs Belgium | Game too stale/live | +550 | 18.3% | $18.91 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +950 | 12.6% | $32.73 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | USA | USA vs Belgium | Game too stale/live | +550 | 18.7% | $21.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 41.3% | $11.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +280 | 28.1% | $6.84 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Norway | Norway vs England | Game too stale/live | +320 | 25.2% | $5.84 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +280 | 28.3% | $7.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Norway vs England | Game too stale/live | +320 | 25.4% | $6.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Washington Nationals | Washington Nationals vs Houston Astros | Game too stale/live | -520 | 88.2% | $5.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | New York Mets | Atlanta Braves vs New York Mets | Game too stale/live | +400 | 21.0% | $4.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.5% | $2.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.5% | $2.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +390 | 20.7% | $1.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +113 | 47.6% | $1.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +390 | 20.6% | $1.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
