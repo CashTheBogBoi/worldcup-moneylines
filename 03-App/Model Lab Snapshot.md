@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T14:19:28.065Z
+Updated: 2026-07-07T15:54:37.148Z
 
 ## Summary
 - Total tracked picks: 46
@@ -87,26 +87,30 @@ Updated: 2026-07-07T14:19:28.065Z
 | Passed gate | 21 | 14 | 21.4% | -0.1 pts | 0.207 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T14:19:26.448Z
+- Saved: 2026-07-07T15:54:36.211Z
 - Current candidates: 47
-- Passed / blocked: 5 / 42
+- Passed / blocked: 0 / 47
 
 ### Top Blockers
-- Minimum edge: 40
-- Positive EV: 35
+- Model ready: 47
+- Pregame: 47
+- Minimum edge: 44
+- Positive EV: 37
 - Beats consensus: 22
-- Model ready: 12
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +170 | 39.0% | $5.37 | Confirm probable starters or use the manual starter override. |
-| Soccer | Draw | Argentina vs Egypt | Minimum edge | +400 | 20.9% | $4.58 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +149 | 41.8% | $4.09 | Confirm probable starters or use the manual starter override. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.6% | $2.84 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Minimum edge | +110 | 48.7% | $2.25 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +231 | 30.3% | $0.38 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Needs starter | +122 | 45.1% | $0.03 | Confirm probable starters or use the manual starter override. |
+| Soccer | Egypt | Argentina vs Egypt | Game too stale/live | +1075 | 11.7% | $37.59 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Belgium | Spain vs Belgium | Game too stale/live | +490 | 22.1% | $30.53 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Norway vs England | Game too stale/live | +325 | 25.2% | $7.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Switzerland vs Colombia | Game too stale/live | +273 | 28.1% | $4.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Morocco | France vs Morocco | Game too stale/live | +561 | 15.5% | $2.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +170 | 37.7% | $1.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +143 | 41.6% | $1.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Egypt | Game too stale/live | +400 | 20.2% | $0.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +149 | 40.5% | $0.90 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +110 | 47.7% | $0.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
