@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T19:13:22.586Z
+Updated: 2026-07-08T19:47:12.025Z
 
 ## Summary
 - Total tracked picks: 50
@@ -87,7 +87,7 @@ Updated: 2026-07-08T19:13:22.586Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T19:13:21.485Z
+- Saved: 2026-07-08T19:47:10.459Z
 - Current candidates: 62
 - Passed / blocked: 3 / 59
 
@@ -96,14 +96,14 @@ Updated: 2026-07-08T19:13:22.586Z
 - Positive EV: 57
 - Beats consensus: 55
 - Model opinion: 50
-- DraftKings line: 20
-- Model ready: 2
+- Model ready: 4
+- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.3% | $3.04 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Needs DraftKings line | +136 | 42.4% | $0.01 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +590 | 15.2% | $4.79 | Edge under 1.5% — inside vig noise. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +125 | 45.1% | $1.59 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-08T19:13:21.449Z",
+  "updatedAt": "2026-07-08T19:47:10.416Z",
   "latest": {
     "mlbTeamRatings": {
       "rays": {
@@ -1299,7 +1299,7 @@
       "2026-07-08::chicago cubs": {
         "pitcher": "Colin Rea",
         "xera": 5.134954128440367,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::detroit tigers": {
         "pitcher": "Troy Melton",
@@ -1309,12 +1309,12 @@
       "2026-07-08::athletics": {
         "pitcher": "Jeffrey Springs",
         "xera": 4.50689407540395,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::pittsburgh pirates": {
         "pitcher": "Jared Jones",
         "xera": 4.305,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::atlanta braves": {
         "pitcher": "Grant Holmes",
@@ -1339,7 +1339,7 @@
       "2026-07-08::new york yankees": {
         "pitcher": "Gerrit Cole",
         "xera": 3.7309090909090905,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::washington nationals": {
         "pitcher": "Foster Griffin",
@@ -1354,12 +1354,12 @@
       "2026-07-08::new york mets": {
         "pitcher": "Christian Scott",
         "xera": 4.540989010989011,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::kansas city royals": {
         "pitcher": "Steven Cruz",
         "xera": 4.118540145985402,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::cincinnati reds": {
         "pitcher": "Chase Burns",
@@ -1379,7 +1379,7 @@
       "2026-07-08::chicago white sox": {
         "pitcher": "Davis Martin",
         "xera": 4.134680073126143,
-        "lineupPosted": false
+        "lineupPosted": true
       },
       "2026-07-08::boston red sox": {
         "pitcher": "Jake Bennett",
@@ -1543,12 +1543,6 @@
       }
     },
     "mlbLastResults": {
-      "texas rangers": "win",
-      "detroit tigers": "win",
-      "houston astros": "win",
-      "tampa bay rays": "win",
-      "cleveland guardians": "loss",
-      "chicago white sox": "loss",
       "arizona diamondbacks": "loss",
       "milwaukee brewers": "win",
       "colorado rockies": "win",
@@ -1563,16 +1557,22 @@
       "boston red sox": "win",
       "kansas city royals": "win",
       "philadelphia phillies": "win",
+      "tampa bay rays": "win",
       "new york yankees": "loss",
       "washington nationals": "loss",
+      "houston astros": "win",
       "atlanta braves": "loss",
       "new york mets": "loss",
       "st. louis cardinals": "loss",
+      "detroit tigers": "win",
       "pittsburgh pirates": "win",
       "cincinnati reds": "loss",
       "baltimore orioles": "loss",
       "chicago cubs": "win",
-      "minnesota twins": "win"
+      "chicago white sox": "loss",
+      "minnesota twins": "win",
+      "cleveland guardians": "loss",
+      "texas rangers": "win"
     },
     "fifaMensRankings": [
       {
@@ -3476,14 +3476,14 @@
       }
     ],
     "mlbBullpen": {
-      "baltimore orioles": -1.8200000000000003,
-      "chicago cubs": 0.6799999999999997,
-      "pittsburgh pirates": -0.3200000000000003,
-      "atlanta braves": 0.3466666666666667,
       "st. louis cardinals": -0.07000000000000028,
       "milwaukee brewers": -0.8200000000000003,
+      "baltimore orioles": -1.8200000000000003,
+      "chicago cubs": 0.6799999999999997,
       "detroit tigers": -0.3200000000000003,
       "athletics": 0.17999999999999972,
+      "pittsburgh pirates": -0.3200000000000003,
+      "atlanta braves": 0.3466666666666667,
       "miami marlins": 0.6799999999999997,
       "seattle mariners": 0.17999999999999972,
       "tampa bay rays": -0.3200000000000003,
@@ -4620,23 +4620,23 @@
       }
     },
     "kalshi": {
-      "norway": 0.06,
+      "norway": 0.0605,
       "morocco": 0.0315,
       "switzerland": 0.0215,
       "england": 0.1555,
       "belgium": 0.0245,
       "argentina": 0.1875,
-      "france": 0.332,
+      "france": 0.3275,
       "spain": 0.1875
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-08T19:13:21.449Z",
-      "mlbStarters": "2026-07-08T19:13:21.449Z",
-      "mlbLastResults": "2026-07-08T19:13:21.449Z",
+      "mlbTeamRatings": "2026-07-08T19:47:10.416Z",
+      "mlbStarters": "2026-07-08T19:47:10.416Z",
+      "mlbLastResults": "2026-07-08T19:47:10.416Z",
       "fifaMensRankings": "2026-07-08T18:21:09.905Z",
-      "kalshi": "2026-07-08T19:13:21.449Z",
-      "mlbBullpen": "2026-07-08T19:13:21.449Z",
-      "openingLines": "2026-07-08T19:13:21.449Z"
+      "kalshi": "2026-07-08T19:47:10.416Z",
+      "mlbBullpen": "2026-07-08T19:47:10.416Z",
+      "openingLines": "2026-07-08T19:47:10.416Z"
     }
   },
   "history": [
@@ -20230,13 +20230,13 @@
         }
       ],
       "kalshi": {
-        "norway": 0.06,
+        "norway": 0.0605,
         "morocco": 0.0315,
         "switzerland": 0.0215,
         "england": 0.1555,
         "belgium": 0.0245,
         "argentina": 0.1875,
-        "france": 0.332,
+        "france": 0.3275,
         "spain": 0.1875
       }
     }
