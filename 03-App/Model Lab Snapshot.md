@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T00:07:12.755Z
+Updated: 2026-07-08T00:27:13.813Z
 
 ## Summary
 - Total tracked picks: 49
@@ -87,16 +87,16 @@ Updated: 2026-07-08T00:07:12.755Z
 | Passed gate | 24 | 18 | 16.7% | 0.1 pts | 0.178 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T00:07:11.839Z
+- Saved: 2026-07-08T00:27:12.914Z
 - Current candidates: 68
 - Passed / blocked: 3 / 65
 
 ### Top Blockers
 - Minimum edge: 56
-- Model ready: 50
-- Positive EV: 45
+- Model ready: 56
+- Pregame: 56
+- Positive EV: 50
 - Beats consensus: 33
-- Pregame: 24
 - DraftKings line: 2
 
 ### Research Actions
@@ -110,10 +110,10 @@ Updated: 2026-07-08T00:07:12.755Z
 | MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +180 | 40.2% | $12.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Minnesota Twins | Minnesota Twins vs Cleveland Guardians | Game too stale/live | -103 | 53.0% | $4.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Boston Red Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | -119 | 56.7% | $4.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +260 | 28.7% | $3.20 | Edge under 1.5% — inside vig noise. |
 | MLB | New York Mets | New York Mets vs Kansas City Royals | Game too stale/live | -333 | 79.2% | $2.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +185 | 36.1% | $2.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | -142 | 59.8% | $1.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.68 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
