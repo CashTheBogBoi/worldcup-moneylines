@@ -314,3 +314,10 @@ Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy 
 [2026-07-08T01:29:00.770Z] watchdog skipped: another run is active
 [2026-07-08T01:44:01.161Z] watchdog skipped: another run is active
 [2026-07-08T02:11:01.862Z] watchdog skipped: another run is active
+[2026-07-08T03:16:02.657Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run failed.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-08T03:17:49.097Z] watchdog FAIL morning exit=1
