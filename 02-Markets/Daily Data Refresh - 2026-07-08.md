@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-08
 
-Generated: 2026-07-08T19:52:24.036Z
+Generated: 2026-07-08T23:55:58.052Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,57 +20,66 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Toronto Blue Jays at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Starters** — Philadelphia Phillies at Cincinnati Reds: Official starter is still TBD (TBD vs Chase Burns). Block Bankroll Watch promotion until both starters are confirmed.
+- **High MLB Market move** — Chicago Cubs at Baltimore Orioles: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Athletics at Detroit Tigers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Atlanta Braves at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Seattle Mariners at Miami Marlins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Houston Astros at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Kansas City Royals at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Philadelphia Phillies at Cincinnati Reds: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Cleveland Guardians at Minnesota Twins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Boston Red Sox at Chicago White Sox: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Milwaukee Brewers at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Toronto Blue Jays at San Francisco Giants | In Progress | Dylan Cease | Logan Webb | 0-0 |
-| Chicago Cubs at Baltimore Orioles | Pre-Game | Colin Rea | Dean Kremer | 0-0 |
-| Athletics at Detroit Tigers | Pre-Game | Jeffrey Springs | Troy Melton | 0-0 |
-| Atlanta Braves at Pittsburgh Pirates | Pre-Game | Grant Holmes | Jared Jones | 0-0 |
-| Seattle Mariners at Miami Marlins | Pre-Game | George Kirby | Tyler Phillips | 0-0 |
-| New York Yankees at Tampa Bay Rays | Pre-Game | Gerrit Cole | Shane McClanahan | 0-0 |
-| Houston Astros at Washington Nationals | Scheduled | Spencer Arrighetti | Foster Griffin |  |
-| Kansas City Royals at New York Mets | Pre-Game | Steven Cruz | Christian Scott | 0-0 |
-| Philadelphia Phillies at Cincinnati Reds | Pre-Game | TBD | Chase Burns | 0-0 |
-| Cleveland Guardians at Minnesota Twins | Scheduled | Slade Cecconi | Connor Prielipp |  |
-| Boston Red Sox at Chicago White Sox | Pre-Game | Jake Bennett | Davis Martin |  |
-| Milwaukee Brewers at St. Louis Cardinals | Scheduled | Kyle Harrison | Michael McGreevy |  |
-| Los Angeles Angels at Texas Rangers | Scheduled | Walbert Ureña | MacKenzie Gore |  |
-| Colorado Rockies at Los Angeles Dodgers | Scheduled | Gabriel Hughes | Roki Sasaki |  |
-| Arizona Diamondbacks at San Diego Padres | Scheduled | Jose Cabrera | Michael King |  |
+| Toronto Blue Jays at San Francisco Giants | Final | Dylan Cease | Logan Webb | 10-0 |
+| Chicago Cubs at Baltimore Orioles | In Progress | Colin Rea | Dean Kremer | 4-3 |
+| Athletics at Detroit Tigers | In Progress | Jeffrey Springs | Troy Melton | 1-3 |
+| Atlanta Braves at Pittsburgh Pirates | In Progress | Grant Holmes | Jared Jones | 0-0 |
+| Seattle Mariners at Miami Marlins | In Progress | George Kirby | Tyler Phillips | 0-2 |
+| New York Yankees at Tampa Bay Rays | In Progress | Gerrit Cole | Shane McClanahan | 0-2 |
+| Houston Astros at Washington Nationals | In Progress | Spencer Arrighetti | Foster Griffin | 0-2 |
+| Kansas City Royals at New York Mets | In Progress | Steven Cruz | Christian Scott | 0-1 |
+| Philadelphia Phillies at Cincinnati Reds | In Progress | Alan Rangel | Chase Burns | 2-0 |
+| Cleveland Guardians at Minnesota Twins | In Progress | Slade Cecconi | Connor Prielipp | 0-0 |
+| Boston Red Sox at Chicago White Sox | In Progress | Jake Bennett | Davis Martin | 0-0 |
+| Milwaukee Brewers at St. Louis Cardinals | In Progress | Kyle Harrison | Michael McGreevy | 0-0 |
+| Los Angeles Angels at Texas Rangers | Warmup | Walbert Ureña | MacKenzie Gore | 0-0 |
+| Colorado Rockies at Los Angeles Dodgers | Pre-Game | Gabriel Hughes | Roki Sasaki | 0-0 |
+| Arizona Diamondbacks at San Diego Padres | Pre-Game | Jose Cabrera | Michael King | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-08T19:46:00Z | San Francisco Giants +134, Toronto Blue Jays -175 |
-| Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles -126, Chicago Cubs +105 |
-| Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +114, Detroit Tigers -137 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-08T22:41:00Z | Atlanta Braves -102, Pittsburgh Pirates -118 |
-| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | Miami Marlins +105, Seattle Mariners -126 |
-| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees -101, Tampa Bay Rays -120 |
-| Houston Astros at Washington Nationals | 2026-07-08T22:46:00Z | Houston Astros +113, Washington Nationals -136 |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-08T23:11:00Z | Cincinnati Reds -144, Philadelphia Phillies +119 |
-| Kansas City Royals at New York Mets | 2026-07-08T23:11:00Z | Kansas City Royals +149, New York Mets -181 |
-| Boston Red Sox at Chicago White Sox | 2026-07-08T23:41:00Z | Boston Red Sox -108, Chicago White Sox -112 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-08T23:41:00Z | Cleveland Guardians -101, Minnesota Twins -120 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-08T23:46:00Z | Milwaukee Brewers -155, St. Louis Cardinals +128 |
-| Los Angeles Angels at Texas Rangers | 2026-07-09T00:06:00Z | Los Angeles Angels +129, Texas Rangers -156 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-09T02:11:00Z | Arizona Diamondbacks +119, San Diego Padres -143 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-09T02:11:00Z | Colorado Rockies +199, Los Angeles Dodgers -246 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:36:00Z | Atlanta Braves -115, Pittsburgh Pirates -105 |
-| Kansas City Royals at New York Mets | 2026-07-09T17:11:00Z | Kansas City Royals +119, New York Mets -143 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-09T17:41:00Z | Cleveland Guardians -131, Minnesota Twins +109 |
-| Boston Red Sox at Chicago White Sox | 2026-07-09T18:11:00Z | Boston Red Sox -102, Chicago White Sox -118 |
+| Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles -143, Chicago Cubs +110 |
+| Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +351, Detroit Tigers -534 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-08T22:41:00Z | Atlanta Braves +125, Pittsburgh Pirates -163 |
+| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | Miami Marlins -511, Seattle Mariners +339 |
+| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees +348, Tampa Bay Rays -529 |
+| Houston Astros at Washington Nationals | 2026-07-08T22:46:00Z | Houston Astros +342, Washington Nationals -516 |
+| Philadelphia Phillies at Cincinnati Reds | 2026-07-08T23:11:00Z | Cincinnati Reds +177, Philadelphia Phillies -238 |
+| Kansas City Royals at New York Mets | 2026-07-08T23:11:00Z | Kansas City Royals +281, New York Mets -405 |
+| Boston Red Sox at Chicago White Sox | 2026-07-08T23:41:00Z | Boston Red Sox -105, Chicago White Sox -124 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-08T23:41:00Z | Cleveland Guardians +117, Minnesota Twins -153 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-08T23:46:00Z | Milwaukee Brewers -122, St. Louis Cardinals -105 |
+| Los Angeles Angels at Texas Rangers | 2026-07-09T00:06:00Z | Los Angeles Angels +114, Texas Rangers -138 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-09T02:11:00Z | Arizona Diamondbacks +119, San Diego Padres -144 |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-09T02:11:00Z | Colorado Rockies +217, Los Angeles Dodgers -271 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:36:00Z | Atlanta Braves -118, Pittsburgh Pirates -102 |
+| Kansas City Royals at New York Mets | 2026-07-09T17:11:00Z | Kansas City Royals +123, New York Mets -149 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-09T17:41:00Z | Cleveland Guardians -131, Minnesota Twins +108 |
+| Boston Red Sox at Chicago White Sox | 2026-07-09T18:11:00Z | Boston Red Sox -103, Chicago White Sox -117 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-09T22:36:00Z | Baltimore Orioles -131, Chicago Cubs +109 |
 | Athletics at Detroit Tigers | 2026-07-09T22:41:00Z | Athletics +119, Detroit Tigers -143 |
+| Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | Miami Marlins +123, Seattle Mariners -149 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +139, Philadelphia Phillies -168 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -131, St. Louis Cardinals +109 |
-| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +123, Texas Rangers -149 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -126, St. Louis Cardinals +104 |
+| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +123, Texas Rangers -148 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +104, San Diego Padres -126 |
 
 ## DraftKings Soccer odds snapshot
@@ -78,7 +87,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Match | Start | DraftKings |
 | --- | --- | --- |
 | Morocco at France | 2026-07-09T20:00:00Z | France -180, Morocco +550, Draw +290 |
-| Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +450, Spain -165, Draw +300 |
+| Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +425, Spain -155, Draw +290 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +310, Draw +270 |
 | Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
 
