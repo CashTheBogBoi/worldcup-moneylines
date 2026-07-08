@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T13:47:18.193Z
+Updated: 2026-07-08T14:01:08.670Z
 
 ## Summary
 - Total tracked picks: 49
@@ -87,7 +87,7 @@ Updated: 2026-07-08T13:47:18.193Z
 | Passed gate | 24 | 21 | 14.3% | 0.0 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T13:47:17.280Z
+- Saved: 2026-07-08T14:01:07.426Z
 - Current candidates: 42
 - Passed / blocked: 3 / 39
 
@@ -101,7 +101,7 @@ Updated: 2026-07-08T13:47:18.193Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Morocco | France vs Morocco | Minimum edge | +580 | 15.2% | $3.20 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +580 | 15.2% | $3.24 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
