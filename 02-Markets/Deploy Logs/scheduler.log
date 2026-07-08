@@ -6901,3 +6901,87 @@ For CI servers and headless environments, generate a new token with firebase log
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
 [2026-07-08T18:20:38.320Z] FAIL deploy exit=1
 ========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-08T18:20:38.320Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-08T18:40:14.707Z ==========
+
+[2026-07-08T18:40:14.708Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-08
+Wrote data/daily/2026-07-08/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-08.md
+Warnings:
+- mlbSchedule: fetch failed fetch failed
+- mlbStandings: fetch failed fetch failed
+- fifaMensRankings: fetch failed fetch failed
+- soccerOdds: fetch failed fetch failed
+- mlbOdds: fetch failed fetch failed
+- soccerFutures: fetch failed fetch failed
+- mlbScores: fetch failed fetch failed
+- soccerScores: fetch failed fetch failed
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 4.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-08.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:499
+        return authOrCode._errorFactory.create(code, ...fullParams);
+                                        ^
+
+FirebaseError: Firebase: Error (auth/network-request-failed).
+    at createErrorInternal (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:499:41)
+    at _fail (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:474:11)
+    at _performFetchWithErrorHandling (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:972:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async _performSignInRequest (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:976:28)
+    at async signInAnonymously (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/firebase/node_modules/@firebase/auth/dist/node-esm/totp-65577477.js:5537:22)
+    at async file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/sync-firestore.mjs:66:1 {
+  code: 'auth/network-request-failed',
+  customData: { message: 'TypeError: fetch failed', appName: '[DEFAULT]' }
+}
+
+Node.js v24.17.0
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: npm run sync:firebase
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execFileSync (node:child_process:961:15)
+    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)
+    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:286:3)
+    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 18186,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v24.17.0
+[2026-07-08T18:40:15.361Z] FAIL research exit=1
+========== Morning slate scheduled run FAILED 2026-07-08T18:40:15.361Z ==========

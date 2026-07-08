@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T18:28:09.840Z
+Updated: 2026-07-08T19:13:22.586Z
 
 ## Summary
 - Total tracked picks: 50
@@ -9,8 +9,8 @@ Updated: 2026-07-08T18:28:09.840Z
 - Wins: 13
 - Losses: 32
 - Draws: 1
-- Intel review decisions saved: 25
-- Intel confirmed / denied / pending: 21 / 4 / 0
+- Intel review decisions saved: 22
+- Intel confirmed / denied / pending: 21 / 1 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -20,12 +20,12 @@ Updated: 2026-07-08T18:28:09.840Z
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
-| Soccer | Spain vs Belgium | Belgium | pending | +498 | +490 | 0.2 pts | 27.3% | 38% strength model + 62% market no-vig |
+| Soccer | Spain vs Belgium | Belgium | pending | +498 | +500 | -0.1 pts | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | loss | +410 | +400 | 0.4 pts | 21.2% | 38% strength model + 62% market no-vig |
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | loss | +114 | +110 | 0.9 pts | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | pending | +313 | +335 | -1.2 pts | 27.1% | 36% strength model + 64% market no-vig |
+| Soccer | Norway vs England | Norway | pending | +313 | +330 | -1.0 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
@@ -59,9 +59,6 @@ Updated: 2026-07-08T18:28:09.840Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
-| auto-mlb-starter-824496 | denied | 2026-07-08T18:26:22.169Z |  |
-| auto-mlb-no-dk-823605 | denied | 2026-07-08T18:26:15.502Z |  |
-| auto-mlb-no-dk-823360 | denied | 2026-07-08T18:26:07.619Z |  |
 | auto-mlb-no-dk-823930 | confirmed | 2026-07-06T21:15:38.130Z |  |
 | auto-mlb-no-dk-822712 | confirmed | 2026-07-06T21:15:37.213Z |  |
 | auto-mlb-started-824089 | confirmed | 2026-07-06T21:15:36.215Z |  |
@@ -79,6 +76,9 @@ Updated: 2026-07-08T18:28:09.840Z
 | auto-soccer-heavy-fav-a518ac20df8f5c732b881e213ae0c230 | confirmed | 2026-07-02T01:51:52.092Z |  |
 | auto-mlb-starter-824985 | denied | 2026-07-02T01:51:17.610Z | Roki Sasaki starting tonight |
 | auto-mlb-started-824337 | confirmed | 2026-07-02T01:50:01.870Z |  |
+| auto-mlb-started-823767 | confirmed | 2026-07-02T01:50:01.051Z |  |
+| auto-mlb-started-824174 | confirmed | 2026-07-02T01:49:59.515Z |  |
+| auto-mlb-started-824094 | confirmed | 2026-07-02T01:49:57.982Z |  |
 
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
@@ -87,28 +87,23 @@ Updated: 2026-07-08T18:28:09.840Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T18:28:08.035Z
-- Current candidates: 46
-- Passed / blocked: 4 / 42
+- Saved: 2026-07-08T19:13:21.485Z
+- Current candidates: 62
+- Passed / blocked: 3 / 59
 
 ### Top Blockers
-- Minimum edge: 42
-- Positive EV: 34
-- Beats consensus: 22
-- Model ready: 6
-- DraftKings line: 4
+- Minimum edge: 59
+- Positive EV: 57
+- Beats consensus: 55
+- Model opinion: 50
+- DraftKings line: 20
+- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.3% | $3.06 | Edge under 1.5% — inside vig noise. |
-| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +127 | 45.3% | $2.93 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Minimum edge | +116 | 47.5% | $2.70 | Edge under 1.5% — inside vig noise. |
-| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Minimum edge | +115 | 47.6% | $2.44 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Minimum edge | +125 | 44.8% | $0.82 | Edge under 1.5% — inside vig noise. |
-| MLB | Kansas City Royals | New York Mets vs Kansas City Royals | Needs starter | +124 | 45.0% | $0.73 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago Cubs | Baltimore Orioles vs Chicago Cubs | Minimum edge | +112 | 47.2% | $0.16 | Edge under 1.5% — inside vig noise. |
-| MLB | Detroit Tigers | Detroit Tigers vs Athletics | Minimum edge | -129 | 56.3% | $0.01 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.3% | $3.04 | Edge under 1.5% — inside vig noise. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Needs DraftKings line | +136 | 42.4% | $0.01 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
