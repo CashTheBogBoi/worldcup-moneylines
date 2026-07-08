@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T08:31:28.094Z
+Updated: 2026-07-08T12:46:47.350Z
 
 ## Summary
 - Total tracked picks: 49
@@ -15,7 +15,7 @@ Updated: 2026-07-08T08:31:28.094Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +470 | -0.3 pts | 20.8% | 31% strength model + 69% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +490 | -0.9 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
@@ -84,28 +84,28 @@ Updated: 2026-07-08T08:31:28.094Z
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
-| Passed gate | 24 | 21 | 14.3% | 0.1 pts | 0.180 | 0.0% |
+| Passed gate | 24 | 21 | 14.3% | 0.0 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T08:31:27.134Z
+- Saved: 2026-07-08T12:46:46.438Z
 - Current candidates: 42
 - Passed / blocked: 3 / 39
 
 ### Top Blockers
 - Minimum edge: 39
-- Positive EV: 34
+- Positive EV: 33
 - Beats consensus: 20
-- DraftKings line: 4
 - Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Minimum edge | +118 | 47.3% | $3.09 | Edge under 1.5% — inside vig noise. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.39 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Minimum edge | +128 | 44.3% | $0.95 | Edge under 1.5% — inside vig noise. |
-| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Minimum edge | +106 | 48.9% | $0.78 | Edge under 1.5% — inside vig noise. |
-| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +120 | 45.5% | $0.09 | Confirm probable starters or use the manual starter override. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +580 | 15.2% | $3.20 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Minimum edge | +115 | 47.5% | $2.07 | Edge under 1.5% — inside vig noise. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Minimum edge | +107 | 48.7% | $0.89 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Minimum edge | +126 | 44.4% | $0.43 | Edge under 1.5% — inside vig noise. |
+| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +120 | 45.6% | $0.37 | Confirm probable starters or use the manual starter override. |
+| MLB | New York Yankees | Tampa Bay Rays vs New York Yankees | Minimum edge | +116 | 46.4% | $0.18 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

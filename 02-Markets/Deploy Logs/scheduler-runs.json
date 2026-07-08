@@ -1,5 +1,55 @@
 [
   {
+    "id": "morning-2026-07-08T12:35:34.134Z",
+    "phase": "morning",
+    "phaseLabel": "Morning slate",
+    "status": "failed",
+    "startedAt": "2026-07-08T12:35:34.134Z",
+    "finishedAt": "2026-07-08T12:46:57.111Z",
+    "durationMs": 682977,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:morning",
+        "startedAt": "2026-07-08T12:35:34.135Z",
+        "finishedAt": "2026-07-08T12:46:57.111Z",
+        "ok": false,
+        "exitCode": 1,
+        "signal": null,
+        "outputTail": [
+          "Error: Command failed: npm run sync:firebase",
+          "    at genericNodeError (node:internal/errors:985:15)",
+          "    at wrappedFn (node:internal/errors:539:14)",
+          "    at checkExecSyncError (node:child_process:925:11)",
+          "    at execFileSync (node:child_process:961:15)",
+          "    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)",
+          "    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:286:3)",
+          "    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1",
+          "    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)",
+          "    at async node:internal/modules/esm/loader:633:26",
+          "    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {",
+          "  status: 1,",
+          "  signal: null,",
+          "  output: [ null, null, null ],",
+          "  pid: 2433,",
+          "  stdout: null,",
+          "  stderr: null",
+          "}",
+          "",
+          "Node.js v24.17.0"
+        ]
+      }
+    ],
+    "failedStep": "research",
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-08.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-08 morning.md",
+      "dailyReview": null,
+      "modelQuality": null,
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
     "id": "nightly-2026-07-08T03:56:37.795Z",
     "phase": "nightly",
     "phaseLabel": "Nightly review",
@@ -3842,56 +3892,6 @@
     "artifacts": {
       "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-03.md",
       "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md",
-      "dailyReview": null,
-      "modelQuality": null,
-      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md"
-    }
-  },
-  {
-    "id": "wave-2026-07-03T21:41:58.190Z",
-    "phase": "wave",
-    "phaseLabel": "Next wave",
-    "status": "failed",
-    "startedAt": "2026-07-03T21:41:58.190Z",
-    "finishedAt": "2026-07-03T21:41:59.054Z",
-    "durationMs": 864,
-    "steps": [
-      {
-        "name": "research",
-        "command": "npm run research:wave",
-        "startedAt": "2026-07-03T21:41:58.191Z",
-        "finishedAt": "2026-07-03T21:41:59.054Z",
-        "ok": false,
-        "exitCode": 1,
-        "signal": null,
-        "outputTail": [
-          "Error: Command failed: npm run sync:firebase",
-          "    at genericNodeError (node:internal/errors:985:15)",
-          "    at wrappedFn (node:internal/errors:539:14)",
-          "    at checkExecSyncError (node:child_process:925:11)",
-          "    at execFileSync (node:child_process:961:15)",
-          "    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)",
-          "    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:286:3)",
-          "    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1",
-          "    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)",
-          "    at async node:internal/modules/esm/loader:633:26",
-          "    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {",
-          "  status: 1,",
-          "  signal: null,",
-          "  output: [ null, null, null ],",
-          "  pid: 69239,",
-          "  stdout: null,",
-          "  stderr: null",
-          "}",
-          "",
-          "Node.js v24.17.0"
-        ]
-      }
-    ],
-    "failedStep": "research",
-    "artifacts": {
-      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-03.md",
-      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-03 wave.md",
       "dailyReview": null,
       "modelQuality": null,
       "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md"
