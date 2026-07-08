@@ -1,5 +1,102 @@
 [
   {
+    "id": "nightly-2026-07-08T03:56:37.795Z",
+    "phase": "nightly",
+    "phaseLabel": "Nightly review",
+    "status": "failed",
+    "startedAt": "2026-07-08T03:56:37.795Z",
+    "finishedAt": "2026-07-08T04:13:35.227Z",
+    "durationMs": 1017432,
+    "steps": [
+      {
+        "name": "research",
+        "command": "npm run research:nightly",
+        "startedAt": "2026-07-08T03:56:37.796Z",
+        "finishedAt": "2026-07-08T04:13:15.585Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "",
+          "Auto-graded 0 picks.",
+          "Still pending with no final score: 3.",
+          "Wrote 03-App/model-training-state.json",
+          "Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-07.md",
+          "",
+          "> worldcup-moneylines@0.1.0 sync:firebase",
+          "> node scripts/sync-firestore.mjs",
+          "",
+          "Synced Firestore collection: sports-edge-lab",
+          "model-training-state savedAt: 2026-07-08T03:56:57.461Z counts {\"pending\":3,\"loss\":32,\"win\":13,\"draw\":1}",
+          "stats-history updatedAt: 2026-07-08T03:38:37.582Z",
+          "",
+          "> worldcup-moneylines@0.1.0 review:daily",
+          "> node scripts/review-daily.mjs",
+          "",
+          "Daily review written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-08.md",
+          "Reviewed 3 picks (0 settled). Avg CLV -0.3 pts.",
+          "Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-07 nightly.md",
+          "[2026-07-08T04:12:50.247Z]  @firebase/firestore: Firestore (12.15.0): GrpcConnection RPC 'Write' stream 0x6c29047e error. Code: 14 Message: 14 UNAVAILABLE: read ECONNRESET"
+        ]
+      },
+      {
+        "name": "model-quality",
+        "command": "npm run review:model-quality",
+        "startedAt": "2026-07-08T04:13:15.585Z",
+        "finishedAt": "2026-07-08T04:13:15.731Z",
+        "ok": true,
+        "exitCode": 0,
+        "signal": null,
+        "outputTail": [
+          "> worldcup-moneylines@0.1.0 review:model-quality",
+          "> node scripts/review-model-quality.mjs",
+          "",
+          "Model quality review written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-08.md",
+          "Model quality signals written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-quality-signals.json"
+        ]
+      },
+      {
+        "name": "deploy",
+        "command": "npm run deploy:firebase",
+        "startedAt": "2026-07-08T04:13:15.731Z",
+        "finishedAt": "2026-07-08T04:13:35.226Z",
+        "ok": false,
+        "exitCode": 1,
+        "signal": null,
+        "outputTail": [
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "",
+          "=== Deploying to 'sportsedge-a58e7'...",
+          "",
+          "i  deploying hosting",
+          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "",
+          "Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
+          "",
+          "For CI servers and headless environments, generate a new token with firebase login:ci",
+          "[plugin builtin:vite-reporter] ",
+          "(!) Some chunks are larger than 500 kB after minification. Consider:",
+          "- Using dynamic import() to code-split the application",
+          "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
+          "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit."
+        ]
+      }
+    ],
+    "failedStep": "deploy",
+    "artifacts": {
+      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-07.md",
+      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-07 nightly.md",
+      "dailyReview": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-07.md",
+      "modelQuality": "/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-07.md",
+      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md"
+    }
+  },
+  {
     "id": "morning-2026-07-08T03:16:02.772Z",
     "phase": "morning",
     "phaseLabel": "Morning slate",
@@ -3795,87 +3892,6 @@
     "artifacts": {
       "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-03.md",
       "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-03 wave.md",
-      "dailyReview": null,
-      "modelQuality": null,
-      "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md"
-    }
-  },
-  {
-    "id": "morning-2026-07-03T16:57:23.764Z",
-    "phase": "morning",
-    "phaseLabel": "Morning slate",
-    "status": "failed",
-    "startedAt": "2026-07-03T16:57:23.764Z",
-    "finishedAt": "2026-07-03T16:58:30.101Z",
-    "durationMs": 66337,
-    "steps": [
-      {
-        "name": "research",
-        "command": "npm run research:morning",
-        "startedAt": "2026-07-03T16:57:23.764Z",
-        "finishedAt": "2026-07-03T16:58:23.873Z",
-        "ok": true,
-        "exitCode": 0,
-        "signal": null,
-        "outputTail": [
-          "Wrote public/data/latest.json",
-          "Wrote 02-Markets/Daily Data Refresh - 2026-07-03.md",
-          "Warnings:",
-          "- fifaMensRankings: FIFA page shows latest official update 2026-06-11, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.",
-          "",
-          "> worldcup-moneylines@0.1.0 grade:picks",
-          "> node scripts/grade-finished-picks.mjs",
-          "",
-          "Auto-graded 0 picks.",
-          "Still pending with no final score: 11.",
-          "Wrote 03-App/model-training-state.json",
-          "Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-03.md",
-          "",
-          "> worldcup-moneylines@0.1.0 sync:firebase",
-          "> node scripts/sync-firestore.mjs",
-          "",
-          "Synced Firestore collection: sports-edge-lab",
-          "model-training-state savedAt: 2026-07-03T16:58:20.720Z counts {\"loss\":8,\"pending\":11,\"win\":6,\"draw\":1}",
-          "stats-history updatedAt: 2026-07-03T16:55:45.010Z",
-          "Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md"
-        ]
-      },
-      {
-        "name": "deploy",
-        "command": "npm run deploy:firebase",
-        "startedAt": "2026-07-03T16:58:23.873Z",
-        "finishedAt": "2026-07-03T16:58:30.101Z",
-        "ok": false,
-        "exitCode": 1,
-        "signal": null,
-        "outputTail": [
-          "For CI servers and headless environments, generate a new token with firebase login:ci",
-          "",
-          "=== Deploying to 'sportsedge-a58e7'...",
-          "",
-          "i  deploying hosting",
-          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
-          "",
-          "For CI servers and headless environments, generate a new token with firebase login:ci",
-          "Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
-          "",
-          "For CI servers and headless environments, generate a new token with firebase login:ci",
-          "",
-          "Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth",
-          "",
-          "For CI servers and headless environments, generate a new token with firebase login:ci",
-          "[plugin builtin:vite-reporter] ",
-          "(!) Some chunks are larger than 500 kB after minification. Consider:",
-          "- Using dynamic import() to code-split the application",
-          "- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting",
-          "- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit."
-        ]
-      }
-    ],
-    "failedStep": "deploy",
-    "artifacts": {
-      "dailyData": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Data Refresh - 2026-07-03.md",
-      "researchCycle": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-03 morning.md",
       "dailyReview": null,
       "modelQuality": null,
       "latestDeploy": "/Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Deploy - 2026-07-02 2354.md"

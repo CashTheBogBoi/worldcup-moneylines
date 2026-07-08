@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T03:38:38.904Z
+Updated: 2026-07-08T04:13:00.264Z
 
 ## Summary
 - Total tracked picks: 49
@@ -87,7 +87,7 @@ Updated: 2026-07-08T03:38:38.904Z
 | Passed gate | 24 | 21 | 14.3% | 0.1 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T03:38:37.544Z
+- Saved: 2026-07-08T04:12:59.355Z
 - Current candidates: 44
 - Passed / blocked: 3 / 41
 
@@ -97,19 +97,19 @@ Updated: 2026-07-08T03:38:38.904Z
 - Model ready: 32
 - Beats consensus: 21
 - Pregame: 6
-- DraftKings line: 2
+- DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +1800 | 12.5% | $137.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +700 | 17.7% | $41.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +550 | 19.2% | $24.85 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.86 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +3500 | 10.2% | $266.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Game too stale/live | +3300 | 9.1% | $208.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +1050 | 12.9% | $47.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Needs starter | +133 | 44.2% | $3.09 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Needs starter | +118 | 47.2% | $2.89 | Confirm probable starters or use the manual starter override. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.5% | $2.54 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago Cubs | Baltimore Orioles vs Chicago Cubs | Needs starter | +114 | 47.4% | $1.39 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Needs starter | +118 | 46.4% | $1.23 | Confirm probable starters or use the manual starter override. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Needs starter | +205 | 33.0% | $0.80 | Confirm probable starters or use the manual starter override. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Needs starter | +126 | 44.3% | $0.23 | Confirm probable starters or use the manual starter override. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Needs starter | +205 | 33.1% | $1.00 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

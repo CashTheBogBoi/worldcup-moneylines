@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-07
 
-Generated: 2026-07-08T03:16:03.025Z
+Generated: 2026-07-08T03:56:38.041Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,7 +21,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Arizona Diamondbacks at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Toronto Blue Jays at San Francisco Giants: Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Toronto Blue Jays at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## MLB probable pitchers
@@ -42,22 +42,22 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Boston Red Sox at Chicago White Sox | Final | Payton Tolle | Noah Schultz | 8-1 |
 | Los Angeles Angels at Texas Rangers | Final | José Soriano | Jacob deGrom | 3-8 |
 | Arizona Diamondbacks at San Diego Padres | In Progress | Zac Gallen | Germán Márquez | 1-4 |
-| Toronto Blue Jays at San Francisco Giants | Player challenge | Spencer Miles | Trevor McDonald | 8-3 |
-| Colorado Rockies at Los Angeles Dodgers | In Progress | Michael Lorenzen | Justin Wrobleski | 0-1 |
+| Toronto Blue Jays at San Francisco Giants | In Progress | Spencer Miles | Trevor McDonald | 8-3 |
+| Colorado Rockies at Los Angeles Dodgers | In Progress | Michael Lorenzen | Justin Wrobleski | 1-3 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | Arizona Diamondbacks +593, San Diego Padres -1140 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | San Francisco Giants +1400, Toronto Blue Jays -10000 |
-| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +483, Los Angeles Dodgers -830 |
-| Toronto Blue Jays at San Francisco Giants | 2026-07-08T19:46:00Z | San Francisco Giants -108, Toronto Blue Jays -111 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-08T01:41:00Z | none |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-08T01:46:00Z | none |
+| Colorado Rockies at Los Angeles Dodgers | 2026-07-08T02:11:00Z | Colorado Rockies +830, Los Angeles Dodgers -2200 |
+| Toronto Blue Jays at San Francisco Giants | 2026-07-08T19:46:00Z | San Francisco Giants -107, Toronto Blue Jays -112 |
 | Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles -131, Chicago Cubs +108 |
 | Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +135, Detroit Tigers -163 |
 | Atlanta Braves at Pittsburgh Pirates | 2026-07-08T22:41:00Z | Atlanta Braves +101, Pittsburgh Pirates -122 |
-| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | none |
-| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees +104, Tampa Bay Rays -125 |
+| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | Miami Marlins +109, Seattle Mariners -131 |
+| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees +108, Tampa Bay Rays -131 |
 | Houston Astros at Washington Nationals | 2026-07-08T22:46:00Z | Houston Astros +113, Washington Nationals -136 |
 | Boston Red Sox at Chicago White Sox | 2026-07-08T23:41:00Z | Boston Red Sox +104, Chicago White Sox -125 |
 | Cleveland Guardians at Minnesota Twins | 2026-07-08T23:41:00Z | Cleveland Guardians +113, Minnesota Twins -136 |
