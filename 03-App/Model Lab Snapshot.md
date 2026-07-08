@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T01:34:05.861Z
+Updated: 2026-07-08T01:49:04.800Z
 
 ## Summary
 - Total tracked picks: 49
@@ -87,16 +87,16 @@ Updated: 2026-07-08T01:34:05.861Z
 | Passed gate | 24 | 18 | 16.7% | 0.1 pts | 0.178 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T01:34:04.928Z
+- Saved: 2026-07-08T01:49:03.261Z
 - Current candidates: 68
 - Passed / blocked: 3 / 65
 
 ### Top Blockers
+- Model ready: 56
+- Pregame: 56
 - Minimum edge: 55
-- Model ready: 50
-- Positive EV: 48
+- Positive EV: 51
 - Beats consensus: 32
-- Pregame: 24
 - DraftKings line: 6
 
 ### Research Actions
@@ -111,8 +111,8 @@ Updated: 2026-07-08T01:34:05.861Z
 | MLB | Baltimore Orioles | Baltimore Orioles vs Chicago Cubs | Game too stale/live | +500 | 21.5% | $29.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +560 | 19.1% | $26.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Cleveland Guardians | Minnesota Twins vs Cleveland Guardians | Game too stale/live | +250 | 30.4% | $6.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Minimum edge | +270 | 28.4% | $5.20 | Edge under 1.5% — inside vig noise. |
 | MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Game too stale/live | -110 | 55.1% | $5.17 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Los Angeles Dodgers vs Colorado Rockies | Game too stale/live | +270 | 27.7% | $2.57 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Morocco | France vs Morocco | Minimum edge | +561 | 15.4% | $1.96 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
