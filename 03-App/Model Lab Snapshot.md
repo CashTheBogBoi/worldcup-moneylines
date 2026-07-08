@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T17:28:00.245Z
+Updated: 2026-07-08T18:21:31.547Z
 
 ## Summary
-- Total tracked picks: 49
-- Pending: 3
+- Total tracked picks: 50
+- Pending: 4
 - Graded: 46
 - Wins: 13
 - Losses: 32
@@ -15,7 +15,8 @@ Updated: 2026-07-08T17:28:00.245Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +490 | -0.9 pts | 20.8% | 31% strength model + 69% market no-vig |
+| MLB | New York Mets vs Kansas City Royals | Kansas City Royals | pending | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +475 | -0.5 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
@@ -54,7 +55,6 @@ Updated: 2026-07-08T17:28:00.245Z
 | MLB | Atlanta Braves vs St. Louis Cardinals | Atlanta Braves | win | -250 | -500 | 11.9 pts | 71.7% | Odds API no-vig only |
 | MLB | Milwaukee Brewers vs Cincinnati Reds | Cincinnati Reds | loss | +200 | +180 | 2.4 pts | 35.4% | Odds API no-vig only |
 | MLB | Milwaukee Brewers vs Cincinnati Reds | Milwaukee Brewers | win | -151 | -190 | 5.4 pts | 64.6% | Odds API no-vig only |
-| MLB | Houston Astros vs Minnesota Twins | Houston Astros | loss | +135 | +335 | -19.6 pts | 47.3% | Odds API no-vig only |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,25 +83,32 @@ Updated: 2026-07-08T17:28:00.245Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
+| Passed gate | 25 | 21 | 14.3% | 0.0 pts | 0.180 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
-| Passed gate | 24 | 21 | 14.3% | 0.0 pts | 0.180 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T17:27:58.806Z
-- Current candidates: 42
-- Passed / blocked: 3 / 39
+- Saved: 2026-07-08T18:21:30.731Z
+- Current candidates: 46
+- Passed / blocked: 4 / 42
 
 ### Top Blockers
-- Minimum edge: 39
-- Positive EV: 38
-- Beats consensus: 35
-- Model opinion: 30
-- Model ready: 2
+- Minimum edge: 42
+- Positive EV: 34
+- Beats consensus: 22
+- Model ready: 6
+- DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.3% | $3.11 | Edge under 1.5% — inside vig noise. |
+| Soccer | Morocco | France vs Morocco | Minimum edge | +575 | 15.3% | $3.06 | Edge under 1.5% — inside vig noise. |
+| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Needs starter | +127 | 45.3% | $2.93 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Minimum edge | +116 | 47.5% | $2.70 | Edge under 1.5% — inside vig noise. |
+| MLB | San Francisco Giants | San Francisco Giants vs Toronto Blue Jays | Minimum edge | +115 | 47.6% | $2.44 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Minimum edge | +125 | 44.8% | $0.82 | Edge under 1.5% — inside vig noise. |
+| MLB | Kansas City Royals | New York Mets vs Kansas City Royals | Needs starter | +124 | 45.0% | $0.73 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago Cubs | Baltimore Orioles vs Chicago Cubs | Minimum edge | +112 | 47.2% | $0.16 | Edge under 1.5% — inside vig noise. |
+| MLB | Detroit Tigers | Detroit Tigers vs Athletics | Minimum edge | -129 | 56.3% | $0.01 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
