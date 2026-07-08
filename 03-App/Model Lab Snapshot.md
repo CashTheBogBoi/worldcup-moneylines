@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-07T23:47:11.768Z
+Updated: 2026-07-08T00:07:12.755Z
 
 ## Summary
 - Total tracked picks: 49
@@ -87,16 +87,16 @@ Updated: 2026-07-07T23:47:11.768Z
 | Passed gate | 24 | 18 | 16.7% | 0.1 pts | 0.178 | 0.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-07T23:47:10.853Z
+- Saved: 2026-07-08T00:07:11.839Z
 - Current candidates: 68
 - Passed / blocked: 3 / 65
 
 ### Top Blockers
 - Minimum edge: 56
-- Model ready: 48
+- Model ready: 50
 - Positive EV: 45
 - Beats consensus: 33
-- Pregame: 22
+- Pregame: 24
 - DraftKings line: 2
 
 ### Research Actions
