@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T18:21:31.547Z
+Updated: 2026-07-08T18:28:09.840Z
 
 ## Summary
 - Total tracked picks: 50
@@ -9,8 +9,8 @@ Updated: 2026-07-08T18:21:31.547Z
 - Wins: 13
 - Losses: 32
 - Draws: 1
-- Intel review decisions saved: 22
-- Intel confirmed / denied / pending: 21 / 1 / 0
+- Intel review decisions saved: 25
+- Intel confirmed / denied / pending: 21 / 4 / 0
 
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
@@ -59,6 +59,9 @@ Updated: 2026-07-08T18:21:31.547Z
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
 |---|---:|---:|---|
+| auto-mlb-starter-824496 | denied | 2026-07-08T18:26:22.169Z |  |
+| auto-mlb-no-dk-823605 | denied | 2026-07-08T18:26:15.502Z |  |
+| auto-mlb-no-dk-823360 | denied | 2026-07-08T18:26:07.619Z |  |
 | auto-mlb-no-dk-823930 | confirmed | 2026-07-06T21:15:38.130Z |  |
 | auto-mlb-no-dk-822712 | confirmed | 2026-07-06T21:15:37.213Z |  |
 | auto-mlb-started-824089 | confirmed | 2026-07-06T21:15:36.215Z |  |
@@ -76,9 +79,6 @@ Updated: 2026-07-08T18:21:31.547Z
 | auto-soccer-heavy-fav-a518ac20df8f5c732b881e213ae0c230 | confirmed | 2026-07-02T01:51:52.092Z |  |
 | auto-mlb-starter-824985 | denied | 2026-07-02T01:51:17.610Z | Roki Sasaki starting tonight |
 | auto-mlb-started-824337 | confirmed | 2026-07-02T01:50:01.870Z |  |
-| auto-mlb-started-823767 | confirmed | 2026-07-02T01:50:01.051Z |  |
-| auto-mlb-started-824174 | confirmed | 2026-07-02T01:49:59.515Z |  |
-| auto-mlb-started-824094 | confirmed | 2026-07-02T01:49:57.982Z |  |
 
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
@@ -87,7 +87,7 @@ Updated: 2026-07-08T18:21:31.547Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T18:21:30.731Z
+- Saved: 2026-07-08T18:28:08.035Z
 - Current candidates: 46
 - Passed / blocked: 4 / 42
 
