@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-09T19:30:20.467Z
+Generated: 2026-07-09T19:45:42.973Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,7 +21,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Atlanta Braves at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Kansas City Royals at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — New York Yankees at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Chicago Cubs at Baltimore Orioles: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Cleveland Guardians at Minnesota Twins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -32,12 +31,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Atlanta Braves at Pittsburgh Pirates | In Progress | Bryce Elder | Mitch Keller | 6-5 |
-| Kansas City Royals at New York Mets | In Progress | Michael Wacha | Sean Manaea | 3-7 |
-| New York Yankees at Tampa Bay Rays | In Progress | Paul Blackburn | Drew Rasmussen | 11-4 |
-| Chicago Cubs at Baltimore Orioles | In Progress | David Peterson | Trevor Rogers | 1-1 |
-| Cleveland Guardians at Minnesota Twins | In Progress | Gavin Williams | Bailey Ober | 2-1 |
-| Boston Red Sox at Chicago White Sox | In Progress | Patrick Sandoval | Anthony Kay | 2-0 |
-| Athletics at Detroit Tigers | Scheduled | Jack Perkins | Framber Valdez |  |
+| Kansas City Royals at New York Mets | Final | Michael Wacha | Sean Manaea | 3-7 |
+| New York Yankees at Tampa Bay Rays | In Progress | Paul Blackburn | Drew Rasmussen | 12-4 |
+| Chicago Cubs at Baltimore Orioles | In Progress | David Peterson | Trevor Rogers | 2-1 |
+| Cleveland Guardians at Minnesota Twins | In Progress | Gavin Williams | Bailey Ober | 4-2 |
+| Boston Red Sox at Chicago White Sox | In Progress | Patrick Sandoval | Anthony Kay | 2-1 |
+| Athletics at Detroit Tigers | Pre-Game | José Suarez | Framber Valdez |  |
 | Seattle Mariners at Miami Marlins | Pre-Game | Bryce Miller | Janson Junk | 0-0 |
 | Philadelphia Phillies at Cincinnati Reds | Pre-Game | Jesús Luzardo | Brady Singer |  |
 | Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Logan Henderson | Andre Pallante |  |
@@ -49,16 +48,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:37:41Z | Atlanta Braves -274, Pittsburgh Pirates +201 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:37:41Z | Atlanta Braves -389, Pittsburgh Pirates +272 |
 | New York Yankees at Tampa Bay Rays | 2026-07-09T17:10:21Z | none |
 | Kansas City Royals at New York Mets | 2026-07-09T17:11:00Z | none |
-| Chicago Cubs at Baltimore Orioles | 2026-07-09T17:36:00Z | Baltimore Orioles -120, Chicago Cubs -108 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-09T17:41:00Z | Cleveland Guardians -279, Minnesota Twins +204 |
-| Boston Red Sox at Chicago White Sox | 2026-07-09T18:11:00Z | Boston Red Sox -343, Chicago White Sox +245 |
+| Chicago Cubs at Baltimore Orioles | 2026-07-09T17:36:00Z | Baltimore Orioles +208, Chicago Cubs -284 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-09T17:41:00Z | Cleveland Guardians -660, Minnesota Twins +408 |
+| Boston Red Sox at Chicago White Sox | 2026-07-09T18:11:00Z | Boston Red Sox -256, Chicago White Sox +190 |
 | Athletics at Detroit Tigers | 2026-07-09T22:41:00Z | Athletics +108, Detroit Tigers -131 |
 | Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | Miami Marlins +105, Seattle Mariners -126 |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +135, Philadelphia Phillies -163 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -136, St. Louis Cardinals +113 |
+| Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +139, Philadelphia Phillies -168 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -142, St. Louis Cardinals +118 |
 | Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +113, Texas Rangers -136 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +110, San Diego Padres -132 |
 | Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +109, San Francisco Giants -131 |
