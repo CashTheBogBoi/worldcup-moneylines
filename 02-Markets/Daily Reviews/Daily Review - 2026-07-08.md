@@ -1,70 +1,65 @@
 # Daily Review - 2026-07-08
 
-Generated: 2026-07-08T23:56:03.374Z
+Generated: 2026-07-09T03:51:25.795Z
 
 ## Executive Read
-- Tracked picks reviewed: 4
-- Settled picks: 0
-- Win rate: -
+- Tracked picks reviewed: 5
+- Settled picks: 1
+- Win rate: 0.0%
 - Average CLV: -0.4 pts
 - Beat-close rate: 0.0%
-- Average Brier: -
+- Average Brier: 0.165
 - Staked: $0.00
 - Net P/L: $0.00
 
 ## Best Pick Signal
-- Pick: **Belgium**
-- Match: Spain vs Belgium
-- Sport: Soccer
-- Open: +498 at BetOnline.ag
-- Latest/close: +500 at BetRivers
-- Model probability: 27.3%
-- CLV: -0.1 pts
+- Pick: **Cincinnati Reds**
+- Match: Cincinnati Reds vs Philadelphia Phillies
+- Sport: MLB
+- Open: +147 at BetOnline.ag
+- Latest/close: +147 at BetOnline.ag
+- Model probability: 42.0%
+- CLV: 0.0 pts
 - Result: pending
 
 ## All Tracked Picks
 | Sport | Match | Pick | Result | Open | Latest/Close | CLV | Model % | Brier | Stake | P/L | Notes |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| MLB | New York Mets vs Kansas City Royals | Kansas City Royals | pending | +158 | +158 | 0.0 pts | 40.6% | - | - | - | open BetOnline.ag; latest BetOnline.ag; auto-close |
+| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +147 | +147 | 0.0 pts | 42.0% | - | - | - | open BetOnline.ag; latest BetOnline.ag; auto-close |
+| MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 0.165 | - | $0.00 | open BetOnline.ag; latest BetOnline.ag; auto-graded; auto-close |
 | Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +475 | -0.5 pts | 20.8% | - | - | - | open BetRivers; latest BetRivers; auto-close |
 | Soccer | Spain vs Belgium | Belgium | pending | +498 | +500 | -0.1 pts | 27.3% | - | - | - | open BetOnline.ag; latest BetRivers; auto-close |
-| Soccer | Norway vs England | Norway | pending | +313 | +330 | -1.0 pts | 27.1% | - | - | - | open BetOnline.ag; latest FanDuel; auto-close |
+| Soccer | Norway vs England | Norway | pending | +313 | +336 | -1.3 pts | 27.1% | - | - | - | open BetOnline.ag; latest BetOnline.ag; auto-close |
 
 ## Sport Splits
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Soccer | 3 | 0 | - | -0.5 pts | 0.0% | - | - |
-| MLB | 1 | 0 | - | 0.0 pts | 0.0% | - | - |
+| Soccer | 3 | 0 | - | -0.6 pts | 0.0% | - | - |
+| MLB | 2 | 1 | 0.0% | 0.0 pts | 0.0% | 0.165 | - |
 
 ## Confidence Buckets
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Under 55% | 4 | 0 | - | -0.4 pts | 0.0% | - | - |
+| Under 55% | 5 | 1 | 0.0% | -0.4 pts | 0.0% | 0.165 | - |
 
 ## Ready To Bet Gate Review
 ### Gate Performance
 | Group | Picks | Settled | Win % | Avg CLV | Beat Close | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Passed gate | 4 | 0 | - | -0.4 pts | 0.0% | - | - |
+| Passed gate | 5 | 1 | 0.0% | -0.4 pts | 0.0% | 0.165 | - |
 
 ### Saved Gate Blockers
 _No saved gate blockers on reviewed picks yet._
 
 ## What Went Wrong
-_No settled misses in this review window._
+### Kansas City Royals — New York Mets vs Kansas City Royals
+- Result: loss
+- Model: 40.6% at +158; CLV 0.0 pts
+- MLB miss; check starter confirmation, bullpen fatigue, lineup quality, and line movement before changing base weights.
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** Chicago Cubs at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Athletics at Detroit Tigers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Atlanta Braves at Pittsburgh Pirates — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Seattle Mariners at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** New York Yankees at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Houston Astros at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Kansas City Royals at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Philadelphia Phillies at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Cleveland Guardians at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Boston Red Sox at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Milwaukee Brewers at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Colorado Rockies at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Arizona Diamondbacks at San Diego Padres — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Algorithm Adjustments To Consider
 - Do not increase stake sizing yet: fewer than half of tracked prices beat the close.

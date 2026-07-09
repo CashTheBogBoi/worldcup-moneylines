@@ -1,12 +1,13 @@
-# Auto Grading - 2026-07-08
+# Auto Grading - 2026-07-09
 
-Generated: 2026-07-09T03:51:23.168Z
-Data snapshot: 2026-07-09T03:51:22.371Z
+Generated: 2026-07-09T19:30:21.595Z
+Data snapshot: 2026-07-09T19:30:20.467Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
+- MLB / Miami Marlins vs Seattle Mariners / Miami Marlins (2026-07-09T22:41:00Z)
 - MLB / Cincinnati Reds vs Philadelphia Phillies / Cincinnati Reds (2026-07-09T23:11:00Z)
 - Soccer / Argentina vs Switzerland / Switzerland (2026-07-12T01:00:00Z)
 - Soccer / Spain vs Belgium / Belgium (2026-07-10T19:00:00Z)
