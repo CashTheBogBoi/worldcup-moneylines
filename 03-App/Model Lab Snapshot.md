@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-08T23:57:25.329Z
+Updated: 2026-07-09T00:07:24.326Z
 
 ## Summary
 - Total tracked picks: 51
@@ -15,7 +15,7 @@ Updated: 2026-07-08T23:57:25.329Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +147 | - | - | 42.0% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | pending | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +475 | -0.5 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
@@ -87,32 +87,32 @@ Updated: 2026-07-08T23:57:25.329Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-08T23:57:23.536Z
+- Saved: 2026-07-09T00:07:23.421Z
 - Current candidates: 62
 - Passed / blocked: 4 / 58
 
 ### Top Blockers
-- Minimum edge: 46
+- Minimum edge: 47
 - Positive EV: 37
 - Beats consensus: 30
-- Model ready: 24
-- Pregame: 22
+- Model ready: 26
+- Pregame: 24
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Chicago Cubs | Baltimore Orioles vs Chicago Cubs | Game too stale/live | +375 | 46.3% | $119.70 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | Tampa Bay Rays vs New York Yankees | Game too stale/live | +450 | 23.6% | $29.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cleveland Guardians | Minnesota Twins vs Cleveland Guardians | Game too stale/live | +180 | 43.4% | $21.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Baltimore Orioles | Baltimore Orioles vs Chicago Cubs | Game too stale/live | +124 | 53.7% | $20.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Detroit Tigers vs Athletics | Game too stale/live | +430 | 22.6% | $19.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Miami Marlins vs Seattle Mariners | Game too stale/live | +350 | 26.1% | $17.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | New York Mets vs Kansas City Royals | Game too stale/live | +305 | 27.9% | $13.13 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +350 | 24.7% | $11.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +135 | 45.5% | $6.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +185 | 37.2% | $6.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | -118 | 56.4% | $4.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Minnesota Twins | Minnesota Twins vs Cleveland Guardians | Game too stale/live | -122 | 56.6% | $2.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Washington Nationals vs Houston Astros | Game too stale/live | +950 | 14.6% | $53.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Yankees | Tampa Bay Rays vs New York Yankees | Game too stale/live | +550 | 19.9% | $29.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +145 | 52.7% | $29.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Detroit Tigers vs Athletics | Game too stale/live | +500 | 20.6% | $23.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Miami Marlins vs Seattle Mariners | Game too stale/live | +365 | 25.4% | $18.14 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +182 | 39.8% | $12.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | New York Mets vs Kansas City Royals | Game too stale/live | +265 | 30.3% | $10.43 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Boston Red Sox | Chicago White Sox vs Boston Red Sox | Game too stale/live | +140 | 45.3% | $8.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | -125 | 60.2% | $8.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | -111 | 56.6% | $7.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Baltimore Orioles | Baltimore Orioles vs Chicago Cubs | Game too stale/live | +145 | 43.7% | $7.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Pittsburgh Pirates vs Atlanta Braves | Game too stale/live | +138 | 43.4% | $3.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

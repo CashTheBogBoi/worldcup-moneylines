@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-08
 
-Generated: 2026-07-08T23:55:58.052Z
+Generated: 2026-07-09T00:07:01.933Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -42,12 +42,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Atlanta Braves at Pittsburgh Pirates | In Progress | Grant Holmes | Jared Jones | 0-0 |
 | Seattle Mariners at Miami Marlins | In Progress | George Kirby | Tyler Phillips | 0-2 |
 | New York Yankees at Tampa Bay Rays | In Progress | Gerrit Cole | Shane McClanahan | 0-2 |
-| Houston Astros at Washington Nationals | In Progress | Spencer Arrighetti | Foster Griffin | 0-2 |
+| Houston Astros at Washington Nationals | In Progress | Spencer Arrighetti | Foster Griffin | 1-5 |
 | Kansas City Royals at New York Mets | In Progress | Steven Cruz | Christian Scott | 0-1 |
-| Philadelphia Phillies at Cincinnati Reds | In Progress | Alan Rangel | Chase Burns | 2-0 |
+| Philadelphia Phillies at Cincinnati Reds | In Progress | Alan Rangel | Chase Burns | 2-2 |
 | Cleveland Guardians at Minnesota Twins | In Progress | Slade Cecconi | Connor Prielipp | 0-0 |
 | Boston Red Sox at Chicago White Sox | In Progress | Jake Bennett | Davis Martin | 0-0 |
-| Milwaukee Brewers at St. Louis Cardinals | In Progress | Kyle Harrison | Michael McGreevy | 0-0 |
+| Milwaukee Brewers at St. Louis Cardinals | In Progress | Kyle Harrison | Michael McGreevy | 0-2 |
 | Los Angeles Angels at Texas Rangers | Warmup | Walbert Ureña | MacKenzie Gore | 0-0 |
 | Colorado Rockies at Los Angeles Dodgers | Pre-Game | Gabriel Hughes | Roki Sasaki | 0-0 |
 | Arizona Diamondbacks at San Diego Padres | Pre-Game | Jose Cabrera | Michael King | 0-0 |
@@ -56,18 +56,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles -143, Chicago Cubs +110 |
-| Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +351, Detroit Tigers -534 |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-08T22:41:00Z | Atlanta Braves +125, Pittsburgh Pirates -163 |
-| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | Miami Marlins -511, Seattle Mariners +339 |
-| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees +348, Tampa Bay Rays -529 |
-| Houston Astros at Washington Nationals | 2026-07-08T22:46:00Z | Houston Astros +342, Washington Nationals -516 |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-08T23:11:00Z | Cincinnati Reds +177, Philadelphia Phillies -238 |
-| Kansas City Royals at New York Mets | 2026-07-08T23:11:00Z | Kansas City Royals +281, New York Mets -405 |
-| Boston Red Sox at Chicago White Sox | 2026-07-08T23:41:00Z | Boston Red Sox -105, Chicago White Sox -124 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-08T23:41:00Z | Cleveland Guardians +117, Minnesota Twins -153 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-08T23:46:00Z | Milwaukee Brewers -122, St. Louis Cardinals -105 |
-| Los Angeles Angels at Texas Rangers | 2026-07-09T00:06:00Z | Los Angeles Angels +114, Texas Rangers -138 |
+| Chicago Cubs at Baltimore Orioles | 2026-07-08T22:36:00Z | Baltimore Orioles +114, Chicago Cubs -149 |
+| Athletics at Detroit Tigers | 2026-07-08T22:41:00Z | Athletics +435, Detroit Tigers -720 |
+| Atlanta Braves at Pittsburgh Pirates | 2026-07-08T22:41:00Z | Atlanta Braves +138, Pittsburgh Pirates -181 |
+| Seattle Mariners at Miami Marlins | 2026-07-08T22:41:00Z | Miami Marlins -516, Seattle Mariners +341 |
+| New York Yankees at Tampa Bay Rays | 2026-07-08T22:41:00Z | New York Yankees +475, Tampa Bay Rays -810 |
+| Houston Astros at Washington Nationals | 2026-07-08T22:46:00Z | Houston Astros +720, Washington Nationals -1620 |
+| Philadelphia Phillies at Cincinnati Reds | 2026-07-08T23:11:00Z | Cincinnati Reds -129, Philadelphia Phillies -101 |
+| Kansas City Royals at New York Mets | 2026-07-08T23:11:00Z | Kansas City Royals +239, New York Mets -334 |
+| Boston Red Sox at Chicago White Sox | 2026-07-08T23:41:00Z | Boston Red Sox +100, Chicago White Sox -130 |
+| Cleveland Guardians at Minnesota Twins | 2026-07-08T23:41:00Z | Cleveland Guardians +102, Minnesota Twins -132 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-08T23:46:00Z | Milwaukee Brewers +182, St. Louis Cardinals -234 |
+| Los Angeles Angels at Texas Rangers | 2026-07-09T00:06:00Z | Los Angeles Angels +118, Texas Rangers -154 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-09T02:11:00Z | Arizona Diamondbacks +119, San Diego Padres -144 |
 | Colorado Rockies at Los Angeles Dodgers | 2026-07-09T02:11:00Z | Colorado Rockies +217, Los Angeles Dodgers -271 |
 | Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:36:00Z | Atlanta Braves -118, Pittsburgh Pirates -102 |
