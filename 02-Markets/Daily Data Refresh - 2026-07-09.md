@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-09T22:04:26.203Z
+Generated: 2026-07-09T22:19:56.632Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -33,11 +33,11 @@ _No automated high-priority intel flags from the current snapshot._
 | Cleveland Guardians at Minnesota Twins | Final | Gavin Williams | Bailey Ober | 5-2 |
 | Boston Red Sox at Chicago White Sox | Final | Patrick Sandoval | Anthony Kay | 2-1 |
 | Athletics at Detroit Tigers | Pre-Game | José Suarez | Framber Valdez | 0-0 |
-| Seattle Mariners at Miami Marlins | Pre-Game | Bryce Miller | Janson Junk | 0-0 |
+| Seattle Mariners at Miami Marlins | Warmup | Bryce Miller | Janson Junk | 0-0 |
 | Philadelphia Phillies at Cincinnati Reds | Pre-Game | Jesús Luzardo | Brady Singer | 0-0 |
 | Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Logan Henderson | Andre Pallante | 0-0 |
 | Los Angeles Angels at Texas Rangers | Pre-Game | Reid Detmers | Nathan Eovaldi | 0-0 |
-| Arizona Diamondbacks at San Diego Padres | Pre-Game | Merrill Kelly | Griffin Canning |  |
+| Arizona Diamondbacks at San Diego Padres | Pre-Game | Merrill Kelly | Griffin Canning | 0-0 |
 | Colorado Rockies at San Francisco Giants | Pre-Game | Ryan Feltner | Carson Whisenhunt | 0-0 |
 
 ## DraftKings MLB odds snapshot
@@ -45,7 +45,7 @@ _No automated high-priority intel flags from the current snapshot._
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Athletics at Detroit Tigers | 2026-07-09T22:41:00Z | Athletics +109, Detroit Tigers -132 |
-| Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | Miami Marlins +105, Seattle Mariners -126 |
+| Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | Miami Marlins +108, Seattle Mariners -131 |
 | Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +141, Philadelphia Phillies -171 |
 | Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -136, St. Louis Cardinals +113 |
 | Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +118, Texas Rangers -143 |
@@ -64,7 +64,6 @@ _No automated high-priority intel flags from the current snapshot._
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Morocco at France | 2026-07-09T20:00:00Z | none |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +425, Spain -155, Draw +290 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +310, Draw +270 |
 | Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
