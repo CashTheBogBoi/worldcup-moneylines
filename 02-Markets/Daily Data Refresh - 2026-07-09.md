@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-09T19:45:42.973Z
+Generated: 2026-07-09T22:04:26.203Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,59 +20,51 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Atlanta Braves at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — New York Yankees at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Chicago Cubs at Baltimore Orioles: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Cleveland Guardians at Minnesota Twins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Boston Red Sox at Chicago White Sox: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No automated high-priority intel flags from the current snapshot._
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Atlanta Braves at Pittsburgh Pirates | In Progress | Bryce Elder | Mitch Keller | 6-5 |
+| Atlanta Braves at Pittsburgh Pirates | Final | Bryce Elder | Mitch Keller | 10-5 |
 | Kansas City Royals at New York Mets | Final | Michael Wacha | Sean Manaea | 3-7 |
-| New York Yankees at Tampa Bay Rays | In Progress | Paul Blackburn | Drew Rasmussen | 12-4 |
-| Chicago Cubs at Baltimore Orioles | In Progress | David Peterson | Trevor Rogers | 2-1 |
-| Cleveland Guardians at Minnesota Twins | In Progress | Gavin Williams | Bailey Ober | 4-2 |
-| Boston Red Sox at Chicago White Sox | In Progress | Patrick Sandoval | Anthony Kay | 2-1 |
-| Athletics at Detroit Tigers | Pre-Game | José Suarez | Framber Valdez |  |
+| New York Yankees at Tampa Bay Rays | Final | Paul Blackburn | Drew Rasmussen | 12-4 |
+| Chicago Cubs at Baltimore Orioles | Final | David Peterson | Trevor Rogers | 2-3 |
+| Cleveland Guardians at Minnesota Twins | Final | Gavin Williams | Bailey Ober | 5-2 |
+| Boston Red Sox at Chicago White Sox | Final | Patrick Sandoval | Anthony Kay | 2-1 |
+| Athletics at Detroit Tigers | Pre-Game | José Suarez | Framber Valdez | 0-0 |
 | Seattle Mariners at Miami Marlins | Pre-Game | Bryce Miller | Janson Junk | 0-0 |
-| Philadelphia Phillies at Cincinnati Reds | Pre-Game | Jesús Luzardo | Brady Singer |  |
-| Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Logan Henderson | Andre Pallante |  |
-| Los Angeles Angels at Texas Rangers | Scheduled | Reid Detmers | Nathan Eovaldi |  |
-| Arizona Diamondbacks at San Diego Padres | Scheduled | Merrill Kelly | Griffin Canning |  |
-| Colorado Rockies at San Francisco Giants | Scheduled | Ryan Feltner | Carson Whisenhunt |  |
+| Philadelphia Phillies at Cincinnati Reds | Pre-Game | Jesús Luzardo | Brady Singer | 0-0 |
+| Milwaukee Brewers at St. Louis Cardinals | Pre-Game | Logan Henderson | Andre Pallante | 0-0 |
+| Los Angeles Angels at Texas Rangers | Pre-Game | Reid Detmers | Nathan Eovaldi | 0-0 |
+| Arizona Diamondbacks at San Diego Padres | Pre-Game | Merrill Kelly | Griffin Canning |  |
+| Colorado Rockies at San Francisco Giants | Pre-Game | Ryan Feltner | Carson Whisenhunt | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Atlanta Braves at Pittsburgh Pirates | 2026-07-09T16:37:41Z | Atlanta Braves -389, Pittsburgh Pirates +272 |
-| New York Yankees at Tampa Bay Rays | 2026-07-09T17:10:21Z | none |
-| Kansas City Royals at New York Mets | 2026-07-09T17:11:00Z | none |
-| Chicago Cubs at Baltimore Orioles | 2026-07-09T17:36:00Z | Baltimore Orioles +208, Chicago Cubs -284 |
-| Cleveland Guardians at Minnesota Twins | 2026-07-09T17:41:00Z | Cleveland Guardians -660, Minnesota Twins +408 |
-| Boston Red Sox at Chicago White Sox | 2026-07-09T18:11:00Z | Boston Red Sox -256, Chicago White Sox +190 |
-| Athletics at Detroit Tigers | 2026-07-09T22:41:00Z | Athletics +108, Detroit Tigers -131 |
+| Athletics at Detroit Tigers | 2026-07-09T22:41:00Z | Athletics +109, Detroit Tigers -132 |
 | Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | Miami Marlins +105, Seattle Mariners -126 |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +139, Philadelphia Phillies -168 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -142, St. Louis Cardinals +118 |
-| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +113, Texas Rangers -136 |
+| Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +141, Philadelphia Phillies -171 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -136, St. Louis Cardinals +113 |
+| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +118, Texas Rangers -143 |
 | Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +110, San Diego Padres -132 |
-| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +109, San Francisco Giants -131 |
-| New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | none |
-| Kansas City Royals at Baltimore Orioles | 2026-07-10T23:06:00Z | none |
-| Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | none |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | none |
-| Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | none |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | none |
+| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +109, San Francisco Giants -132 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-10T22:41:00Z | Milwaukee Brewers +113, Pittsburgh Pirates -136 |
+| New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | New York Yankees -163, Washington Nationals +135 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-10T23:06:00Z | Baltimore Orioles -156, Kansas City Royals +129 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | Chicago Cubs -108, Cincinnati Reds -112 |
+| Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -108, Miami Marlins -112 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | Seattle Mariners -108, Tampa Bay Rays -112 |
+| Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +113, New York Mets -136 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | Atlanta Braves -168, St. Louis Cardinals +139 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Morocco at France | 2026-07-09T20:00:00Z | France -170, Morocco +500, Draw +280 |
+| Morocco at France | 2026-07-09T20:00:00Z | none |
 | Belgium at Spain | 2026-07-10T19:00:00Z | Belgium +425, Spain -155, Draw +290 |
 | England at Norway | 2026-07-11T21:00:00Z | England -115, Norway +310, Draw +270 |
 | Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |

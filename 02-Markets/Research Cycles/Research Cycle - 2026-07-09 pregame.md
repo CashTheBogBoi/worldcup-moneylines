@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-09
 
-Generated: 2026-07-09T19:45:46.828Z
-Local time: 3:45 PM
+Generated: 2026-07-09T22:04:20.678Z
+Local time: 6:04 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,21 +13,17 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-09T19:45:42.973Z
-- MLB odds events: 19
+- Snapshot generated: 2026-07-09T22:04:15.264Z
+- MLB odds events: 15
 - Soccer odds events: 4
-- High-impact intel blocks: 5
-- Intel pending / confirmed / denied: 5 / 0 / 0
+- High-impact intel blocks: 0
+- Intel pending / confirmed / denied: 0 / 0 / 0
 - Pending tracked picks: 5
 - Tracked gate status passed / blocked / unknown: 27 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Atlanta Braves at Pittsburgh Pirates — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** New York Yankees at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Chicago Cubs at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Cleveland Guardians at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Boston Red Sox at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No active high-impact blocks in this snapshot._
 
 ## Missing MLB Starters
 _No rows._
@@ -35,26 +31,25 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Athletics at Detroit Tigers | Jul 9, 6:41 PM | 175 | Athletics +108, Detroit Tigers -131 | 11 |
-| Seattle Mariners at Miami Marlins | Jul 9, 6:41 PM | 175 | Miami Marlins +105, Seattle Mariners -126 | 11 |
-| Philadelphia Phillies at Cincinnati Reds | Jul 9, 7:11 PM | 205 | Cincinnati Reds +139, Philadelphia Phillies -168 | 11 |
-| Milwaukee Brewers at St. Louis Cardinals | Jul 9, 7:46 PM | 240 | Milwaukee Brewers -142, St. Louis Cardinals +118 | 11 |
-| Los Angeles Angels at Texas Rangers | Jul 9, 8:06 PM | 260 | Los Angeles Angels +113, Texas Rangers -136 | 11 |
-| Arizona Diamondbacks at San Diego Padres | Jul 9, 9:41 PM | 355 | Arizona Diamondbacks +110, San Diego Padres -132 | 11 |
-| Colorado Rockies at San Francisco Giants | Jul 9, 9:46 PM | 360 | Colorado Rockies +109, San Francisco Giants -131 | 11 |
-| New York Yankees at Washington Nationals | Jul 10, 6:46 PM | 1620 | DK missing | 4 |
-| Kansas City Royals at Baltimore Orioles | Jul 10, 7:06 PM | 1640 | DK missing | 4 |
-| Chicago Cubs at Cincinnati Reds | Jul 10, 7:11 PM | 1645 | DK missing | 4 |
-| Seattle Mariners at Tampa Bay Rays | Jul 10, 7:11 PM | 1645 | DK missing | 4 |
-| Boston Red Sox at New York Mets | Jul 10, 7:16 PM | 1650 | DK missing | 4 |
+| Athletics at Detroit Tigers | Jul 9, 6:41 PM | 37 | Athletics +109, Detroit Tigers -132 | 11 |
+| Seattle Mariners at Miami Marlins | Jul 9, 6:41 PM | 37 | Miami Marlins +105, Seattle Mariners -126 | 11 |
+| Philadelphia Phillies at Cincinnati Reds | Jul 9, 7:11 PM | 67 | Cincinnati Reds +141, Philadelphia Phillies -171 | 11 |
+| Milwaukee Brewers at St. Louis Cardinals | Jul 9, 7:46 PM | 102 | Milwaukee Brewers -136, St. Louis Cardinals +113 | 11 |
+| Los Angeles Angels at Texas Rangers | Jul 9, 8:06 PM | 122 | Los Angeles Angels +118, Texas Rangers -143 | 11 |
+| Arizona Diamondbacks at San Diego Padres | Jul 9, 9:41 PM | 217 | Arizona Diamondbacks +110, San Diego Padres -132 | 11 |
+| Colorado Rockies at San Francisco Giants | Jul 9, 9:46 PM | 222 | Colorado Rockies +109, San Francisco Giants -132 | 11 |
+| Milwaukee Brewers at Pittsburgh Pirates | Jul 10, 6:41 PM | 1477 | Milwaukee Brewers +113, Pittsburgh Pirates -136 | 7 |
+| New York Yankees at Washington Nationals | Jul 10, 6:46 PM | 1482 | New York Yankees -163, Washington Nationals +135 | 7 |
+| Kansas City Royals at Baltimore Orioles | Jul 10, 7:06 PM | 1502 | Baltimore Orioles -156, Kansas City Royals +129 | 7 |
+| Chicago Cubs at Cincinnati Reds | Jul 10, 7:11 PM | 1507 | Chicago Cubs -108, Cincinnati Reds -112 | 7 |
+| Cleveland Guardians at Miami Marlins | Jul 10, 7:11 PM | 1507 | Cleveland Guardians -108, Miami Marlins -112 | 7 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Morocco at France | Jul 9, 4:00 PM | 14 | France -170, Morocco +500, Draw +280 | 10 |
-| Belgium at Spain | Jul 10, 3:00 PM | 1394 | Belgium +425, Spain -155, Draw +290 | 10 |
-| England at Norway | Jul 11, 5:00 PM | 2954 | England -115, Norway +310, Draw +270 | 10 |
-| Switzerland at Argentina | Jul 11, 9:00 PM | 3194 | Argentina -145, Switzerland +450, Draw +255 | 10 |
+| Belgium at Spain | Jul 10, 3:00 PM | 1256 | Belgium +425, Spain -155, Draw +290 | 10 |
+| England at Norway | Jul 11, 5:00 PM | 2816 | England -115, Norway +310, Draw +270 | 10 |
+| Switzerland at Argentina | Jul 11, 9:00 PM | 3056 | Argentina -145, Switzerland +450, Draw +255 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
