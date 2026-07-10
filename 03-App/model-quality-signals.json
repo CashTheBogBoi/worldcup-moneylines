@@ -1,17 +1,17 @@
 {
-  "dateKey": "2026-07-08",
-  "generatedAt": "2026-07-09T03:51:25.975Z",
+  "dateKey": "2026-07-09",
+  "generatedAt": "2026-07-10T03:57:16.473Z",
   "summary": {
     "picks": 5,
-    "settled": 1,
-    "wins": 0,
+    "settled": 2,
+    "wins": 1,
     "misses": 1,
-    "winRate": 0,
+    "winRate": 0.5,
     "excludedFromCalibration": 0,
-    "avgClv": -0.0035977502268497662,
-    "avgBrier": 0.1646351318053535,
-    "modelBrier": 0.2223843496978996,
-    "marketBrier": 0.14731107518574316,
+    "avgClv": -0.0014841947785602105,
+    "avgBrier": 0.22356882952279455,
+    "modelBrier": 0.22374849245118808,
+    "marketBrier": 0.2248926116599339,
     "highConfidenceMisses": 0
   },
   "missPatterns": [
@@ -19,7 +19,7 @@
       "label": "MLB variance/context miss",
       "count": 1,
       "avgClv": 0,
-      "avgBrier": 0.1646351318053535
+      "avgBrier": 0.17681145869190407
     }
   ],
   "recommendations": [

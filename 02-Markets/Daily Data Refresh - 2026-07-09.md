@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-10T02:06:23.174Z
+Generated: 2026-07-10T03:56:50.899Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,8 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Milwaukee Brewers at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Los Angeles Angels at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -38,34 +36,32 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Detroit Tigers | Final | José Suarez | Framber Valdez | 1-4 |
 | Seattle Mariners at Miami Marlins | Final | Bryce Miller | Janson Junk | 4-8 |
 | Philadelphia Phillies at Cincinnati Reds | Final | Jesús Luzardo | Brady Singer | 1-0 |
-| Milwaukee Brewers at St. Louis Cardinals | In Progress | Logan Henderson | Andre Pallante | 7-4 |
-| Los Angeles Angels at Texas Rangers | In Progress | Reid Detmers | Nathan Eovaldi | 2-6 |
-| Arizona Diamondbacks at San Diego Padres | In Progress | Merrill Kelly | Griffin Canning | 0-0 |
-| Colorado Rockies at San Francisco Giants | In Progress | Ryan Feltner | Carson Whisenhunt | 0-1 |
+| Milwaukee Brewers at St. Louis Cardinals | Final | Logan Henderson | Andre Pallante | 8-4 |
+| Los Angeles Angels at Texas Rangers | Final | Reid Detmers | Nathan Eovaldi | 6-7 |
+| Arizona Diamondbacks at San Diego Padres | In Progress | Merrill Kelly | Griffin Canning | 3-1 |
+| Colorado Rockies at San Francisco Giants | In Progress | Ryan Feltner | Carson Whisenhunt | 2-4 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -2600, St. Louis Cardinals +890 |
-| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +650, Texas Rangers -1360 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +124, San Diego Padres -162 |
-| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +214, San Francisco Giants -294 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks -720, San Diego Padres +436 |
+| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +591, San Francisco Giants -1140 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-10T22:41:00Z | Detroit Tigers -126, Philadelphia Phillies +104 |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-10T22:41:00Z | Milwaukee Brewers +114, Pittsburgh Pirates -137 |
-| New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | New York Yankees -163, Washington Nationals +135 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-10T23:06:00Z | Baltimore Orioles -156, Kansas City Royals +129 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-10T22:41:00Z | Milwaukee Brewers +108, Pittsburgh Pirates -131 |
+| New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | New York Yankees -168, Washington Nationals +139 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-10T23:06:00Z | Baltimore Orioles -157, Kansas City Royals +130 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | Chicago Cubs -112, Cincinnati Reds -107 |
-| Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -105, Miami Marlins -114 |
+| Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -102, Miami Marlins -119 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | Seattle Mariners -107, Tampa Bay Rays -112 |
 | Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +113, New York Mets -136 |
-| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +129, Chicago White Sox -156 |
-| Houston Astros at Texas Rangers | 2026-07-11T00:06:00Z | none |
-| Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels +104, Minnesota Twins -126 |
+| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +141, Chicago White Sox -171 |
+| Houston Astros at Texas Rangers | 2026-07-11T00:06:00Z | Houston Astros -136, Texas Rangers +113 |
+| Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels +109, Minnesota Twins -131 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | Atlanta Braves -168, St. Louis Cardinals +139 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | none |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +209, Los Angeles Dodgers -259 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +144, San Francisco Giants -175 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres -115, Toronto Blue Jays -105 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +215, Los Angeles Dodgers -267 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +135, San Francisco Giants -163 |
 
 ## DraftKings Soccer odds snapshot
 
