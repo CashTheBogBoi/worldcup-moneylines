@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "savedAt": "2026-07-10T16:17:44.417Z",
+  "savedAt": "2026-07-10T16:48:53.668Z",
   "modelPicks": [
+    {
+      "id": "model-1783702133606-897328",
+      "match": "New York Mets vs Boston Red Sox",
+      "selection": "Boston Red Sox",
+      "selectionName": "Boston Red Sox",
+      "eventId": "76ab48541c0690199e815574c469d162",
+      "sport": "MLB",
+      "commenceTime": "2026-07-10T23:16:00Z",
+      "openPrice": 131,
+      "closePrice": "",
+      "openBook": "LowVig.ag",
+      "stake": 0,
+      "probability": 0.4517779850635782,
+      "researchProbability": 0.5144925779561056,
+      "marketProbability": 0.43087312076606904,
+      "edge": 0.018877552163145295,
+      "result": "pending",
+      "source": "25% strength model + 75% market no-vig",
+      "readyGateSnapshot": {
+        "ready": true,
+        "status": "Ready with warning",
+        "reasons": [],
+        "warnings": [
+          "DraftKings is worse than best available (+123 vs +131)."
+        ],
+        "checks": [
+          {
+            "label": "Pregame",
+            "ok": true,
+            "detail": "Line is current."
+          },
+          {
+            "label": "Model ready",
+            "ok": true,
+            "detail": "Model inputs are present."
+          },
+          {
+            "label": "Model opinion",
+            "ok": true,
+            "detail": "Model is market-only."
+          },
+          {
+            "label": "Minimum edge",
+            "ok": true,
+            "detail": "Edge under 1.5% — inside vig noise."
+          },
+          {
+            "label": "Beats consensus",
+            "ok": true,
+            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
+          },
+          {
+            "label": "Positive EV",
+            "ok": true,
+            "detail": "No positive EV proxy."
+          },
+          {
+            "label": "Minimum chance",
+            "ok": true,
+            "detail": "Below 0.0% model chance."
+          },
+          {
+            "label": "Intel clear",
+            "ok": true,
+            "detail": "High-impact intel is still attached."
+          },
+          {
+            "label": "DraftKings line",
+            "ok": true,
+            "detail": "DraftKings line is missing for this selection."
+          }
+        ],
+        "draftKingsPrice": 123,
+        "draftKingsBook": "DraftKings"
+      },
+      "readyGateTrackedAt": "2026-07-10T16:48:53.606Z",
+      "autoTracked": true,
+      "priceHistory": [
+        {
+          "at": "2026-07-10T16:48:53.606Z",
+          "price": 131,
+          "book": "LowVig.ag",
+          "source": "open"
+        }
+      ],
+      "note": ""
+    },
     {
       "id": "model-1783699477488-664222",
       "match": "Texas Rangers vs Houston Astros",
@@ -89,7 +176,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-10T16:17:44.385Z",
+      "closedAt": "2026-07-10T16:48:53.556Z",
       "autoClosed": true
     },
     {
@@ -599,7 +686,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:17:44.385Z",
+      "closedAt": "2026-07-10T16:48:53.556Z",
       "autoClosed": true
     },
     {
@@ -988,7 +1075,7 @@
       "sport": "Soccer",
       "commenceTime": "2026-07-10T19:00:00Z",
       "openPrice": 498,
-      "closePrice": 510,
+      "closePrice": 524,
       "openBook": "BetOnline.ag",
       "stake": 0,
       "probability": 0.27306511745299955,
@@ -1134,11 +1221,23 @@
           "price": 510,
           "book": "BetOnline.ag",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-10T16:30:54.389Z",
+          "price": 518,
+          "book": "BetOnline.ag",
+          "source": "pre-start"
+        },
+        {
+          "at": "2026-07-10T16:48:53.556Z",
+          "price": 524,
+          "book": "BetOnline.ag",
+          "source": "pre-start"
         }
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:17:44.385Z",
+      "closedAt": "2026-07-10T16:48:53.556Z",
       "autoClosed": true
     },
     {
@@ -1765,7 +1864,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:17:44.385Z",
+      "closedAt": "2026-07-10T16:48:53.556Z",
       "autoClosed": true
     },
     {
@@ -5377,18 +5476,18 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-10T16:17:44.406Z",
+    "savedAt": "2026-07-10T16:48:53.658Z",
     "totalCandidates": 39,
-    "passed": 4,
-    "blocked": 35,
+    "passed": 5,
+    "blocked": 34,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 35
+        "count": 34
       },
       {
         "label": "Positive EV",
-        "count": 28
+        "count": 29
       },
       {
         "label": "Beats consensus",
@@ -5437,39 +5536,13 @@
       },
       {
         "sport": "MLB",
-        "match": "New York Mets vs Boston Red Sox",
-        "selection": "Boston Red Sox",
-        "book": "LowVig.ag",
-        "price": 120,
-        "probability": 0.46333632248661194,
-        "ev": 1.9339909470546317,
-        "edge": 0.00879086794115741,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
         "match": "Pittsburgh Pirates vs Milwaukee Brewers",
         "selection": "Milwaukee Brewers",
         "book": "BetUS",
         "price": 109,
-        "probability": 0.4862265066879427,
-        "ev": 1.6213398977800395,
-        "edge": 0.007757607166411606,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Minnesota Twins vs Los Angeles Angels",
-        "selection": "Los Angeles Angels",
-        "book": "MyBookie.ag",
-        "price": 136,
-        "probability": 0.42826443888008325,
-        "ev": 1.0704075756996474,
-        "edge": 0.0045356253207612385,
+        "probability": 0.48592891130414034,
+        "ev": 1.5591424625653332,
+        "edge": 0.007460011782609244,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -5491,6 +5564,219 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783702133555",
+      "at": "2026-07-10T16:48:53.555Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Spain vs Belgium",
+          "commenceTime": "2026-07-10T19:00:00Z",
+          "best": [
+            {
+              "name": "Spain",
+              "price": -163,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 302,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Belgium",
+              "price": 524,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:00:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": 330,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "Fanatics"
+            },
+            {
+              "name": "England",
+              "price": -110,
+              "book": "BetMGM"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -143,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 260,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapshot-1783701175371",
+      "at": "2026-07-10T16:32:55.371Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Spain vs Belgium",
+          "commenceTime": "2026-07-10T19:00:00Z",
+          "best": [
+            {
+              "name": "Spain",
+              "price": -163,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 303,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Belgium",
+              "price": 518,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:00:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": 330,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "Fanatics"
+            },
+            {
+              "name": "England",
+              "price": -110,
+              "book": "BetMGM"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -143,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 260,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapshot-1783701054388",
+      "at": "2026-07-10T16:30:54.388Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Spain vs Belgium",
+          "commenceTime": "2026-07-10T19:00:00Z",
+          "best": [
+            {
+              "name": "Spain",
+              "price": -163,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 303,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Belgium",
+              "price": 518,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:00:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": 330,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "Fanatics"
+            },
+            {
+              "name": "England",
+              "price": -110,
+              "book": "BetMGM"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -143,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 260,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783700264385",
       "at": "2026-07-10T16:17:44.385Z",
@@ -7739,282 +8025,6 @@
     {
       "id": "snapshot-1783539385694",
       "at": "2026-07-08T19:36:25.694Z",
-      "source": "live",
-      "eventCount": 4,
-      "lines": [
-        {
-          "match": "France vs Morocco",
-          "commenceTime": "2026-07-09T20:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -171,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Morocco",
-              "price": 590,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Spain vs Belgium",
-          "commenceTime": "2026-07-10T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -157,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Belgium",
-              "price": 500,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 330,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "Fanatics"
-            },
-            {
-              "name": "England",
-              "price": -114,
-              "book": "Bovada"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -139,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 260,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 475,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783539325608",
-      "at": "2026-07-08T19:35:25.608Z",
-      "source": "live",
-      "eventCount": 4,
-      "lines": [
-        {
-          "match": "France vs Morocco",
-          "commenceTime": "2026-07-09T20:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -171,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Morocco",
-              "price": 590,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Spain vs Belgium",
-          "commenceTime": "2026-07-10T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -157,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Belgium",
-              "price": 500,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 330,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "Fanatics"
-            },
-            {
-              "name": "England",
-              "price": -114,
-              "book": "Bovada"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -139,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 260,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 475,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783539265776",
-      "at": "2026-07-08T19:34:25.776Z",
-      "source": "live",
-      "eventCount": 4,
-      "lines": [
-        {
-          "match": "France vs Morocco",
-          "commenceTime": "2026-07-09T20:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -171,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Morocco",
-              "price": 590,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Spain vs Belgium",
-          "commenceTime": "2026-07-10T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -157,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Belgium",
-              "price": 500,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 330,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "Fanatics"
-            },
-            {
-              "name": "England",
-              "price": -114,
-              "book": "Bovada"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -139,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 260,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 475,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783539205712",
-      "at": "2026-07-08T19:33:25.712Z",
       "source": "live",
       "eventCount": 4,
       "lines": [

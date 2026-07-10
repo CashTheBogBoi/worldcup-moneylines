@@ -1,19 +1,19 @@
-# Research Cycle - Morning slate build - 2026-07-10
+# Research Cycle - Pregame confirmation - 2026-07-10
 
-Generated: 2026-07-10T16:47:44.783Z
+Generated: 2026-07-10T16:47:51.334Z
 Local time: 12:47 PM
 
 ## Goal
-Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
+Confirm the first wave before anything becomes live-market contaminated.
 
 ## Checklist
-- [ ] Refresh the local snapshot.
-- [ ] Find missing MLB starters and any DraftKings gaps.
-- [ ] Mark high-risk soccer favorites and short draw prices.
-- [ ] Only track candidates that are pregame and model-ready.
+- [ ] Re-check starters, lineups, and stale odds.
+- [ ] Block picks where DraftKings is missing or materially worse than best market.
+- [ ] Track only before scheduled start.
+- [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-10T16:47:41.080Z
+- Snapshot generated: 2026-07-10T16:47:48.474Z
 - MLB odds events: 15
 - Soccer odds events: 3
 - High-impact intel blocks: 0

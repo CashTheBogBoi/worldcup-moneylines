@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-10T16:17:19.715Z
+Generated: 2026-07-10T16:47:48.474Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -53,10 +53,10 @@ _No automated high-priority intel flags from the current snapshot._
 | Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | Chicago Cubs -114, Cincinnati Reds -105 |
 | Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians +101, Miami Marlins -122 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | Seattle Mariners -102, Tampa Bay Rays -118 |
-| Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +114, New York Mets -137 |
-| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +139, Chicago White Sox -168 |
+| Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +123, New York Mets -148 |
+| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +130, Chicago White Sox -157 |
 | Houston Astros at Texas Rangers | 2026-07-11T00:06:00Z | Houston Astros -143, Texas Rangers +119 |
-| Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels +124, Minnesota Twins -150 |
+| Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels +124, Minnesota Twins -149 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | Atlanta Braves -168, St. Louis Cardinals +139 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres -125, Toronto Blue Jays +104 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +215, Los Angeles Dodgers -267 |
