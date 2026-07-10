@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-10T16:47:48.474Z
+Generated: 2026-07-10T17:03:02.693Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -60,7 +60,7 @@ _No automated high-priority intel flags from the current snapshot._
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | Atlanta Braves -168, St. Louis Cardinals +139 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres -125, Toronto Blue Jays +104 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +215, Los Angeles Dodgers -267 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +128, San Francisco Giants -155 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +129, San Francisco Giants -156 |
 
 ## DraftKings Soccer odds snapshot
 

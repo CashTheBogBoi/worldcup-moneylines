@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-10T16:53:11.806Z
+Updated: 2026-07-10T17:04:52.082Z
 
 ## Summary
 - Total tracked picks: 54
@@ -87,7 +87,7 @@ Updated: 2026-07-10T16:53:11.806Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-10T16:53:10.647Z
+- Saved: 2026-07-10T17:04:51.255Z
 - Current candidates: 39
 - Passed / blocked: 5 / 34
 
@@ -99,11 +99,11 @@ Updated: 2026-07-10T16:53:11.806Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Minimum edge | +141 | 42.8% | $3.08 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Minimum edge | +141 | 42.8% | $3.06 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +220 | 32.0% | $2.33 | Edge under 1.5% — inside vig noise. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +142 | 42.2% | $2.09 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +109 | 48.6% | $1.56 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +135 | 42.7% | $0.37 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +109 | 48.6% | $1.59 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +135 | 42.7% | $0.34 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
