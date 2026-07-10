@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-10T01:44:52.234Z
+Updated: 2026-07-10T01:52:30.563Z
 
 ## Summary
 - Total tracked picks: 52
@@ -87,32 +87,32 @@ Updated: 2026-07-10T01:44:52.234Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-10T01:44:51.394Z
-- Current candidates: 51
-- Passed / blocked: 3 / 48
+- Saved: 2026-07-10T01:52:29.515Z
+- Current candidates: 47
+- Passed / blocked: 3 / 44
 
 ### Top Blockers
-- Minimum edge: 43
-- Model ready: 40
-- Positive EV: 35
-- Beats consensus: 25
-- Pregame: 10
+- Minimum edge: 41
+- Model ready: 38
+- Positive EV: 31
+- Beats consensus: 23
+- Pregame: 8
 - DraftKings line: 6
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Seattle Mariners | Miami Marlins vs Seattle Mariners | Game too stale/live | +3300 | 8.9% | $202.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Texas Rangers vs Los Angeles Angels | Game too stale/live | +1700 | 11.7% | $110.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +650 | 22.8% | $70.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1060 | 13.8% | $60.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | -285 | 77.2% | $4.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Texas Rangers vs Los Angeles Angels | Game too stale/live | +2200 | 10.3% | $138.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +850 | 15.9% | $51.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | -120 | 56.6% | $3.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +137 | 43.4% | $2.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Washington Nationals | Washington Nationals vs New York Yankees | Needs starter | +142 | 42.4% | $2.65 | Confirm probable starters or use the manual starter override. |
 | MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Needs starter | +149 | 41.2% | $2.51 | Confirm probable starters or use the manual starter override. |
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Needs starter | +220 | 32.0% | $2.44 | Confirm probable starters or use the manual starter override. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Needs starter | +142 | 42.3% | $2.33 | Confirm probable starters or use the manual starter override. |
 | MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs starter | +116 | 47.2% | $1.97 | Confirm probable starters or use the manual starter override. |
 | MLB | Texas Rangers | Texas Rangers vs Houston Astros | Needs starter | +114 | 47.6% | $1.88 | Confirm probable starters or use the manual starter override. |
+| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +130 | 44.1% | $1.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +117 | 46.7% | $1.26 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow

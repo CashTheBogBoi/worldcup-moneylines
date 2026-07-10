@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-10T01:35:25.261Z
+Generated: 2026-07-10T01:50:53.462Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,10 +20,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Seattle Mariners at Miami Marlins: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Philadelphia Phillies at Cincinnati Reds: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Milwaukee Brewers at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Los Angeles Angels at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Arizona Diamondbacks at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## MLB probable pitchers
 
@@ -36,29 +36,27 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cleveland Guardians at Minnesota Twins | Final | Gavin Williams | Bailey Ober | 5-2 |
 | Boston Red Sox at Chicago White Sox | Final | Patrick Sandoval | Anthony Kay | 2-1 |
 | Athletics at Detroit Tigers | Final | José Suarez | Framber Valdez | 1-4 |
-| Seattle Mariners at Miami Marlins | Game Over | Bryce Miller | Janson Junk | 4-8 |
-| Philadelphia Phillies at Cincinnati Reds | Game Over | Jesús Luzardo | Brady Singer | 1-0 |
-| Milwaukee Brewers at St. Louis Cardinals | In Progress | Logan Henderson | Andre Pallante | 6-1 |
+| Seattle Mariners at Miami Marlins | Final | Bryce Miller | Janson Junk | 4-8 |
+| Philadelphia Phillies at Cincinnati Reds | Final | Jesús Luzardo | Brady Singer | 1-0 |
+| Milwaukee Brewers at St. Louis Cardinals | In Progress | Logan Henderson | Andre Pallante | 7-4 |
 | Los Angeles Angels at Texas Rangers | In Progress | Reid Detmers | Nathan Eovaldi | 1-5 |
-| Arizona Diamondbacks at San Diego Padres | Warmup | Merrill Kelly | Griffin Canning | 0-0 |
-| Colorado Rockies at San Francisco Giants | Warmup | Ryan Feltner | Carson Whisenhunt | 0-0 |
+| Arizona Diamondbacks at San Diego Padres | In Progress | Merrill Kelly | Griffin Canning | 0-0 |
+| Colorado Rockies at San Francisco Giants | In Progress | Ryan Feltner | Carson Whisenhunt | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Seattle Mariners at Miami Marlins | 2026-07-09T22:41:00Z | none |
-| Philadelphia Phillies at Cincinnati Reds | 2026-07-09T23:11:00Z | Cincinnati Reds +486, Philadelphia Phillies -840 |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -2500, St. Louis Cardinals +870 |
-| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +1140, Texas Rangers -5900 |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +108, San Diego Padres -131 |
-| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +109, San Francisco Giants -132 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -1180, St. Louis Cardinals +600 |
+| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | none |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +127, San Diego Padres -167 |
+| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +137, San Francisco Giants -180 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-10T22:41:00Z | Detroit Tigers -126, Philadelphia Phillies +104 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-10T22:41:00Z | Milwaukee Brewers +114, Pittsburgh Pirates -137 |
 | New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | New York Yankees -163, Washington Nationals +135 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-10T23:06:00Z | Baltimore Orioles -156, Kansas City Royals +129 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | Chicago Cubs -110, Cincinnati Reds -110 |
-| Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -108, Miami Marlins -112 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-10T23:11:00Z | Chicago Cubs -112, Cincinnati Reds -107 |
+| Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -105, Miami Marlins -114 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | Seattle Mariners -107, Tampa Bay Rays -112 |
 | Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +113, New York Mets -136 |
 | Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +123, Chicago White Sox -149 |
