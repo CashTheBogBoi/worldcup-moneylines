@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-09T22:20:12.449Z
+Updated: 2026-07-10T01:44:52.234Z
 
 ## Summary
 - Total tracked picks: 52
-- Pending: 5
-- Graded: 47
-- Wins: 13
-- Losses: 33
+- Pending: 3
+- Graded: 49
+- Wins: 14
+- Losses: 34
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -15,14 +15,14 @@ Updated: 2026-07-09T22:20:12.449Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | pending | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
-| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | pending | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
+| MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +500 | -1.2 pts | 20.8% | 31% strength model + 69% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +510 | -1.5 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
-| Soccer | Spain vs Belgium | Belgium | pending | +498 | +475 | 0.7 pts | 27.3% | 38% strength model + 62% market no-vig |
+| Soccer | Spain vs Belgium | Belgium | pending | +498 | +470 | 0.8 pts | 27.3% | 38% strength model + 62% market no-vig |
 | Soccer | Argentina vs Egypt | Draw | loss | +410 | +400 | 0.4 pts | 21.2% | 38% strength model + 62% market no-vig |
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
@@ -83,32 +83,37 @@ Updated: 2026-07-09T22:20:12.449Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 27 | 22 | 13.6% | 0.1 pts | 0.179 | 0.0% |
+| Passed gate | 27 | 24 | 16.7% | 0.1 pts | 0.183 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-09T22:20:11.401Z
-- Current candidates: 39
-- Passed / blocked: 4 / 35
+- Saved: 2026-07-10T01:44:51.394Z
+- Current candidates: 51
+- Passed / blocked: 3 / 48
 
 ### Top Blockers
-- Minimum edge: 35
-- Positive EV: 26
-- Beats consensus: 19
-- Model ready: 16
+- Minimum edge: 43
+- Model ready: 40
+- Positive EV: 35
+- Beats consensus: 25
+- Pregame: 10
+- DraftKings line: 6
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs starter | +120 | 46.9% | $3.28 | Confirm probable starters or use the manual starter override. |
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Needs starter | +142 | 42.6% | $3.04 | Confirm probable starters or use the manual starter override. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Needs starter | +142 | 42.2% | $2.19 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Miami Marlins vs Seattle Mariners | Minimum edge | +114 | 47.6% | $1.93 | Edge under 1.5% — inside vig noise. |
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +116 | 46.7% | $0.81 | Confirm probable starters or use the manual starter override. |
-| MLB | Detroit Tigers | Detroit Tigers vs Athletics | Minimum edge | -122 | 55.2% | $0.44 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Needs starter | -108 | 52.0% | $0.14 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago Cubs | Cincinnati Reds vs Chicago Cubs | Needs starter | -102 | 50.5% | $0.10 | Confirm probable starters or use the manual starter override. |
-| MLB | Milwaukee Brewers | St. Louis Cardinals vs Milwaukee Brewers | Minimum edge | -121 | 54.8% | $0.06 | Edge under 1.5% — inside vig noise. |
+| MLB | Seattle Mariners | Miami Marlins vs Seattle Mariners | Game too stale/live | +3300 | 8.9% | $202.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Texas Rangers vs Los Angeles Angels | Game too stale/live | +1700 | 11.7% | $110.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | +650 | 22.8% | $70.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1060 | 13.8% | $60.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Philadelphia Phillies | Cincinnati Reds vs Philadelphia Phillies | Game too stale/live | -285 | 77.2% | $4.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Needs starter | +142 | 42.4% | $2.65 | Confirm probable starters or use the manual starter override. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Needs starter | +149 | 41.2% | $2.51 | Confirm probable starters or use the manual starter override. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Needs starter | +220 | 32.0% | $2.44 | Confirm probable starters or use the manual starter override. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Needs starter | +142 | 42.3% | $2.33 | Confirm probable starters or use the manual starter override. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs starter | +116 | 47.2% | $1.97 | Confirm probable starters or use the manual starter override. |
+| MLB | Texas Rangers | Texas Rangers vs Houston Astros | Needs starter | +114 | 47.6% | $1.88 | Confirm probable starters or use the manual starter override. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +117 | 46.7% | $1.26 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
