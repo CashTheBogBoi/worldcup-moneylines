@@ -1,19 +1,19 @@
-# Research Cycle - Morning slate build - 2026-07-10
+# Research Cycle - Next-wave check - 2026-07-10
 
-Generated: 2026-07-10T23:35:17.071Z
+Generated: 2026-07-10T23:35:33.231Z
 Local time: 7:35 PM
 
 ## Goal
-Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
+Re-rank the later games after the early market has moved.
 
 ## Checklist
-- [ ] Refresh the local snapshot.
-- [ ] Find missing MLB starters and any DraftKings gaps.
-- [ ] Mark high-risk soccer favorites and short draw prices.
-- [ ] Only track candidates that are pregame and model-ready.
+- [ ] Refresh odds and compare against tracked opens.
+- [ ] Promote only picks with clean CLV or unresolved fair value.
+- [ ] Resolve new high-impact intel before staking.
+- [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-10T23:35:10.413Z
+- Snapshot generated: 2026-07-10T23:35:29.001Z
 - MLB odds events: 29
 - Soccer odds events: 3
 - High-impact intel blocks: 7
@@ -27,7 +27,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - **MLB / Market move / pending:** Milwaukee Brewers at Pittsburgh Pirates — Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Kansas City Royals at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Seattle Mariners at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Cleveland Guardians at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
