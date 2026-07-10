@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-10T16:04:38.346Z
+Updated: 2026-07-10T16:17:45.229Z
 
 ## Summary
 - Total tracked picks: 53
@@ -15,7 +15,7 @@ Updated: 2026-07-10T16:04:38.346Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Texas Rangers vs Houston Astros | Texas Rangers | pending | +122 | - | - | 46.7% | 25% strength model + 75% market no-vig |
+| MLB | Texas Rangers vs Houston Astros | Texas Rangers | pending | +122 | +122 | 0.0 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
@@ -87,23 +87,24 @@ Updated: 2026-07-10T16:04:38.346Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-10T16:04:37.498Z
+- Saved: 2026-07-10T16:17:44.406Z
 - Current candidates: 39
 - Passed / blocked: 4 / 35
 
 ### Top Blockers
 - Minimum edge: 35
-- Positive EV: 29
+- Positive EV: 28
 - Beats consensus: 19
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Minimum edge | +141 | 42.8% | $3.11 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Minimum edge | +141 | 42.8% | $3.08 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +220 | 32.0% | $2.33 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +142 | 42.2% | $2.02 | Edge under 1.5% — inside vig noise. |
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Minimum edge | +120 | 46.3% | $1.95 | Edge under 1.5% — inside vig noise. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +142 | 42.2% | $2.09 | Edge under 1.5% — inside vig noise. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Minimum edge | +120 | 46.3% | $1.93 | Edge under 1.5% — inside vig noise. |
 | MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +109 | 48.6% | $1.62 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +136 | 42.8% | $1.07 | Edge under 1.5% — inside vig noise. |
 | MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +135 | 42.7% | $0.37 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow

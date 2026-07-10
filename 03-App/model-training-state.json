@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-10T16:04:37.509Z",
+  "savedAt": "2026-07-10T16:17:44.417Z",
   "modelPicks": [
     {
       "id": "model-1783699477488-664222",
@@ -11,7 +11,7 @@
       "sport": "MLB",
       "commenceTime": "2026-07-11T00:06:00Z",
       "openPrice": 122,
-      "closePrice": "",
+      "closePrice": 122,
       "openBook": "LowVig.ag",
       "stake": 0,
       "probability": 0.46749034642801723,
@@ -87,7 +87,10 @@
           "source": "open"
         }
       ],
-      "note": ""
+      "note": "",
+      "closeBook": "LowVig.ag",
+      "closedAt": "2026-07-10T16:17:44.385Z",
+      "autoClosed": true
     },
     {
       "id": "model-1783625403592-844604",
@@ -596,7 +599,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:04:37.416Z",
+      "closedAt": "2026-07-10T16:17:44.385Z",
       "autoClosed": true
     },
     {
@@ -1135,7 +1138,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:04:37.416Z",
+      "closedAt": "2026-07-10T16:17:44.385Z",
       "autoClosed": true
     },
     {
@@ -1762,7 +1765,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-10T16:04:37.416Z",
+      "closedAt": "2026-07-10T16:17:44.385Z",
       "autoClosed": true
     },
     {
@@ -5374,7 +5377,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-10T16:04:37.498Z",
+    "savedAt": "2026-07-10T16:17:44.406Z",
     "totalCandidates": 39,
     "passed": 4,
     "blocked": 35,
@@ -5385,7 +5388,7 @@
       },
       {
         "label": "Positive EV",
-        "count": 29
+        "count": 28
       },
       {
         "label": "Beats consensus",
@@ -5399,9 +5402,9 @@
         "selection": "Washington Nationals",
         "book": "LowVig.ag",
         "price": 141,
-        "probability": 0.42784267100972284,
-        "ev": 3.110083713343208,
-        "edge": 0.012904911673623232,
+        "probability": 0.4277304396362148,
+        "ev": 3.0830359523277693,
+        "edge": 0.012792680300115211,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -5425,9 +5428,9 @@
         "selection": "St. Louis Cardinals",
         "book": "BetOnline.ag",
         "price": 142,
-        "probability": 0.4215607402389376,
-        "ev": 2.017699137822902,
-        "edge": 0.008337599743069801,
+        "probability": 0.42187961972110366,
+        "ev": 2.094867972507082,
+        "edge": 0.00865647922523588,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -5438,9 +5441,9 @@
         "selection": "Boston Red Sox",
         "book": "LowVig.ag",
         "price": 120,
-        "probability": 0.4634136472583122,
-        "ev": 1.9510023968286774,
-        "edge": 0.008868192712857659,
+        "probability": 0.46333632248661194,
+        "ev": 1.9339909470546317,
+        "edge": 0.00879086794115741,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -5454,6 +5457,19 @@
         "probability": 0.4862265066879427,
         "ev": 1.6213398977800395,
         "edge": 0.007757607166411606,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "Minnesota Twins vs Los Angeles Angels",
+        "selection": "Los Angeles Angels",
+        "book": "MyBookie.ag",
+        "price": 136,
+        "probability": 0.42826443888008325,
+        "ev": 1.0704075756996474,
+        "edge": 0.0045356253207612385,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -5475,6 +5491,77 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783700264385",
+      "at": "2026-07-10T16:17:44.385Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Spain vs Belgium",
+          "commenceTime": "2026-07-10T19:00:00Z",
+          "best": [
+            {
+              "name": "Spain",
+              "price": -162,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 303,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Belgium",
+              "price": 510,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:00:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": 330,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "Fanatics"
+            },
+            {
+              "name": "England",
+              "price": -110,
+              "book": "BetMGM"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -143,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 260,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783699477416",
       "at": "2026-07-10T16:04:37.416Z",
@@ -7928,98 +8015,6 @@
     {
       "id": "snapshot-1783539205712",
       "at": "2026-07-08T19:33:25.712Z",
-      "source": "live",
-      "eventCount": 4,
-      "lines": [
-        {
-          "match": "France vs Morocco",
-          "commenceTime": "2026-07-09T20:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -171,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Morocco",
-              "price": 590,
-              "book": "BetUS"
-            }
-          ]
-        },
-        {
-          "match": "Spain vs Belgium",
-          "commenceTime": "2026-07-10T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -157,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Belgium",
-              "price": 500,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 330,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "Fanatics"
-            },
-            {
-              "name": "England",
-              "price": -114,
-              "book": "Bovada"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -139,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 260,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 475,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783539145677",
-      "at": "2026-07-08T19:32:25.677Z",
       "source": "live",
       "eventCount": 4,
       "lines": [
