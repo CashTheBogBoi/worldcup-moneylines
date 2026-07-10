@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-10T01:52:30.563Z
+Updated: 2026-07-10T02:07:10.360Z
 
 ## Summary
 - Total tracked picks: 52
@@ -87,33 +87,33 @@ Updated: 2026-07-10T01:52:30.563Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-10T01:52:29.515Z
+- Saved: 2026-07-10T02:07:09.498Z
 - Current candidates: 47
 - Passed / blocked: 3 / 44
 
 ### Top Blockers
 - Minimum edge: 41
 - Model ready: 38
-- Positive EV: 31
+- Positive EV: 32
 - Beats consensus: 23
 - Pregame: 8
-- DraftKings line: 6
+- DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Angels | Texas Rangers vs Los Angeles Angels | Game too stale/live | +2200 | 10.3% | $138.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +850 | 15.9% | $51.11 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | -120 | 56.6% | $3.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +137 | 43.4% | $2.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Texas Rangers vs Los Angeles Angels | Game too stale/live | +1300 | 15.1% | $111.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Milwaukee Brewers | Game too stale/live | +1100 | 13.4% | $60.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +214 | 33.8% | $6.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Needs starter | +219 | 32.3% | $2.90 | Confirm probable starters or use the manual starter override. |
 | MLB | Washington Nationals | Washington Nationals vs New York Yankees | Needs starter | +142 | 42.4% | $2.65 | Confirm probable starters or use the manual starter override. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Needs starter | +149 | 41.2% | $2.51 | Confirm probable starters or use the manual starter override. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Needs starter | +220 | 32.0% | $2.44 | Confirm probable starters or use the manual starter override. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Needs starter | +149 | 41.1% | $2.38 | Confirm probable starters or use the manual starter override. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Needs starter | +142 | 42.3% | $2.33 | Confirm probable starters or use the manual starter override. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs starter | +116 | 47.2% | $1.97 | Confirm probable starters or use the manual starter override. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs starter | +116 | 47.2% | $2.00 | Confirm probable starters or use the manual starter override. |
 | MLB | Texas Rangers | Texas Rangers vs Houston Astros | Needs starter | +114 | 47.6% | $1.88 | Confirm probable starters or use the manual starter override. |
-| MLB | Arizona Diamondbacks | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | +130 | 44.1% | $1.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +117 | 46.7% | $1.26 | Confirm probable starters or use the manual starter override. |
+| MLB | San Diego Padres | San Diego Padres vs Arizona Diamondbacks | Game too stale/live | -133 | 57.6% | $0.90 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Tampa Bay Rays | Tampa Bay Rays vs Seattle Mariners | Needs starter | -106 | 51.5% | $0.12 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

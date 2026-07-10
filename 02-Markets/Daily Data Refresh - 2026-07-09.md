@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-09
 
-Generated: 2026-07-10T01:50:53.462Z
+Generated: 2026-07-10T02:06:23.174Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -39,18 +39,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Miami Marlins | Final | Bryce Miller | Janson Junk | 4-8 |
 | Philadelphia Phillies at Cincinnati Reds | Final | Jesús Luzardo | Brady Singer | 1-0 |
 | Milwaukee Brewers at St. Louis Cardinals | In Progress | Logan Henderson | Andre Pallante | 7-4 |
-| Los Angeles Angels at Texas Rangers | In Progress | Reid Detmers | Nathan Eovaldi | 1-5 |
+| Los Angeles Angels at Texas Rangers | In Progress | Reid Detmers | Nathan Eovaldi | 2-6 |
 | Arizona Diamondbacks at San Diego Padres | In Progress | Merrill Kelly | Griffin Canning | 0-0 |
-| Colorado Rockies at San Francisco Giants | In Progress | Ryan Feltner | Carson Whisenhunt | 0-0 |
+| Colorado Rockies at San Francisco Giants | In Progress | Ryan Feltner | Carson Whisenhunt | 0-1 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -1180, St. Louis Cardinals +600 |
-| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | none |
-| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +127, San Diego Padres -167 |
-| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +137, San Francisco Giants -180 |
+| Milwaukee Brewers at St. Louis Cardinals | 2026-07-09T23:46:00Z | Milwaukee Brewers -2600, St. Louis Cardinals +890 |
+| Los Angeles Angels at Texas Rangers | 2026-07-10T00:06:00Z | Los Angeles Angels +650, Texas Rangers -1360 |
+| Arizona Diamondbacks at San Diego Padres | 2026-07-10T01:41:00Z | Arizona Diamondbacks +124, San Diego Padres -162 |
+| Colorado Rockies at San Francisco Giants | 2026-07-10T01:46:00Z | Colorado Rockies +214, San Francisco Giants -294 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-10T22:41:00Z | Detroit Tigers -126, Philadelphia Phillies +104 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-10T22:41:00Z | Milwaukee Brewers +114, Pittsburgh Pirates -137 |
 | New York Yankees at Washington Nationals | 2026-07-10T22:46:00Z | New York Yankees -163, Washington Nationals +135 |
@@ -59,7 +59,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cleveland Guardians at Miami Marlins | 2026-07-10T23:11:00Z | Cleveland Guardians -105, Miami Marlins -114 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-10T23:11:00Z | Seattle Mariners -107, Tampa Bay Rays -112 |
 | Boston Red Sox at New York Mets | 2026-07-10T23:16:00Z | Boston Red Sox +113, New York Mets -136 |
-| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +123, Chicago White Sox -149 |
+| Athletics at Chicago White Sox | 2026-07-10T23:41:00Z | Athletics +129, Chicago White Sox -156 |
 | Houston Astros at Texas Rangers | 2026-07-11T00:06:00Z | none |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels +104, Minnesota Twins -126 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:00Z | Atlanta Braves -168, St. Louis Cardinals +139 |
