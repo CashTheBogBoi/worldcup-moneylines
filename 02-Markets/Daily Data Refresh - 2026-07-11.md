@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T12:32:18.870Z
+Generated: 2026-07-11T14:32:38.167Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Starters** — Milwaukee Brewers at Pittsburgh Pirates: Official starter is still TBD (TBD vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Boston Red Sox at New York Mets: Official starter is still TBD (TBD vs Freddy Peralta). Block Bankroll Watch promotion until both starters are confirmed.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 
@@ -28,12 +27,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | Scheduled | TBD | TBD |  |
+| Milwaukee Brewers at Pittsburgh Pirates | Pre-Game | Brandon Sproat | Braxton Ashcraft | 0-0 |
 | Milwaukee Brewers at Pittsburgh Pirates | Scheduled | Shane Drohan | Bubba Chandler |  |
 | Los Angeles Angels at Minnesota Twins | Scheduled | Ryan Johnson | Joe Ryan |  |
 | Athletics at Chicago White Sox | Scheduled | Gage Jump | Bryan Hudson |  |
 | Colorado Rockies at San Francisco Giants | Scheduled | Kyle Freeland | Tyler Mahle |  |
-| New York Yankees at Washington Nationals | Scheduled | Cam Schlittler | Miles Mikolas |  |
+| New York Yankees at Washington Nationals | Scheduled | Cam Schlittler | PJ Poulin |  |
 | Boston Red Sox at New York Mets | Scheduled | TBD | Freddy Peralta |  |
 | Seattle Mariners at Tampa Bay Rays | Scheduled | Logan Gilbert | Griffin Jax |  |
 | Cleveland Guardians at Miami Marlins | Scheduled | Tanner Bibee | Eury Pérez |  |
@@ -49,29 +48,29 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | none |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | Milwaukee Brewers -102, Pittsburgh Pirates -118 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -108, Chicago White Sox -112 |
-| Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +152, Minnesota Twins -185 |
-| New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -199, Washington Nationals +163 |
+| Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +144, Minnesota Twins -175 |
+| New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -198, Washington Nationals +162 |
 | Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:00Z | Colorado Rockies +124, San Francisco Giants -149 |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:06:00Z | Milwaukee Brewers -126, Pittsburgh Pirates +105 |
-| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox +123, New York Mets -149 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:06:00Z | Milwaukee Brewers -131, Pittsburgh Pirates +108 |
+| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox +134, New York Mets -162 |
 | Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians +128, Miami Marlins -155 |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:11:00Z | Seattle Mariners -108, Tampa Bay Rays -112 |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +113, Philadelphia Phillies -136 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -101, Texas Rangers -120 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -120, Cincinnati Reds -101 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:15:00Z | Atlanta Braves -122, St. Louis Cardinals +101 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -114, Toronto Blue Jays -105 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +230, Los Angeles Dodgers -287 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:11:00Z | Seattle Mariners -105, Tampa Bay Rays -115 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +119, Philadelphia Phillies -143 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -156, Kansas City Royals +129 |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros +100, Texas Rangers -120 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -105, Cincinnati Reds -114 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:15:00Z | Atlanta Braves -107, St. Louis Cardinals -112 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -107 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +226, Los Angeles Dodgers -283 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
 | England at Norway | 2026-07-11T21:00:00Z | England -105, Norway +280, Draw +265 |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -150, Switzerland +475, Draw +260 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +215, Draw +225 |
 
 ## FIFA men's ranking model input
