@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T21:44:12.085Z",
+  "updatedAt": "2026-07-11T21:59:12.082Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -1837,13 +1837,13 @@
         "pitcher": "PJ Poulin",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Player challenge"
+        "status": "In Progress"
       },
       "2026-07-11::new york yankees": {
         "pitcher": "Cam Schlittler",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Player challenge"
+        "status": "In Progress"
       },
       "2026-07-11::pittsburgh pirates": {
         "pitcher": "Bubba Chandler",
@@ -1891,13 +1891,13 @@
         "pitcher": "Casey Mize",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Pre-Game"
+        "status": "Warmup"
       },
       "2026-07-11::philadelphia phillies": {
         "pitcher": "Cristopher Sánchez",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Pre-Game"
+        "status": "Warmup"
       },
       "2026-07-11::baltimore orioles": {
         "pitcher": "Kyle Bradish",
@@ -4015,34 +4015,34 @@
     "mlbBullpen": {
       "detroit tigers": -0.6533333333333338,
       "philadelphia phillies": 0.013333333333332753,
-      "baltimore orioles": -0.3200000000000003,
-      "kansas city royals": 0.013333333333332753,
-      "chicago cubs": 0.013333333333332753,
-      "cincinnati reds": -0.9866666666666668,
-      "new york mets": -0.3200000000000003,
-      "athletics": 0.6799999999999997,
-      "pittsburgh pirates": 0.013333333333332753,
-      "milwaukee brewers": 0.013333333333332753,
-      "texas rangers": 0.3466666666666667,
-      "houston astros": -0.8200000000000003,
-      "boston red sox": -0.3200000000000003,
-      "minnesota twins": 0.013333333333332753,
-      "cleveland guardians": 1.0133333333333328,
-      "san diego padres": -0.3200000000000003,
-      "toronto blue jays": -0.3200000000000003,
-      "chicago white sox": -0.6533333333333338,
       "washington nationals": 0.17999999999999972,
       "new york yankees": 0.6799999999999997,
+      "cincinnati reds": -0.9866666666666668,
+      "chicago cubs": 0.013333333333332753,
       "tampa bay rays": 0.013333333333332753,
       "seattle mariners": -0.9866666666666668,
+      "chicago white sox": -0.6533333333333338,
+      "athletics": 0.6799999999999997,
       "miami marlins": -0.6533333333333338,
-      "arizona diamondbacks": -0.3200000000000003,
+      "cleveland guardians": 1.0133333333333328,
+      "baltimore orioles": -0.3200000000000003,
+      "kansas city royals": 0.013333333333332753,
+      "new york mets": -0.3200000000000003,
+      "boston red sox": -0.3200000000000003,
+      "texas rangers": 0.3466666666666667,
+      "houston astros": -0.8200000000000003,
+      "minnesota twins": 0.013333333333332753,
       "los angeles angels": 0.6799999999999997,
-      "san francisco giants": 0.013333333333332753,
-      "colorado rockies": -0.3200000000000003,
       "st. louis cardinals": 0.3466666666666667,
       "atlanta braves": 1.0133333333333328,
-      "los angeles dodgers": 1.6799999999999997
+      "san diego padres": -0.3200000000000003,
+      "toronto blue jays": -0.3200000000000003,
+      "los angeles dodgers": 1.6799999999999997,
+      "arizona diamondbacks": -0.3200000000000003,
+      "san francisco giants": 0.013333333333332753,
+      "colorado rockies": -0.3200000000000003,
+      "pittsburgh pirates": 0.013333333333332753,
+      "milwaukee brewers": 0.013333333333332753
     },
     "openingLines": {
       "e66e4478b739fa0657a7a11235e1fcee::Norway": {
@@ -5602,21 +5602,21 @@
       }
     },
     "kalshi": {
-      "norway": 0.061,
+      "norway": 0.0615,
       "switzerland": 0.0165,
       "england": 0.1455,
-      "argentina": 0.1815,
-      "france": 0.3835,
+      "argentina": 0.181,
+      "france": 0.384,
       "spain": 0.2045
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-11T21:44:12.085Z",
-      "mlbStarters": "2026-07-11T21:44:12.085Z",
-      "mlbLastResults": "2026-07-11T21:44:12.085Z",
-      "fifaMensRankings": "2026-07-11T21:44:12.085Z",
-      "kalshi": "2026-07-11T19:43:12.523Z",
-      "mlbBullpen": "2026-07-11T19:43:12.523Z",
-      "openingLines": "2026-07-11T19:43:12.523Z"
+      "mlbTeamRatings": "2026-07-11T21:59:12.082Z",
+      "mlbStarters": "2026-07-11T21:59:12.082Z",
+      "mlbLastResults": "2026-07-11T21:59:12.082Z",
+      "fifaMensRankings": "2026-07-11T21:59:12.082Z",
+      "kalshi": "2026-07-11T19:43:54.697Z",
+      "mlbBullpen": "2026-07-11T19:43:54.697Z",
+      "openingLines": "2026-07-11T19:43:54.697Z"
     }
   },
   "history": [
@@ -27766,11 +27766,11 @@
         }
       ],
       "kalshi": {
-        "norway": 0.061,
+        "norway": 0.0615,
         "switzerland": 0.0165,
         "england": 0.1455,
-        "argentina": 0.1815,
-        "france": 0.3835,
+        "argentina": 0.181,
+        "france": 0.384,
         "spain": 0.2045
       }
     }

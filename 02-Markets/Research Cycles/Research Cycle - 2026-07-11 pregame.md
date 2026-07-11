@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-11
 
-Generated: 2026-07-11T21:43:15.918Z
-Local time: 5:43 PM
+Generated: 2026-07-11T21:58:38.037Z
+Local time: 5:58 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,7 +13,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-11T21:43:11.906Z
+- Snapshot generated: 2026-07-11T21:58:34.851Z
 - MLB odds events: 24
 - Soccer odds events: 3
 - High-impact intel blocks: 6
@@ -25,7 +25,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 ## High-Impact Blocks
 - **MLB / Market move / pending:** Milwaukee Brewers at Pittsburgh Pirates — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Colorado Rockies at San Francisco Giants — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Boston Red Sox at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Seattle Mariners at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Cleveland Guardians at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -36,24 +36,24 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Philadelphia Phillies at Detroit Tigers | Jul 11, 6:11 PM | 28 | Detroit Tigers +123, Philadelphia Phillies -148 | 11 |
-| Kansas City Royals at Baltimore Orioles | Jul 11, 7:06 PM | 83 | Baltimore Orioles -162, Kansas City Royals +134 | 11 |
-| Houston Astros at Texas Rangers | Jul 11, 7:06 PM | 83 | Houston Astros +102, Texas Rangers -123 | 11 |
-| Chicago Cubs at Cincinnati Reds | Jul 11, 7:11 PM | 88 | Chicago Cubs -102, Cincinnati Reds -118 | 11 |
-| Atlanta Braves at St. Louis Cardinals | Jul 11, 7:15 PM | 92 | Atlanta Braves -107, St. Louis Cardinals -112 | 11 |
-| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 178 | San Diego Padres -112, Toronto Blue Jays -108 | 11 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 207 | Arizona Diamondbacks +225, Los Angeles Dodgers -282 | 11 |
-| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 1113 | Milwaukee Brewers -136, Pittsburgh Pirates +113 | 10 |
-| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1193 | Baltimore Orioles -149, Kansas City Royals +123 | 9 |
-| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1198 | Chicago Cubs -131, Cincinnati Reds +109 | 8 |
-| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1198 | Detroit Tigers -110, Philadelphia Phillies -110 | 9 |
-| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1198 | Seattle Mariners +109, Tampa Bay Rays -131 | 10 |
+| Philadelphia Phillies at Detroit Tigers | Jul 11, 6:11 PM | 12 | Detroit Tigers +123, Philadelphia Phillies -148 | 11 |
+| Kansas City Royals at Baltimore Orioles | Jul 11, 7:06 PM | 67 | Baltimore Orioles -162, Kansas City Royals +134 | 11 |
+| Houston Astros at Texas Rangers | Jul 11, 7:06 PM | 67 | Houston Astros +102, Texas Rangers -123 | 11 |
+| Chicago Cubs at Cincinnati Reds | Jul 11, 7:11 PM | 72 | Chicago Cubs -102, Cincinnati Reds -118 | 11 |
+| Atlanta Braves at St. Louis Cardinals | Jul 11, 7:15 PM | 76 | Atlanta Braves -107, St. Louis Cardinals -112 | 11 |
+| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 162 | San Diego Padres -112, Toronto Blue Jays -108 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 191 | Arizona Diamondbacks +225, Los Angeles Dodgers -282 | 11 |
+| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 1097 | Milwaukee Brewers -136, Pittsburgh Pirates +113 | 10 |
+| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1177 | Baltimore Orioles -149, Kansas City Royals +123 | 9 |
+| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1182 | Chicago Cubs -131, Cincinnati Reds +109 | 8 |
+| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1182 | Detroit Tigers -110, Philadelphia Phillies -110 | 9 |
+| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1182 | Seattle Mariners +109, Tampa Bay Rays -131 | 10 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Switzerland at Argentina | Jul 11, 9:00 PM | 197 | Argentina -145, Switzerland +450, Draw +255 | 10 |
-| Spain at France | Jul 14, 3:00 PM | 4157 | France +135, Spain +215, Draw +225 | 10 |
+| Switzerland at Argentina | Jul 11, 9:00 PM | 181 | Argentina -145, Switzerland +450, Draw +255 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 4141 | France +135, Spain +215, Draw +225 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
