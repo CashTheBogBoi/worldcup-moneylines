@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T22:14:01.101Z
+Generated: 2026-07-11T22:29:23.653Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,7 +21,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Milwaukee Brewers at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — New York Yankees at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Boston Red Sox at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Seattle Mariners at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -37,11 +37,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Milwaukee Brewers at Pittsburgh Pirates | In Progress | Shane Drohan | Bubba Chandler | 2-3 |
 | Los Angeles Angels at Minnesota Twins | Final | Ryan Johnson | Joe Ryan | 3-5 |
 | Athletics at Chicago White Sox | Final | Gage Jump | Bryan Hudson | 0-1 |
-| Colorado Rockies at San Francisco Giants | In Progress | Kyle Freeland | Tyler Mahle | 2-4 |
-| New York Yankees at Washington Nationals | In Progress | Cam Schlittler | PJ Poulin | 0-2 |
+| Colorado Rockies at San Francisco Giants | Game Over | Kyle Freeland | Tyler Mahle | 2-4 |
+| New York Yankees at Washington Nationals | In Progress | Cam Schlittler | PJ Poulin | 1-2 |
 | Boston Red Sox at New York Mets | In Progress | Eduardo Rivera | Freddy Peralta | 2-0 |
 | Seattle Mariners at Tampa Bay Rays | In Progress | Logan Gilbert | Griffin Jax | 1-2 |
-| Cleveland Guardians at Miami Marlins | In Progress | Tanner Bibee | Eury Pérez | 2-0 |
+| Cleveland Guardians at Miami Marlins | In Progress | Tanner Bibee | Eury Pérez | 2-1 |
 | Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 0-0 |
 | Kansas City Royals at Baltimore Orioles | Pre-Game | Noah Cameron | Kyle Bradish | 0-0 |
 | Houston Astros at Texas Rangers | Pre-Game | Peter Lambert | Kumar Rocker | 0-0 |
@@ -54,18 +54,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Yankees at Washington Nationals | 2026-07-11T20:05:50Z | New York Yankees +477, Washington Nationals -820 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:07Z | Colorado Rockies +920, San Francisco Giants -2900 |
-| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox -770, New York Mets +457 |
-| Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians -555, Miami Marlins +361 |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:16:00Z | Milwaukee Brewers +240, Pittsburgh Pirates -335 |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:35:00Z | Seattle Mariners +265, Tampa Bay Rays -376 |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +111, Philadelphia Phillies -145 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -162, Kansas City Royals +134 |
+| New York Yankees at Washington Nationals | 2026-07-11T20:05:50Z | New York Yankees +246, Washington Nationals -346 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:07Z | none |
+| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox -471, New York Mets +318 |
+| Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians -770, Miami Marlins +459 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:16:00Z | Milwaukee Brewers +287, Pittsburgh Pirates -414 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:35:00Z | Seattle Mariners +304, Tampa Bay Rays -445 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +119, Philadelphia Phillies -155 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -163, Kansas City Royals +135 |
 | Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros +102, Texas Rangers -123 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -102, Cincinnati Reds -118 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:15:00Z | Atlanta Braves -107, St. Louis Cardinals -112 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -108 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -110, Toronto Blue Jays -110 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +226, Los Angeles Dodgers -283 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers -136, Pittsburgh Pirates +113 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +123 |
@@ -83,7 +83,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| England at Norway | 2026-07-11T21:01:00Z | England +120, Norway +350, Draw +160 |
+| England at Norway | 2026-07-11T21:01:00Z | England +165, Norway +340, Draw +120 |
 | Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +215, Draw +225 |
 
