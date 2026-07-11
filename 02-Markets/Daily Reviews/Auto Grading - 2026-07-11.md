@@ -1,10 +1,12 @@
 # Auto Grading - 2026-07-11
 
-Generated: 2026-07-11T21:12:39.939Z
-Data snapshot: 2026-07-11T21:12:38.868Z
+Generated: 2026-07-11T21:30:06.663Z
+Data snapshot: 2026-07-11T21:30:05.854Z
 
 ## Newly Graded
-_No newly graded picks._
+| Sport | Match | Pick | Result | Score | Score ID |
+|---|---|---|---:|---|---|
+| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | Pittsburgh Pirates 7, Milwaukee Brewers 6 | 1ff6b7060ccd99869ddc9396d067920c |
 
 ## Still Pending
 - MLB / Los Angeles Dodgers vs Arizona Diamondbacks / Arizona Diamondbacks (2026-07-12T01:10:00Z)
