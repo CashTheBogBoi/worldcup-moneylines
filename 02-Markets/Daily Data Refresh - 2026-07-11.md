@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T14:32:38.167Z
+Generated: 2026-07-11T14:47:46.476Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -48,8 +48,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | Milwaukee Brewers -102, Pittsburgh Pirates -118 |
-| Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -108, Chicago White Sox -112 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | Milwaukee Brewers -103, Pittsburgh Pirates -117 |
+| Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -105, Chicago White Sox -115 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +144, Minnesota Twins -175 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -198, Washington Nationals +162 |
 | Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:00Z | Colorado Rockies +124, San Francisco Giants -149 |
@@ -70,7 +70,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Match | Start | DraftKings |
 | --- | --- | --- |
 | England at Norway | 2026-07-11T21:00:00Z | England -105, Norway +280, Draw +265 |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -150, Switzerland +475, Draw +260 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +215, Draw +225 |
 
 ## FIFA men's ranking model input
