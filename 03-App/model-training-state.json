@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-11T23:16:12.042Z",
+  "savedAt": "2026-07-11T23:31:12.075Z",
   "modelPicks": [
     {
       "id": "model-1783784011559-77201",
@@ -206,7 +206,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-11T23:16:12.006Z",
+      "closedAt": "2026-07-11T23:31:12.037Z",
       "autoClosed": true
     },
     {
@@ -672,7 +672,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-11T23:16:12.006Z",
+      "closedAt": "2026-07-11T23:31:12.037Z",
       "autoClosed": true
     },
     {
@@ -1272,7 +1272,7 @@
       "sport": "Soccer",
       "commenceTime": "2026-07-12T01:00:00Z",
       "openPrice": 460,
-      "closePrice": 517,
+      "closePrice": 505,
       "openBook": "BetRivers",
       "stake": 0,
       "probability": 0.20802957207732975,
@@ -1454,11 +1454,17 @@
           "price": 517,
           "book": "BetOnline.ag",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-11T23:31:12.037Z",
+          "price": 505,
+          "book": "BetOnline.ag",
+          "source": "pre-start"
         }
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-11T23:16:12.006Z",
+      "closedAt": "2026-07-11T23:31:12.037Z",
       "autoClosed": true
     },
     {
@@ -6360,124 +6366,46 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-11T23:16:12.035Z",
-    "totalCandidates": 55,
+    "savedAt": "2026-07-11T23:31:12.068Z",
+    "totalCandidates": 44,
     "passed": 3,
-    "blocked": 52,
+    "blocked": 41,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 43
+        "count": 39
       },
       {
         "label": "Positive EV",
-        "count": 37
+        "count": 32
       },
       {
         "label": "Beats consensus",
-        "count": 27
+        "count": 22
       },
       {
         "label": "Model ready",
-        "count": 21
+        "count": 12
       },
       {
         "label": "Pregame",
-        "count": 21
+        "count": 12
       },
       {
         "label": "DraftKings line",
-        "count": 11
+        "count": 2
       }
     ],
     "watchlist": [
       {
         "sport": "MLB",
-        "match": "Miami Marlins vs Cleveland Guardians",
-        "selection": "Miami Marlins",
-        "book": "BetMGM",
-        "price": 3300,
-        "probability": 0.09561920282857549,
-        "ev": 225.10528961715664,
-        "edge": 0.06620743812269314,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Tampa Bay Rays vs Seattle Mariners",
-        "selection": "Seattle Mariners",
-        "book": "BetMGM",
-        "price": 3300,
-        "probability": 0.08197376801623087,
-        "ev": 178.71081125518492,
-        "edge": 0.052562003310348514,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Washington Nationals vs New York Yankees",
-        "selection": "Washington Nationals",
-        "book": "Fanatics",
-        "price": 1900,
-        "probability": 0.11452584955915002,
-        "ev": 129.05169911830004,
-        "edge": 0.06452584955915001,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Pittsburgh Pirates vs Milwaukee Brewers",
-        "selection": "Milwaukee Brewers",
-        "book": "Fanatics",
-        "price": 1200,
-        "probability": 0.1514179072119337,
-        "ev": 96.84327937551383,
-        "edge": 0.07449483028885678,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
         "match": "Detroit Tigers vs Philadelphia Phillies",
         "selection": "Detroit Tigers",
-        "book": "Fanatics",
-        "price": 900,
-        "probability": 0.16443018492219938,
-        "ev": 64.43018492219939,
-        "edge": 0.06443018492219937,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Norway vs England",
-        "selection": "Norway",
-        "book": "FanDuel",
-        "price": 1800,
-        "probability": 0.07828349158324521,
-        "ev": 48.73863400816592,
-        "edge": 0.025651912635876795,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "Soccer",
-        "match": "Norway vs England",
-        "selection": "England",
-        "book": "FanDuel",
-        "price": 1600,
-        "probability": 0.08741184921761214,
-        "ev": 48.600143669940636,
-        "edge": 0.02858831980584743,
+        "book": "DraftKings",
+        "price": 561,
+        "probability": 0.20789645747773056,
+        "ev": 37.41955839277989,
+        "edge": 0.05661052706925854,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -6487,39 +6415,39 @@
         "match": "Texas Rangers vs Houston Astros",
         "selection": "Texas Rangers",
         "book": "BetMGM",
-        "price": 250,
-        "probability": 0.3945010882468423,
-        "ev": 38.075380886394804,
-        "edge": 0.10878680253255663,
+        "price": 210,
+        "probability": 0.3576037295211925,
+        "ev": 10.857156151569669,
+        "edge": 0.0350230843599022,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Texas Rangers vs Houston Astros",
-        "selection": "Houston Astros",
-        "book": "BetUS",
-        "price": 104,
-        "probability": 0.6054989117531577,
-        "ev": 23.521777997644172,
-        "edge": 0.1153028333217852,
+        "match": "St. Louis Cardinals vs Atlanta Braves",
+        "selection": "St. Louis Cardinals",
+        "book": "LowVig.ag",
+        "price": -107,
+        "probability": 0.5312639905917701,
+        "ev": 2.7772393013985166,
+        "edge": 0.01435577803138366,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
-        "selection": "Arizona Diamondbacks",
-        "book": "FanDuel",
-        "price": 188,
-        "probability": 0.3547639602154037,
-        "ev": 2.1720205420362646,
-        "edge": 0.007541737993181474,
-        "blocker": "DraftKings line",
-        "group": "Needs DraftKings line",
-        "action": "Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow."
+        "match": "Baltimore Orioles vs Kansas City Royals",
+        "selection": "Kansas City Royals",
+        "book": "Bovada",
+        "price": 170,
+        "probability": 0.3780816545034747,
+        "ev": 2.0820467159381693,
+        "edge": 0.007711284133104346,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
@@ -6536,21 +6464,126 @@
       },
       {
         "sport": "MLB",
-        "match": "Baltimore Orioles vs Kansas City Royals",
-        "selection": "Baltimore Orioles",
-        "book": "BetUS",
-        "price": -153,
-        "probability": 0.6156232114533,
-        "ev": 1.7991323514280424,
-        "edge": 0.010880128449347493,
+        "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
+        "selection": "Arizona Diamondbacks",
+        "book": "FanDuel",
+        "price": 188,
+        "probability": 0.3526950580501754,
+        "ev": 1.576176718450526,
+        "edge": 0.005472835827953215,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "St. Louis Cardinals vs Atlanta Braves",
+        "selection": "Atlanta Braves",
+        "book": "LowVig.ag",
+        "price": 118,
+        "probability": 0.46536260581772704,
+        "ev": 1.4490480682644886,
+        "edge": 0.006647009487451783,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "St. Louis Cardinals vs Atlanta Braves",
+        "selection": "Atlanta Braves",
+        "book": "Fanatics",
+        "price": 115,
+        "probability": 0.46873600940823,
+        "ev": 0.7782420227694473,
+        "edge": 0.003619730338462579,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "San Diego Padres vs Toronto Blue Jays",
+        "selection": "San Diego Padres",
+        "book": "BetOnline.ag",
+        "price": 109,
+        "probability": 0.4792480642971717,
+        "ev": 0.16284543810889573,
+        "edge": 0.0007791647756406062,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
       }
     ]
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783812672036",
+      "at": "2026-07-11T23:31:12.036Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:01:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": null,
+              "book": ""
+            },
+            {
+              "name": "England",
+              "price": null,
+              "book": ""
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -139,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 255,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 137,
+              "book": "LowVig.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 230,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Spain",
+              "price": 230,
+              "book": "BetRivers"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783811772005",
       "at": "2026-07-11T23:16:12.005Z",
@@ -8542,77 +8575,6 @@
     {
       "id": "snapshot-1783798392459",
       "at": "2026-07-11T19:33:12.459Z",
-      "source": "live",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 336,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 299,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "England",
-              "price": -115,
-              "book": "Fanatics"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -138,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 256,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 500,
-              "book": "FanDuel"
-            }
-          ]
-        },
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 230,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Spain",
-              "price": 230,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783798332548",
-      "at": "2026-07-11T19:32:12.548Z",
       "source": "live",
       "eventCount": 3,
       "lines": [
