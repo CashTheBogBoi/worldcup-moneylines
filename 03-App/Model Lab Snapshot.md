@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T03:19:04.457Z
+Updated: 2026-07-11T03:27:03.233Z
 
 ## Summary
 - Total tracked picks: 58
@@ -87,31 +87,30 @@ Updated: 2026-07-11T03:19:04.457Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T03:19:03.636Z
-- Current candidates: 49
-- Passed / blocked: 5 / 44
+- Saved: 2026-07-11T03:27:02.290Z
+- Current candidates: 47
+- Passed / blocked: 5 / 42
 
 ### Top Blockers
-- Minimum edge: 40
-- Positive EV: 33
-- Beats consensus: 25
-- Model ready: 14
-- Pregame: 12
-- DraftKings line: 4
+- Minimum edge: 38
+- Positive EV: 32
+- Beats consensus: 24
+- Model ready: 12
+- Pregame: 10
+- DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | New York Mets | New York Mets vs Boston Red Sox | Game too stale/live | +3300 | 8.6% | $191.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +475 | 22.8% | $31.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +320 | 27.9% | $17.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | Washington Nationals vs New York Yankees | Game too stale/live | +322 | 27.3% | $15.26 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 30.8% | $3.59 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -102 | 51.8% | $2.56 | Edge under 1.5% — inside vig noise. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +625 | 19.3% | $39.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Yankees | Washington Nationals vs New York Yankees | Game too stale/live | +450 | 24.5% | $34.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +210 | 38.6% | $19.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +270 | 29.9% | $10.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 31.0% | $4.20 | Edge under 1.5% — inside vig noise. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +145 | 42.1% | $3.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -102 | 51.7% | $2.43 | Edge under 1.5% — inside vig noise. |
 | MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +132 | 44.1% | $2.25 | Confirm probable starters or use the manual starter override. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +145 | 41.6% | $1.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.2% | $1.12 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +180 | 36.0% | $0.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.2% | $1.18 | Edge under 1.5% — inside vig noise. |
 | MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +136 | 42.6% | $0.64 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow

@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-11T03:11:29.517Z
+Generated: 2026-07-11T03:26:55.619Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -44,7 +44,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Los Angeles Angels at Minnesota Twins | Final | Grayson Rodriguez | Zebby Matthews | 4-3 |
 | Atlanta Braves at St. Louis Cardinals | Delayed | Chris Sale | Kyle Leahy | 0-0 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Shane Bieber | JP Sears | 5-2 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 2-2 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 4-2 |
 | Colorado Rockies at San Francisco Giants | In Progress | Tanner Gordon | Robbie Ray | 0-1 |
 | Milwaukee Brewers at Pittsburgh Pirates | Postponed | Brandon Sproat | Braxton Ashcraft |  |
 
@@ -52,12 +52,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Boston Red Sox at New York Mets | 2026-07-10T23:50:00Z | none |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -160, St. Louis Cardinals +122 |
-| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees +322, Washington Nationals -479 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +419, Toronto Blue Jays -680 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +155, Los Angeles Dodgers -206 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +261, San Francisco Giants -369 |
+| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees +363, Washington Nationals -558 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +573, Toronto Blue Jays -1080 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks -195, Los Angeles Dodgers +148 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +239, San Francisco Giants -333 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -115, Chicago White Sox -105 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +153, Minnesota Twins -186 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -199, Washington Nationals +163 |
