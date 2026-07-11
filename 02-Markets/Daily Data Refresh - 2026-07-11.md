@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T23:30:47.734Z
+Generated: 2026-07-11T23:46:08.929Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -41,10 +41,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Tampa Bay Rays | Final | Logan Gilbert | Griffin Jax | 1-6 |
 | Cleveland Guardians at Miami Marlins | Final | Tanner Bibee | Eury Pérez | 4-1 |
 | Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 4-1 |
-| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-0 |
+| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-1 |
 | Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 2-0 |
 | Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 0-0 |
-| Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-0 |
+| Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-3 |
 | Toronto Blue Jays at San Diego Padres | Pre-Game | Trey Yesavage | Walker Buehler | 0-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | Pre-Game | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
 
@@ -52,22 +52,22 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +561, Philadelphia Phillies -1060 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -197, Kansas City Royals +150 |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -253, Texas Rangers +187 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -106, Cincinnati Reds -123 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +109, St. Louis Cardinals -142 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -110, Toronto Blue Jays -110 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +356, Philadelphia Phillies -543 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -329, Kansas City Royals +236 |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -328, Texas Rangers +236 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs +111, Cincinnati Reds -144 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +385, St. Louis Cardinals -610 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -107 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +230, Los Angeles Dodgers -287 |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers -136, Pittsburgh Pirates +113 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | none |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +123 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-12T17:41:00Z | Chicago Cubs -131, Cincinnati Reds +109 |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -110, Philadelphia Phillies -110 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -112, Philadelphia Phillies -108 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:41:00Z | Seattle Mariners +109, Tampa Bay Rays -131 |
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics -102, Chicago White Sox -118 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +129, San Francisco Giants -156 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +123, San Francisco Giants -149 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +168, Los Angeles Dodgers -205 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +104, Toronto Blue Jays -126 |
 
