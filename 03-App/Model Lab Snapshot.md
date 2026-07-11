@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T15:18:32.524Z
+Updated: 2026-07-11T15:33:32.503Z
 
 ## Summary
-- Total tracked picks: 59
-- Pending: 7
+- Total tracked picks: 60
+- Pending: 8
 - Graded: 52
 - Wins: 16
 - Losses: 35
@@ -15,6 +15,7 @@ Updated: 2026-07-11T15:18:32.524Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Chicago White Sox vs Athletics | Chicago White Sox | pending | -106 | - | - | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +239 | +239 | 0.0 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | pending | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
@@ -54,7 +55,6 @@ Updated: 2026-07-11T15:18:32.524Z
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | loss | +700 | +765 | -0.9 pts | 12.5% | Odds API no-vig only |
-| Soccer | Canada vs Morocco | Canada | loss | +440 | +440 | 0.0 pts | 19.2% | Odds API no-vig only |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,29 +83,27 @@ Updated: 2026-07-11T15:18:32.524Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 34 | 27 | 22.2% | 0.1 pts | 0.187 | 0.0% |
+| Passed gate | 35 | 27 | 22.2% | 0.1 pts | 0.187 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T15:18:31.566Z
+- Saved: 2026-07-11T15:33:31.562Z
 - Current candidates: 41
-- Passed / blocked: 5 / 36
+- Passed / blocked: 6 / 35
 
 ### Top Blockers
-- Minimum edge: 36
-- Positive EV: 30
+- Minimum edge: 35
+- Positive EV: 31
 - Beats consensus: 21
 - Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +134 | 44.2% | $3.49 | Confirm probable starters or use the manual starter override. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +134 | 44.2% | $3.41 | Confirm probable starters or use the manual starter override. |
 | Soccer | France | France vs Spain | Minimum edge | +135 | 43.9% | $3.06 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -106 | 53.0% | $2.91 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 40.0% | $1.60 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.7% | $0.83 | Edge under 1.5% — inside vig noise. |
-| MLB | Cleveland Guardians | Miami Marlins vs Cleveland Guardians | Minimum edge | +135 | 42.6% | $0.10 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 39.9% | $1.45 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.7% | $0.95 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

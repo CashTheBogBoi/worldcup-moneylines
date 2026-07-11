@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "savedAt": "2026-07-11T15:18:31.573Z",
+  "savedAt": "2026-07-11T15:33:31.576Z",
   "modelPicks": [
+    {
+      "id": "model-1783784011559-77201",
+      "match": "Chicago White Sox vs Athletics",
+      "selection": "Chicago White Sox",
+      "selectionName": "Chicago White Sox",
+      "eventId": "8ec769ee362e5e0e25ac93ee886cdfd4",
+      "sport": "MLB",
+      "commenceTime": "2026-07-11T18:11:00Z",
+      "openPrice": -106,
+      "closePrice": "",
+      "openBook": "LowVig.ag",
+      "stake": 0,
+      "probability": 0.5313604235393283,
+      "researchProbability": 0.600411357062089,
+      "marketProbability": 0.5083434456984081,
+      "edge": 0.016797316743211832,
+      "result": "pending",
+      "source": "25% strength model + 75% market no-vig",
+      "readyGateSnapshot": {
+        "ready": true,
+        "status": "Ready with warning",
+        "reasons": [],
+        "warnings": [
+          "DraftKings is worse than best available (-115 vs -106)."
+        ],
+        "checks": [
+          {
+            "label": "Pregame",
+            "ok": true,
+            "detail": "Line is current."
+          },
+          {
+            "label": "Model ready",
+            "ok": true,
+            "detail": "Model inputs are present."
+          },
+          {
+            "label": "Model opinion",
+            "ok": true,
+            "detail": "Model is market-only."
+          },
+          {
+            "label": "Minimum edge",
+            "ok": true,
+            "detail": "Edge under 1.5% — inside vig noise."
+          },
+          {
+            "label": "Beats consensus",
+            "ok": true,
+            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
+          },
+          {
+            "label": "Positive EV",
+            "ok": true,
+            "detail": "No positive EV proxy."
+          },
+          {
+            "label": "Minimum chance",
+            "ok": true,
+            "detail": "Below 0.0% model chance."
+          },
+          {
+            "label": "Intel clear",
+            "ok": true,
+            "detail": "High-impact intel is still attached."
+          },
+          {
+            "label": "DraftKings line",
+            "ok": true,
+            "detail": "DraftKings line is missing for this selection."
+          }
+        ],
+        "draftKingsPrice": -115,
+        "draftKingsBook": "DraftKings"
+      },
+      "readyGateTrackedAt": "2026-07-11T15:33:31.559Z",
+      "autoTracked": true,
+      "priceHistory": [
+        {
+          "at": "2026-07-11T15:33:31.559Z",
+          "price": -106,
+          "book": "LowVig.ag",
+          "source": "open"
+        }
+      ],
+      "note": ""
+    },
     {
       "id": "model-1783774049240-450853",
       "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
@@ -89,7 +176,7 @@
       ],
       "note": "",
       "closeBook": "MyBookie.ag",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -285,7 +372,7 @@
       ],
       "note": "",
       "closeBook": "BetUS",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -388,7 +475,7 @@
       ],
       "note": "",
       "closeBook": "Caesars",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -502,7 +589,7 @@
       ],
       "note": "",
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -1258,7 +1345,7 @@
       ],
       "note": "",
       "closeBook": "BetOnline.ag",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -2475,7 +2562,7 @@
       ],
       "note": "",
       "closeBook": "BetUS",
-      "closedAt": "2026-07-11T15:18:31.543Z",
+      "closedAt": "2026-07-11T15:33:31.524Z",
       "autoClosed": true
     },
     {
@@ -6087,18 +6174,18 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-11T15:18:31.566Z",
+    "savedAt": "2026-07-11T15:33:31.562Z",
     "totalCandidates": 41,
-    "passed": 5,
-    "blocked": 36,
+    "passed": 6,
+    "blocked": 35,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 36
+        "count": 35
       },
       {
         "label": "Positive EV",
-        "count": 30
+        "count": 31
       },
       {
         "label": "Beats consensus",
@@ -6116,9 +6203,9 @@
         "selection": "Boston Red Sox",
         "book": "FanDuel",
         "price": 134,
-        "probability": 0.44226725992257676,
-        "ev": 3.4905388218829643,
-        "edge": 0.01491683257214943,
+        "probability": 0.44191742201986883,
+        "ev": 3.4086767526493063,
+        "edge": 0.014566994669441502,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -6138,26 +6225,13 @@
       },
       {
         "sport": "MLB",
-        "match": "Chicago White Sox vs Athletics",
-        "selection": "Chicago White Sox",
-        "book": "LowVig.ag",
-        "price": -106,
-        "probability": 0.5295372749736624,
-        "ev": 2.9100741929947773,
-        "edge": 0.014974168177545932,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
         "match": "Minnesota Twins vs Los Angeles Angels",
         "selection": "Los Angeles Angels",
         "book": "LowVig.ag",
         "price": 154,
-        "probability": 0.4000119540055226,
-        "ev": 1.603036317402733,
-        "edge": 0.00631116660394776,
+        "probability": 0.3994228286867799,
+        "ev": 1.4533984864420972,
+        "edge": 0.005722041285205093,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6168,22 +6242,9 @@
         "selection": "Milwaukee Brewers",
         "book": "LowVig.ag",
         "price": 103,
-        "probability": 0.49670041016909483,
-        "ev": 0.8301832643262443,
-        "edge": 0.004089572730671176,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Miami Marlins vs Cleveland Guardians",
-        "selection": "Cleveland Guardians",
-        "book": "BetOnline.ag",
-        "price": 135,
-        "probability": 0.4259594452517239,
-        "ev": 0.10046963415511811,
-        "edge": 0.0004275303581068868,
+        "probability": 0.4972700514723697,
+        "ev": 0.9458204488910411,
+        "edge": 0.004659214033946035,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6192,6 +6253,77 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783784011523",
+      "at": "2026-07-11T15:33:31.523Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Norway vs England",
+          "commenceTime": "2026-07-11T21:00:00Z",
+          "best": [
+            {
+              "name": "Norway",
+              "price": 300,
+              "book": "BetUS"
+            },
+            {
+              "name": "Draw",
+              "price": 280,
+              "book": "Fanatics"
+            },
+            {
+              "name": "England",
+              "price": -104,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": -143,
+              "book": "Bovada"
+            },
+            {
+              "name": "Draw",
+              "price": 263,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Switzerland",
+              "price": 505,
+              "book": "BetOnline.ag"
+            }
+          ]
+        },
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 230,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Spain",
+              "price": 230,
+              "book": "LowVig.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783783111542",
       "at": "2026-07-11T15:18:31.542Z",
@@ -8183,77 +8315,6 @@
     {
       "id": "snapshot-1783703346134",
       "at": "2026-07-10T17:09:06.134Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Spain vs Belgium",
-          "commenceTime": "2026-07-10T19:00:00Z",
-          "best": [
-            {
-              "name": "Spain",
-              "price": -163,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 302,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Belgium",
-              "price": 524,
-              "book": "BetOnline.ag"
-            }
-          ]
-        },
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:00:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 330,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 280,
-              "book": "Fanatics"
-            },
-            {
-              "name": "England",
-              "price": -110,
-              "book": "BetMGM"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -143,
-              "book": "Bovada"
-            },
-            {
-              "name": "Draw",
-              "price": 260,
-              "book": "BetRivers"
-            },
-            {
-              "name": "Switzerland",
-              "price": 505,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783703091229",
-      "at": "2026-07-10T17:04:51.229Z",
       "source": "local",
       "eventCount": 3,
       "lines": [

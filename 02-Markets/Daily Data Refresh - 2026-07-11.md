@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T15:18:04.268Z
+Generated: 2026-07-11T15:33:11.723Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -29,8 +29,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | --- | --- | --- | --- | --- |
 | Milwaukee Brewers at Pittsburgh Pirates | Pre-Game | Brandon Sproat | Braxton Ashcraft | 0-0 |
 | Milwaukee Brewers at Pittsburgh Pirates | Scheduled | Shane Drohan | Bubba Chandler |  |
-| Los Angeles Angels at Minnesota Twins | Scheduled | Ryan Johnson | Joe Ryan |  |
-| Athletics at Chicago White Sox | Pre-Game | Gage Jump | Bryan Hudson |  |
+| Los Angeles Angels at Minnesota Twins | Pre-Game | Ryan Johnson | Joe Ryan | 0-0 |
+| Athletics at Chicago White Sox | Pre-Game | Gage Jump | Bryan Hudson | 0-0 |
 | Colorado Rockies at San Francisco Giants | Scheduled | Kyle Freeland | Tyler Mahle |  |
 | New York Yankees at Washington Nationals | Scheduled | Cam Schlittler | PJ Poulin |  |
 | Boston Red Sox at New York Mets | Scheduled | TBD | Freddy Peralta |  |
@@ -48,7 +48,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | Milwaukee Brewers -101, Pittsburgh Pirates -119 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T16:06:00Z | Milwaukee Brewers -103, Pittsburgh Pirates -117 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -105, Chicago White Sox -115 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +149, Minnesota Twins -181 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -198, Washington Nationals +162 |
