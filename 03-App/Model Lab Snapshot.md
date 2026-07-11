@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T15:33:32.503Z
+Updated: 2026-07-11T15:48:32.496Z
 
 ## Summary
 - Total tracked picks: 60
@@ -15,7 +15,7 @@ Updated: 2026-07-11T15:33:32.503Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Chicago White Sox vs Athletics | Chicago White Sox | pending | -106 | - | - | 53.1% | 25% strength model + 75% market no-vig |
+| MLB | Chicago White Sox vs Athletics | Chicago White Sox | pending | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +239 | +239 | 0.0 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | pending | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
@@ -26,7 +26,7 @@ Updated: 2026-07-11T15:33:32.503Z
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +505 | -1.3 pts | 20.8% | 31% strength model + 69% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +500 | -1.2 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
@@ -87,12 +87,12 @@ Updated: 2026-07-11T15:33:32.503Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T15:33:31.562Z
+- Saved: 2026-07-11T15:48:31.538Z
 - Current candidates: 41
-- Passed / blocked: 6 / 35
+- Passed / blocked: 5 / 36
 
 ### Top Blockers
-- Minimum edge: 35
+- Minimum edge: 36
 - Positive EV: 31
 - Beats consensus: 21
 - Model ready: 2
@@ -100,10 +100,11 @@ Updated: 2026-07-11T15:33:32.503Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +134 | 44.2% | $3.41 | Confirm probable starters or use the manual starter override. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +134 | 44.2% | $3.47 | Confirm probable starters or use the manual starter override. |
 | Soccer | France | France vs Spain | Minimum edge | +135 | 43.9% | $3.06 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 39.9% | $1.45 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.7% | $0.95 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 40.2% | $2.12 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -114 | 54.3% | $1.93 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.7% | $0.99 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
