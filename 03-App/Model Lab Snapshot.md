@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T15:03:32.528Z
+Updated: 2026-07-11T15:18:32.524Z
 
 ## Summary
 - Total tracked picks: 59
@@ -87,26 +87,25 @@ Updated: 2026-07-11T15:03:32.528Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T15:03:31.564Z
+- Saved: 2026-07-11T15:18:31.566Z
 - Current candidates: 41
 - Passed / blocked: 5 / 36
 
 ### Top Blockers
 - Minimum edge: 36
-- Positive EV: 29
+- Positive EV: 30
 - Beats consensus: 21
 - Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +135 | 44.0% | $3.47 | Confirm probable starters or use the manual starter override. |
-| Soccer | France | France vs Spain | Minimum edge | +135 | 43.8% | $3.04 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -106 | 52.9% | $2.82 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 40.1% | $1.96 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.8% | $1.14 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago Cubs | Cincinnati Reds vs Chicago Cubs | Minimum edge | +102 | 49.8% | $0.53 | Edge under 1.5% — inside vig noise. |
-| MLB | Cleveland Guardians | Miami Marlins vs Cleveland Guardians | Minimum edge | +135 | 42.6% | $0.16 | Edge under 1.5% — inside vig noise. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +134 | 44.2% | $3.49 | Confirm probable starters or use the manual starter override. |
+| Soccer | France | France vs Spain | Minimum edge | +135 | 43.9% | $3.06 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -106 | 53.0% | $2.91 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +154 | 40.0% | $1.60 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +103 | 49.7% | $0.83 | Edge under 1.5% — inside vig noise. |
+| MLB | Cleveland Guardians | Miami Marlins vs Cleveland Guardians | Minimum edge | +135 | 42.6% | $0.10 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
