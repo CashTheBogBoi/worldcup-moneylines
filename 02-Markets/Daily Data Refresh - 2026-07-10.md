@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-11T03:45:05.779Z
+Generated: 2026-07-11T03:57:57.062Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,11 +20,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — New York Yankees at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Washington Nationals: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is Manager challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Milwaukee Brewers at Pittsburgh Pirates: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 
@@ -33,7 +33,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Philadelphia Phillies at Detroit Tigers | Final | Aaron Nola | Jack Flaherty | 2-10 |
-| New York Yankees at Washington Nationals | In Progress | Ryan Weathers | Carson Palmquist | 5-3 |
+| New York Yankees at Washington Nationals | Game Over | Ryan Weathers | Carson Palmquist | 5-3 |
 | Kansas City Royals at Baltimore Orioles | Final | Luinder Avila | Brandon Young | 3-5 |
 | Chicago Cubs at Cincinnati Reds | Final | Shota Imanaga | Hunter Greene | 0-4 |
 | Seattle Mariners at Tampa Bay Rays | Final | Luis Castillo | Nick Martinez | 2-7 |
@@ -42,25 +42,26 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Chicago White Sox | Final | Jacob Lopez | Sean Burke | 1-14 |
 | Houston Astros at Texas Rangers | Final | Hunter Brown | Cal Quantrill | 3-7 |
 | Los Angeles Angels at Minnesota Twins | Final | Grayson Rodriguez | Zebby Matthews | 4-3 |
-| Atlanta Braves at St. Louis Cardinals | Delayed | Chris Sale | Kyle Leahy | 0-0 |
+| Atlanta Braves at St. Louis Cardinals | In Progress | Chris Sale | Kyle Leahy | 0-0 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Shane Bieber | JP Sears | 5-2 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 6-2 |
-| Colorado Rockies at San Francisco Giants | Manager challenge | Tanner Gordon | Robbie Ray | 1-1 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 8-2 |
+| Colorado Rockies at San Francisco Giants | In Progress | Tanner Gordon | Robbie Ray | 1-1 |
 | Milwaukee Brewers at Pittsburgh Pirates | Postponed | Brandon Sproat | Braxton Ashcraft |  |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -136, St. Louis Cardinals +104 |
-| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees -2200, Washington Nationals +820 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +600, Toronto Blue Jays -1200 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks -505, Los Angeles Dodgers +336 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +120, San Francisco Giants -157 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -144, St. Louis Cardinals +111 |
+| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | none |
+| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +850, Toronto Blue Jays -2400 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks -4100, Los Angeles Dodgers +1040 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies -176, San Francisco Giants +134 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -115, Chicago White Sox -105 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +153, Minnesota Twins -186 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -199, Washington Nationals +163 |
 | Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:00Z | Colorado Rockies +130, San Francisco Giants -157 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:06:00Z | Milwaukee Brewers -126, Pittsburgh Pirates +105 |
 | Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | none |
 | Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians +124, Miami Marlins -149 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:11:00Z | Seattle Mariners -105, Tampa Bay Rays -115 |

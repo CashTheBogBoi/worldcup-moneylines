@@ -1,6 +1,6 @@
 # Daily Review - 2026-07-10
 
-Generated: 2026-07-11T03:45:11.655Z
+Generated: 2026-07-11T03:58:02.862Z
 
 ## Executive Read
 - Tracked picks reviewed: 9
@@ -62,11 +62,11 @@ _No saved gate blockers on reviewed picks yet._
 - No specific pattern detected yet; add manual context if news/injuries mattered.
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** New York Yankees at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** New York Yankees at Washington Nationals — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / High / Market move / pending:** Toronto Blue Jays at San Diego Padres — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / High / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Colorado Rockies at San Francisco Giants — Game status is Manager challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Colorado Rockies at San Francisco Giants — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / High / Market move / pending:** Milwaukee Brewers at Pittsburgh Pirates — Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Soccer / Medium / Market move / pending:** Spain at France — Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 

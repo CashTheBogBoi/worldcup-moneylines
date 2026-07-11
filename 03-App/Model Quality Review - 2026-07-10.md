@@ -1,6 +1,6 @@
 # Model Quality Review - 2026-07-10
 
-Generated: 2026-07-11T03:45:11.817Z
+Generated: 2026-07-11T03:58:03.026Z
 
 ## Executive Read
 - Reviewed picks: 9
@@ -11,7 +11,7 @@ Generated: 2026-07-11T03:45:11.817Z
 - Average Brier (blend): 0.220
 - Model-only vs market Brier: 0.227 vs 0.223 (model must be LOWER to earn blend weight)
 - High-confidence misses: 0
-- Latest data snapshot: 2026-07-11T03:45:05.779Z
+- Latest data snapshot: 2026-07-11T03:57:57.062Z
 
 ## Sport Quality
 | Sport | Picks | Settled | Win % | Avg CLV | Brier |
