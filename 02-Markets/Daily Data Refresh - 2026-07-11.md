@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-11T21:30:05.854Z
+Generated: 2026-07-11T21:43:18.996Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -22,7 +22,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 - **High MLB Market move** — Milwaukee Brewers at Pittsburgh Pirates: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — New York Yankees at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Washington Nationals: Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Boston Red Sox at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Seattle Mariners at Tampa Bay Rays: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Cleveland Guardians at Miami Marlins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -33,11 +33,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Milwaukee Brewers at Pittsburgh Pirates | Final | Brandon Sproat | Braxton Ashcraft | 6-7 |
-| Milwaukee Brewers at Pittsburgh Pirates | In Progress | Shane Drohan | Bubba Chandler | 0-2 |
+| Milwaukee Brewers at Pittsburgh Pirates | In Progress | Shane Drohan | Bubba Chandler | 2-2 |
 | Los Angeles Angels at Minnesota Twins | Final | Ryan Johnson | Joe Ryan | 3-5 |
 | Athletics at Chicago White Sox | Final | Gage Jump | Bryan Hudson | 0-1 |
-| Colorado Rockies at San Francisco Giants | In Progress | Kyle Freeland | Tyler Mahle | 1-0 |
-| New York Yankees at Washington Nationals | In Progress | Cam Schlittler | PJ Poulin | 0-2 |
+| Colorado Rockies at San Francisco Giants | In Progress | Kyle Freeland | Tyler Mahle | 1-4 |
+| New York Yankees at Washington Nationals | Player challenge | Cam Schlittler | PJ Poulin | 0-2 |
 | Boston Red Sox at New York Mets | In Progress | Eduardo Rivera | Freddy Peralta | 2-0 |
 | Seattle Mariners at Tampa Bay Rays | In Progress | Logan Gilbert | Griffin Jax | 1-2 |
 | Cleveland Guardians at Miami Marlins | In Progress | Tanner Bibee | Eury Pérez | 2-0 |
@@ -46,23 +46,22 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Texas Rangers | Pre-Game | Peter Lambert | Kumar Rocker | 0-0 |
 | Chicago Cubs at Cincinnati Reds | Pre-Game | Javier Assad | Nick Lodolo | 0-0 |
 | Atlanta Braves at St. Louis Cardinals | Pre-Game | Reynaldo López | Matthew Liberatore | 0-0 |
-| Toronto Blue Jays at San Diego Padres | Pre-Game | Trey Yesavage | Walker Buehler |  |
+| Toronto Blue Jays at San Diego Padres | Pre-Game | Trey Yesavage | Walker Buehler | 0-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | Pre-Game | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Los Angeles Angels at Minnesota Twins | 2026-07-11T18:37:00Z | Los Angeles Angels +790, Minnesota Twins -1980 |
-| New York Yankees at Washington Nationals | 2026-07-11T20:05:50Z | New York Yankees +227, Washington Nationals -315 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:07Z | Colorado Rockies +116, San Francisco Giants -151 |
-| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox -402, New York Mets +280 |
-| Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians -273, Miami Marlins +201 |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:16:00Z | Milwaukee Brewers +160, Pittsburgh Pirates -212 |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:35:00Z | Seattle Mariners +301, Tampa Bay Rays -438 |
+| New York Yankees at Washington Nationals | 2026-07-11T20:05:50Z | New York Yankees +207, Washington Nationals -283 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:07Z | Colorado Rockies +660, San Francisco Giants -1380 |
+| Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | Boston Red Sox -579, New York Mets +373 |
+| Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians -291, Miami Marlins +213 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-11T20:16:00Z | Milwaukee Brewers -121, Pittsburgh Pirates -107 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:35:00Z | Seattle Mariners +277, Tampa Bay Rays -398 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +123, Philadelphia Phillies -148 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -162, Kansas City Royals +134 |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros +101, Texas Rangers -122 |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros +102, Texas Rangers -123 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -102, Cincinnati Reds -118 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:15:00Z | Atlanta Braves -107, St. Louis Cardinals -112 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -108 |
@@ -75,7 +74,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics -102, Chicago White Sox -118 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +130, San Francisco Giants -157 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +129, San Francisco Giants -156 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +168, Los Angeles Dodgers -205 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +104, Toronto Blue Jays -126 |
 
@@ -83,7 +82,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| England at Norway | 2026-07-11T21:01:00Z | England -140, Norway +425, Draw +255 |
+| England at Norway | 2026-07-11T21:01:00Z | England +240, Norway +120, Draw +225 |
 | Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +450, Draw +255 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +215, Draw +225 |
 
