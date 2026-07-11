@@ -1,12 +1,12 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T03:08:06.555Z
+Updated: 2026-07-11T03:11:38.175Z
 
 ## Summary
 - Total tracked picks: 58
-- Pending: 7
-- Graded: 51
-- Wins: 15
+- Pending: 6
+- Graded: 52
+- Wins: 16
 - Losses: 35
 - Draws: 1
 - Intel review decisions saved: 22
@@ -19,7 +19,7 @@ Updated: 2026-07-11T03:08:06.555Z
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | pending | +124 | +122 | 0.4 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | pending | +167 | +167 | 0.0 pts | 39.4% | 25% strength model + 75% market no-vig |
 | Soccer | France vs Spain | France | pending | +135 | +135 | 0.0 pts | 44.3% | 25% strength model + 75% market no-vig |
-| MLB | New York Mets vs Boston Red Sox | Boston Red Sox | pending | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
+| MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
@@ -33,7 +33,7 @@ Updated: 2026-07-11T03:08:06.555Z
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | loss | +114 | +110 | 0.9 pts | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | pending | +313 | +323 | -0.6 pts | 27.1% | 36% strength model + 64% market no-vig |
+| Soccer | Norway vs England | Norway | pending | +313 | +320 | -0.4 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
@@ -83,37 +83,36 @@ Updated: 2026-07-11T03:08:06.555Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 33 | 26 | 19.2% | 0.1 pts | 0.183 | 0.0% |
+| Passed gate | 33 | 27 | 22.2% | 0.1 pts | 0.187 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T03:08:05.726Z
-- Current candidates: 51
-- Passed / blocked: 5 / 46
+- Saved: 2026-07-11T03:11:37.357Z
+- Current candidates: 49
+- Passed / blocked: 5 / 44
 
 ### Top Blockers
 - Minimum edge: 40
-- Positive EV: 34
-- Beats consensus: 26
-- Model ready: 16
-- Pregame: 14
+- Positive EV: 33
+- Beats consensus: 25
+- Model ready: 14
+- Pregame: 12
 - DraftKings line: 4
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | New York Mets | New York Mets vs Boston Red Sox | Game too stale/live | +3300 | 8.6% | $193.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Minnesota Twins | Minnesota Twins vs Los Angeles Angels | Game too stale/live | +525 | 24.5% | $53.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | Washington Nationals vs New York Yankees | Game too stale/live | +280 | 31.8% | $20.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +230 | 33.9% | $12.02 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +254 | 31.1% | $10.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 30.8% | $3.60 | Edge under 1.5% — inside vig noise. |
+| MLB | New York Mets | New York Mets vs Boston Red Sox | Game too stale/live | +3300 | 8.6% | $191.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +475 | 22.8% | $31.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +320 | 27.9% | $17.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Yankees | Washington Nationals vs New York Yankees | Game too stale/live | +322 | 27.3% | $15.26 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 30.8% | $3.59 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -102 | 51.8% | $2.56 | Edge under 1.5% — inside vig noise. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Game too stale/live | -280 | 75.5% | $2.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +132 | 44.1% | $2.25 | Confirm probable starters or use the manual starter override. |
 | MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +145 | 41.6% | $1.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +132 | 44.0% | $1.98 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.2% | $1.11 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +136 | 42.7% | $0.73 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.2% | $1.12 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +180 | 36.0% | $0.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +136 | 42.6% | $0.64 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T03:08:05.718Z",
+  "updatedAt": "2026-07-11T03:11:37.332Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -21,6 +21,15 @@
         "news": "Local snapshot: 51-42, 4.82 RS/G, 3.90 RA/G.",
         "auto": true
       },
+      "boston red sox": {
+        "team": "Boston Red Sox",
+        "xgFor": 4.108695652173913,
+        "xgAgainst": 3.869565217391304,
+        "form": 4.779999999999999,
+        "homeEdge": 0,
+        "news": "Local snapshot: 44-48, 4.11 RS/G, 3.87 RA/G.",
+        "auto": true
+      },
       "toronto blue jays": {
         "team": "Toronto Blue Jays",
         "xgFor": 4.043010752688172,
@@ -28,15 +37,6 @@
         "form": 4.7299999999999995,
         "homeEdge": 0,
         "news": "Local snapshot: 44-49, 4.04 RS/G, 4.42 RA/G.",
-        "auto": true
-      },
-      "boston red sox": {
-        "team": "Boston Red Sox",
-        "xgFor": 4.087912087912088,
-        "xgAgainst": 3.89010989010989,
-        "form": 4.7299999999999995,
-        "homeEdge": 0,
-        "news": "Local snapshot: 43-48, 4.09 RS/G, 3.89 RA/G.",
         "auto": true
       },
       "baltimore orioles": {
@@ -68,11 +68,11 @@
       },
       "minnesota twins": {
         "team": "Minnesota Twins",
-        "xgFor": 4.882978723404255,
-        "xgAgainst": 5.0638297872340425,
-        "form": 4.89,
+        "xgFor": 4.863157894736842,
+        "xgAgainst": 5.052631578947368,
+        "form": 4.84,
         "homeEdge": 0,
-        "news": "Local snapshot: 46-48, 4.88 RS/G, 5.06 RA/G.",
+        "news": "Local snapshot: 46-49, 4.86 RS/G, 5.05 RA/G.",
         "auto": true
       },
       "detroit tigers": {
@@ -131,11 +131,11 @@
       },
       "los angeles angels": {
         "team": "Los Angeles Angels",
-        "xgFor": 4.4787234042553195,
-        "xgAgainst": 5.031914893617022,
-        "form": 3.9400000000000004,
+        "xgFor": 4.473684210526316,
+        "xgAgainst": 5.010526315789473,
+        "form": 4,
         "homeEdge": 0,
-        "news": "Local snapshot: 37-57, 4.48 RS/G, 5.03 RA/G.",
+        "news": "Local snapshot: 38-57, 4.47 RS/G, 5.01 RA/G.",
         "auto": true
       },
       "atlanta braves": {
@@ -176,11 +176,11 @@
       },
       "new york mets": {
         "team": "New York Mets",
-        "xgFor": 4.191489361702128,
-        "xgAgainst": 4.787234042553192,
-        "form": 4.26,
+        "xgFor": 4.168421052631579,
+        "xgAgainst": 4.8,
+        "form": 4.21,
         "homeEdge": 0,
-        "news": "Local snapshot: 40-54, 4.19 RS/G, 4.79 RA/G.",
+        "news": "Local snapshot: 40-55, 4.17 RS/G, 4.80 RA/G.",
         "auto": true
       },
       "milwaukee brewers": {
@@ -1705,13 +1705,13 @@
         "pitcher": "Nolan McLean",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-10::boston red sox": {
         "pitcher": "Sonny Gray",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-10::chicago white sox": {
         "pitcher": "Sean Burke",
@@ -1741,13 +1741,13 @@
         "pitcher": "Zebby Matthews",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-10::los angeles angels": {
         "pitcher": "Grayson Rodriguez",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-10::st. louis cardinals": {
         "pitcher": "Kyle Leahy",
@@ -1954,10 +1954,14 @@
       "tampa bay rays": "win",
       "cleveland guardians": "win",
       "miami marlins": "loss",
+      "boston red sox": "win",
+      "new york mets": "loss",
       "athletics": "loss",
       "chicago white sox": "win",
       "houston astros": "loss",
-      "texas rangers": "win"
+      "texas rangers": "win",
+      "los angeles angels": "win",
+      "minnesota twins": "loss"
     },
     "fifaMensRankings": [
       {
@@ -5318,10 +5322,10 @@
       "spain": 0.2135
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-11T03:08:05.718Z",
-      "mlbStarters": "2026-07-11T03:08:05.718Z",
-      "mlbLastResults": "2026-07-11T03:08:05.718Z",
-      "fifaMensRankings": "2026-07-11T03:08:05.718Z",
+      "mlbTeamRatings": "2026-07-11T03:11:37.332Z",
+      "mlbStarters": "2026-07-11T03:11:37.332Z",
+      "mlbLastResults": "2026-07-11T03:11:37.332Z",
+      "fifaMensRankings": "2026-07-11T03:11:37.332Z",
       "kalshi": "2026-07-10T23:34:15.814Z",
       "mlbBullpen": "2026-07-10T23:34:15.814Z",
       "openingLines": "2026-07-10T23:34:15.814Z"
@@ -23135,6 +23139,15 @@
           "news": "Local snapshot: 51-42, 4.82 RS/G, 3.90 RA/G.",
           "auto": true
         },
+        "boston red sox": {
+          "team": "Boston Red Sox",
+          "xgFor": 4.108695652173913,
+          "xgAgainst": 3.869565217391304,
+          "form": 4.779999999999999,
+          "homeEdge": 0,
+          "news": "Local snapshot: 44-48, 4.11 RS/G, 3.87 RA/G.",
+          "auto": true
+        },
         "toronto blue jays": {
           "team": "Toronto Blue Jays",
           "xgFor": 4.043010752688172,
@@ -23142,15 +23155,6 @@
           "form": 4.7299999999999995,
           "homeEdge": 0,
           "news": "Local snapshot: 44-49, 4.04 RS/G, 4.42 RA/G.",
-          "auto": true
-        },
-        "boston red sox": {
-          "team": "Boston Red Sox",
-          "xgFor": 4.087912087912088,
-          "xgAgainst": 3.89010989010989,
-          "form": 4.7299999999999995,
-          "homeEdge": 0,
-          "news": "Local snapshot: 43-48, 4.09 RS/G, 3.89 RA/G.",
           "auto": true
         },
         "baltimore orioles": {
@@ -23182,11 +23186,11 @@
         },
         "minnesota twins": {
           "team": "Minnesota Twins",
-          "xgFor": 4.882978723404255,
-          "xgAgainst": 5.0638297872340425,
-          "form": 4.89,
+          "xgFor": 4.863157894736842,
+          "xgAgainst": 5.052631578947368,
+          "form": 4.84,
           "homeEdge": 0,
-          "news": "Local snapshot: 46-48, 4.88 RS/G, 5.06 RA/G.",
+          "news": "Local snapshot: 46-49, 4.86 RS/G, 5.05 RA/G.",
           "auto": true
         },
         "detroit tigers": {
@@ -23245,11 +23249,11 @@
         },
         "los angeles angels": {
           "team": "Los Angeles Angels",
-          "xgFor": 4.4787234042553195,
-          "xgAgainst": 5.031914893617022,
-          "form": 3.9400000000000004,
+          "xgFor": 4.473684210526316,
+          "xgAgainst": 5.010526315789473,
+          "form": 4,
           "homeEdge": 0,
-          "news": "Local snapshot: 37-57, 4.48 RS/G, 5.03 RA/G.",
+          "news": "Local snapshot: 38-57, 4.47 RS/G, 5.01 RA/G.",
           "auto": true
         },
         "atlanta braves": {
@@ -23290,11 +23294,11 @@
         },
         "new york mets": {
           "team": "New York Mets",
-          "xgFor": 4.191489361702128,
-          "xgAgainst": 4.787234042553192,
-          "form": 4.26,
+          "xgFor": 4.168421052631579,
+          "xgAgainst": 4.8,
+          "form": 4.21,
           "homeEdge": 0,
-          "news": "Local snapshot: 40-54, 4.19 RS/G, 4.79 RA/G.",
+          "news": "Local snapshot: 40-55, 4.17 RS/G, 4.80 RA/G.",
           "auto": true
         },
         "milwaukee brewers": {

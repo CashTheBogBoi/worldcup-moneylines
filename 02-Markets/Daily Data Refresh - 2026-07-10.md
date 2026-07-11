@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-11T02:56:00.744Z
+Generated: 2026-07-11T03:11:29.517Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,8 +21,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — New York Yankees at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Boston Red Sox at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Los Angeles Angels at Minnesota Twins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -40,12 +38,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Chicago Cubs at Cincinnati Reds | Final | Shota Imanaga | Hunter Greene | 0-4 |
 | Seattle Mariners at Tampa Bay Rays | Final | Luis Castillo | Nick Martinez | 2-7 |
 | Cleveland Guardians at Miami Marlins | Final | Parker Messick | Sandy Alcantara | 3-2 |
-| Boston Red Sox at New York Mets | In Progress | Sonny Gray | Nolan McLean | 6-1 |
+| Boston Red Sox at New York Mets | Final | Sonny Gray | Nolan McLean | 6-2 |
 | Athletics at Chicago White Sox | Final | Jacob Lopez | Sean Burke | 1-14 |
 | Houston Astros at Texas Rangers | Final | Hunter Brown | Cal Quantrill | 3-7 |
-| Los Angeles Angels at Minnesota Twins | In Progress | Grayson Rodriguez | Zebby Matthews | 4-3 |
+| Los Angeles Angels at Minnesota Twins | Final | Grayson Rodriguez | Zebby Matthews | 4-3 |
 | Atlanta Braves at St. Louis Cardinals | Delayed | Chris Sale | Kyle Leahy | 0-0 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Shane Bieber | JP Sears | 1-2 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Shane Bieber | JP Sears | 5-2 |
 | Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 2-2 |
 | Colorado Rockies at San Francisco Giants | In Progress | Tanner Gordon | Robbie Ray | 0-1 |
 | Milwaukee Brewers at Pittsburgh Pirates | Postponed | Brandon Sproat | Braxton Ashcraft |  |
@@ -55,16 +53,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Boston Red Sox at New York Mets | 2026-07-10T23:50:00Z | none |
-| Los Angeles Angels at Minnesota Twins | 2026-07-11T00:11:00Z | Los Angeles Angels -940, Minnesota Twins +524 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -160, St. Louis Cardinals +122 |
-| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees +225, Washington Nationals -310 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres -275, Toronto Blue Jays +202 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +140, Los Angeles Dodgers -184 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +254, San Francisco Giants -358 |
+| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees +322, Washington Nationals -479 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +419, Toronto Blue Jays -680 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks +155, Los Angeles Dodgers -206 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +261, San Francisco Giants -369 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -115, Chicago White Sox -105 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +153, Minnesota Twins -186 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -199, Washington Nationals +163 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:00Z | Colorado Rockies +129, San Francisco Giants -156 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T20:06:00Z | Colorado Rockies +130, San Francisco Giants -157 |
 | Boston Red Sox at New York Mets | 2026-07-11T20:11:00Z | none |
 | Cleveland Guardians at Miami Marlins | 2026-07-11T20:11:00Z | Cleveland Guardians +124, Miami Marlins -149 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-11T20:11:00Z | Seattle Mariners -105, Tampa Bay Rays -115 |
