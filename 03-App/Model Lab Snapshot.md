@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T03:27:03.233Z
+Updated: 2026-07-11T03:43:03.208Z
 
 ## Summary
 - Total tracked picks: 58
@@ -87,12 +87,12 @@ Updated: 2026-07-11T03:27:03.233Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T03:27:02.290Z
+- Saved: 2026-07-11T03:43:02.266Z
 - Current candidates: 47
 - Passed / blocked: 5 / 42
 
 ### Top Blockers
-- Minimum edge: 38
+- Minimum edge: 37
 - Positive EV: 32
 - Beats consensus: 24
 - Model ready: 12
@@ -102,15 +102,15 @@ Updated: 2026-07-11T03:27:03.233Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +625 | 19.3% | $39.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | Washington Nationals vs New York Yankees | Game too stale/live | +450 | 24.5% | $34.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +210 | 38.6% | $19.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +270 | 29.9% | $10.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 31.0% | $4.20 | Edge under 1.5% — inside vig noise. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +145 | 42.1% | $3.18 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -102 | 51.7% | $2.43 | Edge under 1.5% — inside vig noise. |
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +132 | 44.1% | $2.25 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.2% | $1.18 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +1200 | 14.2% | $84.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +750 | 18.1% | $53.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +365 | 28.8% | $33.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +225 | 35.3% | $14.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | -143 | 64.7% | $9.95 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +236 | 31.0% | $4.07 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -102 | 51.7% | $2.35 | Edge under 1.5% — inside vig noise. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +132 | 43.9% | $1.87 | Confirm probable starters or use the manual starter override. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +158 | 39.4% | $1.62 | Edge under 1.5% — inside vig noise. |
 | MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Minimum edge | +136 | 42.6% | $0.64 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
