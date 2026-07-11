@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-10
 
-Generated: 2026-07-11T03:42:23.294Z
+Generated: 2026-07-11T03:45:05.779Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -24,7 +24,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is Delayed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is Manager challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Milwaukee Brewers at Pittsburgh Pirates: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 
@@ -45,18 +45,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Atlanta Braves at St. Louis Cardinals | Delayed | Chris Sale | Kyle Leahy | 0-0 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Shane Bieber | JP Sears | 5-2 |
 | Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Eduardo Rodriguez | Kyle Hurt | 6-2 |
-| Colorado Rockies at San Francisco Giants | In Progress | Tanner Gordon | Robbie Ray | 1-1 |
+| Colorado Rockies at San Francisco Giants | Manager challenge | Tanner Gordon | Robbie Ray | 1-1 |
 | Milwaukee Brewers at Pittsburgh Pirates | Postponed | Brandon Sproat | Braxton Ashcraft |  |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -171, St. Louis Cardinals +131 |
-| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees -1820, Washington Nationals +760 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +620, Toronto Blue Jays -1260 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks -484, Los Angeles Dodgers +325 |
-| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +193, San Francisco Giants -261 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T00:16:05Z | Atlanta Braves -136, St. Louis Cardinals +104 |
+| New York Yankees at Washington Nationals | 2026-07-11T00:46:00Z | New York Yankees -2200, Washington Nationals +820 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-11T01:41:00Z | San Diego Padres +600, Toronto Blue Jays -1200 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-11T02:11:00Z | Arizona Diamondbacks -505, Los Angeles Dodgers +336 |
+| Colorado Rockies at San Francisco Giants | 2026-07-11T02:16:00Z | Colorado Rockies +120, San Francisco Giants -157 |
 | Athletics at Chicago White Sox | 2026-07-11T18:11:00Z | Athletics -115, Chicago White Sox -105 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-11T18:11:00Z | Los Angeles Angels +153, Minnesota Twins -186 |
 | New York Yankees at Washington Nationals | 2026-07-11T20:05:00Z | New York Yankees -199, Washington Nationals +163 |
@@ -69,7 +69,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros +102, Texas Rangers -122 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -122, Cincinnati Reds +101 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:15:00Z | Atlanta Braves -119, St. Louis Cardinals -102 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -126, Toronto Blue Jays +104 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -122, Toronto Blue Jays +101 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +225, Los Angeles Dodgers -282 |
 
 ## DraftKings Soccer odds snapshot
