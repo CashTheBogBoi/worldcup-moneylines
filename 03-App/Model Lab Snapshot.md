@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T05:09:13.241Z
+Updated: 2026-07-11T12:47:30.196Z
 
 ## Summary
-- Total tracked picks: 58
-- Pending: 6
+- Total tracked picks: 59
+- Pending: 7
 - Graded: 52
 - Wins: 16
 - Losses: 35
@@ -15,16 +15,17 @@ Updated: 2026-07-11T05:09:13.241Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +239 | - | - | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
-| MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | pending | +124 | +122 | 0.4 pts | 47.4% | 25% strength model + 75% market no-vig |
-| MLB | Washington Nationals vs New York Yankees | Washington Nationals | pending | +167 | +167 | 0.0 pts | 39.4% | 25% strength model + 75% market no-vig |
-| Soccer | France vs Spain | France | pending | +135 | +135 | 0.0 pts | 44.3% | 25% strength model + 75% market no-vig |
+| MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | pending | +124 | +118 | 1.2 pts | 47.4% | 25% strength model + 75% market no-vig |
+| MLB | Washington Nationals vs New York Yankees | Washington Nationals | pending | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | pending | +135 | +136 | -0.2 pts | 44.3% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +500 | -1.2 pts | 20.8% | 31% strength model + 69% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +490 | -0.9 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
@@ -33,7 +34,7 @@ Updated: 2026-07-11T05:09:13.241Z
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | loss | +114 | +110 | 0.9 pts | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | pending | +313 | +320 | -0.4 pts | 27.1% | 36% strength model + 64% market no-vig |
+| Soccer | Norway vs England | Norway | pending | +313 | +300 | 0.8 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
@@ -54,7 +55,6 @@ Updated: 2026-07-11T05:09:13.241Z
 | Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 | Soccer | Argentina vs Cape Verde | Draw | loss | +700 | +765 | -0.9 pts | 12.5% | Odds API no-vig only |
 | Soccer | Canada vs Morocco | Canada | loss | +440 | +440 | 0.0 pts | 19.2% | Odds API no-vig only |
-| Soccer | Argentina vs Cape Verde | Cape Verde | loss | +1900 | +2200 | -0.7 pts | 5.2% | Odds API no-vig only |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,34 +83,29 @@ Updated: 2026-07-11T05:09:13.241Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 33 | 27 | 22.2% | 0.1 pts | 0.187 | 0.0% |
+| Passed gate | 34 | 27 | 22.2% | 0.1 pts | 0.187 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T05:09:11.971Z
-- Current candidates: 49
-- Passed / blocked: 3 / 46
+- Saved: 2026-07-11T12:47:29.244Z
+- Current candidates: 41
+- Passed / blocked: 5 / 36
 
 ### Top Blockers
-- Minimum edge: 41
-- Model ready: 40
-- Pregame: 40
-- Positive EV: 37
-- Beats consensus: 25
-- DraftKings line: 4
+- Minimum edge: 35
+- Positive EV: 31
+- Beats consensus: 21
+- DraftKings line: 2
+- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +3000 | 10.1% | $214.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +1400 | 15.6% | $133.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1060 | 15.7% | $82.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +100 | 57.3% | $14.66 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | +150 | 42.7% | $6.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +236 | 30.2% | $1.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +167 | 38.0% | $1.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +122 | 45.5% | $0.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +124 | 44.7% | $0.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Needs starter | +135 | 44.6% | $4.83 | Confirm probable starters or use the manual starter override. |
+| Soccer | France | France vs Spain | Minimum edge | +136 | 43.8% | $3.47 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -104 | 52.3% | $2.54 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Minimum edge | +156 | 39.9% | $2.10 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Needs DraftKings line | +105 | 48.9% | $0.29 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
