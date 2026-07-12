@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-12T16:51:08.463Z",
+  "savedAt": "2026-07-12T17:11:09.459Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -892,7 +892,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-12T16:51:08.423Z",
+      "closedAt": "2026-07-12T17:11:09.417Z",
       "autoClosed": true
     },
     {
@@ -6633,7 +6633,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-12T16:51:08.459Z",
+    "savedAt": "2026-07-12T17:11:09.454Z",
     "totalCandidates": 36,
     "passed": 1,
     "blocked": 35,
@@ -6643,49 +6643,23 @@
         "count": 35
       },
       {
+        "label": "Model ready",
+        "count": 30
+      },
+      {
         "label": "Positive EV",
-        "count": 26
+        "count": 30
+      },
+      {
+        "label": "Pregame",
+        "count": 30
       },
       {
         "label": "Beats consensus",
         "count": 19
-      },
-      {
-        "label": "Model ready",
-        "count": 2
-      },
-      {
-        "label": "Pregame",
-        "count": 2
       }
     ],
     "watchlist": [
-      {
-        "sport": "MLB",
-        "match": "St. Louis Cardinals vs Atlanta Braves",
-        "selection": "Atlanta Braves",
-        "book": "LowVig.ag",
-        "price": 119,
-        "probability": 0.46916561711026333,
-        "ev": 2.747270147147674,
-        "edge": 0.012544612544053313,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "San Diego Padres vs Toronto Blue Jays",
-        "selection": "San Diego Padres",
-        "book": "BetMGM",
-        "price": 115,
-        "probability": 0.4772042400140747,
-        "ev": 2.598911603026046,
-        "edge": 0.012087960944307252,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
       {
         "sport": "Soccer",
         "match": "England vs Argentina",
@@ -6695,19 +6669,6 @@
         "probability": 0.3802343189821179,
         "ev": 1.9027974872076001,
         "edge": 0.007099990623908925,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
-        "selection": "Arizona Diamondbacks",
-        "book": "BetOnline.ag",
-        "price": 195,
-        "probability": 0.3447011838739539,
-        "ev": 1.6868492428163933,
-        "edge": 0.005718133026496264,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6727,60 +6688,97 @@
       },
       {
         "sport": "MLB",
-        "match": "Texas Rangers vs Houston Astros",
-        "selection": "Houston Astros",
+        "match": "St. Louis Cardinals vs Atlanta Braves",
+        "selection": "Atlanta Braves",
+        "book": "LowVig.ag",
+        "price": 119,
+        "probability": 0.46093091343570786,
+        "ev": 0.9438700424200093,
+        "edge": 0.004309908869497836,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "San Diego Padres vs Toronto Blue Jays",
+        "selection": "San Diego Padres",
+        "book": "BetMGM",
+        "price": 115,
+        "probability": 0.46823592167140693,
+        "ev": 0.6707231593524838,
+        "edge": 0.003119642601639494,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
+        "selection": "Arizona Diamondbacks",
         "book": "BetOnline.ag",
-        "price": 127,
-        "probability": 0.44290751937807815,
-        "ev": 0.5400068988237408,
-        "edge": 0.0023788850168446896,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Washington Nationals vs New York Yankees",
-        "selection": "New York Yankees",
-        "book": "LowVig.ag",
-        "price": 105,
-        "probability": 0.49002232230160414,
-        "ev": 0.4545760718288534,
-        "edge": 0.0022174442528236638,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Miami Marlins vs Cleveland Guardians",
-        "selection": "Miami Marlins",
-        "book": "BetUS",
-        "price": -107,
-        "probability": 0.518678075065595,
-        "ev": 0.3423939612880105,
-        "edge": 0.001769862505208608,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Tampa Bay Rays vs Seattle Mariners",
-        "selection": "Seattle Mariners",
-        "book": "LowVig.ag",
-        "price": 131,
-        "probability": 0.43386927157763483,
-        "ev": 0.2238017344336498,
-        "edge": 0.0009688386772019331,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "price": 195,
+        "probability": 0.3395169792972771,
+        "ev": 0.15750889269675383,
+        "edge": 0.0005339284498194763,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       }
     ]
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783876269417",
+      "at": "2026-07-12T17:11:09.417Z",
+      "source": "local",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "FanDuel"
+            },
+            {
+              "name": "Draw",
+              "price": 234,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Spain",
+              "price": 233,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 168,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 211,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783875068423",
       "at": "2026-07-12T16:51:08.423Z",
@@ -8184,56 +8182,6 @@
     {
       "id": "snapshot-1783872248095",
       "at": "2026-07-12T16:04:08.095Z",
-      "source": "live",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 234,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Spain",
-              "price": 233,
-              "book": "LowVig.ag"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 168,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Argentina",
-              "price": 211,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783872187957",
-      "at": "2026-07-12T16:03:07.957Z",
       "source": "live",
       "eventCount": 2,
       "lines": [
