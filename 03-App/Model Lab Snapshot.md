@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T14:10:31.044Z
+Updated: 2026-07-12T14:20:26.039Z
 
 ## Summary
 - Total tracked picks: 61
@@ -15,13 +15,13 @@ Updated: 2026-07-12T14:10:31.044Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +110 | 0.4 pts | 48.9% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +112 | 0.0 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | win | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | loss | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | loss | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
-| Soccer | France vs Spain | France | pending | +135 | +133 | 0.4 pts | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | pending | +135 | +135 | 0.0 pts | 44.3% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
@@ -87,22 +87,25 @@ Updated: 2026-07-12T14:10:31.044Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T14:10:30.090Z
+- Saved: 2026-07-12T14:20:25.095Z
 - Current candidates: 36
-- Passed / blocked: 0 / 36
+- Passed / blocked: 1 / 35
 
 ### Top Blockers
-- Minimum edge: 36
-- Model ready: 36
-- Pregame: 36
-- Positive EV: 34
+- Minimum edge: 35
+- Positive EV: 28
 - Beats consensus: 19
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +193 | 34.2% | $0.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Game too stale/live | -120 | 54.6% | $0.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -120 | 55.8% | $2.31 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +195 | 34.6% | $2.03 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +112 | 48.0% | $1.87 | Edge under 1.5% — inside vig noise. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +112 | 47.6% | $0.95 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +112 | 47.5% | $0.79 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Minimum edge | -107 | 52.0% | $0.59 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.6% | $0.28 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
