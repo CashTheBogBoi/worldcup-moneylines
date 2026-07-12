@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T13:50:30.075Z
+Updated: 2026-07-12T14:10:31.044Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,22 +87,20 @@ Updated: 2026-07-12T13:50:30.075Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T13:50:29.159Z
+- Saved: 2026-07-12T14:10:30.090Z
 - Current candidates: 36
 - Passed / blocked: 0 / 36
 
 ### Top Blockers
 - Minimum edge: 36
-- Positive EV: 32
-- Model ready: 30
-- Pregame: 30
+- Model ready: 36
+- Pregame: 36
+- Positive EV: 34
 - Beats consensus: 19
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | France | France vs Spain | Minimum edge | +133 | 44.3% | $3.18 | Edge under 1.5% — inside vig noise. |
-| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.6% | $0.24 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +193 | 34.2% | $0.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs Athletics | Game too stale/live | -120 | 54.6% | $0.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
