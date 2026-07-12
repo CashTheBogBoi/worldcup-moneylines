@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-12T13:30:28.121Z",
+  "savedAt": "2026-07-12T13:50:29.163Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -103,7 +103,7 @@
       ],
       "note": "",
       "closeBook": "Caesars",
-      "closedAt": "2026-07-12T13:30:28.092Z",
+      "closedAt": "2026-07-12T13:50:29.122Z",
       "autoClosed": true
     },
     {
@@ -825,7 +825,7 @@
       ],
       "note": "",
       "closeBook": "BetRivers",
-      "closedAt": "2026-07-12T13:30:28.092Z",
+      "closedAt": "2026-07-12T13:50:29.122Z",
       "autoClosed": true
     },
     {
@@ -6566,7 +6566,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-12T13:30:28.118Z",
+    "savedAt": "2026-07-12T13:50:29.159Z",
     "totalCandidates": 36,
     "passed": 0,
     "blocked": 36,
@@ -6649,6 +6649,56 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783864229121",
+      "at": "2026-07-12T13:50:29.121Z",
+      "source": "local",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 133,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Draw",
+              "price": 230,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Spain",
+              "price": 233,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 160,
+              "book": "BetOnline.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 215,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783863028092",
       "at": "2026-07-12T13:30:28.092Z",
@@ -8494,56 +8544,6 @@
               "name": "Argentina",
               "price": 182,
               "book": "MyBookie.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783825692093",
-      "at": "2026-07-12T03:08:12.093Z",
-      "source": "local",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": 1600,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": -286,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 10000,
-              "book": "FanDuel"
-            }
-          ]
-        },
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 137,
-              "book": "LowVig.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 230,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Spain",
-              "price": 245,
-              "book": "BetRivers"
             }
           ]
         }
