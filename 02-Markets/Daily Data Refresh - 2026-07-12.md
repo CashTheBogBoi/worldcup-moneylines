@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T14:59:06.227Z
+Generated: 2026-07-12T15:14:16.815Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -33,12 +33,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Chicago Cubs at Cincinnati Reds | Pre-Game | Matthew Boyd | Andrew Abbott | 0-0 |
 | Boston Red Sox at New York Mets | Pre-Game | Payton Tolle | Zach Thornton | 0-0 |
 | Seattle Mariners at Tampa Bay Rays | Pre-Game | Emerson Hancock | Ian Seymour | 0-0 |
-| Philadelphia Phillies at Detroit Tigers | Pre-Game | Zack Wheeler | Tarik Skubal |  |
+| Philadelphia Phillies at Detroit Tigers | Pre-Game | Zack Wheeler | Tarik Skubal | 0-0 |
 | Cleveland Guardians at Miami Marlins | Pre-Game | Joey Cantillo | Tyler Phillips | 0-0 |
 | Los Angeles Angels at Minnesota Twins | Pre-Game | José Soriano | Taj Bradley |  |
-| Athletics at Chicago White Sox | Scheduled | J.T. Ginn | Noah Schultz |  |
-| Atlanta Braves at St. Louis Cardinals | Scheduled | JR Ritchie | Dustin May |  |
-| Houston Astros at Texas Rangers | Scheduled | Cristian Javier | MacKenzie Gore |  |
+| Athletics at Chicago White Sox | Pre-Game | J.T. Ginn | Noah Schultz |  |
+| Atlanta Braves at St. Louis Cardinals | Pre-Game | JR Ritchie | Dustin May | 0-0 |
+| Houston Astros at Texas Rangers | Pre-Game | Cristian Javier | MacKenzie Gore |  |
 | Colorado Rockies at San Francisco Giants | Scheduled | Michael Lorenzen | Trevor McDonald |  |
 | Arizona Diamondbacks at Los Angeles Dodgers | Scheduled | Mitch Bratt | Emmet Sheehan |  |
 | Toronto Blue Jays at San Diego Padres | Scheduled | Kevin Gausman | Germán Márquez |  |
@@ -47,9 +47,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +104, Pittsburgh Pirates -125 |
+| Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +108, Pittsburgh Pirates -130 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +123 |
-| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -105, Washington Nationals -115 |
+| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -107, Washington Nationals -113 |
 | Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -110, New York Mets -110 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-12T17:41:00Z | Chicago Cubs -131, Cincinnati Reds +108 |
 | Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -106, Miami Marlins -114 |
@@ -57,7 +57,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:41:00Z | Seattle Mariners +123, Tampa Bay Rays -148 |
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics +109, Chicago White Sox -132 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +105, St. Louis Cardinals -126 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +108, St. Louis Cardinals -131 |
 | Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +113, Texas Rangers -136 |
 | Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +119, San Francisco Giants -144 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +188, Los Angeles Dodgers -231 |

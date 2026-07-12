@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T15:00:08.386Z
+Updated: 2026-07-12T15:15:08.389Z
 
 ## Summary
 - Total tracked picks: 61
@@ -15,7 +15,7 @@ Updated: 2026-07-12T15:00:08.386Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +112 | 0.0 pts | 48.9% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +110 | 0.4 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | win | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
@@ -87,7 +87,7 @@ Updated: 2026-07-12T15:00:08.386Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T15:00:07.458Z
+- Saved: 2026-07-12T15:15:07.451Z
 - Current candidates: 36
 - Passed / blocked: 1 / 35
 
@@ -100,12 +100,12 @@ Updated: 2026-07-12T15:00:08.386Z
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +195 | 34.6% | $2.03 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +112 | 48.0% | $1.75 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Minimum edge | -106 | 52.0% | $1.06 | Edge under 1.5% — inside vig noise. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +112 | 47.6% | $0.95 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +112 | 47.6% | $0.89 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -125 | 55.9% | $0.65 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Minimum edge | -108 | 52.0% | $0.24 | Edge under 1.5% — inside vig noise. |
-| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.5% | $0.15 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -124 | 55.8% | $0.88 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +112 | 47.6% | $0.83 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +110 | 48.0% | $0.71 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.5% | $0.11 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
