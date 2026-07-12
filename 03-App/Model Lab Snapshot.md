@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T02:37:13.094Z
+Updated: 2026-07-12T02:52:13.090Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,32 +87,32 @@ Updated: 2026-07-12T02:37:13.094Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T02:37:12.127Z
+- Saved: 2026-07-12T02:52:12.117Z
 - Current candidates: 40
 - Passed / blocked: 1 / 39
 
 ### Top Blockers
-- Minimum edge: 35
-- Positive EV: 28
-- Beats consensus: 21
+- Minimum edge: 34
+- Positive EV: 26
+- Beats consensus: 20
 - Model ready: 15
 - Pregame: 7
-- DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | Switzerland | Argentina vs Switzerland | Game too stale/live | +2800 | 8.7% | $151.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Draw | Argentina vs Switzerland | Game too stale/live | +400 | 40.0% | $99.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +850 | 16.2% | $53.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Argentina | Argentina vs Switzerland | Game too stale/live | +105 | 51.4% | $5.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +1200 | 16.5% | $114.44 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Switzerland | Argentina vs Switzerland | Game too stale/live | +2800 | 7.1% | $105.35 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +700 | 17.1% | $37.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Draw | Argentina vs Switzerland | Game too stale/live | -110 | 58.5% | $11.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Argentina | Argentina vs Switzerland | Game too stale/live | +210 | 34.5% | $6.81 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +110 | 48.8% | $2.47 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -112 | 53.9% | $2.04 | Edge under 1.5% — inside vig noise. |
 | MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +118 | 46.5% | $1.31 | Edge under 1.5% — inside vig noise. |
 | MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Needs starter | -108 | 52.5% | $1.10 | Confirm probable starters or use the manual starter override. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +110 | 47.9% | $0.51 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +188 | 34.8% | $0.17 | Edge under 1.5% — inside vig noise. |
-| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Minimum edge | -108 | 52.0% | $0.11 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +188 | 34.9% | $0.44 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | -500 | 83.5% | $0.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

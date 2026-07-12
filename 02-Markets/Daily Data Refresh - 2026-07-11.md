@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T02:36:27.841Z
+Generated: 2026-07-12T02:51:48.967Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -43,14 +43,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Chicago Cubs at Cincinnati Reds | Final | Javier Assad | Nick Lodolo | 5-3 |
 | Atlanta Braves at St. Louis Cardinals | Final | Reynaldo López | Matthew Liberatore | 1-4 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-7 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 1-0 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 6-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -1220, Toronto Blue Jays +670 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -112, Los Angeles Dodgers -116 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -920, Toronto Blue Jays +559 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -4700, Los Angeles Dodgers +1080 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +100, Pittsburgh Pirates -120 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -114, Washington Nationals -105 |
@@ -62,7 +62,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics -102, Chicago White Sox -118 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | none |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +109, Texas Rangers -131 |
 | Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +128, San Francisco Giants -155 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +178, Los Angeles Dodgers -219 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +104, Toronto Blue Jays -126 |
@@ -71,7 +71,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -105, Switzerland +1900, Draw +100 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina +200, Switzerland +2800, Draw -240 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
