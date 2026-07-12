@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T00:33:37.207Z
+Generated: 2026-07-12T00:48:58.183Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,11 +20,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Philadelphia Phillies at Detroit Tigers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Kansas City Royals at Baltimore Orioles: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Houston Astros at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Chicago Cubs at Cincinnati Reds: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **Medium Soccer Market move** — Switzerland at Argentina: Draw price is +230, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
@@ -40,32 +41,33 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Boston Red Sox at New York Mets | Final | Eduardo Rivera | Freddy Peralta | 4-0 |
 | Seattle Mariners at Tampa Bay Rays | Final | Logan Gilbert | Griffin Jax | 1-6 |
 | Cleveland Guardians at Miami Marlins | Final | Tanner Bibee | Eury Pérez | 4-1 |
-| Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 4-2 |
-| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-5 |
+| Philadelphia Phillies at Detroit Tigers | Final | Cristopher Sánchez | Casey Mize | 4-2 |
+| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 1-5 |
 | Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 7-1 |
-| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 1-2 |
+| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 2-2 |
 | Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-4 |
-| Toronto Blue Jays at San Diego Padres | Warmup | Trey Yesavage | Walker Buehler | 0-0 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Pre-Game | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 0-0 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Warmup | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +1040, Philadelphia Phillies -4300 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | none |
 | Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | none |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -9100, Texas Rangers +1240 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs +220, Cincinnati Reds -303 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +1020, St. Louis Cardinals -3900 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -110, Toronto Blue Jays -110 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +241, Los Angeles Dodgers -302 |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | none |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -140, Cincinnati Reds +107 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +1180, St. Louis Cardinals -7400 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -155, Toronto Blue Jays +119 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +243, Los Angeles Dodgers -306 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | none |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +124 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | none |
+| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -115, New York Mets -105 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-12T17:41:00Z | Chicago Cubs -131, Cincinnati Reds +109 |
-| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | none |
+| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -108, Miami Marlins -112 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -112, Philadelphia Phillies -108 |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:41:00Z | Seattle Mariners +109, Tampa Bay Rays -131 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:41:00Z | Seattle Mariners +108, Tampa Bay Rays -131 |
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics -102, Chicago White Sox -118 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
@@ -77,7 +79,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +475, Draw +245 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -140, Switzerland +500, Draw +230 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
