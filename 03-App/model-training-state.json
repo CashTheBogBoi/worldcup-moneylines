@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "savedAt": "2026-07-12T04:41:03.142Z",
+  "savedAt": "2026-07-12T05:01:04.175Z",
   "modelPicks": [
     {
-      "id": "model-1783831263124-812991",
+      "id": "model-1783832464158-786111",
       "match": "England vs Argentina",
       "selection": "England",
       "selectionName": "England",
@@ -77,11 +77,11 @@
         "draftKingsPrice": 180,
         "draftKingsBook": "DraftKings"
       },
-      "readyGateTrackedAt": "2026-07-12T04:41:03.124Z",
+      "readyGateTrackedAt": "2026-07-12T05:01:04.158Z",
       "autoTracked": true,
       "priceHistory": [
         {
-          "at": "2026-07-12T04:41:03.124Z",
+          "at": "2026-07-12T05:01:04.158Z",
           "price": 200,
           "book": "Fanatics",
           "source": "open"
@@ -184,7 +184,7 @@
       ],
       "note": "",
       "closeBook": "FanDuel",
-      "closedAt": "2026-07-12T04:41:03.090Z",
+      "closedAt": "2026-07-12T05:01:04.109Z",
       "autoClosed": true
     },
     {
@@ -898,7 +898,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-12T04:41:03.090Z",
+      "closedAt": "2026-07-12T05:01:04.109Z",
       "autoClosed": true
     },
     {
@@ -6639,7 +6639,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-12T04:41:03.129Z",
+    "savedAt": "2026-07-12T05:01:04.163Z",
     "totalCandidates": 42,
     "passed": 2,
     "blocked": 40,
@@ -6726,6 +6726,72 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783832464108",
+      "at": "2026-07-12T05:01:04.108Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Argentina vs Switzerland",
+          "commenceTime": "2026-07-12T01:00:00Z",
+          "best": [
+            {
+              "name": "Argentina",
+              "price": null,
+              "book": ""
+            },
+            {
+              "name": "Switzerland",
+              "price": null,
+              "book": ""
+            }
+          ]
+        },
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 137,
+              "book": "LowVig.ag"
+            },
+            {
+              "name": "Draw",
+              "price": 230,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Spain",
+              "price": 245,
+              "book": "BetRivers"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 200,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 182,
+              "book": "MyBookie.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783831263090",
       "at": "2026-07-12T04:41:03.090Z",
@@ -8340,77 +8406,6 @@
               "name": "England",
               "price": 100,
               "book": "BetMGM"
-            }
-          ]
-        },
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": -138,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 256,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Switzerland",
-              "price": 500,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 230,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Spain",
-              "price": 230,
-              "book": "BetRivers"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783806252087",
-      "at": "2026-07-11T21:44:12.087Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Norway vs England",
-          "commenceTime": "2026-07-11T21:01:00Z",
-          "best": [
-            {
-              "name": "Norway",
-              "price": 125,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Draw",
-              "price": 225,
-              "book": "DraftKings"
-            },
-            {
-              "name": "England",
-              "price": 270,
-              "book": "FanDuel"
             }
           ]
         },
