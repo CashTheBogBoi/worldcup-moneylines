@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T19:25:29.806Z
+Updated: 2026-07-12T19:35:29.802Z
 
 ## Summary
 - Total tracked picks: 61
-- Pending: 2
-- Graded: 59
+- Pending: 1
+- Graded: 60
 - Wins: 18
-- Losses: 40
+- Losses: 41
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -15,7 +15,7 @@ Updated: 2026-07-12T19:25:29.806Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +116 | -0.9 pts | 48.9% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +112 | +116 | -0.9 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | win | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
@@ -83,37 +83,37 @@ Updated: 2026-07-12T19:25:29.806Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 36 | 34 | 23.5% | -0.1 pts | 0.191 | 0.0% |
+| Passed gate | 36 | 35 | 22.9% | -0.1 pts | 0.193 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T19:25:28.875Z
-- Current candidates: 36
-- Passed / blocked: 1 / 35
+- Saved: 2026-07-12T19:35:28.909Z
+- Current candidates: 34
+- Passed / blocked: 1 / 33
 
 ### Top Blockers
-- Minimum edge: 24
-- Model ready: 24
-- Pregame: 24
+- Minimum edge: 23
+- Model ready: 22
+- Pregame: 22
 - Beats consensus: 18
-- Positive EV: 18
-- DraftKings line: 4
+- Positive EV: 17
+- DraftKings line: 6
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +1800 | 15.2% | $189.70 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs Seattle Mariners | Game too stale/live | +2500 | 10.9% | $182.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Chicago White Sox vs Athletics | Game too stale/live | +1500 | 10.8% | $72.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Game too stale/live | +800 | 17.2% | $54.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +180 | 49.2% | $37.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Game too stale/live | +290 | 30.4% | $18.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Game too stale/live | +360 | 24.9% | $14.63 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Houston Astros | Texas Rangers vs Houston Astros | Game too stale/live | +255 | 31.1% | $10.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Philadelphia Phillies | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | -333 | 84.8% | $10.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Baltimore Orioles vs Kansas City Royals | Game too stale/live | +150 | 43.3% | $8.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Baltimore Orioles | Baltimore Orioles vs Kansas City Royals | Game too stale/live | -115 | 56.7% | $5.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +198 | 34.3% | $2.16 | Edge under 1.5% — inside vig noise. |
+| MLB | Tampa Bay Rays | Tampa Bay Rays vs Seattle Mariners | Game too stale/live | +3300 | 9.4% | $218.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Chicago White Sox vs Athletics | Game too stale/live | +3000 | 8.6% | $166.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +1900 | 12.5% | $150.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Boston Red Sox | New York Mets vs Boston Red Sox | Game too stale/live | +1200 | 13.4% | $74.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Game too stale/live | +425 | 27.1% | $42.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Texas Rangers vs Houston Astros | Game too stale/live | +600 | 19.1% | $33.59 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Game too stale/live | +310 | 32.4% | $32.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +130 | 54.1% | $24.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +145 | 45.9% | $12.58 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | -115 | 55.7% | $4.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Chicago Cubs | Game too stale/live | +181 | 36.6% | $2.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +199 | 34.2% | $2.32 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
