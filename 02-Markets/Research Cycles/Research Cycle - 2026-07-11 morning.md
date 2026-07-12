@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-11
 
-Generated: 2026-07-12T00:02:45.224Z
-Local time: 8:02 PM
+Generated: 2026-07-12T00:18:07.224Z
+Local time: 8:18 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,12 +13,12 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-12T00:01:16.176Z
+- Snapshot generated: 2026-07-12T00:18:01.457Z
 - MLB odds events: 20
 - Soccer odds events: 2
 - High-impact intel blocks: 5
 - Intel pending / confirmed / denied: 6 / 0 / 0
-- Pending tracked picks: 5
+- Pending tracked picks: 4
 - Tracked gate status passed / blocked / unknown: 35 / 0 / 25
 - Nightly review ran: no
 
@@ -35,30 +35,29 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 40 | San Diego Padres -112, Toronto Blue Jays -107 | 11 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 69 | Arizona Diamondbacks +230, Los Angeles Dodgers -287 | 11 |
-| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 975 | DK missing | 4 |
-| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1055 | Baltimore Orioles -149, Kansas City Royals +124 | 9 |
-| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 1055 | DK missing | 2 |
-| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1060 | Chicago Cubs -131, Cincinnati Reds +109 | 9 |
-| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 1060 | DK missing | 2 |
-| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1060 | Detroit Tigers -112, Philadelphia Phillies -108 | 9 |
-| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1060 | Seattle Mariners +109, Tampa Bay Rays -131 | 9 |
-| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1090 | Athletics -102, Chicago White Sox -118 | 9 |
-| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1090 | Los Angeles Angels +113, Minnesota Twins -136 | 9 |
-| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1095 | Atlanta Braves +113, St. Louis Cardinals -136 | 9 |
+| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 23 | San Diego Padres -112, Toronto Blue Jays -107 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 52 | Arizona Diamondbacks +241, Los Angeles Dodgers -302 | 11 |
+| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 958 | DK missing | 4 |
+| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1038 | Baltimore Orioles -149, Kansas City Royals +124 | 9 |
+| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 1038 | DK missing | 2 |
+| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1043 | Chicago Cubs -131, Cincinnati Reds +109 | 9 |
+| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 1043 | DK missing | 2 |
+| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1043 | Detroit Tigers -112, Philadelphia Phillies -108 | 9 |
+| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1043 | Seattle Mariners +109, Tampa Bay Rays -131 | 9 |
+| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1073 | Athletics -102, Chicago White Sox -118 | 9 |
+| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1073 | Los Angeles Angels +113, Minnesota Twins -136 | 9 |
+| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1078 | Atlanta Braves +113, St. Louis Cardinals -136 | 9 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Switzerland at Argentina | Jul 11, 9:00 PM | 59 | Argentina -140, Switzerland +450, Draw +245 | 10 |
-| Spain at France | Jul 14, 3:00 PM | 4019 | France +135, Spain +215, Draw +225 | 10 |
+| Switzerland at Argentina | Jul 11, 9:00 PM | 42 | Argentina -145, Switzerland +475, Draw +245 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 4002 | France +135, Spain +220, Draw +225 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | +239 | +240 | 31.1% | 25% strength model + 75% market no-vig |
-| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | +107 | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | +124 | +123 | 47.4% | 25% strength model + 75% market no-vig |
 | Soccer | France vs Spain | France | +135 | +137 | 44.3% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Switzerland | Switzerland | +460 | +520 | 20.8% | 31% strength model + 69% market no-vig |

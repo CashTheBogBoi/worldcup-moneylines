@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T00:02:55.090Z
+Generated: 2026-07-12T00:18:16.976Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -41,9 +41,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Tampa Bay Rays | Final | Logan Gilbert | Griffin Jax | 1-6 |
 | Cleveland Guardians at Miami Marlins | Final | Tanner Bibee | Eury Pérez | 4-1 |
 | Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 4-1 |
-| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-1 |
-| Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 6-0 |
-| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 0-0 |
+| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-4 |
+| Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 7-0 |
+| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 0-2 |
 | Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-3 |
 | Toronto Blue Jays at San Diego Padres | Pre-Game | Trey Yesavage | Walker Buehler | 0-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | Pre-Game | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
@@ -52,13 +52,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +488, Philadelphia Phillies -850 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -369, Kansas City Royals +260 |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -3100, Texas Rangers +950 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -135, Cincinnati Reds +104 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +425, St. Louis Cardinals -690 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +181, Philadelphia Phillies -243 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -5300, Kansas City Royals +1100 |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -10000, Texas Rangers +1320 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs +236, Cincinnati Reds -329 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +578, St. Louis Cardinals -1100 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -107 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +230, Los Angeles Dodgers -287 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +241, Los Angeles Dodgers -302 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | none |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +124 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | none |
@@ -77,8 +77,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -140, Switzerland +450, Draw +245 |
-| Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +215, Draw +225 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -145, Switzerland +475, Draw +245 |
+| Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
 
