@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T22:40:29.825Z
+Updated: 2026-07-12T22:54:29.854Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,26 +87,25 @@ Updated: 2026-07-12T22:40:29.825Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T22:40:28.860Z
-- Current candidates: 12
-- Passed / blocked: 1 / 11
+- Saved: 2026-07-12T22:54:28.922Z
+- Current candidates: 10
+- Passed / blocked: 1 / 9
 
 ### Top Blockers
-- Beats consensus: 7
-- Minimum edge: 7
-- Model ready: 6
-- Positive EV: 6
-- Pregame: 6
+- Beats consensus: 6
+- Minimum edge: 6
+- Positive EV: 5
+- Model ready: 4
+- Pregame: 4
 - DraftKings line: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +1500 | 10.9% | $74.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +700 | 21.6% | $73.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | -125 | 78.4% | $41.06 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +225 | 36.6% | $19.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | England | England vs Argentina | Minimum edge | +165 | 38.0% | $0.68 | Edge under 1.5% — inside vig noise. |
+| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1700 | 13.8% | $147.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +320 | 29.7% | $24.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | -200 | 70.3% | $5.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.54 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

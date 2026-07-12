@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T22:38:49.610Z
+Generated: 2026-07-12T22:54:11.919Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,7 +21,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +220, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Argentina at England: Draw price is +195, which is short enough to demand draw-risk review before backing either side.
 
@@ -43,15 +42,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Texas Rangers | Final | Cristian Javier | MacKenzie Gore | 5-6 |
 | Colorado Rockies at San Francisco Giants | Final | Michael Lorenzen | Trevor McDonald | 1-3 |
 | Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 4-3 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 4-5 |
+| Toronto Blue Jays at San Diego Padres | Final | Kevin Gausman | Germán Márquez | 4-5 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | none |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks -243, Los Angeles Dodgers +181 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -1160, Toronto Blue Jays +596 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks -457, Los Angeles Dodgers +310 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
