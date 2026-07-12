@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T21:52:43.473Z
+Generated: 2026-07-12T22:08:04.886Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -43,16 +43,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Atlanta Braves at St. Louis Cardinals | Final | Danny Young | Dustin May | 4-3 |
 | Houston Astros at Texas Rangers | Final | Cristian Javier | MacKenzie Gore | 5-6 |
 | Colorado Rockies at San Francisco Giants | In Progress | Michael Lorenzen | Trevor McDonald | 1-1 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 2-3 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 3-3 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 3-3 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +103, San Francisco Giants -134 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +275, Los Angeles Dodgers -394 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -161, Toronto Blue Jays +123 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +285, San Francisco Giants -410 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks -140, Los Angeles Dodgers +107 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -190, Toronto Blue Jays +144 |
 
 ## DraftKings Soccer odds snapshot
 
