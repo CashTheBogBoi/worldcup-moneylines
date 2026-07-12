@@ -1,26 +1,26 @@
-# Research Cycle - Pregame confirmation - 2026-07-11
+# Research Cycle - Nightly close and review - 2026-07-11
 
-Generated: 2026-07-12T03:53:12.675Z
+Generated: 2026-07-12T03:53:24.607Z
 Local time: 11:53 PM
 
 ## Goal
-Confirm the first wave before anything becomes live-market contaminated.
+Grade finals, close lines, and write the Obsidian review.
 
 ## Checklist
-- [ ] Re-check starters, lineups, and stale odds.
-- [ ] Block picks where DraftKings is missing or materially worse than best market.
-- [ ] Track only before scheduled start.
-- [ ] Do not chase steam after a game starts.
+- [ ] Refresh after finals so scores can auto-grade.
+- [ ] Run the daily review note.
+- [ ] Look for miss patterns by sport and confidence bucket.
+- [ ] Do not tune the model from one unlucky result without CLV context.
 
 ## System Read
-- Snapshot generated: 2026-07-12T03:53:08.831Z
+- Snapshot generated: 2026-07-12T03:53:20.680Z
 - MLB odds events: 17
 - Soccer odds events: 3
 - High-impact intel blocks: 2
 - Intel pending / confirmed / denied: 4 / 0 / 0
 - Pending tracked picks: 3
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
-- Nightly review ran: no
+- Nightly review ran: yes
 
 ## High-Impact Blocks
 - **MLB / Market move / pending:** Toronto Blue Jays at San Diego Padres — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.

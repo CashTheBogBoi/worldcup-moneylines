@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T03:07:12.108Z
+Generated: 2026-07-12T03:53:20.680Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,9 +20,10 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
+- **Medium Soccer Market move** — Argentina at England: Draw price is +205, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
 
@@ -42,15 +43,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Texas Rangers | Final | Peter Lambert | Kumar Rocker | 9-3 |
 | Chicago Cubs at Cincinnati Reds | Final | Javier Assad | Nick Lodolo | 5-3 |
 | Atlanta Braves at St. Louis Cardinals | Final | Reynaldo López | Matthew Liberatore | 1-4 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 7-8 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 6-2 |
+| Toronto Blue Jays at San Diego Padres | Game Over | Trey Yesavage | Walker Buehler | 7-8 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 9-2 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -330, Toronto Blue Jays +237 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -730, Los Angeles Dodgers +440 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -1940, Toronto Blue Jays +780 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | none |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +100, Pittsburgh Pirates -120 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -114, Washington Nationals -105 |
@@ -71,8 +72,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina +900, Switzerland +7500, Draw -2500 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | none |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
+| Argentina at England | 2026-07-15T19:00:00Z | Argentina +175, England +180, Draw +205 |
 
 ## FIFA men's ranking model input
 
