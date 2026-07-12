@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T19:50:20.062Z
+Generated: 2026-07-12T20:05:36.996Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -38,16 +38,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Milwaukee Brewers at Pittsburgh Pirates | Final | Robert Gasser | Paul Skenes | 5-14 |
-| Kansas City Royals at Baltimore Orioles | In Progress | Seth Lugo | Shane Baz | 2-7 |
-| New York Yankees at Washington Nationals | In Progress | Will Warren | Cade Cavalli | 2-3 |
+| Kansas City Royals at Baltimore Orioles | In Progress | Seth Lugo | Shane Baz | 2-8 |
+| New York Yankees at Washington Nationals | In Progress | Will Warren | Cade Cavalli | 4-3 |
 | Chicago Cubs at Cincinnati Reds | In Progress | Matthew Boyd | Andrew Abbott | 8-4 |
-| Boston Red Sox at New York Mets | In Progress | Payton Tolle | Zach Thornton | 0-2 |
-| Seattle Mariners at Tampa Bay Rays | In Progress | Emerson Hancock | Ian Seymour | 7-0 |
+| Boston Red Sox at New York Mets | In Progress | Payton Tolle | Zach Thornton | 2-2 |
+| Seattle Mariners at Tampa Bay Rays | In Progress | Emerson Hancock | Ian Seymour | 7-2 |
 | Philadelphia Phillies at Detroit Tigers | In Progress | Zack Wheeler | Tarik Skubal | 5-0 |
-| Cleveland Guardians at Miami Marlins | In Progress | Joey Cantillo | Tyler Phillips | 3-1 |
-| Los Angeles Angels at Minnesota Twins | In Progress | José Soriano | Taj Bradley | 1-3 |
+| Cleveland Guardians at Miami Marlins | In Progress | Joey Cantillo | Tyler Phillips | 4-1 |
+| Los Angeles Angels at Minnesota Twins | In Progress | José Soriano | Taj Bradley | 2-3 |
 | Athletics at Chicago White Sox | In Progress | J.T. Ginn | Noah Schultz | 1-9 |
-| Atlanta Braves at St. Louis Cardinals | In Progress | Danny Young | Dustin May | 2-1 |
+| Atlanta Braves at St. Louis Cardinals | In Progress | Danny Young | Dustin May | 3-1 |
 | Houston Astros at Texas Rangers | In Progress | Cristian Javier | MacKenzie Gore | 1-3 |
 | Colorado Rockies at San Francisco Giants | Warmup | Michael Lorenzen | Trevor McDonald | 0-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | Warmup | Mitch Bratt | Emmet Sheehan | 0-0 |
@@ -58,18 +58,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | none |
-| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees +333, Washington Nationals -499 |
-| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox +121, New York Mets -158 |
-| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -1200, Miami Marlins +600 |
+| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -462, Washington Nationals +313 |
+| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -138, New York Mets +106 |
+| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -1180, Miami Marlins +600 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | none |
-| Chicago Cubs at Cincinnati Reds | 2026-07-12T17:42:00Z | Chicago Cubs -2700, Cincinnati Reds +890 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-12T17:42:00Z | Chicago Cubs -10000, Cincinnati Reds +1400 |
 | Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:43:00Z | none |
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | none |
-| Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +524, Minnesota Twins -940 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves -200, St. Louis Cardinals +150 |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +366, Texas Rangers -564 |
+| Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +391, Minnesota Twins -620 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves -591, St. Louis Cardinals +371 |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +365, Texas Rangers -562 |
 | Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +124, San Francisco Giants -149 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +187, Los Angeles Dodgers -231 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +194, Los Angeles Dodgers -239 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +105, Toronto Blue Jays -126 |
 
 ## DraftKings Soccer odds snapshot
