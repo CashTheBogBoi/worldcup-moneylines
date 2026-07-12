@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-12
 
-Generated: 2026-07-12T18:15:27.951Z
-Local time: 2:15 PM
+Generated: 2026-07-12T18:34:03.868Z
+Local time: 2:34 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,10 +13,10 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-12T18:15:24.295Z
+- Snapshot generated: 2026-07-12T18:34:00.345Z
 - MLB odds events: 15
 - Soccer odds events: 2
-- High-impact intel blocks: 10
+- High-impact intel blocks: 11
 - Intel pending / confirmed / denied: 12 / 0 / 0
 - Pending tracked picks: 2
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
@@ -33,6 +33,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - **MLB / Market move / pending:** Cleveland Guardians at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Los Angeles Angels at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Athletics at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -40,17 +41,16 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1 | Atlanta Braves +113, St. Louis Cardinals -136 | 11 |
-| Houston Astros at Texas Rangers | Jul 12, 2:36 PM | 21 | Houston Astros +119, Texas Rangers -144 | 11 |
-| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 111 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 12, 4:11 PM | 116 | Arizona Diamondbacks +187, Los Angeles Dodgers -231 | 11 |
-| Toronto Blue Jays at San Diego Padres | Jul 12, 4:11 PM | 116 | San Diego Padres +109, Toronto Blue Jays -131 | 11 |
+| Houston Astros at Texas Rangers | Jul 12, 2:36 PM | 2 | Houston Astros +119, Texas Rangers -144 | 11 |
+| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 92 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 12, 4:11 PM | 97 | Arizona Diamondbacks +187, Los Angeles Dodgers -231 | 11 |
+| Toronto Blue Jays at San Diego Padres | Jul 12, 4:11 PM | 97 | San Diego Padres +109, Toronto Blue Jays -131 | 11 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2925 | France +135, Spain +220, Draw +220 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4365 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2906 | France +135, Spain +220, Draw +220 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4346 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
