@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T12:50:27.106Z
+Updated: 2026-07-12T13:10:28.106Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,26 +87,24 @@ Updated: 2026-07-12T12:50:27.106Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T12:50:26.159Z
+- Saved: 2026-07-12T13:10:27.165Z
 - Current candidates: 36
 - Passed / blocked: 0 / 36
 
 ### Top Blockers
 - Minimum edge: 36
-- Positive EV: 28
+- Positive EV: 32
+- Model ready: 30
+- Pregame: 30
 - Beats consensus: 19
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | France | France vs Spain | Minimum edge | +133 | 44.3% | $3.18 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +193 | 34.8% | $1.92 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -120 | 55.5% | $1.81 | Edge under 1.5% — inside vig noise. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +112 | 47.7% | $1.22 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +110 | 48.2% | $1.17 | Edge under 1.5% — inside vig noise. |
 | Soccer | England | England vs Argentina | Minimum edge | +160 | 38.6% | $0.24 | Edge under 1.5% — inside vig noise. |
-| MLB | Seattle Mariners | Tampa Bay Rays vs Seattle Mariners | Minimum edge | +124 | 44.7% | $0.19 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +111 | 47.4% | $0.11 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +193 | 34.2% | $0.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Game too stale/live | -120 | 54.6% | $0.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
