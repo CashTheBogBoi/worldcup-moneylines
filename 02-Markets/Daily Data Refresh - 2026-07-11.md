@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T00:18:16.976Z
+Generated: 2026-07-12T00:33:37.207Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -40,24 +40,24 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Boston Red Sox at New York Mets | Final | Eduardo Rivera | Freddy Peralta | 4-0 |
 | Seattle Mariners at Tampa Bay Rays | Final | Logan Gilbert | Griffin Jax | 1-6 |
 | Cleveland Guardians at Miami Marlins | Final | Tanner Bibee | Eury Pérez | 4-1 |
-| Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 4-1 |
-| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-4 |
-| Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 7-0 |
-| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 0-2 |
-| Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-3 |
-| Toronto Blue Jays at San Diego Padres | Pre-Game | Trey Yesavage | Walker Buehler | 0-0 |
+| Philadelphia Phillies at Detroit Tigers | In Progress | Cristopher Sánchez | Casey Mize | 4-2 |
+| Kansas City Royals at Baltimore Orioles | In Progress | Noah Cameron | Kyle Bradish | 0-5 |
+| Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 7-1 |
+| Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 1-2 |
+| Atlanta Braves at St. Louis Cardinals | In Progress | Reynaldo López | Matthew Liberatore | 0-4 |
+| Toronto Blue Jays at San Diego Padres | Warmup | Trey Yesavage | Walker Buehler | 0-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | Pre-Game | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +181, Philadelphia Phillies -243 |
-| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | Baltimore Orioles -5300, Kansas City Royals +1100 |
-| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -10000, Texas Rangers +1320 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs +236, Cincinnati Reds -329 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +578, St. Louis Cardinals -1100 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -112, Toronto Blue Jays -107 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-11T22:11:00Z | Detroit Tigers +1040, Philadelphia Phillies -4300 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-11T23:06:00Z | none |
+| Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | Houston Astros -9100, Texas Rangers +1240 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs +220, Cincinnati Reds -303 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-11T23:16:48Z | Atlanta Braves +1020, St. Louis Cardinals -3900 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -110, Toronto Blue Jays -110 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:00Z | Arizona Diamondbacks +241, Los Angeles Dodgers -302 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | none |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -149, Kansas City Royals +124 |

@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-11
 
-Generated: 2026-07-12T00:18:20.093Z
-Local time: 8:18 PM
+Generated: 2026-07-12T00:33:40.281Z
+Local time: 8:33 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,7 +13,7 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-12T00:18:16.976Z
+- Snapshot generated: 2026-07-12T00:33:37.207Z
 - MLB odds events: 20
 - Soccer odds events: 2
 - High-impact intel blocks: 5
@@ -35,24 +35,24 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 23 | San Diego Padres -112, Toronto Blue Jays -107 | 11 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 52 | Arizona Diamondbacks +241, Los Angeles Dodgers -302 | 11 |
-| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 958 | DK missing | 4 |
-| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1038 | Baltimore Orioles -149, Kansas City Royals +124 | 9 |
-| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 1038 | DK missing | 2 |
-| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1043 | Chicago Cubs -131, Cincinnati Reds +109 | 9 |
-| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 1043 | DK missing | 2 |
-| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1043 | Detroit Tigers -112, Philadelphia Phillies -108 | 9 |
-| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1043 | Seattle Mariners +109, Tampa Bay Rays -131 | 9 |
-| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1073 | Athletics -102, Chicago White Sox -118 | 9 |
-| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1073 | Los Angeles Angels +113, Minnesota Twins -136 | 9 |
-| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1078 | Atlanta Braves +113, St. Louis Cardinals -136 | 9 |
+| Toronto Blue Jays at San Diego Padres | Jul 11, 8:41 PM | 7 | San Diego Padres -110, Toronto Blue Jays -110 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 36 | Arizona Diamondbacks +241, Los Angeles Dodgers -302 | 11 |
+| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 942 | DK missing | 4 |
+| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 1022 | Baltimore Orioles -149, Kansas City Royals +124 | 9 |
+| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 1022 | DK missing | 2 |
+| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 1027 | Chicago Cubs -131, Cincinnati Reds +109 | 9 |
+| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 1027 | DK missing | 2 |
+| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 1027 | Detroit Tigers -112, Philadelphia Phillies -108 | 9 |
+| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 1027 | Seattle Mariners +109, Tampa Bay Rays -131 | 9 |
+| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1057 | Athletics -102, Chicago White Sox -118 | 9 |
+| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1057 | Los Angeles Angels +113, Minnesota Twins -136 | 9 |
+| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1062 | Atlanta Braves +113, St. Louis Cardinals -136 | 9 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Switzerland at Argentina | Jul 11, 9:00 PM | 42 | Argentina -145, Switzerland +475, Draw +245 | 10 |
-| Spain at France | Jul 14, 3:00 PM | 4002 | France +135, Spain +220, Draw +225 | 10 |
+| Switzerland at Argentina | Jul 11, 9:00 PM | 26 | Argentina -145, Switzerland +475, Draw +245 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 3986 | France +135, Spain +220, Draw +225 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
