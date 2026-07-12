@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-12
 
-Generated: 2026-07-12T20:20:57.945Z
-Local time: 4:20 PM
+Generated: 2026-07-12T20:36:13.736Z
+Local time: 4:36 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,8 +13,8 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-12T20:20:53.630Z
-- MLB odds events: 14
+- Snapshot generated: 2026-07-12T20:36:10.012Z
+- MLB odds events: 13
 - Soccer odds events: 2
 - High-impact intel blocks: 12
 - Intel pending / confirmed / denied: 12 / 0 / 0
@@ -24,17 +24,17 @@ Confirm the first wave before anything becomes live-market contaminated.
 
 ## High-Impact Blocks
 - **MLB / Market move / pending:** Kansas City Royals at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Boston Red Sox at New York Mets — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Seattle Mariners at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Philadelphia Phillies at Detroit Tigers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Seattle Mariners at Tampa Bay Rays — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Cleveland Guardians at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Los Angeles Angels at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Athletics at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Athletics at Chicago White Sox — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Houston Astros at Texas Rangers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Colorado Rockies at San Francisco Giants — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Toronto Blue Jays at San Diego Padres — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -45,8 +45,8 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2799 | France +135, Spain +220, Draw +220 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4239 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2784 | France +135, Spain +220, Draw +220 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4224 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |

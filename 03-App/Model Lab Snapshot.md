@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T20:22:29.809Z
+Updated: 2026-07-12T20:38:01.239Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,33 +87,33 @@ Updated: 2026-07-12T20:22:29.809Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T20:22:28.880Z
-- Current candidates: 34
-- Passed / blocked: 1 / 33
+- Saved: 2026-07-12T20:38:00.415Z
+- Current candidates: 32
+- Passed / blocked: 1 / 31
 
 ### Top Blockers
-- Model ready: 28
-- Pregame: 28
-- Minimum edge: 20
-- Beats consensus: 17
-- Positive EV: 16
-- DraftKings line: 10
+- Model ready: 26
+- Pregame: 26
+- Minimum edge: 21
+- Positive EV: 19
+- DraftKings line: 16
+- Beats consensus: 15
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +3300 | 9.4% | $220.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Tampa Bay Rays vs Seattle Mariners | Game too stale/live | +3300 | 9.4% | $218.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Chicago Cubs | Game too stale/live | +3000 | 8.7% | $168.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Chicago White Sox vs Athletics | Game too stale/live | +3300 | 7.4% | $151.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Game too stale/live | +1600 | 13.5% | $129.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +1200 | 13.5% | $76.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | New York Mets vs Boston Red Sox | Game too stale/live | +800 | 18.3% | $64.42 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Houston Astros | Texas Rangers vs Houston Astros | Game too stale/live | +700 | 18.2% | $45.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Game too stale/live | +750 | 17.1% | $45.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +240 | 37.9% | $28.97 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +150 | 42.9% | $7.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +240 | 31.5% | $6.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs New York Yankees | Game too stale/live | +3500 | 11.2% | $303.65 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Angels | Minnesota Twins vs Los Angeles Angels | Game too stale/live | +3500 | 11.1% | $300.79 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Game too stale/live | +3500 | 11.0% | $294.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +3300 | 9.3% | $217.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Tampa Bay Rays | Tampa Bay Rays vs Seattle Mariners | Game too stale/live | +3300 | 9.3% | $215.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Chicago Cubs | Game too stale/live | +2200 | 11.9% | $172.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Texas Rangers vs Houston Astros | Game too stale/live | +800 | 15.9% | $42.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +307 | 28.3% | $15.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +175 | 40.3% | $10.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +120 | 47.3% | $4.13 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | -102 | 51.0% | $0.99 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | England | England vs Argentina | Minimum edge | +163 | 38.0% | $0.05 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
