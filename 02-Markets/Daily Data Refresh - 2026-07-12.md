@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T21:30:06.554Z
+Generated: 2026-07-12T21:37:20.802Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Houston Astros at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -42,20 +41,19 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cleveland Guardians at Miami Marlins | Final | Joey Cantillo | Tyler Phillips | 5-2 |
 | Los Angeles Angels at Minnesota Twins | Final | José Soriano | Taj Bradley | 2-4 |
 | Athletics at Chicago White Sox | Final | J.T. Ginn | Noah Schultz | 1-9 |
-| Atlanta Braves at St. Louis Cardinals | Game Over | Danny Young | Dustin May | 4-3 |
+| Atlanta Braves at St. Louis Cardinals | Final | Danny Young | Dustin May | 4-3 |
 | Houston Astros at Texas Rangers | In Progress | Cristian Javier | MacKenzie Gore | 5-5 |
 | Colorado Rockies at San Francisco Giants | In Progress | Michael Lorenzen | Trevor McDonald | 1-1 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 0-3 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 1-3 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 3-3 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | none |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +127, Texas Rangers -166 |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +146, San Francisco Giants -192 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +830, Los Angeles Dodgers -2200 |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +800, Texas Rangers -2200 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +130, San Francisco Giants -170 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +525, Los Angeles Dodgers -940 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -151, Toronto Blue Jays +116 |
 
 ## DraftKings Soccer odds snapshot
