@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-12
 
-Generated: 2026-07-12T15:29:32.429Z
-Local time: 11:29 AM
+Generated: 2026-07-12T17:44:48.826Z
+Local time: 1:44 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,17 +13,24 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-12T15:29:26.856Z
+- Snapshot generated: 2026-07-12T17:44:43.628Z
 - MLB odds events: 15
 - Soccer odds events: 2
-- High-impact intel blocks: 0
-- Intel pending / confirmed / denied: 2 / 0 / 0
+- High-impact intel blocks: 8
+- Intel pending / confirmed / denied: 10 / 0 / 0
 - Pending tracked picks: 2
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-_No active high-impact blocks in this snapshot._
+- **MLB / Market move / pending:** Milwaukee Brewers at Pittsburgh Pirates — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Kansas City Royals at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Boston Red Sox at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Seattle Mariners at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Philadelphia Phillies at Detroit Tigers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Cleveland Guardians at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -31,29 +38,24 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 47 | Milwaukee Brewers +108, Pittsburgh Pirates -130 | 11 |
-| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 127 | Baltimore Orioles -149, Kansas City Royals +123 | 11 |
-| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 127 | New York Yankees -107, Washington Nationals -113 | 11 |
-| Boston Red Sox at New York Mets | Jul 12, 1:41 PM | 132 | Boston Red Sox -112, New York Mets -107 | 11 |
-| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 132 | Chicago Cubs -131, Cincinnati Reds +108 | 11 |
-| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 132 | Cleveland Guardians -106, Miami Marlins -114 | 11 |
-| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 132 | Detroit Tigers -131, Philadelphia Phillies +108 | 11 |
-| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 132 | Seattle Mariners +123, Tampa Bay Rays -148 | 11 |
-| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 162 | Athletics +118, Chicago White Sox -142 | 11 |
-| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 162 | Los Angeles Angels +113, Minnesota Twins -136 | 11 |
-| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 167 | Atlanta Braves +108, St. Louis Cardinals -131 | 11 |
-| Houston Astros at Texas Rangers | Jul 12, 2:36 PM | 187 | Houston Astros +113, Texas Rangers -136 | 11 |
+| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 26 | Athletics +129, Chicago White Sox -156 | 11 |
+| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 26 | Los Angeles Angels +109, Minnesota Twins -132 | 11 |
+| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 31 | Atlanta Braves +113, St. Louis Cardinals -136 | 11 |
+| Houston Astros at Texas Rangers | Jul 12, 2:36 PM | 51 | Houston Astros +119, Texas Rangers -143 | 11 |
+| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 141 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 12, 4:11 PM | 146 | Arizona Diamondbacks +183, Los Angeles Dodgers -225 | 11 |
+| Toronto Blue Jays at San Diego Padres | Jul 12, 4:11 PM | 146 | San Diego Padres +109, Toronto Blue Jays -131 | 11 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 3091 | France +135, Spain +220, Draw +220 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4531 | Argentina +205, England +155, Draw +200 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2955 | France +135, Spain +220, Draw +220 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4395 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | +112 | +110 | 48.9% | 25% strength model + 75% market no-vig |
+| MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | +112 | +116 | 48.9% | 25% strength model + 75% market no-vig |
 | Soccer | France vs Spain | France | +135 | +135 | 44.3% | 25% strength model + 75% market no-vig |
 
 ## Model Input Guidance
