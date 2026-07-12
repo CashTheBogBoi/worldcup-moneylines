@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-12
 
-Generated: 2026-07-12T23:24:58.554Z
-Local time: 7:24 PM
+Generated: 2026-07-12T23:40:19.689Z
+Local time: 7:40 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,7 +13,7 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-12T23:24:54.883Z
+- Snapshot generated: 2026-07-12T23:40:15.991Z
 - MLB odds events: 0
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -34,8 +34,8 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2615 | France +135, Spain +225, Draw +215 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4055 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2600 | France +135, Spain +225, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4040 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
