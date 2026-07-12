@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T17:44:52.442Z
+Generated: 2026-07-12T18:00:08.273Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -35,16 +35,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Milwaukee Brewers at Pittsburgh Pirates | In Progress | Robert Gasser | Paul Skenes | 2-11 |
+| Milwaukee Brewers at Pittsburgh Pirates | In Progress | Robert Gasser | Paul Skenes | 2-14 |
 | Kansas City Royals at Baltimore Orioles | In Progress | Seth Lugo | Shane Baz | 0-0 |
-| New York Yankees at Washington Nationals | In Progress | Will Warren | Cade Cavalli | 0-0 |
-| Chicago Cubs at Cincinnati Reds | In Progress | Matthew Boyd | Andrew Abbott | 0-0 |
-| Boston Red Sox at New York Mets | In Progress | Payton Tolle | Zach Thornton | 0-0 |
+| New York Yankees at Washington Nationals | In Progress | Will Warren | Cade Cavalli | 0-1 |
+| Chicago Cubs at Cincinnati Reds | In Progress | Matthew Boyd | Andrew Abbott | 2-0 |
+| Boston Red Sox at New York Mets | In Progress | Payton Tolle | Zach Thornton | 0-1 |
 | Seattle Mariners at Tampa Bay Rays | In Progress | Emerson Hancock | Ian Seymour | 0-0 |
 | Philadelphia Phillies at Detroit Tigers | In Progress | Zack Wheeler | Tarik Skubal | 0-0 |
-| Cleveland Guardians at Miami Marlins | In Progress | Joey Cantillo | Tyler Phillips | 1-0 |
+| Cleveland Guardians at Miami Marlins | In Progress | Joey Cantillo | Tyler Phillips | 2-0 |
 | Los Angeles Angels at Minnesota Twins | Warmup | José Soriano | Taj Bradley | 0-0 |
-| Athletics at Chicago White Sox | Pre-Game | J.T. Ginn | Noah Schultz | 0-0 |
+| Athletics at Chicago White Sox | Warmup | J.T. Ginn | Noah Schultz | 0-0 |
 | Atlanta Braves at St. Louis Cardinals | Pre-Game | Danny Young | Dustin May | 0-0 |
 | Houston Astros at Texas Rangers | Pre-Game | Cristian Javier | MacKenzie Gore | 0-0 |
 | Colorado Rockies at San Francisco Giants | Pre-Game | Michael Lorenzen | Trevor McDonald | 0-0 |
@@ -56,17 +56,17 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | none |
-| Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -182, Kansas City Royals +138 |
-| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees +117, Washington Nationals -153 |
-| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -104, New York Mets -125 |
-| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -205, Miami Marlins +155 |
-| Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -159, Philadelphia Phillies +122 |
-| Chicago Cubs at Cincinnati Reds | 2026-07-12T17:42:00Z | Chicago Cubs -166, Cincinnati Reds +127 |
-| Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:43:00Z | Seattle Mariners +110, Tampa Bay Rays -144 |
+| Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -136, Kansas City Royals +105 |
+| New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees +159, Washington Nationals -211 |
+| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox +130, New York Mets -170 |
+| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -352, Miami Marlins +250 |
+| Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -143, Philadelphia Phillies +110 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-12T17:42:00Z | Chicago Cubs -389, Cincinnati Reds +272 |
+| Seattle Mariners at Tampa Bay Rays | 2026-07-12T17:43:00Z | Seattle Mariners -119, Tampa Bay Rays -109 |
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics +129, Chicago White Sox -156 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +109, Minnesota Twins -132 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +119, Texas Rangers -143 |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +119, Texas Rangers -144 |
 | Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +124, San Francisco Giants -149 |
 | Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +183, Los Angeles Dodgers -225 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +109, Toronto Blue Jays -131 |
