@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T01:50:22.510Z
+Generated: 2026-07-12T02:05:45.127Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Houston Astros at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Houston Astros at Texas Rangers: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Chicago Cubs at Cincinnati Reds: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -41,20 +41,20 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cleveland Guardians at Miami Marlins | Final | Tanner Bibee | Eury Pérez | 4-1 |
 | Philadelphia Phillies at Detroit Tigers | Final | Cristopher Sánchez | Casey Mize | 4-2 |
 | Kansas City Royals at Baltimore Orioles | Final | Noah Cameron | Kyle Bradish | 1-6 |
-| Houston Astros at Texas Rangers | In Progress | Peter Lambert | Kumar Rocker | 9-1 |
+| Houston Astros at Texas Rangers | Game Over | Peter Lambert | Kumar Rocker | 9-3 |
 | Chicago Cubs at Cincinnati Reds | In Progress | Javier Assad | Nick Lodolo | 5-3 |
 | Atlanta Braves at St. Louis Cardinals | Final | Reynaldo López | Matthew Liberatore | 1-4 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-4 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 0-0 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-6 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 1-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Houston Astros at Texas Rangers | 2026-07-11T23:06:00Z | none |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -980, Cincinnati Reds +540 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -178, Toronto Blue Jays +135 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks +224, Los Angeles Dodgers -309 |
+| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -4600, Cincinnati Reds +1060 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -408, Toronto Blue Jays +292 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks +143, Los Angeles Dodgers -189 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +102, Pittsburgh Pirates -122 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -114, Washington Nationals -105 |
@@ -74,7 +74,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -425, Switzerland +1800, Draw +400 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -475, Switzerland +2000, Draw +450 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
