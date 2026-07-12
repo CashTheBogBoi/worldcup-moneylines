@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-11T23:46:13.003Z
+Updated: 2026-07-12T00:03:13.004Z
 
 ## Summary
 - Total tracked picks: 60
-- Pending: 6
-- Graded: 54
+- Pending: 5
+- Graded: 55
 - Wins: 17
-- Losses: 36
+- Losses: 37
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -26,7 +26,7 @@ Updated: 2026-07-11T23:46:13.003Z
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +147 | +147 | 0.0 pts | 42.0% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Kansas City Royals | Kansas City Royals | loss | +158 | +158 | 0.0 pts | 40.6% | 25% strength model + 75% market no-vig |
-| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +505 | -1.3 pts | 20.8% | 31% strength model + 69% market no-vig |
+| Soccer | Argentina vs Switzerland | Switzerland | pending | +460 | +520 | -1.7 pts | 20.8% | 31% strength model + 69% market no-vig |
 | MLB | Cincinnati Reds vs Philadelphia Phillies | Cincinnati Reds | loss | +153 | +147 | 1.0 pts | 41.8% | 25% strength model + 75% market no-vig |
 | MLB | St. Louis Cardinals vs Milwaukee Brewers | St. Louis Cardinals | loss | +178 | +187 | -1.1 pts | 38.3% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Atlanta Braves | Atlanta Braves | loss | +155 | +128 | 4.6 pts | 41.5% | 25% strength model + 75% market no-vig |
@@ -35,7 +35,7 @@ Updated: 2026-07-11T23:46:13.003Z
 | Soccer | USA vs Belgium | Belgium | win | +202 | +198 | 0.4 pts | 35.2% | 32% strength model + 68% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -118 | -118 | 0.0 pts | 56.0% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | loss | +114 | +110 | 0.9 pts | 48.2% | 25% strength model + 75% market no-vig |
-| Soccer | Norway vs England | Norway | pending | +313 | +354 | -2.2 pts | 27.1% | 36% strength model + 64% market no-vig |
+| Soccer | Norway vs England | Norway | loss | +313 | +354 | -2.2 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
 | MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
@@ -83,31 +83,33 @@ Updated: 2026-07-11T23:46:13.003Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 35 | 29 | 24.1% | 0.0 pts | 0.187 | 0.0% |
+| Passed gate | 35 | 30 | 23.3% | 0.0 pts | 0.183 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-11T23:46:12.044Z
-- Current candidates: 44
-- Passed / blocked: 3 / 41
+- Saved: 2026-07-12T00:03:12.066Z
+- Current candidates: 46
+- Passed / blocked: 3 / 43
 
 ### Top Blockers
 - Minimum edge: 37
 - Positive EV: 33
-- Beats consensus: 22
-- Model ready: 12
-- Pregame: 12
-- DraftKings line: 4
+- Beats consensus: 24
+- Model ready: 14
+- Pregame: 10
+- DraftKings line: 6
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +575 | 24.0% | $61.85 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +425 | 23.0% | $20.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Texas Rangers | Texas Rangers vs Houston Astros | Game too stale/live | +290 | 30.7% | $19.86 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Baltimore Orioles vs Kansas City Royals | Game too stale/live | +255 | 30.8% | $9.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Texas Rangers | Texas Rangers vs Houston Astros | Game too stale/live | +1025 | 14.7% | $65.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Detroit Tigers vs Philadelphia Phillies | Game too stale/live | +525 | 21.9% | $37.04 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Game too stale/live | +475 | 22.4% | $28.87 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago Cubs | Cincinnati Reds vs Chicago Cubs | Game too stale/live | +130 | 52.0% | $19.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Chicago Cubs | Game too stale/live | +135 | 48.0% | $12.84 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Kansas City Royals | Baltimore Orioles vs Kansas City Royals | Game too stale/live | +290 | 28.0% | $9.12 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -112 | 53.9% | $2.01 | Edge under 1.5% — inside vig noise. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +188 | 35.3% | $1.58 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +188 | 35.3% | $1.57 | Edge under 1.5% — inside vig noise. |
 | MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +118 | 46.5% | $1.45 | Edge under 1.5% — inside vig noise. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +109 | 47.9% | $0.16 | Edge under 1.5% — inside vig noise. |
 

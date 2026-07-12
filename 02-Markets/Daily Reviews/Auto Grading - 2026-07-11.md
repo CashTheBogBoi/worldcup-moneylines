@@ -1,7 +1,7 @@
 # Auto Grading - 2026-07-11
 
-Generated: 2026-07-11T23:46:09.498Z
-Data snapshot: 2026-07-11T23:46:08.929Z
+Generated: 2026-07-12T00:02:55.688Z
+Data snapshot: 2026-07-12T00:02:55.090Z
 
 ## Newly Graded
 _No newly graded picks._
@@ -11,5 +11,4 @@ _No newly graded picks._
 - MLB / Detroit Tigers vs Philadelphia Phillies / Detroit Tigers (2026-07-11T22:11:00Z)
 - Soccer / France vs Spain / France (2026-07-14T19:00:00Z)
 - Soccer / Argentina vs Switzerland / Switzerland (2026-07-12T01:00:00Z)
-- Soccer / Norway vs England / Norway (2026-07-11T21:00:00Z)
 
