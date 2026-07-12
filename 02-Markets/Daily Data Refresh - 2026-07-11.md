@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T02:51:48.967Z
+Generated: 2026-07-12T03:07:12.108Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -42,15 +42,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Texas Rangers | Final | Peter Lambert | Kumar Rocker | 9-3 |
 | Chicago Cubs at Cincinnati Reds | Final | Javier Assad | Nick Lodolo | 5-3 |
 | Atlanta Braves at St. Louis Cardinals | Final | Reynaldo López | Matthew Liberatore | 1-4 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-7 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 6-0 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 7-8 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 6-2 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -920, Toronto Blue Jays +559 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -4700, Los Angeles Dodgers +1080 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -330, Toronto Blue Jays +237 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -730, Los Angeles Dodgers +440 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +100, Pittsburgh Pirates -120 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -114, Washington Nationals -105 |
@@ -71,7 +71,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina +200, Switzerland +2800, Draw -240 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina +900, Switzerland +7500, Draw -2500 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
