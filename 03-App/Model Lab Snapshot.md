@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T12:21:27.096Z
+Updated: 2026-07-12T12:30:26.096Z
 
 ## Summary
 - Total tracked picks: 61
@@ -21,7 +21,7 @@ Updated: 2026-07-12T12:21:27.096Z
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | loss | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | loss | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
-| Soccer | France vs Spain | France | pending | +135 | +137 | -0.4 pts | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | pending | +135 | +133 | 0.4 pts | 44.3% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
@@ -87,27 +87,26 @@ Updated: 2026-07-12T12:21:27.096Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T12:21:26.166Z
-- Current candidates: 42
-- Passed / blocked: 0 / 42
+- Saved: 2026-07-12T12:30:25.164Z
+- Current candidates: 36
+- Passed / blocked: 0 / 36
 
 ### Top Blockers
-- Model ready: 42
-- Pregame: 42
-- Minimum edge: 38
-- Positive EV: 36
-- Beats consensus: 21
-- DraftKings line: 4
+- Minimum edge: 36
+- Positive EV: 28
+- Beats consensus: 19
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +7000 | 9.7% | $586.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1100 | 16.7% | $100.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | England | England vs Argentina | Game too stale/live | +200 | 35.5% | $6.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | -400 | 83.3% | $4.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | France | France vs Spain | Game too stale/live | +137 | 42.7% | $1.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Game too stale/live | +110 | 47.8% | $0.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | France | France vs Spain | Minimum edge | +133 | 44.3% | $3.18 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +193 | 34.8% | $1.92 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -120 | 55.5% | $1.81 | Edge under 1.5% — inside vig noise. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +112 | 47.7% | $1.22 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +110 | 48.2% | $1.17 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.6% | $0.24 | Edge under 1.5% — inside vig noise. |
+| MLB | Seattle Mariners | Tampa Bay Rays vs Seattle Mariners | Minimum edge | +124 | 44.7% | $0.19 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +111 | 47.4% | $0.11 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
