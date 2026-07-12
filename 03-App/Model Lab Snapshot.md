@@ -1,12 +1,12 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T06:21:09.070Z
+Updated: 2026-07-12T06:41:10.095Z
 
 ## Summary
 - Total tracked picks: 61
-- Pending: 3
-- Graded: 58
-- Wins: 17
+- Pending: 2
+- Graded: 59
+- Wins: 18
 - Losses: 40
 - Draws: 1
 - Intel review decisions saved: 22
@@ -17,7 +17,7 @@ Updated: 2026-07-12T06:21:09.070Z
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +110 | 0.4 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
-| MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
+| MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | win | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | loss | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | loss | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
@@ -83,11 +83,11 @@ Updated: 2026-07-12T06:21:09.070Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 36 | 33 | 21.2% | -0.0 pts | 0.183 | 0.0% |
+| Passed gate | 36 | 34 | 23.5% | -0.0 pts | 0.191 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T06:21:08.139Z
+- Saved: 2026-07-12T06:41:09.154Z
 - Current candidates: 42
 - Passed / blocked: 0 / 42
 
@@ -102,12 +102,12 @@ Updated: 2026-07-12T06:21:09.070Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +7000 | 9.7% | $586.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +7000 | 9.7% | $586.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1100 | 16.7% | $100.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | England | England vs Argentina | Game too stale/live | +200 | 35.5% | $6.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | -400 | 83.3% | $4.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | France | France vs Spain | Game too stale/live | +137 | 42.7% | $1.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Game too stale/live | +110 | 47.8% | $0.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Game too stale/live | +110 | 47.8% | $0.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
