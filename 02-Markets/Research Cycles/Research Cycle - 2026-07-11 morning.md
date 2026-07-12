@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-11
 
-Generated: 2026-07-12T01:04:10.248Z
-Local time: 9:04 PM
+Generated: 2026-07-12T01:19:31.743Z
+Local time: 9:19 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,11 +13,11 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-12T01:04:04.675Z
+- Snapshot generated: 2026-07-12T01:19:26.590Z
 - MLB odds events: 20
 - Soccer odds events: 2
-- High-impact intel blocks: 5
-- Intel pending / confirmed / denied: 6 / 0 / 0
+- High-impact intel blocks: 6
+- Intel pending / confirmed / denied: 7 / 0 / 0
 - Pending tracked picks: 3
 - Tracked gate status passed / blocked / unknown: 35 / 0 / 25
 - Nightly review ran: no
@@ -25,9 +25,10 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 ## High-Impact Blocks
 - **MLB / Market move / pending:** Kansas City Royals at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Houston Astros at Texas Rangers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is Player challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago Cubs at Cincinnati Reds — Game status is Manager challenge. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Atlanta Braves at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Toronto Blue Jays at San Diego Padres — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -35,28 +36,28 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 11, 9:10 PM | 6 | Arizona Diamondbacks +255, Los Angeles Dodgers -322 | 11 |
-| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 912 | DK missing | 4 |
-| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 992 | Baltimore Orioles -149, Kansas City Royals +124 | 10 |
-| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 992 | DK missing | 7 |
-| Boston Red Sox at New York Mets | Jul 12, 1:41 PM | 997 | Boston Red Sox -122, New York Mets +102 | 7 |
-| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 997 | Chicago Cubs -131, Cincinnati Reds +108 | 10 |
-| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 997 | Cleveland Guardians -105, Miami Marlins -115 | 8 |
-| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 997 | Detroit Tigers -112, Philadelphia Phillies -108 | 10 |
-| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 997 | Seattle Mariners +108, Tampa Bay Rays -131 | 10 |
-| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1027 | Athletics -102, Chicago White Sox -118 | 10 |
-| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1027 | Los Angeles Angels +113, Minnesota Twins -136 | 10 |
-| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1032 | Atlanta Braves +113, St. Louis Cardinals -136 | 10 |
+| Milwaukee Brewers at Pittsburgh Pirates | Jul 12, 12:16 PM | 897 | Milwaukee Brewers +105, Pittsburgh Pirates -126 | 7 |
+| Kansas City Royals at Baltimore Orioles | Jul 12, 1:36 PM | 977 | Baltimore Orioles -149, Kansas City Royals +124 | 10 |
+| New York Yankees at Washington Nationals | Jul 12, 1:36 PM | 977 | DK missing | 7 |
+| Boston Red Sox at New York Mets | Jul 12, 1:41 PM | 982 | Boston Red Sox -122, New York Mets +102 | 7 |
+| Chicago Cubs at Cincinnati Reds | Jul 12, 1:41 PM | 982 | Chicago Cubs -131, Cincinnati Reds +108 | 10 |
+| Cleveland Guardians at Miami Marlins | Jul 12, 1:41 PM | 982 | Cleveland Guardians -105, Miami Marlins -115 | 9 |
+| Philadelphia Phillies at Detroit Tigers | Jul 12, 1:41 PM | 982 | Detroit Tigers -112, Philadelphia Phillies -108 | 10 |
+| Seattle Mariners at Tampa Bay Rays | Jul 12, 1:41 PM | 982 | Seattle Mariners +108, Tampa Bay Rays -131 | 10 |
+| Athletics at Chicago White Sox | Jul 12, 2:11 PM | 1012 | Athletics -102, Chicago White Sox -118 | 10 |
+| Los Angeles Angels at Minnesota Twins | Jul 12, 2:11 PM | 1012 | Los Angeles Angels +113, Minnesota Twins -136 | 10 |
+| Atlanta Braves at St. Louis Cardinals | Jul 12, 2:16 PM | 1017 | Atlanta Braves +113, St. Louis Cardinals -136 | 10 |
+| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 1127 | Colorado Rockies +128, San Francisco Giants -155 | 10 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 3956 | France +135, Spain +220, Draw +225 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 3941 | France +135, Spain +220, Draw +225 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | +239 | +255 | 31.1% | 25% strength model + 75% market no-vig |
+| MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | +239 | +265 | 31.1% | 25% strength model + 75% market no-vig |
 | Soccer | France vs Spain | France | +135 | +137 | 44.3% | 25% strength model + 75% market no-vig |
 | Soccer | Argentina vs Switzerland | Switzerland | +460 | +550 | 20.8% | 31% strength model + 69% market no-vig |
 
