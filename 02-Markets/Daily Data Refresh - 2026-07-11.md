@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-11
 
-Generated: 2026-07-12T02:21:06.395Z
+Generated: 2026-07-12T02:36:27.841Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Chicago Cubs at Cincinnati Reds: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +225, which is short enough to demand draw-risk review before backing either side.
@@ -41,22 +40,21 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Philadelphia Phillies at Detroit Tigers | Final | Cristopher Sánchez | Casey Mize | 4-2 |
 | Kansas City Royals at Baltimore Orioles | Final | Noah Cameron | Kyle Bradish | 1-6 |
 | Houston Astros at Texas Rangers | Final | Peter Lambert | Kumar Rocker | 9-3 |
-| Chicago Cubs at Cincinnati Reds | Game Over | Javier Assad | Nick Lodolo | 5-3 |
+| Chicago Cubs at Cincinnati Reds | Final | Javier Assad | Nick Lodolo | 5-3 |
 | Atlanta Braves at St. Louis Cardinals | Final | Reynaldo López | Matthew Liberatore | 1-4 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-6 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Trey Yesavage | Walker Buehler | 4-7 |
 | Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Brandon Pfaadt | Yoshinobu Yamamoto | 1-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Chicago Cubs at Cincinnati Reds | 2026-07-11T23:11:00Z | Chicago Cubs -3600, Cincinnati Reds +990 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -467, Toronto Blue Jays +328 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -103, Los Angeles Dodgers -126 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T00:41:00Z | San Diego Padres -1220, Toronto Blue Jays +670 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T01:10:54Z | Arizona Diamondbacks -112, Los Angeles Dodgers -116 |
 | Milwaukee Brewers at Pittsburgh Pirates | 2026-07-12T16:16:00Z | Milwaukee Brewers +100, Pittsburgh Pirates -120 |
 | Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | Baltimore Orioles -155, Kansas City Royals +128 |
 | New York Yankees at Washington Nationals | 2026-07-12T17:36:00Z | New York Yankees -114, Washington Nationals -105 |
-| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -122, New York Mets +102 |
+| Boston Red Sox at New York Mets | 2026-07-12T17:41:00Z | Boston Red Sox -126, New York Mets +104 |
 | Chicago Cubs at Cincinnati Reds | 2026-07-12T17:41:00Z | Chicago Cubs -131, Cincinnati Reds +108 |
 | Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | Cleveland Guardians -105, Miami Marlins -115 |
 | Philadelphia Phillies at Detroit Tigers | 2026-07-12T17:41:00Z | Detroit Tigers -115, Philadelphia Phillies -105 |
@@ -64,15 +62,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Chicago White Sox | 2026-07-12T18:11:00Z | Athletics -102, Chicago White Sox -118 |
 | Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +113, Minnesota Twins -136 |
 | Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +113, St. Louis Cardinals -136 |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | none |
 | Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +128, San Francisco Giants -155 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +168, Los Angeles Dodgers -206 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +178, Los Angeles Dodgers -219 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres +104, Toronto Blue Jays -126 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -525, Switzerland +2500, Draw +450 |
+| Switzerland at Argentina | 2026-07-12T01:00:00Z | Argentina -105, Switzerland +1900, Draw +100 |
 | Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +225 |
 
 ## FIFA men's ranking model input
