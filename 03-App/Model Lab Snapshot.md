@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T05:21:05.995Z
+Updated: 2026-07-12T05:41:06.998Z
 
 ## Summary
-- Total tracked picks: 62
-- Pending: 4
+- Total tracked picks: 61
+- Pending: 3
 - Graded: 58
 - Wins: 17
 - Losses: 40
@@ -15,7 +15,6 @@ Updated: 2026-07-12T05:21:05.995Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| Soccer | England vs Argentina | England | pending | +200 | - | - | 36.5% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | pending | +112 | +110 | 0.4 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
@@ -55,6 +54,7 @@ Updated: 2026-07-12T05:21:05.995Z
 | Soccer | Brazil vs Norway | Norway | win | +330 | +390 | -2.8 pts | 23.3% | Odds API no-vig only |
 | Soccer | Portugal vs Croatia | Croatia | loss | +415 | +480 | -2.2 pts | 19.4% | Odds API no-vig only |
 | Soccer | Australia vs Egypt | Egypt | loss | +155 | +140 | 2.5 pts | 38.3% | Odds API no-vig only |
+| Soccer | Australia vs Egypt | Draw | win | +195 | +191 | 0.5 pts | 33.2% | Odds API no-vig only |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,19 +83,19 @@ Updated: 2026-07-12T05:21:05.995Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 37 | 33 | 21.2% | -0.0 pts | 0.183 | 0.0% |
+| Passed gate | 36 | 33 | 21.2% | -0.0 pts | 0.183 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T05:21:05.048Z
+- Saved: 2026-07-12T05:41:06.074Z
 - Current candidates: 42
-- Passed / blocked: 2 / 40
+- Passed / blocked: 0 / 42
 
 ### Top Blockers
-- Minimum edge: 37
-- Model ready: 36
+- Model ready: 42
+- Pregame: 42
+- Minimum edge: 38
 - Positive EV: 36
-- Pregame: 36
 - Beats consensus: 21
 - DraftKings line: 4
 
@@ -104,7 +104,9 @@ Updated: 2026-07-12T05:21:05.995Z
 |---|---|---|---|---:|---:|---:|---|
 | MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +7000 | 9.7% | $586.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1100 | 16.7% | $100.71 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | England | England vs Argentina | Game too stale/live | +200 | 35.5% | $6.60 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | -400 | 83.3% | $4.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | France | France vs Spain | Game too stale/live | +137 | 42.7% | $1.29 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Game too stale/live | +110 | 47.8% | $0.39 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
