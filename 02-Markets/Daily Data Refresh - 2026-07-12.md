@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T23:09:34.244Z
+Generated: 2026-07-12T23:24:54.883Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Spain at France: Draw price is +215, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Argentina at England: Draw price is +195, which is short enough to demand draw-risk review before backing either side.
 
@@ -41,14 +40,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Atlanta Braves at St. Louis Cardinals | Final | Danny Young | Dustin May | 4-3 |
 | Houston Astros at Texas Rangers | Final | Cristian Javier | MacKenzie Gore | 5-6 |
 | Colorado Rockies at San Francisco Giants | Final | Michael Lorenzen | Trevor McDonald | 1-3 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Game Over | Mitch Bratt | Emmet Sheehan | 5-3 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Final | Mitch Bratt | Emmet Sheehan | 5-3 |
 | Toronto Blue Jays at San Diego Padres | Final | Kevin Gausman | Germán Márquez | 4-5 |
 
 ## DraftKings MLB odds snapshot
 
-| Game | Start | DraftKings |
-| --- | --- | --- |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | none |
+_No rows returned._
 
 ## DraftKings Soccer odds snapshot
 

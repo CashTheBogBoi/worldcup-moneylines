@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-12
 
-Generated: 2026-07-12T23:09:23.438Z
-Local time: 7:09 PM
+Generated: 2026-07-12T23:24:45.479Z
+Local time: 7:24 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,17 +13,17 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-12T23:09:18.460Z
-- MLB odds events: 1
+- Snapshot generated: 2026-07-12T23:24:40.845Z
+- MLB odds events: 0
 - Soccer odds events: 2
-- High-impact intel blocks: 1
-- Intel pending / confirmed / denied: 3 / 0 / 0
+- High-impact intel blocks: 0
+- Intel pending / confirmed / denied: 2 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No active high-impact blocks in this snapshot._
 
 ## Missing MLB Starters
 _No rows._
@@ -34,8 +34,8 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2631 | France +135, Spain +225, Draw +215 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4071 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2615 | France +135, Spain +225, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4055 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
