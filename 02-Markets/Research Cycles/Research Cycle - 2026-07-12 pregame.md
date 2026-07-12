@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-12
 
-Generated: 2026-07-12T19:35:07.974Z
-Local time: 3:35 PM
+Generated: 2026-07-12T19:50:23.743Z
+Local time: 3:50 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,7 +13,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-12T19:35:04.043Z
+- Snapshot generated: 2026-07-12T19:50:20.062Z
 - MLB odds events: 14
 - Soccer odds events: 2
 - High-impact intel blocks: 11
@@ -41,15 +41,15 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 31 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
-| Arizona Diamondbacks at Los Angeles Dodgers | Jul 12, 4:11 PM | 36 | Arizona Diamondbacks +187, Los Angeles Dodgers -231 | 11 |
-| Toronto Blue Jays at San Diego Padres | Jul 12, 4:11 PM | 36 | San Diego Padres +105, Toronto Blue Jays -126 | 11 |
+| Colorado Rockies at San Francisco Giants | Jul 12, 4:06 PM | 16 | Colorado Rockies +124, San Francisco Giants -149 | 11 |
+| Arizona Diamondbacks at Los Angeles Dodgers | Jul 12, 4:11 PM | 21 | Arizona Diamondbacks +187, Los Angeles Dodgers -231 | 11 |
+| Toronto Blue Jays at San Diego Padres | Jul 12, 4:11 PM | 21 | San Diego Padres +105, Toronto Blue Jays -126 | 11 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2845 | France +135, Spain +220, Draw +220 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4285 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2830 | France +135, Spain +220, Draw +220 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4270 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
