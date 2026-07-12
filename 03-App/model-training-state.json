@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-12T22:54:28.928Z",
+  "savedAt": "2026-07-12T23:10:28.969Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -161,7 +161,7 @@
       "autoClosed": true,
       "closeFrozenAt": "2026-07-12T16:16:08.016Z",
       "autoGraded": true,
-      "gradedAt": "2026-07-12T19:34:58.199Z"
+      "gradedAt": "2026-07-12T19:35:28.877Z"
     },
     {
       "id": "model-1783784011559-77201",
@@ -892,7 +892,7 @@
           "source": "pre-start"
         },
         {
-          "at": "2026-07-12T22:54:28.884Z",
+          "at": "2026-07-12T22:54:28.908Z",
           "price": 135,
           "book": "Fanatics",
           "source": "pre-start"
@@ -900,7 +900,7 @@
       ],
       "note": "",
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-12T22:54:28.884Z",
+      "closedAt": "2026-07-12T23:10:28.946Z",
       "autoClosed": true
     },
     {
@@ -6641,72 +6641,46 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-12T22:54:28.922Z",
-    "totalCandidates": 10,
+    "savedAt": "2026-07-12T23:10:28.968Z",
+    "totalCandidates": 8,
     "passed": 1,
-    "blocked": 9,
+    "blocked": 7,
     "blockers": [
-      {
-        "label": "Beats consensus",
-        "count": 6
-      },
       {
         "label": "Minimum edge",
         "count": 6
+      },
+      {
+        "label": "Beats consensus",
+        "count": 5
       },
       {
         "label": "Positive EV",
         "count": 5
       },
       {
+        "label": "DraftKings line",
+        "count": 2
+      },
+      {
         "label": "Model ready",
-        "count": 4
+        "count": 2
       },
       {
         "label": "Pregame",
-        "count": 4
-      },
-      {
-        "label": "DraftKings line",
         "count": 2
       }
     ],
     "watchlist": [
       {
         "sport": "MLB",
-        "match": "San Diego Padres vs Toronto Blue Jays",
-        "selection": "Toronto Blue Jays",
-        "book": "Fanatics",
-        "price": 1700,
-        "probability": 0.13774634972421396,
-        "ev": 147.9434295035851,
-        "edge": 0.0821907941686584,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
         "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
         "selection": "Los Angeles Dodgers",
-        "book": "FanDuel",
-        "price": 320,
-        "probability": 0.29733577819414786,
-        "ev": 24.88102684154211,
-        "edge": 0.05924054009890978,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
-        "selection": "Arizona Diamondbacks",
-        "book": "MyBookie.ag",
-        "price": -200,
-        "probability": 0.7026642218058521,
-        "ev": 5.399633270877814,
-        "edge": 0.035997555139185455,
+        "book": "BetMGM",
+        "price": 3000,
+        "probability": 0.10768291945231086,
+        "ev": 233.81705030216366,
+        "edge": 0.07542485493618183,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -6717,9 +6691,9 @@
         "selection": "England",
         "book": "Fanatics",
         "price": 165,
-        "probability": 0.37940503770285017,
-        "ev": 0.542334991255295,
-        "edge": 0.0020465471368124044,
+        "probability": 0.3794050377028502,
+        "ev": 0.5423349912553093,
+        "edge": 0.00204654713681246,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6729,8 +6703,8 @@
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1783896868883",
-      "at": "2026-07-12T22:54:28.883Z",
+      "id": "snapshot-1783897828946",
+      "at": "2026-07-12T23:10:28.946Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6779,8 +6753,108 @@
       ]
     },
     {
-      "id": "snapshot-1783895968851",
-      "at": "2026-07-12T22:39:28.851Z",
+      "id": "snapshot-1783897768921",
+      "at": "2026-07-12T23:09:28.921Z",
+      "source": "local",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 234,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Spain",
+              "price": 238,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 165,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 220,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapshot-1783896868907",
+      "at": "2026-07-12T22:54:28.907Z",
+      "source": "local",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 234,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Spain",
+              "price": 238,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 165,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 220,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapshot-1783895968861",
+      "at": "2026-07-12T22:39:28.861Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6829,8 +6903,8 @@
       ]
     },
     {
-      "id": "snapshot-1783895608839",
-      "at": "2026-07-12T22:33:28.839Z",
+      "id": "snapshot-1783895608846",
+      "at": "2026-07-12T22:33:28.846Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6879,8 +6953,8 @@
       ]
     },
     {
-      "id": "snapshot-1783895008781",
-      "at": "2026-07-12T22:23:28.781Z",
+      "id": "snapshot-1783895008788",
+      "at": "2026-07-12T22:23:28.788Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6929,8 +7003,8 @@
       ]
     },
     {
-      "id": "snapshot-1783894108787",
-      "at": "2026-07-12T22:08:28.787Z",
+      "id": "snapshot-1783894108802",
+      "at": "2026-07-12T22:08:28.802Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6979,8 +7053,8 @@
       ]
     },
     {
-      "id": "snapshot-1783893208825",
-      "at": "2026-07-12T21:53:28.825Z",
+      "id": "snapshot-1783893208933",
+      "at": "2026-07-12T21:53:28.933Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7029,8 +7103,8 @@
       ]
     },
     {
-      "id": "snapshot-1783892248836",
-      "at": "2026-07-12T21:37:28.836Z",
+      "id": "snapshot-1783892248902",
+      "at": "2026-07-12T21:37:28.902Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7079,8 +7153,8 @@
       ]
     },
     {
-      "id": "snapshot-1783891828803",
-      "at": "2026-07-12T21:30:28.803Z",
+      "id": "snapshot-1783891828939",
+      "at": "2026-07-12T21:30:28.939Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7129,8 +7203,8 @@
       ]
     },
     {
-      "id": "snapshot-1783891348751",
-      "at": "2026-07-12T21:22:28.751Z",
+      "id": "snapshot-1783891348862",
+      "at": "2026-07-12T21:22:28.862Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7179,8 +7253,8 @@
       ]
     },
     {
-      "id": "snapshot-1783890448752",
-      "at": "2026-07-12T21:07:28.752Z",
+      "id": "snapshot-1783890448785",
+      "at": "2026-07-12T21:07:28.785Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7229,8 +7303,8 @@
       ]
     },
     {
-      "id": "snapshot-1783889488772",
-      "at": "2026-07-12T20:51:28.772Z",
+      "id": "snapshot-1783889488861",
+      "at": "2026-07-12T20:51:28.861Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7279,8 +7353,8 @@
       ]
     },
     {
-      "id": "snapshot-1783888588884",
-      "at": "2026-07-12T20:36:28.884Z",
+      "id": "snapshot-1783888588898",
+      "at": "2026-07-12T20:36:28.898Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7329,8 +7403,8 @@
       ]
     },
     {
-      "id": "snapshot-1783887688838",
-      "at": "2026-07-12T20:21:28.838Z",
+      "id": "snapshot-1783887688883",
+      "at": "2026-07-12T20:21:28.883Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7379,8 +7453,8 @@
       ]
     },
     {
-      "id": "snapshot-1783886788842",
-      "at": "2026-07-12T20:06:28.842Z",
+      "id": "snapshot-1783886788908",
+      "at": "2026-07-12T20:06:28.908Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7429,8 +7503,8 @@
       ]
     },
     {
-      "id": "snapshot-1783885828817",
-      "at": "2026-07-12T19:50:28.817Z",
+      "id": "snapshot-1783885828834",
+      "at": "2026-07-12T19:50:28.834Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7479,8 +7553,8 @@
       ]
     },
     {
-      "id": "snapshot-1783884921140",
-      "at": "2026-07-12T19:35:21.140Z",
+      "id": "snapshot-1783884928876",
+      "at": "2026-07-12T19:35:28.876Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7529,8 +7603,8 @@
       ]
     },
     {
-      "id": "snapshot-1783884898199",
-      "at": "2026-07-12T19:34:58.199Z",
+      "id": "snapshot-1783884328843",
+      "at": "2026-07-12T19:25:28.843Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -7579,9 +7653,9 @@
       ]
     },
     {
-      "id": "snapshot-1783884289200",
-      "at": "2026-07-12T19:24:49.200Z",
-      "source": "local",
+      "id": "snapshot-1783883671439",
+      "at": "2026-07-12T19:14:31.439Z",
+      "source": "live",
       "eventCount": 2,
       "lines": [
         {
@@ -8081,106 +8155,6 @@
     {
       "id": "snapshot-1783873807982",
       "at": "2026-07-12T16:30:07.982Z",
-      "source": "live",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 234,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Spain",
-              "price": 233,
-              "book": "LowVig.ag"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 168,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Argentina",
-              "price": 211,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783873747997",
-      "at": "2026-07-12T16:29:07.997Z",
-      "source": "live",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "FanDuel"
-            },
-            {
-              "name": "Draw",
-              "price": 234,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Spain",
-              "price": 233,
-              "book": "LowVig.ag"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 168,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Argentina",
-              "price": 211,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783873688049",
-      "at": "2026-07-12T16:28:08.049Z",
       "source": "live",
       "eventCount": 2,
       "lines": [

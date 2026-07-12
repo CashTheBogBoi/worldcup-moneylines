@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-12
 
-Generated: 2026-07-12T22:54:02.029Z
-Local time: 6:54 PM
+Generated: 2026-07-12T23:09:23.438Z
+Local time: 7:09 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,8 +13,8 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-12T22:53:56.130Z
-- MLB odds events: 2
+- Snapshot generated: 2026-07-12T23:09:18.460Z
+- MLB odds events: 1
 - Soccer odds events: 2
 - High-impact intel blocks: 1
 - Intel pending / confirmed / denied: 3 / 0 / 0
@@ -23,7 +23,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Arizona Diamondbacks at Los Angeles Dodgers — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -34,8 +34,8 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2646 | France +135, Spain +220, Draw +220 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 4086 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2631 | France +135, Spain +225, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 4071 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |

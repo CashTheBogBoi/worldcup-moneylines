@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T22:54:29.854Z
+Updated: 2026-07-12T23:10:29.880Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,24 +87,22 @@ Updated: 2026-07-12T22:54:29.854Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T22:54:28.922Z
-- Current candidates: 10
-- Passed / blocked: 1 / 9
+- Saved: 2026-07-12T23:10:28.968Z
+- Current candidates: 8
+- Passed / blocked: 1 / 7
 
 ### Top Blockers
-- Beats consensus: 6
 - Minimum edge: 6
+- Beats consensus: 5
 - Positive EV: 5
-- Model ready: 4
-- Pregame: 4
 - DraftKings line: 2
+- Model ready: 2
+- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +1700 | 13.8% | $147.94 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +320 | 29.7% | $24.88 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | -200 | 70.3% | $5.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +3000 | 10.8% | $233.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.54 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
