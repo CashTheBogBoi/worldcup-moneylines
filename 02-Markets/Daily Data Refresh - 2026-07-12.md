@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T21:37:20.802Z
+Generated: 2026-07-12T21:52:43.473Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Houston Astros at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Arizona Diamondbacks at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at San Diego Padres: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -42,19 +41,18 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Los Angeles Angels at Minnesota Twins | Final | José Soriano | Taj Bradley | 2-4 |
 | Athletics at Chicago White Sox | Final | J.T. Ginn | Noah Schultz | 1-9 |
 | Atlanta Braves at St. Louis Cardinals | Final | Danny Young | Dustin May | 4-3 |
-| Houston Astros at Texas Rangers | In Progress | Cristian Javier | MacKenzie Gore | 5-5 |
+| Houston Astros at Texas Rangers | Final | Cristian Javier | MacKenzie Gore | 5-6 |
 | Colorado Rockies at San Francisco Giants | In Progress | Michael Lorenzen | Trevor McDonald | 1-1 |
-| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 1-3 |
+| Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 2-3 |
 | Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 3-3 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +800, Texas Rangers -2200 |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +130, San Francisco Giants -170 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +525, Los Angeles Dodgers -940 |
-| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -151, Toronto Blue Jays +116 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies +103, San Francisco Giants -134 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +275, Los Angeles Dodgers -394 |
+| Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -161, Toronto Blue Jays +123 |
 
 ## DraftKings Soccer odds snapshot
 
