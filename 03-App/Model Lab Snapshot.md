@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T14:20:26.039Z
+Updated: 2026-07-12T15:00:08.386Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,7 +87,7 @@ Updated: 2026-07-12T14:20:26.039Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T14:20:25.095Z
+- Saved: 2026-07-12T15:00:07.458Z
 - Current candidates: 36
 - Passed / blocked: 1 / 35
 
@@ -99,13 +99,13 @@ Updated: 2026-07-12T14:20:26.039Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -120 | 55.8% | $2.31 | Edge under 1.5% — inside vig noise. |
 | MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Minimum edge | +195 | 34.6% | $2.03 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +112 | 48.0% | $1.87 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Pittsburgh Pirates vs Milwaukee Brewers | Minimum edge | +112 | 48.0% | $1.75 | Edge under 1.5% — inside vig noise. |
 | MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Minimum edge | +112 | 47.6% | $0.95 | Edge under 1.5% — inside vig noise. |
-| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +112 | 47.5% | $0.79 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Minimum edge | -107 | 52.0% | $0.59 | Edge under 1.5% — inside vig noise. |
-| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.6% | $0.28 | Edge under 1.5% — inside vig noise. |
+| MLB | Atlanta Braves | St. Louis Cardinals vs Atlanta Braves | Minimum edge | +112 | 47.6% | $0.89 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs Athletics | Minimum edge | -125 | 55.9% | $0.65 | Edge under 1.5% — inside vig noise. |
+| MLB | Miami Marlins | Miami Marlins vs Cleveland Guardians | Minimum edge | -108 | 52.0% | $0.24 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +160 | 38.5% | $0.15 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

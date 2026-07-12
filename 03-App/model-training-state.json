@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-12T14:20:25.100Z",
+  "savedAt": "2026-07-12T15:00:07.463Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -105,11 +105,17 @@
           "price": 112,
           "book": "FanDuel",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-12T15:00:07.431Z",
+          "price": 112,
+          "book": "BetRivers",
+          "source": "pre-start"
         }
       ],
       "note": "",
-      "closeBook": "FanDuel",
-      "closedAt": "2026-07-12T14:20:25.064Z",
+      "closeBook": "BetRivers",
+      "closedAt": "2026-07-12T15:00:07.431Z",
       "autoClosed": true
     },
     {
@@ -833,11 +839,17 @@
           "price": 135,
           "book": "Bovada",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-12T15:00:07.431Z",
+          "price": 135,
+          "book": "FanDuel",
+          "source": "pre-start"
         }
       ],
       "note": "",
-      "closeBook": "Bovada",
-      "closedAt": "2026-07-12T14:20:25.064Z",
+      "closeBook": "FanDuel",
+      "closedAt": "2026-07-12T15:00:07.431Z",
       "autoClosed": true
     },
     {
@@ -6578,7 +6590,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-12T14:20:25.095Z",
+    "savedAt": "2026-07-12T15:00:07.458Z",
     "totalCandidates": 36,
     "passed": 1,
     "blocked": 35,
@@ -6599,19 +6611,6 @@
     "watchlist": [
       {
         "sport": "MLB",
-        "match": "Chicago White Sox vs Athletics",
-        "selection": "Chicago White Sox",
-        "book": "BetRivers",
-        "price": -120,
-        "probability": 0.5580292927055759,
-        "ev": 2.30537032935559,
-        "edge": 0.012574747251030471,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
         "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
         "selection": "Arizona Diamondbacks",
         "book": "BetOnline.ag",
@@ -6627,11 +6626,11 @@
         "sport": "MLB",
         "match": "Pittsburgh Pirates vs Milwaukee Brewers",
         "selection": "Milwaukee Brewers",
-        "book": "FanDuel",
+        "book": "BetRivers",
         "price": 112,
-        "probability": 0.48049928148363596,
-        "ev": 1.8658476745308334,
-        "edge": 0.008801168276088789,
+        "probability": 0.4799325965385476,
+        "ev": 1.745710466172092,
+        "edge": 0.008234483331000408,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6655,9 +6654,22 @@
         "selection": "Atlanta Braves",
         "book": "LowVig.ag",
         "price": 112,
-        "probability": 0.47541248590689184,
-        "ev": 0.7874470122610688,
-        "edge": 0.003714372699344659,
+        "probability": 0.4758893817878394,
+        "ev": 0.8885489390219519,
+        "edge": 0.004191268580292229,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
+        "match": "Chicago White Sox vs Athletics",
+        "selection": "Chicago White Sox",
+        "book": "Fanatics",
+        "price": -125,
+        "probability": 0.5591813569590038,
+        "ev": 0.6526442526206893,
+        "edge": 0.003625801403448259,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6666,11 +6678,11 @@
         "sport": "MLB",
         "match": "Miami Marlins vs Cleveland Guardians",
         "selection": "Miami Marlins",
-        "book": "BetUS",
-        "price": -107,
-        "probability": 0.5199627096954886,
-        "ev": 0.5909167354823808,
-        "edge": 0.0030544971351021966,
+        "book": "BetOnline.ag",
+        "price": -108,
+        "probability": 0.5204849704289327,
+        "ev": 0.24154986038704607,
+        "edge": 0.0012542011981634404,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6679,11 +6691,11 @@
         "sport": "Soccer",
         "match": "England vs Argentina",
         "selection": "England",
-        "book": "BetOnline.ag",
+        "book": "BetRivers",
         "price": 160,
-        "probability": 0.38570651785771737,
-        "ev": 0.2836946430065197,
-        "edge": 0.0010911332423327313,
+        "probability": 0.38519819539672084,
+        "ev": 0.1515308031474234,
+        "edge": 0.0005828107813362071,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6692,6 +6704,56 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783868407430",
+      "at": "2026-07-12T15:00:07.430Z",
+      "source": "local",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "FanDuel"
+            },
+            {
+              "name": "Draw",
+              "price": 234,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Spain",
+              "price": 233,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 160,
+              "book": "BetRivers"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "BetMGM"
+            },
+            {
+              "name": "Argentina",
+              "price": 215,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783866025063",
       "at": "2026-07-12T14:20:25.063Z",
@@ -8431,72 +8493,6 @@
     {
       "id": "snapshot-1783833665013",
       "at": "2026-07-12T05:21:05.013Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Argentina vs Switzerland",
-          "commenceTime": "2026-07-12T01:00:00Z",
-          "best": [
-            {
-              "name": "Argentina",
-              "price": null,
-              "book": ""
-            },
-            {
-              "name": "Switzerland",
-              "price": null,
-              "book": ""
-            }
-          ]
-        },
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 137,
-              "book": "LowVig.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 230,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Spain",
-              "price": 245,
-              "book": "BetRivers"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 200,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "BetMGM"
-            },
-            {
-              "name": "Argentina",
-              "price": 182,
-              "book": "MyBookie.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783832464108",
-      "at": "2026-07-12T05:01:04.108Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
