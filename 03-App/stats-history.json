@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T01:20:12.059Z",
+  "updatedAt": "2026-07-12T01:35:12.046Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -41,11 +41,11 @@
       },
       "baltimore orioles": {
         "team": "Baltimore Orioles",
-        "xgFor": 4.557894736842106,
-        "xgAgainst": 4.873684210526315,
-        "form": 4.63,
+        "xgFor": 4.572916666666667,
+        "xgAgainst": 4.833333333333333,
+        "form": 4.6899999999999995,
         "homeEdge": 0,
-        "news": "Local snapshot: 44-51, 4.56 RS/G, 4.87 RA/G.",
+        "news": "Local snapshot: 45-51, 4.57 RS/G, 4.83 RA/G.",
         "auto": true
       },
       "chicago white sox": {
@@ -86,11 +86,11 @@
       },
       "kansas city royals": {
         "team": "Kansas City Royals",
-        "xgFor": 4.294736842105263,
-        "xgAgainst": 5.105263157894737,
-        "form": 4,
+        "xgFor": 4.260416666666667,
+        "xgAgainst": 5.114583333333333,
+        "form": 3.96,
         "homeEdge": 0,
-        "news": "Local snapshot: 38-57, 4.29 RS/G, 5.11 RA/G.",
+        "news": "Local snapshot: 38-58, 4.26 RS/G, 5.11 RA/G.",
         "auto": true
       },
       "texas rangers": {
@@ -1903,13 +1903,13 @@
         "pitcher": "Kyle Bradish",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-11::kansas city royals": {
         "pitcher": "Noah Cameron",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-11::texas rangers": {
         "pitcher": "Kumar Rocker",
@@ -1927,13 +1927,13 @@
         "pitcher": "Nick Lodolo",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Manager challenge"
+        "status": "In Progress"
       },
       "2026-07-11::chicago cubs": {
         "pitcher": "Javier Assad",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Manager challenge"
+        "status": "In Progress"
       },
       "2026-07-11::st. louis cardinals": {
         "pitcher": "Matthew Liberatore",
@@ -2121,7 +2121,9 @@
       "cleveland guardians": "win",
       "miami marlins": "loss",
       "philadelphia phillies": "win",
-      "detroit tigers": "loss"
+      "detroit tigers": "loss",
+      "kansas city royals": "loss",
+      "baltimore orioles": "win"
     },
     "fifaMensRankings": [
       {
@@ -4027,34 +4029,34 @@
     "mlbBullpen": {
       "detroit tigers": -0.6533333333333338,
       "philadelphia phillies": 0.013333333333332753,
-      "baltimore orioles": -0.3200000000000003,
-      "kansas city royals": 0.013333333333332753,
-      "chicago cubs": 0.013333333333332753,
-      "cincinnati reds": -0.9866666666666668,
-      "new york mets": -0.3200000000000003,
-      "athletics": 0.6799999999999997,
-      "pittsburgh pirates": 0.013333333333332753,
-      "milwaukee brewers": 0.013333333333332753,
-      "texas rangers": 0.3466666666666667,
-      "houston astros": -0.8200000000000003,
-      "boston red sox": -0.3200000000000003,
-      "minnesota twins": 0.013333333333332753,
-      "cleveland guardians": 1.0133333333333328,
-      "san diego padres": -0.3200000000000003,
-      "toronto blue jays": -0.3200000000000003,
-      "chicago white sox": -0.6533333333333338,
       "washington nationals": 0.17999999999999972,
       "new york yankees": 0.6799999999999997,
+      "cincinnati reds": -0.9866666666666668,
+      "chicago cubs": 0.013333333333332753,
       "tampa bay rays": 0.013333333333332753,
       "seattle mariners": -0.9866666666666668,
+      "chicago white sox": -0.6533333333333338,
+      "athletics": 0.6799999999999997,
       "miami marlins": -0.6533333333333338,
-      "arizona diamondbacks": -0.3200000000000003,
+      "cleveland guardians": 1.0133333333333328,
+      "baltimore orioles": -0.3200000000000003,
+      "kansas city royals": 0.013333333333332753,
+      "new york mets": -0.3200000000000003,
+      "boston red sox": -0.3200000000000003,
+      "texas rangers": 0.3466666666666667,
+      "houston astros": -0.8200000000000003,
+      "minnesota twins": 0.013333333333332753,
       "los angeles angels": 0.6799999999999997,
-      "san francisco giants": 0.013333333333332753,
-      "colorado rockies": -0.3200000000000003,
       "st. louis cardinals": 0.3466666666666667,
       "atlanta braves": 1.0133333333333328,
-      "los angeles dodgers": 1.6799999999999997
+      "san diego padres": -0.3200000000000003,
+      "toronto blue jays": -0.3200000000000003,
+      "los angeles dodgers": 1.6799999999999997,
+      "arizona diamondbacks": -0.3200000000000003,
+      "san francisco giants": 0.013333333333332753,
+      "colorado rockies": -0.3200000000000003,
+      "pittsburgh pirates": 0.013333333333332753,
+      "milwaukee brewers": 0.013333333333332753
     },
     "openingLines": {
       "e66e4478b739fa0657a7a11235e1fcee::Norway": {
@@ -5614,21 +5616,21 @@
       }
     },
     "kalshi": {
-      "norway": 0.061,
+      "norway": 0.0615,
       "switzerland": 0.0165,
       "england": 0.1455,
-      "argentina": 0.1815,
-      "france": 0.3835,
+      "argentina": 0.181,
+      "france": 0.384,
       "spain": 0.2045
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-12T01:20:12.059Z",
-      "mlbStarters": "2026-07-12T01:20:12.059Z",
-      "mlbLastResults": "2026-07-12T01:20:12.059Z",
-      "fifaMensRankings": "2026-07-12T01:20:12.059Z",
-      "kalshi": "2026-07-11T19:43:12.523Z",
-      "mlbBullpen": "2026-07-11T19:43:12.523Z",
-      "openingLines": "2026-07-11T19:43:12.523Z"
+      "mlbTeamRatings": "2026-07-12T01:35:12.046Z",
+      "mlbStarters": "2026-07-12T01:35:12.046Z",
+      "mlbLastResults": "2026-07-12T01:35:12.046Z",
+      "fifaMensRankings": "2026-07-12T01:35:12.046Z",
+      "kalshi": "2026-07-11T19:43:54.697Z",
+      "mlbBullpen": "2026-07-11T19:43:54.697Z",
+      "openingLines": "2026-07-11T19:43:54.697Z"
     }
   },
   "history": [
@@ -25643,11 +25645,11 @@
         },
         "baltimore orioles": {
           "team": "Baltimore Orioles",
-          "xgFor": 4.557894736842106,
-          "xgAgainst": 4.873684210526315,
-          "form": 4.63,
+          "xgFor": 4.572916666666667,
+          "xgAgainst": 4.833333333333333,
+          "form": 4.6899999999999995,
           "homeEdge": 0,
-          "news": "Local snapshot: 44-51, 4.56 RS/G, 4.87 RA/G.",
+          "news": "Local snapshot: 45-51, 4.57 RS/G, 4.83 RA/G.",
           "auto": true
         },
         "chicago white sox": {
@@ -25688,11 +25690,11 @@
         },
         "kansas city royals": {
           "team": "Kansas City Royals",
-          "xgFor": 4.294736842105263,
-          "xgAgainst": 5.105263157894737,
-          "form": 4,
+          "xgFor": 4.260416666666667,
+          "xgAgainst": 5.114583333333333,
+          "form": 3.96,
           "homeEdge": 0,
-          "news": "Local snapshot: 38-57, 4.29 RS/G, 5.11 RA/G.",
+          "news": "Local snapshot: 38-58, 4.26 RS/G, 5.11 RA/G.",
           "auto": true
         },
         "texas rangers": {
@@ -27778,11 +27780,11 @@
         }
       ],
       "kalshi": {
-        "norway": 0.061,
+        "norway": 0.0615,
         "switzerland": 0.0165,
         "england": 0.1455,
-        "argentina": 0.1815,
-        "france": 0.3835,
+        "argentina": 0.181,
+        "france": 0.384,
         "spain": 0.2045
       }
     }
