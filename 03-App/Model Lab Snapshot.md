@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-12T22:24:29.759Z
+Updated: 2026-07-12T22:34:29.823Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,13 +87,13 @@ Updated: 2026-07-12T22:24:29.759Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-12T22:24:28.796Z
+- Saved: 2026-07-12T22:34:28.855Z
 - Current candidates: 12
 - Passed / blocked: 1 / 11
 
 ### Top Blockers
 - Beats consensus: 7
-- Minimum edge: 6
+- Minimum edge: 7
 - Model ready: 6
 - Pregame: 6
 - Positive EV: 5
@@ -102,11 +102,11 @@ Updated: 2026-07-12T22:24:29.759Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +2000 | 18.1% | $281.13 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +325 | 33.8% | $43.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | -105 | 66.2% | $29.20 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Francisco Giants | San Francisco Giants vs Colorado Rockies | Game too stale/live | -222 | 81.9% | $18.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +135 | 44.8% | $5.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | San Francisco Giants vs Colorado Rockies | Game too stale/live | +1500 | 14.2% | $127.21 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Diego Padres | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +290 | 53.8% | $109.68 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Toronto Blue Jays | San Diego Padres vs Toronto Blue Jays | Game too stale/live | +215 | 46.2% | $45.64 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | +195 | 40.7% | $20.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Los Angeles Dodgers vs Arizona Diamondbacks | Game too stale/live | -140 | 59.3% | $1.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | England | England vs Argentina | Minimum edge | +165 | 38.0% | $0.68 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
