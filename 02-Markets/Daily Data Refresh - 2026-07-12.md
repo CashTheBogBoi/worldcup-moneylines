@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-12T20:51:26.002Z
+Generated: 2026-07-12T21:06:42.627Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Cleveland Guardians at Miami Marlins: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Atlanta Braves at St. Louis Cardinals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Houston Astros at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Colorado Rockies at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -40,26 +39,23 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Boston Red Sox at New York Mets | Final | Payton Tolle | Zach Thornton | 3-2 |
 | Seattle Mariners at Tampa Bay Rays | Final | Emerson Hancock | Ian Seymour | 8-2 |
 | Philadelphia Phillies at Detroit Tigers | Final | Zack Wheeler | Tarik Skubal | 5-0 |
-| Cleveland Guardians at Miami Marlins | Game Over | Joey Cantillo | Tyler Phillips | 5-2 |
+| Cleveland Guardians at Miami Marlins | Final | Joey Cantillo | Tyler Phillips | 5-2 |
 | Los Angeles Angels at Minnesota Twins | Final | José Soriano | Taj Bradley | 2-4 |
 | Athletics at Chicago White Sox | Final | J.T. Ginn | Noah Schultz | 1-9 |
 | Atlanta Braves at St. Louis Cardinals | In Progress | Danny Young | Dustin May | 3-3 |
-| Houston Astros at Texas Rangers | In Progress | Cristian Javier | MacKenzie Gore | 1-4 |
+| Houston Astros at Texas Rangers | In Progress | Cristian Javier | MacKenzie Gore | 4-4 |
 | Colorado Rockies at San Francisco Giants | In Progress | Michael Lorenzen | Trevor McDonald | 1-0 |
 | Arizona Diamondbacks at Los Angeles Dodgers | In Progress | Mitch Bratt | Emmet Sheehan | 0-1 |
-| Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 1-2 |
+| Toronto Blue Jays at San Diego Padres | In Progress | Kevin Gausman | Germán Márquez | 1-3 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Kansas City Royals at Baltimore Orioles | 2026-07-12T17:36:00Z | none |
-| Cleveland Guardians at Miami Marlins | 2026-07-12T17:41:00Z | none |
-| Los Angeles Angels at Minnesota Twins | 2026-07-12T18:11:00Z | Los Angeles Angels +750, Minnesota Twins -1800 |
-| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves +103, St. Louis Cardinals -131 |
-| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +238, Texas Rangers -332 |
-| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies -140, San Francisco Giants +107 |
-| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +295, Los Angeles Dodgers -430 |
+| Atlanta Braves at St. Louis Cardinals | 2026-07-12T18:16:00Z | Atlanta Braves -124, St. Louis Cardinals -104 |
+| Houston Astros at Texas Rangers | 2026-07-12T18:36:00Z | Houston Astros +119, Texas Rangers -155 |
+| Colorado Rockies at San Francisco Giants | 2026-07-12T20:06:00Z | Colorado Rockies -125, San Francisco Giants -104 |
+| Arizona Diamondbacks at Los Angeles Dodgers | 2026-07-12T20:11:00Z | Arizona Diamondbacks +528, Los Angeles Dodgers -950 |
 | Toronto Blue Jays at San Diego Padres | 2026-07-12T20:11:00Z | San Diego Padres -382, Toronto Blue Jays +268 |
 
 ## DraftKings Soccer odds snapshot
