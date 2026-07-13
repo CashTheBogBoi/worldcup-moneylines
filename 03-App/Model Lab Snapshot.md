@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-13T17:01:30.770Z
+Updated: 2026-07-13T17:58:30.367Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,7 +87,7 @@ Updated: 2026-07-13T17:01:30.770Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-13T17:01:29.867Z
+- Saved: 2026-07-13T17:58:29.516Z
 - Current candidates: 8
 - Passed / blocked: 1 / 7
 
@@ -98,6 +98,7 @@ Updated: 2026-07-13T17:01:30.770Z
 - DraftKings line: 2
 - Model opinion: 2
 - Model ready: 2
+- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
