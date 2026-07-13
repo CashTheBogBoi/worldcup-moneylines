@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-13T17:58:30.367Z
+Updated: 2026-07-13T20:25:55.179Z
 
 ## Summary
 - Total tracked picks: 61
@@ -21,7 +21,7 @@ Updated: 2026-07-13T17:58:30.367Z
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | loss | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | loss | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
-| Soccer | France vs Spain | France | pending | +135 | +135 | 0.0 pts | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | pending | +135 | +140 | -0.9 pts | 44.3% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
@@ -87,7 +87,7 @@ Updated: 2026-07-13T17:58:30.367Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-13T17:58:29.516Z
+- Saved: 2026-07-13T20:25:54.267Z
 - Current candidates: 8
 - Passed / blocked: 1 / 7
 
@@ -98,7 +98,6 @@ Updated: 2026-07-13T17:58:30.367Z
 - DraftKings line: 2
 - Model opinion: 2
 - Model ready: 2
-- Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
