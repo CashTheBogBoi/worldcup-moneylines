@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-13T20:53:09.487Z",
+  "savedAt": "2026-07-13T22:03:51.709Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -902,11 +902,17 @@
           "price": 140,
           "book": "FanDuel",
           "source": "pre-start"
+        },
+        {
+          "at": "2026-07-13T22:03:51.677Z",
+          "price": 140,
+          "book": "DraftKings",
+          "source": "pre-start"
         }
       ],
       "note": "",
-      "closeBook": "FanDuel",
-      "closedAt": "2026-07-13T20:53:09.480Z",
+      "closeBook": "DraftKings",
+      "closedAt": "2026-07-13T22:03:51.677Z",
       "autoClosed": true
     },
     {
@@ -6647,7 +6653,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-13T20:53:09.483Z",
+    "savedAt": "2026-07-13T22:03:51.704Z",
     "totalCandidates": 8,
     "passed": 1,
     "blocked": 7,
@@ -6684,9 +6690,9 @@
         "selection": "England",
         "book": "BetOnline.ag",
         "price": 167,
-        "probability": 0.3778077973590591,
-        "ev": 0.8746818948687789,
-        "edge": 0.0032759621530665806,
+        "probability": 0.3778013361482021,
+        "ev": 0.8729567515699586,
+        "edge": 0.003269500942209569,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6696,8 +6702,8 @@
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1783975989479",
-      "at": "2026-07-13T20:53:09.479Z",
+      "id": "snapshot-1783980231677",
+      "at": "2026-07-13T22:03:51.677Z",
       "source": "local",
       "eventCount": 2,
       "lines": [
@@ -6708,7 +6714,7 @@
             {
               "name": "France",
               "price": 140,
-              "book": "FanDuel"
+              "book": "DraftKings"
             },
             {
               "name": "Draw",
@@ -6734,7 +6740,7 @@
             {
               "name": "Draw",
               "price": 200,
-              "book": "BetMGM"
+              "book": "Bovada"
             },
             {
               "name": "Argentina",
