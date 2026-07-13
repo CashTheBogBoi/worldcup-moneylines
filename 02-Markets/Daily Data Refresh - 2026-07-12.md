@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-12
 
-Generated: 2026-07-13T00:41:44.672Z
+Generated: 2026-07-13T00:57:05.979Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -45,7 +45,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## DraftKings MLB odds snapshot
 
-_No rows returned._
+| Game | Start | DraftKings |
+| --- | --- | --- |
+| American League at National League | 2026-07-15T00:01:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 

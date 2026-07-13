@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-13T00:42:29.805Z
+Updated: 2026-07-13T00:58:29.778Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,23 +87,22 @@ Updated: 2026-07-13T00:42:29.805Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-13T00:42:28.931Z
-- Current candidates: 12
-- Passed / blocked: 1 / 11
+- Saved: 2026-07-13T00:58:28.818Z
+- Current candidates: 8
+- Passed / blocked: 1 / 7
 
 ### Top Blockers
-- Minimum edge: 10
-- Positive EV: 9
-- Beats consensus: 7
-- Model ready: 6
-- Pregame: 6
-- DraftKings line: 4
+- Minimum edge: 7
+- Beats consensus: 6
+- Positive EV: 6
+- DraftKings line: 2
+- Model opinion: 2
+- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +185 | 36.6% | $4.43 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.50 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.43 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
