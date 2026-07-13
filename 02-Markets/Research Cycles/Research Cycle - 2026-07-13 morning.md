@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-13
 
-Generated: 2026-07-13T20:25:04.333Z
-Local time: 4:25 PM
+Generated: 2026-07-13T20:40:20.497Z
+Local time: 4:40 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,7 +13,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-13T20:24:57.731Z
+- Snapshot generated: 2026-07-13T20:40:14.546Z
 - MLB odds events: 1
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -31,18 +31,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 1656 | DK missing | 6 |
+| American League at National League | Jul 14, 8:01 PM | 1641 | DK missing | 6 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 1355 | France +140, Spain +215, Draw +215 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 2795 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 1340 | France +140, Spain +215, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 2780 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| Soccer | France vs Spain | France | +135 | +135 | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | +135 | +140 | 44.3% | 25% strength model + 75% market no-vig |
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.
