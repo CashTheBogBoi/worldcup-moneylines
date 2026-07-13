@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-13
 
-Generated: 2026-07-13T14:33:17.410Z
+Generated: 2026-07-13T16:31:20.873Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **Medium Soccer Market move** — Spain at France: Draw price is +215, which is short enough to demand draw-risk review before backing either side.
+- **Medium Soccer Market move** — Spain at France: Draw price is +220, which is short enough to demand draw-risk review before backing either side.
 - **Medium Soccer Market move** — Argentina at England: Draw price is +195, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
@@ -37,7 +37,7 @@ _No rows returned._
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +225, Draw +215 |
+| Spain at France | 2026-07-14T19:00:00Z | France +135, Spain +220, Draw +220 |
 | Argentina at England | 2026-07-15T19:00:00Z | Argentina +205, England +160, Draw +195 |
 
 ## FIFA men's ranking model input
