@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-13T08:25:24.849Z",
+  "savedAt": "2026-07-13T09:02:41.948Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -900,7 +900,7 @@
       ],
       "note": "",
       "closeBook": "Fanatics",
-      "closedAt": "2026-07-13T08:25:24.822Z",
+      "closedAt": "2026-07-13T09:02:41.919Z",
       "autoClosed": true
     },
     {
@@ -6641,7 +6641,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-13T08:25:24.848Z",
+    "savedAt": "2026-07-13T09:02:41.946Z",
     "totalCandidates": 8,
     "passed": 1,
     "blocked": 7,
@@ -6678,9 +6678,9 @@
         "selection": "England",
         "book": "Fanatics",
         "price": 165,
-        "probability": 0.37911624950772793,
-        "ev": 0.4658061195478993,
-        "edge": 0.0017577589416901684,
+        "probability": 0.3794699428784532,
+        "ev": 0.5595348627900947,
+        "edge": 0.0021114523124154405,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6689,6 +6689,56 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1783933361919",
+      "at": "2026-07-13T09:02:41.919Z",
+      "source": "live",
+      "eventCount": 2,
+      "lines": [
+        {
+          "match": "France vs Spain",
+          "commenceTime": "2026-07-14T19:00:00Z",
+          "best": [
+            {
+              "name": "France",
+              "price": 135,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 234,
+              "book": "MyBookie.ag"
+            },
+            {
+              "name": "Spain",
+              "price": 238,
+              "book": "LowVig.ag"
+            }
+          ]
+        },
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 165,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 200,
+              "book": "Bovada"
+            },
+            {
+              "name": "Argentina",
+              "price": 214,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1783931124822",
       "at": "2026-07-13T08:25:24.822Z",
@@ -8092,56 +8142,6 @@
     {
       "id": "snapshot-1783929444718",
       "at": "2026-07-13T07:57:24.718Z",
-      "source": "live",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 135,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 234,
-              "book": "MyBookie.ag"
-            },
-            {
-              "name": "Spain",
-              "price": 238,
-              "book": "LowVig.ag"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 165,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 200,
-              "book": "Bovada"
-            },
-            {
-              "name": "Argentina",
-              "price": 214,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1783929384822",
-      "at": "2026-07-13T07:56:24.822Z",
       "source": "live",
       "eventCount": 2,
       "lines": [
