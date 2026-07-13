@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-12
 
-Generated: 2026-07-13T00:26:20.331Z
-Local time: 8:26 PM
+Generated: 2026-07-13T00:41:42.278Z
+Local time: 8:41 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,7 +13,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-13T00:26:16.158Z
+- Snapshot generated: 2026-07-13T00:41:38.089Z
 - MLB odds events: 0
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -34,8 +34,8 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 2554 | France +135, Spain +225, Draw +215 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 3994 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 2538 | France +135, Spain +225, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 3978 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
