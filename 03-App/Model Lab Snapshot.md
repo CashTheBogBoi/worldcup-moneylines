@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-13T01:44:29.872Z
+Updated: 2026-07-13T02:00:29.880Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,7 +87,7 @@ Updated: 2026-07-13T01:44:29.872Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-13T01:44:28.900Z
+- Saved: 2026-07-13T02:00:28.909Z
 - Current candidates: 8
 - Passed / blocked: 1 / 7
 
@@ -102,7 +102,7 @@ Updated: 2026-07-13T01:44:29.872Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.43 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +165 | 37.9% | $0.38 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
