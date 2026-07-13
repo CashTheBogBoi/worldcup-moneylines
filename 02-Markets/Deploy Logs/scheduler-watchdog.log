@@ -3585,3 +3585,11 @@ Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy 
 [2026-07-13T07:51:34.119Z] watchdog skipped: another run is active
 [2026-07-13T08:06:34.720Z] watchdog skipped: another run is active
 [2026-07-13T08:21:35.283Z] watchdog skipped: another run is active
+[2026-07-13T14:33:16.947Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-13T14:33:26.449Z] watchdog PASS morning exit=0

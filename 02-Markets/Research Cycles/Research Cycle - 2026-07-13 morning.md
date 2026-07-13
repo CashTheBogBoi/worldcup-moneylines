@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-13
 
-Generated: 2026-07-13T12:31:55.932Z
-Local time: 8:31 AM
+Generated: 2026-07-13T14:33:22.366Z
+Local time: 10:33 AM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,7 +13,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-13T12:31:51.073Z
+- Snapshot generated: 2026-07-13T14:33:17.410Z
 - MLB odds events: 1
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -31,13 +31,13 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 2129 | DK missing | 6 |
+| American League at National League | Jul 14, 8:01 PM | 2008 | DK missing | 6 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 1828 | France +135, Spain +225, Draw +215 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 3268 | Argentina +205, England +160, Draw +195 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 1707 | France +135, Spain +225, Draw +215 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 3147 | Argentina +205, England +160, Draw +195 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
