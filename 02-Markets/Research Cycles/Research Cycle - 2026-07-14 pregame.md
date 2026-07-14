@@ -1,19 +1,19 @@
-# Research Cycle - Morning slate build - 2026-07-14
+# Research Cycle - Pregame confirmation - 2026-07-14
 
-Generated: 2026-07-14T17:16:32.484Z
+Generated: 2026-07-14T17:16:41.818Z
 Local time: 1:16 PM
 
 ## Goal
-Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
+Confirm the first wave before anything becomes live-market contaminated.
 
 ## Checklist
-- [ ] Refresh the local snapshot.
-- [ ] Find missing MLB starters and any DraftKings gaps.
-- [ ] Mark high-risk soccer favorites and short draw prices.
-- [ ] Only track candidates that are pregame and model-ready.
+- [ ] Re-check starters, lineups, and stale odds.
+- [ ] Block picks where DraftKings is missing or materially worse than best market.
+- [ ] Track only before scheduled start.
+- [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-14T17:16:24.216Z
+- Snapshot generated: 2026-07-14T17:16:36.366Z
 - MLB odds events: 1
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -31,13 +31,13 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 405 | DK missing | 7 |
+| American League at National League | Jul 14, 8:01 PM | 404 | DK missing | 7 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 104 | France +150, Spain +210, Draw +205 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 1544 | Argentina +200, England +165, Draw +190 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 103 | France +150, Spain +210, Draw +205 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 1543 | Argentina +200, England +165, Draw +190 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
