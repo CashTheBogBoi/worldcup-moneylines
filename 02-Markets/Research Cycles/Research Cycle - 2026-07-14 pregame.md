@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-14
 
-Generated: 2026-07-14T18:08:07.657Z
-Local time: 2:08 PM
+Generated: 2026-07-14T18:23:26.251Z
+Local time: 2:23 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,7 +13,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-14T18:08:02.033Z
+- Snapshot generated: 2026-07-14T18:23:20.295Z
 - MLB odds events: 1
 - Soccer odds events: 2
 - High-impact intel blocks: 0
@@ -31,18 +31,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 353 | DK missing | 7 |
+| American League at National League | Jul 14, 8:01 PM | 338 | DK missing | 7 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 52 | France +155, Spain +210, Draw +200 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 1492 | Argentina +200, England +165, Draw +190 | 10 |
+| Spain at France | Jul 14, 3:00 PM | 37 | France +155, Spain +210, Draw +200 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 1477 | Argentina +200, England +165, Draw +190 | 10 |
 
 ## Pending Tracked Picks
 | Sport | Match | Pick | Open | Latest | Model | Source |
 | --- | --- | --- | --- | --- | --- | --- |
-| Soccer | France vs Spain | France | +135 | +156 | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | +135 | +160 | 44.3% | 25% strength model + 75% market no-vig |
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.
