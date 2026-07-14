@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-14T18:39:04.912Z
+Updated: 2026-07-14T22:10:54.416Z
 
 ## Summary
 - Total tracked picks: 61
-- Pending: 1
-- Graded: 60
+- Pending: 0
+- Graded: 61
 - Wins: 18
-- Losses: 41
+- Losses: 42
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -21,7 +21,7 @@ Updated: 2026-07-14T18:39:04.912Z
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +107 | - | - | 51.2% | 25% strength model + 75% market no-vig |
 | MLB | Detroit Tigers vs Philadelphia Phillies | Detroit Tigers | loss | +124 | +123 | 0.2 pts | 47.4% | 25% strength model + 75% market no-vig |
 | MLB | Washington Nationals vs New York Yankees | Washington Nationals | loss | +167 | +170 | -0.4 pts | 39.4% | 25% strength model + 75% market no-vig |
-| Soccer | France vs Spain | France | pending | +135 | +160 | -4.1 pts | 44.3% | 25% strength model + 75% market no-vig |
+| Soccer | France vs Spain | France | loss | +135 | +160 | -4.1 pts | 44.3% | 25% strength model + 75% market no-vig |
 | MLB | New York Mets vs Boston Red Sox | Boston Red Sox | win | +131 | +126 | 1.0 pts | 45.2% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Houston Astros | Texas Rangers | win | +122 | +121 | 0.2 pts | 46.7% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Seattle Mariners | Miami Marlins | win | +118 | +114 | 0.9 pts | 48.0% | 25% strength model + 75% market no-vig |
@@ -83,26 +83,27 @@ Updated: 2026-07-14T18:39:04.912Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 36 | 35 | 22.9% | -0.2 pts | 0.193 | 0.0% |
+| Passed gate | 36 | 36 | 22.2% | -0.2 pts | 0.193 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-14T18:39:03.820Z
-- Current candidates: 8
-- Passed / blocked: 1 / 7
+- Saved: 2026-07-14T21:55:52.848Z
+- Current candidates: 11
+- Passed / blocked: 0 / 11
 
 ### Top Blockers
-- Minimum edge: 7
-- Beats consensus: 6
-- Positive EV: 6
-- DraftKings line: 2
+- Minimum edge: 11
+- Positive EV: 9
+- Beats consensus: 8
+- DraftKings line: 8
 - Model opinion: 2
 - Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| Soccer | England | England vs Argentina | Minimum edge | +173 | 37.4% | $1.98 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +182 | 36.5% | $3.06 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | Spain vs England | Needs DraftKings line | +200 | 33.4% | $0.18 | Check DraftKings manually or wait for the next odds refresh before using the free-bet workflow. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
