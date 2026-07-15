@@ -1,20 +1,27 @@
 {
-  "dateKey": "2026-07-13",
-  "generatedAt": "2026-07-14T03:49:30.089Z",
+  "dateKey": "2026-07-14",
+  "generatedAt": "2026-07-15T03:48:26.785Z",
   "summary": {
     "picks": 1,
-    "settled": 0,
+    "settled": 1,
     "wins": 0,
-    "misses": 0,
-    "winRate": null,
+    "misses": 1,
+    "winRate": 0,
     "excludedFromCalibration": 0,
-    "avgClv": -0.015695849319846522,
-    "avgBrier": null,
-    "modelBrier": null,
-    "marketBrier": null,
+    "avgClv": -0.04091653027823239,
+    "avgBrier": 0.1963203260725656,
+    "modelBrier": 0.31522168300844106,
+    "marketBrier": 0.1702045631387153,
     "highConfidenceMisses": 0
   },
-  "missPatterns": [],
+  "missPatterns": [
+    {
+      "label": "Negative CLV miss",
+      "count": 1,
+      "avgClv": -0.04091653027823239,
+      "avgBrier": 0.1963203260725656
+    }
+  ],
   "recommendations": [
     "Line selection is hurting the model: average CLV is negative. Prioritize freshness, DraftKings comparison, and stale-line blocks before changing probability math."
   ],
