@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-15T03:17:57.944Z",
+  "savedAt": "2026-07-15T03:32:57.958Z",
   "modelPicks": [
     {
       "id": "model-1783821972073-353194",
@@ -6716,34 +6716,59 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-15T03:17:57.943Z",
-    "totalCandidates": 3,
+    "savedAt": "2026-07-15T03:32:57.957Z",
+    "totalCandidates": 9,
     "passed": 0,
-    "blocked": 3,
+    "blocked": 9,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 3
-      },
-      {
-        "label": "Beats consensus",
-        "count": 2
+        "count": 8
       },
       {
         "label": "Positive EV",
-        "count": 2
+        "count": 7
+      },
+      {
+        "label": "Model ready",
+        "count": 6
+      },
+      {
+        "label": "Pregame",
+        "count": 6
+      },
+      {
+        "label": "Beats consensus",
+        "count": 5
+      },
+      {
+        "label": "DraftKings line",
+        "count": 4
       }
     ],
     "watchlist": [
+      {
+        "sport": "MLB",
+        "match": "Philadelphia Phillies vs Pittsburgh Pirates",
+        "selection": "Pittsburgh Pirates",
+        "book": "VegasInsider consensus",
+        "price": 185,
+        "probability": 0.3666822772847058,
+        "ev": 4.50444902614116,
+        "edge": 0.015805084302249695,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
       {
         "sport": "Soccer",
         "match": "England vs Argentina",
         "selection": "England",
         "book": "Fanatics",
         "price": 175,
-        "probability": 0.36936613612941344,
-        "ev": 1.5756874355886836,
-        "edge": 0.0057297724930497895,
+        "probability": 0.3695094695231494,
+        "ev": 1.6151041188660855,
+        "edge": 0.0058731058867857455,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -6752,6 +6777,35 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1784086377927",
+      "at": "2026-07-15T03:32:57.927Z",
+      "source": "local",
+      "eventCount": 1,
+      "lines": [
+        {
+          "match": "England vs Argentina",
+          "commenceTime": "2026-07-15T19:00:00Z",
+          "best": [
+            {
+              "name": "England",
+              "price": 175,
+              "book": "Fanatics"
+            },
+            {
+              "name": "Draw",
+              "price": 190,
+              "book": "Bovada"
+            },
+            {
+              "name": "Argentina",
+              "price": 212,
+              "book": "BetOnline.ag"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1784085477912",
       "at": "2026-07-15T03:17:57.912Z",
@@ -8008,56 +8062,6 @@
     {
       "id": "snapshot-1784002018830",
       "at": "2026-07-14T04:06:58.830Z",
-      "source": "local",
-      "eventCount": 2,
-      "lines": [
-        {
-          "match": "France vs Spain",
-          "commenceTime": "2026-07-14T19:00:00Z",
-          "best": [
-            {
-              "name": "France",
-              "price": 144,
-              "book": "LowVig.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 223,
-              "book": "LowVig.ag"
-            },
-            {
-              "name": "Spain",
-              "price": 226,
-              "book": "MyBookie.ag"
-            }
-          ]
-        },
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 167,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Draw",
-              "price": 196,
-              "book": "BetOnline.ag"
-            },
-            {
-              "name": "Argentina",
-              "price": 215,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1784001007159",
-      "at": "2026-07-14T03:50:07.159Z",
       "source": "local",
       "eventCount": 2,
       "lines": [

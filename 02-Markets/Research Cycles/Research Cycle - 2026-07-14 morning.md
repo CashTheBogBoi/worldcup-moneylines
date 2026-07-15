@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-14
 
-Generated: 2026-07-15T03:17:03.696Z
-Local time: 11:17 PM
+Generated: 2026-07-15T03:32:28.934Z
+Local time: 11:32 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,17 +13,17 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-15T03:16:56.891Z
-- MLB odds events: 1
+- Snapshot generated: 2026-07-15T03:32:20.998Z
+- MLB odds events: 0
 - Soccer odds events: 1
-- High-impact intel blocks: 1
-- Intel pending / confirmed / denied: 2 / 0 / 0
+- High-impact intel blocks: 0
+- Intel pending / confirmed / denied: 1 / 0 / 0
 - Pending tracked picks: 0
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** American League All-Stars at National League All-Stars — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No active high-impact blocks in this snapshot._
 
 ## Missing MLB Starters
 _No rows._
@@ -34,7 +34,7 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 943 | Argentina +200, England +170, Draw +185 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 928 | Argentina +200, England +170, Draw +185 | 10 |
 
 ## Pending Tracked Picks
 _No rows._
