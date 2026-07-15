@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-14
 
-Generated: 2026-07-15T03:01:54.125Z
-Local time: 11:01 PM
+Generated: 2026-07-15T03:17:18.123Z
+Local time: 11:17 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,7 +13,7 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-15T03:01:49.004Z
+- Snapshot generated: 2026-07-15T03:17:13.609Z
 - MLB odds events: 1
 - Soccer odds events: 1
 - High-impact intel blocks: 1
@@ -23,7 +23,7 @@ Re-rank the later games after the early market has moved.
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** American League All-Stars at National League All-Stars — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** American League All-Stars at National League All-Stars — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -34,7 +34,7 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 958 | Argentina +200, England +170, Draw +185 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 943 | Argentina +200, England +170, Draw +185 | 10 |
 
 ## Pending Tracked Picks
 _No rows._

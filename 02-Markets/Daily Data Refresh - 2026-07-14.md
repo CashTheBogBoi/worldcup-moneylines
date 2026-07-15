@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-14
 
-Generated: 2026-07-15T03:01:49.004Z
+Generated: 2026-07-15T03:17:13.609Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,14 +20,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — American League All-Stars at National League All-Stars: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — American League All-Stars at National League All-Stars: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Argentina at England: Draw price is +185, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| American League All-Stars at National League All-Stars | In Progress | Dylan Cease | Cristopher Sánchez | 4-0 |
+| American League All-Stars at National League All-Stars | Game Over | Dylan Cease | Cristopher Sánchez | 4-0 |
 
 ## DraftKings MLB odds snapshot
 
