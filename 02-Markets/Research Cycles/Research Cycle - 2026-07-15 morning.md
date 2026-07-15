@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-15
 
-Generated: 2026-07-15T14:26:16.139Z
-Local time: 10:26 AM
+Generated: 2026-07-15T14:41:25.956Z
+Local time: 10:41 AM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,8 +13,8 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-15T14:26:10.708Z
-- MLB odds events: 0
+- Snapshot generated: 2026-07-15T14:41:20.618Z
+- MLB odds events: 1
 - Soccer odds events: 1
 - High-impact intel blocks: 0
 - Intel pending / confirmed / denied: 1 / 0 / 0
@@ -29,12 +29,14 @@ _No active high-impact blocks in this snapshot._
 _No rows._
 
 ## Next MLB Windows
-_No rows._
+| Game | Start | Minutes | DraftKings | Books |
+| --- | --- | --- | --- | --- |
+| New York Mets at Philadelphia Phillies | Jul 16, 7:11 PM | 1950 | DK missing | 5 |
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 274 | Argentina +200, England +175, Draw +185 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 259 | Argentina +200, England +165, Draw +190 | 10 |
 
 ## Pending Tracked Picks
 _No rows._

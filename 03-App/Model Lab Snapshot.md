@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-15T14:26:26.217Z
+Updated: 2026-07-15T14:41:26.535Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,23 +87,22 @@ Updated: 2026-07-15T14:26:26.217Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-15T14:26:25.274Z
-- Current candidates: 9
-- Passed / blocked: 0 / 9
+- Saved: 2026-07-15T14:41:25.590Z
+- Current candidates: 5
+- Passed / blocked: 0 / 5
 
 ### Top Blockers
-- Minimum edge: 8
-- Positive EV: 7
-- Model ready: 6
-- Pregame: 6
-- Beats consensus: 5
-- DraftKings line: 4
+- Minimum edge: 5
+- Beats consensus: 3
+- Positive EV: 3
+- DraftKings line: 2
+- Model ready: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +185 | 36.7% | $4.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | England | England vs Argentina | Minimum edge | +175 | 36.9% | $1.52 | Edge under 1.5% — inside vig noise. |
+| Soccer | England | England vs Argentina | Minimum edge | +175 | 37.0% | $1.78 | Edge under 1.5% — inside vig noise. |
+| MLB | Philadelphia Phillies | Philadelphia Phillies vs New York Mets | Needs starter | -126 | 56.2% | $0.72 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

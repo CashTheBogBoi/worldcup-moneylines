@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-15
 
-Generated: 2026-07-15T14:26:10.708Z
+Generated: 2026-07-15T14:41:20.618Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **Medium Soccer Market move** — Argentina at England: Draw price is +185, which is short enough to demand draw-risk review before backing either side.
+- **Medium Soccer Market move** — Argentina at England: Draw price is +190, which is short enough to demand draw-risk review before backing either side.
 
 ## MLB probable pitchers
 
@@ -28,13 +28,15 @@ _No rows returned._
 
 ## DraftKings MLB odds snapshot
 
-_No rows returned._
+| Game | Start | DraftKings |
+| --- | --- | --- |
+| New York Mets at Philadelphia Phillies | 2026-07-16T23:11:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Argentina at England | 2026-07-15T19:00:00Z | Argentina +200, England +175, Draw +185 |
+| Argentina at England | 2026-07-15T19:00:00Z | Argentina +200, England +165, Draw +190 |
 
 ## FIFA men's ranking model input
 
