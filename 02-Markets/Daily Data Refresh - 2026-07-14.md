@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-14
 
-Generated: 2026-07-15T02:30:54.531Z
+Generated: 2026-07-15T02:46:23.461Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -27,7 +27,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| American League All-Stars at National League All-Stars | In Progress | Dylan Cease | Cristopher Sánchez | 3-0 |
+| American League All-Stars at National League All-Stars | In Progress | Dylan Cease | Cristopher Sánchez | 4-0 |
 
 ## DraftKings MLB odds snapshot
 
