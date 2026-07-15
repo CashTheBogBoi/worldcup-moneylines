@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-14
 
-Generated: 2026-07-14T21:43:11.645Z
+Generated: 2026-07-15T01:42:33.357Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,29 +20,26 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
+- **High MLB Market move** — American League All-Stars at National League All-Stars: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **Medium Soccer Market move** — Argentina at England: Draw price is +185, which is short enough to demand draw-risk review before backing either side.
-- **Medium Soccer Market move** — Argentina at Spain: DraftKings moneyline was missing from the local odds snapshot. Compare another book or wait for a fresh DK line.
-- **Medium Soccer Market move** — England at Spain: DraftKings moneyline was missing from the local odds snapshot. Compare another book or wait for a fresh DK line.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| American League All-Stars at National League All-Stars | Pre-Game | Dylan Cease | Cristopher Sánchez | 0-0 |
+| American League All-Stars at National League All-Stars | In Progress | Dylan Cease | Cristopher Sánchez | 3-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| American League at National League | 2026-07-15T00:01:00Z | none |
+| American League at National League | 2026-07-15T00:29:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| Argentina at England | 2026-07-15T19:00:00Z | Argentina +190, England +175, Draw +185 |
-| Argentina at Spain | 2026-07-19T19:00:00Z | none |
-| England at Spain | 2026-07-19T19:00:00Z | none |
+| Argentina at England | 2026-07-15T19:00:00Z | Argentina +200, England +170, Draw +185 |
 
 ## FIFA men's ranking model input
 

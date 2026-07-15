@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-14
 
-Generated: 2026-07-14T18:38:47.062Z
-Local time: 2:38 PM
+Generated: 2026-07-15T01:42:30.893Z
+Local time: 9:42 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,36 +13,31 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-14T18:38:41.318Z
+- Snapshot generated: 2026-07-15T01:42:25.802Z
 - MLB odds events: 1
-- Soccer odds events: 2
-- High-impact intel blocks: 0
+- Soccer odds events: 1
+- High-impact intel blocks: 1
 - Intel pending / confirmed / denied: 2 / 0 / 0
-- Pending tracked picks: 1
+- Pending tracked picks: 0
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-_No active high-impact blocks in this snapshot._
+- **MLB / Market move / pending:** American League All-Stars at National League All-Stars — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
 
 ## Next MLB Windows
-| Game | Start | Minutes | DraftKings | Books |
-| --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 322 | DK missing | 7 |
+_No rows._
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Spain at France | Jul 14, 3:00 PM | 21 | France +155, Spain +210, Draw +200 | 10 |
-| Argentina at England | Jul 15, 3:00 PM | 1461 | Argentina +200, England +165, Draw +190 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 1038 | Argentina +200, England +170, Draw +185 | 10 |
 
 ## Pending Tracked Picks
-| Sport | Match | Pick | Open | Latest | Model | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| Soccer | France vs Spain | France | +135 | +160 | 44.3% | 25% strength model + 75% market no-vig |
+_No rows._
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.

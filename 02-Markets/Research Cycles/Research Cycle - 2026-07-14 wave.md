@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-14
 
-Generated: 2026-07-14T21:55:15.701Z
-Local time: 5:55 PM
+Generated: 2026-07-15T01:42:37.891Z
+Local time: 9:42 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,32 +13,28 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-14T21:43:11.645Z
+- Snapshot generated: 2026-07-15T01:42:33.357Z
 - MLB odds events: 1
-- Soccer odds events: 3
-- High-impact intel blocks: 0
-- Intel pending / confirmed / denied: 3 / 0 / 0
+- Soccer odds events: 1
+- High-impact intel blocks: 1
+- Intel pending / confirmed / denied: 2 / 0 / 0
 - Pending tracked picks: 0
 - Tracked gate status passed / blocked / unknown: 36 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-_No active high-impact blocks in this snapshot._
+- **MLB / Market move / pending:** American League All-Stars at National League All-Stars — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
 
 ## Next MLB Windows
-| Game | Start | Minutes | DraftKings | Books |
-| --- | --- | --- | --- | --- |
-| American League at National League | Jul 14, 8:01 PM | 138 | DK missing | 7 |
+_No rows._
 
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 1277 | Argentina +190, England +175, Draw +185 | 10 |
-| Argentina at Spain | Jul 19, 3:00 PM | 7037 | DK missing | 1 |
-| England at Spain | Jul 19, 3:00 PM | 7037 | DK missing | 1 |
+| Argentina at England | Jul 15, 3:00 PM | 1037 | Argentina +200, England +170, Draw +185 | 10 |
 
 ## Pending Tracked Picks
 _No rows._

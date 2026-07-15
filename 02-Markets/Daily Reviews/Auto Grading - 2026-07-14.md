@@ -1,12 +1,10 @@
 # Auto Grading - 2026-07-14
 
-Generated: 2026-07-14T21:43:14.300Z
-Data snapshot: 2026-07-14T21:43:11.645Z
+Generated: 2026-07-15T01:42:34.180Z
+Data snapshot: 2026-07-15T01:42:33.357Z
 
 ## Newly Graded
-| Sport | Match | Pick | Result | Score | Score ID |
-|---|---|---|---:|---|---|
-| Soccer | France vs Spain | France | loss | France 0, Spain 2 | f9aa13a662d1658e5a02cfc06d6a2d73 |
+_No newly graded picks._
 
 ## Still Pending
 _No pending tracked picks with event ids._
