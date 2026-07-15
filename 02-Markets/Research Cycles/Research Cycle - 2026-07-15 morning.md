@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-15
 
-Generated: 2026-07-15T13:58:00.493Z
-Local time: 9:58 AM
+Generated: 2026-07-15T14:11:06.222Z
+Local time: 10:11 AM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,7 +13,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-15T13:57:52.281Z
+- Snapshot generated: 2026-07-15T14:11:00.241Z
 - MLB odds events: 0
 - Soccer odds events: 1
 - High-impact intel blocks: 0
@@ -34,7 +34,7 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 302 | Argentina +200, England +175, Draw +185 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 289 | Argentina +200, England +175, Draw +185 | 10 |
 
 ## Pending Tracked Picks
 _No rows._
