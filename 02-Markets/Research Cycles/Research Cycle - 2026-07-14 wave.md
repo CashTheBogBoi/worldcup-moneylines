@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-14
 
-Generated: 2026-07-15T01:42:37.891Z
-Local time: 9:42 PM
+Generated: 2026-07-15T01:58:04.349Z
+Local time: 9:58 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,7 +13,7 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-15T01:42:33.357Z
+- Snapshot generated: 2026-07-15T01:57:58.991Z
 - MLB odds events: 1
 - Soccer odds events: 1
 - High-impact intel blocks: 1
@@ -34,7 +34,7 @@ _No rows._
 ## Next Soccer Windows
 | Match | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Argentina at England | Jul 15, 3:00 PM | 1037 | Argentina +200, England +170, Draw +185 | 10 |
+| Argentina at England | Jul 15, 3:00 PM | 1022 | Argentina +200, England +170, Draw +185 | 10 |
 
 ## Pending Tracked Picks
 _No rows._

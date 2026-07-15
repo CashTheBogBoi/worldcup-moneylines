@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-15T01:43:06.068Z
+Updated: 2026-07-15T01:58:06.080Z
 
 ## Summary
 - Total tracked picks: 61
@@ -87,25 +87,24 @@ Updated: 2026-07-15T01:43:06.068Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-15T01:43:05.107Z
+- Saved: 2026-07-15T01:58:05.107Z
 - Current candidates: 5
 - Passed / blocked: 0 / 5
 
 ### Top Blockers
+- Minimum edge: 5
 - Beats consensus: 4
-- Minimum edge: 4
+- Positive EV: 3
 - DraftKings line: 2
 - Model opinion: 2
 - Model ready: 2
-- Positive EV: 2
 - Pregame: 2
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | National League | National League vs American League | Game too stale/live | +500 | 19.8% | $18.95 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | England | England vs Argentina | Minimum edge | +175 | 37.0% | $1.61 | Edge under 1.5% — inside vig noise. |
-| MLB | American League | National League vs American League | Game too stale/live | -400 | 80.2% | $0.22 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | National League | National League vs American League | Game too stale/live | +395 | 21.2% | $5.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | England | England vs Argentina | Minimum edge | +175 | 37.0% | $1.76 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
