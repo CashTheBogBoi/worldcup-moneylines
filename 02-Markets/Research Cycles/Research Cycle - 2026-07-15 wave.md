@@ -1,19 +1,19 @@
-# Research Cycle - Morning slate build - 2026-07-15
+# Research Cycle - Next-wave check - 2026-07-15
 
-Generated: 2026-07-16T01:53:56.528Z
-Local time: 9:53 PM
+Generated: 2026-07-16T01:54:17.485Z
+Local time: 9:54 PM
 
 ## Goal
-Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
+Re-rank the later games after the early market has moved.
 
 ## Checklist
-- [ ] Refresh the local snapshot.
-- [ ] Find missing MLB starters and any DraftKings gaps.
-- [ ] Mark high-risk soccer favorites and short draw prices.
-- [ ] Only track candidates that are pregame and model-ready.
+- [ ] Refresh odds and compare against tracked opens.
+- [ ] Promote only picks with clean CLV or unresolved fair value.
+- [ ] Resolve new high-impact intel before staking.
+- [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-16T01:53:35.872Z
+- Snapshot generated: 2026-07-16T01:54:10.674Z
 - MLB odds events: 4
 - Soccer odds events: 2
 - High-impact intel blocks: 0

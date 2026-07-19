@@ -1,6 +1,6 @@
-# Daily Data Refresh - 2026-07-15
+# Daily Data Refresh - 2026-07-16
 
-Generated: 2026-07-16T03:45:05.450Z
+Generated: 2026-07-17T03:56:23.012Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -11,7 +11,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 |---|---|
 | The Odds API Soccer | Loaded |
 | The Odds API MLB | Loaded |
-| MLB Stats API probable pitchers | Failed / empty |
+| MLB Stats API probable pitchers | Loaded |
 | FIFA men's ranking | Loaded (211 teams, id14870) |
 
 ## Errors / warnings
@@ -24,23 +24,34 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## MLB probable pitchers
 
-_No rows returned._
+| Game | Status | Away starter | Home starter | Score |
+| --- | --- | --- | --- | --- |
+| New York Mets at Philadelphia Phillies | Final | Christian Scott | Aaron Nola | 4-1 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Mets at Philadelphia Phillies | 2026-07-16T23:11:00Z | New York Mets +109, Philadelphia Phillies -131 |
-| Los Angeles Dodgers at New York Yankees | 2026-07-17T23:06:00Z | none |
-| Pittsburgh Pirates at Cleveland Guardians | 2026-07-17T23:11:00Z | none |
-| Chicago White Sox at Toronto Blue Jays | 2026-07-17T23:16:00Z | none |
-| San Diego Padres at Kansas City Royals | 2026-07-18T00:11:00Z | none |
+| Tampa Bay Rays at Boston Red Sox | 2026-07-17T17:36:00Z | Boston Red Sox -126, Tampa Bay Rays +105 |
+| Los Angeles Dodgers at New York Yankees | 2026-07-17T23:06:00Z | Los Angeles Dodgers -115, New York Yankees -105 |
+| Pittsburgh Pirates at Cleveland Guardians | 2026-07-17T23:11:00Z | Cleveland Guardians -131, Pittsburgh Pirates +109 |
+| Texas Rangers at Atlanta Braves | 2026-07-17T23:16:00Z | Atlanta Braves -206, Texas Rangers +169 |
+| Chicago White Sox at Toronto Blue Jays | 2026-07-17T23:16:00Z | Chicago White Sox +113, Toronto Blue Jays -136 |
+| Miami Marlins at Milwaukee Brewers | 2026-07-17T23:41:00Z | Miami Marlins +123, Milwaukee Brewers -149 |
+| Minnesota Twins at Chicago Cubs | 2026-07-18T00:06:00Z | Chicago Cubs -137, Minnesota Twins +114 |
+| Baltimore Orioles at Houston Astros | 2026-07-18T00:11:00Z | Baltimore Orioles -106, Houston Astros -113 |
+| San Diego Padres at Kansas City Royals | 2026-07-18T00:11:00Z | Kansas City Royals -107, San Diego Padres -112 |
+| Cincinnati Reds at Colorado Rockies | 2026-07-18T00:41:00Z | Cincinnati Reds -105, Colorado Rockies -114 |
+| Detroit Tigers at Los Angeles Angels | 2026-07-18T01:39:00Z | Detroit Tigers -110, Los Angeles Angels -110 |
+| St. Louis Cardinals at Arizona Diamondbacks | 2026-07-18T01:41:00Z | none |
+| Washington Nationals at Athletics | 2026-07-18T01:41:00Z | Athletics -111, Washington Nationals -108 |
+| San Francisco Giants at Seattle Mariners | 2026-07-18T02:11:00Z | San Francisco Giants +130, Seattle Mariners -157 |
 
 ## DraftKings Soccer odds snapshot
 
 | Match | Start | DraftKings |
 | --- | --- | --- |
-| England at France | 2026-07-18T21:00:00Z | England +260, France +100, Draw +275 |
+| England at France | 2026-07-18T21:00:00Z | England +270, France -110, Draw +285 |
 | Argentina at Spain | 2026-07-19T19:00:00Z | Argentina +255, Spain +130, Draw +195 |
 
 ## FIFA men's ranking model input
@@ -77,9 +88,9 @@ Source: https://inside.fifa.com/fifa-world-ranking/men
 
 ## Files written
 
-- `data/daily/2026-07-15/latest.json`
+- `data/daily/2026-07-16/latest.json`
 - `public/data/latest.json`
-- `public/data/daily-2026-07-15.json`
+- `public/data/daily-2026-07-16.json`
 
 Related:
 
