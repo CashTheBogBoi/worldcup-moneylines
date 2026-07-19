@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-19T22:47:18.499Z",
+  "savedAt": "2026-07-19T23:03:13.176Z",
   "modelPicks": [
     {
       "id": "model-1784486652803-231956",
@@ -108,7 +108,7 @@
       "researchProbability": 0.45294983190769167,
       "marketProbability": 0.3568663124205045,
       "edge": 0.018568351712591136,
-      "result": "pending",
+      "result": "loss",
       "source": "25% strength model + 75% market no-vig",
       "readyGateSnapshot": {
         "ready": true,
@@ -178,7 +178,9 @@
         }
       ],
       "note": "",
-      "closeFrozenAt": "2026-07-19T22:30:49.097Z"
+      "closeFrozenAt": "2026-07-19T22:30:49.097Z",
+      "autoGraded": true,
+      "gradedAt": "2026-07-19T23:03:12.843Z"
     },
     {
       "id": "model-1783821972073-353194",
@@ -6894,22 +6896,22 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-19T22:47:18.477Z",
-    "totalCandidates": 49,
+    "savedAt": "2026-07-19T23:03:12.975Z",
+    "totalCandidates": 47,
     "passed": 0,
-    "blocked": 49,
+    "blocked": 47,
     "blockers": [
       {
         "label": "Model ready",
-        "count": 47
+        "count": 45
       },
       {
         "label": "Minimum edge",
-        "count": 44
+        "count": 41
       },
       {
         "label": "Positive EV",
-        "count": 38
+        "count": 35
       },
       {
         "label": "Beats consensus",
@@ -6921,7 +6923,7 @@
       },
       {
         "label": "Pregame",
-        "count": 17
+        "count": 15
       }
     ],
     "watchlist": [
@@ -6930,10 +6932,10 @@
         "match": "Athletics vs Washington Nationals",
         "selection": "Athletics",
         "book": "Fanatics",
-        "price": 3500,
-        "probability": 0.09353974473280419,
-        "ev": 236.74308103809506,
-        "edge": 0.06576196695502641,
+        "price": 5000,
+        "probability": 0.08803864313300176,
+        "ev": 348.997079978309,
+        "edge": 0.06843079999574686,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -6942,11 +6944,11 @@
         "sport": "MLB",
         "match": "Los Angeles Angels vs Detroit Tigers",
         "selection": "Detroit Tigers",
-        "book": "BetMGM",
-        "price": 1000,
-        "probability": 0.1482531372165357,
-        "ev": 63.07845093818929,
-        "edge": 0.0573440463074448,
+        "book": "Fanatics",
+        "price": 1900,
+        "probability": 0.14317218723369723,
+        "ev": 186.3443744673945,
+        "edge": 0.09317218723369723,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -6956,10 +6958,23 @@
         "match": "Arizona Diamondbacks vs St. Louis Cardinals",
         "selection": "Arizona Diamondbacks",
         "book": "MyBookie.ag",
-        "price": 575,
-        "probability": 0.2085033118722403,
-        "ev": 40.73973551376221,
-        "edge": 0.060355163724092165,
+        "price": 355,
+        "probability": 0.5242720823915353,
+        "ev": 138.54379748814858,
+        "edge": 0.30449186261131556,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Arizona Diamondbacks vs St. Louis Cardinals",
+        "selection": "St. Louis Cardinals",
+        "book": "BetMGM",
+        "price": 135,
+        "probability": 0.4757279176084647,
+        "ev": 11.796060637989221,
+        "edge": 0.0501960027148477,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -6970,9 +6985,9 @@
         "selection": "Chicago White Sox",
         "book": "LowVig.ag",
         "price": 149,
-        "probability": 0.4288390624657646,
-        "ev": 6.780926553975377,
-        "edge": 0.027232636762953344,
+        "probability": 0.4290312460505156,
+        "ev": 6.828780266578391,
+        "edge": 0.02742482034770438,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -6983,9 +6998,9 @@
         "selection": "Los Angeles Dodgers",
         "book": "BetOnline.ag",
         "price": 121,
-        "probability": 0.4707187195867564,
-        "ev": 4.028837028673159,
-        "edge": 0.01823003180395094,
+        "probability": 0.4711675858184473,
+        "ev": 4.128036465876853,
+        "edge": 0.018678898035641878,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -7005,26 +7020,26 @@
       },
       {
         "sport": "MLB",
+        "match": "New York Yankees vs Los Angeles Dodgers",
+        "selection": "New York Yankees",
+        "book": "Caesars",
+        "price": 126,
+        "probability": 0.45340296738189373,
+        "ev": 2.469070628307989,
+        "edge": 0.010925091275699017,
+        "blocker": "Minimum edge",
+        "group": "Minimum edge",
+        "action": "Edge under 1.5% — inside vig noise."
+      },
+      {
+        "sport": "MLB",
         "match": "Toronto Blue Jays vs Tampa Bay Rays",
         "selection": "Tampa Bay Rays",
         "book": "FanDuel",
         "price": 126,
-        "probability": 0.4505208394156675,
-        "ev": 1.8177097079408497,
-        "edge": 0.008042963309472795,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
-        "match": "Seattle Mariners vs Cincinnati Reds",
-        "selection": "Cincinnati Reds",
-        "book": "FanDuel",
-        "price": 140,
-        "probability": 0.4239724115272634,
-        "ev": 1.7533787665432143,
-        "edge": 0.007305744860596708,
+        "probability": 0.4501170542997919,
+        "ev": 1.7264542717529636,
+        "edge": 0.0076391781935971625,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -7035,25 +7050,25 @@
         "selection": "Miami Marlins",
         "book": "FanDuel",
         "price": 122,
-        "probability": 0.457550670707046,
-        "ev": 1.5762488969642234,
-        "edge": 0.0071002202565955685,
+        "probability": 0.4571017393852822,
+        "ev": 1.47658614353265,
+        "edge": 0.006651288934831745,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
       },
       {
         "sport": "MLB",
-        "match": "New York Yankees vs Los Angeles Dodgers",
-        "selection": "New York Yankees",
-        "book": "Caesars",
-        "price": 122,
-        "probability": 0.4571484547423309,
-        "ev": 1.4869569527974562,
-        "edge": 0.006698004291880444,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "match": "Seattle Mariners vs Cincinnati Reds",
+        "selection": "Cincinnati Reds",
+        "book": "FanDuel",
+        "price": 140,
+        "probability": 0.42243354559890656,
+        "ev": 1.38405094373757,
+        "edge": 0.005766878932239872,
+        "blocker": "Model ready",
+        "group": "Needs starter",
+        "action": "Confirm probable starters or use the manual starter override."
       },
       {
         "sport": "MLB",
@@ -7061,9 +7076,9 @@
         "selection": "Cleveland Guardians",
         "book": "FanDuel",
         "price": 106,
-        "probability": 0.48773235769591416,
-        "ev": 0.47286568535831464,
-        "edge": 0.0022954644920306633,
+        "probability": 0.4868829194538316,
+        "ev": 0.2978814074893066,
+        "edge": 0.001446026249948107,
         "blocker": "Model ready",
         "group": "Needs starter",
         "action": "Confirm probable starters or use the manual starter override."
@@ -7072,6 +7087,77 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1784502192843",
+      "at": "2026-07-19T23:03:12.843Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1784501238441",
       "at": "2026-07-19T22:47:18.441Z",
@@ -8013,35 +8099,6 @@
     {
       "id": "snapshot-1784081645081",
       "at": "2026-07-15T02:14:05.081Z",
-      "source": "local",
-      "eventCount": 1,
-      "lines": [
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 175,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 190,
-              "book": "Bovada"
-            },
-            {
-              "name": "Argentina",
-              "price": 212,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1784080685088",
-      "at": "2026-07-15T01:58:05.088Z",
       "source": "local",
       "eventCount": 1,
       "lines": [

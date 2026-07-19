@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T22:47:18.431Z",
+  "updatedAt": "2026-07-19T23:03:12.832Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -77,11 +77,11 @@
       },
       "detroit tigers": {
         "team": "Detroit Tigers",
-        "xgFor": 4.244897959183674,
-        "xgAgainst": 3.9183673469387754,
-        "form": 4.6899999999999995,
+        "xgFor": 4.222222222222222,
+        "xgAgainst": 3.909090909090909,
+        "form": 4.65,
         "homeEdge": 0,
-        "news": "Local snapshot: 46-52, 4.24 RS/G, 3.92 RA/G.",
+        "news": "Local snapshot: 46-53, 4.22 RS/G, 3.91 RA/G.",
         "auto": true
       },
       "kansas city royals": {
@@ -104,11 +104,11 @@
       },
       "seattle mariners": {
         "team": "Seattle Mariners",
-        "xgFor": 4,
-        "xgAgainst": 3.898989898989899,
-        "form": 4.95,
+        "xgFor": 4.02,
+        "xgAgainst": 3.89,
+        "form": 5,
         "homeEdge": 0,
-        "news": "Local snapshot: 49-50, 4.00 RS/G, 3.90 RA/G.",
+        "news": "Local snapshot: 50-50, 4.02 RS/G, 3.89 RA/G.",
         "auto": true
       },
       "houston astros": {
@@ -122,20 +122,20 @@
       },
       "athletics": {
         "team": "Athletics",
-        "xgFor": 4.5,
-        "xgAgainst": 5.63265306122449,
-        "form": 4.29,
+        "xgFor": 4.474747474747475,
+        "xgAgainst": 5.626262626262626,
+        "form": 4.24,
         "homeEdge": 0,
-        "news": "Local snapshot: 42-56, 4.50 RS/G, 5.63 RA/G.",
+        "news": "Local snapshot: 42-57, 4.47 RS/G, 5.63 RA/G.",
         "auto": true
       },
       "los angeles angels": {
         "team": "Los Angeles Angels",
-        "xgFor": 4.353535353535354,
-        "xgAgainst": 4.98989898989899,
-        "form": 3.84,
+        "xgFor": 4.34,
+        "xgAgainst": 4.96,
+        "form": 3.9000000000000004,
         "homeEdge": 0,
-        "news": "Local snapshot: 38-61, 4.35 RS/G, 4.99 RA/G.",
+        "news": "Local snapshot: 39-61, 4.34 RS/G, 4.96 RA/G.",
         "auto": true
       },
       "atlanta braves": {
@@ -167,11 +167,11 @@
       },
       "washington nationals": {
         "team": "Washington Nationals",
-        "xgFor": 5.454545454545454,
-        "xgAgainst": 5.333333333333333,
-        "form": 4.95,
+        "xgFor": 5.45,
+        "xgAgainst": 5.3,
+        "form": 5,
         "homeEdge": 0,
-        "news": "Local snapshot: 49-50, 5.45 RS/G, 5.33 RA/G.",
+        "news": "Local snapshot: 50-50, 5.45 RS/G, 5.30 RA/G.",
         "auto": true
       },
       "new york mets": {
@@ -257,11 +257,11 @@
       },
       "san francisco giants": {
         "team": "San Francisco Giants",
-        "xgFor": 4.13265306122449,
-        "xgAgainst": 4.724489795918367,
-        "form": 4.29,
+        "xgFor": 4.121212121212121,
+        "xgAgainst": 4.737373737373737,
+        "form": 4.24,
         "homeEdge": 0,
-        "news": "Local snapshot: 42-56, 4.13 RS/G, 4.72 RA/G.",
+        "news": "Local snapshot: 42-57, 4.12 RS/G, 4.74 RA/G.",
         "auto": true
       },
       "colorado rockies": {
@@ -2310,37 +2310,37 @@
         "pitcher": "Jacob Lopez",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-19::washington nationals": {
         "pitcher": "Foster Griffin",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-19::los angeles angels": {
         "pitcher": "Ryan Johnson",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Game Over"
       },
       "2026-07-19::detroit tigers": {
         "pitcher": "Casey Mize",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Game Over"
       },
       "2026-07-19::seattle mariners": {
         "pitcher": "Logan Gilbert",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-19::san francisco giants": {
         "pitcher": "Robbie Ray",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-19::arizona diamondbacks": {
         "pitcher": "Eduardo Rodriguez",
@@ -2377,7 +2377,11 @@
       "minnesota twins": "loss",
       "chicago cubs": "win",
       "cincinnati reds": "win",
-      "colorado rockies": "loss"
+      "colorado rockies": "loss",
+      "washington nationals": "win",
+      "athletics": "loss",
+      "san francisco giants": "loss",
+      "seattle mariners": "win"
     },
     "fifaMensRankings": [
       {
@@ -5952,10 +5956,10 @@
       "spain": 0.5745
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-19T22:47:18.431Z",
-      "mlbStarters": "2026-07-19T22:47:18.431Z",
-      "mlbLastResults": "2026-07-19T22:47:18.431Z",
-      "fifaMensRankings": "2026-07-19T22:47:18.431Z",
+      "mlbTeamRatings": "2026-07-19T23:03:12.832Z",
+      "mlbStarters": "2026-07-19T23:03:12.832Z",
+      "mlbLastResults": "2026-07-19T23:03:12.832Z",
+      "fifaMensRankings": "2026-07-19T23:03:12.832Z",
       "kalshi": "2026-07-15T18:27:11.226Z",
       "mlbBullpen": "2026-07-15T18:27:11.226Z",
       "openingLines": "2026-07-15T18:27:11.226Z"
@@ -36920,11 +36924,11 @@
         },
         "detroit tigers": {
           "team": "Detroit Tigers",
-          "xgFor": 4.244897959183674,
-          "xgAgainst": 3.9183673469387754,
-          "form": 4.6899999999999995,
+          "xgFor": 4.222222222222222,
+          "xgAgainst": 3.909090909090909,
+          "form": 4.65,
           "homeEdge": 0,
-          "news": "Local snapshot: 46-52, 4.24 RS/G, 3.92 RA/G.",
+          "news": "Local snapshot: 46-53, 4.22 RS/G, 3.91 RA/G.",
           "auto": true
         },
         "kansas city royals": {
@@ -36947,11 +36951,11 @@
         },
         "seattle mariners": {
           "team": "Seattle Mariners",
-          "xgFor": 4,
-          "xgAgainst": 3.898989898989899,
-          "form": 4.95,
+          "xgFor": 4.02,
+          "xgAgainst": 3.89,
+          "form": 5,
           "homeEdge": 0,
-          "news": "Local snapshot: 49-50, 4.00 RS/G, 3.90 RA/G.",
+          "news": "Local snapshot: 50-50, 4.02 RS/G, 3.89 RA/G.",
           "auto": true
         },
         "houston astros": {
@@ -36965,20 +36969,20 @@
         },
         "athletics": {
           "team": "Athletics",
-          "xgFor": 4.5,
-          "xgAgainst": 5.63265306122449,
-          "form": 4.29,
+          "xgFor": 4.474747474747475,
+          "xgAgainst": 5.626262626262626,
+          "form": 4.24,
           "homeEdge": 0,
-          "news": "Local snapshot: 42-56, 4.50 RS/G, 5.63 RA/G.",
+          "news": "Local snapshot: 42-57, 4.47 RS/G, 5.63 RA/G.",
           "auto": true
         },
         "los angeles angels": {
           "team": "Los Angeles Angels",
-          "xgFor": 4.353535353535354,
-          "xgAgainst": 4.98989898989899,
-          "form": 3.84,
+          "xgFor": 4.34,
+          "xgAgainst": 4.96,
+          "form": 3.9000000000000004,
           "homeEdge": 0,
-          "news": "Local snapshot: 38-61, 4.35 RS/G, 4.99 RA/G.",
+          "news": "Local snapshot: 39-61, 4.34 RS/G, 4.96 RA/G.",
           "auto": true
         },
         "atlanta braves": {
@@ -37010,11 +37014,11 @@
         },
         "washington nationals": {
           "team": "Washington Nationals",
-          "xgFor": 5.454545454545454,
-          "xgAgainst": 5.333333333333333,
-          "form": 4.95,
+          "xgFor": 5.45,
+          "xgAgainst": 5.3,
+          "form": 5,
           "homeEdge": 0,
-          "news": "Local snapshot: 49-50, 5.45 RS/G, 5.33 RA/G.",
+          "news": "Local snapshot: 50-50, 5.45 RS/G, 5.30 RA/G.",
           "auto": true
         },
         "new york mets": {
@@ -37100,11 +37104,11 @@
         },
         "san francisco giants": {
           "team": "San Francisco Giants",
-          "xgFor": 4.13265306122449,
-          "xgAgainst": 4.724489795918367,
-          "form": 4.29,
+          "xgFor": 4.121212121212121,
+          "xgAgainst": 4.737373737373737,
+          "form": 4.24,
           "homeEdge": 0,
-          "news": "Local snapshot: 42-56, 4.13 RS/G, 4.72 RA/G.",
+          "news": "Local snapshot: 42-57, 4.12 RS/G, 4.74 RA/G.",
           "auto": true
         },
         "colorado rockies": {

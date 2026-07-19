@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-19T22:47:19.315Z
+Updated: 2026-07-19T23:03:14.056Z
 
 ## Summary
 - Total tracked picks: 63
-- Pending: 1
-- Graded: 62
+- Pending: 0
+- Graded: 63
 - Wins: 18
-- Losses: 43
+- Losses: 44
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -16,7 +16,7 @@ Updated: 2026-07-19T22:47:19.315Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | Colorado Rockies vs Cincinnati Reds | Colorado Rockies | loss | +147 | - | - | 43.0% | 25% strength model + 75% market no-vig |
-| MLB | Seattle Mariners vs San Francisco Giants | San Francisco Giants | pending | +176 | - | - | 38.1% | 25% strength model + 75% market no-vig |
+| MLB | Seattle Mariners vs San Francisco Giants | San Francisco Giants | loss | +176 | - | - | 38.1% | 25% strength model + 75% market no-vig |
 | MLB | Pittsburgh Pirates vs Milwaukee Brewers | Milwaukee Brewers | loss | +112 | +116 | -0.9 pts | 48.9% | 25% strength model + 75% market no-vig |
 | MLB | Chicago White Sox vs Athletics | Chicago White Sox | win | -106 | -114 | 1.8 pts | 53.1% | 25% strength model + 75% market no-vig |
 | MLB | Los Angeles Dodgers vs Arizona Diamondbacks | Arizona Diamondbacks | win | +239 | +265 | -2.1 pts | 31.1% | 25% strength model + 75% market no-vig |
@@ -83,36 +83,37 @@ Updated: 2026-07-19T22:47:19.315Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 38 | 37 | 21.6% | -0.2 pts | 0.192 | 0.0% |
+| Passed gate | 38 | 38 | 21.1% | -0.2 pts | 0.191 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-19T22:47:18.477Z
-- Current candidates: 49
-- Passed / blocked: 0 / 49
+- Saved: 2026-07-19T23:03:12.975Z
+- Current candidates: 47
+- Passed / blocked: 0 / 47
 
 ### Top Blockers
-- Model ready: 47
-- Minimum edge: 44
-- Positive EV: 38
+- Model ready: 45
+- Minimum edge: 41
+- Positive EV: 35
 - Beats consensus: 25
 - DraftKings line: 19
-- Pregame: 17
+- Pregame: 15
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Athletics | Athletics vs Washington Nationals | Game too stale/live | +3500 | 9.4% | $236.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Los Angeles Angels vs Detroit Tigers | Game too stale/live | +1000 | 14.8% | $63.08 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +575 | 20.9% | $40.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.78 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.1% | $4.03 | Confirm probable starters or use the manual starter override. |
+| MLB | Athletics | Athletics vs Washington Nationals | Game too stale/live | +5000 | 8.8% | $349.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Los Angeles Angels vs Detroit Tigers | Game too stale/live | +1900 | 14.3% | $186.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +355 | 52.4% | $138.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +135 | 47.6% | $11.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.83 | Confirm probable starters or use the manual starter override. |
+| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.1% | $4.13 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Tampa Bay Rays | Toronto Blue Jays vs Tampa Bay Rays | Needs starter | +126 | 45.1% | $1.82 | Confirm probable starters or use the manual starter override. |
-| MLB | Cincinnati Reds | Seattle Mariners vs Cincinnati Reds | Needs starter | +140 | 42.4% | $1.75 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +122 | 45.8% | $1.58 | Confirm probable starters or use the manual starter override. |
-| MLB | New York Yankees | New York Yankees vs Los Angeles Dodgers | Minimum edge | +122 | 45.7% | $1.49 | Edge under 1.5% — inside vig noise. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Minnesota Twins | Needs starter | +106 | 48.8% | $0.47 | Confirm probable starters or use the manual starter override. |
+| MLB | New York Yankees | New York Yankees vs Los Angeles Dodgers | Minimum edge | +126 | 45.3% | $2.47 | Edge under 1.5% — inside vig noise. |
+| MLB | Tampa Bay Rays | Toronto Blue Jays vs Tampa Bay Rays | Needs starter | +126 | 45.0% | $1.73 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +122 | 45.7% | $1.48 | Confirm probable starters or use the manual starter override. |
+| MLB | Cincinnati Reds | Seattle Mariners vs Cincinnati Reds | Needs starter | +140 | 42.2% | $1.38 | Confirm probable starters or use the manual starter override. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Minnesota Twins | Needs starter | +106 | 48.7% | $0.30 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
