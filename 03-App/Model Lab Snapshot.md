@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-19T23:03:14.056Z
+Updated: 2026-07-19T23:31:23.740Z
 
 ## Summary
 - Total tracked picks: 63
@@ -87,33 +87,31 @@ Updated: 2026-07-19T23:03:14.056Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-19T23:03:12.975Z
-- Current candidates: 47
-- Passed / blocked: 0 / 47
+- Saved: 2026-07-19T23:31:22.911Z
+- Current candidates: 43
+- Passed / blocked: 0 / 43
 
 ### Top Blockers
-- Model ready: 45
-- Minimum edge: 41
-- Positive EV: 35
-- Beats consensus: 25
-- DraftKings line: 19
-- Pregame: 15
+- Model ready: 43
+- Minimum edge: 39
+- Positive EV: 33
+- Beats consensus: 23
+- DraftKings line: 15
+- Pregame: 13
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Athletics | Athletics vs Washington Nationals | Game too stale/live | +5000 | 8.8% | $349.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Los Angeles Angels vs Detroit Tigers | Game too stale/live | +1900 | 14.3% | $186.34 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +355 | 52.4% | $138.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +135 | 47.6% | $11.80 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.83 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.1% | $4.13 | Confirm probable starters or use the manual starter override. |
+| MLB | St. Louis Cardinals | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | +265 | 35.9% | $30.96 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.70 | Confirm probable starters or use the manual starter override. |
+| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.0% | $3.89 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | New York Yankees vs Los Angeles Dodgers | Minimum edge | +126 | 45.3% | $2.47 | Edge under 1.5% — inside vig noise. |
+| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs St. Louis Cardinals | Game too stale/live | -165 | 64.1% | $2.98 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Tampa Bay Rays | Toronto Blue Jays vs Tampa Bay Rays | Needs starter | +126 | 45.0% | $1.73 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +122 | 45.7% | $1.48 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +122 | 45.8% | $1.65 | Confirm probable starters or use the manual starter override. |
 | MLB | Cincinnati Reds | Seattle Mariners vs Cincinnati Reds | Needs starter | +140 | 42.2% | $1.38 | Confirm probable starters or use the manual starter override. |
-| MLB | Cleveland Guardians | Cleveland Guardians vs Minnesota Twins | Needs starter | +106 | 48.7% | $0.30 | Confirm probable starters or use the manual starter override. |
+| MLB | Cleveland Guardians | Cleveland Guardians vs Minnesota Twins | Needs starter | +106 | 48.7% | $0.25 | Confirm probable starters or use the manual starter override. |
+| MLB | New York Yankees | New York Yankees vs Los Angeles Dodgers | Game too stale/live | +125 | 44.5% | $0.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
