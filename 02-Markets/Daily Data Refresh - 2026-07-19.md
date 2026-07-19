@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-19
 
-Generated: 2026-07-19T22:31:33.014Z
+Generated: 2026-07-19T22:46:55.643Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -44,15 +44,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Washington Nationals at Athletics | In Progress | Foster Griffin | Jacob Lopez | 5-1 |
 | Detroit Tigers at Los Angeles Angels | In Progress | Casey Mize | Ryan Johnson | 1-3 |
 | San Francisco Giants at Seattle Mariners | In Progress | Robbie Ray | Logan Gilbert | 3-6 |
-| St. Louis Cardinals at Arizona Diamondbacks | In Progress | Andre Pallante | Eduardo Rodriguez | 7-3 |
+| St. Louis Cardinals at Arizona Diamondbacks | In Progress | Andre Pallante | Eduardo Rodriguez | 7-5 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Washington Nationals at Athletics | 2026-07-19T20:06:00Z | Athletics +1040, Washington Nationals -4200 |
-| Detroit Tigers at Los Angeles Angels | 2026-07-19T20:08:00Z | Detroit Tigers +504, Los Angeles Angels -890 |
-| St. Louis Cardinals at Arizona Diamondbacks | 2026-07-19T20:11:00Z | Arizona Diamondbacks +750, St. Louis Cardinals -1780 |
+| Washington Nationals at Athletics | 2026-07-19T20:06:00Z | none |
+| Detroit Tigers at Los Angeles Angels | 2026-07-19T20:08:00Z | Detroit Tigers +930, Los Angeles Angels -2900 |
+| St. Louis Cardinals at Arizona Diamondbacks | 2026-07-19T20:11:00Z | Arizona Diamondbacks +424, St. Louis Cardinals -690 |
 | San Francisco Giants at Seattle Mariners | 2026-07-19T20:11:00Z | none |
 | Los Angeles Dodgers at New York Yankees | 2026-07-19T23:21:00Z | Los Angeles Dodgers -135, New York Yankees +112 |
 | Minnesota Twins at Cleveland Guardians | 2026-07-20T22:41:00Z | Cleveland Guardians +101, Minnesota Twins -121 |
