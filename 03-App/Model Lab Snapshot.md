@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-20T00:50:45.149Z
+Updated: 2026-07-20T00:54:45.163Z
 
 ## Summary
 - Total tracked picks: 63
@@ -87,7 +87,7 @@ Updated: 2026-07-20T00:50:45.149Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-20T00:50:44.328Z
+- Saved: 2026-07-20T00:54:44.336Z
 - Current candidates: 41
 - Passed / blocked: 0 / 41
 
@@ -102,8 +102,8 @@ Updated: 2026-07-20T00:50:45.149Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
+| MLB | Los Angeles Dodgers | New York Yankees vs Los Angeles Dodgers | Game too stale/live | +400 | 25.5% | $27.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.89 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Dodgers | New York Yankees vs Los Angeles Dodgers | Game too stale/live | +160 | 40.8% | $6.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.1% | $4.02 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Tampa Bay Rays | Toronto Blue Jays vs Tampa Bay Rays | Needs starter | +126 | 44.8% | $1.33 | Confirm probable starters or use the manual starter override. |

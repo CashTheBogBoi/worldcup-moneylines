@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-19
 
-Generated: 2026-07-20T00:38:26.035Z
+Generated: 2026-07-20T00:53:51.753Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -47,7 +47,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Los Angeles Dodgers at New York Yankees | 2026-07-19T23:21:00Z | Los Angeles Dodgers +127, New York Yankees -166 |
+| Los Angeles Dodgers at New York Yankees | 2026-07-19T23:21:00Z | Los Angeles Dodgers +307, New York Yankees -451 |
 | Minnesota Twins at Cleveland Guardians | 2026-07-20T22:41:00Z | Cleveland Guardians +100, Minnesota Twins -120 |
 | Pittsburgh Pirates at New York Yankees | 2026-07-20T23:06:00Z | New York Yankees -123, Pittsburgh Pirates +102 |
 | Tampa Bay Rays at Toronto Blue Jays | 2026-07-20T23:08:00Z | Tampa Bay Rays +118, Toronto Blue Jays -142 |
