@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-19
 
-Generated: 2026-07-20T01:09:15.520Z
+Generated: 2026-07-20T03:58:35.017Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Los Angeles Dodgers at New York Yankees: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No automated high-priority intel flags from the current snapshot._
 
 ## MLB probable pitchers
 
@@ -28,7 +28,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | --- | --- | --- | --- | --- |
 | Chicago White Sox at Toronto Blue Jays | Final | Sean Burke | Trey Yesavage | 3-0 |
 | Los Angeles Dodgers at New York Yankees | Final | Yoshinobu Yamamoto | Cam Schlittler | 8-2 |
-| Los Angeles Dodgers at New York Yankees | In Progress | Will Klein | Ryan Yarbrough | 0-1 |
+| Los Angeles Dodgers at New York Yankees | Final | Will Klein | Ryan Yarbrough | 1-2 |
 | Tampa Bay Rays at Boston Red Sox | Final | Shane McClanahan | Sonny Gray | 1-6 |
 | New York Mets at Philadelphia Phillies | Final | Nolan McLean | Alan Rangel | 6-1 |
 | Texas Rangers at Atlanta Braves | Final | Nathan Eovaldi | Grant Holmes | 5-8 |
@@ -47,16 +47,15 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Los Angeles Dodgers at New York Yankees | 2026-07-19T23:21:00Z | Los Angeles Dodgers +166, New York Yankees -222 |
 | Minnesota Twins at Cleveland Guardians | 2026-07-20T22:41:00Z | Cleveland Guardians +100, Minnesota Twins -120 |
 | Pittsburgh Pirates at New York Yankees | 2026-07-20T23:06:00Z | New York Yankees -123, Pittsburgh Pirates +102 |
 | Tampa Bay Rays at Toronto Blue Jays | 2026-07-20T23:08:00Z | Tampa Bay Rays +118, Toronto Blue Jays -142 |
 | Baltimore Orioles at Boston Red Sox | 2026-07-20T23:11:00Z | Baltimore Orioles +118, Boston Red Sox -142 |
 | Los Angeles Dodgers at Philadelphia Phillies | 2026-07-20T23:11:00Z | Los Angeles Dodgers +118, Philadelphia Phillies -142 |
-| San Diego Padres at Atlanta Braves | 2026-07-20T23:16:00Z | Atlanta Braves -156, San Diego Padres +129 |
+| San Diego Padres at Atlanta Braves | 2026-07-20T23:16:00Z | Atlanta Braves -147, San Diego Padres +122 |
 | San Francisco Giants at Kansas City Royals | 2026-07-20T23:41:00Z | Kansas City Royals -115, San Francisco Giants -104 |
-| New York Mets at Milwaukee Brewers | 2026-07-20T23:41:00Z | Milwaukee Brewers -193, New York Mets +158 |
-| Detroit Tigers at Chicago Cubs | 2026-07-21T00:06:00Z | Chicago Cubs -117, Detroit Tigers -103 |
+| New York Mets at Milwaukee Brewers | 2026-07-20T23:41:00Z | Milwaukee Brewers -198, New York Mets +163 |
+| Detroit Tigers at Chicago Cubs | 2026-07-21T00:06:00Z | Chicago Cubs -116, Detroit Tigers -104 |
 | Chicago White Sox at Texas Rangers | 2026-07-21T00:06:00Z | Chicago White Sox +144, Texas Rangers -175 |
 | Miami Marlins at Houston Astros | 2026-07-21T00:11:00Z | Houston Astros -136, Miami Marlins +113 |
 | Washington Nationals at Colorado Rockies | 2026-07-21T00:41:00Z | Colorado Rockies +100, Washington Nationals -120 |
