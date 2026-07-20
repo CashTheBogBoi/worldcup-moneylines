@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-20T00:54:44.354Z",
+  "savedAt": "2026-07-20T01:10:15.490Z",
   "modelPicks": [
     {
       "id": "model-1784486652803-231956",
@@ -6896,7 +6896,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-20T00:54:44.336Z",
+    "savedAt": "2026-07-20T01:10:15.474Z",
     "totalCandidates": 41,
     "passed": 0,
     "blocked": 41,
@@ -6911,7 +6911,7 @@
       },
       {
         "label": "Positive EV",
-        "count": 31
+        "count": 30
       },
       {
         "label": "Beats consensus",
@@ -6932,10 +6932,10 @@
         "match": "New York Yankees vs Los Angeles Dodgers",
         "selection": "Los Angeles Dodgers",
         "book": "Caesars",
-        "price": 400,
-        "probability": 0.2550407467396244,
-        "ev": 27.52037336981219,
-        "edge": 0.05504074673962439,
+        "price": 230,
+        "probability": 0.35173625117889373,
+        "ev": 16.072962889034926,
+        "edge": 0.048705948148590694,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -7046,6 +7046,19 @@
       },
       {
         "sport": "MLB",
+        "match": "New York Yankees vs Los Angeles Dodgers",
+        "selection": "New York Yankees",
+        "book": "MyBookie.ag",
+        "price": -182,
+        "probability": 0.6482637488211063,
+        "ev": 0.44526217997361073,
+        "edge": 0.002873677899120408,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
         "match": "Cleveland Guardians vs Minnesota Twins",
         "selection": "Cleveland Guardians",
         "book": "FanDuel",
@@ -7061,6 +7074,77 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1784509815374",
+      "at": "2026-07-20T01:10:15.374Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1784508884305",
       "at": "2026-07-20T00:54:44.305Z",
@@ -8212,35 +8296,6 @@
     {
       "id": "snapshot-1784085477912",
       "at": "2026-07-15T03:17:57.912Z",
-      "source": "local",
-      "eventCount": 1,
-      "lines": [
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 175,
-              "book": "Fanatics"
-            },
-            {
-              "name": "Draw",
-              "price": 190,
-              "book": "Bovada"
-            },
-            {
-              "name": "Argentina",
-              "price": 212,
-              "book": "BetOnline.ag"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1784084517947",
-      "at": "2026-07-15T03:01:57.947Z",
       "source": "local",
       "eventCount": 1,
       "lines": [

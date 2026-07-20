@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-20T00:54:45.163Z
+Updated: 2026-07-20T01:10:16.640Z
 
 ## Summary
 - Total tracked picks: 63
@@ -87,14 +87,14 @@ Updated: 2026-07-20T00:54:45.163Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-20T00:54:44.336Z
+- Saved: 2026-07-20T01:10:15.474Z
 - Current candidates: 41
 - Passed / blocked: 0 / 41
 
 ### Top Blockers
 - Model ready: 41
 - Minimum edge: 38
-- Positive EV: 31
+- Positive EV: 30
 - Beats consensus: 22
 - Pregame: 11
 - DraftKings line: 9
@@ -102,7 +102,7 @@ Updated: 2026-07-20T00:54:45.163Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Dodgers | New York Yankees vs Los Angeles Dodgers | Game too stale/live | +400 | 25.5% | $27.52 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Los Angeles Dodgers | New York Yankees vs Los Angeles Dodgers | Game too stale/live | +230 | 35.2% | $16.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +149 | 42.9% | $6.89 | Confirm probable starters or use the manual starter override. |
 | MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | +121 | 47.1% | $4.02 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
@@ -111,6 +111,7 @@ Updated: 2026-07-20T00:54:45.163Z
 | MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +120 | 45.9% | $0.98 | Confirm probable starters or use the manual starter override. |
 | MLB | San Francisco Giants | Kansas City Royals vs San Francisco Giants | Needs starter | +105 | 49.2% | $0.95 | Confirm probable starters or use the manual starter override. |
 | MLB | Chicago Cubs | Chicago Cubs vs Detroit Tigers | Needs starter | -108 | 52.3% | $0.70 | Confirm probable starters or use the manual starter override. |
+| MLB | New York Yankees | New York Yankees vs Los Angeles Dodgers | Game too stale/live | -182 | 64.8% | $0.45 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Cleveland Guardians | Cleveland Guardians vs Minnesota Twins | Needs starter | +106 | 48.7% | $0.25 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
