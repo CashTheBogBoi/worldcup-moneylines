@@ -6727,3 +6727,93 @@ Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy 
 [2026-07-20T04:43:42.204Z] watchdog skipped: another run is active
 [2026-07-20T04:58:42.527Z] watchdog skipped: another run is active
 [2026-07-20T05:13:42.823Z] watchdog skipped: another run is active
+[2026-07-20T05:28:43.349Z] watchdog skipped: another run is active
+[2026-07-20T05:43:43.869Z] watchdog skipped: another run is active
+[2026-07-20T05:58:44.460Z] watchdog skipped: another run is active
+[2026-07-20T06:13:45.019Z] watchdog ok: no missing due windows
+[2026-07-20T06:28:45.585Z] watchdog skipped: another run is active
+[2026-07-20T06:43:46.135Z] watchdog skipped: another run is active
+[2026-07-20T06:58:46.620Z] watchdog skipped: another run is active
+[2026-07-20T07:13:47.063Z] watchdog skipped: another run is active
+[2026-07-20T07:28:47.590Z] watchdog skipped: another run is active
+[2026-07-20T07:43:48.452Z] watchdog skipped: another run is active
+[2026-07-20T07:58:49.312Z] watchdog skipped: another run is active
+[2026-07-20T08:13:50.486Z] watchdog ok: no missing due windows
+[2026-07-20T08:28:51.398Z] watchdog skipped: another run is active
+[2026-07-20T08:43:52.296Z] watchdog skipped: another run is active
+[2026-07-20T08:58:53.473Z] watchdog skipped: another run is active
+[2026-07-20T09:13:54.361Z] watchdog skipped: another run is active
+[2026-07-20T09:28:55.194Z] watchdog skipped: another run is active
+[2026-07-20T09:43:55.873Z] watchdog skipped: another run is active
+[2026-07-20T09:58:56.659Z] watchdog skipped: another run is active
+[2026-07-20T12:14:31.493Z] watchdog ok: no missing due windows
+[2026-07-20T12:29:32.184Z] watchdog skipped: another run is active
+[2026-07-20T12:44:32.951Z] watchdog skipped: another run is active
+[2026-07-20T12:59:33.686Z] watchdog skipped: another run is active
+[2026-07-20T13:14:34.424Z] watchdog skipped: another run is active
+[2026-07-20T13:30:38.459Z] watchdog skipped: another run is active
+[2026-07-20T16:33:10.033Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T16:33:36.873Z] watchdog PASS morning exit=0
+[2026-07-20T16:33:36.874Z] watchdog starting missed pregame: npm run schedule:pregame
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+Pregame check scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T16:33:57.171Z] watchdog PASS pregame exit=0
+[2026-07-20T16:48:58.386Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T16:49:20.508Z] watchdog PASS morning exit=0
+[2026-07-20T16:49:20.509Z] watchdog starting missed pregame: npm run schedule:pregame
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+Pregame check scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T16:49:41.112Z] watchdog PASS pregame exit=0
+[2026-07-20T17:04:42.527Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T17:05:05.653Z] watchdog PASS morning exit=0
+[2026-07-20T17:05:05.654Z] watchdog starting missed pregame: npm run schedule:pregame
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+Pregame check scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T17:05:26.594Z] watchdog PASS pregame exit=0
+[2026-07-20T17:20:29.973Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T17:20:54.154Z] watchdog PASS morning exit=0
+[2026-07-20T17:20:54.154Z] watchdog starting missed pregame: npm run schedule:pregame
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+Pregame check scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-20T17:21:15.433Z] watchdog PASS pregame exit=0
+[2026-07-20T17:36:16.803Z] watchdog starting missed morning: npm run schedule:morning
