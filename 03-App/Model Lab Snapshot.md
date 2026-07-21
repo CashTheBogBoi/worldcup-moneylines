@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-21T19:36:09.256Z
+Updated: 2026-07-21T19:43:22.455Z
 
 ## Summary
 - Total tracked picks: 67
@@ -15,8 +15,8 @@ Updated: 2026-07-21T19:36:09.256Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | pending | +110 | - | - | 49.2% | 25% strength model + 75% market no-vig |
-| MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | pending | +114 | +108 | 1.3 pts | 48.3% | 25% strength model + 75% market no-vig |
+| MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | pending | +110 | +110 | 0.0 pts | 49.2% | 25% strength model + 75% market no-vig |
+| MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | pending | +114 | +106 | 1.8 pts | 48.3% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | win | +145 | - | - | 43.1% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | loss | +126 | - | - | 46.3% | 25% strength model + 75% market no-vig |
 | MLB | Colorado Rockies vs Cincinnati Reds | Colorado Rockies | loss | +147 | - | - | 43.0% | 25% strength model + 75% market no-vig |
@@ -87,13 +87,13 @@ Updated: 2026-07-21T19:36:09.256Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-21T19:36:08.406Z
+- Saved: 2026-07-21T19:43:21.517Z
 - Current candidates: 61
 - Passed / blocked: 1 / 60
 
 ### Top Blockers
 - Minimum edge: 60
-- Positive EV: 49
+- Positive EV: 50
 - Model ready: 33
 - Beats consensus: 32
 - DraftKings line: 9
@@ -103,16 +103,15 @@ Updated: 2026-07-21T19:36:09.256Z
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Minimum edge | +108 | 49.4% | $2.76 | Edge under 1.5% — inside vig noise. |
 | MLB | Boston Red Sox | Boston Red Sox vs Baltimore Orioles | Minimum edge | -104 | 52.1% | $2.28 | Edge under 1.5% — inside vig noise. |
-| MLB | Milwaukee Brewers | Milwaukee Brewers vs New York Mets | Minimum edge | -130 | 57.4% | $1.61 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | Cleveland Guardians vs Minnesota Twins | Minimum edge | +130 | 43.8% | $0.82 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Minimum edge | +106 | 49.5% | $2.07 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Milwaukee Brewers vs New York Mets | Minimum edge | -130 | 57.3% | $1.45 | Edge under 1.5% — inside vig noise. |
+| MLB | Minnesota Twins | Cleveland Guardians vs Minnesota Twins | Minimum edge | +130 | 43.8% | $0.65 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Texas Rangers vs Chicago White Sox | Needs starter | +100 | 50.2% | $0.46 | Confirm probable starters or use the manual starter override. |
 | MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Athletics | Needs starter | -112 | 53.0% | $0.35 | Confirm probable starters or use the manual starter override. |
 | MLB | Los Angeles Dodgers | Philadelphia Phillies vs Los Angeles Dodgers | Needs starter | -105 | 51.3% | $0.25 | Confirm probable starters or use the manual starter override. |
 | MLB | Chicago Cubs | Chicago Cubs vs Detroit Tigers | Needs starter | -110 | 52.5% | $0.23 | Confirm probable starters or use the manual starter override. |
 | MLB | Milwaukee Brewers | Milwaukee Brewers vs New York Mets | Needs starter | -142 | 58.7% | $0.11 | Confirm probable starters or use the manual starter override. |
-| MLB | Miami Marlins | Houston Astros vs Miami Marlins | Needs starter | +104 | 49.0% | $0.04 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

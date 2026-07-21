@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-21
 
-Generated: 2026-07-21T19:27:00.558Z
+Generated: 2026-07-21T19:42:49.206Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -27,11 +27,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Minnesota Twins at Cleveland Guardians | Pre-Game | Kendry Rojas | Parker Messick |  |
-| Los Angeles Dodgers at Philadelphia Phillies | Pre-Game | Justin Wrobleski | Zack Wheeler |  |
+| Los Angeles Dodgers at Philadelphia Phillies | Pre-Game | Justin Wrobleski | Zack Wheeler | 0-0 |
 | Tampa Bay Rays at Toronto Blue Jays | Pre-Game | Drew Rasmussen | Kevin Gausman |  |
-| Baltimore Orioles at Boston Red Sox | Scheduled | Kyle Bradish | Eduardo Rivera |  |
+| Baltimore Orioles at Boston Red Sox | Pre-Game | Kyle Bradish | Eduardo Rivera |  |
 | San Diego Padres at Atlanta Braves | Scheduled | Walker Buehler | Reynaldo López |  |
-| San Francisco Giants at Kansas City Royals | Scheduled | Tyler Mahle | Luinder Avila |  |
+| San Francisco Giants at Kansas City Royals | Pre-Game | Tyler Mahle | Luinder Avila |  |
 | New York Mets at Milwaukee Brewers | Scheduled | Zac Thornton | Brandon Sproat |  |
 | Detroit Tigers at Chicago Cubs | Scheduled | Framber Valdez | David Peterson |  |
 | Chicago White Sox at Texas Rangers | Scheduled | Noah Schultz | Kumar Rocker |  |
@@ -47,11 +47,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Start | DraftKings |
 | --- | --- | --- |
 | Minnesota Twins at Cleveland Guardians | 2026-07-21T22:41:00Z | Cleveland Guardians -150, Minnesota Twins +124 |
-| Los Angeles Dodgers at Philadelphia Phillies | 2026-07-21T22:41:00Z | Los Angeles Dodgers +101, Philadelphia Phillies -122 |
+| Los Angeles Dodgers at Philadelphia Phillies | 2026-07-21T22:41:00Z | Los Angeles Dodgers -101, Philadelphia Phillies -120 |
 | Tampa Bay Rays at Toronto Blue Jays | 2026-07-21T23:08:00Z | Tampa Bay Rays -111, Toronto Blue Jays -108 |
 | Baltimore Orioles at Boston Red Sox | 2026-07-21T23:11:00Z | Baltimore Orioles -106, Boston Red Sox -113 |
-| San Diego Padres at Atlanta Braves | 2026-07-21T23:16:00Z | Atlanta Braves -147, San Diego Padres +122 |
-| San Francisco Giants at Kansas City Royals | 2026-07-21T23:41:00Z | Kansas City Royals -105, San Francisco Giants -114 |
+| San Diego Padres at Atlanta Braves | 2026-07-21T23:16:00Z | Atlanta Braves -150, San Diego Padres +124 |
+| San Francisco Giants at Kansas City Royals | 2026-07-21T23:41:00Z | Kansas City Royals -102, San Francisco Giants -119 |
 | New York Mets at Milwaukee Brewers | 2026-07-21T23:41:00Z | Milwaukee Brewers -136, New York Mets +113 |
 | Detroit Tigers at Chicago Cubs | 2026-07-22T00:06:00Z | Chicago Cubs -122, Detroit Tigers +101 |
 | Chicago White Sox at Texas Rangers | 2026-07-22T00:06:00Z | Chicago White Sox +103, Texas Rangers -124 |
@@ -71,7 +71,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Baltimore Orioles at Boston Red Sox | 2026-07-22T23:10:00Z | Baltimore Orioles +135, Boston Red Sox -163 |
 | Detroit Tigers at Chicago Cubs | 2026-07-23T00:06:00Z | Chicago Cubs -115, Detroit Tigers -105 |
 | Chicago White Sox at Texas Rangers | 2026-07-23T00:06:00Z | Chicago White Sox -105, Texas Rangers -115 |
-| Miami Marlins at Houston Astros | 2026-07-23T00:11:00Z | Houston Astros -113, Miami Marlins -107 |
+| Miami Marlins at Houston Astros | 2026-07-23T00:11:00Z | Houston Astros -118, Miami Marlins -102 |
 
 ## DraftKings Soccer odds snapshot
 
