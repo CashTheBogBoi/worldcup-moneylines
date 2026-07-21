@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-20
 
-Generated: 2026-07-20T17:20:41.436Z
-Local time: 1:20 PM
+Generated: 2026-07-21T03:56:44.284Z
+Local time: 11:56 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,17 +13,20 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-20T17:20:32.998Z
-- MLB odds events: 15
+- Snapshot generated: 2026-07-21T03:56:35.047Z
+- MLB odds events: 17
 - Soccer odds events: 0
-- High-impact intel blocks: 0
-- Intel pending / confirmed / denied: 0 / 0 / 0
+- High-impact intel blocks: 4
+- Intel pending / confirmed / denied: 4 / 0 / 0
 - Pending tracked picks: 0
-- Tracked gate status passed / blocked / unknown: 38 / 0 / 25
+- Tracked gate status passed / blocked / unknown: 40 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-_No active high-impact blocks in this snapshot._
+- **MLB / Market move / pending:** Detroit Tigers at Chicago Cubs — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Athletics at Arizona Diamondbacks — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Cincinnati Reds at Seattle Mariners — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** St. Louis Cardinals at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -31,18 +34,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Minnesota Twins at Cleveland Guardians | Jul 20, 6:41 PM | 320 | Cleveland Guardians +108, Minnesota Twins -130 | 11 |
-| Pittsburgh Pirates at New York Yankees | Jul 20, 7:06 PM | 345 | New York Yankees -117, Pittsburgh Pirates -103 | 11 |
-| Tampa Bay Rays at Toronto Blue Jays | Jul 20, 7:08 PM | 347 | Tampa Bay Rays +139, Toronto Blue Jays -168 | 11 |
-| Baltimore Orioles at Boston Red Sox | Jul 20, 7:11 PM | 350 | Baltimore Orioles +134, Boston Red Sox -162 | 11 |
-| Los Angeles Dodgers at Philadelphia Phillies | Jul 20, 7:11 PM | 350 | Los Angeles Dodgers +123, Philadelphia Phillies -149 | 11 |
-| San Diego Padres at Atlanta Braves | Jul 20, 7:16 PM | 355 | Atlanta Braves -131, San Diego Padres +109 | 11 |
-| San Francisco Giants at Kansas City Royals | Jul 20, 7:41 PM | 380 | Kansas City Royals -114, San Francisco Giants -105 | 11 |
-| New York Mets at Milwaukee Brewers | Jul 20, 7:41 PM | 380 | Milwaukee Brewers -218, New York Mets +178 | 11 |
-| Detroit Tigers at Chicago Cubs | Jul 20, 8:06 PM | 405 | Chicago Cubs -114, Detroit Tigers -105 | 11 |
-| Chicago White Sox at Texas Rangers | Jul 20, 8:06 PM | 405 | Chicago White Sox +138, Texas Rangers -167 | 11 |
-| Miami Marlins at Houston Astros | Jul 20, 8:11 PM | 410 | Houston Astros -123, Miami Marlins +102 | 11 |
-| Washington Nationals at Colorado Rockies | Jul 20, 8:41 PM | 440 | Colorado Rockies +104, Washington Nationals -125 | 11 |
+| Minnesota Twins at Cleveland Guardians | Jul 21, 6:41 PM | 1124 | Cleveland Guardians -156, Minnesota Twins +129 | 11 |
+| Los Angeles Dodgers at Philadelphia Phillies | Jul 21, 6:41 PM | 1124 | Los Angeles Dodgers +113, Philadelphia Phillies -136 | 11 |
+| Pittsburgh Pirates at New York Yankees | Jul 21, 7:06 PM | 1149 | New York Yankees -149, Pittsburgh Pirates +123 | 11 |
+| Tampa Bay Rays at Toronto Blue Jays | Jul 21, 7:08 PM | 1151 | Tampa Bay Rays -115, Toronto Blue Jays -105 | 10 |
+| Baltimore Orioles at Boston Red Sox | Jul 21, 7:11 PM | 1154 | Baltimore Orioles +113, Boston Red Sox -136 | 10 |
+| San Diego Padres at Atlanta Braves | Jul 21, 7:16 PM | 1159 | Atlanta Braves -145, San Diego Padres +120 | 11 |
+| San Francisco Giants at Kansas City Royals | Jul 21, 7:41 PM | 1184 | Kansas City Royals -109, San Francisco Giants -111 | 11 |
+| New York Mets at Milwaukee Brewers | Jul 21, 7:41 PM | 1184 | Milwaukee Brewers -149, New York Mets +123 | 11 |
+| Detroit Tigers at Chicago Cubs | Jul 21, 8:06 PM | 1209 | Chicago Cubs -117, Detroit Tigers -103 | 11 |
+| Miami Marlins at Houston Astros | Jul 21, 8:11 PM | 1214 | Houston Astros -126, Miami Marlins +105 | 11 |
+| Washington Nationals at Colorado Rockies | Jul 21, 8:41 PM | 1244 | Colorado Rockies -114, Washington Nationals -106 | 11 |
+| St. Louis Cardinals at Los Angeles Angels | Jul 21, 9:39 PM | 1302 | Los Angeles Angels -105, St. Louis Cardinals -114 | 11 |
 
 ## Next Soccer Windows
 _No rows._
