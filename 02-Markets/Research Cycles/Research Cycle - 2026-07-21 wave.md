@@ -1,19 +1,19 @@
-# Research Cycle - Pregame confirmation - 2026-07-21
+# Research Cycle - Next-wave check - 2026-07-21
 
-Generated: 2026-07-21T22:05:55.285Z
-Local time: 6:05 PM
+Generated: 2026-07-21T22:06:18.289Z
+Local time: 6:06 PM
 
 ## Goal
-Confirm the first wave before anything becomes live-market contaminated.
+Re-rank the later games after the early market has moved.
 
 ## Checklist
-- [ ] Re-check starters, lineups, and stale odds.
-- [ ] Block picks where DraftKings is missing or materially worse than best market.
-- [ ] Track only before scheduled start.
-- [ ] Do not chase steam after a game starts.
+- [ ] Refresh odds and compare against tracked opens.
+- [ ] Promote only picks with clean CLV or unresolved fair value.
+- [ ] Resolve new high-impact intel before staking.
+- [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-21T22:05:47.555Z
+- Snapshot generated: 2026-07-21T22:06:09.142Z
 - MLB odds events: 24
 - Soccer odds events: 0
 - High-impact intel blocks: 2
