@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-21
 
-Generated: 2026-07-21T22:06:09.142Z
+Generated: 2026-07-21T22:22:24.085Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,6 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
+- **High MLB Market move** — Los Angeles Dodgers at Philadelphia Phillies: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Pittsburgh Pirates at New York Yankees: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Baltimore Orioles at Boston Red Sox: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -27,8 +28,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Minnesota Twins at Cleveland Guardians | Pre-Game | Kendry Rojas | Parker Messick | 0-0 |
-| Los Angeles Dodgers at Philadelphia Phillies | Pre-Game | Justin Wrobleski | Zack Wheeler | 0-0 |
+| Minnesota Twins at Cleveland Guardians | Warmup | Kendry Rojas | Parker Messick | 0-0 |
+| Los Angeles Dodgers at Philadelphia Phillies | Delayed Start | Justin Wrobleski | Zack Wheeler | 0-0 |
 | Tampa Bay Rays at Toronto Blue Jays | Pre-Game | Drew Rasmussen | Kevin Gausman | 0-0 |
 | San Diego Padres at Atlanta Braves | Pre-Game | Walker Buehler | Reynaldo López | 0-0 |
 | San Francisco Giants at Kansas City Royals | Pre-Game | Tyler Mahle | Luinder Avila | 0-0 |
@@ -47,9 +48,9 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Minnesota Twins at Cleveland Guardians | 2026-07-21T22:41:00Z | Cleveland Guardians -156, Minnesota Twins +129 |
-| Tampa Bay Rays at Toronto Blue Jays | 2026-07-21T23:08:00Z | Tampa Bay Rays -108, Toronto Blue Jays -111 |
-| Los Angeles Dodgers at Philadelphia Phillies | 2026-07-21T23:11:00Z | Los Angeles Dodgers +100, Philadelphia Phillies -120 |
+| Minnesota Twins at Cleveland Guardians | 2026-07-21T22:41:00Z | Cleveland Guardians -161, Minnesota Twins +133 |
+| Tampa Bay Rays at Toronto Blue Jays | 2026-07-21T23:08:00Z | Tampa Bay Rays -109, Toronto Blue Jays -110 |
+| Los Angeles Dodgers at Philadelphia Phillies | 2026-07-21T23:11:00Z | Los Angeles Dodgers -104, Philadelphia Phillies -115 |
 | San Diego Padres at Atlanta Braves | 2026-07-21T23:16:00Z | Atlanta Braves -149, San Diego Padres +123 |
 | San Francisco Giants at Kansas City Royals | 2026-07-21T23:41:00Z | Kansas City Royals -110, San Francisco Giants -110 |
 | New York Mets at Milwaukee Brewers | 2026-07-21T23:41:00Z | Milwaukee Brewers -141, New York Mets +117 |
