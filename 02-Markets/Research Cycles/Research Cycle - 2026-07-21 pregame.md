@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-21
 
-Generated: 2026-07-22T01:05:48.666Z
-Local time: 9:05 PM
+Generated: 2026-07-22T03:48:24.700Z
+Local time: 11:48 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,26 +13,19 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-22T01:05:39.139Z
-- MLB odds events: 25
+- Snapshot generated: 2026-07-22T03:48:16.139Z
+- MLB odds events: 20
 - Soccer odds events: 0
-- High-impact intel blocks: 12
-- Intel pending / confirmed / denied: 12 / 0 / 0
-- Pending tracked picks: 2
+- High-impact intel blocks: 5
+- Intel pending / confirmed / denied: 5 / 0 / 0
+- Pending tracked picks: 0
 - Tracked gate status passed / blocked / unknown: 42 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Minnesota Twins at Cleveland Guardians — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Los Angeles Dodgers at Philadelphia Phillies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Tampa Bay Rays at Toronto Blue Jays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** San Diego Padres at Atlanta Braves — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** San Francisco Giants at Kansas City Royals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** New York Mets at Milwaukee Brewers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Detroit Tigers at Chicago Cubs — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Chicago White Sox at Texas Rangers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Miami Marlins at Houston Astros — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Washington Nationals at Colorado Rockies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** St. Louis Cardinals at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Athletics at Arizona Diamondbacks — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Cincinnati Reds at Seattle Mariners — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Pittsburgh Pirates at New York Yankees — Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Baltimore Orioles at Boston Red Sox — Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -42,27 +35,24 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| St. Louis Cardinals at Los Angeles Angels | Jul 21, 9:39 PM | 33 | Los Angeles Angels -122, St. Louis Cardinals +101 | 11 |
-| Athletics at Arizona Diamondbacks | Jul 21, 9:41 PM | 35 | Arizona Diamondbacks -137, Athletics +114 | 11 |
-| Cincinnati Reds at Seattle Mariners | Jul 21, 9:41 PM | 35 | Cincinnati Reds -102, Seattle Mariners -118 | 11 |
-| Baltimore Orioles at Boston Red Sox | Jul 22, 1:36 PM | 990 | DK missing | 3 |
-| San Francisco Giants at Kansas City Royals | Jul 22, 2:11 PM | 1025 | Kansas City Royals -104, San Francisco Giants -116 | 11 |
-| New York Mets at Milwaukee Brewers | Jul 22, 2:11 PM | 1025 | Milwaukee Brewers -149, New York Mets +123 | 11 |
-| Washington Nationals at Colorado Rockies | Jul 22, 3:11 PM | 1085 | Colorado Rockies +114, Washington Nationals -137 | 11 |
-| Athletics at Arizona Diamondbacks | Jul 22, 3:41 PM | 1115 | Arizona Diamondbacks -118, Athletics -102 | 10 |
-| Cincinnati Reds at Seattle Mariners | Jul 22, 3:41 PM | 1115 | Cincinnati Reds +130, Seattle Mariners -157 | 10 |
-| St. Louis Cardinals at Los Angeles Angels | Jul 22, 4:08 PM | 1142 | Los Angeles Angels -120, St. Louis Cardinals +100 | 10 |
-| Los Angeles Dodgers at Philadelphia Phillies | Jul 22, 6:40 PM | 1294 | Los Angeles Dodgers -120, Philadelphia Phillies +100 | 11 |
-| Minnesota Twins at Cleveland Guardians | Jul 22, 6:41 PM | 1295 | Cleveland Guardians -126, Minnesota Twins +104 | 11 |
+| Pittsburgh Pirates at New York Yankees | Jul 22, 1:06 PM | 798 | New York Yankees -162, Pittsburgh Pirates +134 | 9 |
+| Baltimore Orioles at Boston Red Sox | Jul 22, 1:36 PM | 828 | Baltimore Orioles +113, Boston Red Sox -136 | 9 |
+| San Francisco Giants at Kansas City Royals | Jul 22, 2:11 PM | 863 | Kansas City Royals -102, San Francisco Giants -118 | 11 |
+| New York Mets at Milwaukee Brewers | Jul 22, 2:11 PM | 863 | Milwaukee Brewers -149, New York Mets +123 | 11 |
+| Washington Nationals at Colorado Rockies | Jul 22, 3:11 PM | 923 | Colorado Rockies +114, Washington Nationals -137 | 11 |
+| Athletics at Arizona Diamondbacks | Jul 22, 3:41 PM | 953 | Arizona Diamondbacks -118, Athletics -102 | 11 |
+| Cincinnati Reds at Seattle Mariners | Jul 22, 3:41 PM | 953 | Cincinnati Reds +130, Seattle Mariners -157 | 11 |
+| St. Louis Cardinals at Los Angeles Angels | Jul 22, 4:08 PM | 980 | Los Angeles Angels -120, St. Louis Cardinals +100 | 11 |
+| Los Angeles Dodgers at Philadelphia Phillies | Jul 22, 6:40 PM | 1132 | Los Angeles Dodgers -120, Philadelphia Phillies +100 | 11 |
+| Minnesota Twins at Cleveland Guardians | Jul 22, 6:41 PM | 1133 | Cleveland Guardians -126, Minnesota Twins +104 | 11 |
+| Pittsburgh Pirates at New York Yankees | Jul 22, 7:05 PM | 1157 | New York Yankees -172, Pittsburgh Pirates +142 | 7 |
+| Tampa Bay Rays at Toronto Blue Jays | Jul 22, 7:08 PM | 1160 | DK missing | 5 |
 
 ## Next Soccer Windows
 _No rows._
 
 ## Pending Tracked Picks
-| Sport | Match | Pick | Open | Latest | Model | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | +110 | +102 | 49.2% | 25% strength model + 75% market no-vig |
-| MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | +114 | +104 | 48.3% | 25% strength model + 75% market no-vig |
+_No rows._
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.

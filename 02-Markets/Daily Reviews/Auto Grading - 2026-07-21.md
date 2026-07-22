@@ -1,12 +1,11 @@
 # Auto Grading - 2026-07-21
 
-Generated: 2026-07-22T01:06:07.224Z
-Data snapshot: 2026-07-22T01:06:05.463Z
+Generated: 2026-07-22T03:49:11.675Z
+Data snapshot: 2026-07-22T03:49:09.691Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
-- MLB / Texas Rangers vs Chicago White Sox / Chicago White Sox (2026-07-22T00:06:00Z)
-- MLB / Philadelphia Phillies vs Los Angeles Dodgers / Los Angeles Dodgers (2026-07-21T22:41:00Z)
+_No pending tracked picks with event ids._
 
