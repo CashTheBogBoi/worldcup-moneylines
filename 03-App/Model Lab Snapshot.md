@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-26T20:33:10.585Z
+Updated: 2026-07-26T21:32:08.007Z
 
 ## Summary
 - Total tracked picks: 70
-- Pending: 3
-- Graded: 67
+- Pending: 2
+- Graded: 68
 - Wins: 20
-- Losses: 46
+- Losses: 47
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -16,8 +16,8 @@ Updated: 2026-07-26T20:33:10.585Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | pending | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
-| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | pending | +167 | +175 | -1.1 pts | 40.6% | 25% strength model + 75% market no-vig |
-| MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | pending | +300 | +300 | 0.0 pts | 27.4% | 25% strength model + 75% market no-vig |
+| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | pending | +167 | +183 | -2.1 pts | 40.6% | 25% strength model + 75% market no-vig |
+| MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | loss | +300 | +300 | 0.0 pts | 27.4% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | loss | +110 | +102 | 1.9 pts | 49.2% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | win | +114 | +104 | 2.3 pts | 48.3% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | win | +145 | - | - | 43.1% | 25% strength model + 75% market no-vig |
@@ -83,37 +83,37 @@ Updated: 2026-07-26T20:33:10.585Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 45 | 42 | 23.8% | -0.1 pts | 0.198 | 0.0% |
+| Passed gate | 45 | 43 | 23.3% | -0.1 pts | 0.195 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-26T20:33:08.765Z
-- Current candidates: 55
-- Passed / blocked: 1 / 54
+- Saved: 2026-07-26T21:32:07.169Z
+- Current candidates: 39
+- Passed / blocked: 1 / 38
 
 ### Top Blockers
-- Model ready: 53
-- Minimum edge: 42
-- Positive EV: 34
-- Pregame: 31
-- Beats consensus: 28
-- DraftKings line: 21
+- Model ready: 37
+- Minimum edge: 33
+- Positive EV: 26
+- Beats consensus: 21
+- Pregame: 15
+- DraftKings line: 13
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Los Angeles Dodgers | New York Mets vs Los Angeles Dodgers | Game too stale/live | +6000 | 9.3% | $465.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Detroit Tigers vs Kansas City Royals | Game too stale/live | +600 | 65.9% | $361.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Miami Marlins | Miami Marlins vs San Diego Padres | Game too stale/live | +3300 | 10.7% | $263.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Houston Astros | Chicago White Sox vs Houston Astros | Game too stale/live | +3300 | 7.7% | $162.54 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Washington Nationals vs Arizona Diamondbacks | Game too stale/live | +1100 | 14.0% | $68.49 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Detroit Tigers vs Kansas City Royals | Game too stale/live | +380 | 34.1% | $63.70 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Minnesota Twins vs Athletics | Game too stale/live | +700 | 16.7% | $33.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Texas Rangers vs Seattle Mariners | Game too stale/live | +560 | 19.3% | $27.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Baltimore Orioles | Baltimore Orioles vs Atlanta Braves | Game too stale/live | +155 | 43.9% | $12.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | Baltimore Orioles vs Atlanta Braves | Game too stale/live | -115 | 56.1% | $4.83 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +140 | 43.2% | $3.77 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +126 | 45.8% | $3.44 | Confirm probable starters or use the manual starter override. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Game too stale/live | +1200 | 18.7% | $143.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | St. Louis Cardinals vs Cincinnati Reds | Game too stale/live | +1240 | 15.5% | $107.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Los Angeles Angels | Game too stale/live | +600 | 19.6% | $37.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +126 | 46.0% | $3.88 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +140 | 43.2% | $3.64 | Confirm probable starters or use the manual starter override. |
+| Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +140 | 42.8% | $2.73 | Confirm probable starters or use the manual starter override. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Needs starter | +114 | 47.3% | $1.23 | Confirm probable starters or use the manual starter override. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Needs starter | +105 | 49.3% | $1.01 | Confirm probable starters or use the manual starter override. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Needs starter | +142 | 41.5% | $0.48 | Confirm probable starters or use the manual starter override. |
+| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Needs starter | -120 | 54.7% | $0.25 | Confirm probable starters or use the manual starter override. |
+| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Needs starter | -112 | 52.9% | $0.06 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

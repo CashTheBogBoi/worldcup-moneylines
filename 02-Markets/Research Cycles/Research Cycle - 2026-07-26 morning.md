@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-26
 
-Generated: 2026-07-26T20:32:28.588Z
-Local time: 4:32 PM
+Generated: 2026-07-26T21:20:54.027Z
+Local time: 5:20 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,24 +13,17 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-26T20:32:15.263Z
-- MLB odds events: 23
+- Snapshot generated: 2026-07-26T21:20:42.702Z
+- MLB odds events: 17
 - Soccer odds events: 0
-- High-impact intel blocks: 11
-- Intel pending / confirmed / denied: 11 / 0 / 0
-- Pending tracked picks: 3
+- High-impact intel blocks: 4
+- Intel pending / confirmed / denied: 4 / 0 / 0
+- Pending tracked picks: 2
 - Tracked gate status passed / blocked / unknown: 45 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Arizona Diamondbacks at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Atlanta Braves at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Kansas City Royals at Detroit Tigers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Los Angeles Dodgers at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** San Diego Padres at Miami Marlins — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Athletics at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Houston Astros at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Colorado Rockies at Milwaukee Brewers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Athletics at Minnesota Twins — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Cincinnati Reds at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Seattle Mariners at Texas Rangers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Los Angeles Angels at San Francisco Giants — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
@@ -41,18 +34,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| New York Yankees at Philadelphia Phillies | Jul 26, 7:21 PM | 169 | New York Yankees +168, Philadelphia Phillies -205 | 11 |
-| Seattle Mariners at Texas Rangers | Jul 27, 2:35 PM | 1323 | Seattle Mariners -127, Texas Rangers +105 | 9 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Jul 27, 6:40 PM | 1568 | Arizona Diamondbacks +108, Pittsburgh Pirates -130 | 9 |
-| Baltimore Orioles at Detroit Tigers | Jul 27, 6:40 PM | 1568 | Baltimore Orioles -102, Detroit Tigers -118 | 9 |
-| Philadelphia Phillies at Miami Marlins | Jul 27, 6:41 PM | 1569 | DK missing | 4 |
-| Toronto Blue Jays at Washington Nationals | Jul 27, 6:46 PM | 1574 | DK missing | 2 |
-| Atlanta Braves at New York Mets | Jul 27, 7:10 PM | 1598 | Atlanta Braves -115, New York Mets -105 | 9 |
-| Cleveland Guardians at Cincinnati Reds | Jul 27, 7:10 PM | 1598 | Cincinnati Reds -163, Cleveland Guardians +135 | 9 |
-| New York Yankees at Chicago White Sox | Jul 27, 7:40 PM | 1628 | Chicago White Sox +113, New York Yankees -136 | 8 |
-| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 1746 | Houston Astros -118, Los Angeles Angels -102 | 9 |
-| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 1748 | Athletics +135, Boston Red Sox -163 | 9 |
-| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 1753 | Milwaukee Brewers -136, San Francisco Giants +113 | 9 |
+| New York Yankees at Philadelphia Phillies | Jul 26, 7:21 PM | 120 | New York Yankees +177, Philadelphia Phillies -217 | 11 |
+| Seattle Mariners at Texas Rangers | Jul 27, 2:35 PM | 1274 | Seattle Mariners -127, Texas Rangers +105 | 11 |
+| Arizona Diamondbacks at Pittsburgh Pirates | Jul 27, 6:40 PM | 1519 | Arizona Diamondbacks +108, Pittsburgh Pirates -130 | 11 |
+| Baltimore Orioles at Detroit Tigers | Jul 27, 6:40 PM | 1519 | Baltimore Orioles -102, Detroit Tigers -118 | 11 |
+| Philadelphia Phillies at Miami Marlins | Jul 27, 6:41 PM | 1520 | DK missing | 5 |
+| Toronto Blue Jays at Washington Nationals | Jul 27, 6:46 PM | 1525 | DK missing | 2 |
+| Atlanta Braves at New York Mets | Jul 27, 7:10 PM | 1549 | Atlanta Braves -115, New York Mets -105 | 11 |
+| Cleveland Guardians at Cincinnati Reds | Jul 27, 7:10 PM | 1549 | Cincinnati Reds -163, Cleveland Guardians +135 | 11 |
+| New York Yankees at Chicago White Sox | Jul 27, 7:40 PM | 1579 | Chicago White Sox +113, New York Yankees -136 | 10 |
+| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 1697 | Houston Astros -118, Los Angeles Angels -102 | 11 |
+| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 1699 | Athletics +135, Boston Red Sox -163 | 11 |
+| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 1704 | Milwaukee Brewers -136, San Francisco Giants +113 | 10 |
 
 ## Next Soccer Windows
 _No rows._
@@ -62,7 +55,6 @@ _No rows._
 | --- | --- | --- | --- | --- | --- | --- |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | +113 | - | 48.7% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | +167 | +175 | 40.6% | 25% strength model + 75% market no-vig |
-| MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | +300 | +300 | 27.4% | 25% strength model + 75% market no-vig |
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.
