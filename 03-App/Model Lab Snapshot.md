@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-26T22:10:09.624Z
+Updated: 2026-07-26T22:26:10.624Z
 
 ## Summary
 - Total tracked picks: 70
@@ -16,7 +16,7 @@ Updated: 2026-07-26T22:10:09.624Z
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | pending | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
-| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | pending | +167 | +185 | -2.4 pts | 40.6% | 25% strength model + 75% market no-vig |
+| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | pending | +167 | +187 | -2.6 pts | 40.6% | 25% strength model + 75% market no-vig |
 | MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | loss | +300 | +300 | 0.0 pts | 27.4% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | loss | +110 | +102 | 1.9 pts | 49.2% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | win | +114 | +104 | 2.3 pts | 48.3% | 25% strength model + 75% market no-vig |
@@ -87,7 +87,7 @@ Updated: 2026-07-26T22:10:09.624Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-26T22:10:08.745Z
+- Saved: 2026-07-26T22:26:08.850Z
 - Current candidates: 35
 - Passed / blocked: 1 / 34
 
@@ -96,17 +96,17 @@ Updated: 2026-07-26T22:10:09.624Z
 - Minimum edge: 31
 - Positive EV: 24
 - Beats consensus: 19
-- DraftKings line: 13
+- DraftKings line: 15
 - Pregame: 11
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | San Francisco Giants | San Francisco Giants vs Los Angeles Angels | Game too stale/live | +1000 | 17.4% | $91.74 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Los Angeles Angels | Game too stale/live | +2200 | 10.9% | $151.19 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +149 | 43.0% | $7.01 | Confirm probable starters or use the manual starter override. |
 | MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +126 | 46.0% | $3.88 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +140 | 42.7% | $2.49 | Confirm probable starters or use the manual starter override. |
+| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +140 | 42.7% | $2.43 | Confirm probable starters or use the manual starter override. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Needs starter | +105 | 49.3% | $1.01 | Confirm probable starters or use the manual starter override. |
 | MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Needs starter | +114 | 47.2% | $0.92 | Confirm probable starters or use the manual starter override. |
 | MLB | Athletics | Athletics vs Boston Red Sox | Needs starter | +142 | 41.5% | $0.48 | Confirm probable starters or use the manual starter override. |
