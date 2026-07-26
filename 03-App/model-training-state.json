@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-26T00:52:39.396Z",
+  "savedAt": "2026-07-26T01:12:40.427Z",
   "modelPicks": [
     {
       "id": "model-1784662568376-696867",
@@ -7328,7 +7328,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-26T00:52:39.393Z",
+    "savedAt": "2026-07-26T01:12:40.424Z",
     "totalCandidates": 59,
     "passed": 0,
     "blocked": 59,
@@ -7338,20 +7338,20 @@
         "count": 59
       },
       {
+        "label": "Pregame",
+        "count": 59
+      },
+      {
         "label": "Minimum edge",
-        "count": 47
+        "count": 48
       },
       {
         "label": "Positive EV",
-        "count": 42
+        "count": 44
       },
       {
         "label": "Beats consensus",
         "count": 31
-      },
-      {
-        "label": "Pregame",
-        "count": 29
       },
       {
         "label": "DraftKings line",
@@ -7491,19 +7491,6 @@
       },
       {
         "sport": "MLB",
-        "match": "Philadelphia Phillies vs New York Yankees",
-        "selection": "New York Yankees",
-        "book": "BetUS",
-        "price": 142,
-        "probability": 0.4340313248161429,
-        "ev": 5.035580605506588,
-        "edge": 0.020808184320275147,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
-      },
-      {
-        "sport": "MLB",
         "match": "Baltimore Orioles vs Atlanta Braves",
         "selection": "Baltimore Orioles",
         "book": "MyBookie.ag",
@@ -7514,11 +7501,95 @@
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "Soccer",
+        "match": "Ivory Coast vs Norway",
+        "selection": "Norway",
+        "book": "Market note",
+        "price": 110,
+        "probability": 0.4904854096426191,
+        "ev": 3.0019360249500195,
+        "edge": 0.014294933452142944,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       }
     ]
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1785028360380",
+      "at": "2026-07-26T01:12:40.380Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1785027159357",
       "at": "2026-07-26T00:52:39.357Z",
@@ -9363,35 +9434,6 @@
               "name": "Argentina",
               "price": 210,
               "book": "BetMGM"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1784126961742",
-      "at": "2026-07-15T14:49:21.742Z",
-      "source": "local",
-      "eventCount": 1,
-      "lines": [
-        {
-          "match": "England vs Argentina",
-          "commenceTime": "2026-07-15T19:00:00Z",
-          "best": [
-            {
-              "name": "England",
-              "price": 175,
-              "book": "BetRivers"
-            },
-            {
-              "name": "Draw",
-              "price": 195,
-              "book": "Bovada"
-            },
-            {
-              "name": "Argentina",
-              "price": 208,
-              "book": "BetOnline.ag"
             }
           ]
         }

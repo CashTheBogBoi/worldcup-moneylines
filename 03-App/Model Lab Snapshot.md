@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-26T00:52:40.348Z
+Updated: 2026-07-26T01:12:41.365Z
 
 ## Summary
 - Total tracked picks: 67
@@ -87,16 +87,16 @@ Updated: 2026-07-26T00:52:40.348Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-26T00:52:39.393Z
+- Saved: 2026-07-26T01:12:40.424Z
 - Current candidates: 59
 - Passed / blocked: 0 / 59
 
 ### Top Blockers
 - Model ready: 59
-- Minimum edge: 47
-- Positive EV: 42
+- Pregame: 59
+- Minimum edge: 48
+- Positive EV: 44
 - Beats consensus: 31
-- Pregame: 29
 - DraftKings line: 19
 
 ### Research Actions
@@ -112,8 +112,8 @@ Updated: 2026-07-26T00:52:40.348Z
 | MLB | Houston Astros | Chicago White Sox vs Houston Astros | Game too stale/live | -111 | 65.4% | $24.25 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Atlanta Braves | Baltimore Orioles vs Atlanta Braves | Game too stale/live | +330 | 27.9% | $20.01 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Cincinnati Reds | St. Louis Cardinals vs Cincinnati Reds | Game too stale/live | +330 | 27.5% | $18.06 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Yankees | Philadelphia Phillies vs New York Yankees | Needs starter | +142 | 43.4% | $5.04 | Confirm probable starters or use the manual starter override. |
 | MLB | Baltimore Orioles | Baltimore Orioles vs Atlanta Braves | Game too stale/live | -222 | 72.1% | $4.56 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
