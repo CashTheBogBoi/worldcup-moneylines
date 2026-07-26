@@ -1,6 +1,6 @@
 # Daily Review - 2026-07-25
 
-Generated: 2026-07-25T23:47:37.014Z
+Generated: 2026-07-26T03:45:22.007Z
 
 ## Executive Read
 - Tracked picks reviewed: 25
@@ -162,20 +162,10 @@ _No saved gate blockers on reviewed picks yet._
 - Lost but beat the close; process may still be healthy.
 
 ## Daily Intel That Mattered
-- **MLB / High / Market move / pending:** New York Yankees at Philadelphia Phillies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Cleveland Guardians at Tampa Bay Rays — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Chicago Cubs at Pittsburgh Pirates — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Atlanta Braves at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Athletics at Minnesota Twins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Houston Astros at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Colorado Rockies at Milwaukee Brewers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Los Angeles Dodgers at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Cincinnati Reds at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / High / Market move / pending:** Seattle Mariners at Texas Rangers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No automatic daily intel flags in the latest snapshot._
 
 ## Algorithm Adjustments To Consider
 - Low-probability soccer side picks need a separate draw-risk note before they become bankroll picks.
-- High-impact daily intel exists; resolve those warnings before promoting anything to Bankroll Watch.
 
 ## Next Actions
 - Run `npm run update:data` before making new picks.

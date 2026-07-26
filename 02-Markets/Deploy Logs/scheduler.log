@@ -140305,3 +140305,2493 @@ Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/0
 > worldcup-moneylines@0.1.0 scheduler:watchdog
 > node scripts/scheduler-watchdog.mjs
 
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+Node.js v24.17.0
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T03:00:05.591Z ==========
+
+[2026-07-26T03:00:05.596Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-25
+Wrote data/daily/2026-07-25/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-25.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-25.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T03:00:11.180Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-25 morning.md
+[2026-07-26T03:00:18.209Z] PASS research exit=0
+
+[2026-07-26T03:00:18.209Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+✗ Build failed in 1.55s
+error during build:
+Build failed with 1 error:
+
+[31m[UNHANDLEABLE_ERROR] [0mSomething went wrong inside rolldown, please report this problem at https://github.com/rolldown/rolldown/issues.
+Failed to write file in /Users/cashmcdearis/Documents/worldcup-moneylines/dist/assets/index.esm-0jh8N6JL.js
+
+Caused by:
+    No space left on device (os error 28)
+
+    at aggregateBindingErrorsIntoJsError (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/rolldown/dist/shared/error-B68YLzl3.mjs:48:18)
+    at unwrapBindingResult (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/rolldown/dist/shared/error-B68YLzl3.mjs:18:128)
+    at #build (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/rolldown/dist/shared/rolldown-build-DR0wzp0V.mjs:3256:34)
+    at async buildEnvironment (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/vite/dist/node/chunks/node.js:32593:66)
+    at async Object.build (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/vite/dist/node/chunks/node.js:33015:19)
+    at async Object.buildApp (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/vite/dist/node/chunks/node.js:33012:153)
+    at async CAC.<anonymous> (file:///Users/cashmcdearis/Documents/worldcup-moneylines/node_modules/vite/dist/node/cli.js:777:3) {
+  errors: [Getter/Setter]
+}
+[2026-07-26T03:00:22.079Z] FAIL deploy exit=1
+========== Morning slate scheduled run FAILED 2026-07-26T03:00:22.080Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 schedule:nightly
+> node scripts/schedule-run.mjs nightly
+
+
+========== Nightly review scheduled run started 2026-07-26T03:45:05.872Z ==========
+
+[2026-07-26T03:45:05.878Z] START research: npm run research:nightly
+
+> worldcup-moneylines@0.1.0 research:nightly
+> node scripts/research-cycle.mjs nightly
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-25
+Wrote data/daily/2026-07-25/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-25.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-25.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T03:45:11.360Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+
+> worldcup-moneylines@0.1.0 review:daily
+> node scripts/review-daily.mjs
+
+Daily review written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Daily Reviews/Daily Review - 2026-07-25.md
+Reviewed 25 picks (25 settled). Avg CLV 0.1 pts.
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-25 nightly.md
+[2026-07-26T03:45:22.215Z] PASS research exit=0
+
+[2026-07-26T03:45:22.215Z] START model-quality: npm run review:model-quality
+
+> worldcup-moneylines@0.1.0 review:model-quality
+> node scripts/review-model-quality.mjs
+
+Model quality review written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/Model Quality Review - 2026-07-25.md
+Model quality signals written: /Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-quality-signals.json
+[2026-07-26T03:45:23.858Z] PASS model-quality exit=0
+
+[2026-07-26T03:45:23.859Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-BXQW77Nt.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.46s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T03:45:40.836Z] FAIL deploy exit=1
+========== Nightly review scheduled run SUCCESS-WITH-WARNING 2026-07-26T03:45:40.838Z ==========
+Nightly review scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+
+========== Morning slate scheduled run started 2026-07-26T12:30:05.628Z ==========
+
+[2026-07-26T12:30:05.632Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T12:30:10.716Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T12:30:17.361Z] PASS research exit=0
+
+[2026-07-26T12:30:17.361Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-D3lYnHlG.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.20s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T12:30:29.885Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T12:30:29.887Z ==========
+Morning slate scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T13:01:14.780Z ==========
+
+[2026-07-26T13:01:14.784Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T13:01:20.411Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T13:01:27.300Z] PASS research exit=0
+
+[2026-07-26T13:01:27.300Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DcQ6kDNe.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.32s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T13:01:40.468Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T13:01:40.470Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T13:16:43.324Z ==========
+
+[2026-07-26T13:16:43.328Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T13:16:50.525Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T13:16:56.850Z] PASS research exit=0
+
+[2026-07-26T13:16:56.850Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DrWiaX5W.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.35s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T13:17:09.616Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T13:17:09.617Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T13:32:12.022Z ==========
+
+[2026-07-26T13:32:12.026Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T13:32:17.299Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T13:32:24.315Z] PASS research exit=0
+
+[2026-07-26T13:32:24.315Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.26 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-CejD7wty.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.28s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T13:32:37.022Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T13:32:37.026Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T13:47:39.722Z ==========
+
+[2026-07-26T13:47:39.725Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T13:47:45.795Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T13:47:52.845Z] PASS research exit=0
+
+[2026-07-26T13:47:52.846Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DVeUfWy0.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.41s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T13:48:08.201Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T13:48:08.203Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T14:03:10.438Z ==========
+
+[2026-07-26T14:03:10.442Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T14:03:14.355Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T14:03:20.164Z] PASS research exit=0
+
+[2026-07-26T14:03:20.165Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-BxkvWkh4.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.09s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T14:03:31.189Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T14:03:31.191Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T14:18:34.084Z ==========
+
+[2026-07-26T14:18:34.088Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T14:18:39.343Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T14:18:46.547Z] PASS research exit=0
+
+[2026-07-26T14:18:46.548Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-Cfb3_T10.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.46s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T14:19:01.877Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T14:19:01.881Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T14:34:04.396Z ==========
+
+[2026-07-26T14:34:04.407Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T14:34:10.255Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T14:34:18.054Z] PASS research exit=0
+
+[2026-07-26T14:34:18.055Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-CPiyUuRI.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.28s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T14:34:31.539Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T14:34:31.540Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T14:49:33.819Z ==========
+
+[2026-07-26T14:49:33.823Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T14:49:39.240Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T14:49:45.854Z] PASS research exit=0
+
+[2026-07-26T14:49:45.854Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-CfbqnqYp.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.17s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T14:49:57.504Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T14:49:57.505Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T15:04:59.654Z ==========
+
+[2026-07-26T15:04:59.658Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T15:05:04.949Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T15:05:11.635Z] PASS research exit=0
+
+[2026-07-26T15:05:11.636Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-XCe_ST5l.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.00s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T15:05:23.090Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T15:05:23.091Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T15:20:26.164Z ==========
+
+[2026-07-26T15:20:26.167Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T15:20:32.303Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T15:20:39.017Z] PASS research exit=0
+
+[2026-07-26T15:20:39.018Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-BhIDhDw0.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.18s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T15:20:51.525Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T15:20:51.526Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T15:35:53.952Z ==========
+
+[2026-07-26T15:35:53.955Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T15:36:00.047Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T15:36:10.077Z] PASS research exit=0
+
+[2026-07-26T15:36:10.079Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-Dz670FGJ.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.22s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T15:36:24.641Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T15:36:24.646Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T15:51:27.140Z ==========
+
+[2026-07-26T15:51:27.143Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T15:51:32.403Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T15:51:39.147Z] PASS research exit=0
+
+[2026-07-26T15:51:39.148Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-fr8OG-on.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.31s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T15:51:53.153Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T15:51:53.155Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T16:06:55.490Z ==========
+
+[2026-07-26T16:06:55.495Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:07:01.888Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T16:07:09.005Z] PASS research exit=0
+
+[2026-07-26T16:07:09.006Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index--KymS57i.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.40s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:07:23.259Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:07:23.266Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T16:22:25.653Z ==========
+
+[2026-07-26T16:22:25.657Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:22:31.317Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T16:22:38.360Z] PASS research exit=0
+
+[2026-07-26T16:22:38.361Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-CoOqse1Z.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.24s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:22:51.105Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:22:51.107Z ==========
+
+> worldcup-moneylines@0.1.0 schedule:pregame
+> node scripts/schedule-run.mjs pregame
+
+
+========== Pregame check scheduled run started 2026-07-26T16:30:06.622Z ==========
+
+[2026-07-26T16:30:06.626Z] START research: npm run research:pregame
+
+> worldcup-moneylines@0.1.0 research:pregame
+> node scripts/research-cycle.mjs pregame
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:30:11.674Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 pregame.md
+[2026-07-26T16:30:18.992Z] PASS research exit=0
+
+[2026-07-26T16:30:18.992Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-C9YtNfyy.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.45s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:30:35.837Z] FAIL deploy exit=1
+========== Pregame check scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:30:35.838Z ==========
+Pregame check scheduled run success-with-warning.
+Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T16:37:53.146Z ==========
+
+[2026-07-26T16:37:53.150Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:37:58.926Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T16:38:05.433Z] PASS research exit=0
+
+[2026-07-26T16:38:05.434Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DmnQqGjV.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.19s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:38:18.661Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:38:18.662Z ==========
+
+========== Pregame check scheduled run started 2026-07-26T16:38:19.481Z ==========
+
+[2026-07-26T16:38:19.484Z] START research: npm run research:pregame
+
+> worldcup-moneylines@0.1.0 research:pregame
+> node scripts/research-cycle.mjs pregame
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:38:24.129Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 pregame.md
+[2026-07-26T16:38:30.784Z] PASS research exit=0
+
+[2026-07-26T16:38:30.785Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-B1AcTxyc.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.13s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:38:44.486Z] FAIL deploy exit=1
+========== Pregame check scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:38:44.489Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T16:53:46.907Z ==========
+
+[2026-07-26T16:53:46.911Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:53:51.557Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T16:53:58.381Z] PASS research exit=0
+
+[2026-07-26T16:53:58.382Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DOAEMRLf.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.21s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:54:12.132Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:54:12.134Z ==========
+
+========== Pregame check scheduled run started 2026-07-26T16:54:13.106Z ==========
+
+[2026-07-26T16:54:13.109Z] START research: npm run research:pregame
+
+> worldcup-moneylines@0.1.0 research:pregame
+> node scripts/research-cycle.mjs pregame
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T16:54:16.586Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 pregame.md
+[2026-07-26T16:54:22.948Z] PASS research exit=0
+
+[2026-07-26T16:54:22.949Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-BBkTpUGD.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.18s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T16:54:34.455Z] FAIL deploy exit=1
+========== Pregame check scheduled run SUCCESS-WITH-WARNING 2026-07-26T16:54:34.456Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T17:09:37.496Z ==========
+
+[2026-07-26T17:09:37.500Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T17:09:44.369Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 morning.md
+[2026-07-26T17:09:52.342Z] PASS research exit=0
+
+[2026-07-26T17:09:52.343Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DeCY2iNi.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.50s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T17:10:10.416Z] FAIL deploy exit=1
+========== Morning slate scheduled run SUCCESS-WITH-WARNING 2026-07-26T17:10:10.418Z ==========
+
+========== Pregame check scheduled run started 2026-07-26T17:10:11.702Z ==========
+
+[2026-07-26T17:10:11.708Z] START research: npm run research:pregame
+
+> worldcup-moneylines@0.1.0 research:pregame
+> node scripts/research-cycle.mjs pregame
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+Auto-graded 0 picks.
+Still pending with no final score: 0.
+Wrote 03-App/model-training-state.json
+Wrote 02-Markets/Daily Reviews/Auto Grading - 2026-07-26.md
+
+> worldcup-moneylines@0.1.0 sync:firebase
+> node scripts/sync-firestore.mjs
+
+Synced Firestore collection: sports-edge-lab
+model-training-state savedAt: 2026-07-26T17:10:15.925Z counts {"loss":46,"win":20,"draw":1}
+stats-history updatedAt: 2026-07-26T01:54:00.068Z
+Research cycle note written: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Research Cycles/Research Cycle - 2026-07-26 pregame.md
+[2026-07-26T17:10:23.675Z] PASS research exit=0
+
+[2026-07-26T17:10:23.676Z] START deploy: npm run deploy:firebase
+
+> worldcup-moneylines@0.1.0 deploy:firebase
+> npm run build && node scripts/deploy-firebase.mjs
+
+
+> worldcup-moneylines@0.1.0 build
+> vite build
+
+vite v8.1.2 building client environment for production...
+[2Ktransforming...✓ 39 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.40 kB │ gzip:   0.27 kB
+dist/assets/index-Ai35CbTB.css      44.14 kB │ gzip:   7.44 kB
+dist/assets/index.esm-CpWIfF1o.js    0.69 kB │ gzip:   0.38 kB
+dist/assets/index.esm-bzPLHL0a.js   31.63 kB │ gzip:  10.35 kB
+dist/assets/index.esm-DCGNBZ7o.js  125.77 kB │ gzip:  35.77 kB
+dist/assets/index-DfdPYzx0.js      491.19 kB │ gzip: 127.85 kB
+dist/assets/index.esm-0jh8N6JL.js  567.21 kB │ gzip: 165.68 kB
+
+✓ built in 1.45s
+[firebase deploy] Using FIREBASE_TOKEN from .env (unattended auth).
+⚠  Authenticating with `--token` is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+=== Deploying to 'sportsedge-a58e7'...
+
+i  deploying hosting
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+
+Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-07-26T17:10:39.889Z] FAIL deploy exit=1
+========== Pregame check scheduled run SUCCESS-WITH-WARNING 2026-07-26T17:10:39.891Z ==========
