@@ -11315,3 +11315,28 @@ Next wave scheduled run success-with-warning.
 Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
 Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
 [2026-07-26T00:16:46.058Z] watchdog PASS wave exit=0
+[2026-07-26T00:31:47.822Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+node:fs:2422
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOSPC: no space left on device, write
+    at Object.writeFileSync (node:fs:2422:20)
+    at Object.appendFileSync (node:fs:2504:6)
+    at appendLog (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/schedule-run.mjs:45:6)
+    at runStep (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/schedule-run.mjs:57:22)
+    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/schedule-run.mjs:164:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  errno: -28,
+  code: 'ENOSPC',
+  syscall: 'write'
+}
+
+Node.js v24.17.0
+[2026-07-26T00:32:05.619Z] watchdog FAIL morning exit=1
+[2026-07-26T00:47:06.803Z] watchdog skipped: another run is active
