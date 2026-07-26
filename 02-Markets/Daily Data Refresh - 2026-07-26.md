@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-26T17:10:13.900Z
+Generated: 2026-07-26T17:26:21.461Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -26,14 +26,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Cleveland Guardians at Tampa Bay Rays | In Progress | Parker Messick | Drew Rasmussen | 0-0 |
-| Arizona Diamondbacks at Washington Nationals | Pre-Game | Kohl Drake | Miles Mikolas | 0-0 |
+| Cleveland Guardians at Tampa Bay Rays | In Progress | Parker Messick | Drew Rasmussen | 0-1 |
+| Arizona Diamondbacks at Washington Nationals | Warmup | Kohl Drake | Miles Mikolas | 0-0 |
 | Chicago Cubs at Pittsburgh Pirates | Warmup | Jameson Taillon | Braxton Ashcraft | 0-0 |
-| Toronto Blue Jays at Boston Red Sox | Pre-Game | Kevin Gausman | Ranger Suarez | 0-0 |
-| Atlanta Braves at Baltimore Orioles | Pre-Game | Reynaldo López | Shane Baz | 0-0 |
-| Kansas City Royals at Detroit Tigers | Pre-Game | Luinder Avila | Framber Valdez | 0-0 |
-| Los Angeles Dodgers at New York Mets | Pre-Game | Emmet Sheehan | Freddy Peralta | 0-0 |
-| San Diego Padres at Miami Marlins | Pre-Game | Walker Buehler | Janson Junk | 0-0 |
+| Toronto Blue Jays at Boston Red Sox | Warmup | Kevin Gausman | Ranger Suarez | 0-0 |
+| Atlanta Braves at Baltimore Orioles | Warmup | Reynaldo López | Shane Baz | 0-0 |
+| Kansas City Royals at Detroit Tigers | Warmup | Luinder Avila | Framber Valdez | 0-0 |
+| Los Angeles Dodgers at New York Mets | Warmup | Emmet Sheehan | Freddy Peralta | 0-0 |
+| San Diego Padres at Miami Marlins | Warmup | Walker Buehler | Janson Junk | 0-0 |
 | Athletics at Minnesota Twins | Pre-Game | Jeffrey Springs | Connor Prielipp | 0-0 |
 | Houston Astros at Chicago White Sox | Pre-Game | Ronel Blanco | Erick Fedde | 0-0 |
 | Colorado Rockies at Milwaukee Brewers | Pre-Game | Kyle Freeland | Jacob Misiorowski | 0-0 |
@@ -46,8 +46,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Cleveland Guardians at Tampa Bay Rays | 2026-07-26T16:16:00Z | Cleveland Guardians +106, Tampa Bay Rays -138 |
-| Arizona Diamondbacks at Washington Nationals | 2026-07-26T17:36:00Z | Arizona Diamondbacks -115, Washington Nationals -105 |
+| Cleveland Guardians at Tampa Bay Rays | 2026-07-26T16:16:00Z | Cleveland Guardians +320, Tampa Bay Rays -475 |
+| Arizona Diamondbacks at Washington Nationals | 2026-07-26T17:36:00Z | Arizona Diamondbacks -117, Washington Nationals -103 |
 | Atlanta Braves at Baltimore Orioles | 2026-07-26T17:36:00Z | Atlanta Braves -112, Baltimore Orioles -107 |
 | Toronto Blue Jays at Boston Red Sox | 2026-07-26T17:36:00Z | Boston Red Sox -147, Toronto Blue Jays +122 |
 | Chicago Cubs at Pittsburgh Pirates | 2026-07-26T17:36:00Z | Chicago Cubs +119, Pittsburgh Pirates -144 |
@@ -57,7 +57,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Minnesota Twins | 2026-07-26T18:11:00Z | Athletics +135, Minnesota Twins -163 |
 | Houston Astros at Chicago White Sox | 2026-07-26T18:11:00Z | Chicago White Sox -114, Houston Astros -105 |
 | Colorado Rockies at Milwaukee Brewers | 2026-07-26T18:11:00Z | Colorado Rockies +290, Milwaukee Brewers -373 |
-| Cincinnati Reds at St. Louis Cardinals | 2026-07-26T18:16:00Z | Cincinnati Reds +113, St. Louis Cardinals -136 |
+| Cincinnati Reds at St. Louis Cardinals | 2026-07-26T18:16:00Z | Cincinnati Reds +110, St. Louis Cardinals -132 |
 | Seattle Mariners at Texas Rangers | 2026-07-26T18:36:00Z | Seattle Mariners -103, Texas Rangers -117 |
 | Los Angeles Angels at San Francisco Giants | 2026-07-26T20:06:00Z | Los Angeles Angels -114, San Francisco Giants -105 |
 | New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +159, Philadelphia Phillies -193 |

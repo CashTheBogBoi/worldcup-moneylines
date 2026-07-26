@@ -1,11 +1,12 @@
 # Auto Grading - 2026-07-26
 
-Generated: 2026-07-26T17:10:15.941Z
-Data snapshot: 2026-07-26T17:10:13.900Z
+Generated: 2026-07-26T17:26:24.065Z
+Data snapshot: 2026-07-26T17:26:21.461Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
-_No pending tracked picks with event ids._
+- MLB / Philadelphia Phillies vs New York Yankees / New York Yankees (2026-07-26T23:21:00Z)
+- MLB / Milwaukee Brewers vs Colorado Rockies / Colorado Rockies (2026-07-26T18:11:00Z)
 
