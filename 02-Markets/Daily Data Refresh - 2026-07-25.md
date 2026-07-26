@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-25
 
-Generated: 2026-07-26T00:00:25.626Z
+Generated: 2026-07-26T00:16:28.917Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -46,7 +46,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Atlanta Braves at Baltimore Orioles | In Progress | Bryce Elder | Brandon Young | 0-1 |
 | Athletics at Minnesota Twins | In Progress | Brady Basso | Kendry Rojas | 0-0 |
 | Houston Astros at Chicago White Sox | In Progress | Hunter Brown | Sean Burke | 0-0 |
-| Colorado Rockies at Milwaukee Brewers | In Progress | Ryan Feltner | Robert Gasser | 2-2 |
+| Colorado Rockies at Milwaukee Brewers | In Progress | Ryan Feltner | Robert Gasser | 2-3 |
 | Los Angeles Dodgers at New York Mets | In Progress | Yoshinobu Yamamoto | Nolan McLean | 3-0 |
 | Cincinnati Reds at St. Louis Cardinals | In Progress | Hunter Greene | Andre Pallante | 0-1 |
 | Seattle Mariners at Texas Rangers | In Progress | Bryan Woo | Nathan Eovaldi | 0-5 |
@@ -55,16 +55,16 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Yankees at Philadelphia Phillies | 2026-07-25T22:06:00Z | New York Yankees -526, Philadelphia Phillies +347 |
-| Cleveland Guardians at Tampa Bay Rays | 2026-07-25T22:11:00Z | Cleveland Guardians +850, Tampa Bay Rays -2300 |
-| Chicago Cubs at Pittsburgh Pirates | 2026-07-25T22:41:00Z | Chicago Cubs -610, Pittsburgh Pirates +388 |
-| Atlanta Braves at Baltimore Orioles | 2026-07-25T23:06:00Z | Atlanta Braves +154, Baltimore Orioles -204 |
-| Athletics at Minnesota Twins | 2026-07-25T23:11:00Z | Athletics +142, Minnesota Twins -186 |
-| Houston Astros at Chicago White Sox | 2026-07-25T23:11:00Z | Chicago White Sox -148, Houston Astros +114 |
-| Colorado Rockies at Milwaukee Brewers | 2026-07-25T23:11:00Z | Colorado Rockies +171, Milwaukee Brewers -229 |
-| Cincinnati Reds at St. Louis Cardinals | 2026-07-25T23:16:00Z | Cincinnati Reds +167, St. Louis Cardinals -222 |
-| Los Angeles Dodgers at New York Mets | 2026-07-25T23:16:00Z | Los Angeles Dodgers -880, New York Mets +502 |
-| Seattle Mariners at Texas Rangers | 2026-07-25T23:16:00Z | Seattle Mariners +890, Texas Rangers -2600 |
+| New York Yankees at Philadelphia Phillies | 2026-07-25T22:06:00Z | New York Yankees -880, Philadelphia Phillies +502 |
+| Cleveland Guardians at Tampa Bay Rays | 2026-07-25T22:11:00Z | Cleveland Guardians +1420, Tampa Bay Rays -10000 |
+| Chicago Cubs at Pittsburgh Pirates | 2026-07-25T22:41:00Z | Chicago Cubs -1200, Pittsburgh Pirates +600 |
+| Atlanta Braves at Baltimore Orioles | 2026-07-25T23:06:00Z | Atlanta Braves +152, Baltimore Orioles -201 |
+| Athletics at Minnesota Twins | 2026-07-25T23:11:00Z | Athletics +156, Minnesota Twins -207 |
+| Houston Astros at Chicago White Sox | 2026-07-25T23:11:00Z | Chicago White Sox -123, Houston Astros -105 |
+| Colorado Rockies at Milwaukee Brewers | 2026-07-25T23:11:00Z | Colorado Rockies +294, Milwaukee Brewers -427 |
+| Cincinnati Reds at St. Louis Cardinals | 2026-07-25T23:16:00Z | Cincinnati Reds +210, St. Louis Cardinals -288 |
+| Los Angeles Dodgers at New York Mets | 2026-07-25T23:16:00Z | Los Angeles Dodgers -1060, New York Mets +562 |
+| Seattle Mariners at Texas Rangers | 2026-07-25T23:16:00Z | Seattle Mariners +1300, Texas Rangers -10000 |
 | Cleveland Guardians at Tampa Bay Rays | 2026-07-26T16:16:00Z | Cleveland Guardians +113, Tampa Bay Rays -136 |
 | Arizona Diamondbacks at Washington Nationals | 2026-07-26T17:36:00Z | Arizona Diamondbacks -120, Washington Nationals -101 |
 | Atlanta Braves at Baltimore Orioles | 2026-07-26T17:36:00Z | Atlanta Braves -106, Baltimore Orioles -114 |
