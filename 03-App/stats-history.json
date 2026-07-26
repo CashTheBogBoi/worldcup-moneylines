@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T21:38:07.591Z",
+  "updatedAt": "2026-07-26T21:54:08.667Z",
   "latest": {
     "mlbTeamRatings": {
       "tampa bay rays": {
@@ -95,11 +95,20 @@
       },
       "texas rangers": {
         "team": "Texas Rangers",
-        "xgFor": 4.221153846153846,
-        "xgAgainst": 4.4423076923076925,
-        "form": 5.1,
+        "xgFor": 4.219047619047619,
+        "xgAgainst": 4.457142857142857,
+        "form": 5.05,
         "homeEdge": 0,
-        "news": "Local snapshot: 53-51, 4.22 RS/G, 4.44 RA/G.",
+        "news": "Local snapshot: 53-52, 4.22 RS/G, 4.46 RA/G.",
+        "auto": true
+      },
+      "seattle mariners": {
+        "team": "Seattle Mariners",
+        "xgFor": 4.018867924528302,
+        "xgAgainst": 3.9056603773584904,
+        "form": 4.91,
+        "homeEdge": 0,
+        "news": "Local snapshot: 52-54, 4.02 RS/G, 3.91 RA/G.",
         "auto": true
       },
       "houston astros": {
@@ -109,15 +118,6 @@
         "form": 4.859999999999999,
         "homeEdge": 0,
         "news": "Local snapshot: 52-55, 4.57 RS/G, 5.01 RA/G.",
-        "auto": true
-      },
-      "seattle mariners": {
-        "team": "Seattle Mariners",
-        "xgFor": 4,
-        "xgAgainst": 3.9047619047619047,
-        "form": 4.859999999999999,
-        "homeEdge": 0,
-        "news": "Local snapshot: 51-54, 4.00 RS/G, 3.90 RA/G.",
         "auto": true
       },
       "athletics": {
@@ -2994,13 +2994,13 @@
         "pitcher": "Connor Prielipp",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-26::athletics": {
         "pitcher": "Jeffrey Springs",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "Game Over"
+        "status": "Final"
       },
       "2026-07-26::chicago white sox": {
         "pitcher": "Erick Fedde",
@@ -3042,13 +3042,13 @@
         "pitcher": "Jacob deGrom",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-26::seattle mariners": {
         "pitcher": "Logan Gilbert",
         "xera": null,
         "source": "MLB.com local snapshot",
-        "status": "In Progress"
+        "status": "Final"
       },
       "2026-07-26::san francisco giants": {
         "pitcher": "Carson Whisenhunt",
@@ -3092,12 +3092,16 @@
       "new york mets": "win",
       "san diego padres": "win",
       "miami marlins": "loss",
+      "athletics": "loss",
+      "minnesota twins": "win",
       "houston astros": "loss",
       "chicago white sox": "win",
       "colorado rockies": "loss",
       "milwaukee brewers": "win",
       "cincinnati reds": "win",
-      "st. louis cardinals": "loss"
+      "st. louis cardinals": "loss",
+      "seattle mariners": "win",
+      "texas rangers": "loss"
     },
     "fifaMensRankings": [
       {
@@ -6672,10 +6676,10 @@
       "spain": 0.5745
     },
     "fetchedAt": {
-      "mlbTeamRatings": "2026-07-26T21:38:07.591Z",
-      "mlbStarters": "2026-07-26T21:38:07.591Z",
-      "mlbLastResults": "2026-07-26T21:38:07.591Z",
-      "fifaMensRankings": "2026-07-26T21:38:07.591Z",
+      "mlbTeamRatings": "2026-07-26T21:54:08.667Z",
+      "mlbStarters": "2026-07-26T21:54:08.667Z",
+      "mlbLastResults": "2026-07-26T21:54:08.667Z",
+      "fifaMensRankings": "2026-07-26T21:54:08.667Z",
       "kalshi": "2026-07-15T18:27:11.226Z",
       "mlbBullpen": "2026-07-15T18:27:11.226Z",
       "openingLines": "2026-07-15T18:27:11.226Z"
@@ -46382,11 +46386,20 @@
         },
         "texas rangers": {
           "team": "Texas Rangers",
-          "xgFor": 4.221153846153846,
-          "xgAgainst": 4.4423076923076925,
-          "form": 5.1,
+          "xgFor": 4.219047619047619,
+          "xgAgainst": 4.457142857142857,
+          "form": 5.05,
           "homeEdge": 0,
-          "news": "Local snapshot: 53-51, 4.22 RS/G, 4.44 RA/G.",
+          "news": "Local snapshot: 53-52, 4.22 RS/G, 4.46 RA/G.",
+          "auto": true
+        },
+        "seattle mariners": {
+          "team": "Seattle Mariners",
+          "xgFor": 4.018867924528302,
+          "xgAgainst": 3.9056603773584904,
+          "form": 4.91,
+          "homeEdge": 0,
+          "news": "Local snapshot: 52-54, 4.02 RS/G, 3.91 RA/G.",
           "auto": true
         },
         "houston astros": {
@@ -46396,15 +46409,6 @@
           "form": 4.859999999999999,
           "homeEdge": 0,
           "news": "Local snapshot: 52-55, 4.57 RS/G, 5.01 RA/G.",
-          "auto": true
-        },
-        "seattle mariners": {
-          "team": "Seattle Mariners",
-          "xgFor": 4,
-          "xgAgainst": 3.9047619047619047,
-          "form": 4.859999999999999,
-          "homeEdge": 0,
-          "news": "Local snapshot: 51-54, 4.00 RS/G, 3.90 RA/G.",
           "auto": true
         },
         "athletics": {
