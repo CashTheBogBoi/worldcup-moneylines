@@ -137,6 +137,22 @@ This is the clean map for the Sports Edge Lab Obsidian vault. Use this page when
 
 - [[Daily Data Refresh - 2026-07-21]]
 
+## Daily refreshes
+
+- [[Daily Data Refresh - 2026-07-22]]
+
+## Daily refreshes
+
+- [[Daily Data Refresh - 2026-07-23]]
+
+## Daily refreshes
+
+- [[Daily Data Refresh - 2026-07-24]]
+
+## Daily refreshes
+
+- [[Daily Data Refresh - 2026-07-25]]
+
 ## Picks and results
 
 - [[Pick Notebook]]

@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-22T03:56:30.898Z
+Updated: 2026-07-26T00:11:38.503Z
 
 ## Summary
 - Total tracked picks: 67
@@ -87,32 +87,33 @@ Updated: 2026-07-22T03:56:30.898Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-22T03:56:30.077Z
-- Current candidates: 49
-- Passed / blocked: 0 / 49
+- Saved: 2026-07-26T00:11:37.684Z
+- Current candidates: 59
+- Passed / blocked: 0 / 59
 
 ### Top Blockers
-- Model ready: 49
+- Model ready: 59
 - Minimum edge: 46
-- Positive EV: 38
-- Beats consensus: 26
-- Pregame: 15
+- Positive EV: 41
+- Beats consensus: 31
+- Pregame: 29
 - DraftKings line: 13
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | St. Louis Cardinals | Los Angeles Angels vs St. Louis Cardinals | Game too stale/live | +3000 | 10.0% | $210.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Arizona Diamondbacks vs Athletics | Game too stale/live | +2200 | 11.3% | $160.72 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Seattle Mariners | Seattle Mariners vs Cincinnati Reds | Game too stale/live | +440 | 23.5% | $27.09 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Pittsburgh Pirates | New York Yankees vs Pittsburgh Pirates | Needs starter | +150 | 40.8% | $1.92 | Confirm probable starters or use the manual starter override. |
-| MLB | Pittsburgh Pirates | New York Yankees vs Pittsburgh Pirates | Needs starter | +142 | 41.7% | $0.99 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago Cubs | Chicago Cubs vs Detroit Tigers | Needs starter | -108 | 52.4% | $0.94 | Confirm probable starters or use the manual starter override. |
-| MLB | Tampa Bay Rays | Toronto Blue Jays vs Tampa Bay Rays | Needs starter | +105 | 49.1% | $0.63 | Confirm probable starters or use the manual starter override. |
-| MLB | Milwaukee Brewers | Milwaukee Brewers vs New York Mets | Needs starter | -138 | 58.2% | $0.37 | Confirm probable starters or use the manual starter override. |
-| MLB | Kansas City Royals | Kansas City Royals vs San Francisco Giants | Needs starter | +107 | 48.4% | $0.11 | Confirm probable starters or use the manual starter override. |
-| MLB | Arizona Diamondbacks | Arizona Diamondbacks vs Athletics | Needs starter | -112 | 52.9% | $0.11 | Confirm probable starters or use the manual starter override. |
+| MLB | Colorado Rockies | Milwaukee Brewers vs Colorado Rockies | Game too stale/live | +375 | 35.8% | $69.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Seattle Mariners | Texas Rangers vs Seattle Mariners | Game too stale/live | +1060 | 14.5% | $68.38 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Tampa Bay Rays vs Cleveland Guardians | Game too stale/live | +1000 | 13.5% | $48.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Philadelphia Phillies | Philadelphia Phillies vs New York Yankees | Game too stale/live | +440 | 24.8% | $33.85 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Chicago Cubs | Game too stale/live | +500 | 22.1% | $32.84 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | New York Mets vs Los Angeles Dodgers | Game too stale/live | +560 | 19.2% | $26.75 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Minnesota Twins vs Athletics | Game too stale/live | +195 | 38.5% | $13.67 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | Baltimore Orioles vs Atlanta Braves | Game too stale/live | +200 | 37.8% | $13.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Baltimore Orioles | Baltimore Orioles vs Atlanta Braves | Game too stale/live | -125 | 62.2% | $12.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Milwaukee Brewers vs Colorado Rockies | Game too stale/live | -140 | 64.2% | $10.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Minnesota Twins | Minnesota Twins vs Athletics | Game too stale/live | -133 | 61.5% | $7.69 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Colorado Rockies | Milwaukee Brewers vs Colorado Rockies | Needs starter | +248 | 30.0% | $4.38 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
