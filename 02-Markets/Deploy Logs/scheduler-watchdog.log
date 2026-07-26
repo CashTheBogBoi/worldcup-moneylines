@@ -11568,3 +11568,17 @@ Pregame check scheduled run success-with-warning.
 Deploy warning: Firebase deploy auth failed, but research/data/model sync completed. Reauth Firebase or set SCHEDULE_REQUIRE_DEPLOY=1 to make this hard-fail.
 Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
 [2026-07-26T17:26:46.446Z] watchdog PASS pregame exit=0
+[2026-07-26T17:41:54.159Z] watchdog starting missed morning: npm run schedule:morning
+> worldcup-moneylines@0.1.0 schedule:morning
+> node scripts/schedule-run.mjs morning
+
+Morning slate scheduled run failed.
+Run ledger: /Users/cashmcdearis/Documents/worldcup-moneylines/02-Markets/Deploy Logs/Scheduler Run Ledger.md
+[2026-07-26T17:42:06.385Z] watchdog FAIL morning exit=1
+[2026-07-26T17:57:07.237Z] watchdog skipped: another run is active
+[2026-07-26T18:12:09.540Z] watchdog skipped: another run is active
+[2026-07-26T18:27:10.570Z] watchdog skipped: another run is active
+[2026-07-26T18:42:13.537Z] watchdog skipped: another run is active
+[2026-07-26T18:57:17.130Z] watchdog skipped: another run is active
+[2026-07-26T19:12:18.568Z] watchdog skipped: another run is active
+[2026-07-26T19:27:23.215Z] watchdog skipped: another run is active

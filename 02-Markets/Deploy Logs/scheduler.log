@@ -142985,3 +142985,101 @@ For CI servers and headless environments, generate a new token with firebase log
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
 [2026-07-26T17:26:46.318Z] FAIL deploy exit=1
 ========== Pregame check scheduled run SUCCESS-WITH-WARNING 2026-07-26T17:26:46.319Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+========== Morning slate scheduled run started 2026-07-26T17:41:57.882Z ==========
+
+[2026-07-26T17:41:57.885Z] START research: npm run research:morning
+
+> worldcup-moneylines@0.1.0 research:morning
+> node scripts/research-cycle.mjs morning
+
+
+> worldcup-moneylines@0.1.0 update:data
+> node scripts/update-data.mjs
+
+Updated local data for 2026-07-26
+Wrote data/daily/2026-07-26/latest.json
+Wrote public/data/latest.json
+Wrote 02-Markets/Daily Data Refresh - 2026-07-26.md
+Warnings:
+- fifaMensRankings: FIFA page shows latest official update 2026-07-20, but the public ranking endpoint returned rows for 2025-09-18 (id14870). Treat as a fallback ranking prior until FIFA exposes current rows.
+
+> worldcup-moneylines@0.1.0 grade:picks
+> node scripts/grade-finished-picks.mjs
+
+node:fs:2422
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOSPC: no space left on device, open '/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-training-state.json'
+    at Object.writeFileSync (node:fs:2422:20)
+    at writeJson (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/grade-finished-picks.mjs:29:6)
+    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/grade-finished-picks.mjs:175:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  errno: -28,
+  code: 'ENOSPC',
+  syscall: 'open',
+  path: '/Users/cashmcdearis/Documents/worldcup-moneylines/03-App/model-training-state.json'
+}
+
+Node.js v24.17.0
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: npm run grade:picks
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execFileSync (node:child_process:961:15)
+    at run (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:272:3)
+    at main (file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:285:3)
+    at file:///Users/cashmcdearis/Documents/worldcup-moneylines/scripts/research-cycle.mjs:299:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 37532,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v24.17.0
+[2026-07-26T17:42:06.271Z] FAIL research exit=1
+========== Morning slate scheduled run FAILED 2026-07-26T17:42:06.272Z ==========
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
+
+> worldcup-moneylines@0.1.0 scheduler:watchdog
+> node scripts/scheduler-watchdog.mjs
+
