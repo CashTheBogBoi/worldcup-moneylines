@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-26T22:42:04.579Z
+Generated: 2026-07-26T22:58:12.733Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Los Angeles Angels at San Francisco Giants: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+_No automated high-priority intel flags from the current snapshot._
 
 ## MLB probable pitchers
 
@@ -39,15 +39,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Colorado Rockies at Milwaukee Brewers | Final | Kyle Freeland | Jacob Misiorowski | 2-11 |
 | Cincinnati Reds at St. Louis Cardinals | Final | Andrew Abbott | Kyle Leahy | 5-3 |
 | Seattle Mariners at Texas Rangers | Final | Logan Gilbert | Jacob deGrom | 6-4 |
-| Los Angeles Angels at San Francisco Giants | Game Over | José Soriano | Carson Whisenhunt | 4-3 |
+| Los Angeles Angels at San Francisco Giants | Final | José Soriano | Carson Whisenhunt | 4-3 |
 | New York Yankees at Philadelphia Phillies | Pre-Game | Will Warren | Cristopher Sánchez | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Los Angeles Angels at San Francisco Giants | 2026-07-26T20:06:00Z | Los Angeles Angels -790, San Francisco Giants +465 |
-| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +179, Philadelphia Phillies -219 |
+| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +177, Philadelphia Phillies -218 |
 | Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -131, Texas Rangers +109 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks +108, Pittsburgh Pirates -130 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -102, Detroit Tigers -118 |
