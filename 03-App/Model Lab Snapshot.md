@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-26T17:27:09.498Z
+Updated: 2026-07-26T17:32:09.500Z
 
 ## Summary
 - Total tracked picks: 69
@@ -87,7 +87,7 @@ Updated: 2026-07-26T17:27:09.498Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-26T17:27:08.601Z
+- Saved: 2026-07-26T17:32:08.624Z
 - Current candidates: 39
 - Passed / blocked: 2 / 37
 
@@ -102,11 +102,11 @@ Updated: 2026-07-26T17:27:09.498Z
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Cleveland Guardians | Tampa Bay Rays vs Cleveland Guardians | Game too stale/live | +335 | 25.6% | $11.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Cleveland Guardians | Tampa Bay Rays vs Cleveland Guardians | Game too stale/live | +340 | 26.4% | $16.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Arizona Diamondbacks | Minimum edge | +102 | 50.7% | $2.44 | Edge under 1.5% — inside vig noise. |
 | MLB | Chicago White Sox | Chicago White Sox vs Houston Astros | Minimum edge | -106 | 52.7% | $2.41 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Washington Nationals vs Arizona Diamondbacks | Minimum edge | +102 | 50.7% | $2.38 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago Cubs | Pittsburgh Pirates vs Chicago Cubs | Minimum edge | +126 | 45.2% | $2.26 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago Cubs | Pittsburgh Pirates vs Chicago Cubs | Minimum edge | +126 | 45.1% | $1.99 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
