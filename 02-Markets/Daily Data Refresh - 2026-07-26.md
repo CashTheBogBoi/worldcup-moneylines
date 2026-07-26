@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-26T21:30:07.588Z
+Generated: 2026-07-26T21:37:23.840Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,7 +21,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Market move** — Athletics at Minnesota Twins: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Cincinnati Reds at St. Louis Cardinals: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Seattle Mariners at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Los Angeles Angels at San Francisco Giants: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -40,8 +39,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Athletics at Minnesota Twins | Game Over | Jeffrey Springs | Connor Prielipp | 8-11 |
 | Houston Astros at Chicago White Sox | Final | Ronel Blanco | Erick Fedde | 3-12 |
 | Colorado Rockies at Milwaukee Brewers | Final | Kyle Freeland | Jacob Misiorowski | 2-11 |
-| Cincinnati Reds at St. Louis Cardinals | Game Over | Andrew Abbott | Kyle Leahy | 5-3 |
-| Seattle Mariners at Texas Rangers | In Progress | Logan Gilbert | Jacob deGrom | 5-4 |
+| Cincinnati Reds at St. Louis Cardinals | Final | Andrew Abbott | Kyle Leahy | 5-3 |
+| Seattle Mariners at Texas Rangers | In Progress | Logan Gilbert | Jacob deGrom | 6-4 |
 | Los Angeles Angels at San Francisco Giants | In Progress | José Soriano | Carson Whisenhunt | 4-1 |
 | New York Yankees at Philadelphia Phillies | Pre-Game | Will Warren | Cristopher Sánchez | 0-0 |
 
@@ -49,9 +48,8 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Cincinnati Reds at St. Louis Cardinals | 2026-07-26T18:16:00Z | Cincinnati Reds -9600, St. Louis Cardinals +1240 |
-| Seattle Mariners at Texas Rangers | 2026-07-26T18:36:00Z | Seattle Mariners -840, Texas Rangers +485 |
-| Los Angeles Angels at San Francisco Giants | 2026-07-26T20:06:00Z | Los Angeles Angels -1020, San Francisco Giants +548 |
+| Seattle Mariners at Texas Rangers | 2026-07-26T18:36:00Z | Seattle Mariners -3000, Texas Rangers +940 |
+| Los Angeles Angels at San Francisco Giants | 2026-07-26T20:06:00Z | Los Angeles Angels -860, San Francisco Giants +493 |
 | New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +177, Philadelphia Phillies -217 |
 | Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -127, Texas Rangers +105 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks +108, Pittsburgh Pirates -130 |

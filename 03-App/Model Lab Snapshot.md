@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-26T21:32:08.007Z
+Updated: 2026-07-26T21:38:08.576Z
 
 ## Summary
 - Total tracked picks: 70
@@ -87,24 +87,23 @@ Updated: 2026-07-26T21:32:08.007Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-26T21:32:07.169Z
-- Current candidates: 39
-- Passed / blocked: 1 / 38
+- Saved: 2026-07-26T21:38:07.664Z
+- Current candidates: 37
+- Passed / blocked: 1 / 36
 
 ### Top Blockers
-- Model ready: 37
-- Minimum edge: 33
-- Positive EV: 26
-- Beats consensus: 21
-- Pregame: 15
+- Model ready: 35
+- Minimum edge: 32
+- Positive EV: 25
+- Beats consensus: 20
 - DraftKings line: 13
+- Pregame: 13
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Game too stale/live | +1200 | 18.7% | $143.41 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | St. Louis Cardinals | St. Louis Cardinals vs Cincinnati Reds | Game too stale/live | +1240 | 15.5% | $107.30 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | San Francisco Giants | San Francisco Giants vs Los Angeles Angels | Game too stale/live | +600 | 19.6% | $37.31 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Game too stale/live | +1400 | 13.9% | $108.10 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | San Francisco Giants | San Francisco Giants vs Los Angeles Angels | Game too stale/live | +575 | 21.1% | $42.32 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +126 | 46.0% | $3.88 | Confirm probable starters or use the manual starter override. |
 | MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +140 | 43.2% | $3.64 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
