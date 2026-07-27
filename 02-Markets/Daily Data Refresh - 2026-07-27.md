@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T17:12:47.067Z
+Generated: 2026-07-27T17:28:38.271Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -52,7 +52,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cleveland Guardians at Cincinnati Reds | 2026-07-27T23:10:00Z | Cincinnati Reds -167, Cleveland Guardians +138 |
 | New York Yankees at Chicago White Sox | 2026-07-27T23:40:00Z | Chicago White Sox +123, New York Yankees -149 |
 | Chicago Cubs at St. Louis Cardinals | 2026-07-27T23:46:00Z | Chicago Cubs -125, St. Louis Cardinals +103 |
-| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -110, Los Angeles Angels -109 |
+| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -112, Los Angeles Angels -107 |
 | Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +152, Boston Red Sox -185 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -136, San Francisco Giants +113 |
 

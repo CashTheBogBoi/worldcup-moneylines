@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "savedAt": "2026-07-27T17:23:05.719Z",
+  "savedAt": "2026-07-27T17:30:22.129Z",
   "modelPicks": [
     {
-      "id": "model-1785172985711-818993",
+      "id": "model-1785173422047-352224",
       "match": "Cincinnati Reds vs Cleveland Guardians",
       "selection": "Cleveland Guardians",
       "selectionName": "Cleveland Guardians",
@@ -14,10 +14,10 @@
       "closePrice": "",
       "openBook": "BetRivers",
       "stake": 0,
-      "probability": 0.4236750994153958,
+      "probability": 0.4246448619497276,
       "researchProbability": 0.49331019249872976,
-      "marketProbability": 0.40046340172095113,
-      "edge": 0.015511834109273315,
+      "marketProbability": 0.40175641843339355,
+      "edge": 0.016481596643605156,
       "result": "pending",
       "source": "25% strength model + 75% market no-vig",
       "readyGateSnapshot": {
@@ -77,11 +77,11 @@
         "draftKingsPrice": 138,
         "draftKingsBook": "DraftKings"
       },
-      "readyGateTrackedAt": "2026-07-27T17:23:05.711Z",
+      "readyGateTrackedAt": "2026-07-27T17:30:22.047Z",
       "autoTracked": true,
       "priceHistory": [
         {
-          "at": "2026-07-27T17:23:05.711Z",
+          "at": "2026-07-27T17:30:22.047Z",
           "price": 145,
           "book": "BetRivers",
           "source": "open"
@@ -174,7 +174,7 @@
           "source": "open"
         },
         {
-          "at": "2026-07-27T17:23:05.680Z",
+          "at": "2026-07-27T17:30:22.001Z",
           "price": 162,
           "book": "LowVig.ag",
           "source": "pre-start"
@@ -182,7 +182,7 @@
       ],
       "note": "",
       "closeBook": "LowVig.ag",
-      "closedAt": "2026-07-27T17:23:05.680Z",
+      "closedAt": "2026-07-27T17:30:22.001Z",
       "autoClosed": true
     },
     {
@@ -7865,7 +7865,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-27T17:23:05.714Z",
+    "savedAt": "2026-07-27T17:30:22.092Z",
     "totalCandidates": 33,
     "passed": 2,
     "blocked": 31,
@@ -7876,7 +7876,7 @@
       },
       {
         "label": "Positive EV",
-        "count": 22
+        "count": 23
       },
       {
         "label": "Beats consensus",
@@ -7915,9 +7915,9 @@
         "selection": "Chicago White Sox",
         "book": "BetUS",
         "price": 126,
-        "probability": 0.4522211268863078,
-        "ev": 2.2019746763055608,
-        "edge": 0.009743250780113066,
+        "probability": 0.45234064584112155,
+        "ev": 2.2289859600934676,
+        "edge": 0.009862769734926835,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -7928,9 +7928,9 @@
         "selection": "Texas Rangers",
         "book": "LowVig.ag",
         "price": 115,
-        "probability": 0.47114008106266136,
-        "ev": 1.2951174284721816,
-        "edge": 0.006023801992893929,
+        "probability": 0.4701939592805626,
+        "ev": 1.0917012453209551,
+        "edge": 0.005077680210795188,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -7941,9 +7941,9 @@
         "selection": "Athletics",
         "book": "DraftKings",
         "price": 152,
-        "probability": 0.40145660803278377,
-        "ev": 1.1670652242615063,
-        "edge": 0.004631211207386965,
+        "probability": 0.40048054181845144,
+        "ev": 0.9210965382497562,
+        "edge": 0.0036551449930546376,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -7954,9 +7954,9 @@
         "selection": "Pittsburgh Pirates",
         "book": "LowVig.ag",
         "price": -112,
-        "probability": 0.5325579160847063,
-        "ev": 0.8056055446051147,
-        "edge": 0.004256029292253438,
+        "probability": 0.5324164554381008,
+        "ev": 0.7788290650690826,
+        "edge": 0.004114568645647965,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -7966,10 +7966,10 @@
         "match": "Washington Nationals vs Toronto Blue Jays",
         "selection": "Washington Nationals",
         "book": "BetOnline.ag",
-        "price": -117,
-        "probability": 0.5420142085913783,
-        "ev": 0.5274215934436626,
-        "edge": 0.0028437016789358838,
+        "price": -118,
+        "probability": 0.5433914055680616,
+        "ev": 0.3892596727435915,
+        "edge": 0.002107001898336902,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -7993,22 +7993,9 @@
         "selection": "Atlanta Braves",
         "book": "LowVig.ag",
         "price": -104,
-        "probability": 0.5108011064324183,
-        "ev": 0.19560164635896626,
-        "edge": 0.0009971848637908565,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Los Angeles Angels vs Houston Astros",
-        "selection": "Los Angeles Angels",
-        "book": "LowVig.ag",
-        "price": -103,
-        "probability": 0.5076274357187842,
-        "ev": 0.046960631954561904,
-        "edge": 0.0002382731572078134,
+        "probability": 0.5106535203503761,
+        "ev": 0.16665206872762894,
+        "edge": 0.0008495987817487283,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -8018,8 +8005,8 @@
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1785172985679",
-      "at": "2026-07-27T17:23:05.679Z",
+      "id": "snapshot-1785173422000",
+      "at": "2026-07-27T17:30:22.000Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
