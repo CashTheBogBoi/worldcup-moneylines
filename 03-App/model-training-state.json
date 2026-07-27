@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-27T02:14:43.467Z",
+  "savedAt": "2026-07-27T02:28:44.267Z",
   "modelPicks": [
     {
       "id": "model-1785096080665-489977",
@@ -108,7 +108,7 @@
       "researchProbability": 0.5180863370767967,
       "marketProbability": 0.3690738646300838,
       "edge": 0.03179514753576951,
-      "result": "pending",
+      "result": "loss",
       "source": "25% strength model + 75% market no-vig",
       "readyGateSnapshot": {
         "ready": true,
@@ -223,7 +223,27 @@
       "closeBook": "BetRivers",
       "closedAt": "2026-07-26T22:59:08.715Z",
       "autoClosed": true,
-      "closeFrozenAt": "2026-07-26T23:58:50.942Z"
+      "closeFrozenAt": "2026-07-26T23:58:50.942Z",
+      "autoGraded": true,
+      "gradedAt": "2026-07-27T02:27:53.963Z",
+      "gradedBy": "scripts/grade-finished-picks.mjs",
+      "finalScore": {
+        "id": "210e6566d3641ee245e8a099a1679244",
+        "homeTeam": "Philadelphia Phillies",
+        "awayTeam": "New York Yankees",
+        "scores": [
+          {
+            "name": "Philadelphia Phillies",
+            "score": "11"
+          },
+          {
+            "name": "New York Yankees",
+            "score": "4"
+          }
+        ],
+        "completed": true,
+        "lastUpdate": "2026-07-27T02:27:46Z"
+      }
     },
     {
       "id": "model-1785086135903-476403",

@@ -1,7 +1,7 @@
 # Research Cycle - Next-wave check - 2026-07-26
 
-Generated: 2026-07-27T02:12:31.953Z
-Local time: 10:12 PM
+Generated: 2026-07-27T02:28:50.297Z
+Local time: 10:28 PM
 
 ## Goal
 Re-rank the later games after the early market has moved.
@@ -13,17 +13,17 @@ Re-rank the later games after the early market has moved.
 - [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-27T02:12:22.133Z
+- Snapshot generated: 2026-07-27T02:28:42.240Z
 - MLB odds events: 13
 - Soccer odds events: 0
 - High-impact intel blocks: 1
 - Intel pending / confirmed / denied: 1 / 0 / 0
-- Pending tracked picks: 1
+- Pending tracked picks: 0
 - Tracked gate status passed / blocked / unknown: 45 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** New York Yankees at Philadelphia Phillies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Philadelphia Phillies — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -31,26 +31,24 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | Jul 27, 2:35 PM | 983 | Seattle Mariners -137, Texas Rangers +114 | 11 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Jul 27, 6:40 PM | 1228 | Arizona Diamondbacks +104, Pittsburgh Pirates -126 | 11 |
-| Baltimore Orioles at Detroit Tigers | Jul 27, 6:40 PM | 1228 | Baltimore Orioles -102, Detroit Tigers -118 | 11 |
-| Philadelphia Phillies at Miami Marlins | Jul 27, 6:41 PM | 1229 | Miami Marlins +144, Philadelphia Phillies -175 | 11 |
-| Toronto Blue Jays at Washington Nationals | Jul 27, 6:46 PM | 1234 | Toronto Blue Jays +109, Washington Nationals -131 | 11 |
-| Atlanta Braves at New York Mets | Jul 27, 7:10 PM | 1258 | Atlanta Braves -115, New York Mets -105 | 11 |
-| Cleveland Guardians at Cincinnati Reds | Jul 27, 7:10 PM | 1258 | Cincinnati Reds -175, Cleveland Guardians +144 | 11 |
-| New York Yankees at Chicago White Sox | Jul 27, 7:40 PM | 1288 | Chicago White Sox +113, New York Yankees -136 | 11 |
-| Chicago Cubs at St. Louis Cardinals | Jul 27, 7:46 PM | 1294 | Chicago Cubs -126, St. Louis Cardinals +104 | 4 |
-| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 1406 | Houston Astros -118, Los Angeles Angels -102 | 11 |
-| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 1408 | Athletics +137, Boston Red Sox -167 | 11 |
-| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 1413 | Milwaukee Brewers -136, San Francisco Giants +113 | 11 |
+| Seattle Mariners at Texas Rangers | Jul 27, 2:35 PM | 966 | Seattle Mariners -137, Texas Rangers +114 | 11 |
+| Arizona Diamondbacks at Pittsburgh Pirates | Jul 27, 6:40 PM | 1211 | Arizona Diamondbacks +104, Pittsburgh Pirates -126 | 11 |
+| Baltimore Orioles at Detroit Tigers | Jul 27, 6:40 PM | 1211 | Baltimore Orioles -102, Detroit Tigers -118 | 11 |
+| Philadelphia Phillies at Miami Marlins | Jul 27, 6:41 PM | 1212 | Miami Marlins +144, Philadelphia Phillies -175 | 11 |
+| Toronto Blue Jays at Washington Nationals | Jul 27, 6:46 PM | 1217 | Toronto Blue Jays +109, Washington Nationals -131 | 11 |
+| Atlanta Braves at New York Mets | Jul 27, 7:10 PM | 1241 | Atlanta Braves -115, New York Mets -105 | 11 |
+| Cleveland Guardians at Cincinnati Reds | Jul 27, 7:10 PM | 1241 | Cincinnati Reds -175, Cleveland Guardians +144 | 11 |
+| New York Yankees at Chicago White Sox | Jul 27, 7:40 PM | 1271 | Chicago White Sox +113, New York Yankees -136 | 11 |
+| Chicago Cubs at St. Louis Cardinals | Jul 27, 7:46 PM | 1277 | Chicago Cubs -126, St. Louis Cardinals +104 | 4 |
+| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 1389 | Houston Astros -118, Los Angeles Angels -102 | 11 |
+| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 1391 | Athletics +137, Boston Red Sox -167 | 11 |
+| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 1396 | Milwaukee Brewers -136, San Francisco Giants +113 | 11 |
 
 ## Next Soccer Windows
 _No rows._
 
 ## Pending Tracked Picks
-| Sport | Match | Pick | Open | Latest | Model | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | +167 | +190 | 40.6% | 25% strength model + 75% market no-vig |
+_No rows._
 
 ## Model Input Guidance
 - Track picks only from the app before start time so CLV and result grading stay automatic.

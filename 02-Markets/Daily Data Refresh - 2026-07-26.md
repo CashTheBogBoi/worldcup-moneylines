@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-27T02:12:22.133Z
+Generated: 2026-07-27T02:28:42.240Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,7 +20,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — New York Yankees at Philadelphia Phillies: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Philadelphia Phillies: Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## MLB probable pitchers
 
@@ -40,7 +40,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cincinnati Reds at St. Louis Cardinals | Final | Andrew Abbott | Kyle Leahy | 5-3 |
 | Seattle Mariners at Texas Rangers | Final | Logan Gilbert | Jacob deGrom | 6-4 |
 | Los Angeles Angels at San Francisco Giants | Final | José Soriano | Carson Whisenhunt | 4-3 |
-| New York Yankees at Philadelphia Phillies | In Progress | Will Warren | Cristopher Sánchez | 4-11 |
+| New York Yankees at Philadelphia Phillies | Game Over | Will Warren | Cristopher Sánchez | 4-11 |
 
 ## DraftKings MLB odds snapshot
 
