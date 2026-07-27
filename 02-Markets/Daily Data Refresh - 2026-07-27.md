@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T17:44:39.065Z
+Generated: 2026-07-27T18:00:35.359Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -26,6 +26,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **Medium MLB Market move** — Philadelphia Phillies at Miami Marlins: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 - **Medium MLB Market move** — Toronto Blue Jays at Washington Nationals: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 - **Medium MLB Market move** — Cleveland Guardians at Cincinnati Reds: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Atlanta Braves at New York Mets: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — New York Yankees at Chicago White Sox: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Houston Astros at Los Angeles Angels: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Boston Red Sox at Athletics: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Milwaukee Brewers at San Francisco Giants: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 
 ## MLB probable pitchers
 
@@ -51,7 +56,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -132, Texas Rangers +109 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks -106, Pittsburgh Pirates -114 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -101, Detroit Tigers -120 |
-| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +157, Philadelphia Phillies -191 |
+| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +158, Philadelphia Phillies -193 |
 | Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays +102, Washington Nationals -123 |
 | Atlanta Braves at New York Mets | 2026-07-27T23:10:00Z | Atlanta Braves -109, New York Mets -110 |
 | Cleveland Guardians at Cincinnati Reds | 2026-07-27T23:10:00Z | Cincinnati Reds -167, Cleveland Guardians +138 |
@@ -64,7 +69,14 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | none |
 | Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | none |
 | Toronto Blue Jays at Washington Nationals | 2026-07-28T22:46:00Z | none |
+| Atlanta Braves at New York Mets | 2026-07-28T23:11:00Z | none |
 | Cleveland Guardians at Cincinnati Reds | 2026-07-28T23:11:00Z | none |
+| New York Yankees at Chicago White Sox | 2026-07-28T23:41:00Z | none |
+| Kansas City Royals at Minnesota Twins | 2026-07-28T23:41:00Z | none |
+| Houston Astros at Los Angeles Angels | 2026-07-29T01:39:00Z | none |
+| Boston Red Sox at Athletics | 2026-07-29T01:41:00Z | none |
+| Colorado Rockies at San Diego Padres | 2026-07-29T01:41:00Z | none |
+| Milwaukee Brewers at San Francisco Giants | 2026-07-29T01:46:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
