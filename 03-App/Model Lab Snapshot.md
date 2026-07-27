@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T18:03:18.323Z
+Updated: 2026-07-27T18:17:22.113Z
 
 ## Summary
 - Total tracked picks: 72
@@ -87,33 +87,33 @@ Updated: 2026-07-27T18:03:18.323Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T18:03:17.477Z
+- Saved: 2026-07-27T18:17:21.285Z
 - Current candidates: 57
 - Passed / blocked: 2 / 55
 
 ### Top Blockers
-- Minimum edge: 53
-- Positive EV: 42
+- Minimum edge: 55
+- Positive EV: 41
 - Model ready: 35
-- DraftKings line: 33
 - Beats consensus: 30
+- DraftKings line: 9
 - Pregame: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Needs starter | +175 | 38.1% | $4.82 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +127 | 45.7% | $3.85 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +127 | 45.4% | $3.17 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +127 | 45.2% | $2.52 | Edge under 1.5% — inside vig noise. |
-| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Minimum edge | +118 | 46.9% | $2.18 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Cleveland Guardians | Needs starter | +112 | 47.8% | $1.25 | Confirm probable starters or use the manual starter override. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +153 | 40.0% | $1.07 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -112 | 53.2% | $0.71 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Needs starter | +162 | 38.8% | $1.75 | Confirm probable starters or use the manual starter override. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Cleveland Guardians | Needs starter | +112 | 47.8% | $1.43 | Confirm probable starters or use the manual starter override. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Minimum edge | +116 | 46.9% | $1.27 | Edge under 1.5% — inside vig noise. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +153 | 40.0% | $1.13 | Edge under 1.5% — inside vig noise. |
+| MLB | New York Mets | New York Mets vs Atlanta Braves | Needs starter | +136 | 42.7% | $0.66 | Confirm probable starters or use the manual starter override. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Needs starter | +100 | 50.3% | $0.63 | Confirm probable starters or use the manual starter override. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Needs starter | -110 | 52.6% | $0.42 | Confirm probable starters or use the manual starter override. |
-| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Minimum edge | -112 | 53.0% | $0.36 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Minimum edge | -118 | 54.3% | $0.33 | Edge under 1.5% — inside vig noise. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -112 | 53.1% | $0.47 | Edge under 1.5% — inside vig noise. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Needs starter | -110 | 52.6% | $0.44 | Confirm probable starters or use the manual starter override. |
+| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Minimum edge | -118 | 54.3% | $0.39 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
