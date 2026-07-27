@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T18:32:27.772Z
+Generated: 2026-07-27T18:48:19.701Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -20,18 +20,19 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
+- **High MLB Market move** — Seattle Mariners at Texas Rangers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Starters** — Chicago Cubs at St. Louis Cardinals: Official starter is still TBD (David Peterson vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | Warmup | George Kirby | Kumar Rocker | 0-0 |
-| Baltimore Orioles at Detroit Tigers | Scheduled | Kyle Bradish | Keider Montero |  |
+| Seattle Mariners at Texas Rangers | In Progress | George Kirby | Kumar Rocker | 0-1 |
+| Baltimore Orioles at Detroit Tigers | Pre-Game | Kyle Bradish | Keider Montero |  |
 | Arizona Diamondbacks at Pittsburgh Pirates | Scheduled | Merrill Kelly | Mitch Keller |  |
 | Philadelphia Phillies at Miami Marlins | Scheduled | Zack Wheeler | Tyler Phillips |  |
-| Toronto Blue Jays at Washington Nationals | Scheduled | Max Scherzer | Eddy Yean |  |
-| Cleveland Guardians at Cincinnati Reds | Scheduled | Slade Cecconi | Chase Burns |  |
+| Toronto Blue Jays at Washington Nationals | Pre-Game | Max Scherzer | Eddy Yean |  |
+| Cleveland Guardians at Cincinnati Reds | Pre-Game | Slade Cecconi | Chase Burns |  |
 | Atlanta Braves at New York Mets | Scheduled | Martín Pérez | Zac Thornton |  |
 | New York Yankees at Chicago White Sox | Scheduled | Max Fried | Noah Schultz |  |
 | Chicago Cubs at St. Louis Cardinals | Scheduled | David Peterson | TBD |  |
@@ -43,7 +44,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -126, Texas Rangers +104 |
+| Seattle Mariners at Texas Rangers | 2026-07-27T18:38:31Z | Seattle Mariners +119, Texas Rangers -156 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks -106, Pittsburgh Pirates -114 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -101, Detroit Tigers -120 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +158, Philadelphia Phillies -193 |
@@ -60,7 +61,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | Miami Marlins -110, Philadelphia Phillies -110 |
 | Toronto Blue Jays at Washington Nationals | 2026-07-28T22:46:00Z | Toronto Blue Jays +118, Washington Nationals -142 |
 | Atlanta Braves at New York Mets | 2026-07-28T23:11:00Z | Atlanta Braves -156, New York Mets +129 |
-| Cleveland Guardians at Cincinnati Reds | 2026-07-28T23:11:00Z | Cincinnati Reds +102, Cleveland Guardians -122 |
+| Cleveland Guardians at Cincinnati Reds | 2026-07-28T23:11:00Z | Cincinnati Reds +104, Cleveland Guardians -125 |
 | New York Yankees at Chicago White Sox | 2026-07-28T23:41:00Z | Chicago White Sox +123, New York Yankees -149 |
 | Kansas City Royals at Minnesota Twins | 2026-07-28T23:41:00Z | Kansas City Royals +129, Minnesota Twins -156 |
 | Houston Astros at Los Angeles Angels | 2026-07-29T01:39:00Z | Houston Astros -115, Los Angeles Angels -105 |
