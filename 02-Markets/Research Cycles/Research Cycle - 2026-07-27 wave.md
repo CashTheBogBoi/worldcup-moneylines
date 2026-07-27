@@ -1,19 +1,19 @@
-# Research Cycle - Morning slate build - 2026-07-27
+# Research Cycle - Next-wave check - 2026-07-27
 
-Generated: 2026-07-27T23:51:03.393Z
+Generated: 2026-07-27T23:51:50.953Z
 Local time: 7:51 PM
 
 ## Goal
-Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
+Re-rank the later games after the early market has moved.
 
 ## Checklist
-- [ ] Refresh the local snapshot.
-- [ ] Find missing MLB starters and any DraftKings gaps.
-- [ ] Mark high-risk soccer favorites and short draw prices.
-- [ ] Only track candidates that are pregame and model-ready.
+- [ ] Refresh odds and compare against tracked opens.
+- [ ] Promote only picks with clean CLV or unresolved fair value.
+- [ ] Resolve new high-impact intel before staking.
+- [ ] Watch for best-price disappearance or book movement.
 
 ## System Read
-- Snapshot generated: 2026-07-27T23:50:50.061Z
+- Snapshot generated: 2026-07-27T23:51:41.370Z
 - MLB odds events: 24
 - Soccer odds events: 0
 - High-impact intel blocks: 7
@@ -37,18 +37,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| New York Yankees at Chicago White Sox | Jul 27, 8:00 PM | 9 | Chicago White Sox +119, New York Yankees -144 | 11 |
-| Cleveland Guardians at Cincinnati Reds | Jul 27, 8:15 PM | 24 | Cincinnati Reds -161, Cleveland Guardians +133 | 9 |
-| Chicago Cubs at St. Louis Cardinals | Jul 27, 8:16 PM | 25 | Chicago Cubs -123, St. Louis Cardinals +102 | 11 |
-| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 107 | Houston Astros -107, Los Angeles Angels -112 | 11 |
-| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 109 | Athletics +158, Boston Red Sox -192 | 11 |
-| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 114 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1370 | Arizona Diamondbacks -103, Pittsburgh Pirates -117 | 10 |
-| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1370 | Baltimore Orioles +119, Detroit Tigers -144 | 10 |
-| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1370 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
-| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1370 | DK missing | 4 |
-| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1375 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
-| Cleveland Guardians at Cincinnati Reds | Jul 28, 7:10 PM | 1399 | Cincinnati Reds +112, Cleveland Guardians -135 | 8 |
+| New York Yankees at Chicago White Sox | Jul 27, 8:00 PM | 8 | Chicago White Sox +119, New York Yankees -144 | 11 |
+| Cleveland Guardians at Cincinnati Reds | Jul 27, 8:15 PM | 23 | Cincinnati Reds -161, Cleveland Guardians +133 | 9 |
+| Chicago Cubs at St. Louis Cardinals | Jul 27, 8:46 PM | 54 | Chicago Cubs -123, St. Louis Cardinals +102 | 11 |
+| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 106 | Houston Astros -107, Los Angeles Angels -112 | 11 |
+| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 108 | Athletics +158, Boston Red Sox -192 | 11 |
+| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 113 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
+| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1369 | Arizona Diamondbacks -103, Pittsburgh Pirates -117 | 10 |
+| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1369 | Baltimore Orioles +119, Detroit Tigers -144 | 10 |
+| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1369 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
+| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1369 | DK missing | 4 |
+| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1374 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
+| Cleveland Guardians at Cincinnati Reds | Jul 28, 7:10 PM | 1398 | Cincinnati Reds +112, Cleveland Guardians -135 | 8 |
 
 ## Next Soccer Windows
 _No rows._

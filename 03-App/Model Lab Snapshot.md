@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T18:48:42.119Z
+Updated: 2026-07-27T23:52:58.082Z
 
 ## Summary
 - Total tracked picks: 72
@@ -15,7 +15,7 @@ Updated: 2026-07-27T18:48:42.119Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +150 | -0.8 pts | 42.5% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +145 | 0.0 pts | 42.5% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | pending | +160 | +165 | -0.7 pts | 41.1% | 25% strength model + 75% market no-vig |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | loss | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | loss | +167 | +190 | -3.0 pts | 40.6% | 25% strength model + 75% market no-vig |
@@ -87,33 +87,31 @@ Updated: 2026-07-27T18:48:42.119Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T18:48:41.287Z
+- Saved: 2026-07-27T23:52:57.121Z
 - Current candidates: 57
-- Passed / blocked: 2 / 55
+- Passed / blocked: 1 / 56
 
 ### Top Blockers
-- Minimum edge: 53
-- Positive EV: 41
-- Model ready: 37
+- Minimum edge: 51
+- Positive EV: 46
 - Beats consensus: 30
-- Pregame: 11
-- DraftKings line: 9
+- Model ready: 21
+- Pregame: 19
+- DraftKings line: 11
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Seattle Mariners | Texas Rangers vs Seattle Mariners | Game too stale/live | +150 | 46.5% | $16.33 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Game too stale/live | +111 | 53.5% | $12.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Needs starter | +167 | 38.7% | $3.36 | Confirm probable starters or use the manual starter override. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +127 | 45.4% | $3.17 | Confirm probable starters or use the manual starter override. |
+| MLB | Atlanta Braves | New York Mets vs Atlanta Braves | Game too stale/live | +310 | 40.7% | $66.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Game too stale/live | +240 | 38.3% | $30.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Philadelphia Phillies | Miami Marlins vs Philadelphia Phillies | Game too stale/live | +380 | 24.0% | $15.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Game too stale/live | +145 | 42.6% | $4.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | New York Mets | New York Mets vs Atlanta Braves | Game too stale/live | -133 | 59.3% | $3.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +127 | 45.2% | $2.52 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Cleveland Guardians | Needs starter | +112 | 47.7% | $1.03 | Confirm probable starters or use the manual starter override. |
-| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Minimum edge | -118 | 54.5% | $0.78 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +152 | 39.9% | $0.66 | Edge under 1.5% — inside vig noise. |
-| MLB | New York Mets | New York Mets vs Atlanta Braves | Needs starter | +136 | 42.7% | $0.66 | Confirm probable starters or use the manual starter override. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -111 | 52.9% | $0.58 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Needs starter | -110 | 52.6% | $0.44 | Confirm probable starters or use the manual starter override. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +163 | 38.9% | $2.32 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +125 | 45.4% | $2.21 | Edge under 1.5% — inside vig noise. |
+| MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Minimum edge | +162 | 38.9% | $2.04 | Edge under 1.5% — inside vig noise. |
+| MLB | Cincinnati Reds | Cincinnati Reds vs Cleveland Guardians | Minimum edge | +117 | 46.2% | $0.25 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
