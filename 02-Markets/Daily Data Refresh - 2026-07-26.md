@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-26T23:47:15.080Z
+Generated: 2026-07-27T00:02:48.637Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -40,13 +40,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cincinnati Reds at St. Louis Cardinals | Final | Andrew Abbott | Kyle Leahy | 5-3 |
 | Seattle Mariners at Texas Rangers | Final | Logan Gilbert | Jacob deGrom | 6-4 |
 | Los Angeles Angels at San Francisco Giants | Final | José Soriano | Carson Whisenhunt | 4-3 |
-| New York Yankees at Philadelphia Phillies | In Progress | Will Warren | Cristopher Sánchez | 0-1 |
+| New York Yankees at Philadelphia Phillies | In Progress | Will Warren | Cristopher Sánchez | 0-2 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +280, Philadelphia Phillies -402 |
+| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +504, Philadelphia Phillies -890 |
 | Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -131, Texas Rangers +109 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks +104, Pittsburgh Pirates -126 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -102, Detroit Tigers -118 |
