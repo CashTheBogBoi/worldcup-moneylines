@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T17:28:38.271Z
+Generated: 2026-07-27T17:44:39.065Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -21,6 +21,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 ## Top intel
 
 - **High MLB Starters** — Chicago Cubs at St. Louis Cardinals: Official starter is still TBD (David Peterson vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
+- **Medium MLB Market move** — Baltimore Orioles at Detroit Tigers: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Arizona Diamondbacks at Pittsburgh Pirates: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Philadelphia Phillies at Miami Marlins: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Toronto Blue Jays at Washington Nationals: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
+- **Medium MLB Market move** — Cleveland Guardians at Cincinnati Reds: DraftKings moneyline was missing from the local odds snapshot. Do not use the free-$200 workflow unless DK has a current playable line.
 
 ## MLB probable pitchers
 
@@ -43,7 +48,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -131, Texas Rangers +109 |
+| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -132, Texas Rangers +109 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks -106, Pittsburgh Pirates -114 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -101, Detroit Tigers -120 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +157, Philadelphia Phillies -191 |
@@ -55,6 +60,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -112, Los Angeles Angels -107 |
 | Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +152, Boston Red Sox -185 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -136, San Francisco Giants +113 |
+| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-28T22:41:00Z | none |
+| Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | none |
+| Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | none |
+| Toronto Blue Jays at Washington Nationals | 2026-07-28T22:46:00Z | none |
+| Cleveland Guardians at Cincinnati Reds | 2026-07-28T23:11:00Z | none |
 
 ## DraftKings Soccer odds snapshot
 
