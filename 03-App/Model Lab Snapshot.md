@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T17:30:22.944Z
+Updated: 2026-07-27T17:35:49.380Z
 
 ## Summary
 - Total tracked picks: 72
@@ -15,7 +15,7 @@ Updated: 2026-07-27T17:30:22.944Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | - | - | 42.5% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +145 | 0.0 pts | 42.5% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | pending | +160 | +162 | -0.3 pts | 41.1% | 25% strength model + 75% market no-vig |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | loss | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | loss | +167 | +190 | -3.0 pts | 40.6% | 25% strength model + 75% market no-vig |
@@ -87,7 +87,7 @@ Updated: 2026-07-27T17:30:22.944Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T17:30:22.092Z
+- Saved: 2026-07-27T17:35:48.503Z
 - Current candidates: 33
 - Passed / blocked: 2 / 31
 
