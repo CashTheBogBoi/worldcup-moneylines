@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T02:14:44.819Z
+Updated: 2026-07-27T14:07:13.702Z
 
 ## Summary
-- Total tracked picks: 70
+- Total tracked picks: 71
 - Pending: 1
-- Graded: 69
+- Graded: 70
 - Wins: 20
-- Losses: 48
+- Losses: 49
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -15,8 +15,9 @@ Updated: 2026-07-27T02:14:44.819Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | pending | +160 | - | - | 41.1% | 25% strength model + 75% market no-vig |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | loss | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
-| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | pending | +167 | +190 | -3.0 pts | 40.6% | 25% strength model + 75% market no-vig |
+| MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | loss | +167 | +190 | -3.0 pts | 40.6% | 25% strength model + 75% market no-vig |
 | MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | loss | +300 | +300 | 0.0 pts | 27.4% | 25% strength model + 75% market no-vig |
 | MLB | Texas Rangers vs Chicago White Sox | Chicago White Sox | loss | +110 | +102 | 1.9 pts | 49.2% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs Los Angeles Dodgers | Los Angeles Dodgers | win | +114 | +104 | 2.3 pts | 48.3% | 25% strength model + 75% market no-vig |
@@ -54,7 +55,6 @@ Updated: 2026-07-27T02:14:44.819Z
 | MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | loss | +136 | +139 | -0.5 pts | 44.1% | 37% strength model + 63% market no-vig |
 | MLB | Seattle Mariners vs Toronto Blue Jays | Seattle Mariners | loss | +113 | +116 | -0.7 pts | 49.4% | 35% strength model + 65% market no-vig |
-| Soccer | Colombia vs Ghana | Draw | loss | +369 | +350 | 0.9 pts | 22.8% | 45% strength model + 55% market no-vig |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,32 +83,34 @@ Updated: 2026-07-27T02:14:44.819Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 45 | 44 | 22.7% | -0.1 pts | 0.196 | 0.0% |
+| Passed gate | 46 | 45 | 22.2% | -0.1 pts | 0.195 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T02:14:43.460Z
-- Current candidates: 35
-- Passed / blocked: 0 / 35
+- Saved: 2026-07-27T14:07:12.878Z
+- Current candidates: 33
+- Passed / blocked: 1 / 32
 
 ### Top Blockers
-- Model ready: 35
-- Minimum edge: 33
-- Positive EV: 28
+- Minimum edge: 32
+- Positive EV: 23
 - Beats consensus: 18
-- DraftKings line: 11
-- Pregame: 11
+- Model ready: 11
+- DraftKings line: 9
+- Pregame: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +147 | 42.8% | $5.79 | Confirm probable starters or use the manual starter override. |
-| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +149 | 41.9% | $4.42 | Confirm probable starters or use the manual starter override. |
+| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Minimum edge | +143 | 42.5% | $3.33 | Edge under 1.5% — inside vig noise. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +121 | 46.2% | $2.13 | Confirm probable starters or use the manual starter override. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Needs starter | +149 | 41.0% | $1.98 | Confirm probable starters or use the manual starter override. |
-| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Needs starter | +117 | 46.8% | $1.64 | Confirm probable starters or use the manual starter override. |
-| MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Needs starter | +105 | 49.3% | $1.05 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +128 | 45.1% | $2.89 | Edge under 1.5% — inside vig noise. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Minimum edge | +121 | 46.4% | $2.44 | Edge under 1.5% — inside vig noise. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +154 | 39.9% | $1.36 | Edge under 1.5% — inside vig noise. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -112 | 53.5% | $1.23 | Edge under 1.5% — inside vig noise. |
+| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Minimum edge | -115 | 53.8% | $0.56 | Edge under 1.5% — inside vig noise. |
+| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Minimum edge | -112 | 53.0% | $0.38 | Edge under 1.5% — inside vig noise. |
+| MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Minimum edge | +100 | 50.1% | $0.23 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
