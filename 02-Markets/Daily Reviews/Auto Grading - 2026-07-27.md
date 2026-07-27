@@ -1,11 +1,11 @@
 # Auto Grading - 2026-07-27
 
-Generated: 2026-07-27T14:06:30.084Z
-Data snapshot: 2026-07-27T14:06:26.388Z
+Generated: 2026-07-27T17:12:48.805Z
+Data snapshot: 2026-07-27T17:12:47.067Z
 
 ## Newly Graded
 _No newly graded picks._
 
 ## Still Pending
-_No pending tracked picks with event ids._
+- MLB / Miami Marlins vs Philadelphia Phillies / Miami Marlins (2026-07-27T22:41:00Z)
 

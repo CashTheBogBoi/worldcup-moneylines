@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T14:06:26.388Z
+Generated: 2026-07-27T17:12:47.067Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -26,11 +26,11 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | Scheduled | George Kirby | Kumar Rocker |  |
+| Seattle Mariners at Texas Rangers | Pre-Game | George Kirby | Kumar Rocker | 0-0 |
 | Baltimore Orioles at Detroit Tigers | Scheduled | Kyle Bradish | Keider Montero |  |
 | Arizona Diamondbacks at Pittsburgh Pirates | Scheduled | Merrill Kelly | Mitch Keller |  |
 | Philadelphia Phillies at Miami Marlins | Scheduled | Zack Wheeler | Tyler Phillips |  |
-| Toronto Blue Jays at Washington Nationals | Scheduled | Max Scherzer | Andrew Alvarez |  |
+| Toronto Blue Jays at Washington Nationals | Scheduled | Max Scherzer | Eddy Yean |  |
 | Cleveland Guardians at Cincinnati Reds | Scheduled | Slade Cecconi | Chase Burns |  |
 | Atlanta Braves at New York Mets | Scheduled | Martín Pérez | Zac Thornton |  |
 | New York Yankees at Chicago White Sox | Scheduled | Max Fried | Noah Schultz |  |
@@ -43,17 +43,17 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -142, Texas Rangers +118 |
-| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks +101, Pittsburgh Pirates -121 |
-| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -101, Detroit Tigers -119 |
-| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +153, Philadelphia Phillies -186 |
-| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays -101, Washington Nationals -120 |
-| Atlanta Braves at New York Mets | 2026-07-27T23:10:00Z | Atlanta Braves -118, New York Mets -102 |
+| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -131, Texas Rangers +109 |
+| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks -106, Pittsburgh Pirates -114 |
+| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -101, Detroit Tigers -120 |
+| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +157, Philadelphia Phillies -191 |
+| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays +102, Washington Nationals -123 |
+| Atlanta Braves at New York Mets | 2026-07-27T23:10:00Z | Atlanta Braves -109, New York Mets -110 |
 | Cleveland Guardians at Cincinnati Reds | 2026-07-27T23:10:00Z | Cincinnati Reds -167, Cleveland Guardians +138 |
 | New York Yankees at Chicago White Sox | 2026-07-27T23:40:00Z | Chicago White Sox +123, New York Yankees -149 |
-| Chicago Cubs at St. Louis Cardinals | 2026-07-27T23:46:00Z | Chicago Cubs -122, St. Louis Cardinals +101 |
-| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -115, Los Angeles Angels -105 |
-| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +149, Boston Red Sox -181 |
+| Chicago Cubs at St. Louis Cardinals | 2026-07-27T23:46:00Z | Chicago Cubs -125, St. Louis Cardinals +103 |
+| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -110, Los Angeles Angels -109 |
+| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +152, Boston Red Sox -185 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -136, San Francisco Giants +113 |
 
 ## DraftKings Soccer odds snapshot
