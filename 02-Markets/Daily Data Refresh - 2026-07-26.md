@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-26
 
-Generated: 2026-07-27T00:02:48.637Z
+Generated: 2026-07-27T02:12:22.133Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -40,23 +40,24 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Cincinnati Reds at St. Louis Cardinals | Final | Andrew Abbott | Kyle Leahy | 5-3 |
 | Seattle Mariners at Texas Rangers | Final | Logan Gilbert | Jacob deGrom | 6-4 |
 | Los Angeles Angels at San Francisco Giants | Final | José Soriano | Carson Whisenhunt | 4-3 |
-| New York Yankees at Philadelphia Phillies | In Progress | Will Warren | Cristopher Sánchez | 0-2 |
+| New York Yankees at Philadelphia Phillies | In Progress | Will Warren | Cristopher Sánchez | 4-11 |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | New York Yankees +504, Philadelphia Phillies -890 |
-| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -131, Texas Rangers +109 |
+| New York Yankees at Philadelphia Phillies | 2026-07-26T23:21:00Z | none |
+| Seattle Mariners at Texas Rangers | 2026-07-27T18:35:00Z | Seattle Mariners -137, Texas Rangers +114 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:40:00Z | Arizona Diamondbacks +104, Pittsburgh Pirates -126 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:00Z | Baltimore Orioles -102, Detroit Tigers -118 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +144, Philadelphia Phillies -175 |
-| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays +105, Washington Nationals -126 |
+| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays +109, Washington Nationals -131 |
 | Atlanta Braves at New York Mets | 2026-07-27T23:10:00Z | Atlanta Braves -115, New York Mets -105 |
 | Cleveland Guardians at Cincinnati Reds | 2026-07-27T23:10:00Z | Cincinnati Reds -175, Cleveland Guardians +144 |
 | New York Yankees at Chicago White Sox | 2026-07-27T23:40:00Z | Chicago White Sox +113, New York Yankees -136 |
+| Chicago Cubs at St. Louis Cardinals | 2026-07-27T23:46:00Z | Chicago Cubs -126, St. Louis Cardinals +104 |
 | Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -118, Los Angeles Angels -102 |
-| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +135, Boston Red Sox -163 |
+| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +137, Boston Red Sox -167 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -136, San Francisco Giants +113 |
 
 ## DraftKings Soccer odds snapshot

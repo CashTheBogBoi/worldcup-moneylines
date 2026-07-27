@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T00:02:53.659Z
+Updated: 2026-07-27T02:14:44.819Z
 
 ## Summary
 - Total tracked picks: 70
@@ -87,30 +87,28 @@ Updated: 2026-07-27T00:02:53.659Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T00:02:51.775Z
-- Current candidates: 33
-- Passed / blocked: 0 / 33
+- Saved: 2026-07-27T02:14:43.460Z
+- Current candidates: 35
+- Passed / blocked: 0 / 35
 
 ### Top Blockers
-- Model ready: 33
-- Minimum edge: 30
-- Positive EV: 24
+- Model ready: 35
+- Minimum edge: 33
+- Positive EV: 28
 - Beats consensus: 18
+- DraftKings line: 11
 - Pregame: 11
-- DraftKings line: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | New York Yankees | Philadelphia Phillies vs New York Yankees | Game too stale/live | +504 | 20.9% | $26.48 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +147 | 42.8% | $5.84 | Confirm probable starters or use the manual starter override. |
-| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +149 | 41.9% | $4.33 | Confirm probable starters or use the manual starter override. |
+| MLB | Miami Marlins | Miami Marlins vs Philadelphia Phillies | Needs starter | +147 | 42.8% | $5.79 | Confirm probable starters or use the manual starter override. |
+| MLB | Cleveland Guardians | Cincinnati Reds vs Cleveland Guardians | Needs starter | +149 | 41.9% | $4.42 | Confirm probable starters or use the manual starter override. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +120 | 46.2% | $1.57 | Confirm probable starters or use the manual starter override. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Needs starter | +121 | 46.2% | $2.13 | Confirm probable starters or use the manual starter override. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Needs starter | +149 | 41.0% | $1.98 | Confirm probable starters or use the manual starter override. |
+| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Needs starter | +117 | 46.8% | $1.64 | Confirm probable starters or use the manual starter override. |
 | MLB | Los Angeles Angels | Los Angeles Angels vs Houston Astros | Needs starter | +105 | 49.3% | $1.05 | Confirm probable starters or use the manual starter override. |
-| MLB | Texas Rangers | Texas Rangers vs Seattle Mariners | Needs starter | +114 | 47.2% | $0.92 | Confirm probable starters or use the manual starter override. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Needs starter | +142 | 41.5% | $0.49 | Confirm probable starters or use the manual starter override. |
-| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Needs starter | -112 | 52.9% | $0.05 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
