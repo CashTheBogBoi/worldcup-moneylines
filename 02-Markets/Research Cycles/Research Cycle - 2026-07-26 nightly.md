@@ -1,26 +1,26 @@
-# Research Cycle - Next-wave check - 2026-07-26
+# Research Cycle - Nightly close and review - 2026-07-26
 
-Generated: 2026-07-26T23:46:43.713Z
-Local time: 7:46 PM
+Generated: 2026-07-26T23:47:20.656Z
+Local time: 7:47 PM
 
 ## Goal
-Re-rank the later games after the early market has moved.
+Grade finals, close lines, and write the Obsidian review.
 
 ## Checklist
-- [ ] Refresh odds and compare against tracked opens.
-- [ ] Promote only picks with clean CLV or unresolved fair value.
-- [ ] Resolve new high-impact intel before staking.
-- [ ] Watch for best-price disappearance or book movement.
+- [ ] Refresh after finals so scores can auto-grade.
+- [ ] Run the daily review note.
+- [ ] Look for miss patterns by sport and confidence bucket.
+- [ ] Do not tune the model from one unlucky result without CLV context.
 
 ## System Read
-- Snapshot generated: 2026-07-26T23:46:35.628Z
+- Snapshot generated: 2026-07-26T23:47:15.080Z
 - MLB odds events: 12
 - Soccer odds events: 0
 - High-impact intel blocks: 1
 - Intel pending / confirmed / denied: 1 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 45 / 0 / 25
-- Nightly review ran: no
+- Nightly review ran: yes
 
 ## High-Impact Blocks
 - **MLB / Market move / pending:** New York Yankees at Philadelphia Phillies — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
