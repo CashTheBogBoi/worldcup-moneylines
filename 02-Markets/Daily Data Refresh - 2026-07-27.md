@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-28T00:07:54.734Z
+Generated: 2026-07-28T00:56:18.827Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -34,12 +34,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Seattle Mariners at Texas Rangers | Final | George Kirby | Kumar Rocker | 3-7 |
-| Baltimore Orioles at Detroit Tigers | In Progress | Kyle Bradish | Keider Montero | 5-3 |
-| Arizona Diamondbacks at Pittsburgh Pirates | In Progress | Merrill Kelly | Mitch Keller | 2-0 |
-| Philadelphia Phillies at Miami Marlins | In Progress | Zack Wheeler | Tyler Phillips | 2-5 |
-| Toronto Blue Jays at Washington Nationals | In Progress | Max Scherzer | Eddy Yean | 3-1 |
-| Atlanta Braves at New York Mets | In Progress | Martín Pérez | Zac Thornton | 3-3 |
-| New York Yankees at Chicago White Sox | In Progress | Max Fried | Noah Schultz | 0-0 |
+| Baltimore Orioles at Detroit Tigers | In Progress | Kyle Bradish | Keider Montero | 8-5 |
+| Arizona Diamondbacks at Pittsburgh Pirates | In Progress | Merrill Kelly | Mitch Keller | 2-1 |
+| Philadelphia Phillies at Miami Marlins | In Progress | Zack Wheeler | Tyler Phillips | 6-5 |
+| Toronto Blue Jays at Washington Nationals | In Progress | Max Scherzer | Eddy Yean | 3-2 |
+| Atlanta Braves at New York Mets | In Progress | Martín Pérez | Zac Thornton | 3-5 |
+| New York Yankees at Chicago White Sox | In Progress | Max Fried | Noah Schultz | 0-3 |
 | Chicago Cubs at St. Louis Cardinals | Delayed Start | David Peterson | Matthew Liberatore | 0-0 |
 | Houston Astros at Los Angeles Angels | Pre-Game | Tatsuya Imai | Walbert Ureña | 0-0 |
 | Boston Red Sox at Athletics | Pre-Game | Payton Tolle | Jack Perkins | 0-0 |
@@ -50,24 +50,24 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:44Z | Baltimore Orioles -338, Detroit Tigers +242 |
-| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins -850, Philadelphia Phillies +489 |
-| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:42:04Z | Arizona Diamondbacks -546, Pittsburgh Pirates +357 |
-| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays -264, Washington Nationals +195 |
-| Atlanta Braves at New York Mets | 2026-07-27T23:10:03Z | Atlanta Braves +100, New York Mets -131 |
-| New York Yankees at Chicago White Sox | 2026-07-28T00:00:19Z | Chicago White Sox -105, New York Yankees -124 |
-| Chicago Cubs at St. Louis Cardinals | 2026-07-28T00:46:00Z | Chicago Cubs -123, St. Louis Cardinals +102 |
-| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -112, Los Angeles Angels -108 |
-| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +158, Boston Red Sox -192 |
+| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:44Z | Baltimore Orioles -850, Detroit Tigers +491 |
+| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins +389, Philadelphia Phillies -620 |
+| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:42:04Z | Arizona Diamondbacks -297, Pittsburgh Pirates +216 |
+| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays -196, Washington Nationals +149 |
+| Atlanta Braves at New York Mets | 2026-07-27T23:10:03Z | Atlanta Braves +480, New York Mets -820 |
+| New York Yankees at Chicago White Sox | 2026-07-28T00:00:19Z | Chicago White Sox -440, New York Yankees +301 |
+| Chicago Cubs at St. Louis Cardinals | 2026-07-28T01:30:00Z | Chicago Cubs -123, St. Louis Cardinals +102 |
+| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -110, Los Angeles Angels -110 |
+| Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +146, Boston Red Sox -178 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -142, San Francisco Giants +118 |
-| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-28T22:41:00Z | Arizona Diamondbacks -103, Pittsburgh Pirates -117 |
+| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-28T22:41:00Z | Arizona Diamondbacks -105, Pittsburgh Pirates -115 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | Baltimore Orioles +113, Detroit Tigers -136 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | Miami Marlins -110, Philadelphia Phillies -110 |
 | Texas Rangers at Tampa Bay Rays | 2026-07-28T22:41:00Z | none |
 | Toronto Blue Jays at Washington Nationals | 2026-07-28T22:46:00Z | Toronto Blue Jays +118, Washington Nationals -142 |
 | Atlanta Braves at New York Mets | 2026-07-28T23:11:00Z | Atlanta Braves -157, New York Mets +130 |
-| New York Yankees at Chicago White Sox | 2026-07-28T23:41:00Z | Chicago White Sox +114, New York Yankees -137 |
-| Kansas City Royals at Minnesota Twins | 2026-07-28T23:41:00Z | Kansas City Royals +129, Minnesota Twins -156 |
+| New York Yankees at Chicago White Sox | 2026-07-28T23:41:00Z | Chicago White Sox +112, New York Yankees -135 |
+| Kansas City Royals at Minnesota Twins | 2026-07-28T23:41:00Z | Kansas City Royals +133, Minnesota Twins -160 |
 | Houston Astros at Los Angeles Angels | 2026-07-29T01:39:00Z | Houston Astros -112, Los Angeles Angels -108 |
 | Boston Red Sox at Athletics | 2026-07-29T01:41:00Z | Athletics +125, Boston Red Sox -151 |
 | Colorado Rockies at San Diego Padres | 2026-07-29T01:41:00Z | Colorado Rockies +153, San Diego Padres -187 |

@@ -1,12 +1,12 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-28T00:08:40.197Z
+Updated: 2026-07-28T17:35:24.668Z
 
 ## Summary
-- Total tracked picks: 72
-- Pending: 2
-- Graded: 70
-- Wins: 20
+- Total tracked picks: 74
+- Pending: 3
+- Graded: 71
+- Wins: 21
 - Losses: 49
 - Draws: 1
 - Intel review decisions saved: 22
@@ -15,8 +15,10 @@ Updated: 2026-07-28T00:08:40.197Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
+| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +148 | - | - | 42.4% | 25% strength model + 75% market no-vig |
+| MLB | San Diego Padres vs Colorado Rockies | Colorado Rockies | pending | +185 | - | - | 36.9% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +145 | 0.0 pts | 42.5% | 25% strength model + 75% market no-vig |
-| MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | pending | +160 | +165 | -0.7 pts | 41.1% | 25% strength model + 75% market no-vig |
+| MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | win | +160 | +165 | -0.7 pts | 41.1% | 25% strength model + 75% market no-vig |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | loss | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
 | MLB | Philadelphia Phillies vs New York Yankees | New York Yankees | loss | +167 | +190 | -3.0 pts | 40.6% | 25% strength model + 75% market no-vig |
 | MLB | Milwaukee Brewers vs Colorado Rockies | Colorado Rockies | loss | +300 | +300 | 0.0 pts | 27.4% | 25% strength model + 75% market no-vig |
@@ -53,8 +55,6 @@ Updated: 2026-07-28T00:08:40.197Z
 | Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
 | Soccer | Switzerland vs Colombia | Switzerland | loss | +260 | +261 | -0.1 pts | 30.1% | 37% strength model + 63% market no-vig |
 | MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
-| MLB | Los Angeles Angels vs Boston Red Sox | Los Angeles Angels | loss | +147 | +147 | 0.0 pts | 44.1% | 37% strength model + 63% market no-vig |
-| MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | loss | +136 | +139 | -0.5 pts | 44.1% | 37% strength model + 63% market no-vig |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,36 +83,31 @@ Updated: 2026-07-28T00:08:40.197Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 47 | 45 | 22.2% | -0.2 pts | 0.195 | 0.0% |
+| Passed gate | 49 | 46 | 23.9% | -0.2 pts | 0.199 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-28T00:08:39.376Z
-- Current candidates: 53
-- Passed / blocked: 0 / 53
+- Saved: 2026-07-28T17:35:23.833Z
+- Current candidates: 41
+- Passed / blocked: 2 / 39
 
 ### Top Blockers
-- Minimum edge: 46
-- Positive EV: 42
-- Beats consensus: 28
-- Model ready: 23
-- Pregame: 21
-- DraftKings line: 11
+- Minimum edge: 39
+- Positive EV: 33
+- Beats consensus: 22
+- Model ready: 15
+- DraftKings line: 9
+- Pregame: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Game too stale/live | +475 | 24.9% | $43.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Philadelphia Phillies | Miami Marlins vs Philadelphia Phillies | Game too stale/live | +575 | 18.9% | $27.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Arizona Diamondbacks | Pittsburgh Pirates vs Arizona Diamondbacks | Game too stale/live | -182 | 75.1% | $16.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Game too stale/live | +230 | 34.8% | $14.95 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Game too stale/live | +255 | 31.4% | $11.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Game too stale/live | +123 | 46.8% | $4.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Atlanta Braves | New York Mets vs Atlanta Braves | Game too stale/live | +107 | 49.9% | $3.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | New York Mets vs Atlanta Braves | Game too stale/live | +105 | 50.1% | $2.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +164 | 38.8% | $2.46 | Edge under 1.5% — inside vig noise. |
-| MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Minimum edge | +162 | 38.9% | $2.04 | Edge under 1.5% — inside vig noise. |
+| MLB | Kansas City Royals | Minnesota Twins vs Kansas City Royals | Minimum edge | +154 | 40.1% | $1.76 | Edge under 1.5% — inside vig noise. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +110 | 47.8% | $0.40 | Edge under 1.5% — inside vig noise. |
+| MLB | New York Mets | New York Mets vs Atlanta Braves | Minimum edge | +139 | 42.0% | $0.37 | Edge under 1.5% — inside vig noise. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -109 | 52.3% | $0.21 | Edge under 1.5% — inside vig noise. |
+| MLB | Texas Rangers | Tampa Bay Rays vs Texas Rangers | Needs starter | +154 | 39.4% | $0.10 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

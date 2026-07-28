@@ -1,7 +1,7 @@
 # Research Cycle - Morning slate build - 2026-07-27
 
-Generated: 2026-07-28T00:07:18.088Z
-Local time: 8:07 PM
+Generated: 2026-07-28T00:56:49.856Z
+Local time: 8:56 PM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,7 +13,7 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-28T00:07:05.941Z
+- Snapshot generated: 2026-07-28T00:56:18.827Z
 - MLB odds events: 22
 - Soccer odds events: 0
 - High-impact intel blocks: 8
@@ -38,18 +38,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| Chicago Cubs at St. Louis Cardinals | Jul 27, 8:46 PM | 39 | Chicago Cubs -123, St. Louis Cardinals +102 | 9 |
-| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 91 | Houston Astros -112, Los Angeles Angels -108 | 11 |
-| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 93 | Athletics +158, Boston Red Sox -192 | 11 |
-| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 98 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1354 | Arizona Diamondbacks -103, Pittsburgh Pirates -117 | 10 |
-| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1354 | Baltimore Orioles +113, Detroit Tigers -136 | 10 |
-| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1354 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
-| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1354 | DK missing | 4 |
-| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1359 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
-| Atlanta Braves at New York Mets | Jul 28, 7:11 PM | 1384 | Atlanta Braves -157, New York Mets +130 | 10 |
-| New York Yankees at Chicago White Sox | Jul 28, 7:41 PM | 1414 | Chicago White Sox +114, New York Yankees -137 | 10 |
-| Kansas City Royals at Minnesota Twins | Jul 28, 7:41 PM | 1414 | Kansas City Royals +129, Minnesota Twins -156 | 10 |
+| Chicago Cubs at St. Louis Cardinals | Jul 27, 9:30 PM | 34 | Chicago Cubs -123, St. Louis Cardinals +102 | 9 |
+| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 42 | Houston Astros -110, Los Angeles Angels -110 | 11 |
+| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 44 | Athletics +146, Boston Red Sox -178 | 11 |
+| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 49 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
+| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1305 | Arizona Diamondbacks -105, Pittsburgh Pirates -115 | 10 |
+| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1305 | Baltimore Orioles +113, Detroit Tigers -136 | 10 |
+| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1305 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
+| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1305 | DK missing | 4 |
+| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1310 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
+| Atlanta Braves at New York Mets | Jul 28, 7:11 PM | 1335 | Atlanta Braves -157, New York Mets +130 | 10 |
+| New York Yankees at Chicago White Sox | Jul 28, 7:41 PM | 1365 | Chicago White Sox +112, New York Yankees -135 | 10 |
+| Kansas City Royals at Minnesota Twins | Jul 28, 7:41 PM | 1365 | Kansas City Royals +133, Minnesota Twins -160 | 10 |
 
 ## Next Soccer Windows
 _No rows._
