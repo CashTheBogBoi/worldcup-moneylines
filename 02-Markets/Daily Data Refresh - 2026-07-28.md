@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-28
 
-Generated: 2026-07-28T17:31:25.352Z
+Generated: 2026-07-28T17:38:42.735Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -24,6 +24,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Starters** — Texas Rangers at Tampa Bay Rays: Official starter is still TBD (TBD vs Griffin Jax). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Chicago Cubs at St. Louis Cardinals: Official starter is still TBD (Colin Rea vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
 - **High MLB Starters** — Seattle Mariners at Los Angeles Dodgers: Official starter is still TBD (Luis Castillo vs TBD). Block Bankroll Watch promotion until both starters are confirmed.
+- **High MLB Market move** — Atlanta Braves at New York Mets: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## MLB probable pitchers
 
@@ -36,7 +37,6 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Texas Rangers at Tampa Bay Rays | Scheduled | TBD | Griffin Jax |  |
 | Philadelphia Phillies at Miami Marlins | Scheduled | Aaron Nola | Sandy Alcantara |  |
 | Toronto Blue Jays at Washington Nationals | Scheduled | Shane Bieber | Cade Cavalli |  |
-| Atlanta Braves at New York Mets | Scheduled | Chris Sale | Christian Scott |  |
 | Kansas City Royals at Minnesota Twins | Scheduled | Seth Lugo | Taj Bradley |  |
 | New York Yankees at Chicago White Sox | Scheduled | Gerrit Cole | Anthony Kay |  |
 | Chicago Cubs at St. Louis Cardinals | Scheduled | Colin Rea | TBD |  |
@@ -45,12 +45,13 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Colorado Rockies at San Diego Padres | Scheduled | Michael Lorenzen | Michael King |  |
 | Milwaukee Brewers at San Francisco Giants | Scheduled | Logan Henderson | Landen Roupp |  |
 | Seattle Mariners at Los Angeles Dodgers | Scheduled | Luis Castillo | TBD |  |
+| Atlanta Braves at New York Mets | Postponed | Chris Sale | Christian Scott |  |
 
 ## DraftKings MLB odds snapshot
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Cleveland Guardians at Cincinnati Reds | 2026-07-28T17:41:00Z | Cincinnati Reds -168, Cleveland Guardians +139 |
+| Cleveland Guardians at Cincinnati Reds | 2026-07-28T17:41:00Z | Cincinnati Reds -164, Cleveland Guardians +136 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-28T22:41:00Z | Arizona Diamondbacks -105, Pittsburgh Pirates -115 |
 | Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | Baltimore Orioles +119, Detroit Tigers -144 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | Miami Marlins -121, Philadelphia Phillies +100 |
