@@ -1,7 +1,7 @@
 # Research Cycle - Pregame confirmation - 2026-07-27
 
-Generated: 2026-07-27T23:51:27.266Z
-Local time: 7:51 PM
+Generated: 2026-07-28T00:07:40.595Z
+Local time: 8:07 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,11 +13,11 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-27T23:51:17.749Z
-- MLB odds events: 24
+- Snapshot generated: 2026-07-28T00:07:31.529Z
+- MLB odds events: 22
 - Soccer odds events: 0
-- High-impact intel blocks: 7
-- Intel pending / confirmed / denied: 7 / 0 / 0
+- High-impact intel blocks: 8
+- Intel pending / confirmed / denied: 8 / 0 / 0
 - Pending tracked picks: 2
 - Tracked gate status passed / blocked / unknown: 47 / 0 / 25
 - Nightly review ran: no
@@ -28,6 +28,7 @@ Confirm the first wave before anything becomes live-market contaminated.
 - **MLB / Market move / pending:** Philadelphia Phillies at Miami Marlins — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Toronto Blue Jays at Washington Nationals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Atlanta Braves at New York Mets — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Chicago Cubs at St. Louis Cardinals — Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **MLB / Market move / pending:** Cleveland Guardians at Cincinnati Reds — Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -37,18 +38,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| New York Yankees at Chicago White Sox | Jul 27, 8:00 PM | 9 | Chicago White Sox +119, New York Yankees -144 | 11 |
-| Cleveland Guardians at Cincinnati Reds | Jul 27, 8:15 PM | 24 | Cincinnati Reds -161, Cleveland Guardians +133 | 9 |
-| Chicago Cubs at St. Louis Cardinals | Jul 27, 8:46 PM | 55 | Chicago Cubs -123, St. Louis Cardinals +102 | 11 |
-| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 107 | Houston Astros -107, Los Angeles Angels -112 | 11 |
-| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 109 | Athletics +158, Boston Red Sox -192 | 11 |
-| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 114 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1370 | Arizona Diamondbacks -103, Pittsburgh Pirates -117 | 10 |
-| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1370 | Baltimore Orioles +119, Detroit Tigers -144 | 10 |
-| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1370 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
-| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1370 | DK missing | 4 |
-| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1375 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
-| Cleveland Guardians at Cincinnati Reds | Jul 28, 7:10 PM | 1399 | Cincinnati Reds +112, Cleveland Guardians -135 | 8 |
+| Chicago Cubs at St. Louis Cardinals | Jul 27, 8:46 PM | 38 | Chicago Cubs -123, St. Louis Cardinals +102 | 9 |
+| Houston Astros at Los Angeles Angels | Jul 27, 9:38 PM | 90 | Houston Astros -112, Los Angeles Angels -108 | 11 |
+| Boston Red Sox at Athletics | Jul 27, 9:40 PM | 92 | Athletics +158, Boston Red Sox -192 | 11 |
+| Milwaukee Brewers at San Francisco Giants | Jul 27, 9:45 PM | 97 | Milwaukee Brewers -142, San Francisco Giants +118 | 11 |
+| Arizona Diamondbacks at Pittsburgh Pirates | Jul 28, 6:41 PM | 1353 | Arizona Diamondbacks -103, Pittsburgh Pirates -117 | 10 |
+| Baltimore Orioles at Detroit Tigers | Jul 28, 6:41 PM | 1353 | Baltimore Orioles +113, Detroit Tigers -136 | 10 |
+| Philadelphia Phillies at Miami Marlins | Jul 28, 6:41 PM | 1353 | Miami Marlins -110, Philadelphia Phillies -110 | 11 |
+| Texas Rangers at Tampa Bay Rays | Jul 28, 6:41 PM | 1353 | DK missing | 4 |
+| Toronto Blue Jays at Washington Nationals | Jul 28, 6:46 PM | 1358 | Toronto Blue Jays +118, Washington Nationals -142 | 10 |
+| Atlanta Braves at New York Mets | Jul 28, 7:11 PM | 1383 | Atlanta Braves -157, New York Mets +130 | 10 |
+| New York Yankees at Chicago White Sox | Jul 28, 7:41 PM | 1413 | Chicago White Sox +114, New York Yankees -137 | 10 |
+| Kansas City Royals at Minnesota Twins | Jul 28, 7:41 PM | 1413 | Kansas City Royals +129, Minnesota Twins -156 | 10 |
 
 ## Next Soccer Windows
 _No rows._

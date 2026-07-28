@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-27T23:52:58.082Z
+Updated: 2026-07-28T00:08:40.197Z
 
 ## Summary
 - Total tracked picks: 72
@@ -87,31 +87,32 @@ Updated: 2026-07-27T23:52:58.082Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-27T23:52:57.121Z
-- Current candidates: 57
-- Passed / blocked: 1 / 56
+- Saved: 2026-07-28T00:08:39.376Z
+- Current candidates: 53
+- Passed / blocked: 0 / 53
 
 ### Top Blockers
-- Minimum edge: 51
-- Positive EV: 46
-- Beats consensus: 30
-- Model ready: 21
-- Pregame: 19
+- Minimum edge: 46
+- Positive EV: 42
+- Beats consensus: 28
+- Model ready: 23
+- Pregame: 21
 - DraftKings line: 11
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Atlanta Braves | New York Mets vs Atlanta Braves | Game too stale/live | +310 | 40.7% | $66.76 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Game too stale/live | +240 | 38.3% | $30.24 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Philadelphia Phillies | Miami Marlins vs Philadelphia Phillies | Game too stale/live | +380 | 24.0% | $15.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Game too stale/live | +145 | 42.6% | $4.28 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | New York Mets | New York Mets vs Atlanta Braves | Game too stale/live | -133 | 59.3% | $3.93 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Game too stale/live | +475 | 24.9% | $43.16 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Philadelphia Phillies | Miami Marlins vs Philadelphia Phillies | Game too stale/live | +575 | 18.9% | $27.40 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Pittsburgh Pirates vs Arizona Diamondbacks | Game too stale/live | -182 | 75.1% | $16.37 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Washington Nationals | Washington Nationals vs Toronto Blue Jays | Game too stale/live | +230 | 34.8% | $14.95 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Detroit Tigers | Detroit Tigers vs Baltimore Orioles | Game too stale/live | +255 | 31.4% | $11.55 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Game too stale/live | +123 | 46.8% | $4.47 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Atlanta Braves | New York Mets vs Atlanta Braves | Game too stale/live | +107 | 49.9% | $3.23 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +163 | 38.9% | $2.32 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +125 | 45.4% | $2.21 | Edge under 1.5% — inside vig noise. |
+| MLB | New York Mets | New York Mets vs Atlanta Braves | Game too stale/live | +105 | 50.1% | $2.77 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Athletics | Athletics vs Boston Red Sox | Minimum edge | +164 | 38.8% | $2.46 | Edge under 1.5% — inside vig noise. |
 | MLB | Colorado Rockies | San Diego Padres vs Colorado Rockies | Minimum edge | +162 | 38.9% | $2.04 | Edge under 1.5% — inside vig noise. |
-| MLB | Cincinnati Reds | Cincinnati Reds vs Cleveland Guardians | Minimum edge | +117 | 46.2% | $0.25 | Edge under 1.5% — inside vig noise. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.

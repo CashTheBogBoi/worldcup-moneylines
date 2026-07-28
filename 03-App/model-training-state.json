@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-27T23:52:57.172Z",
+  "savedAt": "2026-07-28T00:08:39.388Z",
   "modelPicks": [
     {
       "id": "model-1785173422047-352224",
@@ -102,7 +102,8 @@
       "note": "",
       "closeBook": "BetRivers",
       "closedAt": "2026-07-27T23:52:56.976Z",
-      "autoClosed": true
+      "autoClosed": true,
+      "closeFrozenAt": "2026-07-28T00:07:39.735Z"
     },
     {
       "id": "model-1785161232846-491314",
@@ -7893,30 +7894,30 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-27T23:52:57.121Z",
-    "totalCandidates": 57,
-    "passed": 1,
-    "blocked": 56,
+    "savedAt": "2026-07-28T00:08:39.376Z",
+    "totalCandidates": 53,
+    "passed": 0,
+    "blocked": 53,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 51
-      },
-      {
-        "label": "Positive EV",
         "count": 46
       },
       {
+        "label": "Positive EV",
+        "count": 42
+      },
+      {
         "label": "Beats consensus",
-        "count": 30
+        "count": 28
       },
       {
         "label": "Model ready",
-        "count": 21
+        "count": 23
       },
       {
         "label": "Pregame",
-        "count": 19
+        "count": 21
       },
       {
         "label": "DraftKings line",
@@ -7926,26 +7927,13 @@
     "watchlist": [
       {
         "sport": "MLB",
-        "match": "New York Mets vs Atlanta Braves",
-        "selection": "Atlanta Braves",
-        "book": "Fanatics",
-        "price": 310,
-        "probability": 0.4067326966028987,
-        "ev": 66.76040560718846,
-        "edge": 0.16283025757850844,
-        "blocker": "Pregame",
-        "group": "Game too stale/live",
-        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Detroit Tigers vs Baltimore Orioles",
-        "selection": "Detroit Tigers",
-        "book": "Caesars",
-        "price": 240,
-        "probability": 0.38305839553872817,
-        "ev": 30.239854483167576,
-        "edge": 0.08894074847990463,
+        "match": "Pittsburgh Pirates vs Arizona Diamondbacks",
+        "selection": "Pittsburgh Pirates",
+        "book": "BetMGM",
+        "price": 475,
+        "probability": 0.24897333594957202,
+        "ev": 43.159668171003915,
+        "edge": 0.07506029247131116,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -7954,11 +7942,24 @@
         "sport": "MLB",
         "match": "Miami Marlins vs Philadelphia Phillies",
         "selection": "Philadelphia Phillies",
-        "book": "Caesars",
-        "price": 380,
-        "probability": 0.23990780979725934,
-        "ev": 15.155748702684491,
-        "edge": 0.031574476463926,
+        "book": "Fanatics",
+        "price": 575,
+        "probability": 0.1887333806590018,
+        "ev": 27.39503194482623,
+        "edge": 0.040585232510853664,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Pittsburgh Pirates vs Arizona Diamondbacks",
+        "selection": "Arizona Diamondbacks",
+        "book": "MyBookie.ag",
+        "price": -182,
+        "probability": 0.7510266640504281,
+        "ev": 16.367867726494904,
+        "edge": 0.1056365931284422,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -7968,10 +7969,36 @@
         "match": "Washington Nationals vs Toronto Blue Jays",
         "selection": "Washington Nationals",
         "book": "BetMGM",
-        "price": 145,
-        "probability": 0.4256475252682696,
-        "ev": 4.283643690726059,
-        "edge": 0.01748425996214714,
+        "price": 230,
+        "probability": 0.3483191531663227,
+        "ev": 14.9453205448865,
+        "edge": 0.04528885013601969,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Detroit Tigers vs Baltimore Orioles",
+        "selection": "Detroit Tigers",
+        "book": "FanDuel",
+        "price": 255,
+        "probability": 0.31422324151192094,
+        "ev": 11.549250736731935,
+        "edge": 0.0325331006668505,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
+      {
+        "sport": "MLB",
+        "match": "Chicago White Sox vs New York Yankees",
+        "selection": "Chicago White Sox",
+        "book": "LowVig.ag",
+        "price": 123,
+        "probability": 0.4684741541506897,
+        "ev": 4.469736375603809,
+        "edge": 0.020043660877147096,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -7979,12 +8006,12 @@
       {
         "sport": "MLB",
         "match": "New York Mets vs Atlanta Braves",
-        "selection": "New York Mets",
-        "book": "MyBookie.ag",
-        "price": -133,
-        "probability": 0.5932673033971013,
-        "ev": 3.9332945049057173,
-        "edge": 0.022451852753324508,
+        "selection": "Atlanta Braves",
+        "book": "BetRivers",
+        "price": 107,
+        "probability": 0.49870485620451177,
+        "ev": 3.2319052343339365,
+        "edge": 0.015613068764898264,
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
@@ -8004,26 +8031,26 @@
       },
       {
         "sport": "MLB",
-        "match": "Athletics vs Boston Red Sox",
-        "selection": "Athletics",
-        "book": "LowVig.ag",
-        "price": 163,
-        "probability": 0.38904048919833745,
-        "ev": 2.3176486591627423,
-        "edge": 0.008812352316208194,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "match": "New York Mets vs Atlanta Braves",
+        "selection": "New York Mets",
+        "book": "MyBookie.ag",
+        "price": 105,
+        "probability": 0.5012951437954882,
+        "ev": 2.765504478075087,
+        "edge": 0.013490265746707752,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Chicago White Sox vs New York Yankees",
-        "selection": "Chicago White Sox",
-        "book": "BetRivers",
-        "price": 125,
-        "probability": 0.45428385402888444,
-        "ev": 2.2138671564990062,
-        "edge": 0.009839409584440018,
+        "match": "Athletics vs Boston Red Sox",
+        "selection": "Athletics",
+        "book": "LowVig.ag",
+        "price": 164,
+        "probability": 0.38808914825945207,
+        "ev": 2.45553514049535,
+        "edge": 0.009301269471573281,
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
@@ -8040,24 +8067,153 @@
         "blocker": "Minimum edge",
         "group": "Minimum edge",
         "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Cincinnati Reds vs Cleveland Guardians",
-        "selection": "Cincinnati Reds",
-        "book": "BetUS",
-        "price": 117,
-        "probability": 0.4619974224898994,
-        "ev": 0.2534406803081737,
-        "edge": 0.001167929402341783,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
       }
     ]
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1785197319325",
+      "at": "2026-07-28T00:08:39.325Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapshot-1785197259734",
+      "at": "2026-07-28T00:07:39.734Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1785196376975",
       "at": "2026-07-27T23:52:56.975Z",
@@ -9978,148 +10134,6 @@
     {
       "id": "snapshot-1785105728714",
       "at": "2026-07-26T22:42:08.714Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Ivory Coast vs Norway",
-          "commenceTime": "2026-06-30T17:00:00.000Z",
-          "best": [
-            {
-              "name": "Ivory Coast",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 250,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Norway",
-              "price": 110,
-              "book": "Market note"
-            }
-          ]
-        },
-        {
-          "match": "France vs Sweden",
-          "commenceTime": "2026-06-30T21:00:00.000Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -180,
-              "book": "Market note"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Sweden",
-              "price": 575,
-              "book": "Bovada research"
-            }
-          ]
-        },
-        {
-          "match": "Mexico vs Ecuador",
-          "commenceTime": "2026-07-01T01:00:00.000Z",
-          "best": [
-            {
-              "name": "Mexico",
-              "price": 140,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "Market note"
-            },
-            {
-              "name": "Ecuador",
-              "price": 235,
-              "book": "Market note"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1785104768737",
-      "at": "2026-07-26T22:26:08.737Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Ivory Coast vs Norway",
-          "commenceTime": "2026-06-30T17:00:00.000Z",
-          "best": [
-            {
-              "name": "Ivory Coast",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 250,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Norway",
-              "price": 110,
-              "book": "Market note"
-            }
-          ]
-        },
-        {
-          "match": "France vs Sweden",
-          "commenceTime": "2026-06-30T21:00:00.000Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -180,
-              "book": "Market note"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Sweden",
-              "price": 575,
-              "book": "Bovada research"
-            }
-          ]
-        },
-        {
-          "match": "Mexico vs Ecuador",
-          "commenceTime": "2026-07-01T01:00:00.000Z",
-          "best": [
-            {
-              "name": "Mexico",
-              "price": 140,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "Market note"
-            },
-            {
-              "name": "Ecuador",
-              "price": 235,
-              "book": "Market note"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1785104708717",
-      "at": "2026-07-26T22:25:08.717Z",
       "source": "local",
       "eventCount": 3,
       "lines": [

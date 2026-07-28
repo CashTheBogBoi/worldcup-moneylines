@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-07-27
 
-Generated: 2026-07-27T23:51:41.370Z
+Generated: 2026-07-28T00:07:54.734Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -25,6 +25,7 @@ and Obsidian vault aligned without Firebase or cloud storage.
 - **High MLB Market move** — Philadelphia Phillies at Miami Marlins: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Toronto Blue Jays at Washington Nationals: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Atlanta Braves at New York Mets: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — New York Yankees at Chicago White Sox: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Chicago Cubs at St. Louis Cardinals: Game status is Delayed Start. Do not track this as a pregame pick; any current line is live-market contaminated.
 - **High MLB Market move** — Cleveland Guardians at Cincinnati Reds: Game status is Postponed. Do not track this as a pregame pick; any current line is live-market contaminated.
 
@@ -33,12 +34,12 @@ and Obsidian vault aligned without Firebase or cloud storage.
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | Seattle Mariners at Texas Rangers | Final | George Kirby | Kumar Rocker | 3-7 |
-| Baltimore Orioles at Detroit Tigers | In Progress | Kyle Bradish | Keider Montero | 4-1 |
-| Arizona Diamondbacks at Pittsburgh Pirates | In Progress | Merrill Kelly | Mitch Keller | 0-0 |
+| Baltimore Orioles at Detroit Tigers | In Progress | Kyle Bradish | Keider Montero | 5-3 |
+| Arizona Diamondbacks at Pittsburgh Pirates | In Progress | Merrill Kelly | Mitch Keller | 2-0 |
 | Philadelphia Phillies at Miami Marlins | In Progress | Zack Wheeler | Tyler Phillips | 2-5 |
-| Toronto Blue Jays at Washington Nationals | In Progress | Max Scherzer | Eddy Yean | 2-1 |
-| Atlanta Braves at New York Mets | In Progress | Martín Pérez | Zac Thornton | 1-3 |
-| New York Yankees at Chicago White Sox | Warmup | Max Fried | Noah Schultz | 0-0 |
+| Toronto Blue Jays at Washington Nationals | In Progress | Max Scherzer | Eddy Yean | 3-1 |
+| Atlanta Braves at New York Mets | In Progress | Martín Pérez | Zac Thornton | 3-3 |
+| New York Yankees at Chicago White Sox | In Progress | Max Fried | Noah Schultz | 0-0 |
 | Chicago Cubs at St. Louis Cardinals | Delayed Start | David Peterson | Matthew Liberatore | 0-0 |
 | Houston Astros at Los Angeles Angels | Pre-Game | Tatsuya Imai | Walbert Ureña | 0-0 |
 | Boston Red Sox at Athletics | Pre-Game | Payton Tolle | Jack Perkins | 0-0 |
@@ -49,23 +50,21 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:44Z | Baltimore Orioles -170, Detroit Tigers +130 |
-| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins -493, Philadelphia Phillies +330 |
-| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:42:04Z | Arizona Diamondbacks -101, Pittsburgh Pirates -128 |
-| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays -174, Washington Nationals +133 |
-| Atlanta Braves at New York Mets | 2026-07-27T23:10:03Z | Atlanta Braves +139, New York Mets -183 |
-| New York Yankees at Chicago White Sox | 2026-07-28T00:00:00Z | Chicago White Sox +119, New York Yankees -144 |
-| Cleveland Guardians at Cincinnati Reds | 2026-07-28T00:15:00Z | Cincinnati Reds -161, Cleveland Guardians +133 |
+| Baltimore Orioles at Detroit Tigers | 2026-07-27T22:40:44Z | Baltimore Orioles -338, Detroit Tigers +242 |
+| Philadelphia Phillies at Miami Marlins | 2026-07-27T22:41:00Z | Miami Marlins -850, Philadelphia Phillies +489 |
+| Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-27T22:42:04Z | Arizona Diamondbacks -546, Pittsburgh Pirates +357 |
+| Toronto Blue Jays at Washington Nationals | 2026-07-27T22:46:00Z | Toronto Blue Jays -264, Washington Nationals +195 |
+| Atlanta Braves at New York Mets | 2026-07-27T23:10:03Z | Atlanta Braves +100, New York Mets -131 |
+| New York Yankees at Chicago White Sox | 2026-07-28T00:00:19Z | Chicago White Sox -105, New York Yankees -124 |
 | Chicago Cubs at St. Louis Cardinals | 2026-07-28T00:46:00Z | Chicago Cubs -123, St. Louis Cardinals +102 |
-| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -107, Los Angeles Angels -112 |
+| Houston Astros at Los Angeles Angels | 2026-07-28T01:38:00Z | Houston Astros -112, Los Angeles Angels -108 |
 | Boston Red Sox at Athletics | 2026-07-28T01:40:00Z | Athletics +158, Boston Red Sox -192 |
 | Milwaukee Brewers at San Francisco Giants | 2026-07-28T01:45:00Z | Milwaukee Brewers -142, San Francisco Giants +118 |
 | Arizona Diamondbacks at Pittsburgh Pirates | 2026-07-28T22:41:00Z | Arizona Diamondbacks -103, Pittsburgh Pirates -117 |
-| Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | Baltimore Orioles +119, Detroit Tigers -144 |
+| Baltimore Orioles at Detroit Tigers | 2026-07-28T22:41:00Z | Baltimore Orioles +113, Detroit Tigers -136 |
 | Philadelphia Phillies at Miami Marlins | 2026-07-28T22:41:00Z | Miami Marlins -110, Philadelphia Phillies -110 |
 | Texas Rangers at Tampa Bay Rays | 2026-07-28T22:41:00Z | none |
 | Toronto Blue Jays at Washington Nationals | 2026-07-28T22:46:00Z | Toronto Blue Jays +118, Washington Nationals -142 |
-| Cleveland Guardians at Cincinnati Reds | 2026-07-28T23:10:00Z | Cincinnati Reds +112, Cleveland Guardians -135 |
 | Atlanta Braves at New York Mets | 2026-07-28T23:11:00Z | Atlanta Braves -157, New York Mets +130 |
 | New York Yankees at Chicago White Sox | 2026-07-28T23:41:00Z | Chicago White Sox +114, New York Yankees -137 |
 | Kansas City Royals at Minnesota Twins | 2026-07-28T23:41:00Z | Kansas City Royals +129, Minnesota Twins -156 |
