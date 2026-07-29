@@ -1,22 +1,22 @@
 {
   "dateKey": "2026-07-28",
-  "generatedAt": "2026-07-28T17:05:20.034Z",
+  "generatedAt": "2026-07-29T03:56:09.891Z",
   "summary": {
-    "picks": 1,
-    "settled": 1,
-    "wins": 1,
+    "picks": 3,
+    "settled": 2,
+    "wins": 2,
     "misses": 0,
     "winRate": 1,
     "excludedFromCalibration": 0,
-    "avgClv": -0.007256894049346874,
-    "avgBrier": 0.3467201883217599,
-    "modelBrier": 0.23198278878522388,
-    "marketBrier": 0.3900719090984944,
+    "avgClv": -0.0018748003019393538,
+    "avgBrier": 0.3390131656215273,
+    "modelBrier": 0.23997812267928129,
+    "marketBrier": 0.3759167576057718,
     "highConfidenceMisses": 0
   },
   "missPatterns": [],
   "recommendations": [
     "Line selection is hurting the model: average CLV is negative. Prioritize freshness, DraftKings comparison, and stale-line blocks before changing probability math."
   ],
-  "reviewedPickCount": 1
+  "reviewedPickCount": 3
 }

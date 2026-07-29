@@ -1,27 +1,27 @@
 # Model Quality Review - 2026-07-28
 
-Generated: 2026-07-28T17:05:20.033Z
+Generated: 2026-07-29T03:56:09.889Z
 
 ## Executive Read
-- Reviewed picks: 1
-- Settled: 1
-- Win rate: 100.0% (n=1, noise)
+- Reviewed picks: 3
+- Settled: 2
+- Win rate: 100.0% (n=2, noise)
 - Excluded from calibration (market-only / post-start / contaminated): 0
-- Average CLV: -0.7 pts
-- Average Brier (blend): 0.347
-- Model-only vs market Brier: 0.232 vs 0.390 (model must be LOWER to earn blend weight)
+- Average CLV: -0.2 pts
+- Average Brier (blend): 0.339
+- Model-only vs market Brier: 0.240 vs 0.376 (model must be LOWER to earn blend weight)
 - High-confidence misses: 0
-- Latest data snapshot: 2026-07-28T17:05:09.707Z
+- Latest data snapshot: 2026-07-29T03:56:03.112Z
 
 ## Sport Quality
 | Sport | Picks | Settled | Win % | Avg CLV | Brier |
 | --- | --- | --- | --- | --- | --- |
-| MLB | 1 | 1 | 100.0% (n=1, noise) | -0.7 pts | 0.347 |
+| MLB | 3 | 2 | 100.0% (n=2, noise) | -0.2 pts | 0.339 |
 
 ## Confidence Buckets
 | Bucket | Picks | Settled | Win % | Avg CLV | Brier |
 | --- | --- | --- | --- | --- | --- |
-| Under 55% | 1 | 1 | 100.0% (n=1, noise) | -0.7 pts | 0.347 |
+| Under 55% | 3 | 2 | 100.0% (n=2, noise) | -0.2 pts | 0.339 |
 
 ## Miss Patterns
 _No rows._

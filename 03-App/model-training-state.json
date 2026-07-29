@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-07-28T17:39:23.527Z",
+  "savedAt": "2026-07-29T16:11:03.452Z",
   "modelPicks": [
     {
       "id": "model-1785260123815-31826",
@@ -18,7 +18,7 @@
       "researchProbability": 0.5020306670352694,
       "marketProbability": 0.3985337863910814,
       "edge": 0.021182200100515525,
-      "result": "pending",
+      "result": "win",
       "source": "25% strength model + 75% market no-vig",
       "readyGateSnapshot": {
         "ready": true,
@@ -96,7 +96,28 @@
       "note": "",
       "closeBook": "LowVig.ag",
       "closedAt": "2026-07-28T17:39:23.484Z",
-      "autoClosed": true
+      "autoClosed": true,
+      "autoGraded": true,
+      "gradedAt": "2026-07-28T20:47:56.732Z",
+      "gradedBy": "scripts/grade-finished-picks.mjs",
+      "finalScore": {
+        "id": "979a29c09433f74c9cf81057e852ddf2",
+        "homeTeam": "Cincinnati Reds",
+        "awayTeam": "Cleveland Guardians",
+        "scores": [
+          {
+            "name": "Cincinnati Reds",
+            "score": "5"
+          },
+          {
+            "name": "Cleveland Guardians",
+            "score": "6"
+          }
+        ],
+        "completed": true,
+        "lastUpdate": "2026-07-28T20:47:50Z"
+      },
+      "closeFrozenAt": "2026-07-28T20:47:56.732Z"
     },
     {
       "id": "model-1785260123815-637985",
@@ -114,7 +135,7 @@
       "researchProbability": 0.42823471274584357,
       "marketProbability": 0.348806541373575,
       "edge": 0.017786391234186016,
-      "result": "pending",
+      "result": "loss",
       "source": "25% strength model + 75% market no-vig",
       "readyGateSnapshot": {
         "ready": true,
@@ -187,7 +208,28 @@
       "note": "",
       "closeBook": "LowVig.ag",
       "closedAt": "2026-07-28T17:39:23.484Z",
-      "autoClosed": true
+      "autoClosed": true,
+      "autoGraded": true,
+      "gradedAt": "2026-07-29T08:40:25.586Z",
+      "gradedBy": "scripts/grade-finished-picks.mjs",
+      "finalScore": {
+        "id": "f829a782d542dc9d3eb459cddb29492c",
+        "homeTeam": "San Diego Padres",
+        "awayTeam": "Colorado Rockies",
+        "scores": [
+          {
+            "name": "San Diego Padres",
+            "score": "8"
+          },
+          {
+            "name": "Colorado Rockies",
+            "score": "7"
+          }
+        ],
+        "completed": true,
+        "lastUpdate": "2026-07-29T08:40:04Z"
+      },
+      "closeFrozenAt": "2026-07-29T08:40:25.586Z"
     },
     {
       "id": "model-1785173422047-352224",
@@ -8101,37 +8143,50 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-07-28T17:39:23.512Z",
-    "totalCandidates": 41,
-    "passed": 2,
-    "blocked": 39,
+    "savedAt": "2026-07-29T16:11:03.448Z",
+    "totalCandidates": 15,
+    "passed": 0,
+    "blocked": 15,
     "blockers": [
-      {
-        "label": "Minimum edge",
-        "count": 39
-      },
-      {
-        "label": "Positive EV",
-        "count": 33
-      },
-      {
-        "label": "Beats consensus",
-        "count": 22
-      },
       {
         "label": "Model ready",
         "count": 15
       },
       {
-        "label": "DraftKings line",
-        "count": 9
+        "label": "Pregame",
+        "count": 15
       },
       {
-        "label": "Pregame",
+        "label": "Minimum edge",
+        "count": 14
+      },
+      {
+        "label": "DraftKings line",
+        "count": 13
+      },
+      {
+        "label": "Positive EV",
+        "count": 13
+      },
+      {
+        "label": "Beats consensus",
         "count": 9
       }
     ],
     "watchlist": [
+      {
+        "sport": "MLB",
+        "match": "Philadelphia Phillies vs Pittsburgh Pirates",
+        "selection": "Pittsburgh Pirates",
+        "book": "VegasInsider consensus",
+        "price": 185,
+        "probability": 0.367048584918406,
+        "ev": 4.608846701745705,
+        "edge": 0.016171391935949853,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
+      },
       {
         "sport": "Soccer",
         "match": "Ivory Coast vs Norway",
@@ -8144,71 +8199,6 @@
         "blocker": "Pregame",
         "group": "Game too stale/live",
         "action": "Skip if already started. If pregame, refresh odds before reconsidering."
-      },
-      {
-        "sport": "MLB",
-        "match": "Minnesota Twins vs Kansas City Royals",
-        "selection": "Kansas City Royals",
-        "book": "BetOnline.ag",
-        "price": 154,
-        "probability": 0.399760645207123,
-        "ev": 1.5392038826092431,
-        "edge": 0.0060598578055481855,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "New York Mets vs Atlanta Braves",
-        "selection": "New York Mets",
-        "book": "Caesars",
-        "price": 140,
-        "probability": 0.41932599758192185,
-        "ev": 0.6382394196612466,
-        "edge": 0.0026593309152551647,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Chicago White Sox vs New York Yankees",
-        "selection": "Chicago White Sox",
-        "book": "BetRivers",
-        "price": 110,
-        "probability": 0.4780837535757062,
-        "ev": 0.39758825089830907,
-        "edge": 0.001893277385230041,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Pittsburgh Pirates vs Arizona Diamondbacks",
-        "selection": "Pittsburgh Pirates",
-        "book": "BetUS",
-        "price": -109,
-        "probability": 0.5227159851355315,
-        "ev": 0.2271934801156732,
-        "edge": 0.0011848846570626792,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Tampa Bay Rays vs Texas Rangers",
-        "selection": "Texas Rangers",
-        "book": "LowVig.ag",
-        "price": 154,
-        "probability": 0.3938813044716485,
-        "ev": 0.04585133579871581,
-        "edge": 0.00018051707007366025,
-        "blocker": "Model ready",
-        "group": "Needs starter",
-        "action": "Confirm probable starters or use the manual starter override."
       }
     ]
   },

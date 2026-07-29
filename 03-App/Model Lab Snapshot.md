@@ -1,13 +1,13 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-28T17:39:24.337Z
+Updated: 2026-07-29T16:11:04.264Z
 
 ## Summary
 - Total tracked picks: 74
-- Pending: 3
-- Graded: 71
-- Wins: 21
-- Losses: 49
+- Pending: 1
+- Graded: 73
+- Wins: 22
+- Losses: 50
 - Draws: 1
 - Intel review decisions saved: 22
 - Intel confirmed / denied / pending: 21 / 1 / 0
@@ -15,8 +15,8 @@ Updated: 2026-07-28T17:39:24.337Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +148 | +147 | 0.2 pts | 42.4% | 25% strength model + 75% market no-vig |
-| MLB | San Diego Padres vs Colorado Rockies | Colorado Rockies | pending | +185 | +185 | 0.0 pts | 36.9% | 25% strength model + 75% market no-vig |
+| MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | win | +148 | +147 | 0.2 pts | 42.4% | 25% strength model + 75% market no-vig |
+| MLB | San Diego Padres vs Colorado Rockies | Colorado Rockies | loss | +185 | +185 | 0.0 pts | 36.9% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +145 | 0.0 pts | 42.5% | 25% strength model + 75% market no-vig |
 | MLB | Miami Marlins vs Philadelphia Phillies | Miami Marlins | win | +160 | +165 | -0.7 pts | 41.1% | 25% strength model + 75% market no-vig |
 | MLB | San Francisco Giants vs Los Angeles Angels | San Francisco Giants | loss | +113 | - | - | 48.7% | 25% strength model + 75% market no-vig |
@@ -83,31 +83,27 @@ Updated: 2026-07-28T17:39:24.337Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 49 | 46 | 23.9% | -0.1 pts | 0.199 | 0.0% |
+| Passed gate | 49 | 48 | 25.0% | -0.1 pts | 0.200 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-28T17:39:23.512Z
-- Current candidates: 41
-- Passed / blocked: 2 / 39
+- Saved: 2026-07-29T16:11:03.448Z
+- Current candidates: 15
+- Passed / blocked: 0 / 15
 
 ### Top Blockers
-- Minimum edge: 39
-- Positive EV: 33
-- Beats consensus: 22
 - Model ready: 15
-- DraftKings line: 9
-- Pregame: 9
+- Pregame: 15
+- Minimum edge: 14
+- DraftKings line: 13
+- Positive EV: 13
+- Beats consensus: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
+| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +185 | 36.7% | $4.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Kansas City Royals | Minnesota Twins vs Kansas City Royals | Minimum edge | +154 | 40.0% | $1.54 | Edge under 1.5% — inside vig noise. |
-| MLB | New York Mets | New York Mets vs Atlanta Braves | Minimum edge | +140 | 41.9% | $0.64 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago White Sox | Chicago White Sox vs New York Yankees | Minimum edge | +110 | 47.8% | $0.40 | Edge under 1.5% — inside vig noise. |
-| MLB | Pittsburgh Pirates | Pittsburgh Pirates vs Arizona Diamondbacks | Minimum edge | -109 | 52.3% | $0.23 | Edge under 1.5% — inside vig noise. |
-| MLB | Texas Rangers | Tampa Bay Rays vs Texas Rangers | Needs starter | +154 | 39.4% | $0.05 | Confirm probable starters or use the manual starter override. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
