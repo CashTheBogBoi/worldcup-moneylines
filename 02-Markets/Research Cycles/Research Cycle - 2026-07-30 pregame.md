@@ -1,7 +1,7 @@
-# Research Cycle - Pregame confirmation - 2026-07-29
+# Research Cycle - Pregame confirmation - 2026-07-30
 
-Generated: 2026-07-30T03:55:20.571Z
-Local time: 11:55 PM
+Generated: 2026-07-30T20:06:54.498Z
+Local time: 4:06 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,22 +13,25 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-30T03:55:15.801Z
+- Snapshot generated: 2026-07-30T20:06:44.671Z
 - MLB odds events: 0
 - Soccer odds events: 0
-- High-impact intel blocks: 3
-- Intel pending / confirmed / denied: 3 / 0 / 0
+- High-impact intel blocks: 4
+- Intel pending / confirmed / denied: 4 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 49 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Houston Astros at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Boston Red Sox at Athletics — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Seattle Mariners at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Kansas City Royals at Minnesota Twins — Game status is Game Over. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Chicago White Sox — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Chicago Cubs at St. Louis Cardinals — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Starters / pending:** San Francisco Giants at San Diego Padres — Official starter is still TBD (TBD vs JP Sears). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## Missing MLB Starters
-_No rows._
+| Game | Start | Away starter | Home starter | Status |
+| --- | --- | --- | --- | --- |
+| San Francisco Giants at San Diego Padres | Jul 30, 9:40 PM | TBD | JP Sears | Scheduled |
 
 ## Next MLB Windows
 _No rows._

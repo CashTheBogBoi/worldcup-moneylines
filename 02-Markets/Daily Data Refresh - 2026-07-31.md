@@ -1,6 +1,6 @@
-# Daily Data Refresh - 2026-07-29
+# Daily Data Refresh - 2026-07-31
 
-Generated: 2026-07-30T03:55:31.774Z
+Generated: 2026-07-31T17:32:05.912Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -25,30 +25,28 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Houston Astros at Los Angeles Angels: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Boston Red Sox at Athletics: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Seattle Mariners at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Starters** — Philadelphia Phillies at Baltimore Orioles: Official starter is still TBD (TBD vs Brandon Young). Block Bankroll Watch promotion until both starters are confirmed.
+- **High MLB Starters** — Detroit Tigers at Athletics: Official starter is still TBD (TBD vs Jeffrey Springs). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Philadelphia Phillies at Miami Marlins | Final | Jesús Luzardo | Ryan Gusto | 6-8 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Final | Eduardo Rodriguez | Jared Jones | 3-0 |
-| Toronto Blue Jays at Washington Nationals | Final | Trey Yesavage | Zack Littell | 5-2 |
-| Baltimore Orioles at Detroit Tigers | Final | Trevor Rogers | Tarik Skubal | 10-9 |
-| Atlanta Braves at New York Mets | Final | AJ Smith-Shawver | Sean Manaea | 2-3 |
-| Atlanta Braves at New York Mets | Final | Chris Sale | Christian Scott | 1-0 |
-| Milwaukee Brewers at San Francisco Giants | Final | Thomas Pannone | Logan Webb | 3-16 |
-| Colorado Rockies at San Diego Padres | Final | Gabriel Hughes | Kyle Hart | 1-3 |
-| Texas Rangers at Tampa Bay Rays | Final | MacKenzie Gore | Casey Legumina | 0-3 |
-| Cleveland Guardians at Cincinnati Reds | Final | Joey Cantillo | Brady Singer | 6-1 |
-| Kansas City Royals at Minnesota Twins | Final | Randy Dobnak | Joe Ryan | 4-0 |
-| New York Yankees at Chicago White Sox | Final | Cam Schlittler | Davis Martin | 5-6 |
-| Chicago Cubs at St. Louis Cardinals | Final | Matthew Boyd | Dustin May | 2-3 |
-| Houston Astros at Los Angeles Angels | In Progress | Hayden Wesneski | Grayson Rodriguez | 6-3 |
-| Boston Red Sox at Athletics | In Progress | Patrick Sandoval | Jacob Lopez | 2-2 |
-| Seattle Mariners at Los Angeles Dodgers | In Progress | Emerson Hancock | Eric Lauer | 0-3 |
+| New York Yankees at Chicago Cubs | Pre-Game | Will Warren | Shota Imanaga | 0-0 |
+| Pittsburgh Pirates at Cincinnati Reds | Scheduled | Paul Skenes | Hunter Greene |  |
+| Philadelphia Phillies at Baltimore Orioles | Scheduled | TBD | Brandon Young |  |
+| St. Louis Cardinals at Toronto Blue Jays | Scheduled | Kyle Leahy | Dylan Cease |  |
+| Arizona Diamondbacks at Cleveland Guardians | Scheduled | Mitch Bratt | Tanner Bibee |  |
+| Chicago White Sox at Tampa Bay Rays | Scheduled | Erick Fedde | Nick Martinez |  |
+| Miami Marlins at New York Mets | Scheduled | Janson Junk | Freddy Peralta |  |
+| Washington Nationals at Atlanta Braves | Scheduled | Foster Griffin | Bryce Elder |  |
+| Texas Rangers at Houston Astros | Scheduled | Nathan Eovaldi | Hunter Brown |  |
+| Kansas City Royals at Colorado Rockies | Scheduled | Michael Wacha | Tomoyuki Sugano |  |
+| Milwaukee Brewers at Los Angeles Angels | Scheduled | Shane Drohan | Ryan Johnson |  |
+| Detroit Tigers at Athletics | Scheduled | TBD | Jeffrey Springs |  |
+| San Francisco Giants at San Diego Padres | Scheduled | Carson Whisenhunt | Bradgley Rodriguez |  |
+| Boston Red Sox at Los Angeles Dodgers | Scheduled | Ranger Suarez | Edgardo Henriquez |  |
+| Minnesota Twins at Seattle Mariners | Scheduled | Zebby Matthews | Bryce Miller |  |
 
 ## DraftKings MLB odds snapshot
 
@@ -92,9 +90,9 @@ Source: https://inside.fifa.com/fifa-world-ranking/men
 
 ## Files written
 
-- `data/daily/2026-07-29/latest.json`
+- `data/daily/2026-07-31/latest.json`
 - `public/data/latest.json`
-- `public/data/daily-2026-07-29.json`
+- `public/data/daily-2026-07-31.json`
 
 Related:
 

@@ -1,6 +1,6 @@
-# Daily Data Refresh - 2026-07-29
+# Daily Data Refresh - 2026-07-30
 
-Generated: 2026-07-30T03:55:31.774Z
+Generated: 2026-07-31T00:12:07.603Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -25,30 +25,24 @@ and Obsidian vault aligned without Firebase or cloud storage.
 
 ## Top intel
 
-- **High MLB Market move** — Houston Astros at Los Angeles Angels: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Boston Red Sox at Athletics: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **High MLB Market move** — Seattle Mariners at Los Angeles Dodgers: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Pittsburgh Pirates at Cincinnati Reds: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Market move** — Washington Nationals at Atlanta Braves: Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **High MLB Starters** — San Francisco Giants at San Diego Padres: Official starter is still TBD (TBD vs JP Sears). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## MLB probable pitchers
 
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
-| Philadelphia Phillies at Miami Marlins | Final | Jesús Luzardo | Ryan Gusto | 6-8 |
-| Arizona Diamondbacks at Pittsburgh Pirates | Final | Eduardo Rodriguez | Jared Jones | 3-0 |
-| Toronto Blue Jays at Washington Nationals | Final | Trey Yesavage | Zack Littell | 5-2 |
-| Baltimore Orioles at Detroit Tigers | Final | Trevor Rogers | Tarik Skubal | 10-9 |
-| Atlanta Braves at New York Mets | Final | AJ Smith-Shawver | Sean Manaea | 2-3 |
-| Atlanta Braves at New York Mets | Final | Chris Sale | Christian Scott | 1-0 |
-| Milwaukee Brewers at San Francisco Giants | Final | Thomas Pannone | Logan Webb | 3-16 |
-| Colorado Rockies at San Diego Padres | Final | Gabriel Hughes | Kyle Hart | 1-3 |
-| Texas Rangers at Tampa Bay Rays | Final | MacKenzie Gore | Casey Legumina | 0-3 |
-| Cleveland Guardians at Cincinnati Reds | Final | Joey Cantillo | Brady Singer | 6-1 |
-| Kansas City Royals at Minnesota Twins | Final | Randy Dobnak | Joe Ryan | 4-0 |
-| New York Yankees at Chicago White Sox | Final | Cam Schlittler | Davis Martin | 5-6 |
-| Chicago Cubs at St. Louis Cardinals | Final | Matthew Boyd | Dustin May | 2-3 |
-| Houston Astros at Los Angeles Angels | In Progress | Hayden Wesneski | Grayson Rodriguez | 6-3 |
-| Boston Red Sox at Athletics | In Progress | Patrick Sandoval | Jacob Lopez | 2-2 |
-| Seattle Mariners at Los Angeles Dodgers | In Progress | Emerson Hancock | Eric Lauer | 0-3 |
+| Texas Rangers at Tampa Bay Rays | Final | Cole Winn | Shane McClanahan | 2-3 |
+| Kansas City Royals at Minnesota Twins | Final | Noah Cameron | Bailey Ober | 3-4 |
+| New York Yankees at Chicago White Sox | Final | Ryan Weathers | Sean Burke | 1-2 |
+| Chicago Cubs at St. Louis Cardinals | Final | Javier Assad | Andre Pallante | 4-2 |
+| Pittsburgh Pirates at Cincinnati Reds | In Progress | Yohan Ramírez | Rhett Lowder | 0-2 |
+| Miami Marlins at New York Mets | Warmup | Eury Pérez | Nolan McLean | 0-0 |
+| Washington Nationals at Atlanta Braves | In Progress | Jake Irvin | Grant Holmes | 3-1 |
+| Boston Red Sox at Athletics | Pre-Game | Sonny Gray | Mason Barnett | 0-0 |
+| San Francisco Giants at San Diego Padres | Pre-Game | TBD | JP Sears | 0-0 |
+| Seattle Mariners at Los Angeles Dodgers | Pre-Game | Bryan Woo | Roki Sasaki | 0-0 |
 
 ## DraftKings MLB odds snapshot
 
@@ -92,9 +86,9 @@ Source: https://inside.fifa.com/fifa-world-ranking/men
 
 ## Files written
 
-- `data/daily/2026-07-29/latest.json`
+- `data/daily/2026-07-30/latest.json`
 - `public/data/latest.json`
-- `public/data/daily-2026-07-29.json`
+- `public/data/daily-2026-07-30.json`
 
 Related:
 

@@ -1,7 +1,7 @@
-# Research Cycle - Morning slate build - 2026-07-29
+# Research Cycle - Morning slate build - 2026-07-31
 
-Generated: 2026-07-30T03:55:11.978Z
-Local time: 11:55 PM
+Generated: 2026-07-31T12:30:22.028Z
+Local time: 8:30 AM
 
 ## Goal
 Build the day from scratch: odds, probable pitchers, early soccer prices, and high-impact intel.
@@ -13,22 +13,22 @@ Build the day from scratch: odds, probable pitchers, early soccer prices, and hi
 - [ ] Only track candidates that are pregame and model-ready.
 
 ## System Read
-- Snapshot generated: 2026-07-30T03:55:03.375Z
+- Snapshot generated: 2026-07-31T12:30:08.254Z
 - MLB odds events: 0
 - Soccer odds events: 0
-- High-impact intel blocks: 3
-- Intel pending / confirmed / denied: 3 / 0 / 0
+- High-impact intel blocks: 1
+- Intel pending / confirmed / denied: 1 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 49 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Houston Astros at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Boston Red Sox at Athletics — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Seattle Mariners at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Starters / pending:** Philadelphia Phillies at Baltimore Orioles — Official starter is still TBD (TBD vs Brandon Young). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## Missing MLB Starters
-_No rows._
+| Game | Start | Away starter | Home starter | Status |
+| --- | --- | --- | --- | --- |
+| Philadelphia Phillies at Baltimore Orioles | Jul 31, 7:05 PM | TBD | Brandon Young | Scheduled |
 
 ## Next MLB Windows
 _No rows._

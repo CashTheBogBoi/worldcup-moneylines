@@ -1,26 +1,26 @@
-# Research Cycle - Pregame confirmation - 2026-07-29
+# Research Cycle - Nightly close and review - 2026-07-29
 
-Generated: 2026-07-30T03:55:20.571Z
+Generated: 2026-07-30T03:55:36.994Z
 Local time: 11:55 PM
 
 ## Goal
-Confirm the first wave before anything becomes live-market contaminated.
+Grade finals, close lines, and write the Obsidian review.
 
 ## Checklist
-- [ ] Re-check starters, lineups, and stale odds.
-- [ ] Block picks where DraftKings is missing or materially worse than best market.
-- [ ] Track only before scheduled start.
-- [ ] Do not chase steam after a game starts.
+- [ ] Refresh after finals so scores can auto-grade.
+- [ ] Run the daily review note.
+- [ ] Look for miss patterns by sport and confidence bucket.
+- [ ] Do not tune the model from one unlucky result without CLV context.
 
 ## System Read
-- Snapshot generated: 2026-07-30T03:55:15.801Z
+- Snapshot generated: 2026-07-30T03:55:31.774Z
 - MLB odds events: 0
 - Soccer odds events: 0
 - High-impact intel blocks: 3
 - Intel pending / confirmed / denied: 3 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 49 / 0 / 25
-- Nightly review ran: no
+- Nightly review ran: yes
 
 ## High-Impact Blocks
 - **MLB / Market move / pending:** Houston Astros at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.

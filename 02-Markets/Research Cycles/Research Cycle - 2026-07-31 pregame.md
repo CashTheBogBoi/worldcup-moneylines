@@ -1,7 +1,7 @@
-# Research Cycle - Pregame confirmation - 2026-07-29
+# Research Cycle - Pregame confirmation - 2026-07-31
 
-Generated: 2026-07-30T03:55:20.571Z
-Local time: 11:55 PM
+Generated: 2026-07-31T16:30:18.967Z
+Local time: 12:30 PM
 
 ## Goal
 Confirm the first wave before anything becomes live-market contaminated.
@@ -13,22 +13,24 @@ Confirm the first wave before anything becomes live-market contaminated.
 - [ ] Do not chase steam after a game starts.
 
 ## System Read
-- Snapshot generated: 2026-07-30T03:55:15.801Z
+- Snapshot generated: 2026-07-31T16:30:04.433Z
 - MLB odds events: 0
 - Soccer odds events: 0
-- High-impact intel blocks: 3
-- Intel pending / confirmed / denied: 3 / 0 / 0
+- High-impact intel blocks: 2
+- Intel pending / confirmed / denied: 2 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 49 / 0 / 25
 - Nightly review ran: no
 
 ## High-Impact Blocks
-- **MLB / Market move / pending:** Houston Astros at Los Angeles Angels — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Boston Red Sox at Athletics — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
-- **MLB / Market move / pending:** Seattle Mariners at Los Angeles Dodgers — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Starters / pending:** Philadelphia Phillies at Baltimore Orioles — Official starter is still TBD (TBD vs Brandon Young). Block Bankroll Watch promotion until both starters are confirmed.
+- **MLB / Starters / pending:** Detroit Tigers at Athletics — Official starter is still TBD (TBD vs Jeffrey Springs). Block Bankroll Watch promotion until both starters are confirmed.
 
 ## Missing MLB Starters
-_No rows._
+| Game | Start | Away starter | Home starter | Status |
+| --- | --- | --- | --- | --- |
+| Philadelphia Phillies at Baltimore Orioles | Jul 31, 7:05 PM | TBD | Brandon Young | Scheduled |
+| Detroit Tigers at Athletics | Jul 31, 9:40 PM | TBD | Jeffrey Springs | Scheduled |
 
 ## Next MLB Windows
 _No rows._
