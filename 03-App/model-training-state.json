@@ -1,355 +1,7 @@
 {
   "version": 1,
-  "savedAt": "2026-08-01T17:52:15.277Z",
+  "savedAt": "2026-08-01T18:07:05.002Z",
   "modelPicks": [
-    {
-      "id": "model-1785606735253-799872",
-      "match": "Cleveland Guardians vs Arizona Diamondbacks",
-      "selection": "Arizona Diamondbacks",
-      "selectionName": "Arizona Diamondbacks",
-      "eventId": "65f625f15ac20a0c9dd7905ac686d7aa",
-      "sport": "MLB",
-      "commenceTime": "2026-08-01T23:16:00Z",
-      "openPrice": 156,
-      "closePrice": "",
-      "openBook": "LowVig.ag",
-      "stake": 0,
-      "probability": 0.4073261315651978,
-      "researchProbability": 0.47333542874621115,
-      "marketProbability": 0.38532303250486,
-      "edge": 0.016701131565197813,
-      "result": "pending",
-      "source": "25% strength model + 75% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+148 vs +156)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 148,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-08-01T17:52:15.253Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-08-01T17:52:15.253Z",
-          "price": 156,
-          "book": "LowVig.ag",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "model-1785606735253-677620",
-      "match": "Toronto Blue Jays vs St. Louis Cardinals",
-      "selection": "St. Louis Cardinals",
-      "selectionName": "St. Louis Cardinals",
-      "eventId": "887515990979436aed352a22f6f8fdff",
-      "sport": "MLB",
-      "commenceTime": "2026-08-01T19:08:00Z",
-      "openPrice": 147,
-      "closePrice": "",
-      "openBook": "BetOnline.ag",
-      "stake": 0,
-      "probability": 0.42176232382211276,
-      "researchProbability": 0.48650847016930243,
-      "marketProbability": 0.40018027503971626,
-      "edge": 0.01690402422697107,
-      "result": "pending",
-      "source": "25% strength model + 75% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+141 vs +147)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 141,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-08-01T17:52:15.253Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-08-01T17:52:15.253Z",
-          "price": 147,
-          "book": "BetOnline.ag",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "model-1785606735253-282180",
-      "match": "Baltimore Orioles vs Philadelphia Phillies",
-      "selection": "Baltimore Orioles",
-      "selectionName": "Baltimore Orioles",
-      "eventId": "8ad8229352651cf1b573f9ee834b57ac",
-      "sport": "MLB",
-      "commenceTime": "2026-08-01T23:06:00Z",
-      "openPrice": 128,
-      "closePrice": "",
-      "openBook": "FanDuel",
-      "stake": 0,
-      "probability": 0.4549895228147902,
-      "researchProbability": 0.5250801761645868,
-      "marketProbability": 0.43162597169819134,
-      "edge": 0.016393031586720064,
-      "result": "pending",
-      "source": "25% strength model + 75% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (+123 vs +128)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": 123,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-08-01T17:52:15.253Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-08-01T17:52:15.253Z",
-          "price": 128,
-          "book": "FanDuel",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "model-1785606735253-802102",
-      "match": "Los Angeles Angels vs Milwaukee Brewers",
-      "selection": "Milwaukee Brewers",
-      "selectionName": "Milwaukee Brewers",
-      "eventId": "77b8e5ac49b26052a451b5de23d0959e",
-      "sport": "MLB",
-      "commenceTime": "2026-08-02T01:39:00Z",
-      "openPrice": -112,
-      "closePrice": "",
-      "openBook": "FanDuel",
-      "stake": 0,
-      "probability": 0.5436167276356237,
-      "researchProbability": 0.587491698084511,
-      "marketProbability": 0.5289917374859947,
-      "edge": 0.015314840843170918,
-      "result": "pending",
-      "source": "25% strength model + 75% market no-vig",
-      "readyGateSnapshot": {
-        "ready": true,
-        "status": "Ready with warning",
-        "reasons": [],
-        "warnings": [
-          "DraftKings is worse than best available (-130 vs -112)."
-        ],
-        "checks": [
-          {
-            "label": "Pregame",
-            "ok": true,
-            "detail": "Line is current."
-          },
-          {
-            "label": "Model ready",
-            "ok": true,
-            "detail": "Model inputs are present."
-          },
-          {
-            "label": "Model opinion",
-            "ok": true,
-            "detail": "Model is market-only."
-          },
-          {
-            "label": "Minimum edge",
-            "ok": true,
-            "detail": "Edge under 1.5% — inside vig noise."
-          },
-          {
-            "label": "Beats consensus",
-            "ok": true,
-            "detail": "Model does not beat the consensus no-vig price — edge is a one-book outlier."
-          },
-          {
-            "label": "Positive EV",
-            "ok": true,
-            "detail": "No positive EV proxy."
-          },
-          {
-            "label": "Minimum chance",
-            "ok": true,
-            "detail": "Below 0.0% model chance."
-          },
-          {
-            "label": "Intel clear",
-            "ok": true,
-            "detail": "High-impact intel is still attached."
-          },
-          {
-            "label": "DraftKings line",
-            "ok": true,
-            "detail": "DraftKings line is missing for this selection."
-          }
-        ],
-        "draftKingsPrice": -130,
-        "draftKingsBook": "DraftKings"
-      },
-      "readyGateTrackedAt": "2026-08-01T17:52:15.253Z",
-      "autoTracked": true,
-      "priceHistory": [
-        {
-          "at": "2026-08-01T17:52:15.253Z",
-          "price": -112,
-          "book": "FanDuel",
-          "source": "open"
-        }
-      ],
-      "note": ""
-    },
     {
       "id": "model-1785260123815-31826",
       "match": "Cincinnati Reds vs Cleveland Guardians",
@@ -8491,18 +8143,26 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-08-01T17:52:15.258Z",
+    "savedAt": "2026-08-01T18:07:04.763Z",
     "totalCandidates": 39,
-    "passed": 4,
-    "blocked": 35,
+    "passed": 0,
+    "blocked": 39,
     "blockers": [
       {
         "label": "Minimum edge",
-        "count": 35
+        "count": 39
+      },
+      {
+        "label": "Model ready",
+        "count": 39
+      },
+      {
+        "label": "Pregame",
+        "count": 39
       },
       {
         "label": "Positive EV",
-        "count": 26
+        "count": 33
       },
       {
         "label": "Beats consensus",
@@ -8511,30 +8171,9 @@
       {
         "label": "DraftKings line",
         "count": 9
-      },
-      {
-        "label": "Model ready",
-        "count": 9
-      },
-      {
-        "label": "Pregame",
-        "count": 9
       }
     ],
     "watchlist": [
-      {
-        "sport": "MLB",
-        "match": "Tampa Bay Rays vs Chicago White Sox",
-        "selection": "Chicago White Sox",
-        "book": "LowVig.ag",
-        "price": 153,
-        "probability": 0.40859947198176816,
-        "ev": 3.37566641138735,
-        "edge": 0.013342554985720734,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
       {
         "sport": "Soccer",
         "match": "Ivory Coast vs Norway",
@@ -8550,102 +8189,76 @@
       },
       {
         "sport": "MLB",
-        "match": "Houston Astros vs Texas Rangers",
-        "selection": "Houston Astros",
-        "book": "LowVig.ag",
-        "price": 111,
-        "probability": 0.4802688311955672,
-        "ev": 1.3367233822646796,
-        "edge": 0.006335181906467646,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "Seattle Mariners vs Minnesota Twins",
-        "selection": "Minnesota Twins",
-        "book": "BetRivers",
-        "price": 148,
-        "probability": 0.40784314506660546,
-        "ev": 1.1450999765181535,
-        "edge": 0.004617338614992583,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
-      },
-      {
-        "sport": "MLB",
-        "match": "New York Mets vs Miami Marlins",
-        "selection": "Miami Marlins",
+        "match": "Los Angeles Angels vs Milwaukee Brewers",
+        "selection": "Milwaukee Brewers",
         "book": "FanDuel",
-        "price": 120,
-        "probability": 0.4594396366071665,
-        "ev": 1.0767200535766293,
-        "edge": 0.0048941820617119935,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "price": -112,
+        "probability": 0.5363042325608093,
+        "ev": 1.514729734724618,
+        "edge": 0.008002345768356456,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Athletics vs Detroit Tigers",
-        "selection": "Athletics",
+        "match": "Toronto Blue Jays vs St. Louis Cardinals",
+        "selection": "St. Louis Cardinals",
         "book": "BetOnline.ag",
-        "price": 149,
-        "probability": 0.4053222161441842,
-        "ev": 0.9252318199018603,
-        "edge": 0.003715790441372935,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "price": 147,
+        "probability": 0.41097129943091454,
+        "ev": 1.509910959435885,
+        "edge": 0.006112999835772848,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Atlanta Braves vs Washington Nationals",
-        "selection": "Washington Nationals",
-        "book": "FanDuel",
-        "price": 150,
-        "probability": 0.40318737275813477,
-        "ev": 0.7968431895336892,
-        "edge": 0.0031873727581347433,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "match": "Cleveland Guardians vs Arizona Diamondbacks",
+        "selection": "Arizona Diamondbacks",
+        "book": "LowVig.ag",
+        "price": 156,
+        "probability": 0.3963245820350289,
+        "ev": 1.4590930009673997,
+        "edge": 0.005699582035028905,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "San Diego Padres vs San Francisco Giants",
-        "selection": "San Francisco Giants",
-        "book": "FanDuel",
-        "price": 134,
-        "probability": 0.4287653020392154,
-        "ev": 0.3310806771764163,
-        "edge": 0.0014148746887880925,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "match": "Tampa Bay Rays vs Chicago White Sox",
+        "selection": "Chicago White Sox",
+        "book": "LowVig.ag",
+        "price": 153,
+        "probability": 0.39978514719773484,
+        "ev": 1.1456422410269127,
+        "edge": 0.004528230201687411,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       },
       {
         "sport": "MLB",
-        "match": "Chicago Cubs vs New York Yankees",
-        "selection": "Chicago Cubs",
+        "match": "Baltimore Orioles vs Philadelphia Phillies",
+        "selection": "Baltimore Orioles",
         "book": "FanDuel",
-        "price": -110,
-        "probability": 0.5239216030943985,
-        "ev": 0.021396954385167533,
-        "edge": 0.00011207928487466656,
-        "blocker": "Minimum edge",
-        "group": "Minimum edge",
-        "action": "Edge under 1.5% — inside vig noise."
+        "price": 128,
+        "probability": 0.4433077472564908,
+        "ev": 1.0741663744799013,
+        "edge": 0.004711256028420652,
+        "blocker": "Pregame",
+        "group": "Game too stale/live",
+        "action": "Skip if already started. If pregame, refresh odds before reconsidering."
       }
     ]
   },
   "picks": [],
   "snapshots": [
     {
-      "id": "snapshot-1785606735192",
-      "at": "2026-08-01T17:52:15.192Z",
+      "id": "snapshot-1785607624497",
+      "at": "2026-08-01T18:07:04.497Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
@@ -8715,8 +8328,8 @@
       ]
     },
     {
-      "id": "snapshot-1785605534233",
-      "at": "2026-08-01T17:32:14.233Z",
+      "id": "snapshot-1785605302553",
+      "at": "2026-08-01T17:28:22.553Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
@@ -8786,8 +8399,8 @@
       ]
     },
     {
-      "id": "snapshot-1785604644178",
-      "at": "2026-08-01T17:17:24.178Z",
+      "id": "snapshot-1785602215796",
+      "at": "2026-08-01T16:36:55.796Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
@@ -8857,8 +8470,8 @@
       ]
     },
     {
-      "id": "snapshot-1785603443180",
-      "at": "2026-08-01T16:57:23.180Z",
+      "id": "snapshot-1785601015621",
+      "at": "2026-08-01T16:16:55.621Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
@@ -8928,8 +8541,8 @@
       ]
     },
     {
-      "id": "snapshot-1785602242218",
-      "at": "2026-08-01T16:37:22.218Z",
+      "id": "snapshot-1785600958674",
+      "at": "2026-08-01T16:15:58.674Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
@@ -8999,8 +8612,8 @@
       ]
     },
     {
-      "id": "snapshot-1785601041213",
-      "at": "2026-08-01T16:17:21.213Z",
+      "id": "snapshot-1785600953605",
+      "at": "2026-08-01T16:15:53.605Z",
       "source": "local",
       "eventCount": 3,
       "lines": [

@@ -1,10 +1,10 @@
 # Model Lab Snapshot
 
-Updated: 2026-08-01T17:52:16.175Z
+Updated: 2026-08-01T18:07:05.912Z
 
 ## Summary
-- Total tracked picks: 78
-- Pending: 5
+- Total tracked picks: 74
+- Pending: 1
 - Graded: 73
 - Wins: 22
 - Losses: 50
@@ -15,10 +15,6 @@ Updated: 2026-08-01T17:52:16.175Z
 ## Recent Picks
 | Sport | Match | Pick | Status | Open | Latest | CLV | Model % | Source |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| MLB | Cleveland Guardians vs Arizona Diamondbacks | Arizona Diamondbacks | pending | +156 | - | - | 40.7% | 25% strength model + 75% market no-vig |
-| MLB | Toronto Blue Jays vs St. Louis Cardinals | St. Louis Cardinals | pending | +147 | - | - | 42.2% | 25% strength model + 75% market no-vig |
-| MLB | Baltimore Orioles vs Philadelphia Phillies | Baltimore Orioles | pending | +128 | - | - | 45.5% | 25% strength model + 75% market no-vig |
-| MLB | Los Angeles Angels vs Milwaukee Brewers | Milwaukee Brewers | pending | -112 | - | - | 54.4% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | win | +148 | +147 | 0.2 pts | 42.4% | 25% strength model + 75% market no-vig |
 | MLB | San Diego Padres vs Colorado Rockies | Colorado Rockies | loss | +185 | +185 | 0.0 pts | 36.9% | 25% strength model + 75% market no-vig |
 | MLB | Cincinnati Reds vs Cleveland Guardians | Cleveland Guardians | pending | +145 | +145 | 0.0 pts | 42.5% | 25% strength model + 75% market no-vig |
@@ -55,6 +51,10 @@ Updated: 2026-08-01T17:52:16.175Z
 | MLB | Chicago White Sox vs Boston Red Sox | Chicago White Sox | loss | +114 | +110 | 0.9 pts | 48.2% | 25% strength model + 75% market no-vig |
 | Soccer | Norway vs England | Norway | loss | +313 | +354 | -2.2 pts | 27.1% | 36% strength model + 64% market no-vig |
 | MLB | Kansas City Royals vs Philadelphia Phillies | Kansas City Royals | win | +190 | +190 | 0.0 pts | 37.4% | 25% strength model + 75% market no-vig |
+| MLB | Atlanta Braves vs New York Mets | Atlanta Braves | loss | -112 | +104 | -3.8 pts | 54.7% | 25% strength model + 75% market no-vig |
+| Soccer | Argentina vs Egypt | Egypt | loss | +940 | +1075 | -1.1 pts | 15.2% | 37% strength model + 63% market no-vig |
+| Soccer | Switzerland vs Colombia | Switzerland | loss | +260 | +261 | -0.1 pts | 30.1% | 37% strength model + 63% market no-vig |
+| MLB | Colorado Rockies vs San Francisco Giants | Colorado Rockies | loss | +118 | +118 | 0.0 pts | 48.1% | 37% strength model + 63% market no-vig |
 
 ## Intel Review
 | Intel ID | Decision | Reviewed At | Note |
@@ -83,34 +83,31 @@ Updated: 2026-08-01T17:52:16.175Z
 ## Gate Review
 | Gate Status | Picks | Settled | Win % | Avg CLV | Avg Brier | ROI |
 |---|---:|---:|---:|---:|---:|---:|
-| Passed gate | 53 | 48 | 25.0% | -0.1 pts | 0.200 | 0.0% |
+| Passed gate | 49 | 48 | 25.0% | -0.1 pts | 0.200 | 0.0% |
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-08-01T17:52:15.258Z
+- Saved: 2026-08-01T18:07:04.763Z
 - Current candidates: 39
-- Passed / blocked: 4 / 35
+- Passed / blocked: 0 / 39
 
 ### Top Blockers
-- Minimum edge: 35
-- Positive EV: 26
+- Minimum edge: 39
+- Model ready: 39
+- Pregame: 39
+- Positive EV: 33
 - Beats consensus: 21
 - DraftKings line: 9
-- Model ready: 9
-- Pregame: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Chicago White Sox | Tampa Bay Rays vs Chicago White Sox | Minimum edge | +153 | 40.9% | $3.38 | Edge under 1.5% — inside vig noise. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
-| MLB | Houston Astros | Houston Astros vs Texas Rangers | Minimum edge | +111 | 48.0% | $1.34 | Edge under 1.5% — inside vig noise. |
-| MLB | Minnesota Twins | Seattle Mariners vs Minnesota Twins | Minimum edge | +148 | 40.8% | $1.15 | Edge under 1.5% — inside vig noise. |
-| MLB | Miami Marlins | New York Mets vs Miami Marlins | Minimum edge | +120 | 45.9% | $1.08 | Edge under 1.5% — inside vig noise. |
-| MLB | Athletics | Athletics vs Detroit Tigers | Minimum edge | +149 | 40.5% | $0.93 | Edge under 1.5% — inside vig noise. |
-| MLB | Washington Nationals | Atlanta Braves vs Washington Nationals | Minimum edge | +150 | 40.3% | $0.80 | Edge under 1.5% — inside vig noise. |
-| MLB | San Francisco Giants | San Diego Padres vs San Francisco Giants | Minimum edge | +134 | 42.9% | $0.33 | Edge under 1.5% — inside vig noise. |
-| MLB | Chicago Cubs | Chicago Cubs vs New York Yankees | Minimum edge | -110 | 52.4% | $0.02 | Edge under 1.5% — inside vig noise. |
+| MLB | Milwaukee Brewers | Los Angeles Angels vs Milwaukee Brewers | Game too stale/live | -112 | 53.6% | $1.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | Toronto Blue Jays vs St. Louis Cardinals | Game too stale/live | +147 | 41.1% | $1.51 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Cleveland Guardians vs Arizona Diamondbacks | Game too stale/live | +156 | 39.6% | $1.46 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Chicago White Sox | Tampa Bay Rays vs Chicago White Sox | Game too stale/live | +153 | 40.0% | $1.15 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Baltimore Orioles | Baltimore Orioles vs Philadelphia Phillies | Game too stale/live | +128 | 44.3% | $1.07 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
