@@ -1,38 +1,38 @@
 # Scheduler Run Ledger
 
-Updated: 2026-07-31T16:30:40.477Z
+Updated: 2026-08-01T16:16:30.404Z
 
 This note is written by `scripts/schedule-run.mjs`. It shows whether each automated research window actually completed.
 
 | Started | Phase | Status | Duration | Data | Research | Review | Model Quality | Deploy |
 |---|---|---:|---:|---|---|---|---|---|
-| 2026-07-31T16:30:01.882Z | Pregame check | success-with-warning | 38s | 02-Markets/Daily Data Refresh - 2026-07-31.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-31 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-31T12:30:05.166Z | Morning slate | success-with-warning | 46s | 02-Markets/Daily Data Refresh - 2026-07-31.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-31 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-31T04:00:53.340Z | Nightly review | failed | 636s | 02-Markets/Daily Data Refresh - 2026-07-31.md | - | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T21:45:15.555Z | Next wave | success-with-warning | 6258s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 wave.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T20:06:42.554Z | Pregame check | success-with-warning | 33s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T20:06:09.172Z | Morning slate | success-with-warning | 32s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:50:37.916Z | Pregame check | success-with-warning | 28s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:50:04.173Z | Morning slate | success-with-warning | 33s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:34:29.027Z | Pregame check | success-with-warning | 33s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:33:47.908Z | Morning slate | success-with-warning | 40s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:18:10.660Z | Pregame check | success-with-warning | 34s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:17:36.474Z | Morning slate | success-with-warning | 33s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:01:52.992Z | Pregame check | success-with-warning | 40s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T19:01:12.174Z | Morning slate | success-with-warning | 39s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:45:25.886Z | Pregame check | success-with-warning | 43s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:44:42.316Z | Morning slate | success-with-warning | 41s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:28:54.860Z | Pregame check | success-with-warning | 44s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:28:07.212Z | Morning slate | success-with-warning | 43s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:12:31.506Z | Pregame check | success-with-warning | 32s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T18:11:54.327Z | Morning slate | success-with-warning | 36s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:56:19.670Z | Pregame check | success-with-warning | 32s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:55:40.340Z | Morning slate | success-with-warning | 38s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:40:02.799Z | Pregame check | success-with-warning | 34s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:39:23.089Z | Morning slate | success-with-warning | 38s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:23:48.959Z | Pregame check | success-with-warning | 31s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:23:13.351Z | Morning slate | success-with-warning | 34s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:07:35.862Z | Pregame check | success-with-warning | 34s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T17:06:58.086Z | Morning slate | success-with-warning | 37s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T16:51:25.253Z | Pregame check | success-with-warning | 30s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 pregame.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
-| 2026-07-30T16:50:50.562Z | Morning slate | success-with-warning | 33s | 02-Markets/Daily Data Refresh - 2026-07-30.md | 02-Markets/Research Cycles/Research Cycle - 2026-07-30 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
+| 2026-08-01T16:16:19.682Z | Morning slate | success-with-warning | 11s | 02-Markets/Daily Data Refresh - 2026-08-01.md | 02-Markets/Research Cycles/Research Cycle - 2026-08-01 morning.md | - | - | 02-Markets/Deploy Logs/Deploy - 2026-07-05 2345.md |
+| 2026-07-31T16:30:01.882Z | Pregame check | success-with-warning | 38s | - | - | - | - | - |
+| 2026-07-31T12:30:05.166Z | Morning slate | success-with-warning | 46s | - | - | - | - | - |
+| 2026-07-31T04:00:53.340Z | Nightly review | failed | 636s | - | - | - | - | - |
+| 2026-07-30T21:45:15.555Z | Next wave | success-with-warning | 6258s | - | - | - | - | - |
+| 2026-07-30T20:06:42.554Z | Pregame check | success-with-warning | 33s | - | - | - | - | - |
+| 2026-07-30T20:06:09.172Z | Morning slate | success-with-warning | 32s | - | - | - | - | - |
+| 2026-07-30T19:50:37.916Z | Pregame check | success-with-warning | 28s | - | - | - | - | - |
+| 2026-07-30T19:50:04.173Z | Morning slate | success-with-warning | 33s | - | - | - | - | - |
+| 2026-07-30T19:34:29.027Z | Pregame check | success-with-warning | 33s | - | - | - | - | - |
+| 2026-07-30T19:33:47.908Z | Morning slate | success-with-warning | 40s | - | - | - | - | - |
+| 2026-07-30T19:18:10.660Z | Pregame check | success-with-warning | 34s | - | - | - | - | - |
+| 2026-07-30T19:17:36.474Z | Morning slate | success-with-warning | 33s | - | - | - | - | - |
+| 2026-07-30T19:01:52.992Z | Pregame check | success-with-warning | 40s | - | - | - | - | - |
+| 2026-07-30T19:01:12.174Z | Morning slate | success-with-warning | 39s | - | - | - | - | - |
+| 2026-07-30T18:45:25.886Z | Pregame check | success-with-warning | 43s | - | - | - | - | - |
+| 2026-07-30T18:44:42.316Z | Morning slate | success-with-warning | 41s | - | - | - | - | - |
+| 2026-07-30T18:28:54.860Z | Pregame check | success-with-warning | 44s | - | - | - | - | - |
+| 2026-07-30T18:28:07.212Z | Morning slate | success-with-warning | 43s | - | - | - | - | - |
+| 2026-07-30T18:12:31.506Z | Pregame check | success-with-warning | 32s | - | - | - | - | - |
+| 2026-07-30T18:11:54.327Z | Morning slate | success-with-warning | 36s | - | - | - | - | - |
+| 2026-07-30T17:56:19.670Z | Pregame check | success-with-warning | 32s | - | - | - | - | - |
+| 2026-07-30T17:55:40.340Z | Morning slate | success-with-warning | 38s | - | - | - | - | - |
+| 2026-07-30T17:40:02.799Z | Pregame check | success-with-warning | 34s | - | - | - | - | - |
+| 2026-07-30T17:39:23.089Z | Morning slate | success-with-warning | 38s | - | - | - | - | - |
+| 2026-07-30T17:23:48.959Z | Pregame check | success-with-warning | 31s | - | - | - | - | - |
+| 2026-07-30T17:23:13.351Z | Morning slate | success-with-warning | 34s | - | - | - | - | - |
+| 2026-07-30T17:07:35.862Z | Pregame check | success-with-warning | 34s | - | - | - | - | - |
+| 2026-07-30T17:06:58.086Z | Morning slate | success-with-warning | 37s | - | - | - | - | - |
+| 2026-07-30T16:51:25.253Z | Pregame check | success-with-warning | 30s | - | - | - | - | - |
