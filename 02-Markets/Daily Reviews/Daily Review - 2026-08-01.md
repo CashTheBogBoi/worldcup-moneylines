@@ -1,6 +1,6 @@
 # Daily Review - 2026-08-01
 
-Generated: 2026-08-01T16:16:39.522Z
+Generated: 2026-08-01T23:46:36.727Z
 
 ## Executive Read
 - Tracked picks reviewed: 25
@@ -150,11 +150,17 @@ _No saved gate blockers on reviewed picks yet._
 - MLB miss; check starter confirmation, bullpen fatigue, lineup quality, and line movement before changing base weights.
 
 ## Daily Intel That Mattered
-_No automatic daily intel flags in the latest snapshot._
+- **MLB / High / Market move / pending:** Pittsburgh Pirates at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Philadelphia Phillies at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Texas Rangers at Houston Astros — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Arizona Diamondbacks at Cleveland Guardians — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** Washington Nationals at Atlanta Braves — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / High / Market move / pending:** New York Yankees at Chicago Cubs — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Algorithm Adjustments To Consider
 - Do not increase stake sizing yet: fewer than half of tracked prices beat the close.
 - Before MLB picks go live, re-run `npm run update:data` and confirm probable pitchers are not TBD.
+- High-impact daily intel exists; resolve those warnings before promoting anything to Bankroll Watch.
 
 ## Next Actions
 - Run `npm run update:data` before making new picks.

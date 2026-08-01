@@ -1,7 +1,7 @@
 # Research Cycle - Nightly close and review - 2026-08-01
 
-Generated: 2026-08-01T14:36:54.814Z
-Local time: 10:36 AM
+Generated: 2026-08-01T23:46:36.740Z
+Local time: 7:46 PM
 
 ## Goal
 Grade finals, close lines, and write the Obsidian review.
@@ -13,17 +13,22 @@ Grade finals, close lines, and write the Obsidian review.
 - [ ] Do not tune the model from one unlucky result without CLV context.
 
 ## System Read
-- Snapshot generated: 2026-08-01T14:36:48.096Z
-- MLB odds events: 15
+- Snapshot generated: 2026-08-01T23:46:29.120Z
+- MLB odds events: 26
 - Soccer odds events: 0
-- High-impact intel blocks: 0
-- Intel pending / confirmed / denied: 0 / 0 / 0
+- High-impact intel blocks: 6
+- Intel pending / confirmed / denied: 6 / 0 / 0
 - Pending tracked picks: 1
 - Tracked gate status passed / blocked / unknown: 49 / 0 / 25
 - Nightly review ran: yes
 
 ## High-Impact Blocks
-_No active high-impact blocks in this snapshot._
+- **MLB / Market move / pending:** Pittsburgh Pirates at Cincinnati Reds — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Philadelphia Phillies at Baltimore Orioles — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Texas Rangers at Houston Astros — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Arizona Diamondbacks at Cleveland Guardians — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** Washington Nationals at Atlanta Braves — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
+- **MLB / Market move / pending:** New York Yankees at Chicago Cubs — Game status is In Progress. Do not track this as a pregame pick; any current line is live-market contaminated.
 
 ## Missing MLB Starters
 _No rows._
@@ -31,18 +36,18 @@ _No rows._
 ## Next MLB Windows
 | Game | Start | Minutes | DraftKings | Books |
 | --- | --- | --- | --- | --- |
-| St. Louis Cardinals at Toronto Blue Jays | Aug 1, 3:08 PM | 271 | St. Louis Cardinals +129, Toronto Blue Jays -156 | 9 |
-| Chicago White Sox at Tampa Bay Rays | Aug 1, 4:11 PM | 334 | Chicago White Sox +141, Tampa Bay Rays -171 | 9 |
-| Miami Marlins at New York Mets | Aug 1, 4:11 PM | 334 | Miami Marlins +110, New York Mets -132 | 9 |
-| Minnesota Twins at Seattle Mariners | Aug 1, 4:11 PM | 334 | Minnesota Twins +139, Seattle Mariners -169 | 9 |
-| Pittsburgh Pirates at Cincinnati Reds | Aug 1, 6:41 PM | 484 | Cincinnati Reds -104, Pittsburgh Pirates -115 | 9 |
-| Philadelphia Phillies at Baltimore Orioles | Aug 1, 7:06 PM | 509 | Baltimore Orioles +123, Philadelphia Phillies -149 | 8 |
-| Texas Rangers at Houston Astros | Aug 1, 7:11 PM | 514 | Houston Astros +106, Texas Rangers -128 | 9 |
-| Arizona Diamondbacks at Cleveland Guardians | Aug 1, 7:16 PM | 519 | Arizona Diamondbacks +148, Cleveland Guardians -180 | 9 |
-| Washington Nationals at Atlanta Braves | Aug 1, 7:16 PM | 519 | Atlanta Braves -182, Washington Nationals +150 | 9 |
-| New York Yankees at Chicago Cubs | Aug 1, 7:16 PM | 519 | Chicago Cubs -110, New York Yankees -109 | 9 |
-| Kansas City Royals at Colorado Rockies | Aug 1, 8:10 PM | 573 | Colorado Rockies -120, Kansas City Royals +100 | 9 |
-| San Francisco Giants at San Diego Padres | Aug 1, 8:41 PM | 604 | San Diego Padres -150, San Francisco Giants +124 | 9 |
+| Kansas City Royals at Colorado Rockies | Aug 1, 8:10 PM | 24 | Colorado Rockies -131, Kansas City Royals +109 | 9 |
+| San Francisco Giants at San Diego Padres | Aug 1, 8:41 PM | 55 | San Diego Padres -150, San Francisco Giants +124 | 9 |
+| Boston Red Sox at Los Angeles Dodgers | Aug 1, 9:11 PM | 85 | Boston Red Sox +149, Los Angeles Dodgers -181 | 9 |
+| Milwaukee Brewers at Los Angeles Angels | Aug 1, 9:39 PM | 113 | Los Angeles Angels +129, Milwaukee Brewers -156 | 9 |
+| Detroit Tigers at Athletics | Aug 1, 9:41 PM | 115 | Athletics +153, Detroit Tigers -186 | 9 |
+| Washington Nationals at Atlanta Braves | Aug 2, 1:36 PM | 1070 | DK missing | 5 |
+| Philadelphia Phillies at Baltimore Orioles | Aug 2, 1:36 PM | 1070 | Baltimore Orioles +109, Philadelphia Phillies -132 | 9 |
+| St. Louis Cardinals at Toronto Blue Jays | Aug 2, 1:38 PM | 1072 | St. Louis Cardinals -102, Toronto Blue Jays -118 | 9 |
+| Arizona Diamondbacks at Cleveland Guardians | Aug 2, 1:41 PM | 1075 | Arizona Diamondbacks +118, Cleveland Guardians -142 | 9 |
+| Chicago White Sox at Tampa Bay Rays | Aug 2, 1:41 PM | 1075 | Chicago White Sox +124, Tampa Bay Rays -150 | 9 |
+| Pittsburgh Pirates at Cincinnati Reds | Aug 2, 1:41 PM | 1075 | Cincinnati Reds -150, Pittsburgh Pirates +124 | 9 |
+| Miami Marlins at New York Mets | Aug 2, 1:41 PM | 1075 | Miami Marlins -115, New York Mets -105 | 9 |
 
 ## Next Soccer Windows
 _No rows._
