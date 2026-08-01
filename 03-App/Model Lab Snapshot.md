@@ -1,6 +1,6 @@
 # Model Lab Snapshot
 
-Updated: 2026-07-31T17:53:50.310Z
+Updated: 2026-08-01T16:13:21.209Z
 
 ## Summary
 - Total tracked picks: 74
@@ -87,23 +87,28 @@ Updated: 2026-07-31T17:53:50.310Z
 | Unknown gate | 25 | 25 | 40.0% | 1.6 pts | 0.173 | -100.0% |
 
 ## Blocked Pick Watchlist
-- Saved: 2026-07-31T17:53:49.275Z
-- Current candidates: 15
-- Passed / blocked: 0 / 15
+- Saved: 2026-08-01T16:13:20.398Z
+- Current candidates: 39
+- Passed / blocked: 0 / 39
 
 ### Top Blockers
-- Model ready: 15
-- Pregame: 15
-- Minimum edge: 14
-- DraftKings line: 13
-- Positive EV: 13
-- Beats consensus: 9
+- Minimum edge: 39
+- Model ready: 39
+- Pregame: 39
+- Positive EV: 32
+- Beats consensus: 21
+- DraftKings line: 9
 
 ### Research Actions
 | Sport | Pick | Match | Blocker | Line | Model % | EV | Next Action |
 |---|---|---|---|---:|---:|---:|---|
-| MLB | Pittsburgh Pirates | Philadelphia Phillies vs Pittsburgh Pirates | Game too stale/live | +185 | 36.7% | $4.61 | Skip if already started. If pregame, refresh odds before reconsidering. |
 | Soccer | Norway | Ivory Coast vs Norway | Game too stale/live | +110 | 49.0% | $3.00 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Baltimore Orioles | Baltimore Orioles vs Philadelphia Phillies | Game too stale/live | +130 | 44.3% | $1.92 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Arizona Diamondbacks | Cleveland Guardians vs Arizona Diamondbacks | Game too stale/live | +156 | 39.6% | $1.50 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Houston Astros | Houston Astros vs Texas Rangers | Game too stale/live | +114 | 47.1% | $0.82 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Milwaukee Brewers | Los Angeles Angels vs Milwaukee Brewers | Game too stale/live | -112 | 53.0% | $0.27 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | Boston Red Sox | Los Angeles Dodgers vs Boston Red Sox | Game too stale/live | +150 | 40.0% | $0.05 | Skip if already started. If pregame, refresh odds before reconsidering. |
+| MLB | St. Louis Cardinals | Toronto Blue Jays vs St. Louis Cardinals | Game too stale/live | +134 | 42.7% | $0.03 | Skip if already started. If pregame, refresh odds before reconsidering. |
 
 ## Workflow
 - Track picks from Best Plays or Value before the game starts.
