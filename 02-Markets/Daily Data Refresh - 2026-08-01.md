@@ -1,6 +1,6 @@
 # Daily Data Refresh - 2026-08-01
 
-Generated: 2026-08-01T16:16:34.735Z
+Generated: 2026-08-01T17:31:21.448Z
 
 This note was created by `npm run update:data`. It is the local snapshot used to keep the app
 and Obsidian vault aligned without Firebase or cloud storage.
@@ -27,8 +27,8 @@ _No automated high-priority intel flags from the current snapshot._
 | Game | Status | Away starter | Home starter | Score |
 | --- | --- | --- | --- | --- |
 | St. Louis Cardinals at Toronto Blue Jays | Pre-Game | Quinn Mathews | Kevin Gausman | 0-0 |
-| Minnesota Twins at Seattle Mariners | Scheduled | Connor Prielipp | Logan Gilbert |  |
-| Chicago White Sox at Tampa Bay Rays | Pre-Game | Jordan Hicks | Drew Rasmussen |  |
+| Minnesota Twins at Seattle Mariners | Pre-Game | Connor Prielipp | Logan Gilbert |  |
+| Chicago White Sox at Tampa Bay Rays | Pre-Game | Jordan Hicks | Drew Rasmussen | 0-0 |
 | Miami Marlins at New York Mets | Scheduled | Tyler Phillips | Zac Thornton |  |
 | Pittsburgh Pirates at Cincinnati Reds | Scheduled | Braxton Ashcraft | Andrew Abbott |  |
 | Philadelphia Phillies at Baltimore Orioles | Scheduled | Cristopher Sánchez | Shane Baz |  |
@@ -46,20 +46,20 @@ _No automated high-priority intel flags from the current snapshot._
 
 | Game | Start | DraftKings |
 | --- | --- | --- |
-| St. Louis Cardinals at Toronto Blue Jays | 2026-08-01T19:08:00Z | St. Louis Cardinals +135, Toronto Blue Jays -163 |
-| Chicago White Sox at Tampa Bay Rays | 2026-08-01T20:11:00Z | Chicago White Sox +143, Tampa Bay Rays -173 |
+| St. Louis Cardinals at Toronto Blue Jays | 2026-08-01T19:08:00Z | St. Louis Cardinals +141, Toronto Blue Jays -171 |
+| Chicago White Sox at Tampa Bay Rays | 2026-08-01T20:11:00Z | Chicago White Sox +144, Tampa Bay Rays -175 |
 | Miami Marlins at New York Mets | 2026-08-01T20:11:00Z | Miami Marlins +113, New York Mets -136 |
-| Minnesota Twins at Seattle Mariners | 2026-08-01T20:11:00Z | Minnesota Twins +141, Seattle Mariners -171 |
-| Pittsburgh Pirates at Cincinnati Reds | 2026-08-01T22:41:00Z | Cincinnati Reds -104, Pittsburgh Pirates -115 |
+| Minnesota Twins at Seattle Mariners | 2026-08-01T20:11:00Z | Minnesota Twins +143, Seattle Mariners -173 |
+| Pittsburgh Pirates at Cincinnati Reds | 2026-08-01T22:41:00Z | Cincinnati Reds +104, Pittsburgh Pirates -125 |
 | Philadelphia Phillies at Baltimore Orioles | 2026-08-01T23:06:00Z | Baltimore Orioles +123, Philadelphia Phillies -149 |
 | Texas Rangers at Houston Astros | 2026-08-01T23:11:00Z | Houston Astros +108, Texas Rangers -130 |
 | Arizona Diamondbacks at Cleveland Guardians | 2026-08-01T23:16:00Z | Arizona Diamondbacks +148, Cleveland Guardians -180 |
-| Washington Nationals at Atlanta Braves | 2026-08-01T23:16:00Z | Atlanta Braves -182, Washington Nationals +150 |
+| Washington Nationals at Atlanta Braves | 2026-08-01T23:16:00Z | Atlanta Braves -173, Washington Nationals +143 |
 | New York Yankees at Chicago Cubs | 2026-08-01T23:16:00Z | Chicago Cubs -120, New York Yankees -101 |
 | Kansas City Royals at Colorado Rockies | 2026-08-02T00:10:00Z | Colorado Rockies -120, Kansas City Royals +100 |
-| San Francisco Giants at San Diego Padres | 2026-08-02T00:41:00Z | San Diego Padres -150, San Francisco Giants +124 |
+| San Francisco Giants at San Diego Padres | 2026-08-02T00:41:00Z | San Diego Padres -156, San Francisco Giants +129 |
 | Boston Red Sox at Los Angeles Dodgers | 2026-08-02T01:11:00Z | Boston Red Sox +139, Los Angeles Dodgers -168 |
-| Milwaukee Brewers at Los Angeles Angels | 2026-08-02T01:39:00Z | Los Angeles Angels +102, Milwaukee Brewers -123 |
+| Milwaukee Brewers at Los Angeles Angels | 2026-08-02T01:39:00Z | Los Angeles Angels +108, Milwaukee Brewers -130 |
 | Detroit Tigers at Athletics | 2026-08-02T01:41:00Z | Athletics +139, Detroit Tigers -168 |
 
 ## DraftKings Soccer odds snapshot
