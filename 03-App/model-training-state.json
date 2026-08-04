@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-04T20:17:22.707Z",
+  "savedAt": "2026-08-04T20:37:23.736Z",
   "modelPicks": [
     {
       "id": "model-1785260123815-31826",
@@ -8143,7 +8143,7 @@
     }
   },
   "gateReview": {
-    "savedAt": "2026-08-04T20:17:22.701Z",
+    "savedAt": "2026-08-04T20:37:23.730Z",
     "totalCandidates": 41,
     "passed": 0,
     "blocked": 41,
@@ -8308,6 +8308,77 @@
   },
   "picks": [],
   "snapshots": [
+    {
+      "id": "snapshot-1785875843676",
+      "at": "2026-08-04T20:37:23.676Z",
+      "source": "local",
+      "eventCount": 3,
+      "lines": [
+        {
+          "match": "Ivory Coast vs Norway",
+          "commenceTime": "2026-06-30T17:00:00.000Z",
+          "best": [
+            {
+              "name": "Ivory Coast",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 250,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Norway",
+              "price": 110,
+              "book": "Market note"
+            }
+          ]
+        },
+        {
+          "match": "France vs Sweden",
+          "commenceTime": "2026-06-30T21:00:00.000Z",
+          "best": [
+            {
+              "name": "France",
+              "price": -180,
+              "book": "Market note"
+            },
+            {
+              "name": "Draw",
+              "price": 300,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Sweden",
+              "price": 575,
+              "book": "Bovada research"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Ecuador",
+          "commenceTime": "2026-07-01T01:00:00.000Z",
+          "best": [
+            {
+              "name": "Mexico",
+              "price": 140,
+              "book": "Bovada research"
+            },
+            {
+              "name": "Draw",
+              "price": 210,
+              "book": "Market note"
+            },
+            {
+              "name": "Ecuador",
+              "price": 235,
+              "book": "Market note"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "snapshot-1785874642654",
       "at": "2026-08-04T20:17:22.654Z",
@@ -10299,77 +10370,6 @@
     {
       "id": "snapshot-1785616343256",
       "at": "2026-08-01T20:32:23.256Z",
-      "source": "local",
-      "eventCount": 3,
-      "lines": [
-        {
-          "match": "Ivory Coast vs Norway",
-          "commenceTime": "2026-06-30T17:00:00.000Z",
-          "best": [
-            {
-              "name": "Ivory Coast",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 250,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Norway",
-              "price": 110,
-              "book": "Market note"
-            }
-          ]
-        },
-        {
-          "match": "France vs Sweden",
-          "commenceTime": "2026-06-30T21:00:00.000Z",
-          "best": [
-            {
-              "name": "France",
-              "price": -180,
-              "book": "Market note"
-            },
-            {
-              "name": "Draw",
-              "price": 300,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Sweden",
-              "price": 575,
-              "book": "Bovada research"
-            }
-          ]
-        },
-        {
-          "match": "Mexico vs Ecuador",
-          "commenceTime": "2026-07-01T01:00:00.000Z",
-          "best": [
-            {
-              "name": "Mexico",
-              "price": 140,
-              "book": "Bovada research"
-            },
-            {
-              "name": "Draw",
-              "price": 210,
-              "book": "Market note"
-            },
-            {
-              "name": "Ecuador",
-              "price": 235,
-              "book": "Market note"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snapshot-1785615142232",
-      "at": "2026-08-01T20:12:22.232Z",
       "source": "local",
       "eventCount": 3,
       "lines": [
